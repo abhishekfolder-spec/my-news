@@ -1,0 +1,82 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE DAILY WIRE · Archive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F1EEE6; --card:#FBFAF6; --ink:#16223C; --ink-soft:#4B5670;
+  --amber:#C0821A; --amber-soft:#E8CE8F; --line:#D9D3C6; --rule:#C7C0B1;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:'Newsreader',Georgia,serif;line-height:1.5;
+  font-optical-sizing:auto}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:940px;margin:0 auto;padding:0 20px 80px}
+
+/* ---- masthead: telex-style transmission header ---- */
+.mast{border-bottom:2px solid var(--ink);padding:26px 0 10px;margin-bottom:6px}
+.mast h1{font-family:'Space Grotesk',sans-serif;font-weight:700;
+  letter-spacing:-.02em;font-size:clamp(30px,6vw,54px);margin:0;line-height:.98}
+.mast .sub{font-family:'Newsreader',serif;font-style:italic;color:var(--ink-soft);
+  font-size:16px;margin-top:4px}
+.tape{font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--ink-soft);margin-top:14px;
+  display:flex;gap:14px;flex-wrap:wrap;align-items:center;
+  border-top:1px solid var(--line);padding-top:9px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--amber);
+  display:inline-block;box-shadow:0 0 0 3px rgba(192,130,26,.18)}
+
+/* ---- the brief ---- */
+.brief{background:var(--card);border:1px solid var(--line);
+  border-left:3px solid var(--amber);padding:22px 24px;margin:22px 0 8px}
+.brief h2,.sec h2{font-family:'IBM Plex Mono',monospace;font-size:12px;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--amber);
+  margin:0 0 14px;font-weight:600}
+.brief .cat{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:13px;
+  letter-spacing:.02em;margin:14px 0 6px;color:var(--ink)}
+.brief ol{margin:0;padding:0;list-style:none;counter-reset:b}
+.brief li{counter-increment:b;position:relative;padding:4px 0 4px 34px;
+  border-bottom:1px dotted var(--line);font-size:16.5px}
+.brief li:last-child{border-bottom:0}
+.brief li::before{content:counter(b,decimal-leading-zero);position:absolute;left:0;
+  top:6px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--amber)}
+.brief li .src{font-family:'IBM Plex Mono',monospace;font-size:10.5px;
+  color:var(--ink-soft);text-transform:uppercase;letter-spacing:.04em}
+.ai{font-size:16.5px;white-space:pre-wrap}
+
+/* ---- sections + items ---- */
+.sec{margin-top:40px}
+.sec>h2{border-bottom:1px solid var(--rule);padding-bottom:8px;
+  display:flex;justify-content:space-between;align-items:baseline}
+.sec>h2 .n{color:var(--ink-soft)}
+.item{padding:16px 0;border-bottom:1px solid var(--line)}
+.item:last-child{border-bottom:0}
+.item .meta{font-family:'IBM Plex Mono',monospace;font-size:10.5px;
+  letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);
+  display:flex;gap:10px;margin-bottom:5px}
+.item .meta .call{color:var(--amber)}
+.item h3{font-family:'Space Grotesk',sans-serif;font-weight:600;
+  font-size:19px;line-height:1.24;margin:0 0 5px;letter-spacing:-.01em}
+.item h3 a{background-image:linear-gradient(var(--amber),var(--amber));
+  background-size:0% 1.5px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .25s ease;padding-bottom:1px}
+.item h3 a:hover{background-size:100% 1.5px}
+.item p{margin:0;color:#33405c;font-size:16px}
+.item p.long{color:var(--ink)}
+
+footer{margin-top:56px;border-top:2px solid var(--ink);padding-top:12px;
+  font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--ink-soft);
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+
+@media (max-width:560px){
+  .item h3{font-size:17px}.brief li{font-size:15.5px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+body{animation:fade .5s ease both}
+@keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+</style></head><body><div class="wrap"><header class="mast"><h1>Archive</h1><div class="sub">Past editions</div></header><section class="sec"><h2>Editions<span class="n">01</span></h2><div class="item"><h3><a href="archive/2026-07-27.html">2026-07-27</a></h3></div></section><footer><span><a href="index.html">◂ Latest</a></span></footer></div></body></html>
