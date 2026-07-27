@@ -1,0 +1,125 @@
+# ============================================================================
+#  DAILY NEWS DIGEST  —  configuration
+#  Everything the tool reads lives here. Edit this file, commit, done.
+#  Every source is just an RSS/Atom URL. Substacks, X Lists, ET, Moneycontrol
+#  all funnel through the same pipeline.
+# ============================================================================
+
+settings:
+  title: "THE DAILY WIRE"
+  subtitle: "Personal markets · macro · micro briefing"
+  timezone: "Asia/Kolkata"        # times in the dashboard are shown in this zone
+  lookback_hours: 24              # only items published in the last N hours
+  max_items_per_feed: 40          # safety cap per feed
+  enrich_full_text: true          # pull full article body for summary-only feeds
+  enrich_limit_per_feed: 5        # cap enrichment (keeps the daily run fast)
+  fetch_workers: 8                # parallel feed downloads
+
+  # AI summary is OFF by default (it needs a paid Anthropic API key).
+  # The free heuristic brief runs otherwise. To enable: set this to true AND
+  # add ANTHROPIC_API_KEY as a GitHub Actions secret.
+  use_ai_summary: false
+  ai_model: "claude-sonnet-5"     # change to any model your key can access
+
+  # Order the dashboard sections appear in. Any category not listed is appended.
+  category_order:
+    - "India Markets"
+    - "Global Macro"
+    - "Tech · Energy · Policy"
+    - "Substacks"
+
+# ============================================================================
+#  SOURCES
+#  name     : label shown on the dashboard
+#  url      : RSS/Atom feed URL
+#  category : which section it groups under (see category_order above)
+#  enrich   : (optional) true = follow the link and pull full article text
+#             Use for feeds that only give a headline + blurb (ET, Moneycontrol).
+#             Leave off for Substacks / X (they already carry full text).
+# ============================================================================
+sources:
+
+  # ---- Economic Times (native section feeds, headline+blurb -> enriched) ----
+  - name: "ET · Top Stories"
+    url: "https://economictimes.indiatimes.com/rssfeedstopstories.cms"
+    category: "India Markets"
+    enrich: true
+  - name: "ET · Markets"
+    url: "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms"
+    category: "India Markets"
+    enrich: true
+  - name: "ET · Economy"
+    url: "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"
+    category: "Global Macro"
+    enrich: true
+
+  # ---- Moneycontrol (native section feeds -> enriched) ----
+  - name: "Moneycontrol · Latest"
+    url: "https://www.moneycontrol.com/rss/latestnews.xml"
+    category: "India Markets"
+    enrich: true
+  - name: "Moneycontrol · Business"
+    url: "https://www.moneycontrol.com/rss/business.xml"
+    category: "India Markets"
+    enrich: true
+  - name: "Moneycontrol · Markets"
+    url: "https://www.moneycontrol.com/rss/marketreports.xml"
+    category: "India Markets"
+    enrich: true
+
+  # ---- X / Twitter  (3 themed Lists -> 1 generated RSS feed each) -----------
+  # HOW: create a List on X, add the handles (see README for my proposed split),
+  #      open the List, paste its URL into rss.app / inoreader, copy the RSS URL,
+  #      and drop it in below (replacing PASTE_...). Empty/PASTE_ urls are skipped.
+  - name: "X · India Markets List"
+    url: "PASTE_X_LIST_RSS_INDIA"
+    category: "India Markets"
+  - name: "X · Global Macro List"
+    url: "PASTE_X_LIST_RSS_MACRO"
+    category: "Global Macro"
+  - name: "X · Tech/Energy List"
+    url: "PASTE_X_LIST_RSS_TECH"
+    category: "Tech · Energy · Policy"
+
+  # ---- Substacks (native /feed = FULL text on free posts) -------------------
+  # The tool reports which of these resolve. For any marked VERIFY that fail,
+  # open the publication in a browser and use its address + /feed.
+  - name: "Insights with SOIC"
+    url: "https://soic.substack.com/feed"          # VERIFY
+    category: "Substacks"
+  - name: "Zen Nivesh"
+    url: "https://zennivesh.substack.com/feed"      # VERIFY
+    category: "Substacks"
+  - name: "Pinetree Macro"
+    url: "https://pinetreemacro.substack.com/feed"  # VERIFY
+    category: "Substacks"
+  - name: "Gautam Baid"
+    url: "PASTE_SUBSTACK_URL/feed"                  # TODO (Joys of Compounding)
+    category: "Substacks"
+  - name: "Ameya Deosthali"
+    url: "PASTE_SUBSTACK_URL/feed"                  # TODO
+    category: "Substacks"
+  - name: "Ritesh Jain"
+    url: "PASTE_SUBSTACK_URL/feed"                  # TODO
+    category: "Substacks"
+  - name: "Sajal Kapoor"
+    url: "PASTE_SUBSTACK_URL/feed"                  # TODO (unseen value)
+    category: "Substacks"
+  - name: "Kumar Saurabh"
+    url: "PASTE_SUBSTACK_URL/feed"                  # TODO
+    category: "Substacks"
+  - name: "Aditya Khemka"
+    url: "PASTE_SUBSTACK_URL/feed"                  # TODO (pharma/healthcare)
+    category: "Substacks"
+  - name: "Investor's Newsletter"
+    url: "PASTE_SUBSTACK_URL/feed"                  # TODO
+    category: "Substacks"
+  - name: "Pippa's Pen"
+    url: "PASTE_SUBSTACK_URL/feed"                  # TODO (Pippa Malmgren)
+    category: "Substacks"
+  - name: "Variant Perception"
+    url: "PASTE_SUBSTACK_URL/feed"                  # TODO
+    category: "Substacks"
+  - name: "Inflection Point Thinking"
+    url: "PASTE_SUBSTACK_URL/feed"                  # TODO
+    category: "Substacks"
