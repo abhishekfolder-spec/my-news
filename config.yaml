@@ -9,7 +9,7 @@ settings:
   title: "THE DAILY WIRE"
   subtitle: "Personal markets · macro · micro briefing"
   timezone: "Asia/Kolkata"        # times in the dashboard are shown in this zone
-  lookback_hours: 24              # only items published in the last N hours
+  lookback_hours: 72              # only items published in the last N hours
   max_items_per_feed: 40          # safety cap per feed
   enrich_full_text: true          # pull full article body for summary-only feeds
   enrich_limit_per_feed: 5        # cap enrichment (keeps the daily run fast)
@@ -94,13 +94,13 @@ sources:
     url: "https://pinetreemacro.substack.com/feed"  # VERIFY
     category: "Substacks"
   - name: "Gautam Baid"
-    url: "PASTE_SUBSTACK_URL/feed"                  # TODO (Joys of Compounding)
+    url: "https://gautambaid.substack.com//feed"                  # TODO (Joys of Compounding)
     category: "Substacks"
   - name: "Ameya Deosthali"
-    url: "PASTE_SUBSTACK_URL/feed"                  # TODO
+    url: "https://valueequityin.substack.com/feed"                  # TODO
     category: "Substacks"
   - name: "Ritesh Jain"
-    url: "PASTE_SUBSTACK_URL/feed"                  # TODO
+    url: "https://pinetreemacroresearch.substack.com//feed"                  # TODO
     category: "Substacks"
   - name: "Sajal Kapoor"
     url: "PASTE_SUBSTACK_URL/feed"                  # TODO (unseen value)
