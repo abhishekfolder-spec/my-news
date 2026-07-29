@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>THE DAILY WIRE · Wednesday, 29 July 2026 · 16:36 IST</title>
+<title>THE DAILY WIRE · Wednesday, 29 July 2026 · 20:57 IST</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -12,12 +12,9 @@
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--ink);
-  font-family:'Newsreader',Georgia,serif;line-height:1.5;
-  font-optical-sizing:auto}
+  font-family:'Newsreader',Georgia,serif;line-height:1.5;font-optical-sizing:auto}
 a{color:inherit;text-decoration:none}
 .wrap{max-width:940px;margin:0 auto;padding:0 20px 80px}
-
-/* ---- masthead: telex-style transmission header ---- */
 .mast{border-bottom:2px solid var(--ink);padding:26px 0 10px;margin-bottom:6px}
 .mast h1{font-family:'Space Grotesk',sans-serif;font-weight:700;
   letter-spacing:-.02em;font-size:clamp(30px,6vw,54px);margin:0;line-height:.98}
@@ -29,26 +26,25 @@ a{color:inherit;text-decoration:none}
   border-top:1px solid var(--line);padding-top:9px}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--amber);
   display:inline-block;box-shadow:0 0 0 3px rgba(192,130,26,.18)}
-
-/* ---- the brief ---- */
 .brief{background:var(--card);border:1px solid var(--line);
   border-left:3px solid var(--amber);padding:22px 24px;margin:22px 0 8px}
 .brief h2,.sec h2{font-family:'IBM Plex Mono',monospace;font-size:12px;
   letter-spacing:.18em;text-transform:uppercase;color:var(--amber);
   margin:0 0 14px;font-weight:600}
-.brief .cat{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:13px;
-  letter-spacing:.02em;margin:14px 0 6px;color:var(--ink)}
 .brief ol{margin:0;padding:0;list-style:none;counter-reset:b}
-.brief li{counter-increment:b;position:relative;padding:4px 0 4px 34px;
-  border-bottom:1px dotted var(--line);font-size:16.5px}
+.brief li{counter-increment:b;position:relative;padding:9px 0 9px 34px;
+  border-bottom:1px dotted var(--line)}
 .brief li:last-child{border-bottom:0}
 .brief li::before{content:counter(b,decimal-leading-zero);position:absolute;left:0;
-  top:6px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--amber)}
-.brief li .src{font-family:'IBM Plex Mono',monospace;font-size:10.5px;
+  top:11px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--amber)}
+.brief .hd{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16.5px;
+  line-height:1.3}
+.brief .src{font-family:'IBM Plex Mono',monospace;font-size:10.5px;
   color:var(--ink-soft);text-transform:uppercase;letter-spacing:.04em}
+.brief .gist{font-size:15px;color:#33405c;margin-top:2px}
+.brief .rel{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--amber);
+  text-transform:uppercase;letter-spacing:.05em;margin-left:6px}
 .ai{font-size:16.5px;white-space:pre-wrap}
-
-/* ---- sections + items ---- */
 .sec{margin-top:40px}
 .sec>h2{border-bottom:1px solid var(--rule);padding-bottom:8px;
   display:flex;justify-content:space-between;align-items:baseline}
@@ -66,16 +62,11 @@ a{color:inherit;text-decoration:none}
   transition:background-size .25s ease;padding-bottom:1px}
 .item h3 a:hover{background-size:100% 1.5px}
 .item p{margin:0;color:#33405c;font-size:16px}
-.item p.long{color:var(--ink)}
-
 footer{margin-top:56px;border-top:2px solid var(--ink);padding-top:12px;
   font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.05em;
   text-transform:uppercase;color:var(--ink-soft);
   display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
-
-@media (max-width:560px){
-  .item h3{font-size:17px}.brief li{font-size:15.5px}
-}
+@media (max-width:560px){.item h3{font-size:17px}.brief .hd{font-size:15.5px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 body{animation:fade .5s ease both}
 @keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
@@ -83,65 +74,209 @@ body{animation:fade .5s ease both}
 <header class="mast">
 <h1>THE DAILY WIRE</h1>
 <div class="sub">Personal markets · macro · micro briefing</div>
-<div class="tape"><span class="dot"></span><span>Transmission 2026-07-29</span> <span>118 items</span> <span>3 sources</span> <span>auto brief</span></div></header>
+<div class="tape"><span class="dot"></span><span>Transmission 2026-07-29</span> <span>119 items</span> <span>4 sources</span> <span>self-summarised</span></div></header>
 <section class="brief"><h2>The Brief</h2>
-<div class="cat">India Markets</div><ol>
-<li><span class="src">Markets</span> — <a href="https://economictimes.indiatimes.com/markets/aif-pms/edelweiss-alternatives-raises-over-rs-1200-crore-for-second-discovery-fund-backs-arboreal-bio/articleshow/132709897.cms">Edelweiss Alternatives raises over Rs 1,200 crore for second Discovery fund; backs Arboreal Bio</a></li>
-<li><span class="src">Markets</span> — <a href="https://economictimes.indiatimes.com/markets/bonds/sbi-raises-rs-4691-crore-via-tier-1-bonds-at-7-75-coupon/articleshow/132709860.cms">SBI raises Rs 4,691 crore via Tier 1 bonds at 7.75% coupon</a></li>
-<li><span class="src">Markets</span> — <a href="https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-firms-volatility-expectations-tick-up-heading-into-fed-decision/articleshow/132709811.cms">Rupee firms, volatility expectations tick up heading into Fed decision</a></li>
-<li><span class="src">Markets</span> — <a href="https://economictimes.indiatimes.com/markets/stocks/earnings/vedanta-oil-gas-q1-results-co-swings-to-black-with-rs-945-crore-profit-revenue-up-9-yoy/articleshow/132709673.cms">Vedanta Oil &amp; Gas Q1 Results: Co swings to black with Rs 945 crore profit, revenue up 9% YoY</a></li>
-<li><span class="src">Markets</span> — <a href="https://economictimes.indiatimes.com/markets/stocks/news/sml-mahindra-to-acquire-mahindra-truck-and-bus-division-in-commercial-vehicle-consolidation/articleshow/132709583.cms">SML Mahindra to acquire Mahindra Truck and Bus division in commercial vehicle consolidation</a></li>
-<li><span class="src">Markets</span> — <a href="https://economictimes.indiatimes.com/markets/stocks/news/why-did-market-rise-today-sensex-soars-890-pts-nifty-closes-above-24250-4-factors-behind-rs-4-lakh-cr-gains-on-d-street/articleshow/132708777.cms">Why did market rise today? Sensex soars 890 pts, Nifty closes above 24,250; 4 factors behind Rs 4 lakh crore gains on D-Street</a></li>
-</ol>
-<div class="cat">Global Macro</div><ol>
-<li><span class="src">Economy</span> — <a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/import-restriction-on-low-priced-pvc-resin-may-push-domestic-prices-gtri/articleshow/132707736.cms">Import restriction on low-priced PVC resin may push domestic prices: GTRI</a></li>
-<li><span class="src">Economy</span> — <a href="https://economictimes.indiatimes.com/news/economy/indicators/indian-corporates-to-clock-9-aggregate-revenue-in-fy27-fitch/articleshow/132706068.cms">Indian corporates to clock 9% aggregate revenue in FY27: Fitch</a></li>
-<li><span class="src">Economy</span> — <a href="https://economictimes.indiatimes.com/news/economy/indicators/indian-economy-shows-recovery-despite-global-uncertainties-private-investment-gains-momentum-report/articleshow/132706304.cms">Indian economy shows recovery despite global uncertainties, private investment gains momentum: Report</a></li>
-<li><span class="src">Economy</span> — <a href="https://economictimes.indiatimes.com/news/economy/infrastructure/centre-clears-ballari-guntakal-multi-tracking-project-to-boost-karnataka-andhra-rail-capacity/videoshow/132705069.cms">Centre clears Ballari-Guntakal multi-tracking project to boost Karnataka-Andhra rail capacity</a></li>
-<li><span class="src">Economy</span> — <a href="https://economictimes.indiatimes.com/news/economy/policy/rajasthan-fast-tracks-water-infrastructure-with-5100-crore-amrut-2-0-projects-and-ramjal-setu-link-project-cm-bhajan-lal/articleshow/132701929.cms">Rajasthan fast-tracks water infrastructure with ₹5,100 crore AMRUT 2.0 projects and Ramjal Setu Link Project: CM Bhajan Lal</a></li>
-<li><span class="src">Economy</span> — <a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/kazakhstan-eyes-stronger-trade-ties-with-west-bengal/articleshow/132701440.cms">Kazakhstan eyes stronger trade ties with West Bengal</a></li>
+<ol>
+<li><div class="hd"><span class="src">Economy</span> <a href="https://economictimes.indiatimes.com/news/economy/policy/rajasthan-fast-tracks-water-infrastructure-with-5100-crore-amrut-2-0-projects-and-ramjal-setu-link-project-cm-bhajan-lal/articleshow/132701929.cms">Rajasthan fast-tracks water infrastructure with ₹5,100 crore AMRUT 2.0 projects and Ramjal Setu Link Project: CM Bhajan Lal</a></div><div class="gist">The Ramjal Setu Link Project and Yamuna Water Agreement will secure drinking water. Flagship schemes are strengthening drinking water infrastructure and rural supply.<span class="rel">+1 related</span></div></li>
+<li><div class="hd"><span class="src">Markets</span> <a href="https://economictimes.indiatimes.com/markets/stocks/news/why-did-market-rise-today-sensex-soars-890-pts-nifty-closes-above-24250-4-factors-behind-rs-4-lakh-cr-gains-on-d-street/articleshow/132708777.cms">Why did market rise today? Sensex soars 890 pts, Nifty closes above 24,250; 4 factors behind Rs 4 lakh crore gains on D-Street</a></div><div class="gist">Broader markets also traded positively, with IT and Metal sectors leading gains. Market volatility remained subdued as broader markets showed strength.<span class="rel">+2 related</span></div></li>
+<li><div class="hd"><span class="src">Economy</span> <a href="https://economictimes.indiatimes.com/news/economy/indicators/indian-economy-shows-recovery-despite-global-uncertainties-private-investment-gains-momentum-report/articleshow/132706304.cms">Indian economy shows recovery despite global uncertainties, private investment gains momentum: Report</a></div><div class="gist">Demonstrating remarkable resilience, India&#x27;s economy witnesses a comprehensive recovery across sectors, coupled with an increase in industrial credit. Nonetheless, macroeconomic uncertainty looms…<span class="rel">+1 related</span></div></li>
+<li><div class="hd"><span class="src">Markets</span> <a href="https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-shares-gain-as-miners-energy-stocks-lead-investors-track-middle-east-tensions-earnings/articleshow/132705972.cms">Global Market: European shares gain as miners, energy stocks lead; investors track Middle East tensions, earnings</a></div><div class="gist">European stocks saw a slight increase, driven by strong mining and energy sectors. Personal and household goods stocks also advanced, boosted by positive company results.<span class="rel">+1 related</span></div></li>
+<li><div class="hd"><span class="src">Markets</span> <a href="https://economictimes.indiatimes.com/markets/us-stocks/news/cognizant-forecasts-weak-quarterly-revenue-amid-cautious-client-spending/articleshow/132712671.cms">Cognizant forecasts weak quarterly revenue amid cautious client spending</a></div><div class="gist">Cognizant Technology has revised its third-quarter revenue projections, now falling short of Wall Street&#x27;s expectations. The company anticipates its annual revenue will land between $22.04 billion…</div></li>
+<li><div class="hd"><span class="src">Markets</span> <a href="https://economictimes.indiatimes.com/markets/stocks/earnings/amazon-web-services-india-net-profit-jumps-over-10-fold-to-rs-242-cr-in-fy26/articleshow/132715491.cms">Amazon Web Services India net profit jumps over 10-fold to Rs 242 cr in FY26</a></div><div class="gist">Top Trending Stocks: SBI Share Price, Axis Bank Share Price, HDFC Bank Share Price, Infosys Share Price, Wipro Share Price, NTPC Share Price (What&#x27;s moving Sensex and Nifty Track latest market news,…<span class="rel">+1 related</span></div></li>
+<li><div class="hd"><span class="src">Economy</span> <a href="https://economictimes.indiatimes.com/news/economy/finance/itc-fraud-worth-rs-74782-crore-detected-in-fy26-maharashtra-gujarat-lead/articleshow/132688868.cms">ITC fraud worth Rs 74,782 crore detected in FY26; Maharashtra, Gujarat lead</a></div><div class="gist">Central GST officers detected over 30,000 input tax credit fraud cases in 2025-26. The number of detected fraud cases has sharply increased over the past three years.</div></li>
+<li><div class="hd"><span class="src">Markets</span> <a href="https://economictimes.indiatimes.com/markets/bonds/euro-zone-bond-rally-ends-as-oil-surge-fed-decision-weigh-on-investors/articleshow/132706628.cms">Euro zone bond rally ends as oil surge, Fed decision weigh on investors</a></div><div class="gist">European bond markets have largely tracked developments in the Gulf conflict since hostilities began in late February, with movements in energy prices playing a key role in shaping investor…<span class="rel">+1 related</span></div></li>
+<li><div class="hd"><span class="src">Markets</span> <a href="https://economictimes.indiatimes.com/markets/stocks/news/adani-group-raises-rs-43500-crore-now-plans-another-3-4-billion-in-6-months/articleshow/132705701.cms">Adani Group raises Rs 43,500 crore, now plans another $3-4 billion in 6 months</a></div><div class="gist">The Adani Group is planning to raise another $3–4 billion over the next six months after mobilising Rs 43,500 crore through equity fundraising in the past nine months. Adani Green, Adani Ports and…<span class="rel">+1 related</span></div></li>
+<li><div class="hd"><span class="src">Markets</span> <a href="https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-aberdeen-group-reports-3-billion-outflows-in-h1-as-turnaround-efforts-continue/articleshow/132706592.cms">Global Market: Aberdeen Group reports £3 billion outflows in H1 as turnaround efforts continue</a></div><div class="gist">Aberdeen Group experienced substantial net outflows of £3 billion in the first half. Interactive investor platform attracted record inflows, but larger clients reduced asset holdings.</div></li>
 </ol>
 </section>
-<section class="sec"><h2>India Markets<span class="n">78</span></h2>
+<section class="sec"><h2>India Markets<span class="n">77</span></h2>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>20:35</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-lloyds-metals-among-2-stock-recommendations-for-thursday/articleshow/132715595.cms">Market Trading Guide: Lloyds Metals among 2 stock recommendations for Thursday</a></h3>
+<p>Top Trending Stocks: SBI Share Price, Axis Bank Share Price, HDFC Bank Share Price, Infosys Share Price, Wipro Share Price, NTPC Share Price (What&#x27;s moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Top Trending Stocks: SBI Share Price, Axis Bank Share…</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>20:29</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/earnings/amazon-web-services-india-net-profit-jumps-over-10-fold-to-rs-242-cr-in-fy26/articleshow/132715491.cms">Amazon Web Services India net profit jumps over 10-fold to Rs 242 cr in FY26</a></h3>
+<p>Top Trending Stocks: SBI Share Price, Axis Bank Share Price, HDFC Bank Share Price, Infosys Share Price, Wipro Share Price, NTPC Share Price (What&#x27;s moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Top Trending Stocks: SBI Share Price, Axis Bank Share…</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>20:18</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/international/global-trends/cnn-ssrs-poll-trumps-approval-ratings-crash-to-one-of-the-lowest-in-his-political-journey-why/articleshow/132715100.cms">Trump&#x27;s approval ratings fall to record low, why?</a></h3>
+<p>Iran war emerges as major problem for Trump The conflict with Iran has become one of Trump’s biggest political liabilities, with Americans increasingly questioning both the costs of the war and the administration’s strategy.The report on the poll further notes that only 28% approve of Trump’s handling of the situation in Iran. Trump’s…</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>20:10</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/cbiz-shares-soar-17-after-grant-thornton-agrees-to-buy-company-in-5-billion-cash-deal/articleshow/132714927.cms">CBIZ shares soar 17% after Grant Thornton agrees to buy company in $5 billion cash deal</a></h3>
+<p>Top Trending Stocks: SBI Share Price, Axis Bank Share Price, HDFC Bank Share Price, Infosys Share Price, Wipro Share Price, NTPC Share Price (What&#x27;s moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Top Trending Stocks: SBI Share Price, Axis Bank Share…</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>20:10</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/india/explained-pm-modis-fb-post-metas-content-filter-glitch-and-why-top-co-execs-are-being-summoned/articleshow/132714854.cms">Explained: Modi&#x27;s FB post, Meta glitch &amp; summons</a></h3>
+<p>WHAT META TOLD GOVERNMENT According to sources, familiar with the discussions, Meta told the government that the brief removal was caused by a glitch in its AI-powered automated content moderation systems. During that process, the original post was also inadvertently restricted.According to government sources, Meta has: - Apologised for…</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>19:47</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/sports/cricket/fresh-off-t20i-heroics-vaibhav-sooryavanshi-named-east-zone-vice-captain-for-duleep-trophy/articleshow/132714372.cms">Sooryavanshi named East VC for Duleep Trophy</a></h3>
+<p>Also Read: Vaibhav Sooryavanshi jumps 230 spots to career-best 48th in ICC T20I rankings Sooryavanshi was recently named Player of the Series after scoring 151 runs at an average of 50.33 in India&#x27;s 3-0 T20I series sweep of Zimbabwe in Harare. ICC T20I batting rankings after reaching a career-best 916 rating points during the Zimbabwe…</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>19:44</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/earnings/eicher-motors-q1-results-profit-jumps-21-to-rs-1462-crore/articleshow/132714459.cms">Eicher Motors Q1 Results: Profit jumps 21% to Rs 1,462 crore</a></h3>
+<p>Top Trending Stocks: SBI Share Price, Axis Bank Share Price, HDFC Bank Share Price, Infosys Share Price, Wipro Share Price, NTPC Share Price (What&#x27;s moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Top Trending Stocks: SBI Share Price, Axis Bank Share…</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>19:43</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/earnings/waaree-energies-q1-results-net-profit-rises-over-15-to-rs-892-crore/articleshow/132714448.cms">Waaree Energies Q1 Results: Net profit rises over 15% to Rs 892 crore</a></h3>
+<p>Top Trending Stocks: SBI Share Price, Axis Bank Share Price, HDFC Bank Share Price, Infosys Share Price, Wipro Share Price, NTPC Share Price (What&#x27;s moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Top Trending Stocks: SBI Share Price, Axis Bank Share…</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>19:28</span></div>
+<h3><a href="https://economictimes.indiatimes.com/industry/auto/lcv-hcv/sml-mahindra-to-acquire-mms-truck-bus-business-for-unified-cv-company/articleshow/132714061.cms">SML Mahindra to acquire M&amp;M&#x27;s truck, bus business</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>19:17</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/earnings/vedanta-iron-and-steel-reports-rs-122-crore-net-profit-in-q1/articleshow/132713797.cms">Vedanta Iron and Steel reports Rs 122 crore net profit in Q1</a></h3>
+<p>Vedanta Iron and Steel Ltd posted a Rs 122 crore net profit for the June quarter. This marks a significant turnaround from the Rs 142 crore net loss incurred last year.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>19:14</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/earnings/vedanta-power-q1-results-company-logs-quarterly-loss-of-rs-449-crore/articleshow/132713782.cms">Vedanta Power Q1 Results: Company logs quarterly loss of Rs 449 crore</a></h3>
+<p>Vedanta Power has posted a standalone loss of Rs 449 crore for the June quarter, albeit with total income rising to Rs 1,844 crore in the first fiscal quarter. The company envisions expanding its capacity to 20 GW by FY33, aiming to rank among the top three private power sector players.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>19:08</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/international/global-trends/how-origami-inspired-18-year-old-hikaru-kuribayashi-to-win-a-100000-global-science-prize-over-1700-students-at-a-science-fair/articleshow/132713548.cms">Origami inspires Japan teen to win $100K prize</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>19:06</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/india/delhi-police-denies-gunshot-injury-claim-in-cjps-july-20-protest/articleshow/132713560.cms">Protester&#x27;s injury not bullet-related: Delhi Police</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>19:05</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-opens-lower-ahead-of-fed-decision-chip-stocks-wobble/articleshow/132713626.cms">US Stocks: US market edges lower ahead of Fed decision; chip stocks wobble</a></h3>
+<p>Major stock indexes on Wall Street opened lower on Wednesday. Chip stocks also faced pressure ahead of Big Tech earnings later this week.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>18:51</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/karnataka-bank-q1-profit-jumps-43-as-asset-quality-improves/articleshow/132713302.cms">Karnataka Bank Q1 profit jumps 43% as asset quality improves</a></h3>
+<p>Karnataka Bank reported a 43% year-on-year rise in Q1 net profit to Rs 419 crore, driven by stronger business growth, improved asset quality and lower provisions. Net interest income, operating profit and margins increased, while advances and deposits posted healthy year-on-year growth.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>18:33</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/commodities/news/copper-slips-ahead-of-fed-rate-decision-aluminium-rises-on-gulf-fighting/articleshow/132712953.cms">Copper slips ahead of Fed rate decision, aluminium rises on Gulf fighting</a></h3>
+<p>Copper prices faced a downturn due to cautious trading leading up to the Federal Reserve&#x27;s imminent interest rate decision. The easing of supply constraints in China added further downward pressure on both copper and zinc.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>18:30</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/bonds/us-treasury-yields-rise-after-three-day-fall-as-oil-jumps-fed-decision-looms/articleshow/132712865.cms">US Treasury yields rise after three-day fall as oil jumps, Fed decision looms</a></h3>
+<p>Traders are keeping a watchful eye on the Federal Reserve&#x27;s expected decision to maintain interest rates today. Nonetheless, traders are fully anticipating a hike in September, with a solid possibility of another increase before the year&#x27;s end.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>18:28</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/bonds/euro-zone-bonds-snap-three-day-rally-yields-rise-with-oil/articleshow/132712805.cms">Euro zone bonds snap three-day rally, yields rise with oil</a></h3>
+<p>As oil prices surged on Wednesday, Euro zone government bonds experienced a decline. Economists are keenly observing energy trends for signs of inflation that might influence monetary policy changes, contributing to traders’ nervousness surrounding the upcoming interest rate announcement from the US Federal Reserve.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>18:25</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/bonds/india-bonds-india-bonds-slip-as-oil-prices-hurt-fed-verdict-in-focus/articleshow/132712689.cms">India bonds slip as oil prices hurt; Fed verdict in focus</a></h3>
+<p>On Wednesday, Indian government bonds took a hit due to renewed U.S. airstrikes in the Middle East, escalating tensions in the Gulf region. Investors can expect high global yields to continue, limiting the potential for rallies in Indian fixed income markets.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>18:23</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/cognizant-forecasts-weak-quarterly-revenue-amid-cautious-client-spending/articleshow/132712671.cms">Cognizant forecasts weak quarterly revenue amid cautious client spending</a></h3>
+<p>Cognizant Technology has revised its third-quarter revenue projections, now falling short of Wall Street&#x27;s expectations. The company anticipates its annual revenue will land between $22.04 billion and $22.35 billion, after reporting second-quarter earnings of $5.48 billion, aligning with forecasts.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>18:14</span></div>
+<h3><a href="https://economictimes.indiatimes.com/industry/banking/finance/insure/irdai-approves-patanjali-ds-groups-acquisition-of-magma-general-insurance/articleshow/132712427.cms">IRDAI OKs Patanjali-DS Magma acquisition</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>18:10</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/international/global-trends/once-rejected-by-nasa-and-boeing-peter-beck-built-rocket-lab-into-a-spacex-and-blue-origin-rival-with-2500-employees-across-the-us-canada-and-new-zealand/articleshow/132712122.cms">From NASA rejection to SpaceX rival</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>18:05</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/fed-meeting-live-updates-dow-jones-nasdaq-sp-500-us-market-today-kevin-warsh-fomc-meet-rate-decision-earnings-stock-price-news-29-july-2026/liveblog/132712349.cms">FED Meeting Live | Dow Jones | US Stock Market Live: Dow tumbles over 800 points as Fed rate decision looms; chip stocks wobble</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>18:03</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/vertiv-shares-crash-14-in-pre-market-after-q2-revenue-misses-estimates/articleshow/132712201.cms">Vertiv shares crash 14% in pre-market after Q2 revenue misses estimates</a></h3>
+<p>Vertiv shares fell 14% in premarket trading after second-quarter revenue missed estimates despite strong profit growth. The AI data centre equipment maker cited project timing and supply chain issues, while raising full-year guidance amid sustained global demand and expanding capacity.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>17:57</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/biggest-nightmare-nithin-kamath-warns-mtf-boom-could-worsen-selloff-in-small-and-midcap-stocks/articleshow/132712100.cms">&#x27;Biggest nightmare&#x27;: Nithin Kamath warns MTF boom could worsen selloff in small and midcap stocks</a></h3>
+<p>Zerodha co-founder Nithin Kamath warned that rapid growth in margin trading funding could amplify market downturns, especially in small- and mid-cap stocks. He cautioned that forced selling, liquidity constraints and rising leverage may intensify losses despite SEBI’s safeguards.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>17:52</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/pidilite-industries-among-7-commodity-stocks-to-hit-52-week-highs-and-surge-up-to-25-in-a-month/slideshow/132712087.cms">Pidilite Industries among 7 commodity stocks to hit 52-week highs and surge up to 25% in a month</a></h3>
+<p>Six BSE Commodities Index stocks touched fresh 52-week highs as Sensex surged 972 points. Oriental Aromatics, Lloyds Metals, Tanfac Industries, Sudeep Pharma, Yasho Industries and Pidilite Industries gained on sustained buying interest, signalling strong investor confidence and bullish market momentum.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>17:48</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-jio-financial-hul-among-top-gainers-and-losers-on-nifty-and-sensex-on-wednesday/articleshow/132711834.cms">Market wrap: Jio Financial, HUL among top gainers and losers on Nifty and Sensex on Wednesday</a></h3>
+<p>Indian benchmark indices rallied over 1% as Sensex climbed 889 points and Nifty crossed 24,250, adding Rs 4 lakh crore in market value. Strong IIP data, optimism over FII inflows and gains in IT and metal stocks outweighed rising geopolitical tensions and oil prices.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>17:42</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/quote-of-the-day-by-lou-simpson-one-of-the-things-i-have-learned-over-the-years-is-how-important-management-is-in-building-or-subtracting-from-value/articleshow/132711787.cms">Quote of the day by Lou Simpson: &quot;One of the things I have learned over the years is how important management is in building or subtracting from value&quot;</a></h3>
+<p>Legendary investor Lou Simpson emphasised that management quality is central to long-term investing success. Effective leaders allocate capital wisely, execute strategy, uphold governance and create shareholder value, while poor leadership can erode competitive advantages and weaken even fundamentally strong businesses.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>17:42</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/india/no-chips-cola-for-kids-maharashtra-fda-bans-sale-of-junk-food-within-50-metres-of-schools/articleshow/132711802.cms">Maha FDA bans junk food sale within 50m of schools</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>17:17</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/earnings/dabur-q1-results-profit-rises-15-to-rs-591-crore-revenue-up-11/articleshow/132711242.cms">Dabur Q1 Results: Profit rises 15% to Rs 591 crore; revenue up 11%</a></h3>
+<p>Dabur India reported a 15% rise in Q1 consolidated net profit to Rs 591 crore, driven by price hikes, cost efficiencies and broad-based FMCG growth. Revenue rose 11%, rural demand outpaced urban markets, while international business and premium brands delivered strong momentum.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>17:15</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/india/pm-modi-temple-proposal-gets-bihar-transgender-boards-nod/articleshow/132711049.cms">Bihar Trans Board OKs PM Modi temple plan</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>17:09</span></div>
+<h3><a href="https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/six-in-ten-indian-companies-believe-ai-to-play-a-significant-role-pwc/articleshow/132709101.cms">6 in 10 Indian firms see AI driving growth: PwC</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>17:08</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/international/global-trends/mega-millions-jackpot-800-million-won-in-florida-winner-beats-1-in-290-4-million-odds-but-theres-a-catch-to-the-payout/articleshow/132710958.cms">Florida ticket wins $800 million jackpot</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>17:08</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/new-updates/we-created-mujahideens-to-bleed-india-now-they-have-turned-guns-on-us-pak-pm-aide-rana-sanaullah-video-goes-viral-amid-pok-elections/articleshow/132710573.cms">We created mujahideens to bleed India: Pak PM aide</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>16:55</span></div>
+<h3><a href="https://economictimes.indiatimes.com/wealth/save/august-bank-holidays-2026-independence-day-onam-raksha-bandhan-and-other-holidays-check-complete-list/articleshow/132710491.cms">Bank holidays in August 2026: Check complete list</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Markets</span><span>16:40</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/earnings/dhanlaxmi-bank-q1-profit-more-than-doubles-on-lower-provisions/articleshow/132710312.cms">Dhanlaxmi Bank Q1 profit more than doubles on lower provisions</a></h3>
+<p>Dhanlaxmi Bank reported a more than twofold rise in Q1 net profit to Rs 24.9 crore, driven by higher income and lower provisions. Asset quality improved with gross NPAs declining to 1.8%, while operating profit increased 55% year-on-year despite sequential moderation.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>16:36</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/earnings/bajaj-housing-finance-q1-results-net-profit-rises-23-yoy-to-rs-715-crore-aum-rises-24/articleshow/132710115.cms">Bajaj Housing profit at Rs 715 crore, up 23%,</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>16:32</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/india/anti-paper-leak-amendment-bill-gets-green-light-in-lok-sabha-with-bigger-jail-terms-and-fines-here-are-8-things-to-know/articleshow/132709909.cms">Anti-paper leak amendment Bill: 8 things to know</a></h3>
+<p>Stricter action on organised crime: For organised crime linked to examination fraud, the bill proposes a minimum sentence of seven years and a fine of up to Rs 10 crore, up from a minimum five-year term and a Rs 1 crore fine under the 2024 law. Also read: Lok Sabha passes anti-paper leak Bill to tighten exam fraud penalties Directors and…</p>
+</div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>16:22</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/aif-pms/edelweiss-alternatives-raises-over-rs-1200-crore-for-second-discovery-fund-backs-arboreal-bio/articleshow/132709897.cms">Edelweiss Alternatives raises over Rs 1,200 crore for second Discovery fund; backs Arboreal Bio</a></h3>
-<p class="long">The growth fund, which is registered as a Category II Alternative Investment Fund with Sebi, achieved its first close at Rs 800 crore in March and has since crossed Rs 1,200 crore in commitments. The fund is looking to write cheques of about Rs 200 crore per company. Its maiden investment from the new vehicle is Arboreal Bio Innovations, an ingredients technology company focused on specialty food and nutraceutical ingredients. The fresh capital will be used to expand manufacturing capacity and…</p>
+<p>Edelweiss Alternatives Asset Advisors has secured over Rs 1,200 crore for its second Discovery Fund and made its first investment by leading a Rs 230-crore Series A round in Arboreal Bio Innovations to support manufacturing expansion and product development.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>16:21</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/bonds/sbi-raises-rs-4691-crore-via-tier-1-bonds-at-7-75-coupon/articleshow/132709860.cms">SBI raises Rs 4,691 crore via Tier 1 bonds at 7.75% coupon</a></h3>
-<p class="long">The bonds have a five year call option when SBI can buy back the bond and with each anniversary date thereafter, the bank said. State Bank of India raised Rs 4,691 crore through Basel III-compliant Additional Tier 1 bonds at a 7.75% annual coupon. The issue received bids exceeding twice the base size, reflecting strong demand from institutional investors across multiple domestic financial segments. SBI chairman C S Setty, said that the bond attracted a wide participation of investors with did…</p>
+<p>State Bank of India raised Rs 4,691 crore through Basel III-compliant Additional Tier 1 bonds at a 7.75% annual coupon. The issue received bids exceeding twice the base size, reflecting strong demand from institutional investors across multiple domestic financial segments.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>16:19</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-firms-volatility-expectations-tick-up-heading-into-fed-decision/articleshow/132709811.cms">Rupee firms, volatility expectations tick up heading into Fed decision</a></h3>
-<p class="long">Traders also said that state-run banks sold dollars in short-lived bursts, blunting pressure from dollar demand related to the monthly futures expiry. The rupee closed at 95.6475 per dollar, up 0.2% from Wednesday&#x27;s closing level. The currency touched a peak of 95.49 earlier in the session, its strongest level since July 10. Meanwhile, Brent crude jumped more than 3.5% to $87.1 per barrel, as Middle East tensions escalated following joint U.S.-Saudi strikes in Iraq and the interception of…</p>
+<p>On Wednesday, the Indian rupee hit a three-week peak as local stocks surged, with traders adjusting their positions ahead of the Federal Reserve&#x27;s decision. However, Brent crude prices soared amidst rising tensions in the Middle East, while global share markets faced challenges, letting India’s benchmark stock index rise higher.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>16:16</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/stocks/earnings/vedanta-oil-gas-q1-results-co-swings-to-black-with-rs-945-crore-profit-revenue-up-9-yoy/articleshow/132709673.cms">Vedanta Oil &amp; Gas Q1 Results: Co swings to black with Rs 945 crore profit, revenue up 9% YoY</a></h3>
-<p class="long">The Vedanta Group company’s net profit comes despite the firm reporting a net exceptional loss of Rs 441 crore during the quarter under review. Its revenue from operations, meanwhile, rose around 8.5% YoY to Rs 2,507 crore during Q1 FY27, from Rs 2,311 crore reported in the corresponding quarter of the previous financial year. MORE TO COME... (What&#x27;s moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Also,…</p>
+<p>Vedanta Oil &amp; Gas posted a Rs 945 crore net profit for Q1 FY27. This profit was achieved despite reporting an exceptional net loss.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>16:10</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/sml-mahindra-to-acquire-mahindra-truck-and-bus-division-in-commercial-vehicle-consolidation/articleshow/132709583.cms">SML Mahindra to acquire Mahindra Truck and Bus division in commercial vehicle consolidation</a></h3>
-<p class="long">The acquisition will bring Mahindra Group’s commercial vehicle operations across light, intermediate and heavy trucks, as well as buses, under SML Mahindra. The combined business will focus on the above-3.5 tonne commercial vehicle segment. The move follows Mahindra &amp; Mahindra’s acquisition of a 58.97% stake in SML Mahindra, formerly SML Isuzu, from Sumitomo Corporation and Isuzu Motors on August 1, 2025. M&amp;M later made a mandatory open offer. The transfer of Mahindra Truck and Bus Division to…</p>
+<p>SML Mahindra will acquire Mahindra Truck and Bus Division from Mahindra &amp; Mahindra through a slump sale in FY27. The deal consolidates truck and bus operations, expands its commercial vehicle portfolio, enhances scale, unlocks synergies and strengthens competitiveness across above-3.5 tonne segments.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>16:09</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/international/global-trends/buried-for-over-3000-years-why-this-mysterious-human-skull-and-turtle-shaped-artifact-have-archaeologists-excited-about-a-forgotten-civilization/articleshow/132709461.cms">Ancient face-down skull found in burial</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>16:05</span></div>
+<h3><a href="https://economictimes.indiatimes.com/wealth/tax/itr-filing-deadline-of-july-31-2026-5-mistakes-of-taxpayers-that-can-result-in-itr-form-submission-failure-delay/articleshow/132709203.cms">5 expert tips to avoid ITR form submission failure</a></h3>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>15:47</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/sports/cricket/vaibhav-sooryavanshi-jumps-230-spots-to-career-best-48th-in-icc-t20i-rankings/articleshow/132708875.cms">Vaibhav Sooryavanshi jumps 230 spots in T20I</a></h3>
 </div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>15:40</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/why-did-market-rise-today-sensex-soars-890-pts-nifty-closes-above-24250-4-factors-behind-rs-4-lakh-cr-gains-on-d-street/articleshow/132708777.cms">Why did market rise today? Sensex soars 890 pts, Nifty closes above 24,250; 4 factors behind Rs 4 lakh crore gains on D-Street</a></h3>
-<p class="">Indian stock markets experienced a significant surge on Wednesday. Benchmark indices Sensex and Nifty both rose over one percent. This occurred despite a sharp increase in oil prices due to US-Iran tensions. Broader markets also traded positively, with IT and Metal sectors leading gains. Market volatility remained subdued as broader markets showed strength.</p>
+<p>Broader markets also traded positively, with IT and Metal sectors leading gains. Market volatility remained subdued as broader markets showed strength.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>15:36</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/india/no-shots-fired-only-tear-gas-used-says-jitendra-singh-in-lok-sabha/articleshow/132707970.cms">No shots fired, only tear gas used: Jitendra Singh</a></h3>
-<p class="long">Listen to this article in summarized format &quot;It was repeatedly clarified that no shots were fired; tear gas was used. Since no shots were fired, the question of issuing an order does not arise. The authority to issue such an order rests with the magistrate, not the minister,&quot; Singh said, according to PTI. Also read: &quot;When no firing took place at all, what kind of allegations are they levelling...?&quot; Union Minister Piyush Goyal hits out at Rahul Gandhi The minister&#x27;s remarks came during a debate…</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>15:33</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/india/lok-sabha-passes-anti-paper-leak-bill-to-tighten-exam-fraud-penalties/articleshow/132708445.cms">Paper leak noose tightens as Lok Sabha clears bill</a></h3>
+<p>Listen to this article in summarized format The legislation amends the Public Examinations (Prevention of Unfair Means) Act, 2024, and comes in the wake of the nationwide controversy over the alleged leak of the NEET-UG question paper, which intensified concerns about the integrity of India&#x27;s public examination system. Also read:…</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>15:32</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/international/global-trends/telegram-ceo-pavel-durov-on-russias-wanted-list-everything-to-know-about-his-6-6-billion-net-worth-100-children-and-life-in-dubai/articleshow/132707900.cms">Telegram CEO Pavel Durov on Russia&#x27;s wanted list</a></h3>
-<p class="long">Listen to this article in summarized format Soon after Russia&#x27;s security service charged Pavel Durov, search terms like &#x27;telegram CEO&#x27;, &#x27;Pavel Durov net worth&#x27;, &#x27;where does Pavel Durov live?&#x27; started appearing on Google Trends. ALSO READ: Russia charges Telegram founder Pavel Durov with aiding terrorism and puts him on wanted list Telegram CEO Pavel Durov Net Worth According to Forbes, in mid 2026, Pavel Durov’s net worth was at an estimated $6.6 billion, placing him among the world’s richest…</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>15:27</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/politics-and-nation/when-no-firing-took-place-at-all-what-kind-of-allegations-are-they-levelling-union-minister-piyush-goyal-hits-out-at-rahul-gandhi/articleshow/132708386.cms">Piyush Goyal slams Rahul Gandhi over firing claim</a></h3>
-<p class="long">Speaking to the reporters, Goyal dismissed Rahul Gandhi&#x27;s claims as completely fictitious and a &quot;bundle of lies.&quot; &quot;Some people are beyond redemption. Opposition leaders make such baseless and false statements on the floor of the House when no firing has even taken place. I strongly condemn this. Rahul Gandhi has nothing worthwhile to say. We saw that for an entire hour, he could not utter a single word related to the Bill or the ongoing debate. Rahul Gandhi&#x27;s speech is a bundle of lies,&quot; he…</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>15:14</span></div>
 <h3><a href="https://economictimes.indiatimes.com/wealth/save/8th-pay-commission-fitment-factor-how-6-annual-increment-may-add-rs-20-lakh-to-level-8-employees-basic-pay-in-10-years/articleshow/132707846.cms">8th CPC: Rs 20 lakh extra pay for Level 8 employees?</a></h3>
-<p class="long">They argue that a 5% annual raise, along with merging the dearness allowance (DA) with basic pay once the DA hits 25%, could substantially boost the salaries of the central government employees. According to Bankbazaar, if the 8th Pay Commission opts for a 2.1 fitment factor and raises the annual increment rate from 3% to 6%, Level 1-8 employees could see an additional Rs 20.59 lakh in basic pay over 10 years. Also Read: ITR filing last date: Will Income Tax Department extend July 31 deadline…</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>15:09</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/international/business/unilever-agrees-two-year-worker-protection-after-65-billion-mccormick-merger-memo-shows/articleshow/132707978.cms">Unilever seals worker pact after merger</a></h3>
@@ -151,228 +286,75 @@ body{animation:fade .5s ease both}
 </div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>14:59</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/these-15-midcap-stocks-soared-up-to-98-in-a-year-check-fii-and-mf-holdings/slideshow/132708022.cms">These 15 midcap stocks soared up to 98% in a year; check FII and MF holdings</a></h3>
-<p class="">Despite a sluggish broader market, 15 top-performing Indian midcap stocks generated massive wealth over the past year, surging up to 98%. Led by names like Laurus Labs and Bharat Forge, this detailed breakdown highlights their price rallies alongside key foreign institutional investor and mutual fund holding patterns in June 2026.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>14:52</span></div>
-<h3><a href="https://economictimes.indiatimes.com/wealth/tax/tds-deducted-but-you-havent-filed-your-itr-yet-heres-what-happens-if-you-miss-the-july-31-deadline/articleshow/132707690.cms">TDS deducted but didn&#x27;t file ITR? Check consequences</a></h3>
+<p>Despite a sluggish broader market, 15 top-performing Indian midcap stocks generated massive wealth over the past year, surging up to 98%. Led by names like Laurus Labs and Bharat Forge, this detailed breakdown highlights their price rallies alongside key foreign institutional investor and mutual fund holding patterns in June 2026.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>14:47</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/sports/cricket/shubman-gill-regains-no-1-spot-in-odi-batting-rankings-vaibhav-sooryavanshi-jumps-in-t20i-charts/articleshow/132707498.cms">Gill No.1 in ODIs; Sooryavanshi rises in T20Is</a></h3>
 </div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>14:47</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/international/world-news/israel-elections-2026-the-system-the-rivals-and-whats-at-stake/articleshow/132707296.cms">Israel elections 2026: All you need to know</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>14:45</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/stocks/earnings/adani-enterprises-q1-results-co-reports-loss-of-rs-1160-cr-revenue-rises-50-yoy/articleshow/132707551.cms">Adani Enterprises Q1 Results: Co reports loss of Rs 1,160 cr on one-time expense; revenue surges 50% YoY</a></h3>
-<p class="">Adani Enterprises Q1 Results: Revenue from operations in the reporting period increased 50% year-on-year (YoY) to Rs 32,924 crore.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>14:32</span></div>
-<h3><a href="https://economictimes.indiatimes.com/industry/renewables/india-wasted-11-of-solar-power-during-record-summer-demand-this-year/articleshow/132707126.cms">India wasted 11% of solar power during peak summer</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>14:25</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/sports/football/fifas-20-billion-pe-plan-sets-up-fresh-europe-showdown/articleshow/132706964.cms">FIFA&#x27;s $20 bn PE plan sets up Europe showdown</a></h3>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>14:45</span></div>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/earnings/adani-enterprises-q1-results-co-reports-loss-of-rs-1160-cr-revenue-rises-50-yoy/articleshow/132707551.cms">Adani Ent incurs Q1 loss of ₹1,160 cr on one-time item</a></h3>
 </div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>14:23</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/kpit-tech-q1-results-shares-rally-10-even-as-net-profit-drops-32-yoy-to-rs-117-crore-heres-why/articleshow/132707113.cms">KPIT Tech Q1 Results: Shares rally 10% even as net profit drops 32% YoY to Rs 117 crore. Here&#x27;s why</a></h3>
-<p class="">KPIT Technologies reported a 32% YoY decline in Q1 FY27 net profit to Rs 117 crore, but its shares surged 10% to Rs 662.65 as revenue grew 9% to Rs 1,675 crore, slightly topping management&#x27;s previous outlook. The company also announced a final dividend of Rs 5.25 per share.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>14:16</span></div>
-<h3><a href="https://economictimes.indiatimes.com/industry/energy/oil-gas/indias-top-refiner-iocl-scouts-stakes-in-gas-carriers-as-it-plans-higher-us-imports/articleshow/132706417.cms">Indian Oil scouts gas carriers eyeing high US biz</a></h3>
+<p>KPIT Technologies reported a 32% YoY decline in Q1 FY27 net profit to Rs 117 crore, but its shares surged 10% to Rs 662.65 as revenue grew 9% to Rs 1,675 crore, slightly topping management&#x27;s previous outlook. The company also announced a final dividend of Rs 5.25 per share.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>14:11</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/stocks/earnings/asian-paints-q1-results-net-profit-surges-40-yoy-to-rs-1539-crore/articleshow/132706863.cms">Asian Paints&#x27; profit gets a royal shine with 40% surge</a></h3>
 </div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>14:03</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/bonds/euro-zone-bond-rally-ends-as-oil-surge-fed-decision-weigh-on-investors/articleshow/132706628.cms">Euro zone bond rally ends as oil surge, Fed decision weigh on investors</a></h3>
-<p class="">European bond markets have largely tracked developments in the Gulf conflict since hostilities began in late February, with movements in energy prices playing a key role in shaping investor sentiment. Market participants are closely monitoring whether a sustained rise in oil prices could fuel broader inflation pressures and prompt central banks to maintain…</p>
+<p>European bond markets have largely tracked developments in the Gulf conflict since hostilities began in late February, with movements in energy prices playing a key role in shaping investor sentiment. Market participants are closely monitoring whether a sustained rise in oil prices could fuel broader inflation pressures and prompt…</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>14:01</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-aberdeen-group-reports-3-billion-outflows-in-h1-as-turnaround-efforts-continue/articleshow/132706592.cms">Global Market: Aberdeen Group reports £3 billion outflows in H1 as turnaround efforts continue</a></h3>
-<p class="">Aberdeen Group experienced substantial net outflows of £3 billion in the first half. This occurred as withdrawals from investment and adviser businesses offset strong growth. Interactive investor platform attracted record inflows, but larger clients reduced asset holdings. The company&#x27;s assets under management reached £579.4 billion. Adjusted operating…</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>13:48</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/india/dharmendra-pradhans-resignation-superficial-rss-runs-indias-education-ministry-rahul-gandhi/articleshow/132706345.cms">RSS runs India&#x27;s education ministry: RaGa</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>13:31</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/politics-and-nation/one-nation-one-election-panel-gets-winter-session-extension-to-submit-report/articleshow/132705983.cms">One Nation One Election panel gets fresh deadline</a></h3>
+<p>Aberdeen Group experienced substantial net outflows of £3 billion in the first half. Interactive investor platform attracted record inflows, but larger clients reduced asset holdings.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>13:28</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-shares-gain-as-miners-energy-stocks-lead-investors-track-middle-east-tensions-earnings/articleshow/132705972.cms">Global Market: European shares gain as miners, energy stocks lead; investors track Middle East tensions, earnings</a></h3>
-<p class="">European stocks saw a slight increase, driven by strong mining and energy sectors. Commodity prices surged, influencing gains in these key areas of the market. Personal and household goods stocks also advanced, boosted by positive company results. Technology shares experienced a minor dip, reflecting investor caution on spending. Investors are now awaiting…</p>
+<p>European stocks saw a slight increase, driven by strong mining and energy sectors. Personal and household goods stocks also advanced, boosted by positive company results.</p>
 </div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>13:27</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/india/india-introduces-bill-to-tighten-delayed-birth-and-death-registration-rules/articleshow/132705878.cms">Lok Sabha gets Bill to tighten birth, death rules</a></h3>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>13:24</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/politics-and-nation/rahul-gandhi-sparks-controversy-in-lok-sabha-labels-bjp-supporters-as-idiots-and-andhbhakts-during-neet-debate/articleshow/132705885.cms">Rahul Gandhi&#x27;s &#x27;andhbhakt&#x27; jibe creates ruckus in LS</a></h3>
 </div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>13:24</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/global-earnings-nomuras-first-quarter-profit-jumps-39-boosted-by-markets/articleshow/132705888.cms">Global Earnings | Nomura&#x27;s first-quarter profit jumps 39%, boosted by markets</a></h3>
-<p class="">Nomura Holdings experienced a remarkable 39% net income surge in the first quarter, driven by favorable market volatility and unprecedented stock price levels. Additionally, increased wealth management fees contributed significantly to this growth. The company also achieved record highs in investment banking revenue, reflecting a dynamic start to the year.…</p>
+<p>Nomura Holdings experienced a remarkable 39% net income surge in the first quarter, driven by favorable market volatility and unprecedented stock price levels. The company also achieved record highs in investment banking revenue, reflecting a dynamic start to the year.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>13:22</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/devyani-international-q1-profit-zooms-to-rs-17-cr/articleshow/132705845.cms">Devyani International Q1 profit zooms to Rs 17 cr</a></h3>
-<p class="">Devyani International has reported an impressive surge in net profit for the June quarter, marking a substantial revenue increase of 16.47% to Rs 1,580.51 crore. Likewise, total income experienced a robust rise of 16.72%. They earlier announced a merger with Sapphire Foods India, setting the stage for the formation of one of the largest quick-service…</p>
+<p>Devyani International has reported an impressive surge in net profit for the June quarter, marking a substantial revenue increase of 16.47% to Rs 1,580.51 crore. They earlier announced a merger with Sapphire Foods India, setting the stage for the formation of one of the largest quick-service restaurant chains in the country.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>13:16</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/adani-group-raises-rs-43500-crore-now-plans-another-3-4-billion-in-6-months/articleshow/132705701.cms">Adani Group raises Rs 43,500 crore, now plans another $3-4 billion in 6 months</a></h3>
-<p class="">The Adani Group is planning to raise another $3–4 billion over the next six months after mobilising Rs 43,500 crore through equity fundraising in the past nine months. Adani Green, Adani Ports and Adani Enterprises are expected to lead the fundraising, even as domestic mutual funds have raised their holdings in key Adani companies to a record Rs 1 lakh…</p>
+<p>The Adani Group is planning to raise another $3–4 billion over the next six months after mobilising Rs 43,500 crore through equity fundraising in the past nine months. Adani Green, Adani Ports and Adani Enterprises are expected to lead the fundraising, even as domestic mutual funds have raised their holdings in key Adani companies to a…</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>13:10</span></div>
 <h3><a href="https://economictimes.indiatimes.com/wealth/invest/22k-gold-rate-today-check-18k-20k-22k-24k-gold-prices-july-29-2026-at-tanishq-malabar-gold-diamonds-joyalukkas-kalyan-jewellers-and-ibja/articleshow/132705538.cms">Gold rate today: 24k vs 22k vs 20k vs 18k</a></h3>
 </div>
 <div class="item"><div class="meta"><span class="call">Markets</span><span>13:07</span></div>
 <h3><a href="https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-slips-near-63k-as-chip-stock-sell-off-etf-outflows-510-million-liquidations-and-fed-uncertainty-weigh-on-sentiment/articleshow/132705492.cms">Bitcoin slips near $63K as chip stock sell-off, ETF outflows, $510 million liquidations and Fed uncertainty weigh on sentiment</a></h3>
-<p class="">Bitcoin traded near $63,000 on Wednesday as $510 million in liquidations, chip stock sell-offs, and US spot ETF outflows weighed on sentiment. Investors remain cautious ahead of the US Federal Reserve&#x27;s rate decision and legislative delays surrounding the CLARITY Act.</p>
+<p>Bitcoin traded near $63,000 on Wednesday as $510 million in liquidations, chip stock sell-offs, and US spot ETF outflows weighed on sentiment. Investors remain cautious ahead of the US Federal Reserve&#x27;s rate decision and legislative delays surrounding the CLARITY Act.</p>
 </div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>13:01</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/swiggy-shares-jump-8-rally-15-in-3-days-whats-boosting-investor-sentiment/articleshow/132705415.cms">Swiggy shares jump 8%, rally 15% in 3 days. What&#x27;s boosting investor sentiment?</a></h3>
-<p class="">Swiggy shares climbed significantly, extending recent gains for a third consecutive session. Nandita Sinha, former Myntra CEO, now leads Swiggy&#x27;s Instamart business.This appointment occurs amid intense competition in India&#x27;s quick commerce sector. Meanwhile, Zepto is reportedly negotiating its IPO pricing at a lower valuation.The company may defer its…</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>12:49</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/stocks/earnings/adani-ports-q1-results-net-profit-rises-9-to-rs-3620-crore-revenue-jumps-19/articleshow/132704892.cms">Adani Ports sails ahead with 9% profit growth in Q1</a></h3>
+<div class="item"><div class="meta"><span class="call">Top Stories</span><span>13:06</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/international/business/bmw-aims-to-cut-8000-jobs-by-end-2027-source-says/articleshow/132705457.cms">40,000 BMW staff to get offer to walk out of firm</a></h3>
 </div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>12:48</span></div>
 <h3><a href="https://economictimes.indiatimes.com/wealth/tax/is-government-planning-to-scrap-long-term-capital-gain-ltcg-tax-on-equities-for-domestic-investors-in-fy-26-27-minister-responds/articleshow/132704739.cms">Is govt planning to scrap LTCG tax on equities?</a></h3>
 </div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>12:45</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/sports/hockey/indian-womens-hockey-team-leaves-for-germany-for-final-phase-of-wc-preparation/articleshow/132704531.cms">Indian women&#x27;&#x27;s hockey team leaves for Germany</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>12:44</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/new-updates/booked-flat-in-2012-now-possession-in-2032-millionaire-sabeer-bhatia-shares-homebuying-ordeal-in-india/articleshow/132704251.cms">Booked flat in &#x27;12, no possession yet: Sabeer Bhatia</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>12:43</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/india/fast-track-courts-dispose-more-cases-so-why-do-delays-persist/articleshow/132704831.cms">Fast-track courts: Why delays persist?</a></h3>
-</div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>12:43</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/india/sc-closes-criminal-case-against-former-pm-manmohan-singh-in-coal-block-allocation-case/articleshow/132704630.cms">Manmohan Singh gets clean chit in coal block case</a></h3>
 </div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>12:38</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-deutsche-bank-q2-profit-rises-10-as-investment-banking-strength-offsets-higher-costs/articleshow/132704651.cms">Global Market: Deutsche Bank Q2 profit rises 10% as investment banking strength offsets higher costs</a></h3>
-<p class="">Deutsche Bank reported a stronger second quarter with a 10% net profit increase. Its global investment banking division showed robust performance, driving this positive financial result. This growth helped offset rising expenses, reinforcing the bank&#x27;s long-term strategy. The lender&#x27;s chief executive expressed confidence in future growth and profitability…</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>12:36</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-ubs-posts-17-jump-in-q2-profit-announces-3-billion-share-buyback-plan/articleshow/132704654.cms">Global Market: UBS posts 17% jump in Q2 profit, announces $3 billion share buyback plan</a></h3>
-<p class="">UBS reported a 17% rise in Q2 net profit to $2.8 billion, beating analyst estimates on strong wealth management and investment banking growth. The Swiss lender announced a $3 billion share buyback plan and achieved $12.6 billion in cumulative Credit Suisse integration savings while trimming its workforce below 100,000.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>12:31</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/cartrade-tech-shares-slip-7-despite-19-yoy-rise-in-q1-profit-ebitda-surges-45/articleshow/132704366.cms">CarTrade Tech shares slip 7% despite 19% YoY rise in Q1 profit; EBITDA surges 45%</a></h3>
-<p class="">CarTrade Tech shares fell over 7% despite the company reporting a strong Q1 FY27 performance, with consolidated net profit rising 19% YoY to Rs 51 crore. Revenue from operations grew 16% to Rs 201 crore, while total income hit a record Rs 230 crore. EBITDA surged 45% YoY to Rs 63 crore, with margins improving to 31%.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>12:29</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/thangamayil-jewellery-q1-results-net-profit-spikes-86-yoy-to-rs-85-crore-stock-tanks-10-on-weak-guidance/articleshow/132704295.cms">Thangamayil Jewellery Q1 Results: Net profit spikes 86% YoY to Rs 85 crore; stock tanks 10% on weak guidance</a></h3>
-<p class="">Thangamayil Jewellery shares tumbled despite strong Q1 FY27 results. The company reported an 86% YoY rise in net profit to ₹85 crore, while revenue from operations surged 71.2% to ₹2,666.4 crore in the June quarter.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>12:20</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/bluestone-jewellery-shares-soar-7-should-you-buy-at-current-levels-or-avoid/articleshow/132703389.cms">BlueStone Jewellery shares soar 7%. Should you buy at current levels or avoid?</a></h3>
-<p class="">BlueStone Jewellery and Lifestyle shares surged nearly 7%, extending their one-month rally to around 50% after robust Q1 FY27 earnings. The company reported a net profit of Rs 14 crore against a year-ago loss, while revenue rose 49% and EBITDA more than doubled. Analysts say the uptrend remains intact, but investors should watch key technical support and…</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>12:14</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/company/corporate-trends/hyrox-bets-big-on-india-eyes-top-three-market-status-in-five-years/articleshow/132703954.cms">Hyrox races toward an India breakthrough</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>12:14</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/international/world-news/russias-fsb-charges-telegram-founder-pavel-durov-with-facilitating-terrorism/articleshow/132704040.cms">Telegram&#x27;s Durov faces charges of aiding terrorism</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>12:10</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/bonds/india-bonds-tiptoe-along-ahead-of-fed-meet-oil-prices-weigh/articleshow/132703905.cms">India bonds tiptoe along ahead of Fed meet; oil prices weigh</a></h3>
-<p class="">Indian government bonds traded range-bound early Wednesday as investors awaited the Fed&#x27;s rate decision. Oil prices climbed, reviving concerns about the Gulf conflict and global economic impact. The Reserve Bank of India&#x27;s policy decision is due next week, with rates expected to remain unchanged. India&#x27;s financial conditions have tightened recently due to…</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>12:09</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/india/neet-paper-leak-cbi-charges-13-in-fast-track-court/articleshow/132703666.cms">NEET Row: Fast-track court takes CBI chargesheet</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>12:07</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/india/think-diet-sweeteners-are-harmless-heres-how-they-alter-gut-brain-signalling/articleshow/132703025.cms">How diet sweeteners alter gut-brain signalling</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>11:58</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/india/india-performs-worlds-third-most-transplants-yet-demand-outpaces-supply/articleshow/132703140.cms">India 3rd in transplants, big gap in need</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>11:51</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/kospi-crashes-44-in-a-month-but-nomura-sees-109-upside-in-south-koreas-stock-market-heres-why/articleshow/132703128.cms">Kospi crashes 44% in a month but Nomura sees 109% upside in South Korea&#x27;s stock market. Here&#x27;s why</a></h3>
-<p class="">South Korea&#x27;s Kospi index dropped 44% from its June peak amid global AI growth worries and foreign fund outflows. Despite the sharp pullback into bear market territory, Nomura projects up to 109% upside, setting a 10,000-11,000 target driven by corporate share buybacks, strong AI earnings, and governance reforms.</p>
-</div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>11:50</span></div>
-<h3><a href="https://economictimes.indiatimes.com/wealth/spend/5-credit-cards-with-complimentary-airport-lounge-access-without-any-minimum-spend-criteria-in-2026-one-of-them-is-lifetime-free/articleshow/132681974.cms">5 credit cards with lounge access without min spend</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>11:43</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/fizzing-higher-coca-cola-raises-2026-forecasts-on-strong-soda-demand-shares-rally/slideshow/132704481.cms">Fizzing Higher: Coca-Cola raises 2026 forecasts on strong soda demand, shares rally</a></h3>
-<p class="">Coca-Cola shares reached a record high after strong quarterly earnings and a raised outlook, driven by resilient demand, pricing power, Zero Sugar growth, and investors seeking stable defensive stocks amid market volatility.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>11:36</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/forex/rupee-cushioned-by-state-run-bank-dollar-offers-as-futures-expiry-bites/articleshow/132702708.cms">Rupee cushioned by state-run bank dollar offers as futures expiry bites</a></h3>
-<p class="">The Indian rupee strengthened on Wednesday as banks sold dollars. Dollar demand from futures expiry exerted some pressure on the currency. Oil prices climbed nearly four percent after recent sharp declines. Traders watched for the US Federal Reserve&#x27;s monetary policy decision. Markets anticipate the Fed will likely keep interest rates unchanged.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>11:35</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/kpit-technologies-shares-rise-4-ahead-of-q1fy27-results/articleshow/132702662.cms">KPIT Technologies shares rise 4% ahead of Q1FY27 results</a></h3>
-<p class="">KPIT Technologies shares gained over 4% on July 29 to reach Rs 627.70 ahead of its Q1FY27 earnings announcement. Despite near-term momentum and strength in the broader IT sector, the stock remains under medium-term pressure following institutional stake reductions and lower revenue expectations for upcoming quarters.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>11:32</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/coforge-shares-rally-5-after-strong-q1-earnings-net-profit-surges-63-yoy/articleshow/132702559.cms">Coforge shares rally 5% after strong Q1 earnings; net profit surges 63% YoY</a></h3>
-<p class="">Coforge shares surged after the IT services firm reported strong Q1 FY27 results. Net profit jumped 63% YoY, while revenue from operations rose 49% YoY to ₹5,527.7 crore, marking a 24% QoQ growth. The strong performance boosted investor sentiment toward the stock.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>11:21</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/why-sk-hynix-shares-crashed-despite-record-q2-earnings/slideshow/132702719.cms">Why SK Hynix shares crashed despite record Q2 earnings</a></h3>
-<p class="">Despite record profits and revenue, SK Hynix shares plunged as earnings missed lofty expectations, AI memory shipments lagged, and investors questioned sustained AI spending, triggering broader semiconductor and Asian technology stock selloffs.</p>
+<h3><a href="https://economictimes.indiatimes.com/wealth/spend/5-credit-cards-with-complimentary-airport-lounge-access-without-any-minimum-spend-criteria-in-2026-one-of-them-is-lifetime-free/articleshow/132681974.cms">No min spend and free lounge access: 5 credit cards</a></h3>
 </div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>11:21</span></div>
 <h3><a href="https://economictimes.indiatimes.com/wealth/tax/are-you-an-nri-who-sold-an-under-construction-property-heres-what-actually-counts-as-your-date-of-purchase-for-capital-gains-calculation/articleshow/132702046.cms">NRI and sold under-construction property? Know this</a></h3>
 </div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>11:16</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-swings-between-gains-and-losses-as-ai-stock-selloff-persists/articleshow/132702082.cms">Global Market: Japan&#x27;s Nikkei swings between gains and losses as AI stock selloff persists</a></h3>
-<p class="">Japan&#x27;s Nikkei index saw mixed trading as investors awaited major US tech earnings. AI and chip-related stocks continued to face pressure, tracking global weakness. Geopolitical tensions in the Middle East also contributed to market uncertainty and rising oil prices. However, strong earnings from select companies like Keyence provided some support. Market…</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>11:10</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/ipos/fpos/h-r-hygiene-products-ipo-day-1-subscription-status-at-13-check-gmp-price-band-and-key-details/articleshow/132702006.cms">H.R. Hygiene Products IPO Day 1: Subscription status at 13; check, GMP, price band and key details</a></h3>
-<p class="">H.R. Hygiene Products’ ₹43.17 crore SME IPO opened for subscription on Wednesday and received a 13% subscription in the initial hours. The issue, which comprises 44.44 lakh shares, will remain open until July 31, 2026.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>11:07</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-slip-as-ai-linked-selloff-deepens-hong-kong-gains-on-internet-shares/articleshow/132701866.cms">Global Market: China stocks slip as AI-linked selloff deepens; Hong Kong gains on internet shares</a></h3>
-<p class="">Chinese stocks fell Wednesday as artificial intelligence shares faced selling pressure. Hong Kong shares outperformed, driven by strong gains in internet platform companies. Investors shifted funds away from technology hardware into traditional sectors like real estate. New United States trade restrictions targeting Chinese robots also weighed on sentiment.…</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>11:05</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/explained-how-koreas-sk-hynix-triggered-massive-17-4-million-in-crypto-losses/articleshow/132701880.cms">Explained: How Korea’s SK Hynix triggered massive $17.4 million in crypto losses?</a></h3>
-<p class="">A rogue pre-market trade in SK Hynix shares in Seoul triggered a 20% flash drop in crypto perpetual contracts on Hyperliquid. The oracle price anomaly wiped out nearly $60 million in long positions, resulting in $17.4 million in realised losses for over 900 crypto traders.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>10:55</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/it-stocks-on-a-roll-tcs-infosys-coforge-and-others-rally-up-to-5-for-second-straight-day-whats-driving-this-surge/articleshow/132701697.cms">IT stocks on a roll: TCS, Infosys, Coforge and others rally up to 5% for second straight day. What&#x27;s driving this surge?</a></h3>
-<p class="">Indian IT stocks rallied for a second straight session, buoyed by strong Q1 earnings, optimism around AI-driven demand and improving investor sentiment. Jefferies turned neutral on the sector, citing positive FPI feedback and potential tactical upside after a sharp correction. The rally came despite a global tech selloff, with investors also awaiting the US…</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>10:47</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/beyond-bitcoin-crypto-trends-investors-should-watch-over-the-next-6-months/articleshow/132701499.cms">Beyond Bitcoin: Crypto trends investors should watch over the next 6 months</a></h3>
-<p class="">CoinDCX Co-founder Sumit Gupta writes that disciplined investing through crypto SIPs is replacing market timing. Beyond Bitcoin, structural value is forming across stablecoin payment rails, real-world asset tokenisation led by institutions like BlackRock, and emerging AI agentic commerce infrastructure.</p>
-</div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>10:41</span></div>
 <h3><a href="https://economictimes.indiatimes.com/wealth/legal/will/can-housing-societies-deny-common-facilities-to-smaller-flats-because-of-lower-maintenance-fees-know-what-the-law-says/articleshow/132701345.cms">Can RWAs deny common facilities to smaller flats?</a></h3>
 </div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>10:36</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/tata-capital-shares-rally-4-after-q1-profit-surges-56-aum-nears-rs-3-lakh-crore/articleshow/132701339.cms">Tata Capital shares rally 4% after Q1 profit surges 56%; AUM nears Rs 3 lakh crore</a></h3>
-<p class="">Tata Capital shares rose nearly 4% on Wednesday following a stellar Q1 FY27 performance. Consolidated net profit jumped 56% YoY to Rs 1,547 crore, while assets under management reached Rs 2.91 lakh crore. The NBFC also announced its strategic expansion into gold loans by acquiring an 88.6% stake in Yogloans.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>10:35</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/varun-beverages-shares-jump-3-after-q1-pat-rises-15-revenue-grows-20/articleshow/132701389.cms">Varun Beverages shares jump 3% after Q1 PAT rises 15%, revenue grows 20%</a></h3>
-<p class="">Varun Beverages reported a 15% profit and 20% revenue increase in Q1 FY2027. Consolidated sales volumes grew by nearly 20% driven by India and international markets. Gross margins expanded while depreciation and finance costs rose due to acquisitions. The company also announced a strategic alliance to introduce the Calpis brand. A second interim dividend of…</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>10:34</span></div>
-<h3><a href="https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/sail-and-krakatau-steel-to-invest-350-million-in-new-indonesian-stainless-steel-plant/articleshow/132701343.cms">SAIL &amp; Indonesian steel co plan a $350 mn investment</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>10:31</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/international/world-news/iran-rules-out-omans-proposal-for-regional-joint-management-of-hormuz-strait-senior-iranian-official-tells-reuters/articleshow/132701304.cms">Iran rules out Oman&#x27;s plan for Hormuz management</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Markets</span><span>10:24</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/us-stocks/news/kospi-crashes-11-plunges-43-from-peak-after-skyrocketing-rally-is-the-ai-bubble-going-bust/articleshow/132701189.cms">Kospi crashes 12% after SK Hynix earnings; best performing Asian market of 2026 plunges 43% in a month. What’s ahead?</a></h3>
-<p class="">South Korea&#x27;s Kospi index crashed over 11% on Wednesday, extending its drop to 43% from its June peak into technical bear market territory. The sharp plunge, triggered by earnings from chipmaker SK Hynix that missed lofty AI-fueled market estimates, prompted government reviews into market stabilisation measures.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>10:18</span></div>
-<h3><a href="https://economictimes.indiatimes.com/tech/technology/zepto-negotiating-ipo-pricing-may-defer-listing-over-next-few-weeks/articleshow/132701126.cms">Zepto may delay IPO amid pricing talks</a></h3>
-</div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>09:42</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-rising-today-sensex-soars-over-700-pts-nifty-nears-24200-4-key-factors/articleshow/132699652.cms">Sensex soars 900 pts as war, oil fail to stop D-St bulls</a></h3>
-<p class="long">Listen to this article in summarized format The Indian stock market sharply surged on Wednesday, with benchmark indices Sensex and Nifty rising more than 1% each, despite a sharp increase in oil prices as US-Iran tensions escalated. Sensex soared nearly 889 points to close at 77,655, while Nifty gained around 265 points to end the session above 24,250. The sharp gains added over Rs 4 lakh crore to the total market capitalisation of all companies listed on BSE, pulling it up to Rs 483 lakh…</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>08:00</span></div>
-<h3><a href="https://economictimes.indiatimes.com/wealth/save/hdfc-bank-axis-bank-collect-highest-penalties-from-customers-for-non-maintenance-of-minimum-average-balance-bank-of-baroda-tops-public-sector-bank-list/articleshow/132684509.cms">HDFC Bank collects highest penalty for this balance</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>07:45</span></div>
-<h3><a href="https://economictimes.indiatimes.com/markets/ipos/fpos/manipal-health-ipo-opens-today-gmp-at-just-2-should-you-subscribe/articleshow/132697753.cms">A health check before betting money on ₹9,275 cr IPO</a></h3>
-</div>
-<div class="item"><div class="meta"><span class="call">Top Stories</span><span>07:08</span></div>
-<h3><a href="https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/atombergs-fundraise-plans-neocloud-firms-eye-india-capacity/articleshow/132697214.cms">Top tech and startup stories to begin your day</a></h3>
+<h3><a href="https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-rising-today-sensex-soars-over-700-pts-nifty-nears-24200-4-key-factors/articleshow/132699652.cms">Sensex soars 890 pts as war, oil fail to stop D-St bulls</a></h3>
 </div>
 <div class="item"><div class="meta"><span class="call">Top Stories</span><span>07:00</span></div>
 <h3><a href="https://economictimes.indiatimes.com/wealth/insure/do-you-really-need-home-loan-insurance-if-you-already-have-a-term-insurance-plan/articleshow/132684142.cms">Home loan vs term insurance: Do you need both?</a></h3>
@@ -382,166 +364,175 @@ body{animation:fade .5s ease both}
 </div>
 </section>
 <section class="sec"><h2>Global Macro<span class="n">40</span></h2>
+<div class="item"><div class="meta"><span class="call">Economy</span><span>20:27</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/economy/policy/ifsca-working-with-govt-on-outbound-tax-issues-official/articleshow/132715366.cms">IFSCA working with govt on outbound tax issues: Official</a></h3>
+<p>That is something which we are working on,&quot; Pradeep Ramakrishnan, executive director at IFSCA, said during a panel discussion at an Artha Bharat Investment Managers IFSC LLP event. Further, Sachin Sawrikar, managing partner at Artha Bharat Investment Managers IFSC LLP, in an interview to PTI, said outbound investments remain relatively…</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Economy</span><span>20:12</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/economy/indicators/services-index-shows-16-sub-sectors-recorded-double-digit-growth-in-may/articleshow/132715009.cms">Services index shows 16 sub-sectors recorded double-digit growth in May</a></h3>
+<p>Air transport declined by 2.8 per cent, post and courier slipped by one per cent, and Information and Broadcasting contracted by 7.6 per cent in May. Accommodation and Food (27.4 per cent), Real Estate (17.7 per cent), Retail Trade (13.3 per cent), Banking (12.1 per cent), and Telecommunications (11.8 per cent), according to the index.</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Economy</span><span>20:03</span></div>
+<h3><a href="https://economictimes.indiatimes.com/news/economy/agriculture/up-to-12-pc-of-non-agri-jobs-at-risk-of-substitution-due-to-gen-ai-report/articleshow/132714789.cms">Up to 12 pc of non-agri jobs at risk of substitution due to Gen AI: Report</a></h3>
+<p>&quot;Gen-AI could perform 9-17 per cent of the tasks currently undertaken by India&#x27;s non-agricultural workforce...we estimate 8-12 per cent of non-agricultural employment is at risk of substitution, while 42-48 per cent of non-agricultural employment is likely to be complemented,&quot; it said, adding that the remainder of the employment will be…</p>
+</div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>14:53</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/import-restriction-on-low-priced-pvc-resin-may-push-domestic-prices-gtri/articleshow/132707736.cms">Import restriction on low-priced PVC resin may push domestic prices: GTRI</a></h3>
-<p class="long">The Directorate General of Foreign Trade (DGFT) last week imposed a minimum import price (MIP) on Suspension Grade Polyvinyl Chloride (S-PVC) Resin. Imports priced above this level will continue to be freely imported after payment of applicable customs duties. Imports priced at USD 0.766 per kg or below will now require a DGFT import licence in addition to payment of import duties. The measure will remain in force for six months. &quot;The move is expected to increase domestic PVC resin prices but…</p>
+<p>He also said that despite the higher import cost, imports are unlikely to decline significantly because India imports about 64 per cent of its S-PVC resin requirement. As a result, India imports about 3.0 MMT of S- PVC resin every year, so the DGFT notification is unlikely to significantly reduce imports despite increasing their cost,&quot;…</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>14:02</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/indicators/indian-corporates-to-clock-9-aggregate-revenue-in-fy27-fitch/articleshow/132706068.cms">Indian corporates to clock 9% aggregate revenue in FY27: Fitch</a></h3>
-<p class="long">Fitch, however, said that some corporates could be vulnerable to a re-escalation of hostilities between the US and Iran, which could push up oil prices, fuel marketing losses and raise working capital needs at oil refining and marketing companies, pressuring free cash flow. Also read: Fitch warns AI market correction emerging as major global credit risk &quot;Chemical companies could also face higher costs, softer demand and pricier logistics. We would expect the related rise in inflation and weaker…</p>
+<p>Fitch, however, said that some corporates could be vulnerable to a re-escalation of hostilities between the US and Iran, which could push up oil prices, fuel marketing losses and raise working capital needs at oil refining and marketing companies, pressuring free cash flow. Also read: Global developed market debt to hit record $75.8…</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>13:43</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/indicators/indian-economy-shows-recovery-despite-global-uncertainties-private-investment-gains-momentum-report/articleshow/132706304.cms">Indian economy shows recovery despite global uncertainties, private investment gains momentum: Report</a></h3>
-<p class="long">The report said the economy has continued to hold up well despite headwinds from geopolitical tensions in West Asia and weather-related risks, with manufacturing, construction, services, consumption and labour market indicators largely showing steady or improving trends. &quot;The Indian economy seems to be holding up rather well in the current uncertain macroeconomic environment, with most high-frequency indicators suggesting steady or improving growth outlook across sectors,&quot; the report said.…</p>
+<p>Demonstrating remarkable resilience, India&#x27;s economy witnesses a comprehensive recovery across sectors, coupled with an increase in industrial credit. Nonetheless, macroeconomic uncertainty looms from external elements like oil prices and seasonal monsoon rains, but these risks remain manageable, revealing a complex landscape of growth…</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>12:48</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/infrastructure/centre-clears-ballari-guntakal-multi-tracking-project-to-boost-karnataka-andhra-rail-capacity/videoshow/132705069.cms">Centre clears Ballari-Guntakal multi-tracking project to boost Karnataka-Andhra rail capacity</a></h3>
-<p class="long">More ScienceDefenceInternationalUS NewsGlobal TrendsCanada NewsUK NewsAustraliaNew ZealandSaudi ArabiaUAESingaporeHong KongBusinessWorld NewsET ExplainsCompanyCorporate TrendsIndustryTrendingMorning Brief PodcastET EvokeBengaluru NewsPune NewsMumbai NewsVideosLatest NewsMost ReadMost SharedMost Commented Centre clears Ballari-Guntakal multi-tracking project to boost Karnataka-Andhra rail capacity The Centre approves an approximately ₹1,300 crore project to add third and fourth railway lines on…</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>11:23</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/policy/rajasthan-fast-tracks-water-infrastructure-with-5100-crore-amrut-2-0-projects-and-ramjal-setu-link-project-cm-bhajan-lal/articleshow/132701929.cms">Rajasthan fast-tracks water infrastructure with ₹5,100 crore AMRUT 2.0 projects and Ramjal Setu Link Project: CM Bhajan Lal</a></h3>
-<p class="long">Addressing the Rajasthan Water Conclave organised by The Economic Times in Jaipur, Sharma said the state government had made water security a top priority from the outset of its tenure. He added that several landmark initiatives have since been launched to ensure long-term drinking water availability, expand irrigation, and conserve groundwater. Highlighting the Centre’s initiatives, the Chief Minister said programmes, such as Catch the Rain, Namami Gange, Jal Jeevan Mission, Atal Bhujal…</p>
+<p>The Ramjal Setu Link Project and Yamuna Water Agreement will secure drinking water. Flagship schemes are strengthening drinking water infrastructure and rural supply.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>10:44</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/kazakhstan-eyes-stronger-trade-ties-with-west-bengal/articleshow/132701440.cms">Kazakhstan eyes stronger trade ties with West Bengal</a></h3>
-<p class="">Kazakhstan&#x27;s ambassador expressed keen interest in expanding business engagement with West Bengal. The nation views West Bengal as a crucial gateway to northeast India and Southeast Asia. Cooperation is sought across pharmaceuticals, mining, energy, and manufacturing sectors. A high-level business delegation will visit India in September for discussions.…</p>
+<p>Kazakhstan&#x27;s ambassador expressed keen interest in expanding business engagement with West Bengal. The nation views West Bengal as a crucial gateway to northeast India and Southeast Asia.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>05:49</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/agriculture/tracking-pulses-low-kharif-sowing-sparks-supply-concerns-how-big-is-the-risk/articleshow/132696943.cms">Tracking pulses: Low kharif sowing sparks supply concerns; how big is the risk?</a></h3>
-<p class="">Experts say the next few weeks of monsoon will decide if the acreage shortfall stays manageable or turns into a bigger supply and price risk for pulses.</p>
+<p>Experts say the next few weeks of monsoon will decide if the acreage shortfall stays manageable or turns into a bigger supply and price risk for pulses.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>05:30</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/indicators/indias-factory-output-grows-7-3-in-june-fastest-pace-in-nearly-two-years/articleshow/132693048.cms">India&#x27;s factory output grows 7.3% in June, fastest pace in nearly two years</a></h3>
-<p class="">India&#x27;s industrial production surged 7.3% in June, marking its fastest growth in nearly two years. Manufacturing and electricity generation showed a sharp acceleration, exceeding economists&#x27; expectations. This strong performance suggests robust domestic economic growth despite global uncertainties. Capital goods, primary goods, and intermediate goods were…</p>
+<p>India&#x27;s industrial production surged 7.3% in June, marking its fastest growth in nearly two years. Capital goods, primary goods, and intermediate goods were key contributors to this expansion.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>00:35</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/agriculture/govt-imposes-stock-limit-on-sugar-from-aug-1-to-nov-30-to-prevent-hoarding-during-festival-season/articleshow/132693718.cms">Govt imposes stock limit on sugar from Aug 1 to Nov 30 to prevent hoarding during festival season</a></h3>
-<p class="">The government has imposed nationwide stock limits on private sugar traders. These restrictions will be in force from August 1 to November 30. Dealers cannot hold more than 4,000 quintals of sugar at any single location. A quota of 2.25 million tonnes of sugar has been announced for August. Physical verification of stocks with sugar mills will occur during…</p>
+<p>A quota of 2.25 million tonnes of sugar has been announced for August. Physical verification of stocks with sugar mills will occur during August 1-14.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>22:48</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/india-china-border-trade-via-lipulekh-to-start-from-aug-1-china-allows-20-traders-to-cross-border/articleshow/132690664.cms">India-China border trade via Lipulekh to start from Aug 1, China allows 20 traders to cross border</a></h3>
-<p class="">Border trade between India and China via Lipulekh Pass will resume on August 1. Twenty Indian traders will visit Purang to check preparedness and existing stock. This trade, halted in 2019 due to the pandemic, is vital for the region. Local traders and tribal communities anticipate significant economic relief from this resumption. Necessary arrangements are…</p>
+<p>Border trade between India and China via Lipulekh Pass will resume on August 1. This trade, halted in 2019 due to the pandemic, is vital for the region.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>21:56</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/policy/pm-modi-chairs-second-high-level-meeting-with-secretaries-reviews-agenda-for-viksit-bharat/articleshow/132689639.cms">PM Modi chairs second high-level meeting with Secretaries, reviews agenda for Viksit Bharat</a></h3>
-<p class="">Prime Minister Narendra Modi chaired a high-level meeting reviewing future action agendas. Discussions focused on finance, commerce, and technology sectors for Viksit Bharat goals. The Prime Minister urged stronger coordination among government departments and ministries. Officers were encouraged to work with a shared purpose for integrated outcomes. This…</p>
+<p>Prime Minister Narendra Modi chaired a high-level meeting reviewing future action agendas. The Prime Minister urged stronger coordination among government departments and ministries.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>21:26</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/finance/itc-fraud-worth-rs-74782-crore-detected-in-fy26-maharashtra-gujarat-lead/articleshow/132688868.cms">ITC fraud worth Rs 74,782 crore detected in FY26; Maharashtra, Gujarat lead</a></h3>
-<p class="">Central GST officers detected over 30,000 input tax credit fraud cases in 2025-26. These cases involved approximately Rs 74,782 crore and led to 358 arrests. Maharashtra and Gujarat reported the highest number of fraud cases and associated financial values. Fake GST registrations using forged documents also contributed to substantial ITC fraud. The number…</p>
+<p>Central GST officers detected over 30,000 input tax credit fraud cases in 2025-26. The number of detected fraud cases has sharply increased over the past three years.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>19:44</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/policy/govt-cos-request-rbi-to-extend-concessional-forex-swap-by-three-months/articleshow/132686719.cms">Govt companies request RBI to extend concessional forex swap by three months</a></h3>
-<p class="">Public sector firms want the RBI&#x27;s forex swap facility extended by three months. This facility helps government companies hedge dollar costs for external borrowing. Banks have already mobilized over twenty billion dollars through this special swap scheme. The inflow of dollars is expected to ease pressure on the Indian rupee. This concessional hedging cost…</p>
+<p>Public sector firms want the RBI&#x27;s forex swap facility extended by three months. This facility helps government companies hedge dollar costs for external borrowing.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>19:01</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/policy/govt-considering-proposal-to-ease-fdi-norms-for-downstream-investments-sources/articleshow/132685726.cms">Govt considering proposal to ease FDI norms for downstream investments: Sources</a></h3>
-<p class="">The government is considering easing foreign direct investment norms for downstream investments. This move aims to boost overseas fund inflows and create new jobs. Most sectors are already open to 100 percent foreign investment under the automatic route. India has attracted significant FDI inflows between 2014-15 and 2025-26. Continuous policy reviews…</p>
+<p>The government is considering easing foreign direct investment norms for downstream investments. Continuous policy reviews ensure India remains an attractive investment destination.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>19:00</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/trade-gap-seen-as-by-product-of-indias-development-stage-investment-needs-energy-dependence-govt-to-parliament/articleshow/132685608.cms">Trade gap seen as by-product of India&#x27;s development stage, investment needs, energy dependence: Govt to Parliament</a></h3>
-<p class="">India&#x27;s imports grew significantly, reflecting domestic demand and manufacturing expansion, the govt said. The trade deficit highlights development needs and energy dependence for economic growth, it added.</p>
+<p>India&#x27;s imports grew significantly, reflecting domestic demand and manufacturing expansion, the govt said. The trade deficit highlights development needs and energy dependence for economic growth, it added.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>18:02</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/infrastructure/infrastructure-projects-see-cost-overrun-of-rs-4-92-lakh-cr-mospi/articleshow/132684604.cms">Infrastructure projects see cost overrun of Rs 4.92 lakh cr: MoSPI</a></h3>
-<p class="">Infrastructure projects worth over Rs 150 crore each registered substantial cost overruns. A total of 1,847 projects monitored showed revised costs exceeding original estimates. Significant progress is noted with many projects nearing completion and advanced stages. The Transport and Logistics sector leads in ongoing projects and revised costs. Energy and…</p>
+<p>Infrastructure projects worth over Rs 150 crore each registered substantial cost overruns. A total of 1,847 projects monitored showed revised costs exceeding original estimates.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>17:43</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/agriculture/nagaland-university-study-generates-insights-on-climate-variability-effects-on-soil-microbes-biological-health-in-assams-tea-plantations/articleshow/132684306.cms">Nagaland University study generates insights on climate variability effects on soil microbes &amp; biological health in Assam’s tea plantations</a></h3>
-<p class="">The study identified climatic conditions that support beneficial microbial activity and enzyme functions. Findings established soil microbial communities as sensitive indicators of environmental change and sustainable tea production. This work will support climate-resilient tea production by improving soil health monitoring.</p>
+<p>Findings established soil microbial communities as sensitive indicators of environmental change and sustainable tea production. This work will support climate-resilient tea production by improving soil health monitoring.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>17:27</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/agriculture/govt-cracks-down-on-sugar-hoarding-imposes-30-day-stock-limits-from-aug-1-till-nov-30/articleshow/132683925.cms">Govt cracks down on sugar hoarding, imposes 30-day stock limit from Aug 1 till Nov 30</a></h3>
-<p class="">The Centre has imposed stock holding limits on sugar dealers nationwide from August 1 to November 30. This measure aims to curb hoarding and speculative trading, ensuring adequate domestic availability. The government will closely monitor market activities and take further steps if needed. Sugar prices have climbed to record highs recently, prompting…</p>
+<p>The Centre has imposed stock holding limits on sugar dealers nationwide from August 1 to November 30. Sugar prices have climbed to record highs recently, prompting government intervention.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>17:22</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/policy/barclays-sees-rbi-holding-rates-in-aug-policy-as-fcnrb-inflows-ease-rupee-concerns/articleshow/132683939.cms">Barclays sees RBI holding rates in Aug policy as FCNR(B) inflows ease rupee concerns</a></h3>
-<p class="">In the forthcoming monetary policy meeting, the Reserve Bank of India is likely to maintain the current interest rates. The recent surge in foreign capital has mitigated fears surrounding the rupee&#x27;s performance. However, sustained inflation levels pose a significant challenge for the bank&#x27;s decisions. The current geopolitical landscape and the impacts of…</p>
+<p>In the forthcoming monetary policy meeting, the Reserve Bank of India is likely to maintain the current interest rates. The current geopolitical landscape and the impacts of El Nino necessitate a cautious approach, with close attention to inflation metrics and oil price fluctuations.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>17:20</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/indicators/macroeconomic-fundamentals-of-indian-economy-remain-strong-amid-global-challenges/articleshow/132683725.cms">Macroeconomic fundamentals of Indian economy remain strong amid global challenges</a></h3>
-<p class="">India&#x27;s economy shows strong macroeconomic fundamentals and a resilient financial system. Robust domestic demand and healthy corporate balance sheets support sustained economic growth. The Indian Rupee has depreciated against the US Dollar due to global events. Regional Rural Banks and Public Sector Banks have reported record profits. Government initiatives…</p>
+<p>India&#x27;s economy shows strong macroeconomic fundamentals and a resilient financial system. Regional Rural Banks and Public Sector Banks have reported record profits.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>16:29</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/agriculture/indias-rice-exports-surge-5-in-h1-2026-non-basmati-demand-drives-growth-amid-global-market-disruptions/articleshow/132682529.cms">India&#x27;s January to June rice exports climb 5% as non-basmati shipments rise, sources say</a></h3>
-<p class="">India&#x27;s rice exports grew five percent in early 2026, driven by non-basmati shipments. Higher demand from African nations boosted non-basmati rice exports significantly. Basmati rice exports saw a decline due to trade disruptions with Gulf markets. Corn exports surged four hundred percent, and wheat exports also increased substantially. These export trends…</p>
+<p>India&#x27;s rice exports grew five percent in early 2026, driven by non-basmati shipments. Corn exports surged four hundred percent, and wheat exports also increased substantially.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>16:05</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/indicators/indias-industrial-output-quickens-to-7-3-in-june-from-5-1-in-may-as-manufacturing-electricity-growth-accelerates/articleshow/132681466.cms">India’s industrial output quickens to 7.3% in June from 5.1% in May as manufacturing, electricity growth accelerates</a></h3>
-<p class="">India&#x27;s industrial output marked a notable 7.3 percent growth in June 2026, fueled by a strong surge in manufacturing and an uptick in electricity provision. The mining sector enjoyed modest advancements, while water supply experienced more gradual improvements. Additionally, the revision of the IIP methodology to include Output PPI as a deflator enhances…</p>
+<p>India&#x27;s industrial output marked a notable 7.3 percent growth in June 2026, fueled by a strong surge in manufacturing and an uptick in electricity provision. Additionally, the revision of the IIP methodology to include Output PPI as a deflator enhances measurement precision and aligns with global practices.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>13:18</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/agriculture/indias-summer-crop-planting-gathers-pace-as-monsoon-revives/articleshow/132678417.cms">Monsoon revival boosts summer crop planting in India</a></h3>
-<p class="">A revival in monsoon rains has accelerated the sowing of key summer crops across India, helping farmers recover from an early-season slowdown caused by delayed and below-normal rainfall. The sowing gap has narrowed to less than 5%, with rice, soybean and cotton planting picking up after widespread July rains, although some regions continue to face…</p>
+<p>A revival in monsoon rains has accelerated the sowing of key summer crops across India, helping farmers recover from an early-season slowdown caused by delayed and below-normal rainfall. The sowing gap has narrowed to less than 5%, with rice, soybean and cotton planting picking up after widespread July rains, although some regions…</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>10:38</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/india-dgft-pvc-resin-import-rule-homes-infrastructure-pipes-costlier/articleshow/132675606.cms">India&#x27;s new import rule that could make homes and infrastructure costlier</a></h3>
-<p class="">India&#x27;s new policy imposing a minimum import price on PVC resin is expected to result in higher domestic prices. This strategy supports local manufacturers but also elevates costs for downstream industries, putting additional financial strain on small businesses. Given the nation&#x27;s substantial import reliance, this initiative is unlikely to lessen…</p>
+<p>India&#x27;s new policy imposing a minimum import price on PVC resin is expected to result in higher domestic prices. This strategy supports local manufacturers but also elevates costs for downstream industries, putting additional financial strain on small businesses.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>10:13</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/finance/what-are-plastic-notes-explained-rbi-polymer-notes-indian-currency-rs-10-rs-20-notes-why-india-wants-plastic-currency-but-wont-replace-paper-notes/articleshow/132674987.cms">Plastic notes in India coming soon: Why govt wants polymer banknotes, which countries use them and how these currencies help</a></h3>
-<p class="">Why is RBI introducing plastic notes?The government&#x27;s approval for RBI polymer notes has renewed focus on why RBI plastic notes are needed. Polymer banknotes last two to six times longer than paper Indian currency, reduce printing and replacement costs, improve durability, lower environmental impact and are already used by more than 60 countries, including…</p>
+<p>Why is RBI introducing plastic notes?The government&#x27;s approval for RBI polymer notes has renewed focus on why RBI plastic notes are needed. Polymer banknotes last two to six times longer than paper Indian currency, reduce printing and replacement costs, improve durability, lower environmental impact and are already used by more than 60…</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>09:46</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/indicators/weak-investments-higher-oil-prices-to-slow-indias-gdp-growth-to-6-6-in-fy27-poll/articleshow/132674815.cms">Weak investments, higher oil prices to slow India&#x27;s GDP growth to 6.6% in FY27: Poll</a></h3>
-<p class="">India&#x27;s economic growth is projected to slow significantly this fiscal year. Private investment remains weak, and higher oil prices will impact domestic demand. Economists suggest official figures may overstate the economy&#x27;s true underlying strength. Companies hesitate to expand capacity due to demand uncertainty and global factors. The Reserve Bank of…</p>
+<p>India&#x27;s economic growth is projected to slow significantly this fiscal year. Private investment remains weak, and higher oil prices will impact domestic demand.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>06:17</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/us-india-expanding-cooperation-in-defence-civil-nuclear-sector-says-senior-us-official/articleshow/132673040.cms">US, India expanding cooperation in defence, civil nuclear sector, says senior US official</a></h3>
-<p class="">The United States and India are expanding defense and civil nuclear cooperation. Trusted AI and emerging technologies are being adopted to power their economies. India has acquired numerous US defense equipment since 2002. American nuclear power companies are exploring civil nuclear sector collaboration. This engagement strengthens supply chains critical to…</p>
+<p>The United States and India are expanding defense and civil nuclear cooperation. American nuclear power companies are exploring civil nuclear sector collaboration.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>23:37</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/policy/gst-panel-may-consider-allowing-transfer-of-unused-tax-credit-within-corporate-groups/articleshow/132668702.cms">GST panel may consider allowing transfer of unused tax credit within corporate groups</a></h3>
-<p class="">A key GST panel will consider industry suggestions for transferring unutilised input tax credit. Exempting intra-group corporate guarantees from tax levies is also under review. These recommendations will then go before the GST Council for its next meeting. Industry seeks efficient credit utilisation and improved corporate cash flow management. The proposed…</p>
+<p>A key GST panel will consider industry suggestions for transferring unutilised input tax credit. Industry seeks efficient credit utilisation and improved corporate cash flow management.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>23:37</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/agriculture/erratic-monsoon-pushes-farmers-towards-low-water-crops-vegetables/articleshow/132668696.cms">Erratic monsoon pushes farmers towards low-water crops, vegetables</a></h3>
-<p class="">Erratic monsoon is reshaping India&#x27;s kharif sowing patterns this season. Farmers are shifting acreage from staples to hardy crops and vegetables. Sunflower acreage has jumped significantly, and other crops like sesamum have also risen. Seed companies report increased demand for short-duration vegetables and onion seeds. Sweet corn has also emerged as…</p>
+<p>Farmers are shifting acreage from staples to hardy crops and vegetables. Sunflower acreage has jumped significantly, and other crops like sesamum have also risen.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>23:07</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/finance-ministry-imposes-anti-dumping-duty-on-low-ash-met-coke/articleshow/132667714.cms">Finance Ministry imposes anti-dumping duty on low ash met coke</a></h3>
-<p class="">Directorate General of Trade Remedies had concluded in April 2026 the product under consideration has been exported to India from the subject countries at dumped prices. This had caused harm to the domestic industry.</p>
+<p>Directorate General of Trade Remedies had concluded in April 2026 the product under consideration has been exported to India from the subject countries at dumped prices. This had caused harm to the domestic industry.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>21:12</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/finance/govt-approves-rbis-trials-of-10-20-polymer-notes-no-plan-to-replace-paper-currency/articleshow/132665451.cms">Govt approves RBI&#x27;s trials of ₹10, ₹20 polymer notes; no plan to replace paper currency</a></h3>
-<p class="">The government has approved the Reserve Bank of India&#x27;s proposal for polymer banknotes. One billion pieces each of ten and twenty rupee polymer notes will undergo field trials. These new notes are expected to be more durable and have a longer lifespan. The introduction of polymer notes is still in a preliminary phase.</p>
+<p>One billion pieces each of ten and twenty rupee polymer notes will undergo field trials. The introduction of polymer notes is still in a preliminary phase.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>20:03</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/agriculture/centre-to-release-rs-335-crore-to-maharashtra-as-second-instalment-under-rkvy-scheme-agriculture-minister-shivraj-singh-chouhan/articleshow/132664157.cms">Centre to release Rs 335 crore to Maharashtra as second instalment under RKVY scheme: Agriculture Minister Shivraj Singh Chouhan</a></h3>
-<p class="">According to an official statement, the minister chaired a virtual review meeting to assess the utilisation of funds released under the RKVY and to consider the issuance of the Second Installment (Second Mother Sanction) to the Government of Maharashtra.</p>
+<p>According to an official statement, the minister chaired a virtual review meeting to assess the utilisation of funds released under the RKVY and to consider the issuance of the Second Installment (Second Mother Sanction) to the Government of Maharashtra.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>19:38</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/policy/no-proposal-for-one-time-waiver-of-loans-of-small-marginal-farmers-mos-finance/articleshow/132663816.cms">No proposal for one-time waiver of loans of small, marginal farmers: MoS Finance</a></h3>
-<p class="">The government has no current proposal for a one-time loan waiver for farmers. The Reserve Bank of India offers financial restructuring options for distressed borrowers. The government has approved a proposal for polymer banknotes in Rs 10 and Rs 20 denominations. These polymer notes will have a longer lifespan than paper currency. The Emergency Credit Line…</p>
+<p>The government has no current proposal for a one-time loan waiver for farmers. The government has approved a proposal for polymer banknotes in Rs 10 and Rs 20 denominations.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>17:33</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/indicators/number-of-billionaires-grows-4-fold-in-five-years-to-576-in-ay26-income-tax-return-data/articleshow/132660839.cms">Number of billionaires grows 4-fold in five years to 576 in AY&#x27;26: Income tax return data</a></h3>
-<p class="">Five hundred seventy-six individuals reported over Rs 100 crore income in 2025-26. This figure shows a fourfold increase from the previous five years. The number of high-income earners rose significantly after a dip in 2024. Labour markets have recovered beyond pre-COVID levels, reducing unemployment. Government measures aim to reduce inequality and foster…</p>
+<p>Five hundred seventy-six individuals reported over Rs 100 crore income in 2025-26. This figure shows a fourfold increase from the previous five years.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>15:24</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/indias-engineering-exports-climb-21-to-11-48-bn-as-china-demand-surges-74/articleshow/132657488.cms">India&#x27;s engineering exports climb 21% to $11.48 bn as China demand surges 74%</a></h3>
-<p class="">India&#x27;s engineering exports rose 21% year-on-year to $11.48 billion in June, supported by strong demand from China, the US, Germany and Oman despite shipping disruptions in the Red Sea and Strait of Hormuz. Engineering exports grew 18.09% in the April-June quarter, helping support India&#x27;s merchandise exports amid rising logistics costs.</p>
+<p>India&#x27;s engineering exports rose 21% year-on-year to $11.48 billion in June, supported by strong demand from China, the US, Germany and Oman despite shipping disruptions in the Red Sea and Strait of Hormuz. Engineering exports grew 18.09% in the April-June quarter, helping support India&#x27;s merchandise exports amid rising logistics costs.</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>14:42</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/infrastructure/india-begins-to-china-proof-its-infra-push-after-the-tbm-shock-india-infrastructure-tunnel-boring-machine-china-export-restrictions-construction-equipment-manufacturing/articleshow/132656898.cms">India begins to China-proof its infra push after the TBM shock</a></h3>
-<p class="">India is accelerating efforts to localise mining and construction equipment manufacturing after Chinese export delays disrupted supplies of tunnel boring machines (TBMs) for key infrastructure projects. A proposed incentive scheme aims to reduce import dependence, strengthen supply chains, boost domestic manufacturing, expand exports and support India&#x27;s…</p>
+<p>India is accelerating efforts to localise mining and construction equipment manufacturing after Chinese export delays disrupted supplies of tunnel boring machines (TBMs) for key infrastructure projects. A proposed incentive scheme aims to reduce import dependence, strengthen supply chains, boost domestic manufacturing, expand exports and…</p>
 </div>
 <div class="item"><div class="meta"><span class="call">Economy</span><span>12:45</span></div>
 <h3><a href="https://economictimes.indiatimes.com/news/economy/finance/foreign-capital-inflows-hit-32-billion-as-fcnrb-deposits-break-2013-record/articleshow/132654992.cms">Foreign capital inflows hit $32 billion as FCNR(B) deposits break 2013 record</a></h3>
-<p class="">India has attracted nearly $32 billion in foreign capital since the RBI announced special inflow measures on June 5, Governor Sanjay Malhotra said. FCNR(B) deposits have already exceeded the 2013 record, but strong dollar demand linked to costly oil imports and weak exporter hedging continues to keep the rupee near record lows.</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Economy</span><span>10:47</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/economy/indicators/rbi-to-hold-rates-through-2026-as-growth-risks-outweigh-inflation-poll/articleshow/132652870.cms">RBI to hold rates through 2026 as growth risks outweigh inflation: Poll of economists</a></h3>
-<p class="">Economists predict the Reserve Bank of India will maintain its key interest rate at 5.25% through year-end. This decision comes as the central bank assesses war impacts and current price pressures. Inflation has risen above the target, but a rate hike is considered premature by officials. The RBI will likely avoid using interest rates to defend the…</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Economy</span><span>05:30</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/trilateral-critical-mineral-deals-wider-air-pact-key-to-india-uae-ties-ahead-says-uae-minister/articleshow/132647132.cms">Trilateral critical mineral deals, wider air pact key to India-UAE ties ahead, says UAE Minister</a></h3>
-<p class="">India and the UAE are exploring joint investments in third countries for critical minerals. This strategic partnership aims to secure vital supply chains for future industries. Enhancing air services pact is crucial for boosting trade and tourism growth. Increased seat entitlements will lower airfares and connect more Indian cities. Both nations aim to…</p>
-</div>
-<div class="item"><div class="meta"><span class="call">Economy</span><span>00:27</span></div>
-<h3><a href="https://economictimes.indiatimes.com/news/economy/agriculture/steps-likely-to-safeguard-fcv-tobacco-farmers/articleshow/132647058.cms">Steps likely to safeguard FCV tobacco farmers</a></h3>
-<p class="">The government is currently investigating ways to protect the interests of FCV tobacco farmers. On July 25, a ministry team traveled to Andhra Pradesh to review the ongoing market climate. Their discussions emphasized strategies to support growers while ensuring the industry&#x27;s stability. Additional Secretary Nitin Kumar Yadav reassured farmers about ongoing…</p>
+<p>India has attracted nearly $32 billion in foreign capital since the RBI announced special inflow measures on June 5, Governor Sanjay Malhotra said. FCNR(B) deposits have already exceeded the 2013 record, but strong dollar demand linked to costly oil imports and weak exporter hedging continues to keep the rupee near record lows.</p>
 </div>
 </section>
-<footer><span>Generated Wednesday, 29 July 2026 · 16:36 IST</span><span><a href="archive.html">◂ Archive</a></span></footer>
+<section class="sec"><h2>Substacks<span class="n">02</span></h2>
+<div class="item"><div class="meta"><span class="call">Ameya Deosthali</span><span>19:31</span></div>
+<h3><a href="https://valueequityin.substack.com/p/coforge-q1fy27-amines-space-and-iex">Coforge Q1FY27 , Amines space and IEX investor day</a></h3>
+<p>Disc: this is not investment advice/financial recommendation , this is just market discussion based on public information , I may be biased in these names , do your own due diligence and research , bucket of salt biased opinions</p>
+</div>
+<div class="item"><div class="meta"><span class="call">Ameya Deosthali</span><span>19:05</span></div>
+<h3><a href="https://valueequityin.substack.com/p/one-source-pharma-ramkrishna-forgings">One Source Pharma , Ramkrishna Forgings and Northern Arc numbers</a></h3>
+<p>Disc: this is not investment advice or financial advice, just a discussion on public information and my opinions</p>
+</div>
+</section>
+<footer><span>Generated Wednesday, 29 July 2026 · 20:57 IST</span><span><a href="archive.html">◂ Archive</a></span></footer>
 </div></body></html>
