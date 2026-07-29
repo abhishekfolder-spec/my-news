@@ -4,8 +4,8 @@ Daily news digest builder.
 
 Pulls a set of RSS/Atom feeds (Substacks, X Lists, Economic Times, Moneycontrol,
 anything with a feed), optionally enriches headline-only items with the full
-article body, then renders a static HTML dashboard + a dated archive copy that
-GitHub Pages can serve.
+article body, condenses everything with a built-in (key-free) summariser, then
+renders a static HTML dashboard + a dated archive copy for GitHub Pages.
 
 Usage:
     python digest.py              # normal run (reads config.yaml)
@@ -14,7 +14,6 @@ Usage:
 
 import os
 import re
-import sys
 import html
 import hashlib
 import argparse
@@ -26,6 +25,8 @@ import yaml
 import feedparser
 import requests
 from bs4 import BeautifulSoup
+
+import summarize                      # the built-in, no-key summariser
 
 try:
     from zoneinfo import ZoneInfo
@@ -41,18 +42,36 @@ except Exception:
 ROOT = pathlib.Path(__file__).resolve().parent
 DOCS = ROOT / "docs"
 ARCHIVE = DOCS / "archive"
-UA = "Mozilla/5.0 (compatible; daily-news-digest/1.0; +https://github.com/)"
+BROWSER_HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"),
+    "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8",
+}
+# Free relay used only as a fallback when a site (e.g. Substack) blocks GitHub's IP.
+PROXY = "https://api.allorigins.win/raw?url="
 PLACEHOLDER = re.compile(r"^\s*(PASTE_|https?://PASTE_)", re.I)
 
 
 # --------------------------------------------------------------------------- #
 #  Fetching + parsing
 # --------------------------------------------------------------------------- #
-def fetch_feed(url, timeout=25):
-    """Download a feed with a real UA and hand the bytes to feedparser."""
-    resp = requests.get(url, headers={"User-Agent": UA}, timeout=timeout)
+def _http_get(u, timeout):
+    resp = requests.get(u, headers=BROWSER_HEADERS, timeout=timeout)
     resp.raise_for_status()
-    return feedparser.parse(resp.content)
+    return resp
+
+
+def fetch_feed(url, timeout=25, allow_proxy=False):
+    """Fetch a feed. If the site blocks us (e.g. Substack blocks GitHub IPs) and
+    allow_proxy is on, retry once through a free relay so the request no longer
+    comes straight from the blocked datacenter IP."""
+    try:
+        return feedparser.parse(_http_get(url, timeout).content)
+    except Exception:
+        if not allow_proxy:
+            raise
+        proxied = PROXY + requests.utils.quote(url, safe="")
+        return feedparser.parse(_http_get(proxied, timeout).content)
 
 
 def entry_datetime(entry):
@@ -64,7 +83,6 @@ def entry_datetime(entry):
 
 
 def entry_body_html(entry):
-    """Best available body: content > summary > description."""
     if entry.get("content"):
         return entry["content"][0].get("value", "") or ""
     return entry.get("summary", "") or entry.get("description", "") or ""
@@ -79,7 +97,6 @@ def to_text(raw_html, limit=None):
 
 
 def enrich_full_text(url, timeout=20):
-    """Follow an article link and extract the readable body (best effort)."""
     if not HAVE_TRAFILATURA:
         return None
     try:
@@ -93,13 +110,13 @@ def enrich_full_text(url, timeout=20):
 
 
 def collect_source(src, settings):
-    """Fetch one source and return (report_line, [items])."""
     name, url = src["name"], src.get("url", "")
     if not url or PLACEHOLDER.match(url):
         return (f"  skip  {name}  (no URL set)", [])
 
+    allow_proxy = bool(src.get("proxy")) or "substack.com" in url
     try:
-        parsed = fetch_feed(url)
+        parsed = fetch_feed(url, allow_proxy=allow_proxy)
     except Exception as exc:
         return (f"  FAIL  {name}  ({type(exc).__name__})", [])
 
@@ -113,8 +130,7 @@ def collect_source(src, settings):
         when = entry_datetime(entry)
         if when and when < cutoff:
             continue
-        body_html = entry_body_html(entry)
-        summary = to_text(body_html, limit=360)
+        raw = to_text(entry_body_html(entry))
         full = None
         if (src.get("enrich") and settings["enrich_full_text"]
                 and enriched < settings["enrich_limit_per_feed"]):
@@ -124,7 +140,7 @@ def collect_source(src, settings):
         items.append({
             "title": to_text(entry.get("title", "(untitled)")),
             "link": entry.get("link", ""),
-            "summary": summary,
+            "summary": raw,
             "full": full,
             "when": when,
             "source": name,
@@ -161,44 +177,27 @@ def group_by_category(items, order):
 
 
 # --------------------------------------------------------------------------- #
-#  Summaries
+#  Optional AI brief (OFF by default; the built-in summariser needs no key)
 # --------------------------------------------------------------------------- #
-def heuristic_brief(grouped, per_cat=6):
-    """Free brief: the most recent items in each category, no AI needed."""
-    brief = []
-    for cat, items in grouped:
-        top = [{"title": it["title"], "source": it["source"], "link": it["link"]}
-               for it in items[:per_cat]]
-        if top:
-            brief.append((cat, top))
-    return brief
-
-
 def ai_brief(items, settings, api_key):
-    """Optional AI brief. Returns markdown-ish text or None on failure."""
     try:
         from anthropic import Anthropic
     except Exception:
+        print("  (anthropic package not installed; using built-in brief)")
         return None
     lines = [f"- [{it['category']}] {it['source']}: {it['title']}"
              for it in items[:150]]
-    prompt = (
-        "You are a sharp markets & macro analyst writing a private morning "
-        "brief for one reader. From the headlines below, write 8–12 tight "
-        "bullets grouping the day's most important themes. Be specific with "
-        "names and numbers, skip filler, and finish with 2–3 'Watch' items.\n\n"
-        + "\n".join(lines)
-    )
+    prompt = ("You are a markets & macro analyst writing a private morning brief. "
+              "From the headlines below, write 8-12 tight bullets grouping the "
+              "day's key themes, then 2-3 'Watch' items.\n\n" + "\n".join(lines))
     try:
         client = Anthropic(api_key=api_key)
         msg = client.messages.create(
             model=settings.get("ai_model", "claude-sonnet-5"),
-            max_tokens=1300,
-            messages=[{"role": "user", "content": prompt}],
-        )
+            max_tokens=1300, messages=[{"role": "user", "content": prompt}])
         return "".join(b.text for b in msg.content if b.type == "text").strip()
     except Exception as exc:
-        print(f"  (AI summary failed: {exc}; using free brief)")
+        print(f"  (AI brief failed: {exc}; using built-in brief)")
         return None
 
 
@@ -213,12 +212,9 @@ CSS = """
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--ink);
-  font-family:'Newsreader',Georgia,serif;line-height:1.5;
-  font-optical-sizing:auto}
+  font-family:'Newsreader',Georgia,serif;line-height:1.5;font-optical-sizing:auto}
 a{color:inherit;text-decoration:none}
 .wrap{max-width:940px;margin:0 auto;padding:0 20px 80px}
-
-/* ---- masthead: telex-style transmission header ---- */
 .mast{border-bottom:2px solid var(--ink);padding:26px 0 10px;margin-bottom:6px}
 .mast h1{font-family:'Space Grotesk',sans-serif;font-weight:700;
   letter-spacing:-.02em;font-size:clamp(30px,6vw,54px);margin:0;line-height:.98}
@@ -230,26 +226,25 @@ a{color:inherit;text-decoration:none}
   border-top:1px solid var(--line);padding-top:9px}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--amber);
   display:inline-block;box-shadow:0 0 0 3px rgba(192,130,26,.18)}
-
-/* ---- the brief ---- */
 .brief{background:var(--card);border:1px solid var(--line);
   border-left:3px solid var(--amber);padding:22px 24px;margin:22px 0 8px}
 .brief h2,.sec h2{font-family:'IBM Plex Mono',monospace;font-size:12px;
   letter-spacing:.18em;text-transform:uppercase;color:var(--amber);
   margin:0 0 14px;font-weight:600}
-.brief .cat{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:13px;
-  letter-spacing:.02em;margin:14px 0 6px;color:var(--ink)}
 .brief ol{margin:0;padding:0;list-style:none;counter-reset:b}
-.brief li{counter-increment:b;position:relative;padding:4px 0 4px 34px;
-  border-bottom:1px dotted var(--line);font-size:16.5px}
+.brief li{counter-increment:b;position:relative;padding:9px 0 9px 34px;
+  border-bottom:1px dotted var(--line)}
 .brief li:last-child{border-bottom:0}
 .brief li::before{content:counter(b,decimal-leading-zero);position:absolute;left:0;
-  top:6px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--amber)}
-.brief li .src{font-family:'IBM Plex Mono',monospace;font-size:10.5px;
+  top:11px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--amber)}
+.brief .hd{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16.5px;
+  line-height:1.3}
+.brief .src{font-family:'IBM Plex Mono',monospace;font-size:10.5px;
   color:var(--ink-soft);text-transform:uppercase;letter-spacing:.04em}
+.brief .gist{font-size:15px;color:#33405c;margin-top:2px}
+.brief .rel{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--amber);
+  text-transform:uppercase;letter-spacing:.05em;margin-left:6px}
 .ai{font-size:16.5px;white-space:pre-wrap}
-
-/* ---- sections + items ---- */
 .sec{margin-top:40px}
 .sec>h2{border-bottom:1px solid var(--rule);padding-bottom:8px;
   display:flex;justify-content:space-between;align-items:baseline}
@@ -267,16 +262,11 @@ a{color:inherit;text-decoration:none}
   transition:background-size .25s ease;padding-bottom:1px}
 .item h3 a:hover{background-size:100% 1.5px}
 .item p{margin:0;color:#33405c;font-size:16px}
-.item p.long{color:var(--ink)}
-
 footer{margin-top:56px;border-top:2px solid var(--ink);padding-top:12px;
   font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.05em;
   text-transform:uppercase;color:var(--ink-soft);
   display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
-
-@media (max-width:560px){
-  .item h3{font-size:17px}.brief li{font-size:15.5px}
-}
+@media (max-width:560px){.item h3{font-size:17px}.brief .hd{font-size:15.5px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 body{animation:fade .5s ease both}
 @keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
@@ -296,14 +286,11 @@ def esc(s):
 
 
 def call_sign(source):
-    """A short monospace 'call sign' from a source name."""
-    return esc(source.split("·")[-1].strip()[:22] if "·" in source
-               else source[:22])
+    return esc(source.split("·")[-1].strip()[:22] if "·" in source else source[:22])
 
 
-def render(date_disp, tape_meta, brief, ai_text, grouped, settings):
+def render(date_disp, tape_meta, themes, ai_text, grouped, settings):
     out = [HEAD.format(title=esc(settings["title"]), date=esc(date_disp), css=CSS)]
-
     out.append('<header class="mast">')
     out.append(f'<h1>{esc(settings["title"])}</h1>')
     out.append(f'<div class="sub">{esc(settings["subtitle"])}</div>')
@@ -311,25 +298,28 @@ def render(date_disp, tape_meta, brief, ai_text, grouped, settings):
                + " ".join(f"<span>{esc(x)}</span>" for x in tape_meta)
                + '</div></header>')
 
-    # The Brief
     out.append('<section class="brief"><h2>The Brief</h2>')
     if ai_text:
         out.append(f'<div class="ai">{esc(ai_text)}</div>')
     else:
-        for cat, tops in brief:
-            out.append(f'<div class="cat">{esc(cat)}</div><ol>')
-            for t in tops:
-                link = esc(t["link"])
-                a = f'<a href="{link}">{esc(t["title"])}</a>' if link else esc(t["title"])
-                out.append(f'<li><span class="src">{call_sign(t["source"])}</span> — {a}</li>')
-            out.append('</ol>')
+        out.append('<ol>')
+        for t in themes:
+            link = esc(t["link"])
+            hd = esc(t["headline"])
+            head = f'<a href="{link}">{hd}</a>' if link else hd
+            rel = f'<span class="rel">+{t["related"]} related</span>' if t["related"] else ""
+            gist = f'<div class="gist">{esc(t["gist"])}{rel}</div>' if t["gist"] else (
+                   f'<div class="gist">{rel}</div>' if rel else "")
+            out.append(f'<li><div class="hd"><span class="src">{call_sign(t["source"])}</span> '
+                       f'{head}</div>{gist}</li>')
+        out.append('</ol>')
     out.append('</section>')
 
-    # Full sections
+    tz = ZoneInfo(settings["timezone"]) if ZoneInfo else dt.timezone.utc
+    sents = settings.get("summary_sentences", 2)
     for cat, items in grouped:
         out.append(f'<section class="sec"><h2>{esc(cat)}'
                    f'<span class="n">{len(items):02d}</span></h2>')
-        tz = ZoneInfo(settings["timezone"]) if ZoneInfo else dt.timezone.utc
         for it in items:
             when = it["when"].astimezone(tz).strftime("%H:%M") if it["when"] else "—"
             out.append('<div class="item"><div class="meta">'
@@ -339,10 +329,10 @@ def render(date_disp, tape_meta, brief, ai_text, grouped, settings):
             title = esc(it["title"])
             out.append(f'<h3><a href="{link}">{title}</a></h3>' if link
                        else f'<h3>{title}</h3>')
-            body = it["full"] or it["summary"]
-            cls = "long" if it["full"] else ""
-            if body:
-                out.append(f'<p class="{cls}">{esc(to_text(body, 500))}</p>')
+            gist = summarize.summarize_text(it.get("full") or it.get("summary") or "",
+                                            max_sentences=sents)
+            if gist:
+                out.append(f'<p>{esc(gist)}</p>')
             out.append('</div>')
         out.append('</section>')
 
@@ -379,9 +369,14 @@ def build(items, settings):
     ai_text = None
     key = os.environ.get("ANTHROPIC_API_KEY")
     if settings.get("use_ai_summary") and key:
-        print("  generating AI brief…")
+        print("  optional AI brief enabled…")
         ai_text = ai_brief(items, settings, key)
-    brief = heuristic_brief(grouped)
+
+    themes = summarize.build_brief(
+        items,
+        max_themes=settings.get("brief_size", 10),
+        summary_sentences=settings.get("summary_sentences", 2),
+    )
 
     tz = ZoneInfo(settings["timezone"]) if ZoneInfo else dt.timezone.utc
     now = dt.datetime.now(tz)
@@ -389,16 +384,17 @@ def build(items, settings):
     tape = [now.strftime("Transmission %Y-%m-%d"),
             f"{len(items)} items",
             f"{len({i['source'] for i in items})} sources",
-            "AI brief" if ai_text else "auto brief"]
+            "AI brief" if ai_text else "self-summarised"]
 
-    page = render(date_disp, tape, brief, ai_text, grouped, settings)
+    page = render(date_disp, tape, themes, ai_text, grouped, settings)
     DOCS.mkdir(parents=True, exist_ok=True)
     ARCHIVE.mkdir(parents=True, exist_ok=True)
+    (DOCS / ".nojekyll").touch()   # tell GitHub Pages: serve HTML as-is, skip Jekyll
     (DOCS / "index.html").write_text(page, encoding="utf-8")
     (ARCHIVE / f"{now.strftime('%Y-%m-%d')}.html").write_text(page, encoding="utf-8")
     rebuild_archive_index(settings)
     print(f"\n  wrote docs/index.html  ({len(items)} items, "
-          f"{len(grouped)} sections)")
+          f"{len(themes)} brief themes, {len(grouped)} sections)")
 
 
 def run(config_path):
@@ -414,7 +410,6 @@ def run(config_path):
 
 
 def run_demo():
-    """Render from bundled sample data so the design can be previewed offline."""
     import sample_data
     cfg = yaml.safe_load(open(ROOT / "config.yaml", encoding="utf-8"))
     build(sample_data.ITEMS, cfg["settings"])
