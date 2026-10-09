@@ -5,6 +5,10 @@ _now = dt.datetime.now(dt.timezone.utc)
 def _ago(h): return _now - dt.timedelta(hours=h)
 
 ITEMS = [
+    {"title":"Talks resume on the Strait of Hormuz shipping corridor after weeks of attacks",
+     "link":"https://example.com/g1","source":"New York Times · World","category":"Geopolitics",
+     "when":_ago(2),"full":None,
+     "summary":"Negotiators met in Muscat to restore safe passage for tankers. Insurers say premiums will stay high until attacks on merchant ships stop."},
     {"title":"Sensex ends 412 pts higher as banks lead; Nifty reclaims 24,900",
      "link":"https://example.com/1","source":"Moneycontrol · Markets","category":"Indian Capital Markets",
      "when":_ago(1),"full":None,
@@ -61,4 +65,17 @@ ITEMS = [
      "link":"https://example.com/e2","source":"Utility Dive","category":"Energy",
      "when":_ago(6),"full":None,
      "summary":"Plant load factors for gas-based capacity fell again as renewables covered peak demand in the afternoon. Utilities are asking regulators for capacity payments to stay viable."},
+]
+
+# Demo-only quotes so the market strip can be previewed without a network call.
+QUOTES = [
+    {"name": "Gold", "unit": "USD/oz", "price": 4189.99, "change": 22.40, "pct": 0.54},
+    {"name": "Silver", "unit": "USD/oz", "price": 50.12, "change": -0.38, "pct": -0.75},
+    {"name": "S&P 500", "price": 6712.40, "change": 38.10, "pct": 0.57},
+    {"name": "Nifty 50", "price": 22520.45, "change": 288.65, "pct": 1.30},
+    {"name": "USD / INR", "price": 96.72, "change": -0.16, "pct": -0.17},
+    {"name": "USD / JPY", "price": 151.34, "change": 0.42, "pct": 0.28},
+    {"name": "US 10Y yield", "unit": "%", "price": 4.62, "change": 0.03, "pct": 0.65},
+    {"name": "India 10Y yield", "unit": "%", "price": 7.27, "change": 0.04, "pct": 0.55},
+    {"name": "Brent crude", "unit": "USD/bbl", "price": 102.79, "change": -1.49, "pct": -1.43},
 ]

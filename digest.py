@@ -14,6 +14,8 @@ Usage:
 
 import os
 import re
+import json
+from urllib.parse import quote as _urlquote
 import html
 import hashlib
 import argparse
@@ -150,6 +152,31 @@ def collect_source(src, settings):
 
 
 # --------------------------------------------------------------------------- #
+#  Market strip (prices + day change). Symbols live in config.yaml -> markets.
+# --------------------------------------------------------------------------- #
+def fetch_quote(item, timeout=20):
+    """Last price and change vs previous close, via Yahoo's public chart JSON."""
+    url = ("https://query1.finance.yahoo.com/v8/finance/chart/"
+           + _urlquote(item["symbol"], safe="") + "?range=5d&interval=1d")
+    try:
+        meta = json.loads(_http_get(url, timeout).content)["chart"]["result"][0]["meta"]
+        price = float(meta["regularMarketPrice"])
+        prev = float(meta.get("chartPreviousClose") or meta["previousClose"])
+        return {"name": item["name"], "unit": item.get("unit", ""), "price": price,
+                "change": price - prev, "pct": (price - prev) / prev * 100}
+    except Exception as exc:
+        print(f"  market {item['name']} FAIL ({type(exc).__name__})")
+        return {"name": item["name"], "unit": item.get("unit", ""), "price": None}
+
+
+def fetch_markets(markets):
+    if not markets:
+        return []
+    with cf.ThreadPoolExecutor(max_workers=6) as ex:
+        return list(ex.map(fetch_quote, markets))
+
+
+# --------------------------------------------------------------------------- #
 #  Dedupe + grouping
 # --------------------------------------------------------------------------- #
 def dedupe(items):
@@ -236,6 +263,17 @@ nav.tabs a:hover{color:var(--ink)}
 nav.tabs a.on{color:var(--green-deep);border-bottom-color:var(--blue)}
 nav.tabs .n{font-size:11.5px;font-weight:600;background:var(--blue-soft);
   color:var(--blue-deep);border-radius:999px;padding:0 7px;line-height:18px}
+.ticker{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:26px}
+@media (min-width:640px){.ticker{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:900px){.ticker{grid-template-columns:repeat(5,1fr)}}
+.tk{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;min-width:0}
+.tk .nm{font-size:12.5px;color:var(--muted);font-weight:550;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tk .px{font-size:19px;font-weight:700;letter-spacing:-.01em;margin-top:2px;white-space:nowrap}
+.tk .ch{font-size:12.5px;font-weight:600;margin-top:2px;white-space:nowrap}
+.tk .up{color:var(--green-deep)}
+.tk .dn{color:var(--blue-deep)}
+.tk .na{color:var(--muted)}
+.ticker-note{font-size:12px;color:var(--muted);margin:-18px 0 26px}
 .pane{padding-top:26px}
 .js .pane{display:none}
 .js .pane.on{display:block}
@@ -317,7 +355,7 @@ TABS_JS = """<script>
 </script>
 """
 
-ICONS = [("macro", "🌍"), ("capital", "📈"), ("market", "📈"), ("india", "📈"),
+ICONS = [("geo", "🌐"), ("macro", "🌍"), ("capital", "📈"), ("market", "📈"), ("india", "📈"),
          ("energy", "⚡"), ("tech", "💻"), ("substack", "✍️")]
 
 
@@ -347,7 +385,20 @@ def slug(cat):
     return "s-" + s if s == "overview" else s
 
 
-def render(date_disp, tape_meta, themes, ai_text, grouped, settings):
+def fmt_quote(q):
+    if q.get("price") is None:
+        return ('<div class="tk"><div class="nm">' + esc(q["name"]) +
+                '</div><div class="px">—</div><div class="ch na">unavailable</div></div>')
+    up = q["change"] >= 0
+    arrow = "▲" if up else "▼"
+    unit = f' <span class="na">{esc(q["unit"])}</span>' if q.get("unit") else ""
+    cls = "up" if up else "dn"
+    return ('<div class="tk"><div class="nm">' + esc(q["name"]) + '</div>'
+            f'<div class="px">{q["price"]:,.2f}{unit}</div>'
+            f'<div class="ch {cls}">{arrow} {q["pct"]:+.2f}%</div></div>')
+
+
+def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None):
     tz = ZoneInfo(settings["timezone"]) if ZoneInfo else dt.timezone.utc
     sents = settings.get("summary_sentences", 2)
     sections = [(slug(cat), cat, items) for cat, items in grouped]
@@ -368,6 +419,9 @@ def render(date_disp, tape_meta, themes, ai_text, grouped, settings):
 
     # Overview pane: brief + section cards
     out.append('<section class="pane" id="overview">')
+    if quotes:
+        out.append('<div class="ticker">' + "".join(fmt_quote(q) for q in quotes) + '</div>')
+        out.append('<div class="ticker-note">Markets: last price and day change. ▲ up · ▼ down.</div>')
     out.append('<div class="callout"><div class="ico">🧭</div><div class="body">'
                '<h2>The Brief</h2>')
     if ai_text:
@@ -443,7 +497,7 @@ def rebuild_archive_index(settings):
 # --------------------------------------------------------------------------- #
 #  Orchestration
 # --------------------------------------------------------------------------- #
-def build(items, settings):
+def build(items, settings, quotes=None):
     items = dedupe(items)
     grouped = group_by_category(items, settings["category_order"])
 
@@ -466,7 +520,9 @@ def build(items, settings):
     date_disp = now.strftime("%A, %d %B %Y · %H:%M %Z")
     tape = []
 
-    page = render(date_disp, tape, themes, ai_text, grouped, settings)
+    if quotes is None:
+        quotes = fetch_markets(settings.get("markets", []))
+    page = render(date_disp, tape, themes, ai_text, grouped, settings, quotes)
     DOCS.mkdir(parents=True, exist_ok=True)
     ARCHIVE.mkdir(parents=True, exist_ok=True)
     (DOCS / ".nojekyll").touch()   # tell GitHub Pages: serve HTML as-is, skip Jekyll
@@ -492,7 +548,7 @@ def run(config_path):
 def run_demo():
     import sample_data
     cfg = yaml.safe_load(open(ROOT / "config.yaml", encoding="utf-8"))
-    build(sample_data.ITEMS, cfg["settings"])
+    build(sample_data.ITEMS, cfg["settings"], quotes=sample_data.QUOTES)
 
 
 if __name__ == "__main__":

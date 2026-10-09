@@ -25,9 +25,23 @@ settings:
   use_ai_summary: false
   ai_model: "claude-sonnet-5"     # change to any model your key can access
 
+  # Market strip on the Overview. Symbols are Yahoo Finance tickers.
+  # VERIFY the India 10Y symbol: it is the least certain of these.
+  markets:
+    - {name: "Gold",             symbol: "GC=F",     unit: "USD/oz"}
+    - {name: "Silver",           symbol: "SI=F",     unit: "USD/oz"}
+    - {name: "S&P 500",          symbol: "^GSPC"}
+    - {name: "Nifty 50",         symbol: "^NSEI"}
+    - {name: "USD / INR",        symbol: "INR=X"}
+    - {name: "USD / JPY",        symbol: "JPY=X"}
+    - {name: "US 10Y yield",     symbol: "^TNX",     unit: "%"}
+    - {name: "India 10Y yield",  symbol: "IN10YT=RR", unit: "%"}
+    - {name: "Brent crude",      symbol: "BZ=F",     unit: "USD/bbl"}
+
   # Order the dashboard sections appear in. Any category not listed is appended.
   category_order:
     - "Global Macro & Markets"
+    - "Geopolitics"
     - "Indian Capital Markets"
     - "Energy"
     - "Technology"
@@ -147,6 +161,14 @@ sources:
   - name: "VentureBeat · AI"
     url: "https://venturebeat.com/category/ai/feed/"                   # VERIFY
     category: "Technology"
+
+  # ---- Geopolitics (same kind of global sources as the macro feeds) -------
+  - name: "New York Times · World"
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"      # VERIFY
+    category: "Geopolitics"
+  - name: "Guardian · World"
+    url: "https://www.theguardian.com/world/rss"                       # VERIFY
+    category: "Geopolitics"
 
   # ---- Substacks (native /feed = FULL text on free posts) -------------------
   # The tool reports which of these resolve. For any marked VERIFY that fail,
