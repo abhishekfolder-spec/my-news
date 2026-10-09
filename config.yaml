@@ -6,7 +6,7 @@
 # ============================================================================
 
 settings:
-  title: "THE DAILY WIRE"
+  title: "The Abhishek Wire"
   subtitle: "Personal markets · macro · micro briefing"
   timezone: "Asia/Kolkata"        # times in the dashboard are shown in this zone
   lookback_hours: 72              # only items published in the last N hours
@@ -14,6 +14,10 @@ settings:
   enrich_full_text: true          # pull full article body for summary-only feeds
   enrich_limit_per_feed: 5        # cap enrichment (keeps the daily run fast)
   fetch_workers: 8                # parallel feed downloads
+  brief_size: 5                   # headlines on the Overview brief
+  brief_categories:               # the Overview brief draws only from these
+    - "Global Macro & Markets"
+    - "Indian Capital Markets"
 
   # AI summary is OFF by default (it needs a paid Anthropic API key).
   # The free heuristic brief runs otherwise. To enable: set this to true AND
@@ -125,6 +129,23 @@ sources:
     category: "Technology"
   - name: "MIT Technology Review"
     url: "https://www.technologyreview.com/feed/"                       # VERIFY
+    category: "Technology"
+
+  # ---- Energy & AI additions (VERIFY = unconfirmed) -------------------------
+  - name: "Mercom India"
+    url: "https://mercomindia.com/feed/"                               # VERIFY
+    category: "Energy"
+  - name: "Powerline"
+    url: "https://www.powerlineindia.com/feed/"                        # VERIFY
+    category: "Energy"
+  - name: "Renewable Energy World"
+    url: "https://www.renewableenergyworld.com/feed/"                  # VERIFY
+    category: "Energy"
+  - name: "TechCrunch · AI"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"  # VERIFY
+    category: "Technology"
+  - name: "VentureBeat · AI"
+    url: "https://venturebeat.com/category/ai/feed/"                   # VERIFY
     category: "Technology"
 
   # ---- Substacks (native /feed = FULL text on free posts) -------------------

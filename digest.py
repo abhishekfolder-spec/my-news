@@ -206,7 +206,7 @@ def ai_brief(items, settings, api_key):
 # --------------------------------------------------------------------------- #
 CSS = """
 :root{--green:#2F6F55;--green-deep:#1E4A38;--green-soft:#DCEBE0;
-  --orange:#E0722B;--orange-deep:#9A4A17;--orange-soft:#FBE3CF;
+  --blue:#2D5F9A;--blue-deep:#1F4476;--blue-soft:#DCE7F4;
   --cream:#FAF4E3;--card:#FFFCF3;--ink:#2A2620;--muted:#716B5D;--line:#E4D9BE}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
@@ -215,15 +215,15 @@ body{margin:0;background:var(--cream);color:var(--ink);
   font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
 .wrap{max-width:860px;margin:0 auto;padding:0 16px 72px}
-.hero{padding:44px 0 22px}
-.cover-icon{font-size:56px;line-height:1}
-.title{font-size:clamp(30px,6vw,44px);font-weight:750;letter-spacing:-.025em;margin:12px 0 2px;line-height:1.1}
-.sub{color:var(--muted);font-size:16px}
+.hero{padding:40px 0 20px;text-align:center}
+.title{font-family:"Pacifico",cursive;font-weight:400;font-size:clamp(40px,8vw,64px);
+  line-height:1.15;margin:0;color:var(--green-deep)}
+.date{font-size:15px;color:var(--muted);margin-top:8px;letter-spacing:.01em}
 .meta-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
 .pill{font-size:13px;font-weight:550;border-radius:999px;padding:3px 12px;
   background:var(--card);border:1px solid var(--line)}
 .pill.g{background:var(--green-soft);border-color:transparent;color:var(--green-deep)}
-.pill.o{background:var(--orange-soft);border-color:transparent;color:var(--orange-deep)}
+.pill.b{background:var(--blue-soft);border-color:transparent;color:var(--blue-deep)}
 nav.tabs{position:sticky;top:0;z-index:10;background:var(--cream);
   border-top:1px solid var(--line);border-bottom:1px solid var(--line);
   margin:0 -16px;padding:0 12px;display:flex;overflow-x:auto;white-space:nowrap;
@@ -233,9 +233,9 @@ nav.tabs a{display:inline-flex;align-items:center;gap:6px;padding:13px 11px 11px
   font-size:14.5px;font-weight:550;color:var(--muted);
   border-bottom:2.5px solid transparent;margin-bottom:-1px;transition:color .15s,border-color .15s}
 nav.tabs a:hover{color:var(--ink)}
-nav.tabs a.on{color:var(--green-deep);border-bottom-color:var(--orange)}
-nav.tabs .n{font-size:11.5px;font-weight:600;background:var(--orange-soft);
-  color:var(--orange-deep);border-radius:999px;padding:0 7px;line-height:18px}
+nav.tabs a.on{color:var(--green-deep);border-bottom-color:var(--blue)}
+nav.tabs .n{font-size:11.5px;font-weight:600;background:var(--blue-soft);
+  color:var(--blue-deep);border-radius:999px;padding:0 7px;line-height:18px}
 .pane{padding-top:26px}
 .js .pane{display:none}
 .js .pane.on{display:block}
@@ -254,13 +254,13 @@ ol.brief li::before{content:counter(b);position:absolute;left:0;top:10px;width:2
   display:flex;align-items:center;justify-content:center}
 ol.brief .hd{font-weight:600;font-size:15.5px;line-height:1.35}
 ol.brief .hd a:hover{text-decoration:underline;text-underline-offset:3px}
-ol.brief .src{display:inline-block;font-size:11.5px;font-weight:600;color:var(--orange-deep);
-  background:var(--orange-soft);border-radius:5px;padding:0 6px;margin-right:6px;vertical-align:1px}
+ol.brief .src{display:inline-block;font-size:11.5px;font-weight:600;color:var(--blue-deep);
+  background:var(--blue-soft);border-radius:5px;padding:0 6px;margin-right:6px;vertical-align:1px}
 ol.brief .gist{font-size:14.5px;color:var(--muted);margin-top:2px}
 ol.brief .rel{font-size:12px;color:var(--green-deep);font-weight:600;margin-left:6px}
 h2.block{font-size:20px;font-weight:700;letter-spacing:-.015em;margin:0 0 14px;
   display:flex;align-items:center;gap:10px}
-h2.block .n{font-size:12px;font-weight:600;color:var(--orange-deep);background:var(--orange-soft);
+h2.block .n{font-size:12px;font-weight:600;color:var(--blue-deep);background:var(--blue-soft);
   border-radius:999px;padding:1px 9px}
 .grid{display:grid;grid-template-columns:1fr;gap:14px}
 @media (min-width:640px){.grid{grid-template-columns:1fr 1fr}}
@@ -269,7 +269,7 @@ h2.block .n{font-size:12px;font-weight:600;color:var(--orange-deep);background:v
 .scard:hover{border-color:var(--green);transform:translateY(-1px)}
 .sh{display:flex;justify-content:space-between;align-items:center;font-weight:650;
   font-size:15.5px;margin-bottom:8px}
-.sh .n{font-size:12px;font-weight:600;color:var(--orange-deep);background:var(--orange-soft);
+.sh .n{font-size:12px;font-weight:600;color:var(--blue-deep);background:var(--blue-soft);
   border-radius:999px;padding:0 8px;line-height:20px}
 .scard ul{list-style:none;margin:0;padding:0}
 .scard li{font-size:14.5px;line-height:1.4;padding:6px 0;border-top:1px solid var(--line)}
@@ -278,10 +278,10 @@ h2.block .n{font-size:12px;font-weight:600;color:var(--orange-deep);background:v
 .row+.row{border-top:1px solid var(--line)}
 .row .meta{display:flex;gap:6px;margin-bottom:6px;flex-wrap:wrap}
 .chip{font-size:12px;font-weight:600;border-radius:5px;padding:1px 7px;line-height:20px}
-.chip.o{background:var(--orange-soft);color:var(--orange-deep)}
+.chip.b{background:var(--blue-soft);color:var(--blue-deep)}
 .chip.g{background:var(--green-soft);color:var(--green-deep)}
 .row h3{font-size:18px;font-weight:650;line-height:1.35;margin:0 0 4px;letter-spacing:-.01em}
-.row h3 a{background-image:linear-gradient(var(--orange),var(--orange));background-size:0 2px;
+.row h3 a{background-image:linear-gradient(var(--blue),var(--blue));background-size:0 2px;
   background-repeat:no-repeat;background-position:0 100%;transition:background-size .25s ease}
 .row h3 a:hover{background-size:100% 2px}
 .row p{margin:0;color:var(--muted);font-size:15px}
@@ -297,7 +297,7 @@ HEAD = """<!doctype html><html lang="en"><head><meta charset="utf-8">
 <title>{title} · {date}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;750&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;750&family=Pacifico&display=swap" rel="stylesheet">
 <style>{css}</style>
 <script>document.documentElement.classList.add('js')</script>
 </head><body><div class="wrap">"""
@@ -325,8 +325,13 @@ def esc(s):
     return html.escape(s or "", quote=True)
 
 
+def pub_name(source):
+    """Publication name only: 'Moneycontrol · Markets' -> 'Moneycontrol'."""
+    return source.split("·")[0].strip()
+
+
 def call_sign(source):
-    return esc(source.split("·")[-1].strip()[:22] if "·" in source else source[:22])
+    return esc(pub_name(source))
 
 
 def section_icon(cat):
@@ -351,13 +356,9 @@ def render(date_disp, tape_meta, themes, ai_text, grouped, settings):
         return it["when"].astimezone(tz).strftime("%H:%M") if it["when"] else "—"
 
     out = [HEAD.format(title=esc(settings["title"]), date=esc(date_disp), css=CSS)]
-    out.append('<header class="hero"><div class="cover-icon">📰</div>')
+    out.append('<header class="hero">')
     out.append(f'<h1 class="title">{esc(settings["title"])}</h1>')
-    out.append(f'<div class="sub">{esc(settings["subtitle"])}</div>')
-    pills = "".join(
-        f'<span class="pill{" g" if i == 0 else (" o" if i == 1 else "")}">{esc(x)}</span>'
-        for i, x in enumerate(tape_meta))
-    out.append(f'<div class="meta-row">{pills}</div></header>')
+    out.append(f'<div class="date">{esc(date_disp)}</div></header>')
 
     out.append('<nav class="tabs" aria-label="Sections"><a href="#overview">🏠 Overview</a>')
     for sid, cat, items in sections:
@@ -407,7 +408,7 @@ def render(date_disp, tape_meta, themes, ai_text, grouped, settings):
             gist = summarize.summarize_text(it.get("full") or it.get("summary") or "",
                                             max_sentences=sents)
             out.append('<article class="row"><div class="meta">'
-                       f'<span class="chip o">{call_sign(it["source"])}</span>'
+                       f'<span class="chip b">{call_sign(it["source"])}</span>'
                        f'<span class="chip g">{when_of(it)}</span></div>')
             out.append(f'<h3><a href="{link}">{title}</a></h3>' if link else f'<h3>{title}</h3>')
             if gist:
@@ -452,19 +453,18 @@ def build(items, settings):
         print("  optional AI brief enabled…")
         ai_text = ai_brief(items, settings, key)
 
+    brief_cats = set(settings.get("brief_categories", []))
+    brief_items = [i for i in items if i["category"] in brief_cats] if brief_cats else items
     themes = summarize.build_brief(
-        items,
-        max_themes=settings.get("brief_size", 10),
+        brief_items,
+        max_themes=settings.get("brief_size", 5),
         summary_sentences=settings.get("summary_sentences", 2),
     )
 
     tz = ZoneInfo(settings["timezone"]) if ZoneInfo else dt.timezone.utc
     now = dt.datetime.now(tz)
     date_disp = now.strftime("%A, %d %B %Y · %H:%M %Z")
-    tape = [now.strftime("Transmission %Y-%m-%d"),
-            f"{len(items)} items",
-            f"{len({i['source'] for i in items})} sources",
-            "AI brief" if ai_text else "self-summarised"]
+    tape = []
 
     page = render(date_disp, tape, themes, ai_text, grouped, settings)
     DOCS.mkdir(parents=True, exist_ok=True)
