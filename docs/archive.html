@@ -5,12 +5,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;750&family=Pacifico&display=swap" rel="stylesheet">
 <style>
-:root{--green:#2F6F55;--green-deep:#1E4A38;--green-soft:#DCEBE0;
-  --blue:#2D5F9A;--blue-deep:#1F4476;--blue-soft:#DCE7F4;
-  --cream:#FAF4E3;--card:#FFFCF3;--ink:#2A2620;--muted:#716B5D;--line:#E4D9BE}
+:root,body[data-theme="navy"]{--green:#1F2A44;--green-deep:#1F2A44;--green-soft:#E3E7EF;
+  --blue:#2A9D8F;--blue-deep:#17675E;--blue-soft:#D5EFEC;
+  --cream:#F7F7F4;--card:#FFFFFF;--ink:#1B2233;--muted:#5F6878;--line:#DDE1E8}
+body[data-theme="gold"]{--green:#14213D;--green-deep:#14213D;--green-soft:#E4E8F0;
+  --blue:#C9A227;--blue-deep:#7A5F0E;--blue-soft:#F6EBC4;
+  --cream:#FAFAF7;--card:#FFFFFF;--ink:#1D1B16;--muted:#6B665A;--line:#E6E2D6}
+body[data-theme="indigo"]{--green:#111827;--green-deep:#111827;--green-soft:#E5E7EB;
+  --blue:#4F46E5;--blue-deep:#3730A3;--blue-soft:#E0E7FF;
+  --cream:#F3F4F6;--card:#FFFFFF;--ink:#111827;--muted:#6B7280;--line:#E5E7EB}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
-body{margin:0;background:var(--cream);color:var(--ink);
+body{margin:0;background:var(--cream);color:var(--ink);transition:background-color .3s,color .3s;
   font-family:Inter,"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;
   font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
@@ -29,7 +35,7 @@ nav.tabs{position:sticky;top:0;z-index:10;background:var(--cream);
   margin:0 -16px;padding:0 12px;display:flex;overflow-x:auto;white-space:nowrap;
   scrollbar-width:none;-webkit-overflow-scrolling:touch}
 nav.tabs::-webkit-scrollbar{display:none}
-nav.tabs a{display:inline-flex;align-items:center;gap:6px;padding:13px 11px 11px;
+nav.tabs a{display:inline-flex;align-items:center;gap:6px;padding:13px 12px 11px;
   font-size:14.5px;font-weight:550;color:var(--muted);
   border-bottom:2.5px solid transparent;margin-bottom:-1px;transition:color .15s,border-color .15s}
 nav.tabs a:hover{color:var(--ink)}
@@ -48,6 +54,27 @@ nav.tabs .n{font-size:11.5px;font-weight:600;background:var(--blue-soft);
 .tk .na{color:var(--muted)}
 .ticker-note{font-size:12px;color:var(--muted);margin:-18px 0 26px}
 .pane{padding-top:26px}
+.pg{margin-bottom:30px}
+.pg>summary,.more>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;
+  font-weight:650;font-size:15.5px;margin:0 0 12px}
+.pg>summary::-webkit-details-marker,.more>summary::-webkit-details-marker{display:none}
+.pg>summary::before{content:"▾";color:var(--green);font-size:12px}
+.pg:not([open])>summary::before{content:"▸"}
+.cnt{font-size:12px;font-weight:600;color:var(--blue-deep);background:var(--blue-soft);
+  border-radius:999px;padding:0 8px;line-height:20px}
+.cards{display:grid;grid-template-columns:1fr;gap:12px}
+@media (min-width:640px){.cards{grid-template-columns:1fr 1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;
+  transition:box-shadow .15s}
+.card:hover{box-shadow:0 4px 14px rgba(42,38,32,.08)}
+.card .cm{font-size:12px;color:var(--muted)}
+.card h3{font-size:16px;font-weight:650;line-height:1.35;margin:6px 0 6px;letter-spacing:-.01em}
+.card h3 a:hover{text-decoration:underline;text-underline-offset:3px}
+.card p{margin:0;font-size:14px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;
+  -webkit-box-orient:vertical;overflow:hidden}
+.more{margin:-4px 0 30px}
+.more>summary{font-size:14px;color:var(--green-deep);font-weight:600;margin:0}
+.more>summary::before{content:"+ "}
 .js .pane{display:none}
 .js .pane.on{display:block}
 .callout{display:flex;gap:14px;background:var(--green-soft);border-radius:14px;
@@ -103,7 +130,7 @@ footer a{color:var(--green-deep);font-weight:600}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
 <script>document.documentElement.classList.add('js')</script>
-</head><body><div class="wrap"><header class="hero"><div class="cover-icon">🗂️</div><h1 class="title">Archive</h1><div class="sub">Past editions</div></header><h2 class="block">Editions <span class="n">74</span></h2><article class="row"><h3><a href="archive/2026-10-09.html">2026-10-09</a></h3></article>
+</head><body data-theme="navy"><div class="wrap"><header class="hero"><div class="cover-icon">🗂️</div><h1 class="title">Archive</h1><div class="sub">Past editions</div></header><h2 class="block">Editions <span class="n">74</span></h2><article class="row"><h3><a href="archive/2026-10-09.html">2026-10-09</a></h3></article>
 <article class="row"><h3><a href="archive/2026-10-08.html">2026-10-08</a></h3></article>
 <article class="row"><h3><a href="archive/2026-10-07.html">2026-10-07</a></h3></article>
 <article class="row"><h3><a href="archive/2026-10-06.html">2026-10-06</a></h3></article>
