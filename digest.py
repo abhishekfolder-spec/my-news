@@ -256,7 +256,7 @@ nav.tabs{position:sticky;top:0;z-index:10;background:var(--cream);
   margin:0 -16px;padding:0 12px;display:flex;overflow-x:auto;white-space:nowrap;
   scrollbar-width:none;-webkit-overflow-scrolling:touch}
 nav.tabs::-webkit-scrollbar{display:none}
-nav.tabs a{display:inline-flex;align-items:center;gap:6px;padding:13px 11px 11px;
+nav.tabs a{display:inline-flex;align-items:center;gap:6px;padding:13px 12px 11px;
   font-size:14.5px;font-weight:550;color:var(--muted);
   border-bottom:2.5px solid transparent;margin-bottom:-1px;transition:color .15s,border-color .15s}
 nav.tabs a:hover{color:var(--ink)}
@@ -275,6 +275,27 @@ nav.tabs .n{font-size:11.5px;font-weight:600;background:var(--blue-soft);
 .tk .na{color:var(--muted)}
 .ticker-note{font-size:12px;color:var(--muted);margin:-18px 0 26px}
 .pane{padding-top:26px}
+.pg{margin-bottom:30px}
+.pg>summary,.more>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;
+  font-weight:650;font-size:15.5px;margin:0 0 12px}
+.pg>summary::-webkit-details-marker,.more>summary::-webkit-details-marker{display:none}
+.pg>summary::before{content:"▾";color:var(--green);font-size:12px}
+.pg:not([open])>summary::before{content:"▸"}
+.cnt{font-size:12px;font-weight:600;color:var(--blue-deep);background:var(--blue-soft);
+  border-radius:999px;padding:0 8px;line-height:20px}
+.cards{display:grid;grid-template-columns:1fr;gap:12px}
+@media (min-width:640px){.cards{grid-template-columns:1fr 1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;
+  transition:box-shadow .15s}
+.card:hover{box-shadow:0 4px 14px rgba(42,38,32,.08)}
+.card .cm{font-size:12px;color:var(--muted)}
+.card h3{font-size:16px;font-weight:650;line-height:1.35;margin:6px 0 6px;letter-spacing:-.01em}
+.card h3 a:hover{text-decoration:underline;text-underline-offset:3px}
+.card p{margin:0;font-size:14px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;
+  -webkit-box-orient:vertical;overflow:hidden}
+.more{margin:-4px 0 30px}
+.more>summary{font-size:14px;color:var(--green-deep);font-weight:600;margin:0}
+.more>summary::before{content:"+ "}
 .js .pane{display:none}
 .js .pane.on{display:block}
 .callout{display:flex;gap:14px;background:var(--green-soft);border-radius:14px;
@@ -372,6 +393,14 @@ def call_sign(source):
     return esc(pub_name(source))
 
 
+SHORT_LABELS = {"Global Macro & Markets": "Macro & Markets",
+                "Indian Capital Markets": "India Markets"}
+
+
+def tab_label(cat):
+    return SHORT_LABELS.get(cat, cat)
+
+
 def section_icon(cat):
     c = cat.lower()
     for key, icon in ICONS:
@@ -411,10 +440,9 @@ def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None
     out.append(f'<h1 class="title">{esc(settings["title"])}</h1>')
     out.append(f'<div class="date">{esc(date_disp)}</div></header>')
 
-    out.append('<nav class="tabs" aria-label="Sections"><a href="#overview">🏠 Overview</a>')
+    out.append('<nav class="tabs" aria-label="Sections"><a href="#overview">Overview</a>')
     for sid, cat, items in sections:
-        out.append(f'<a href="#{sid}">{section_icon(cat)} {esc(cat)} '
-                   f'<span class="n">{len(items)}</span></a>')
+        out.append(f'<a href="#{sid}">{esc(tab_label(cat))}</a>')
     out.append('</nav>')
 
     # Overview pane: brief + section cards
@@ -451,23 +479,34 @@ def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None
         out.append('</ul></a>')
     out.append('</div></section>')
 
-    # One pane per section
+    def card(it):
+        link = esc(it["link"])
+        title = esc(it["title"])
+        gist = summarize.summarize_text(it.get("full") or it.get("summary") or "",
+                                        max_sentences=sents)
+        head = f'<h3><a href="{link}">{title}</a></h3>' if link else f'<h3>{title}</h3>'
+        body = f'<p>{esc(gist)}</p>' if gist else ""
+        return f'<article class="card"><div class="cm">{when_of(it)}</div>{head}{body}</article>'
+
+    CAP = 6  # cards shown per publication before "show more"
     for sid, cat, items in sections:
         out.append(f'<section class="pane" id="{sid}">'
                    f'<h2 class="block">{section_icon(cat)} {esc(cat)} '
                    f'<span class="n">{len(items)}</span></h2>')
+        groups = {}
         for it in items:
-            link = esc(it["link"])
-            title = esc(it["title"])
-            gist = summarize.summarize_text(it.get("full") or it.get("summary") or "",
-                                            max_sentences=sents)
-            out.append('<article class="row"><div class="meta">'
-                       f'<span class="chip b">{call_sign(it["source"])}</span>'
-                       f'<span class="chip g">{when_of(it)}</span></div>')
-            out.append(f'<h3><a href="{link}">{title}</a></h3>' if link else f'<h3>{title}</h3>')
-            if gist:
-                out.append(f'<p>{esc(gist)}</p>')
-            out.append('</article>')
+            groups.setdefault(pub_name(it["source"]), []).append(it)
+        for pub, its in sorted(groups.items(), key=lambda kv: -len(kv[1])):
+            out.append(f'<details class="pg" open><summary>{esc(pub)} '
+                       f'<span class="cnt">{len(its)}</span></summary><div class="cards">')
+            out.extend(card(it) for it in its[:CAP])
+            out.append('</div>')
+            if len(its) > CAP:
+                out.append(f'<details class="more"><summary>Show {len(its) - CAP} more from '
+                           f'{esc(pub)}</summary><div class="cards">')
+                out.extend(card(it) for it in its[CAP:])
+                out.append('</div></details>')
+            out.append('</details>')
         out.append('</section>')
 
     out.append('<footer><span>Generated ' + esc(date_disp) + '</span>'
