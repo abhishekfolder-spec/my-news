@@ -484,8 +484,7 @@ def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None
     out.append('<h2 class="block">Sections</h2><div class="grid">')
     for sid, cat, items in sections:
         out.append(f'<a class="scard" href="#{sid}"><div class="sh">'
-                   f'<span>{section_icon(cat)} {esc(cat)}</span>'
-                   f'<span class="n">{len(items)}</span></div><ul>')
+                   f'<span>{section_icon(cat)} {esc(cat)}</span></div><ul>')
         for it in items[:3]:
             out.append(f'<li>{esc(it["title"])}<span class="m">'
                        f'{call_sign(it["source"])} · {when_of(it)}</span></li>')
@@ -504,14 +503,13 @@ def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None
     CAP = 6  # cards shown per publication before "show more"
     for sid, cat, items in sections:
         out.append(f'<section class="pane" id="{sid}" data-theme="{THEME_FOR.get(cat, "navy")}">'
-                   f'<h2 class="block">{section_icon(cat)} {esc(cat)} '
-                   f'<span class="n">{len(items)}</span></h2>')
+                   f'<h2 class="block">{section_icon(cat)} {esc(cat)}</h2>')
         groups = {}
         for it in items:
             groups.setdefault(pub_name(it["source"]), []).append(it)
         for pub, its in sorted(groups.items(), key=lambda kv: -len(kv[1])):
             out.append(f'<details class="pg" open><summary>{esc(pub)} '
-                       f'<span class="cnt">{len(its)}</span></summary><div class="cards">')
+                       f'</summary><div class="cards">')
             out.extend(card(it) for it in its[:CAP])
             out.append('</div>')
             if len(its) > CAP:

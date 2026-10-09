@@ -76,6 +76,5 @@ QUOTES = [
     {"name": "USD / INR", "price": 96.72, "change": -0.16, "pct": -0.17},
     {"name": "USD / JPY", "price": 151.34, "change": 0.42, "pct": 0.28},
     {"name": "US 10Y yield", "unit": "%", "price": 4.62, "change": 0.03, "pct": 0.65},
-    {"name": "India 10Y yield", "unit": "%", "price": 7.27, "change": 0.04, "pct": 0.55},
     {"name": "Brent crude", "unit": "USD/bbl", "price": 102.79, "change": -1.49, "pct": -1.43},
 ]

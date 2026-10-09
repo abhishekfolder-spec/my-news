@@ -26,7 +26,6 @@ settings:
   ai_model: "claude-sonnet-5"     # change to any model your key can access
 
   # Market strip on the Overview. Symbols are Yahoo Finance tickers.
-  # VERIFY the India 10Y symbol: it is the least certain of these.
   markets:
     - {name: "Gold",             symbol: "GC=F",     unit: "USD/oz"}
     - {name: "Silver",           symbol: "SI=F",     unit: "USD/oz"}
@@ -35,7 +34,6 @@ settings:
     - {name: "USD / INR",        symbol: "INR=X"}
     - {name: "USD / JPY",        symbol: "JPY=X"}
     - {name: "US 10Y yield",     symbol: "^TNX",     unit: "%"}
-    - {name: "India 10Y yield",  symbol: "IN10YT=RR", unit: "%"}
     - {name: "Brent crude",      symbol: "BZ=F",     unit: "USD/bbl"}
 
   # Order the dashboard sections appear in. Any category not listed is appended.
