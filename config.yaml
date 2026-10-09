@@ -23,9 +23,10 @@ settings:
 
   # Order the dashboard sections appear in. Any category not listed is appended.
   category_order:
-    - "India Markets"
-    - "Global Macro"
-    - "Tech · Energy · Policy"
+    - "Global Macro & Markets"
+    - "Indian Capital Markets"
+    - "Energy"
+    - "Technology"
     - "Substacks"
 
 # ============================================================================
@@ -42,29 +43,29 @@ sources:
   # ---- Economic Times (native section feeds, headline+blurb -> enriched) ----
   - name: "ET · Top Stories"
     url: "https://economictimes.indiatimes.com/rssfeedstopstories.cms"
-    category: "India Markets"
+    category: "Indian Capital Markets"
     enrich: true
   - name: "ET · Markets"
     url: "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms"
-    category: "India Markets"
+    category: "Indian Capital Markets"
     enrich: true
   - name: "ET · Economy"
     url: "https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms"
-    category: "Global Macro"
+    category: "Global Macro & Markets"
     enrich: true
 
   # ---- Moneycontrol (native section feeds -> enriched) ----
   - name: "Moneycontrol · Latest"
     url: "https://www.moneycontrol.com/rss/latestnews.xml"
-    category: "India Markets"
+    category: "Indian Capital Markets"
     enrich: true
   - name: "Moneycontrol · Business"
     url: "https://www.moneycontrol.com/rss/business.xml"
-    category: "India Markets"
+    category: "Indian Capital Markets"
     enrich: true
   - name: "Moneycontrol · Markets"
     url: "https://www.moneycontrol.com/rss/marketreports.xml"
-    category: "India Markets"
+    category: "Indian Capital Markets"
     enrich: true
 
   # ---- X / Twitter  (3 themed Lists -> 1 generated RSS feed each) -----------
@@ -73,13 +74,58 @@ sources:
   #      and drop it in below (replacing PASTE_...). Empty/PASTE_ urls are skipped.
   - name: "X · India Markets List"
     url: "PASTE_X_LIST_RSS_INDIA"
-    category: "India Markets"
+    category: "Indian Capital Markets"
   - name: "X · Global Macro List"
     url: "PASTE_X_LIST_RSS_MACRO"
-    category: "Global Macro"
+    category: "Global Macro & Markets"
   - name: "X · Tech/Energy List"
     url: "PASTE_X_LIST_RSS_TECH"
-    category: "Tech · Energy · Policy"
+    category: "Technology"
+
+
+  # ---- Major global news (added v2; URLs marked VERIFY are unconfirmed) -----
+  # Paywalled outlets: feeds usually give headline + blurb only, so no enrich.
+  - name: "New York Times · Business"
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml"   # VERIFY
+    category: "Global Macro & Markets"
+  - name: "New York Times · Climate"
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/Climate.xml"    # VERIFY
+    category: "Energy"
+  - name: "New York Times · Technology"
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml" # VERIFY
+    category: "Technology"
+  - name: "Mint · Markets"
+    url: "https://www.livemint.com/rss/markets"                        # VERIFY
+    category: "Indian Capital Markets"
+  - name: "Mint · Technology"
+    url: "https://www.livemint.com/rss/technology"                     # VERIFY
+    category: "Technology"
+
+  # ---- Suggested additions (VERIFY = unconfirmed; no scraping, RSS only) ----
+  - name: "Guardian · Business"
+    url: "https://www.theguardian.com/business/rss"                     # VERIFY
+    category: "Global Macro & Markets"
+  - name: "Project Syndicate"
+    url: "https://www.project-syndicate.org/rss"                        # VERIFY
+    category: "Global Macro & Markets"
+  - name: "Business Standard · Markets"
+    url: "https://www.business-standard.com/rss/markets-106.rss"        # VERIFY
+    category: "Indian Capital Markets"
+  - name: "BusinessLine · Markets"
+    url: "https://www.thehindubusinessline.com/markets/feeder/default.rss"  # VERIFY
+    category: "Indian Capital Markets"
+  - name: "Utility Dive"
+    url: "https://www.utilitydive.com/feeds/news/"                      # VERIFY
+    category: "Energy"
+  - name: "Ars Technica"
+    url: "https://feeds.arstechnica.com/arstechnica/index"              # VERIFY
+    category: "Technology"
+  - name: "The Verge"
+    url: "https://www.theverge.com/rss/index.xml"                       # VERIFY
+    category: "Technology"
+  - name: "MIT Technology Review"
+    url: "https://www.technologyreview.com/feed/"                       # VERIFY
+    category: "Technology"
 
   # ---- Substacks (native /feed = FULL text on free posts) -------------------
   # The tool reports which of these resolve. For any marked VERIFY that fail,
