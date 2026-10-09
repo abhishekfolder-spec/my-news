@@ -232,12 +232,18 @@ def ai_brief(items, settings, api_key):
 #  Rendering
 # --------------------------------------------------------------------------- #
 CSS = """
-:root{--green:#2F6F55;--green-deep:#1E4A38;--green-soft:#DCEBE0;
-  --blue:#2D5F9A;--blue-deep:#1F4476;--blue-soft:#DCE7F4;
-  --cream:#FAF4E3;--card:#FFFCF3;--ink:#2A2620;--muted:#716B5D;--line:#E4D9BE}
+:root,body[data-theme="navy"]{--green:#1F2A44;--green-deep:#1F2A44;--green-soft:#E3E7EF;
+  --blue:#2A9D8F;--blue-deep:#17675E;--blue-soft:#D5EFEC;
+  --cream:#F7F7F4;--card:#FFFFFF;--ink:#1B2233;--muted:#5F6878;--line:#DDE1E8}
+body[data-theme="gold"]{--green:#14213D;--green-deep:#14213D;--green-soft:#E4E8F0;
+  --blue:#C9A227;--blue-deep:#7A5F0E;--blue-soft:#F6EBC4;
+  --cream:#FAFAF7;--card:#FFFFFF;--ink:#1D1B16;--muted:#6B665A;--line:#E6E2D6}
+body[data-theme="indigo"]{--green:#111827;--green-deep:#111827;--green-soft:#E5E7EB;
+  --blue:#4F46E5;--blue-deep:#3730A3;--blue-soft:#E0E7FF;
+  --cream:#F3F4F6;--card:#FFFFFF;--ink:#111827;--muted:#6B7280;--line:#E5E7EB}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
-body{margin:0;background:var(--cream);color:var(--ink);
+body{margin:0;background:var(--cream);color:var(--ink);transition:background-color .3s,color .3s;
   font-family:Inter,"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;
   font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
@@ -359,7 +365,7 @@ HEAD = """<!doctype html><html lang="en"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;750&family=Pacifico&display=swap" rel="stylesheet">
 <style>{css}</style>
 <script>document.documentElement.classList.add('js')</script>
-</head><body><div class="wrap">"""
+</head><body data-theme="navy"><div class="wrap">"""
 
 TABS_JS = """<script>
 (function(){
@@ -368,6 +374,8 @@ TABS_JS = """<script>
   function show(id){
     var target=document.getElementById(id)?id:'overview';
     panes.forEach(function(p){p.classList.toggle('on',p.id===target)});
+    var pane=document.getElementById(target);
+    document.body.setAttribute('data-theme',(pane&&pane.dataset.theme)||'navy');
     links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+target)});
   }
   window.addEventListener('hashchange',function(){show(location.hash.slice(1))});
@@ -395,6 +403,11 @@ def call_sign(source):
 
 SHORT_LABELS = {"Global Macro & Markets": "Macro & Markets",
                 "Indian Capital Markets": "India Markets"}
+
+
+THEME_FOR = {"Global Macro & Markets": "navy", "Geopolitics": "indigo",
+             "Indian Capital Markets": "gold", "Energy": "navy",
+             "Technology": "indigo", "Substacks": "gold"}
 
 
 def tab_label(cat):
@@ -446,7 +459,7 @@ def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None
     out.append('</nav>')
 
     # Overview pane: brief + section cards
-    out.append('<section class="pane" id="overview">')
+    out.append('<section class="pane" id="overview" data-theme="navy">')
     if quotes:
         out.append('<div class="ticker">' + "".join(fmt_quote(q) for q in quotes) + '</div>')
         out.append('<div class="ticker-note">Markets: last price and day change. ▲ up · ▼ down.</div>')
@@ -490,7 +503,7 @@ def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None
 
     CAP = 6  # cards shown per publication before "show more"
     for sid, cat, items in sections:
-        out.append(f'<section class="pane" id="{sid}">'
+        out.append(f'<section class="pane" id="{sid}" data-theme="{THEME_FOR.get(cat, "navy")}">'
                    f'<h2 class="block">{section_icon(cat)} {esc(cat)} '
                    f'<span class="n">{len(items)}</span></h2>')
         groups = {}
