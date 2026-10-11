@@ -268,6 +268,7 @@ sources:
   - {name: "Finstor85", url: "https://finstor85.substack.com/feed", category: "Substacks"}   # VERIFY
   - {name: "Contrarian Value Edge", url: "https://contrarianvalueedge.substack.com/feed", category: "Substacks"}   # VERIFY
   - {name: "First Principles Investing", url: "https://firstprinciplesinvesting.substack.com/feed", category: "Substacks"}   # VERIFY
+  - {name: "Scientific Investing", url: "https://scientificinvesting.substack.com/feed", category: "Substacks"}   # VERIFY
   - {name: "The Logical Investor", url: "https://theloggicalinvestor.substack.com/feed", category: "Substacks"}   # VERIFY
   - {name: "Surge Capital", url: "https://surgecapital.substack.com/feed", category: "Substacks"}   # VERIFY
   - {name: "5x5 Club", url: "https://5x5yclub.substack.com/feed", category: "Substacks"}   # VERIFY
