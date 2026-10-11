@@ -69,6 +69,7 @@ settings:
     - "Asia & China"
     - "Europe"
     - "Technology"
+    - "United States"
     - "Substacks"
 
 # ============================================================================
@@ -184,15 +185,14 @@ sources:
 
   # ---- Global news with no public RSS: Google News search feeds (VERIFY) ---
   - {name: "Reuters",            url: "https://news.google.com/rss/search?q=site:reuters.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
-  - {name: "Bloomberg",          url: "https://news.google.com/rss/search?q=site:bloomberg.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
+  - {name: "Bloomberg",          url: "https://news.google.com/rss/search?q=site:bloomberg.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "United States"}
   - {name: "Financial Times",    url: "https://news.google.com/rss/search?q=site:ft.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
   - {name: "The Economist",      url: "https://news.google.com/rss/search?q=site:economist.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
 
   # ---- Analysts & newsletters (added v4; feeds VERIFY, found via search) ----
   # Substack and Medium publish free RSS. Names with no confirmed feed are left out.
-  - {name: "Zen Nivesh",          url: "https://zennivesh.substack.com/feed", category: "Indian Capital Markets"}   # VERIFY
-  - {name: "Nine One Capital",    url: "https://91capital.substack.com/feed", category: "Global Macro & Markets"}   # VERIFY
-  - {name: "Nassim Taleb",        url: "https://medium.com/feed/@nntaleb", category: "Global Macro & Markets"}      # VERIFY
+  - {name: "Nine One Capital",    url: "https://91capital.substack.com/feed", category: "Substacks"}   # VERIFY
+  - {name: "Nassim Taleb",        url: "https://medium.com/feed/@nntaleb", category: "Substacks"}      # VERIFY
 
   # ---- Asia & China (added v3; Google News site searches, VERIFY) -----------
   - {name: "SCMP",               url: "https://news.google.com/rss/search?q=site:scmp.com+when:1d&hl=en-IN&gl=IN&ceid=IN:en", category: "Asia & China"}
@@ -207,23 +207,20 @@ sources:
   - {name: "Euronews",           url: "https://news.google.com/rss/search?q=site:euronews.com+when:1d&hl=en-IN&gl=IN&ceid=IN:en", category: "Europe"}
   - {name: "Politico Europe",    url: "https://news.google.com/rss/search?q=site:politico.eu+when:1d&hl=en-IN&gl=IN&ceid=IN:en", category: "Europe"}
   - {name: "Le Monde",           url: "https://news.google.com/rss/search?q=site:lemonde.fr+when:1d&hl=en-IN&gl=IN&ceid=IN:en", category: "Europe"}
-  - {name: "Barron's",           url: "https://news.google.com/rss/search?q=site:barrons.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
-  - {name: "Nikkei Asia",        url: "https://news.google.com/rss/search?q=site:asia.nikkei.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
-  - {name: "Caixin",             url: "https://news.google.com/rss/search?q=site:caixinglobal.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
+  - {name: "Barron's",           url: "https://news.google.com/rss/search?q=site:barrons.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "United States"}
   # ---- Broadcasters and other global outlets with public feeds (VERIFY) ----
   - {name: "BBC · World",        url: "https://feeds.bbci.co.uk/news/world/rss.xml", category: "Geopolitics"}
   - {name: "BBC · Business",      url: "https://feeds.bbci.co.uk/news/business/rss.xml", category: "Global Macro & Markets"}
   - {name: "BBC · Technology",    url: "https://feeds.bbci.co.uk/news/technology/rss.xml", category: "Technology"}
   - {name: "DW · English",        url: "https://rss.dw.com/rdf/rss-en-all", category: "Geopolitics"}
   - {name: "France 24",           url: "https://www.france24.com/en/rss", category: "Geopolitics"}
-  - {name: "Euronews",            url: "https://www.euronews.com/rss?level=theme&name=business", category: "Global Macro & Markets"}
   - {name: "Al Jazeera",          url: "https://www.aljazeera.com/xml/rss/all.xml", category: "Geopolitics"}
   - {name: "Global Times",        url: "https://www.globaltimes.cn/rss/outbrain.xml", category: "Geopolitics"}
-  - {name: "CNBC · Top News",     url: "https://www.cnbc.com/id/100003114/device/rss/rss.html", category: "Global Macro & Markets"}
-  - {name: "CNN · World",         url: "http://rss.cnn.com/rss/edition_world.rss", category: "Geopolitics"}
-  - {name: "CNN · Business",      url: "http://rss.cnn.com/rss/money_news_international.rss", category: "Global Macro & Markets"}
-  - {name: "Axios",               url: "https://api.axios.com/feed/", category: "Global Macro & Markets"}
-  - {name: "Business Insider",    url: "https://www.businessinsider.com/rss", category: "Global Macro & Markets"}
+  - {name: "CNBC · Top News",     url: "https://www.cnbc.com/id/100003114/device/rss/rss.html", category: "United States"}
+  - {name: "CNN · World",         url: "http://rss.cnn.com/rss/edition_world.rss", category: "United States"}
+  - {name: "CNN · Business",      url: "http://rss.cnn.com/rss/money_news_international.rss", category: "United States"}
+  - {name: "Axios",               url: "https://api.axios.com/feed/", category: "United States"}
+  - {name: "Business Insider",    url: "https://www.businessinsider.com/rss", category: "United States"}
 
   # ---- Substacks (native /feed = FULL text on free posts) -------------------
   # The tool reports which of these resolve. For any marked VERIFY that fail,
