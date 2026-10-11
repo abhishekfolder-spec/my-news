@@ -262,7 +262,7 @@ sources:
     url: "https://variantperceptions.substack.com/feed"                  # TODO
     category: "Substacks"
   - name: "Inflection Point Thinking"
-    url: "PASTE_SUBSTACK_URL/feed"                  # TODO
+    url: "https://karnik.substack.com/feed"                  # TODO
     category: "Substacks"
   - {name: "Antifragile Thinking", url: "https://antifragilethinking.substack.com/feed", category: "Substacks"}   # VERIFY
   - {name: "Finstor85", url: "https://finstor85.substack.com/feed", category: "Substacks"}   # VERIFY
