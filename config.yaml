@@ -256,10 +256,10 @@ sources:
     url: "PASTE_SUBSTACK_URL/feed"                  # TODO
     category: "Substacks"
   - name: "Pippa's Pen"
-    url: "PASTE_SUBSTACK_URL/feed"                  # TODO (Pippa Malmgren)
+    url: "https://drpippa.substack.com/feed"                  # TODO (Pippa Malmgren)
     category: "Substacks"
   - name: "Variant Perception"
-    url: "PASTE_SUBSTACK_URL/feed"                  # TODO
+    url: "https://variantperceptions.substack.com/feed"                  # TODO
     category: "Substacks"
   - name: "Inflection Point Thinking"
     url: "PASTE_SUBSTACK_URL/feed"                  # TODO
@@ -268,3 +268,8 @@ sources:
   - {name: "Finstor85", url: "https://finstor85.substack.com/feed", category: "Substacks"}   # VERIFY
   - {name: "Contrarian Value Edge", url: "https://contrarianvalueedge.substack.com/feed", category: "Substacks"}   # VERIFY
   - {name: "First Principles Investing", url: "https://firstprinciplesinvesting.substack.com/feed", category: "Substacks"}   # VERIFY
+  - {name: "The Logical Investor", url: "https://theloggicalinvestor.substack.com/feed", category: "Substacks"}   # VERIFY
+  - {name: "Surge Capital", url: "https://surgecapital.substack.com/feed", category: "Substacks"}   # VERIFY
+  - {name: "5x5 Club", url: "https://5x5yclub.substack.com/feed", category: "Substacks"}   # VERIFY
+  - {name: "Shankar Nath", url: "https://shankarnath.substack.com/feed", category: "Substacks"}   # VERIFY
+  - {name: "Folok Dutta", url: "https://folokdutta.substack.com/feed", category: "Substacks"}   # VERIFY
