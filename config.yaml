@@ -16,21 +16,31 @@ settings:
   fetch_workers: 8                # parallel feed downloads
   brief_size: 5                   # headlines on the Overview brief
   brief_themes:                   # the Overview brief draws only from these themes
-    - "Equities"
-    - "Rates"
     - "Macro"
+    - "Rates"
+    - "India"
+    - "Equities"
     - "Commodities"
+  # Themes ranked ahead of the rest in the Overview brief (macro economics and India)
+  priority_themes:
+    - "Macro"
+    - "Rates"
+    - "India"
+  # Stories matching this regex are dropped (case-insensitive, checked on title + blurb)
+  exclude_regex: 'amelia hart|tennessee execution|execution survivor'
+  # Max items from US-sourced feeds per run, newest first (keeps US news from dominating)
+  us_max_items: 8
   cluster_threshold: 0.35         # 0-1; higher = stricter "same story" matching
   theme_fallback: "Macro"         # theme for stories no keyword rule matches
   theme_order:
-    - "Equities"
-    - "Rates"
     - "Macro"
+    - "Rates"
+    - "India"
+    - "Equities"
     - "Energy"
     - "Commodities"
     - "Geopolitics"
     - "AI & Tech"
-    - "India"
   # Keyword rules: a story goes to the theme whose keywords it matches most.
   # Title matches count double. Keywords are regular-expression prefixes.
   theme_rules:

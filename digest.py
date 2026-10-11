@@ -553,8 +553,24 @@ def rebuild_archive_index(settings):
 # --------------------------------------------------------------------------- #
 #  Orchestration
 # --------------------------------------------------------------------------- #
+def filter_items(items, settings):
+    """Drop excluded stories and cap how much US-sourced news reaches the page."""
+    pat = settings.get("exclude_regex")
+    rx = re.compile(pat, re.I) if pat else None
+    kept = [it for it in items
+            if not (rx and rx.search(it["title"] + " " + (it.get("summary") or "")[:400]))]
+    cap = settings.get("us_max_items")
+    if cap is not None:
+        us = sorted((it for it in kept if it["category"] == "United States"),
+                    key=lambda it: it["when"] or clusters.EPOCH, reverse=True)
+        keep_us = {id(it) for it in us[:cap]}
+        kept = [it for it in kept
+                if it["category"] != "United States" or id(it) in keep_us]
+    return kept
+
+
 def build(items, settings, quotes=None):
-    items = dedupe(items)
+    items = filter_items(dedupe(items), settings)
     cls = clusters.build_clusters(items, settings)
 
     # group clusters into themes, in tab order; larger stories first
@@ -576,7 +592,9 @@ def build(items, settings, quotes=None):
     # Overview brief: top stories from the brief themes, most-covered first
     brief_themes = settings.get("brief_themes", [])
     pool = [c for c in cls if not brief_themes or c["theme"] in brief_themes]
-    pool.sort(key=lambda c: (-len(c["outlets"]), -(c["when"] or clusters.EPOCH).timestamp()))
+    priority = set(settings.get("priority_themes", []))
+    pool.sort(key=lambda c: (c["theme"] not in priority, -len(c["outlets"]),
+                             -(c["when"] or clusters.EPOCH).timestamp()))
     themes = []
     for c in pool[: settings.get("brief_size", 5)]:
         lead = c["lead"]
