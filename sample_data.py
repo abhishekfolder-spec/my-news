@@ -91,12 +91,12 @@ ITEMS = ITEMS + [
 
 # Demo-only quotes so the market strip can be previewed without a network call.
 QUOTES = [
-    {"name": "Gold", "unit": "USD/oz", "price": 4189.99, "change": 22.40, "pct": 0.54},
-    {"name": "Silver", "unit": "USD/oz", "price": 50.12, "change": -0.38, "pct": -0.75},
+    {"name": "Gold", "price": 4189.99, "change": 22.40, "pct": 0.54},
+    {"name": "Silver", "price": 50.12, "change": -0.38, "pct": -0.75},
     {"name": "S&P 500", "price": 6712.40, "change": 38.10, "pct": 0.57},
     {"name": "Nifty 50", "price": 22520.45, "change": 288.65, "pct": 1.30},
     {"name": "USD / INR", "price": 96.72, "change": -0.16, "pct": -0.17},
     {"name": "USD / JPY", "price": 151.34, "change": 0.42, "pct": 0.28},
     {"name": "US 10Y yield", "unit": "%", "price": 4.62, "change": 0.03, "pct": 0.65},
-    {"name": "Brent crude", "unit": "USD/bbl", "price": 102.79, "change": -1.49, "pct": -1.43},
+    {"name": "Brent crude", "price": 102.79, "change": -1.49, "pct": -1.43},
 ]
