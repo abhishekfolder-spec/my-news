@@ -44,3 +44,10 @@ jobs:
           git add docs/
           git diff --staged --quiet || git commit -m "Digest: $(date -u +%Y-%m-%d)"
           git push
+
+      - name: Email today's digest
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python send_email.py
