@@ -188,6 +188,12 @@ sources:
   - {name: "Financial Times",    url: "https://news.google.com/rss/search?q=site:ft.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
   - {name: "The Economist",      url: "https://news.google.com/rss/search?q=site:economist.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
 
+  # ---- Analysts & newsletters (added v4; feeds VERIFY, found via search) ----
+  # Substack and Medium publish free RSS. Names with no confirmed feed are left out.
+  - {name: "Zen Nivesh",          url: "https://zennivesh.substack.com/feed", category: "Indian Capital Markets"}   # VERIFY
+  - {name: "Nine One Capital",    url: "https://91capital.substack.com/feed", category: "Global Macro & Markets"}   # VERIFY
+  - {name: "Nassim Taleb",        url: "https://medium.com/feed/@nntaleb", category: "Global Macro & Markets"}      # VERIFY
+
   # ---- Asia & China (added v3; Google News site searches, VERIFY) -----------
   - {name: "SCMP",               url: "https://news.google.com/rss/search?q=site:scmp.com+when:1d&hl=en-IN&gl=IN&ceid=IN:en", category: "Asia & China"}
   - {name: "Nikkei Asia",        url: "https://news.google.com/rss/search?q=site:asia.nikkei.com+when:1d&hl=en-IN&gl=IN&ceid=IN:en", category: "Asia & China"}
