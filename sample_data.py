@@ -67,6 +67,28 @@ ITEMS = [
      "summary":"Plant load factors for gas-based capacity fell again as renewables covered peak demand in the afternoon. Utilities are asking regulators for capacity payments to stay viable."},
 ]
 
+# Same-story headlines from different outlets, to exercise clustering in the demo.
+_STORIES = [
+    ("RBI keeps repo rate unchanged at 6.25%, flags sticky food inflation", "ET · Markets", 5),
+    ("RBI holds repo rate at 6.25% amid sticky food inflation", "Mint · Markets", 9),
+    ("Reserve Bank of India leaves repo rate unchanged at 6.25%", "BusinessLine · Markets", 14),
+    ("Oil prices jump as Strait of Hormuz attacks continue", "Reuters", 3),
+    ("Oil climbs as attacks on tankers around Hormuz continue", "Bloomberg", 8),
+    ("Gold hits record as central banks keep buying", "CNBC · Top News", 6),
+    ("Gold rises to record as central bank buying continues", "Financial Times", 12),
+    ("Nvidia leads AI chip rally as data center spending surges", "WSJ", 4),
+    ("Fed holds rates steady as US inflation cools", "Reuters", 7),
+    ("Federal Reserve keeps interest rates unchanged as inflation eases", "Bloomberg", 15),
+    ("Cricket: India win the third test in Mumbai by an innings", "BBC · World", 20),
+    ("Talks resume on the Strait of Hormuz shipping corridor after weeks of attacks", "BBC · World", 11),
+]
+ITEMS = ITEMS + [
+    {"title": t, "link": f"https://example.com/story{i}", "source": src, "category": "",
+     "when": _ago(h), "full": None,
+     "summary": "Coverage of the same development from another outlet, with the key figures and what analysts expect next."}
+    for i, (t, src, h) in enumerate(_STORIES)
+]
+
 # Demo-only quotes so the market strip can be previewed without a network call.
 QUOTES = [
     {"name": "Gold", "unit": "USD/oz", "price": 4189.99, "change": 22.40, "pct": 0.54},

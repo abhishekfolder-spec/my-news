@@ -29,6 +29,7 @@ import requests
 from bs4 import BeautifulSoup
 
 import summarize                      # the built-in, no-key summariser
+import clusters                       # groups same-story headlines into themes
 
 try:
     from zoneinfo import ZoneInfo
@@ -280,6 +281,13 @@ nav.tabs .n{font-size:11.5px;font-weight:600;background:var(--blue-soft);
 .tk .dn{color:var(--blue-deep)}
 .tk .na{color:var(--muted)}
 .ticker-note{font-size:12px;color:var(--muted);margin:-18px 0 26px}
+.ols{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.ol{font-size:12px;font-weight:600;color:var(--blue-deep);background:var(--blue-soft);
+  border-radius:5px;padding:1px 8px;line-height:20px}
+.ol:hover{text-decoration:underline;text-underline-offset:3px}
+.ol.more{background:transparent;color:var(--muted);font-weight:500}
+.cov{margin-left:10px;color:var(--green-deep);font-weight:600}
+.card .cm{display:flex;align-items:center}
 .pane{padding-top:26px}
 .pg{margin-bottom:30px}
 .pg>summary,.more>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;
@@ -384,8 +392,10 @@ TABS_JS = """<script>
 </script>
 """
 
-ICONS = [("geo", "🌐"), ("macro", "🌍"), ("capital", "📈"), ("market", "📈"), ("india", "📈"),
-         ("energy", "⚡"), ("tech", "💻"), ("substack", "✍️")]
+THEME_ICON = {"Equities": "📈", "Rates": "🏦", "Macro": "🌍", "Energy": "⚡",
+              "Commodities": "🪙", "Geopolitics": "🌐", "AI & Tech": "🤖", "India": "🇮🇳"}
+THEME_FOR = {"Equities": "navy", "Rates": "navy", "Macro": "navy", "Energy": "gold",
+             "Commodities": "gold", "Geopolitics": "indigo", "AI & Tech": "indigo", "India": "gold"}
 
 
 def esc(s):
@@ -401,25 +411,12 @@ def call_sign(source):
     return esc(pub_name(source))
 
 
-SHORT_LABELS = {"Global Macro & Markets": "Macro & Markets",
-                "Indian Capital Markets": "India Markets"}
-
-
-THEME_FOR = {"Global Macro & Markets": "navy", "Geopolitics": "indigo",
-             "Indian Capital Markets": "gold", "Energy": "navy",
-             "Technology": "indigo", "Substacks": "gold"}
+def section_icon(cat):
+    return THEME_ICON.get(cat, "📰")
 
 
 def tab_label(cat):
-    return SHORT_LABELS.get(cat, cat)
-
-
-def section_icon(cat):
-    c = cat.lower()
-    for key, icon in ICONS:
-        if key in c:
-            return icon
-    return "📰"
+    return cat
 
 
 def slug(cat):
@@ -441,12 +438,36 @@ def fmt_quote(q):
 
 
 def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None):
+    """grouped: list of (theme, [cluster, ...]) in tab order."""
     tz = ZoneInfo(settings["timezone"]) if ZoneInfo else dt.timezone.utc
     sents = settings.get("summary_sentences", 2)
-    sections = [(slug(cat), cat, items) for cat, items in grouped]
+    sections = [(slug(th), th, cl) for th, cl in grouped]
+    CAP = 12  # cluster cards shown per tab before "show more"
 
     def when_of(it):
         return it["when"].astimezone(tz).strftime("%H:%M") if it["when"] else "—"
+
+    def outlet_chips(c):
+        shown = c["outlets"][:4]
+        chips = "".join(f'<a class="ol" href="{esc(link)}">{esc(pub)}</a>'
+                        for pub, link in shown if link)
+        extra = len(c["outlets"]) - len(shown)
+        if extra > 0:
+            chips += f'<span class="ol more">+{extra}</span>'
+        return chips
+
+    def cluster_card(c):
+        lead = c["lead"]
+        link = esc(lead["link"])
+        title = esc(lead["title"])
+        gist = summarize.summarize_text(lead.get("full") or lead.get("summary") or "",
+                                        max_sentences=sents)
+        head = f'<h3><a href="{link}">{title}</a></h3>' if link else f'<h3>{title}</h3>'
+        body = f'<p>{esc(gist)}</p>' if gist else ""
+        n = len(c["outlets"])
+        cov = f'<span class="cov">{n} outlets</span>' if n > 1 else ""
+        return (f'<article class="card"><div class="cm">{when_of(lead)}{cov}</div>'
+                f'{head}{body}<div class="ols">{outlet_chips(c)}</div></article>')
 
     out = [HEAD.format(title=esc(settings["title"]), date=esc(date_disp), css=CSS)]
     out.append('<header class="hero">')
@@ -454,11 +475,11 @@ def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None
     out.append(f'<div class="date">{esc(date_disp)}</div></header>')
 
     out.append('<nav class="tabs" aria-label="Sections"><a href="#overview">Overview</a>')
-    for sid, cat, items in sections:
-        out.append(f'<a href="#{sid}">{esc(tab_label(cat))}</a>')
+    for sid, th, _ in sections:
+        out.append(f'<a href="#{sid}">{esc(tab_label(th))}</a>')
     out.append('</nav>')
 
-    # Overview pane: brief + section cards
+    # Overview: market strip, brief, theme cards
     out.append('<section class="pane" id="overview" data-theme="navy">')
     if quotes:
         out.append('<div class="ticker">' + "".join(fmt_quote(q) for q in quotes) + '</div>')
@@ -473,51 +494,36 @@ def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None
             link = esc(t["link"])
             hd = esc(t["headline"])
             head = f'<a href="{link}">{hd}</a>' if link else hd
-            rel = f'<span class="rel">+{t["related"]} related</span>' if t["related"] else ""
+            rel = f'<span class="rel">+{t["related"]} more</span>' if t["related"] else ""
             gist = (f'<div class="gist">{esc(t["gist"])}{rel}</div>' if t["gist"]
                     else (f'<div class="gist">{rel}</div>' if rel else ""))
-            out.append(f'<li><div class="hd"><span class="src">{call_sign(t["source"])}</span>'
+            out.append(f'<li><div class="hd"><span class="src">{esc(t["theme"])}</span>'
                        f' {head}</div>{gist}</li>')
         out.append('</ol>')
     out.append('</div></div>')
 
-    out.append('<h2 class="block">Sections</h2><div class="grid">')
-    for sid, cat, items in sections:
+    out.append('<h2 class="block">Themes</h2><div class="grid">')
+    for sid, th, cl in sections:
         out.append(f'<a class="scard" href="#{sid}"><div class="sh">'
-                   f'<span>{section_icon(cat)} {esc(cat)}</span></div><ul>')
-        for it in items[:3]:
-            out.append(f'<li>{esc(it["title"])}<span class="m">'
-                       f'{call_sign(it["source"])} · {when_of(it)}</span></li>')
+                   f'<span>{section_icon(th)} {esc(th)}</span><span class="cnt">{len(cl)}</span></div><ul>')
+        for c in cl[:3]:
+            out.append(f'<li>{esc(c["lead"]["title"])}<span class="m">'
+                       f'{len(c["outlets"])} outlets · {when_of(c["lead"])}</span></li>')
         out.append('</ul></a>')
     out.append('</div></section>')
 
-    def card(it):
-        link = esc(it["link"])
-        title = esc(it["title"])
-        gist = summarize.summarize_text(it.get("full") or it.get("summary") or "",
-                                        max_sentences=sents)
-        head = f'<h3><a href="{link}">{title}</a></h3>' if link else f'<h3>{title}</h3>'
-        body = f'<p>{esc(gist)}</p>' if gist else ""
-        return f'<article class="card"><div class="cm">{when_of(it)}</div>{head}{body}</article>'
-
-    CAP = 6  # cards shown per publication before "show more"
-    for sid, cat, items in sections:
-        out.append(f'<section class="pane" id="{sid}" data-theme="{THEME_FOR.get(cat, "navy")}">'
-                   f'<h2 class="block">{section_icon(cat)} {esc(cat)}</h2>')
-        groups = {}
-        for it in items:
-            groups.setdefault(pub_name(it["source"]), []).append(it)
-        for pub, its in sorted(groups.items(), key=lambda kv: -len(kv[1])):
-            out.append(f'<details class="pg" open><summary>{esc(pub)} '
-                       f'</summary><div class="cards">')
-            out.extend(card(it) for it in its[:CAP])
-            out.append('</div>')
-            if len(its) > CAP:
-                out.append(f'<details class="more"><summary>Show {len(its) - CAP} more from '
-                           f'{esc(pub)}</summary><div class="cards">')
-                out.extend(card(it) for it in its[CAP:])
-                out.append('</div></details>')
-            out.append('</details>')
+    # One tab per theme: cluster cards
+    for sid, th, cl in sections:
+        out.append(f'<section class="pane" id="{sid}" data-theme="{THEME_FOR.get(th, "navy")}">'
+                   f'<h2 class="block">{section_icon(th)} {esc(th)}</h2>')
+        out.append('<div class="cards">')
+        out.extend(cluster_card(c) for c in cl[:CAP])
+        out.append('</div>')
+        if len(cl) > CAP:
+            out.append(f'<details class="more"><summary>Show {len(cl) - CAP} more</summary>'
+                       '<div class="cards">')
+            out.extend(cluster_card(c) for c in cl[CAP:])
+            out.append('</div></details>')
         out.append('</section>')
 
     out.append('<footer><span>Generated ' + esc(date_disp) + '</span>'
@@ -549,7 +555,17 @@ def rebuild_archive_index(settings):
 # --------------------------------------------------------------------------- #
 def build(items, settings, quotes=None):
     items = dedupe(items)
-    grouped = group_by_category(items, settings["category_order"])
+    cls = clusters.build_clusters(items, settings)
+
+    # group clusters into themes, in tab order; larger stories first
+    order = settings.get("theme_order", [])
+    by_theme = {}
+    for c in cls:
+        by_theme.setdefault(c["theme"], []).append(c)
+    for th in by_theme:
+        by_theme[th].sort(key=lambda c: (-len(c["outlets"]), -(c["when"] or clusters.EPOCH).timestamp()))
+    names = [t for t in order if t in by_theme] + [t for t in by_theme if t not in order]
+    grouped = [(t, by_theme[t]) for t in names]
 
     ai_text = None
     key = os.environ.get("ANTHROPIC_API_KEY")
@@ -557,30 +573,38 @@ def build(items, settings, quotes=None):
         print("  optional AI brief enabled…")
         ai_text = ai_brief(items, settings, key)
 
-    brief_cats = set(settings.get("brief_categories", []))
-    brief_items = [i for i in items if i["category"] in brief_cats] if brief_cats else items
-    themes = summarize.build_brief(
-        brief_items,
-        max_themes=settings.get("brief_size", 5),
-        summary_sentences=settings.get("summary_sentences", 2),
-    )
+    # Overview brief: top stories from the brief themes, most-covered first
+    brief_themes = settings.get("brief_themes", [])
+    pool = [c for c in cls if not brief_themes or c["theme"] in brief_themes]
+    pool.sort(key=lambda c: (-len(c["outlets"]), -(c["when"] or clusters.EPOCH).timestamp()))
+    themes = []
+    for c in pool[: settings.get("brief_size", 5)]:
+        lead = c["lead"]
+        themes.append({
+            "theme": c["theme"],
+            "headline": lead["title"],
+            "link": lead["link"],
+            "source": lead["source"],
+            "gist": summarize.summarize_text(lead.get("full") or lead.get("summary") or "",
+                                             max_sentences=settings.get("summary_sentences", 2)),
+            "related": max(0, len(c["outlets"]) - 1),
+        })
 
     tz = ZoneInfo(settings["timezone"]) if ZoneInfo else dt.timezone.utc
     now = dt.datetime.now(tz)
     date_disp = now.strftime("%A, %d %B %Y · %H:%M %Z")
-    tape = []
 
     if quotes is None:
         quotes = fetch_markets(settings.get("markets", []))
-    page = render(date_disp, tape, themes, ai_text, grouped, settings, quotes)
+    page = render(date_disp, [], themes, ai_text, grouped, settings, quotes)
     DOCS.mkdir(parents=True, exist_ok=True)
     ARCHIVE.mkdir(parents=True, exist_ok=True)
     (DOCS / ".nojekyll").touch()   # tell GitHub Pages: serve HTML as-is, skip Jekyll
     (DOCS / "index.html").write_text(page, encoding="utf-8")
     (ARCHIVE / f"{now.strftime('%Y-%m-%d')}.html").write_text(page, encoding="utf-8")
     rebuild_archive_index(settings)
-    print(f"\n  wrote docs/index.html  ({len(items)} items, "
-          f"{len(themes)} brief themes, {len(grouped)} sections)")
+    print(f"\n  wrote docs/index.html  ({len(items)} items → {len(cls)} stories, "
+          f"{len(grouped)} themes)")
 
 
 def run(config_path):

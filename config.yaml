@@ -15,9 +15,33 @@ settings:
   enrich_limit_per_feed: 5        # cap enrichment (keeps the daily run fast)
   fetch_workers: 8                # parallel feed downloads
   brief_size: 5                   # headlines on the Overview brief
-  brief_categories:               # the Overview brief draws only from these
-    - "Global Macro & Markets"
-    - "Indian Capital Markets"
+  brief_themes:                   # the Overview brief draws only from these themes
+    - "Equities"
+    - "Rates"
+    - "Macro"
+    - "Commodities"
+  cluster_threshold: 0.35         # 0-1; higher = stricter "same story" matching
+  theme_fallback: "Macro"         # theme for stories no keyword rule matches
+  theme_order:
+    - "Equities"
+    - "Rates"
+    - "Macro"
+    - "Energy"
+    - "Commodities"
+    - "Geopolitics"
+    - "AI & Tech"
+    - "India"
+  # Keyword rules: a story goes to the theme whose keywords it matches most.
+  # Title matches count double. Keywords are regular-expression prefixes.
+  theme_rules:
+    - {theme: "Equities", keywords: "stock|share|sensex|nifty|s&p|nasdaq|dow jones|earnings|ipo|equit|index|rally|selloff|bond market|market"}
+    - {theme: "Rates", keywords: "rate|rbi|fed|inflation|yield|treasur|interest|hike|cpi|repo|bond"}
+    - {theme: "Macro", keywords: "gdp|trade|tariff|export|import|economy|economic|growth|deficit|recession|imf|world bank|wto|currency|rupee|dollar|yen|tax|budget"}
+    - {theme: "Energy", keywords: "oil|crude|brent|opec|lng|natural gas|solar|wind power|renewable|electricity|power grid|coal|nuclear|battery|energy|refin|diesel|petrol"}
+    - {theme: "Commodities", keywords: "gold|silver|copper|platinum|metal|wheat|sugar|soybean|commodit|aluminium|steel|cotton"}
+    - {theme: "Geopolitics", keywords: "war|iran|israel|gaza|russia|ukraine|china|taiwan|sanction|military|attack|ceasefire|summit|nato|houthi|election|diplomat|minister"}
+    - {theme: "AI & Tech", keywords: "\\bai\\b|artificial intelligence|openai|anthropic|chip|semiconductor|nvidia|software|tech|cloud|model|startup|data center|google|microsoft|apple|meta|amazon"}
+    - {theme: "India", keywords: "india|indian|modi|gst|parliament|cabinet|rupee|nse|bse|sebi|delhi|mumbai"}
 
   # AI summary is OFF by default (it needs a paid Anthropic API key).
   # The free heuristic brief runs otherwise. To enable: set this to true AND
@@ -167,6 +191,30 @@ sources:
   - name: "Guardian · World"
     url: "https://www.theguardian.com/world/rss"                       # VERIFY
     category: "Geopolitics"
+
+  # ---- Global news with no public RSS: Google News search feeds (VERIFY) ---
+  - {name: "Reuters",            url: "https://news.google.com/rss/search?q=site:reuters.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
+  - {name: "Bloomberg",          url: "https://news.google.com/rss/search?q=site:bloomberg.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
+  - {name: "Financial Times",    url: "https://news.google.com/rss/search?q=site:ft.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
+  - {name: "WSJ",                url: "https://news.google.com/rss/search?q=site:wsj.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
+  - {name: "The Economist",      url: "https://news.google.com/rss/search?q=site:economist.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
+  - {name: "Barron's",           url: "https://news.google.com/rss/search?q=site:barrons.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
+  - {name: "Nikkei Asia",        url: "https://news.google.com/rss/search?q=site:asia.nikkei.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
+  - {name: "Caixin",             url: "https://news.google.com/rss/search?q=site:caixinglobal.com+when:1d&hl=en-US&gl=US&ceid=US:en", category: "Global Macro & Markets"}
+  # ---- Broadcasters and other global outlets with public feeds (VERIFY) ----
+  - {name: "BBC · World",        url: "https://feeds.bbci.co.uk/news/world/rss.xml", category: "Geopolitics"}
+  - {name: "BBC · Business",      url: "https://feeds.bbci.co.uk/news/business/rss.xml", category: "Global Macro & Markets"}
+  - {name: "BBC · Technology",    url: "https://feeds.bbci.co.uk/news/technology/rss.xml", category: "Technology"}
+  - {name: "DW · English",        url: "https://rss.dw.com/rdf/rss-en-all", category: "Geopolitics"}
+  - {name: "France 24",           url: "https://www.france24.com/en/rss", category: "Geopolitics"}
+  - {name: "Euronews",            url: "https://www.euronews.com/rss?level=theme&name=business", category: "Global Macro & Markets"}
+  - {name: "Al Jazeera",          url: "https://www.aljazeera.com/xml/rss/all.xml", category: "Geopolitics"}
+  - {name: "Global Times",        url: "https://www.globaltimes.cn/rss/outbrain.xml", category: "Geopolitics"}
+  - {name: "CNBC · Top News",     url: "https://www.cnbc.com/id/100003114/device/rss/rss.html", category: "Global Macro & Markets"}
+  - {name: "CNN · World",         url: "http://rss.cnn.com/rss/edition_world.rss", category: "Geopolitics"}
+  - {name: "CNN · Business",      url: "http://rss.cnn.com/rss/money_news_international.rss", category: "Global Macro & Markets"}
+  - {name: "Axios",               url: "https://api.axios.com/feed/", category: "Global Macro & Markets"}
+  - {name: "Business Insider",    url: "https://www.businessinsider.com/rss", category: "Global Macro & Markets"}
 
   # ---- Substacks (native /feed = FULL text on free posts) -------------------
   # The tool reports which of these resolve. For any marked VERIFY that fail,
