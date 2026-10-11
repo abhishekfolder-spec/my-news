@@ -264,3 +264,7 @@ sources:
   - name: "Inflection Point Thinking"
     url: "PASTE_SUBSTACK_URL/feed"                  # TODO
     category: "Substacks"
+  - {name: "Antifragile Thinking", url: "https://antifragilethinking.substack.com/feed", category: "Substacks"}   # VERIFY
+  - {name: "Finstor85", url: "https://finstor85.substack.com/feed", category: "Substacks"}   # VERIFY
+  - {name: "Contrarian Value Edge", url: "https://contrarianvalueedge.substack.com/feed", category: "Substacks"}   # VERIFY
+  - {name: "First Principles Investing", url: "https://firstprinciplesinvesting.substack.com/feed", category: "Substacks"}   # VERIFY
