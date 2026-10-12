@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-12T19:52+05:30",
- "since": "2026-10-11T13:52+05:30",
+ "generated": "2026-10-12T20:04+05:30",
+ "since": "2026-10-11T14:04+05:30",
  "stock_count": 45,
  "health": {
   "NSE": "ok · 17",
   "BSE": "unavailable",
-  "News": "ok · 0"
+  "News": "ok · 3"
  },
  "high": [
   {
@@ -164,7 +164,50 @@
   }
  ],
  "dropped": 11,
- "news": [],
+ "news": [
+  {
+   "nse": "BANKINDIA",
+   "title": "Bank of India Labels Future Enterprise Account as Fraud with ₹575.40 Crore Due",
+   "source": "Sahi",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObFg3eHoyeU1DaVNzNGp2U0ttc0R1YXR2dWs5X1dCTENTMzBuYWxsUDJ2TkxCeGNwb2NfUURVc1QxajVOUzZMdG95MzFCNjhsQUtmZEVhUDEzbllXYTM3a2pqa2hCSXJFN012T1NvNVpVMTN5V3IyOGcwTUk1LU5HZWktZUdPVVVlY2ZBRkRMSUUybnJNZm1qTkNweFNsem15NENYUGdn?oc=5",
+   "when": "2026-10-12T18:31+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "COHANCE",
+   "title": "Cohance Lifesciences appoints Abhimanyu Ojha as CFO",
+   "source": "Express Pharma",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRjVZUnVibUtuNHNwYjlVbmo2MzFseFg5X05HWWpMNEVBSm5IXzBHYXJYY1lmNWdOZlJGTDVGTGQzUTVvR1BwYXBIOFV0NlB4NE5PaTJJdTlOTVIzNnlwWVhDNFNBMTlJaC1IWUpVWGR1UC05RWJ6WEdmcjNQelM0RzNnQ0Rud2pZ?oc=5",
+   "when": "2026-10-12T14:08+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "CDSL",
+   "title": "Kinjal Shah Appointed Chief Technology Officer at CDSL- Central Depository Services India Ltd",
+   "source": "https://hrtoday.in/",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa2tGZ1hHOFg5aUNGbFhTS096dXFBTU12dldUanhWYzhDT25ONkNvSW4tY0YyR1pUUlF0dWhxSXdON3ZQb2NTcndwZkI1YUZiWkM4bVBrb2FLR0I5VUFPa0xIOXo0ZFpGdnEyV01aM2ZsRVhFLXBZQjBkLTM2c0syMHpvaHAyZ21aenZFdVBBcl9aQVUtdW1obkxaNEZrUzEybnBkZGZwd2Y4X1JqckUyb3Z3?oc=5",
+   "when": "2026-10-12T11:47+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "CDSL",
+    "name": "Central Depository Services",
+    "group": "holding"
+   }
+  }
+ ],
  "codes": [
   {
    "nse": "ADVENZYMES",
@@ -621,6 +664,8 @@
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
   "BSE codes taken from bhavcopy 09 Oct",
-  "BSE announcements failed (HTTPError)"
+  "BSE announcements failed (ReadTimeout)",
+  "BSE announcements failed (HTTPError)",
+  "BSE announcements failed (JSONDecodeError)"
  ]
 }
