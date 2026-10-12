@@ -52,7 +52,8 @@ jobs:
           git config user.email "actions@github.com"
           git add docs/
           git diff --staged --quiet || git commit -m "Digest: $(date -u +%Y-%m-%d)"
-          git push
+          # another run may have pushed meanwhile: replay our commit on top, keeping our files
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 5; done
 
       - name: Email today's digest
         env:
