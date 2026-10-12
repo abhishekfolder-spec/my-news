@@ -39,12 +39,20 @@ filings:
     - 'postal ballot.*(scrutini[sz]er|voting results)'
     - 'annual secretarial compliance'
     - 'certificate.*regulation 57|interest payment.*ncd|payment of interest'   # routine NCD servicing
+    # Added after the 30-day backtest (routine paperwork that crowded the 🟡 list)
+    - 'schedule of (analyst|investor)?.{0,12}meet|analyst ?/ ?investor meet|investor ?/ ?analyst meet|analysts?/ ?institutional investors? meet|group meet|investors? conference|non deal roadshow|one on one investor|analyst call with'
+    - 'proceedings of .{0,20}general meeting|s[c]?rutini[sz]er|voting results|chairman.?s (speech|statement)|corrigendum'
+    - 'allotment of (ncd|non-?convertible|commercial paper)|allotment of [\d,]+ securities pursuant to (non[- ]?convert|commercial paper|rsu)|maturity of commercial paper'
+    - 'redemption of (bond|ncd|unsecured non-convertible|non-convertible)|bond redemption|outstanding bonds|trading in non-convertible debentures'
+    - 'repo based lending rate|\brblr\b|\bmclr\b|change in frs|base rate'
+    - 'esg rating|\bkyc\b|special window|re-?lodgement|dematerialisation|new logo|grant of stock options'
 
   # Checked before "high": announcements that only schedule something.
   # e.g. "Board meeting on 23-Oct to consider financial results" is 🟡, not 🔴.
   schedule_only:
     - 'intimation of board meeting|prior intimation|board meeting (intimation|on|to be held)|to consider and approve'
     - 'intimation of (analyst|investor|earnings|conference) (meet|call)'
+    - 'company secretary|compliance officer'       # minor KMP, not CEO/CFO
 
   high:
     # Results & guidance
@@ -61,11 +69,13 @@ filings:
     - 'acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale'
     - 'sale (and|&) transfer|transfer of (project|spv|subsidiar|undertaking)|sale of (subsidiar|stake|spv|business)'
     - 'award(ed|ing)? of (order|contract)|bagging|receipt of (order|contract)|letter of award|order win|\bLoA\b|purchase order'
-    - 'capex|commission(ing|ed) of|new (plant|facility)|capacity expansion'
+    - 'capex|commission(ing|ed) of|new (plant|facility)|expansion|greenfield|brownfield|commencement of (commercial )?(production|operations)'
+    - 'acquired|acquires|land parcel|production (release|update)'
+    - 'raises? (inr|rs\.?|₹|usd|us\$|\$)'
     - 'usfda|warning letter|form 483|\bEIR\b|import alert|(fda|regulatory) inspection'
     # People
-    - 'resignation|cessation|appointment of (md|ceo|cfo|managing director|chief executive|chief financial|whole[- ]time)'
-    - 'resignation of (the )?(statutory )?auditor|change in (the )?statutory auditor'
+    - 'resignation|cessation|appointment of .{0,60}(\bmd\b|\bceo\b|\bcfo\b|managing director|chief executive|chief financial|whole[- ]time)'
+    - 'resignation of (the )?(statutory )?auditor|change in (the )?(statutory )?auditors?'
     # Credit, regulatory, legal
     - 'credit rating|rating (action|revis|downgrad|upgrad|reaffirm)'
     - 'rbi|reserve bank|sebi order|show cause|penalty|adjudicat|cerc|cert-?in'
@@ -77,12 +87,12 @@ filings:
   medium:
     - 'board meeting|intimation of board'
     - 'transcript|audio recording|earnings call|conference call'
-    - 'investor presentation|analyst(s)? meet|investor meet|institutional investor'
+    - 'investor presentation'
     - 'dividend|record date'
     - 'press release|media release'
-    - 'annual report|agm|general meeting'
-    - 'allotment of (ncd|non-convertible|commercial paper)'
+    - 'annual report'
     - 'reclassification|promoter group'
+    - 'change in (senior )?management|change in director|nominee director|change in status|subsidiary|\bfine[sd]?\b|medium term note|bond issue'
 
 news:
   # Headlines are kept only if they hit one of these. Everything else is skipped.

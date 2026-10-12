@@ -478,16 +478,13 @@ def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None
 
     out.append('<nav class="tabs" aria-label="Sections"><a href="#overview">Overview</a>')
     if pf:
-        n = f' <span class="n">{pf["count"]}</span>' if pf["count"] else ""
-        out.append(f'<a href="#portfolio">💼 Portfolio{n}</a>')
+        out.append('<a href="#portfolio">💼 Portfolio</a>')
     for sid, th, _ in sections:
         out.append(f'<a href="#{sid}">{esc(tab_label(th))}</a>')
     out.append('</nav>')
 
     # Overview: market strip, brief, theme cards
     out.append('<section class="pane" id="overview" data-theme="navy">')
-    if pf and pf.get("alert"):
-        out.append(pf["alert"])
     if quotes:
         out.append('<div class="ticker">' + "".join(fmt_quote(q) for q in quotes) + '</div>')
         out.append('<div class="ticker-note">Markets: last price and day change. ▲ up · ▼ down.</div>')

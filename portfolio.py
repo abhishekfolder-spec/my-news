@@ -58,6 +58,7 @@ BSE_HEADERS = {"User-Agent": UA, "Accept": "application/json, text/plain, */*",
 BSE_PDF = "https://www.bseindia.com/xml-data/corpfiling/AttachLive/"
 BSE_PDF_HIST = "https://www.bseindia.com/xml-data/corpfiling/AttachHis/"
 GNEWS = "https://news.google.com/rss/search?q={q}&hl=en-IN&gl=IN&ceid=IN:en"
+NEWS_STATS = {"queries": 0, "failed": 0, "empty": 0, "why": set()}
 
 DIAG = []          # human-readable problems, saved into portfolio.json
 
@@ -410,7 +411,7 @@ def fetch_bse_one(stock, code, since, until):
         url = (f"{BSE_API}/AnnSubCategoryGetData/w?pageno={page}&strCat=-1"
                f"&strPrevDate={since:%Y%m%d}&strScrip={code}&strSearch=P"
                f"&strToDate={until:%Y%m%d}&strType=C&subcategory=-1")
-        r = _get(url, headers=BSE_HEADERS, timeout=30)
+        r = _get(url, headers=BSE_HEADERS, timeout=30, relay=True)
         data = r.json()
         rows = data.get("Table") or []
         if not rows:
@@ -498,10 +499,19 @@ def fetch_news_one(stock, since, comp, days):
     items, seen = [], set()
     for phrase in stock.get("news") or [stock["name"]]:
         url = GNEWS.format(q=quote_plus(f'"{phrase}"{window}'))
+        NEWS_STATS["queries"] += 1
         try:
-            feed = feedparser.parse(_get(url, timeout=25).content)
-        except Exception:
+            feed = feedparser.parse(_get(url, timeout=25, relay=True).content)
+        except Exception as exc:
+            NEWS_STATS["failed"] += 1
+            code = getattr(getattr(exc, "response", None), "status_code", None)
+            NEWS_STATS["why"].add(f"{type(exc).__name__}{' ' + str(code) if code else ''}")
             continue
+        if not feed.entries:
+            NEWS_STATS["empty"] += 1
+            if feed.bozo:
+                NEWS_STATS["why"].add("not RSS (blocked/consent page?)")
+        time.sleep(0.3)
         must = re.compile(stock["title_must"], re.I) if stock.get("title_must") else None
         excl = re.compile(stock["title_exclude"], re.I) if stock.get("title_exclude") else None
         for e in feed.entries:
@@ -540,7 +550,7 @@ def fetch_news_one(stock, since, comp, days):
 
 def fetch_news(stocks, since, comp, cap, days):
     out, fails = [], 0
-    with cf.ThreadPoolExecutor(max_workers=6) as ex:
+    with cf.ThreadPoolExecutor(max_workers=3) as ex:
         futs = {ex.submit(fetch_news_one, s, since, comp, days): s for s in stocks}
         for f in cf.as_completed(futs):
             try:
@@ -609,7 +619,12 @@ def run(days=None, write_state=True):
     news = [n for n in news
             if not any(f["nse"] == n["nse"] and overlap(f["text"], n["title"]) >= 0.6
                        for f in filings if f["tier"] == "high")]
-    health["News"] = f"ok · {len(news)}" if nfails < len(stocks) else "unavailable"
+    st = NEWS_STATS
+    if st["failed"] or (st["queries"] and st["empty"] > st["queries"] * 0.8):
+        diag(f"Google News: {st['failed']} of {st['queries']} searches failed, {st['empty']} empty"
+             + (f" ({', '.join(sorted(st['why']))})" if st["why"] else ""))
+    health["News"] = (f"ok · {len(news)}" if st["failed"] <= st["queries"] * 0.5
+                      else "unavailable")
 
     def stock_view(sym):
         s = by_sym.get(sym, {"nse": sym, "name": sym, "group": "holding"})
@@ -634,7 +649,10 @@ def run(days=None, write_state=True):
     }
 
     DATA.mkdir(parents=True, exist_ok=True)
-    if not days:
+    if days:
+        (DATA / "portfolio-backtest.json").write_text(json.dumps(result, default=_json, indent=1,
+                                                                 ensure_ascii=False), encoding="utf-8")
+    else:
         (DATA / "portfolio.json").write_text(json.dumps(result, default=_json, indent=1,
                                                         ensure_ascii=False), encoding="utf-8")
         ok = any(v.startswith(("ok", "RSS")) for k, v in health.items() if k != "News")
@@ -746,62 +764,17 @@ def _line(f):
             f' · {"/".join(sorted(f["exchange_set"]))}</span></li>')
 
 
-def render_alert(pf):
-    """Small banner for the Overview tab."""
-    n_hi, n_news = len(pf["high"]), len(pf["news"])
-    if not (n_hi or n_news):
-        return ""
-    bits = []
-    if n_hi:
-        bits.append(f"{n_hi} flagged filing{'s' * (n_hi != 1)}")
-    if n_news:
-        bits.append(f"{n_news} news item{'s' * (n_news != 1)}")
-    names = sorted({x["stock"]["nse"] for x in pf["high"] + pf["news"]})
-    return (f'<div class="pf-alert"><span>💼</span><span><b>Portfolio:</b> '
-            f'{" · ".join(bits)} ({_e(", ".join(names[:6]))}{"…" if len(names) > 6 else ""}) — '
-            f'<a href="#portfolio">open the Portfolio tab</a></span></div>')
-
-
-def render_pane(pf, show_other=True, show_codes=False):
-    h = pf["health"]
-    hl = " · ".join(f"{k} <b>{_e(v)}</b>" for k, v in h.items())
-    span = (f"last {pf['backtest_days']} days" if pf.get("backtest_days")
-            else f"since {_when(pf['since'])}")
-    out = [f'<h2 class="block">💼 Portfolio</h2>',
-           f'<div class="pf-health">{pf["stock_count"]} stocks · {span} · {hl}'
-           f' · {pf["dropped"]} routine filings hidden</div>']
-
-    if pf.get("diagnostics"):
-        out.append('<div class="pf-health">⚠️ ' + " · ".join(_e(d) for d in pf["diagnostics"]) + '</div>')
+def render_pane(pf, **_):
+    """The Portfolio tab: important filings + news. No counts or status lines."""
+    out = ['<h2 class="block">💼 Portfolio</h2>']
     if not (pf["high"] or pf["news"]):
-        out.append(f'<div class="pf-quiet">Nothing material across your {pf["stock_count"]} '
-                   f'stocks {span}.</div>')
+        out.append('<div class="pf-quiet">Nothing material across your stocks today.</div>')
     if pf["high"]:
-        out.append(f'<div class="pf-sec">🔴 Flagged filings <span class="cnt">{len(pf["high"])}</span></div>')
+        out.append('<div class="pf-sec">🔴 Important filings</div>')
         out.extend(_filing_card(f) for f in pf["high"])
     if pf["news"]:
-        out.append(f'<div class="pf-sec">📰 In the news <span class="cnt">{len(pf["news"])}</span></div>')
+        out.append('<div class="pf-sec">📰 In the news</div>')
         out.extend(_news_row(n) for n in pf["news"])
-    if pf["medium"]:
-        out.append(f'<div class="pf-sec">🟡 Worth knowing <span class="cnt">{len(pf["medium"])}</span></div>')
-        out.append('<ul class="pf-list">' + "".join(_line(f) for f in pf["medium"]) + '</ul>')
-    if show_other and pf["other"]:
-        out.append(f'<details class="more" style="margin-top:22px"><summary>⚪ Other filings '
-                   f'({len(pf["other"])}) — unmatched by any rule</summary>'
-                   '<ul class="pf-list">' + "".join(_line(f) for f in pf["other"]) + '</ul></details>')
-    if show_codes:
-        rows = pf["codes"] if show_codes == "all" else [
-            r for r in pf["codes"] if r["status"] not in ("ok", "NSE only")]
-        out.append('<div class="pf-sec">🔢 Code mapping — please check</div>'
-                   '<div class="pf-scroll"><table class="pf-codes"><tr><th>NSE</th><th>Your name</th><th>NSE name</th>'
-                   '<th>BSE code</th><th>BSE name</th><th>Matched by</th><th>Status</th></tr>')
-        for r in rows:
-            bad = ' class="bad"' if r["status"] not in ("ok", "NSE only") else ""
-            sym = r["nse"] + (f' → {r["nse_resolved"]}' if r.get("nse_resolved") else "")
-            out.append(f'<tr><td>{_e(sym)}</td><td>{_e(r["name"])}</td><td>{_e(r["nse_name"])}</td>'
-                       f'<td>{_e(r["bse"])}</td><td>{_e(r["bse_name"])}</td>'
-                       f'<td>{_e(r["matched_by"])}</td><td{bad}>{_e(r["status"])}</td></tr>')
-        out.append('</table></div>')
     return "\n".join(out)
 
 
@@ -809,20 +782,15 @@ def section(settings=None):
     """Called by digest.py. Never raises: a failure shows as a note in the tab."""
     try:
         pf = run()
-        rules = yaml.safe_load(open(ROOT / "portfolio_rules.yaml", encoding="utf-8"))
-        show_other = rules.get("settings", {}).get("show_other_filings", True)
-        unresolved = [r for r in pf["codes"] if r["status"] not in ("ok", "NSE only")]
-        pane = render_pane(pf, show_other=show_other, show_codes="problems" if unresolved else False)
+        pane = render_pane(pf)
         print(f"  portfolio: {len(pf['high'])} flagged, {len(pf['news'])} news, "
               f"{len(pf['medium'])} medium, {len(pf['other'])} other · {pf['health']}")
-        return {"pane": pane, "alert": render_alert(pf), "css": PF_CSS,
-                "count": len(pf["high"]) + len(pf["news"])}
+        return {"pane": pane, "css": PF_CSS}
     except Exception as exc:                                    # pragma: no cover
         print(f"  portfolio: FAILED ({type(exc).__name__}: {exc})")
         return {"pane": ('<h2 class="block">💼 Portfolio</h2><div class="pf-quiet">'
-                         f'Tracker failed this run ({_e(type(exc).__name__)}). '
-                         'Check the GitHub Actions log.</div>'),
-                "alert": "", "css": PF_CSS, "count": 0}
+                         'Portfolio news could not be fetched this morning.</div>'),
+                "css": PF_CSS}
 
 
 def main():
