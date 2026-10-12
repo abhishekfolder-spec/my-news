@@ -1,0 +1,685 @@
+{
+ "generated": "2026-10-12T19:27+05:30",
+ "since": "2026-10-11T13:27+05:30",
+ "stock_count": 45,
+ "health": {
+  "NSE": "ok · 13",
+  "BSE": "no codes yet",
+  "News": "ok · 6"
+ },
+ "high": [
+  {
+   "nse": "BANKINDIA",
+   "exchange": "NSE",
+   "when": "2026-10-12T18:32+05:30",
+   "subject": "Fraud/Default/Arrest",
+   "detail": "Bank Of India has informed the Exchange about Fraud/Default/Arrest",
+   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA2_12102026183224_Future_Fraud.pdf",
+   "text": "Fraud/Default/Arrest Bank Of India has informed the Exchange about Fraud/Default/Arrest",
+   "tier": "high",
+   "rule": "default|delay in (payment|servicing)|non-?payment",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/BANKINDIA2_12102026183224_Future_Fraud.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "POWERGRID",
+   "exchange": "NSE",
+   "when": "2026-10-12T17:30+05:30",
+   "subject": "Acquisition",
+   "detail": "Power Grid Corporation of India Limited has informed the Exchange about Acquisition of Lakadia II Power Transmission Limited by POWERGRID under TBCB route.",
+   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_12102026173004_BSENSEReg30acquisitionDt12102026REC.pdf",
+   "text": "Acquisition Power Grid Corporation of India Limited has informed the Exchange about Acquisition of Lakadia II Power Transmission Limited by POWERGRID under TBCB route.",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/POWERGRID1_12102026173004_BSENSEReg30acquisitionDt12102026REC.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "POWERGRID",
+   "exchange": "NSE",
+   "when": "2026-10-11T22:23+05:30",
+   "subject": "General Updates",
+   "detail": "Power Grid Corporation of India Limited has informed the Exchange about Commissioning of project namely Transmission system for evacuation of power from REZ in Rajasthan (20 GW) under phase-III Part-C1 .",
+   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_11102026222253_BSENSEReg30Commissioning.pdf",
+   "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange about Commissioning of project namely Transmission system for evacuation of power from REZ in Rajasthan (20 GW) under phase-III Part-C1 .",
+   "tier": "high",
+   "rule": "capex|commission(ing|ed) of|new (plant|facility)|capacity expansion",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/POWERGRID1_11102026222253_BSENSEReg30Commissioning.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
+    "group": "holding"
+   }
+  }
+ ],
+ "medium": [],
+ "other": [
+  {
+   "nse": "SAMHI",
+   "exchange": "NSE",
+   "when": "2026-10-12T19:00+05:30",
+   "subject": "General Updates",
+   "detail": "Samhi Hotels Limited has informed the Exchange about General Update on issuance of Commencement Certificate from Maharashtra Industrial Development Corporation (A Government of Maharashtra Undertaking) to Duet India Hotels (Navi Mumbai) Private Limited",
+   "link": "https://nsearchives.nseindia.com/corporate/Samhi_12102026185535_MIDC_approval_Duet_Navi_Mumbai.pdf",
+   "text": "General Updates Samhi Hotels Limited has informed the Exchange about General Update on issuance of Commencement Certificate from Maharashtra Industrial Development Corporation (A Government of Maharashtra Undertaking) to Duet India Hotels (Navi Mumbai) Private Limited",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/Samhi_12102026185535_MIDC_approval_Duet_Navi_Mumbai.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SAMHI",
+    "name": "SAMHI Hotels",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "RECLTD",
+   "exchange": "NSE",
+   "when": "2026-10-12T18:24+05:30",
+   "subject": "General Updates",
+   "detail": "Intimation of sale and transfer of project specific SPVs/Subsidiaries.",
+   "link": "https://nsearchives.nseindia.com/corporate/RECLTD_12102026182409_Signed_Intimation_of_Sale_of_SPVs_12102026.pdf",
+   "text": "General Updates Intimation of sale and transfer of project specific SPVs/Subsidiaries.",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/RECLTD_12102026182409_Signed_Intimation_of_Sale_of_SPVs_12102026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RECLTD",
+    "name": "REC Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BANKINDIA",
+   "exchange": "NSE",
+   "when": "2026-10-12T17:56+05:30",
+   "subject": "Updates",
+   "detail": "Bank Of India has informed the Exchange regarding 'Disclosure under Regulation 30 of SEBI(LODR) Regulations, 2015''.",
+   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA2_12102026175622_Future_Fraud.pdf",
+   "text": "Updates Bank Of India has informed the Exchange regarding 'Disclosure under Regulation 30 of SEBI(LODR) Regulations, 2015''.",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/BANKINDIA2_12102026175622_Future_Fraud.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ADVENZYMES",
+   "exchange": "NSE",
+   "when": "2026-10-12T17:41+05:30",
+   "subject": "Updates",
+   "detail": "Intimation of receipt of request from few promoter group members for reclassification from Promoter Group category to Public category shareholder under Regulation 31A of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (as amended)",
+   "link": "https://nsearchives.nseindia.com/corporate/AETL_12102026174113_Intimation12102026.pdf",
+   "text": "Updates Intimation of receipt of request from few promoter group members for reclassification from Promoter Group category to Public category shareholder under Regulation 31A of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (as amended)",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/AETL_12102026174113_Intimation12102026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ADVENZYMES",
+    "name": "Advanced Enzyme Technologies",
+    "group": "holding"
+   }
+  }
+ ],
+ "dropped": 6,
+ "news": [
+  {
+   "nse": "BANKINDIA",
+   "title": "Bank of India declares Future Enterprises’ ₹575 crore outstanding account as fraud",
+   "source": "CNBC TV18",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSm10N0RpM3Y3eTVPMmRFWWdiM3NKZTNoR3A3YjdEb3JSa1VNQUlKZWV5a3RjTlh4TnNxMl81N19LNUVJYzlvdm9ESE1YMnhKb21Yd0NLdWo4YXdzcXpEWXZhTG5YY0ozY3RFTm5TQ0cxeVdWQWhvMzA5eXFtWUJaaE5UTkdpOXA4ZWJDQ2hTQ3dOd1BBMUUycU5MRDByNU52eVlYZDhxQ0R3b213WWY5MW13LTVFaEc4UThvdGE3UWpteUk2cnFmRFVVT09kUkZZZ1A3RWJrOTVRbFlYOHhFRnRramd6UdIB5gFBVV95cUxNSm10N0RpM3Y3eTVPMmRFWWdiM3NKZTNoR3A3YjdEb3JSa1VNQUlKZWV5a3RjTlh4TnNxMl81N19LNUVJYzlvdm9ESE1YMnhKb21Yd0NLdWo4YXdzcXpEWXZhTG5YY0ozY3RFTm5TQ0cxeVdWQWhvMzA5eXFtWUJaaE5UTkdpOXA4ZWJDQ2hTQ3dOd1BBMUUycU5MRDByNU52eVlYZDhxQ0R3b213WWY5MW13LTVFaEc4UThvdGE3UWpteUk2cnFmRFVVT09kUkZZZ1A3RWJrOTVRbFlYOHhFRnRramd6UQ?oc=5",
+   "when": "2026-10-12T18:26+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": true,
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "POWERGRID",
+   "title": "Power Grid Corporation Acquires Lakadia II Transmission SPV",
+   "source": "Kalkine India",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNTYtYzF4VXBjVnhpbjAzQjBsckVfLWtucGdiNGtKckhtWW5zd2ZDWVVya3h0b3NiSGJqRWFfdzY1OVVVb0xIcUhINEFNNklfSTlkVS1ycFZMWHVYcHJ6WWNFNm9ONThwbmRqckJ0a3lQSy1ETkdVd09xQ2ZNcWVNUW1EWWxwOFN6NjZEU2VnUmoxbERoc2ROcUtjLXBKc3hzVU53T09aUnd2WUpMZ0E0Nk9CZk5ROWtVbnU5aGd2MlFpQkRZQ0NmUi13cDBpbk5maGJLMm9ZQVJKUFRfZF8zWHVDWjhMcXhFc0E?oc=5",
+   "when": "2026-10-12T17:30+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "COHANCE",
+   "title": "Abbimanyu Ojhha Appointed CFO of Cohance Lifesciences",
+   "source": "CXO Digitalpulse",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS1NUV2VyeTZYbjlUY29VSWprY1NwLVNPSU82blBONm0zakh1RU5nc2ltU1hic1Z4Mm5wcW5SZWJlR0drTHNIMzNhYUw5QUVuVHlGbm0zdjFsMHZaUGtDcEVCTlBxcnExUklYNEIyMElkY080clVaT2l0MndHcWE1dll1aHV2eGhWQnpNQ0JFcw?oc=5",
+   "when": "2026-10-12T15:06+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "COHANCE",
+   "title": "Cohance Lifesciences appoints Abhimanyu Ojha as CFO",
+   "source": "Express Pharma",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRjVZUnVibUtuNHNwYjlVbmo2MzFseFg5X05HWWpMNEVBSm5IXzBHYXJYY1lmNWdOZlJGTDVGTGQzUTVvR1BwYXBIOFV0NlB4NE5PaTJJdTlOTVIzNnlwWVhDNFNBMTlJaC1IWUpVWGR1UC05RWJ6WEdmcjNQelM0RzNnQ0Rud2pZ?oc=5",
+   "when": "2026-10-12T14:08+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "CDSL",
+   "title": "Kinjal Shah Appointed Chief Technology Officer at CDSL- Central Depository Services India Ltd",
+   "source": "https://hrtoday.in/",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa2tGZ1hHOFg5aUNGbFhTS096dXFBTU12dldUanhWYzhDT25ONkNvSW4tY0YyR1pUUlF0dWhxSXdON3ZQb2NTcndwZkI1YUZiWkM4bVBrb2FLR0I5VUFPa0xIOXo0ZFpGdnEyV01aM2ZsRVhFLXBZQjBkLTM2c0syMHpvaHAyZ21aenZFdVBBcl9aQVUtdW1obkxaNEZrUzEybnBkZGZwd2Y4X1JqckUyb3Z3?oc=5",
+   "when": "2026-10-12T11:47+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "CDSL",
+    "name": "Central Depository Services",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SHEELAFOAM",
+   "title": "Sheela Foam Files SEBI Compliance Certificate for September Quarter",
+   "source": "TipRanks",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeW54MGZtb0xyaFRGclhUb3J0MW1hRlRtR0pja3F3dE5pRDZkbFRYem9fMjVRWHdhMTFmZ1ZOeG5nZWw5cjFBcE9qMTlYZXdDS0RGbkl5aXBSVWFnelVVRmF6TUZGZDFHaXJvS0p2QVd6T2xYZ04yU3RDOTktd0RVa2QyUG9GQnNxUEVIc2VScjByWEFSb2YyV3p3RE9FbGpqdDlDRjFtT3RQZXlGYjVRS1ZoblhfZ3JLNWlv?oc=5",
+   "when": "2026-10-11T23:43+05:30",
+   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
+   "trusted": false,
+   "stock": {
+    "nse": "SHEELAFOAM",
+    "name": "Sheela Foam",
+    "group": "holding"
+   }
+  }
+ ],
+ "codes": [
+  {
+   "nse": "ADVENZYMES",
+   "name": "Advanced Enzyme Technologies",
+   "nse_name": "Advanced Enzyme Technologies Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "ALLTECH",
+   "name": "All E Technologies",
+   "nse_name": null,
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "check NSE symbol"
+  },
+  {
+   "nse": "ARMANFIN",
+   "name": "Arman Financial Services",
+   "nse_name": "Arman Financial Services Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "BANKINDIA",
+   "name": "Bank of India",
+   "nse_name": "Bank of India",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "BIRLANU",
+   "name": "BirlaNu",
+   "nse_name": "BirlaNu Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "BSE",
+   "name": "BSE Limited",
+   "nse_name": "BSE Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "CDSL",
+   "name": "Central Depository Services",
+   "nse_name": "Central Depository Services (India) Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "COHANCE",
+   "name": "Cohance Lifesciences",
+   "nse_name": "Cohance Lifesciences Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "EQUITASBNK",
+   "name": "Equitas Small Finance Bank",
+   "nse_name": "Equitas Small Finance Bank Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "HCG",
+   "name": "Healthcare Global Enterprises",
+   "nse_name": "Healthcare Global Enterprises Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "HIGREEN",
+   "name": "Hi-Green Carbon",
+   "nse_name": "Hi-Green Carbon Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "ITC",
+   "name": "ITC Limited",
+   "nse_name": "ITC Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "IEX",
+   "name": "Indian Energy Exchange",
+   "nse_name": "Indian Energy Exchange Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "INDRAMEDCO",
+   "name": "Indraprastha Medical Corporation",
+   "nse_name": "Indraprastha Medical Corporation Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "JMFINANCIL",
+   "name": "JM Financial",
+   "nse_name": "JM Financial Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "JUBLINGREA",
+   "name": "Jubilant Ingrevia",
+   "nse_name": "Jubilant Ingrevia Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "KRSNAA",
+   "name": "Krsnaa Diagnostics",
+   "nse_name": "Krsnaa Diagnostics Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "LAURUSLABS",
+   "name": "Laurus Labs",
+   "nse_name": "Laurus Labs Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "MEDIASSIST",
+   "name": "Medi Assist Healthcare Services",
+   "nse_name": "Medi Assist Healthcare Services Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "NEULANDLAB",
+   "name": "Neuland Laboratories",
+   "nse_name": "Neuland Laboratories Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "NORTHARC",
+   "name": "Northern Arc Capital",
+   "nse_name": "Northern Arc Capital Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "POWERGRID",
+   "name": "Power Grid Corporation of India",
+   "nse_name": "Power Grid Corporation of India Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "RBZJEWEL",
+   "name": "RBZ Jewellers",
+   "nse_name": "RBZ Jewellers Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "RECLTD",
+   "name": "REC Limited",
+   "nse_name": "REC Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "RBA",
+   "name": "Restaurant Brands Asia",
+   "nse_name": "Restaurant Brands Asia Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "ROUTE",
+   "name": "Route Mobile",
+   "nse_name": "ROUTE MOBILE LIMITED",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "SJLOGISTICS",
+   "name": "S J Logistics",
+   "nse_name": null,
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "check NSE symbol"
+  },
+  {
+   "nse": "SAMHI",
+   "name": "SAMHI Hotels",
+   "nse_name": "Samhi Hotels Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "SATINCLTD",
+   "name": "Satin Creditcare Network",
+   "nse_name": null,
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "check NSE symbol"
+  },
+  {
+   "nse": "SHEELAFOAM",
+   "name": "Sheela Foam",
+   "nse_name": null,
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "check NSE symbol"
+  },
+  {
+   "nse": "SHIVALIKRAS",
+   "name": "Shivalik Rasayan",
+   "nse_name": null,
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "check NSE symbol"
+  },
+  {
+   "nse": "SOLARA",
+   "name": "Solara Active Pharma Sciences",
+   "nse_name": "Solara Active Pharma Sciences Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "SUNTECK",
+   "name": "Sunteck Realty",
+   "nse_name": "Sunteck Realty Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "TEJASNET",
+   "name": "Tejas Networks",
+   "nse_name": "Tejas Networks Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "TIMETECHNO",
+   "name": "Time Technoplast",
+   "nse_name": "Time Technoplast Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "UGROCAP",
+   "name": "Ugro Capital",
+   "nse_name": "Ugro Capital Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "UJJIVANSFB",
+   "name": "Ujjivan Small Finance Bank",
+   "nse_name": "Ujjivan Small Finance Bank Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "UNITEDFDS",
+   "name": "United Foodbrands",
+   "nse_name": null,
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "check NSE symbol"
+  },
+  {
+   "nse": "VAIBHAVGBL",
+   "name": "Vaibhav Global",
+   "nse_name": "Vaibhav Global Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "VIYASHSCI",
+   "name": "Viyash Scientific",
+   "nse_name": null,
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "check NSE symbol"
+  },
+  {
+   "nse": "CGRAPHICS",
+   "name": "Creative Graphics Solutions",
+   "nse_name": "Creative Graphics Solutions India Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "NSE only"
+  },
+  {
+   "nse": "PARAGMILK",
+   "name": "Parag Milk Foods",
+   "nse_name": "Parag Milk Foods Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "VOGL",
+   "name": "Vedanta Oil and Gas",
+   "nse_name": "Vedanta Oil and Gas Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "GAIL",
+   "name": "GAIL (India)",
+   "nse_name": "GAIL (India) Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  },
+  {
+   "nse": "GATEWAY",
+   "name": "Gateway Distriparks",
+   "nse_name": "Gateway Distriparks Limited",
+   "bse": null,
+   "bse_name": null,
+   "matched_by": null,
+   "status": "no BSE match"
+  }
+ ],
+ "backtest_days": null
+}

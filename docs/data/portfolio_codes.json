@@ -1,0 +1,362 @@
+{
+ "ADVENZYMES": {
+  "nse_name": "Advanced Enzyme Technologies Limited",
+  "isin": "INE837H01020",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "ALLTECH": {
+  "nse_name": null,
+  "isin": null,
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "check NSE symbol"
+ },
+ "ARMANFIN": {
+  "nse_name": "Arman Financial Services Limited",
+  "isin": "INE109C01017",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "BANKINDIA": {
+  "nse_name": "Bank of India",
+  "isin": "INE084A01016",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "BIRLANU": {
+  "nse_name": "BirlaNu Limited",
+  "isin": "INE557A01011",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "BSE": {
+  "nse_name": "BSE Limited",
+  "isin": "INE118H01025",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "CDSL": {
+  "nse_name": "Central Depository Services (India) Limited",
+  "isin": "INE736A01011",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "COHANCE": {
+  "nse_name": "Cohance Lifesciences Limited",
+  "isin": "INE03QK01018",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "EQUITASBNK": {
+  "nse_name": "Equitas Small Finance Bank Limited",
+  "isin": "INE063P01018",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "HCG": {
+  "nse_name": "Healthcare Global Enterprises Limited",
+  "isin": "INE075I01017",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "HIGREEN": {
+  "nse_name": "Hi-Green Carbon Limited",
+  "isin": "INE0PIC01017",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "ITC": {
+  "nse_name": "ITC Limited",
+  "isin": "INE154A01025",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "IEX": {
+  "nse_name": "Indian Energy Exchange Limited",
+  "isin": "INE022Q01020",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "INDRAMEDCO": {
+  "nse_name": "Indraprastha Medical Corporation Limited",
+  "isin": "INE681B01017",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "JMFINANCIL": {
+  "nse_name": "JM Financial Limited",
+  "isin": "INE780C01023",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "JUBLINGREA": {
+  "nse_name": "Jubilant Ingrevia Limited",
+  "isin": "INE0BY001018",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "KRSNAA": {
+  "nse_name": "Krsnaa Diagnostics Limited",
+  "isin": "INE08LI01020",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "LAURUSLABS": {
+  "nse_name": "Laurus Labs Limited",
+  "isin": "INE947Q01028",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "MEDIASSIST": {
+  "nse_name": "Medi Assist Healthcare Services Limited",
+  "isin": "INE456Z01021",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "NEULANDLAB": {
+  "nse_name": "Neuland Laboratories Limited",
+  "isin": "INE794A01010",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "NORTHARC": {
+  "nse_name": "Northern Arc Capital Limited",
+  "isin": "INE850M01015",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "POWERGRID": {
+  "nse_name": "Power Grid Corporation of India Limited",
+  "isin": "INE752E01010",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "RBZJEWEL": {
+  "nse_name": "RBZ Jewellers Limited",
+  "isin": "INE0PEQ01016",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "RECLTD": {
+  "nse_name": "REC Limited",
+  "isin": "INE020B01018",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "RBA": {
+  "nse_name": "Restaurant Brands Asia Limited",
+  "isin": "INE07T201019",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "ROUTE": {
+  "nse_name": "ROUTE MOBILE LIMITED",
+  "isin": "INE450U01017",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "SJLOGISTICS": {
+  "nse_name": null,
+  "isin": null,
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "check NSE symbol"
+ },
+ "SAMHI": {
+  "nse_name": "Samhi Hotels Limited",
+  "isin": "INE08U801020",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "SATINCLTD": {
+  "nse_name": null,
+  "isin": null,
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "check NSE symbol"
+ },
+ "SHEELAFOAM": {
+  "nse_name": null,
+  "isin": null,
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "check NSE symbol"
+ },
+ "SHIVALIKRAS": {
+  "nse_name": null,
+  "isin": null,
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "check NSE symbol"
+ },
+ "SOLARA": {
+  "nse_name": "Solara Active Pharma Sciences Limited",
+  "isin": "INE624Z01016",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "SUNTECK": {
+  "nse_name": "Sunteck Realty Limited",
+  "isin": "INE805D01034",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "TEJASNET": {
+  "nse_name": "Tejas Networks Limited",
+  "isin": "INE010J01012",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "TIMETECHNO": {
+  "nse_name": "Time Technoplast Limited",
+  "isin": "INE508G01029",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "UGROCAP": {
+  "nse_name": "Ugro Capital Limited",
+  "isin": "INE583D01011",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "UJJIVANSFB": {
+  "nse_name": "Ujjivan Small Finance Bank Limited",
+  "isin": "INE551W01018",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "UNITEDFDS": {
+  "nse_name": null,
+  "isin": null,
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "check NSE symbol"
+ },
+ "VAIBHAVGBL": {
+  "nse_name": "Vaibhav Global Limited",
+  "isin": "INE884A01027",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "VIYASHSCI": {
+  "nse_name": null,
+  "isin": null,
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "check NSE symbol"
+ },
+ "CGRAPHICS": {
+  "nse_name": "Creative Graphics Solutions India Limited",
+  "isin": "INE0R7401011",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "NSE only"
+ },
+ "PARAGMILK": {
+  "nse_name": "Parag Milk Foods Limited",
+  "isin": "INE883N01014",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "VOGL": {
+  "nse_name": "Vedanta Oil and Gas Limited",
+  "isin": "INE704J01044",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "GAIL": {
+  "nse_name": "GAIL (India) Limited",
+  "isin": "INE129A01019",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ },
+ "GATEWAY": {
+  "nse_name": "Gateway Distriparks Limited",
+  "isin": "INE079J01017",
+  "bse": null,
+  "bse_name": null,
+  "matched_by": null,
+  "status": "no BSE match"
+ }
+}
