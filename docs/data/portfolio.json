@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-12T19:50+05:30",
- "since": "2026-10-11T13:50+05:30",
+ "generated": "2026-10-12T19:52+05:30",
+ "since": "2026-10-11T13:52+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 16",
+  "NSE": "ok · 17",
   "BSE": "unavailable",
-  "News": "ok · 3"
+  "News": "ok · 0"
  },
  "high": [
   {
@@ -88,6 +88,31 @@
  ],
  "other": [
   {
+   "nse": "COHANCE",
+   "exchange": "NSE",
+   "when": "2026-10-12T19:50+05:30",
+   "subject": "General Updates",
+   "detail": "Cohance Lifesciences Limited has informed the Exchange about General Updates",
+   "link": "https://nsearchives.nseindia.com/corporate/SUVENPHARMROHIT_12102026194926_SE_disclosure_CG_Approval_Umang_Vohra.pdf",
+   "text": "General Updates Cohance Lifesciences Limited has informed the Exchange about General Updates",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SUVENPHARMROHIT_12102026194926_SE_disclosure_CG_Approval_Umang_Vohra.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
+    "group": "holding"
+   }
+  },
+  {
    "nse": "SAMHI",
    "exchange": "NSE",
    "when": "2026-10-12T19:00+05:30",
@@ -139,50 +164,7 @@
   }
  ],
  "dropped": 11,
- "news": [
-  {
-   "nse": "BANKINDIA",
-   "title": "Bank of India declares Future Enterprises’ ₹575 crore outstanding account as fraud",
-   "source": "CNBC TV18",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSm10N0RpM3Y3eTVPMmRFWWdiM3NKZTNoR3A3YjdEb3JSa1VNQUlKZWV5a3RjTlh4TnNxMl81N19LNUVJYzlvdm9ESE1YMnhKb21Yd0NLdWo4YXdzcXpEWXZhTG5YY0ozY3RFTm5TQ0cxeVdWQWhvMzA5eXFtWUJaaE5UTkdpOXA4ZWJDQ2hTQ3dOd1BBMUUycU5MRDByNU52eVlYZDhxQ0R3b213WWY5MW13LTVFaEc4UThvdGE3UWpteUk2cnFmRFVVT09kUkZZZ1A3RWJrOTVRbFlYOHhFRnRramd6UdIB5gFBVV95cUxNSm10N0RpM3Y3eTVPMmRFWWdiM3NKZTNoR3A3YjdEb3JSa1VNQUlKZWV5a3RjTlh4TnNxMl81N19LNUVJYzlvdm9ESE1YMnhKb21Yd0NLdWo4YXdzcXpEWXZhTG5YY0ozY3RFTm5TQ0cxeVdWQWhvMzA5eXFtWUJaaE5UTkdpOXA4ZWJDQ2hTQ3dOd1BBMUUycU5MRDByNU52eVlYZDhxQ0R3b213WWY5MW13LTVFaEc4UThvdGE3UWpteUk2cnFmRFVVT09kUkZZZ1A3RWJrOTVRbFlYOHhFRnRramd6UQ?oc=5",
-   "when": "2026-10-12T18:26+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": true,
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "title": "Cohance Lifesciences appoints Abhimanyu Ojha as CFO",
-   "source": "Express Pharma",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRjVZUnVibUtuNHNwYjlVbmo2MzFseFg5X05HWWpMNEVBSm5IXzBHYXJYY1lmNWdOZlJGTDVGTGQzUTVvR1BwYXBIOFV0NlB4NE5PaTJJdTlOTVIzNnlwWVhDNFNBMTlJaC1IWUpVWGR1UC05RWJ6WEdmcjNQelM0RzNnQ0Rud2pZ?oc=5",
-   "when": "2026-10-12T14:08+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "CDSL",
-   "title": "Kinjal Shah Appointed Chief Technology Officer at CDSL- Central Depository Services India Ltd",
-   "source": "https://hrtoday.in/",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa2tGZ1hHOFg5aUNGbFhTS096dXFBTU12dldUanhWYzhDT25ONkNvSW4tY0YyR1pUUlF0dWhxSXdON3ZQb2NTcndwZkI1YUZiWkM4bVBrb2FLR0I5VUFPa0xIOXo0ZFpGdnEyV01aM2ZsRVhFLXBZQjBkLTM2c0syMHpvaHAyZ21aenZFdVBBcl9aQVUtdW1obkxaNEZrUzEybnBkZGZwd2Y4X1JqckUyb3Z3?oc=5",
-   "when": "2026-10-12T11:47+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "CDSL",
-    "name": "Central Depository Services",
-    "group": "holding"
-   }
-  }
- ],
+ "news": [],
  "codes": [
   {
    "nse": "ADVENZYMES",
