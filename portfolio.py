@@ -59,6 +59,15 @@ BSE_PDF = "https://www.bseindia.com/xml-data/corpfiling/AttachLive/"
 BSE_PDF_HIST = "https://www.bseindia.com/xml-data/corpfiling/AttachHis/"
 GNEWS = "https://news.google.com/rss/search?q={q}&hl=en-IN&gl=IN&ceid=IN:en"
 
+DIAG = []          # human-readable problems, saved into portfolio.json
+
+
+def diag(msg):
+    print("  !", msg)
+    if msg not in DIAG:
+        DIAG.append(msg)
+
+
 STOP = set("the of and for in on to a an under regulation reg sebi lodr ltd limited "
            "company announcement disclosure intimation pursuant with by is at as".split())
 
@@ -91,6 +100,12 @@ def tokens(text):
 def jaccard(a, b):
     a, b = tokens(a), tokens(b)
     return len(a & b) / len(a | b) if a and b else 0.0
+
+
+def overlap(a, b):
+    """Share of the shorter text's words found in the other (0-1)."""
+    a, b = tokens(a), tokens(b)
+    return len(a & b) / min(len(a), len(b)) if a and b else 0.0
 
 
 def first_match(patterns, text):
@@ -148,7 +163,7 @@ def nse_master():
         try:
             text = _get(url, relay=True).text
         except Exception as exc:
-            print(f"  codes: NSE list unavailable ({url.rsplit('/', 1)[-1]}: {type(exc).__name__})")
+            diag(f"NSE list unavailable ({url.rsplit('/', 1)[-1]}: {type(exc).__name__})")
             continue
         lines = [l for l in text.splitlines() if l.strip()]
         head = [h.strip().upper().replace(" ", "_") for h in lines[0].split(",")]
@@ -166,16 +181,60 @@ def nse_master():
 
 
 def bse_master():
-    """List of BSE active equity scrips (dicts with lower-cased keys)."""
+    """BSE equity scrips as dicts {scrip_cd, scrip_name, isin_number, scrip_id}.
+    Route 1: BSE scrip-list API.  Route 2: latest BSE bhavcopy CSV."""
     url = (BSE_API + "/ListofScripData/w?Group=&Scripcode=&industry=&segment=Equity&status=Active")
     try:
         rows = _get(url, headers=BSE_HEADERS, timeout=60).json()
+        if isinstance(rows, dict):
+            rows = rows.get("Table") or next((v for v in rows.values() if isinstance(v, list)), [])
+        rows = [{k.lower(): v for k, v in r.items()} for r in rows or []]
+        if rows:
+            return rows
+        diag("BSE scrip list: empty response")
     except Exception as exc:
-        print(f"  codes: BSE list unavailable ({type(exc).__name__})")
-        return []
-    if isinstance(rows, dict):
-        rows = rows.get("Table") or next((v for v in rows.values() if isinstance(v, list)), [])
-    return [{k.lower(): v for k, v in r.items()} for r in rows]
+        diag(f"BSE scrip list unavailable ({type(exc).__name__})")
+    day = now_ist().date()
+    for back in range(1, 8):
+        d = day - dt.timedelta(days=back)
+        if d.weekday() >= 5:
+            continue
+        url = ("https://www.bseindia.com/download/BhavCopy/Equity/"
+               f"BhavCopy_BSE_CM_0_0_0_{d:%Y%m%d}_F_0000.CSV")
+        try:
+            text = _get(url, headers=BSE_HEADERS, timeout=60).text
+        except Exception:
+            continue
+        lines = text.splitlines()
+        head = [h.strip().lower() for h in lines[0].split(",")]
+        if "fininstrmid" not in head or "isin" not in head:
+            continue
+        i_cd, i_isin = head.index("fininstrmid"), head.index("isin")
+        i_sym = head.index("tckrsymb") if "tckrsymb" in head else None
+        i_nm = head.index("fininstrmnm") if "fininstrmnm" in head else None
+        out = []
+        for l in lines[1:]:
+            c = l.split(",")
+            if len(c) <= max(i_cd, i_isin):
+                continue
+            out.append({"scrip_cd": c[i_cd].strip(), "isin_number": c[i_isin].strip(),
+                        "scrip_id": c[i_sym].strip() if i_sym is not None else "",
+                        "scrip_name": c[i_nm].strip() if i_nm is not None else ""})
+        if out:
+            diag(f"BSE codes taken from bhavcopy {d:%d %b}")
+            return out
+    diag("BSE bhavcopy unavailable too")
+    return []
+
+
+def bse_code_by_isin(isin):
+    """Route 3: BSE smart-search for one ISIN → 6-digit scrip code."""
+    try:
+        r = _get(f"{BSE_API}/PeerSmartSearch/w?Type=SS&text={isin}", headers=BSE_HEADERS, timeout=20)
+        m = re.search(r"\b([5-9]\d{5})\b", r.text)
+        return m.group(1) if m else None
+    except Exception:
+        return None
 
 
 def resolve_codes(stocks):
@@ -195,25 +254,45 @@ def resolve_codes(stocks):
         for s in todo:
             sym = s["nse"].upper()
             rec = {"nse_name": None, "isin": None, "bse": s.get("bse"), "bse_name": None,
-                   "matched_by": "portfolio.yaml" if s.get("bse") else None}
+                   "matched_by": "portfolio.yaml" if s.get("bse") else None, "nse_resolved": None}
             if sym in nse:
                 rec["nse_name"], rec["isin"] = nse[sym]
+            elif nse and not s.get("bse_only"):
+                want = norm_name(s["name"])
+                cands = [k for k, (nm, _) in nse.items() if norm_name(nm) == want]
+                if not cands:
+                    cands = [k for k, (nm, _) in nse.items()
+                             if norm_name(nm).startswith(want) or want.startswith(norm_name(nm) or "§")]
+                if len(cands) == 1:
+                    rec["nse_resolved"] = cands[0]
+                    rec["nse_name"], rec["isin"] = nse[cands[0]]
             if not rec["bse"]:
                 hit, how = None, None
                 if rec["isin"] and rec["isin"] in by_isin:
                     hit, how = by_isin[rec["isin"]], "ISIN"
                 elif sym in by_id:
                     hit, how = by_id[sym], "symbol"
+                elif rec["nse_resolved"] and rec["nse_resolved"] in by_id:
+                    hit, how = by_id[rec["nse_resolved"]], "symbol"
                 elif norm_name(s["name"]) in by_name:
                     hit, how = by_name[norm_name(s["name"])], "name"
                 if hit:
                     rec["bse"] = str(hit.get("scrip_cd") or hit.get("scripcode") or "").strip() or None
                     rec["bse_name"] = hit.get("scrip_name") or hit.get("issuer_name")
                     rec["matched_by"] = how
-            if not nse and not bse:
+                elif rec["isin"] and not s.get("sme"):
+                    code = bse_code_by_isin(rec["isin"])
+                    if code:
+                        rec["bse"], rec["matched_by"] = code, "ISIN search"
+            if s.get("bse_only"):
+                rec["status"] = "ok" if rec["bse"] else "no BSE code"
+                rec["matched_by"] = rec["matched_by"] or "portfolio.yaml"
+            elif not nse and not bse:
                 rec["status"] = "retry"            # both lists down: try next run
             elif not rec["nse_name"] and nse:
                 rec["status"] = "check NSE symbol"
+            elif rec["nse_resolved"]:
+                rec["status"] = f"symbol is {rec['nse_resolved']}? (fix in portfolio.yaml)"
             elif not rec["bse"]:
                 rec["status"] = "NSE only" if s.get("sme") else "no BSE match"
             else:
@@ -224,7 +303,8 @@ def resolve_codes(stocks):
     table = []
     for s in stocks:
         r = cache.get(s["nse"].upper(), {})
-        table.append({"nse": s["nse"], "name": s["name"], "nse_name": r.get("nse_name"),
+        table.append({"nse": s["nse"], "nse_resolved": r.get("nse_resolved"),
+                      "name": s["name"], "nse_name": r.get("nse_name"),
                       "bse": r.get("bse"), "bse_name": r.get("bse_name"),
                       "matched_by": r.get("matched_by"), "status": r.get("status", "?")})
     return cache, table
@@ -251,11 +331,13 @@ def parse_nse_time(s):
     return None
 
 
-def fetch_nse(stocks, since, until):
+def fetch_nse(stocks, since, until, codes=None):
     """Per-symbol NSE API. Raises if NSE refuses us (caller falls back to RSS)."""
     sess = nse_session()
     out, fails = [], 0
     for s in stocks:
+        if s.get("bse_only"):
+            continue
         params = {"index": "sme" if s.get("sme") else "equities", "symbol": s["nse"],
                   "from_date": since.strftime("%d-%m-%Y"), "to_date": until.strftime("%d-%m-%Y")}
         try:
@@ -365,17 +447,21 @@ def fetch_bse(stocks, codes, since, until):
             tried += 1
             try:
                 out.extend(f.result())
-            except Exception:
+            except Exception as exc:
                 fails += 1
+                diag(f"BSE announcements failed ({type(exc).__name__})")
     return out, tried, fails
 
 
 # --------------------------------------------------------------------------- #
 #  Merge + classify filings
 # --------------------------------------------------------------------------- #
-def merge_filings(rows, comp):
+def merge_filings(rows, comp, ignore=None):
     for r in rows:
         r["tier"], r["rule"] = classify(r["text"], comp)
+        ig = (ignore or {}).get(r["nse"])
+        if ig and ig.search(r["text"]):
+            r["tier"], r["rule"] = "drop", "ignore (portfolio.yaml)"
     rows.sort(key=lambda r: (r["nse"], r["when"]))
     merged = []
     for r in rows:
@@ -434,11 +520,15 @@ def fetch_news_one(stock, since, comp, days):
                 continue
             if first_match(comp["news_drop"], title):
                 continue
+            if stock.get("ignore") and re.search(stock["ignore"], title, re.I):
+                continue
             trig = first_match(comp["news_trig"], title)
             if not trig:
                 continue
             key = " ".join(sorted(tokens(title)))
-            if key in seen or any(jaccard(title, i["title"]) >= 0.6 for i in items):
+            if key in seen or any(jaccard(title, i["title"]) >= 0.6 or
+                                  (i["rule"] == trig and overlap(title, i["title"]) >= 0.5)
+                                  for i in items):
                 continue
             seen.add(key)
             items.append({"nse": stock["nse"], "title": title, "source": src or "News",
@@ -491,9 +581,10 @@ def run(days=None, write_state=True):
     # Filings — NSE (API → RSS fallback) and BSE
     nse_rows = []
     try:
-        nse_rows = fetch_nse(stocks, since, now)
+        nse_rows = fetch_nse(stocks, since, now, codes)
         health["NSE"] = f"ok · {len(nse_rows)}"
-    except Exception:
+    except Exception as exc:
+        diag(f"NSE API refused ({exc}); used RSS")
         rss = fetch_nse_rss(stocks, since)
         if rss is None:
             health["NSE"] = "unavailable"
@@ -506,7 +597,8 @@ def run(days=None, write_state=True):
     if fails and tried and fails < tried:
         health["BSE"] += f" ({fails} stock(s) failed)"
 
-    filings = merge_filings(nse_rows + bse_rows, comp)
+    ignore = {s["nse"]: re.compile(s["ignore"], re.I) for s in stocks if s.get("ignore")}
+    filings = merge_filings(nse_rows + bse_rows, comp, ignore)
 
     # News
     ncfg = rules["news"]
@@ -515,7 +607,7 @@ def run(days=None, write_state=True):
                               days or 2)
     # skip headlines that only restate a filing for the same stock
     news = [n for n in news
-            if not any(f["nse"] == n["nse"] and jaccard(f["text"], n["title"]) >= 0.4
+            if not any(f["nse"] == n["nse"] and overlap(f["text"], n["title"]) >= 0.6
                        for f in filings if f["tier"] == "high")]
     health["News"] = f"ok · {len(news)}" if nfails < len(stocks) else "unavailable"
 
@@ -538,6 +630,7 @@ def run(days=None, write_state=True):
         "news": [dict(n, stock=stock_view(n["nse"])) for n in sorted(news, key=key)],
         "codes": table,
         "backtest_days": days,
+        "diagnostics": DIAG,
     }
 
     DATA.mkdir(parents=True, exist_ok=True)
@@ -678,6 +771,8 @@ def render_pane(pf, show_other=True, show_codes=False):
            f'<div class="pf-health">{pf["stock_count"]} stocks · {span} · {hl}'
            f' · {pf["dropped"]} routine filings hidden</div>']
 
+    if pf.get("diagnostics"):
+        out.append('<div class="pf-health">⚠️ ' + " · ".join(_e(d) for d in pf["diagnostics"]) + '</div>')
     if not (pf["high"] or pf["news"]):
         out.append(f'<div class="pf-quiet">Nothing material across your {pf["stock_count"]} '
                    f'stocks {span}.</div>')
@@ -702,7 +797,8 @@ def render_pane(pf, show_other=True, show_codes=False):
                    '<th>BSE code</th><th>BSE name</th><th>Matched by</th><th>Status</th></tr>')
         for r in rows:
             bad = ' class="bad"' if r["status"] not in ("ok", "NSE only") else ""
-            out.append(f'<tr><td>{_e(r["nse"])}</td><td>{_e(r["name"])}</td><td>{_e(r["nse_name"])}</td>'
+            sym = r["nse"] + (f' → {r["nse_resolved"]}' if r.get("nse_resolved") else "")
+            out.append(f'<tr><td>{_e(sym)}</td><td>{_e(r["name"])}</td><td>{_e(r["nse_name"])}</td>'
                        f'<td>{_e(r["bse"])}</td><td>{_e(r["bse_name"])}</td>'
                        f'<td>{_e(r["matched_by"])}</td><td{bad}>{_e(r["status"])}</td></tr>')
         out.append('</table></div>')

@@ -59,6 +59,7 @@ filings:
     - 'promoter.*(sale|sell|acqui|stake)|change in (control|promoter)'
     # Corporate actions
     - 'acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale'
+    - 'sale (and|&) transfer|transfer of (project|spv|subsidiar|undertaking)|sale of (subsidiar|stake|spv|business)'
     - 'award(ed|ing)? of (order|contract)|bagging|receipt of (order|contract)|letter of award|order win|\bLoA\b|purchase order'
     - 'capex|commission(ing|ed) of|new (plant|facility)|capacity expansion'
     - 'usfda|warning letter|form 483|\bEIR\b|import alert|(fda|regulatory) inspection'
@@ -81,6 +82,7 @@ filings:
     - 'press release|media release'
     - 'annual report|agm|general meeting'
     - 'allotment of (ncd|non-convertible|commercial paper)'
+    - 'reclassification|promoter group'
 
 news:
   # Headlines are kept only if they hit one of these. Everything else is skipped.
@@ -97,6 +99,7 @@ news:
     - 'shares? (rise|rises|fall|falls|jump|jumps|surge|surges|slump|slumps|gain|gains|decline|declines|rall(y|ies)|tank|tanks|soar|soars)'
     - 'stocks? to (buy|watch)|buy or sell|target price|top gainers|top losers|technical (pick|view)|f&o|options data'
     - 'sensex|nifty (ends|closes|opens)|market (live|today|updates)|stock market highlights'
+    - 'compliance certificate|files .*certificate|trading window|newspaper'
   # Outlets whose stories get a trust badge (others still shown if a trigger hits).
   trusted_sources:
     - 'Economic Times|ETMarkets|ET BFSI|ET HealthWorld|ET EnergyWorld'

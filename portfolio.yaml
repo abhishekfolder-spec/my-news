@@ -6,13 +6,17 @@
 # bse:   BSE scrip code. Leave blank: the script looks it up and prints a
 #        mapping table on its first run so you can check it.
 # group: holding | watchlist
+# bse_only: true → listed only on BSE (set bse: code); sme: true → NSE SME (Emerge) listing
+# nse is then just a label for BSE-only stocks.
+# ignore: optional regex — matching filings AND news for this stock are hidden
+#        (e.g. Power Grid's routine SPV acquisitions and commissioning).
 # title_must / title_exclude: optional regex to keep news on-target
 #        (e.g. 'Bank of India' must not pick up State Bank / Reserve Bank).
 # No quantities or values are stored here (this repo is public).
 
 holdings:
   - {nse: ADVENZYMES,  name: "Advanced Enzyme Technologies", news: ["Advanced Enzyme Technologies"], group: holding}
-  - {nse: ALLTECH,     name: "All E Technologies",           news: ["All E Technologies"], group: holding}
+  - {nse: ALLETEC,     name: "All E Technologies",           news: ["All E Technologies"], sme: true, group: holding}
   - {nse: ARMANFIN,    name: "Arman Financial Services",     news: ["Arman Financial"], group: holding}
   - {nse: BANKINDIA,   name: "Bank of India",                news: ["Bank of India"], title_exclude: "(State|Central|Union|Reserve|Exim|Export-Import|Small Industries Development) Bank of India", group: holding}
   - {nse: BIRLANU,     name: "BirlaNu",                      news: ["BirlaNu"], group: holding}
@@ -32,25 +36,25 @@ holdings:
   - {nse: MEDIASSIST,  name: "Medi Assist Healthcare Services", news: ["Medi Assist"], group: holding}
   - {nse: NEULANDLAB,  name: "Neuland Laboratories",         news: ["Neuland Laboratories", "Neuland Labs"], group: holding}
   - {nse: NORTHARC,    name: "Northern Arc Capital",         news: ["Northern Arc"], group: holding}
-  - {nse: POWERGRID,   name: "Power Grid Corporation of India", news: ["Power Grid Corporation"], group: holding}
+  - {nse: POWERGRID,   name: "Power Grid Corporation of India", news: ["Power Grid Corporation"], ignore: "acqui|commission|transmission (spv|project|scheme)|\\bspv\\b|lakadia|tbcb|declared (as )?successful bidder|letter of intent", group: holding}
   - {nse: RBZJEWEL,    name: "RBZ Jewellers",                news: ["RBZ Jewellers"], group: holding}
-  - {nse: RECLTD,      name: "REC Limited",                  news: ["REC Ltd"], title_must: "\\bREC\\b", group: holding}
+  - {nse: RECLTD,      name: "REC Limited",                  news: ["REC Ltd"], title_must: "\\bREC\\b", ignore: "sale (and|&) transfer|transfer of (project|spv)|project[- ]specific spv|\\bspvs?\\b|tbcb|bid process co-?ordinator|incorporation of (wholly owned )?subsidiar", group: holding}
   - {nse: RBA,         name: "Restaurant Brands Asia",       news: ["Restaurant Brands Asia"], group: holding}
   - {nse: ROUTE,       name: "Route Mobile",                 news: ["Route Mobile"], group: holding}
-  - {nse: SJLOGISTICS, name: "S J Logistics",                news: ["SJ Logistics", "S J Logistics"], group: holding}
+  - {nse: SJLOGISTIC,  name: "S J Logistics",                news: ["SJ Logistics", "S J Logistics"], sme: true, group: holding}
   - {nse: SAMHI,       name: "SAMHI Hotels",                 news: ["SAMHI Hotels"], group: holding}
-  - {nse: SATINCLTD,   name: "Satin Creditcare Network",     news: ["Satin Creditcare"], group: holding}
-  - {nse: SHEELAFOAM,  name: "Sheela Foam",                  news: ["Sheela Foam"], group: holding}
-  - {nse: SHIVALIKRAS, name: "Shivalik Rasayan",             news: ["Shivalik Rasayan"], group: holding}
+  - {nse: SATIN,       name: "Satin Creditcare Network",     news: ["Satin Creditcare"], group: holding}
+  - {nse: SFL,         name: "Sheela Foam",                  news: ["Sheela Foam"], group: holding}
+  - {nse: SHIVALIK,    name: "Shivalik Rasayan",             news: ["Shivalik Rasayan"], bse: "539148", bse_only: true, group: holding}
   - {nse: SOLARA,      name: "Solara Active Pharma Sciences", news: ["Solara Active Pharma"], group: holding}
   - {nse: SUNTECK,     name: "Sunteck Realty",               news: ["Sunteck Realty"], group: holding}
   - {nse: TEJASNET,    name: "Tejas Networks",               news: ["Tejas Networks"], group: holding}
   - {nse: TIMETECHNO,  name: "Time Technoplast",             news: ["Time Technoplast"], group: holding}
   - {nse: UGROCAP,     name: "Ugro Capital",                 news: ["Ugro Capital", "UGRO Capital"], group: holding}
   - {nse: UJJIVANSFB,  name: "Ujjivan Small Finance Bank",   news: ["Ujjivan Small Finance Bank", "Ujjivan SFB"], group: holding}
-  - {nse: UNITEDFDS,   name: "United Foodbrands",            news: ["United Foodbrands", "Barbeque Nation"], group: holding}
+  - {nse: UFBL,        name: "United Foodbrands",            news: ["United Foodbrands", "Barbeque Nation"], group: holding}
   - {nse: VAIBHAVGBL,  name: "Vaibhav Global",               news: ["Vaibhav Global"], group: holding}
-  - {nse: VIYASHSCI,   name: "Viyash Scientific",            news: ["Viyash Scientific"], group: holding}
+  - {nse: VIYASH,      name: "Viyash Scientific",            news: ["Viyash Scientific"], group: holding}
   - {nse: CGRAPHICS,   name: "Creative Graphics Solutions",  news: ["Creative Graphics Solutions"], sme: true, group: holding}  # tracker says "Computer Graphics Ltd." — please confirm
   - {nse: PARAGMILK,   name: "Parag Milk Foods",             news: ["Parag Milk Foods"], group: holding}
   - {nse: VOGL,        name: "Vedanta Oil and Gas",          news: ["Vedanta Oil and Gas"], group: holding}
