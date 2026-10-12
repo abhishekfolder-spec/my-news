@@ -29,6 +29,7 @@ import requests
 from bs4 import BeautifulSoup
 
 import summarize                      # the built-in, no-key summariser
+import portfolio                      # Portfolio tab: NSE/BSE filings + stock news
 import clusters                       # groups same-story headlines into themes
 
 try:
@@ -437,7 +438,7 @@ def fmt_quote(q):
             f'<div class="ch {cls}">{arrow} {q["pct"]:+.2f}%</div></div>')
 
 
-def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None):
+def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None, pf=None):
     """grouped: list of (theme, [cluster, ...]) in tab order."""
     tz = ZoneInfo(settings["timezone"]) if ZoneInfo else dt.timezone.utc
     sents = settings.get("summary_sentences", 2)
@@ -469,18 +470,24 @@ def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None
         return (f'<article class="card"><div class="cm">{when_of(lead)}{cov}</div>'
                 f'{head}{body}<div class="ols">{outlet_chips(c)}</div></article>')
 
-    out = [HEAD.format(title=esc(settings["title"]), date=esc(date_disp), css=CSS)]
+    out = [HEAD.format(title=esc(settings["title"]), date=esc(date_disp),
+                       css=CSS + (pf["css"] if pf else ""))]
     out.append('<header class="hero">')
     out.append(f'<h1 class="title">{esc(settings["title"])}</h1>')
     out.append(f'<div class="date">{esc(date_disp)}</div></header>')
 
     out.append('<nav class="tabs" aria-label="Sections"><a href="#overview">Overview</a>')
+    if pf:
+        n = f' <span class="n">{pf["count"]}</span>' if pf["count"] else ""
+        out.append(f'<a href="#portfolio">💼 Portfolio{n}</a>')
     for sid, th, _ in sections:
         out.append(f'<a href="#{sid}">{esc(tab_label(th))}</a>')
     out.append('</nav>')
 
     # Overview: market strip, brief, theme cards
     out.append('<section class="pane" id="overview" data-theme="navy">')
+    if pf and pf.get("alert"):
+        out.append(pf["alert"])
     if quotes:
         out.append('<div class="ticker">' + "".join(fmt_quote(q) for q in quotes) + '</div>')
         out.append('<div class="ticker-note">Markets: last price and day change. ▲ up · ▼ down.</div>')
@@ -511,6 +518,12 @@ def render(date_disp, tape_meta, themes, ai_text, grouped, settings, quotes=None
                        f'{len(c["outlets"])} outlets · {when_of(c["lead"])}</span></li>')
         out.append('</ul></a>')
     out.append('</div></section>')
+
+    # Portfolio tab (filings + stock news), right after Overview
+    if pf:
+        out.append('<section class="pane" id="portfolio" data-theme="navy">')
+        out.append(pf["pane"])
+        out.append('</section>')
 
     # One tab per theme: cluster cards
     for sid, th, cl in sections:
@@ -569,7 +582,7 @@ def filter_items(items, settings):
     return kept
 
 
-def build(items, settings, quotes=None):
+def build(items, settings, quotes=None, with_portfolio=True):
     items = filter_items(dedupe(items), settings)
     cls = clusters.build_clusters(items, settings)
 
@@ -614,7 +627,11 @@ def build(items, settings, quotes=None):
 
     if quotes is None:
         quotes = fetch_markets(settings.get("markets", []))
-    page = render(date_disp, [], themes, ai_text, grouped, settings, quotes)
+    pf = None
+    if with_portfolio and (ROOT / "portfolio.yaml").exists():
+        print("Portfolio tracker…")
+        pf = portfolio.section(settings)
+    page = render(date_disp, [], themes, ai_text, grouped, settings, quotes, pf)
     DOCS.mkdir(parents=True, exist_ok=True)
     ARCHIVE.mkdir(parents=True, exist_ok=True)
     (DOCS / ".nojekyll").touch()   # tell GitHub Pages: serve HTML as-is, skip Jekyll
@@ -640,7 +657,7 @@ def run(config_path):
 def run_demo():
     import sample_data
     cfg = yaml.safe_load(open(ROOT / "config.yaml", encoding="utf-8"))
-    build(sample_data.ITEMS, cfg["settings"], quotes=sample_data.QUOTES)
+    build(sample_data.ITEMS, cfg["settings"], quotes=sample_data.QUOTES, with_portfolio=False)
 
 
 if __name__ == "__main__":

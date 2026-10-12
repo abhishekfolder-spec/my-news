@@ -8,6 +8,11 @@ on:
   schedule:
     - cron: "30 1 * * *"
   workflow_dispatch:
+    inputs:
+      backtest_days:
+        description: "Portfolio backtest: look back N days (blank = normal run)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -36,6 +41,10 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python digest.py
+
+      - name: Portfolio backtest (manual runs only)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.backtest_days != '' }}
+        run: python portfolio.py --days ${{ inputs.backtest_days }} --out docs/portfolio-backtest.html
 
       - name: Commit updated dashboard
         run: |

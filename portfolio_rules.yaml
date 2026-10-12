@@ -1,0 +1,116 @@
+# Portfolio news tracker — what counts as important
+# ---------------------------------------------------------------------------
+# Every exchange filing and news headline is matched against these lists
+# (case-insensitive regular expressions, checked against the filing's
+# subject + category + description, or the news headline).
+#
+#   drop  → never shown (checked first, so noise can't sneak into "high")
+#   high  → 🔴 flagged at the top of the Portfolio tab
+#   medium→ 🟡 one-line mention
+#   anything unmatched → ⚪ counted under "Other filings" (collapsed), so
+#                        nothing is silently lost while we tune the rules
+#
+# Edit freely: add a phrase on a new line, commit, and the next run uses it.
+
+filings:
+  # Checked before everything else (so e.g. "delay in payment of interest"
+  # is never swallowed by the routine-interest drop rule below).
+  critical:
+    - 'default|delay in (payment|servicing)|non-?payment'
+    - 'fraud|forensic|whistle ?blower'
+    - 'resignation of (the )?(statutory )?auditor'
+    - '\b(search|seizure|raid)\b|enforcement directorate'
+
+  drop:
+    - 'regulation 74\s*\(?5\)?'                 # depository certificates
+    - 'trading window'
+    - 'newspaper (publication|advertisement)'
+    - 'loss of share certificate|duplicate share certificate|issue of duplicate'
+    - 'certificate under (sebi )?\(?depositories'
+    - 'compliance certificate'
+    - 'reg(ulation)?\.? ?7\(3\)|regulation 40\(9\)|regulation 40\(10\)'
+    - 'change in (registrar|rta)|registrar (and|&) (share )?transfer agent'
+    - 'statement of investor complaints|investor grievance'
+    - 'closure of (the )?register'
+    - 'esop|esos|employee stock option'          # small allotments; move to medium if you care
+    - 'reconciliation of share capital'
+    - 'book ?closure'
+    - 'copy of (the )?newspaper'
+    - 'postal ballot.*(scrutini[sz]er|voting results)'
+    - 'annual secretarial compliance'
+    - 'certificate.*regulation 57|interest payment.*ncd|payment of interest'   # routine NCD servicing
+
+  # Checked before "high": announcements that only schedule something.
+  # e.g. "Board meeting on 23-Oct to consider financial results" is 🟡, not 🔴.
+  schedule_only:
+    - 'intimation of board meeting|prior intimation|board meeting (intimation|on|to be held)|to consider and approve'
+    - 'intimation of (analyst|investor|earnings|conference) (meet|call)'
+
+  high:
+    # Results & guidance
+    - 'financial results?|(un)?audited results|outcome of board meeting.*result'
+    - 'guidance|business update|operational update|provisional (business|disbursement|figures)'
+    # Capital & ownership
+    - 'qip|qualified institutions? placement|preferential (issue|allotment)|rights issue|warrants'
+    - 'fund ?rais|raising of funds|issue of (equity|securities)'
+    - 'buy-?back|bonus issue|stock split|sub-?division'
+    - 'pledge|encumbrance|invocation'
+    - 'substantial acquisition|regulation 29|sast|open offer|offer for sale|\bofs\b'
+    - 'promoter.*(sale|sell|acqui|stake)|change in (control|promoter)'
+    # Corporate actions
+    - 'acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale'
+    - 'award(ed|ing)? of (order|contract)|bagging|receipt of (order|contract)|letter of award|order win|\bLoA\b|purchase order'
+    - 'capex|commission(ing|ed) of|new (plant|facility)|capacity expansion'
+    - 'usfda|warning letter|form 483|\bEIR\b|import alert|(fda|regulatory) inspection'
+    # People
+    - 'resignation|cessation|appointment of (md|ceo|cfo|managing director|chief executive|chief financial|whole[- ]time)'
+    - 'resignation of (the )?(statutory )?auditor|change in (the )?statutory auditor'
+    # Credit, regulatory, legal
+    - 'credit rating|rating (action|revis|downgrad|upgrad|reaffirm)'
+    - 'rbi|reserve bank|sebi order|show cause|penalty|adjudicat|cerc|cert-?in'
+    - '\bsearch\b|seizure|\braid|enforcement directorate|income tax (search|survey)|gst (demand|notice|order)|tax demand'
+    - 'default|delay in (payment|servicing)|insolvency|nclt|ibc'
+    - 'fraud|forensic|whistle ?blower|litigation|arbitration award|court order|disclosure under regulation 30.*(litigation|dispute)'
+    - 'gnpa|nnpa|asset quality|write-?off|securiti[sz]ation|co-?lending|business restriction'
+
+  medium:
+    - 'board meeting|intimation of board'
+    - 'transcript|audio recording|earnings call|conference call'
+    - 'investor presentation|analyst(s)? meet|investor meet|institutional investor'
+    - 'dividend|record date'
+    - 'press release|media release'
+    - 'annual report|agm|general meeting'
+    - 'allotment of (ncd|non-convertible|commercial paper)'
+
+news:
+  # Headlines are kept only if they hit one of these. Everything else is skipped.
+  triggers:
+    - 'downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch'
+    - 'probe|\braid|\bsearch(es)?\b|\bED\b|enforcement directorate|sebi|\brbi\b|penalt|\bfined?\b|\bban(s|ned)?\b|show.?cause|nclt|insolvency'
+    - 'fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint'
+    - 'acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential'
+    - 'order (win|worth|from)|bags|wins .*order|contract worth|letter of award'
+    - 'usfda|warning letter|form 483|import alert'
+    - 'guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall'
+  # Price-movement filler is dropped even if it hits a trigger.
+  drop:
+    - 'shares? (rise|rises|fall|falls|jump|jumps|surge|surges|slump|slumps|gain|gains|decline|declines|rall(y|ies)|tank|tanks|soar|soars)'
+    - 'stocks? to (buy|watch)|buy or sell|target price|top gainers|top losers|technical (pick|view)|f&o|options data'
+    - 'sensex|nifty (ends|closes|opens)|market (live|today|updates)|stock market highlights'
+  # Outlets whose stories get a trust badge (others still shown if a trigger hits).
+  trusted_sources:
+    - 'Economic Times|ETMarkets|ET BFSI|ET HealthWorld|ET EnergyWorld'
+    - 'Mint|Livemint'
+    - 'Business Standard'
+    - 'Moneycontrol'
+    - 'Reuters'
+    - 'The Hindu BusinessLine|BusinessLine'
+    - 'Financial Express'
+    - 'CNBC-TV18|CNBC TV18'
+    - 'Bloomberg'
+  lookback_hours: 36
+  max_per_stock: 3
+
+settings:
+  filings_lookback_hours: 30     # covers last evening's post-market filings at the 07:00 IST run
+  show_other_filings: true       # collapsed ⚪ list while tuning; set false later
