@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-12T20:04+05:30",
- "since": "2026-10-11T14:04+05:30",
+ "generated": "2026-10-13T13:28+05:30",
+ "since": "2026-10-12T07:28+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 17",
+  "NSE": "ok · 19",
   "BSE": "unavailable",
-  "News": "ok · 3"
+  "News": "ok · 6"
  },
  "high": [
   {
@@ -61,6 +61,31 @@
  ],
  "medium": [
   {
+   "nse": "JMFINANCIL",
+   "exchange": "NSE",
+   "when": "2026-10-12T22:11+05:30",
+   "subject": "General Updates",
+   "detail": "JM Financial Limited has informed the Exchange that JM Financial (Middle East) Limited has been incorporated today i.e., October 12, 2026, in Abu Dhabi Global Market, as a wholly owned subsidiary of JM Financial Overseas Holdings Private Limited and a wholly owned step-down subsidiary of the Company.",
+   "link": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_12102026221110_Draft_Intimation_-_Incorporation_of_Step_Down_Subsidiaryupload.pdf",
+   "text": "General Updates JM Financial Limited has informed the Exchange that JM Financial (Middle East) Limited has been incorporated today i.e., October 12, 2026, in Abu Dhabi Global Market, as a wholly owned subsidiary of JM Financial Overseas Holdings Private Limited and a wholly owned step-down subsidiary of the Company.",
+   "tier": "medium",
+   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/JMFINANCIL_12102026221110_Draft_Intimation_-_Incorporation_of_Step_Down_Subsidiaryupload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
    "nse": "ADVENZYMES",
    "exchange": "NSE",
    "when": "2026-10-12T17:41+05:30",
@@ -87,6 +112,31 @@
   }
  ],
  "other": [
+  {
+   "nse": "IEX",
+   "exchange": "NSE",
+   "when": "2026-10-13T13:22+05:30",
+   "subject": "General Updates",
+   "detail": "Indian Energy Exchange Limited has informed the Exchange about General Updates about Receipt of Observation Letter from SEBI by Indian Gas Exchange Limited, An Associate Company of IEX, for its Proposed Initial Public Offering.",
+   "link": "https://nsearchives.nseindia.com/corporate/IEX_13102026132246_IEX_Intimation_IGX_DRHP_SEBI_Observation_Letter_Signed.pdf",
+   "text": "General Updates Indian Energy Exchange Limited has informed the Exchange about General Updates about Receipt of Observation Letter from SEBI by Indian Gas Exchange Limited, An Associate Company of IEX, for its Proposed Initial Public Offering.",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/IEX_13102026132246_IEX_Intimation_IGX_DRHP_SEBI_Observation_Letter_Signed.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "IEX",
+    "name": "Indian Energy Exchange",
+    "group": "holding"
+   }
+  },
   {
    "nse": "COHANCE",
    "exchange": "NSE",
@@ -167,10 +217,10 @@
  "news": [
   {
    "nse": "BANKINDIA",
-   "title": "Bank of India Labels Future Enterprise Account as Fraud with ₹575.40 Crore Due",
+   "title": "Bank of India Declares Future Enterprise Account as Fraud with ₹575.40 Crore Provisioned",
    "source": "Sahi",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObFg3eHoyeU1DaVNzNGp2U0ttc0R1YXR2dWs5X1dCTENTMzBuYWxsUDJ2TkxCeGNwb2NfUURVc1QxajVOUzZMdG95MzFCNjhsQUtmZEVhUDEzbllXYTM3a2pqa2hCSXJFN012T1NvNVpVMTN5V3IyOGcwTUk1LU5HZWktZUdPVVVlY2ZBRkRMSUUybnJNZm1qTkNweFNsem15NENYUGdn?oc=5",
-   "when": "2026-10-12T18:31+05:30",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd3VxbE1VREZVbEo0anhGSjQ0SkM4SEUzWFF4Q0pCWmFwM1M1VGJCUG5KV0EyNzZyaFJsUThoRlgxTTV0cllNWnBmS2s0V3VaUGhmckJFYVVJUXdDRnJVbWZxZFo2Y2RPblpTOUIzVGJ3QzRhYXZJOXpMZTFjREJ1RHZTMGk4RTlibkYzd2JzZXJtODAzSDNxTkVkeDFyZmUtb3NQT1pub05TVWxrb0FIWFctUQ?oc=5",
+   "when": "2026-10-13T06:37+05:30",
    "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
@@ -180,11 +230,53 @@
    }
   },
   {
+   "nse": "JMFINANCIL",
+   "title": "JM Financial sets up Abu Dhabi subsidiary to drive Middle East expansion",
+   "source": "TipRanks",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS2hBNXZ6NzI3OTdoU1NjVElaVER1MjIza3V0cDJ0a0lBLXY1TGtLN0lCTkZLd2NkS3p6RFYzcjQ2My1YMjFqMGp1S0xvanJnRGVsSTg1X1l6LS13X1NpWWgwX3pZcER0dzY5M3pIUHBCdFlBNm8zOVFsRFhoMVZNTTBkYlc2M1ZDeGdkQ2EtRnNwUkFYQ21rZGFWWFYxcmNILVNHaTFZVlhQMXRlQklTZGNOdmY2cE5WdDAxSEJTYUUzdw?oc=5",
+   "when": "2026-10-13T00:37+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "POWERGRID",
+   "title": "Skipper Ltd appoints Mr. R. N. Nayak, former CMD of Power Grid Corporation of India, as Non-Executive Independent Director",
+   "source": "EquityBulls",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KWTdmOWd6UktRckx0S0pJdHBoN19IUm54SzRhYS10VWR1YlQxeGEtT1ZjU1Zybk5jS3kxVm1Nams3eDcxRE5GaVpPVDZPZ2RyUTE4ZEhwNnJaVHg2TTRJ?oc=5",
+   "when": "2026-10-13T00:33+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
+    "group": "holding"
+   }
+  },
+  {
    "nse": "COHANCE",
-   "title": "Cohance Lifesciences appoints Abhimanyu Ojha as CFO",
-   "source": "Express Pharma",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRjVZUnVibUtuNHNwYjlVbmo2MzFseFg5X05HWWpMNEVBSm5IXzBHYXJYY1lmNWdOZlJGTDVGTGQzUTVvR1BwYXBIOFV0NlB4NE5PaTJJdTlOTVIzNnlwWVhDNFNBMTlJaC1IWUpVWGR1UC05RWJ6WEdmcjNQelM0RzNnQ0Rud2pZ?oc=5",
-   "when": "2026-10-12T14:08+05:30",
+   "title": "Cohance Lifesciences appoints Abhimanyu Ojha as Chief Financial Officer",
+   "source": "BioSpectrum India",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcVdKOU1RbE05emxoZ2I3VEJyU0d1S1FxdmRjd2pkVHBnUTQ3YXhINWdYU3UycXdubmwxRW94c0NKbF9zNGdqUFljNzFfeVIwTkwydFREb0FHQ1BPRXk1MHZJblpZRXdWWmdjSHItQkhIVlVQWm5BZHFMUURKenNfNktxWUlEVzBQeFI4QkVhNG1qeXdDQ24tRDdBYXN0Unpad1hpWVB4ZGVmekRNY0drM3c5WnlLcG1KOWdJTHotNXE?oc=5",
+   "when": "2026-10-12T19:04+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "COHANCE",
+   "title": "Abbimanyu Ojhha Appointed CFO of Cohance Lifesciences",
+   "source": "CXO Digitalpulse",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS1NUV2VyeTZYbjlUY29VSWprY1NwLVNPSU82blBONm0zakh1RU5nc2ltU1hic1Z4Mm5wcW5SZWJlR0drTHNIMzNhYUw5QUVuVHlGbm0zdjFsMHZaUGtDcEVCTlBxcnExUklYNEIyMElkY080clVaT2l0MndHcWE1dll1aHV2eGhWQnpNQ0JFcw?oc=5",
+   "when": "2026-10-12T15:06+05:30",
    "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
@@ -663,8 +755,7 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 09 Oct",
-  "BSE announcements failed (ReadTimeout)",
+  "BSE codes taken from bhavcopy 12 Oct",
   "BSE announcements failed (HTTPError)",
   "BSE announcements failed (JSONDecodeError)"
  ]
