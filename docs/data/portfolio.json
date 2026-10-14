@@ -1,21 +1,46 @@
 {
- "generated": "2026-10-13T13:28+05:30",
- "since": "2026-10-12T07:28+05:30",
+ "generated": "2026-10-14T11:54+05:30",
+ "since": "2026-10-13T05:54+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 19",
+  "NSE": "ok · 10",
   "BSE": "unavailable",
-  "News": "ok · 6"
+  "News": "ok · 10"
  },
  "high": [
   {
-   "nse": "SJLOGISTIC",
+   "nse": "KRSNAA",
    "exchange": "NSE",
-   "when": "2026-10-12T18:46+05:30",
+   "when": "2026-10-13T19:22+05:30",
+   "subject": "Allotment of Securities",
+   "detail": "Krsnaa Diagnostics Limited has informed the Exchange regarding allotment of 1621000 securities pursuant to Preferential Issue at its meeting held on October 13, 2026",
+   "link": "https://nsearchives.nseindia.com/corporate/KRSNAA_13102026192136_543328.pdf",
+   "text": "Allotment of Securities Krsnaa Diagnostics Limited has informed the Exchange regarding allotment of 1621000 securities pursuant to Preferential Issue at its meeting held on October 13, 2026",
+   "tier": "high",
+   "rule": "qip|qualified institutions? placement|preferential (issue|allotment)|rights issue|warrants",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/KRSNAA_13102026192136_543328.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "KRSNAA",
+    "name": "Krsnaa Diagnostics",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SFL",
+   "exchange": "NSE",
+   "when": "2026-10-13T15:31+05:30",
    "subject": "Credit Rating",
-   "detail": "S J Logistics (India) Limited has informed the Exchange about Credit Rating",
-   "link": "https://nsearchives.nseindia.com/corporate/SJLOGISTICS_12102026184442_Care_Rating.pdf",
-   "text": "Credit Rating S J Logistics (India) Limited has informed the Exchange about Credit Rating",
+   "detail": "Sheela Foam Limited has informed the Exchange about Credit Rating",
+   "link": "https://nsearchives.nseindia.com/corporate/SFL_13102026153052_SignedCreditRating.pdf",
+   "text": "Credit Rating Sheela Foam Limited has informed the Exchange about Credit Rating",
    "tier": "high",
    "rule": "credit rating|rating (action|revis|downgrad|upgrad|reaffirm)",
    "exchange_set": [
@@ -24,50 +49,25 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/SJLOGISTICS_12102026184442_Care_Rating.pdf"
+     "https://nsearchives.nseindia.com/corporate/SFL_13102026153052_SignedCreditRating.pdf"
     ]
    ],
    "stock": {
-    "nse": "SJLOGISTIC",
-    "name": "S J Logistics",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BANKINDIA",
-   "exchange": "NSE",
-   "when": "2026-10-12T18:32+05:30",
-   "subject": "Fraud/Default/Arrest",
-   "detail": "Bank Of India has informed the Exchange about Fraud/Default/Arrest",
-   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA2_12102026183224_Future_Fraud.pdf",
-   "text": "Fraud/Default/Arrest Bank Of India has informed the Exchange about Fraud/Default/Arrest",
-   "tier": "high",
-   "rule": "default|delay in (payment|servicing)|non-?payment",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/BANKINDIA2_12102026183224_Future_Fraud.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
+    "nse": "SFL",
+    "name": "Sheela Foam",
     "group": "holding"
    }
   }
  ],
  "medium": [
   {
-   "nse": "JMFINANCIL",
+   "nse": "JUBLINGREA",
    "exchange": "NSE",
-   "when": "2026-10-12T22:11+05:30",
+   "when": "2026-10-13T15:12+05:30",
    "subject": "General Updates",
-   "detail": "JM Financial Limited has informed the Exchange that JM Financial (Middle East) Limited has been incorporated today i.e., October 12, 2026, in Abu Dhabi Global Market, as a wholly owned subsidiary of JM Financial Overseas Holdings Private Limited and a wholly owned step-down subsidiary of the Company.",
-   "link": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_12102026221110_Draft_Intimation_-_Incorporation_of_Step_Down_Subsidiaryupload.pdf",
-   "text": "General Updates JM Financial Limited has informed the Exchange that JM Financial (Middle East) Limited has been incorporated today i.e., October 12, 2026, in Abu Dhabi Global Market, as a wholly owned subsidiary of JM Financial Overseas Holdings Private Limited and a wholly owned step-down subsidiary of the Company.",
+   "detail": "Jubilant Ingrevia Limited has informed the Exchange about incorporation of wholly-owned subsidiary",
+   "link": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_13102026151213_Intimation_of_incorporation_of_WOS.pdf",
+   "text": "General Updates Jubilant Ingrevia Limited has informed the Exchange about incorporation of wholly-owned subsidiary",
    "tier": "medium",
    "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
    "exchange_set": [
@@ -76,42 +76,42 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/JMFINANCIL_12102026221110_Draft_Intimation_-_Incorporation_of_Step_Down_Subsidiaryupload.pdf"
+     "https://nsearchives.nseindia.com/corporate/JUBLINGREA_13102026151213_Intimation_of_incorporation_of_WOS.pdf"
     ]
    ],
    "stock": {
-    "nse": "JMFINANCIL",
-    "name": "JM Financial",
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
     "group": "holding"
    }
-  },
+  }
+ ],
+ "other": [
   {
-   "nse": "ADVENZYMES",
+   "nse": "VOGL",
    "exchange": "NSE",
-   "when": "2026-10-12T17:41+05:30",
+   "when": "2026-10-13T15:36+05:30",
    "subject": "Updates",
-   "detail": "Intimation of receipt of request from few promoter group members for reclassification from Promoter Group category to Public category shareholder under Regulation 31A of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (as amended)",
-   "link": "https://nsearchives.nseindia.com/corporate/AETL_12102026174113_Intimation12102026.pdf",
-   "text": "Updates Intimation of receipt of request from few promoter group members for reclassification from Promoter Group category to Public category shareholder under Regulation 31A of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (as amended)",
-   "tier": "medium",
-   "rule": "reclassification|promoter group",
+   "detail": "Vedanta Oil and Gas Limited has informed the Exchange regarding 'Clarification on recommendations issued by proxy advisory firm on Agenda Items of Postal Ballot Notice of Vedanta Oil and Gas Limited (formerly known as Malco Energy Limited) (the Company or VOGL )'.",
+   "link": "https://nsearchives.nseindia.com/corporate/VOGL_13102026153618_VOGLSEIntimationProxyAdvisors.pdf",
+   "text": "Updates Vedanta Oil and Gas Limited has informed the Exchange regarding 'Clarification on recommendations issued by proxy advisory firm on Agenda Items of Postal Ballot Notice of Vedanta Oil and Gas Limited (formerly known as Malco Energy Limited) (the Company or VOGL )'.",
+   "tier": "other",
+   "rule": null,
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/AETL_12102026174113_Intimation12102026.pdf"
+     "https://nsearchives.nseindia.com/corporate/VOGL_13102026153618_VOGLSEIntimationProxyAdvisors.pdf"
     ]
    ],
    "stock": {
-    "nse": "ADVENZYMES",
-    "name": "Advanced Enzyme Technologies",
+    "nse": "VOGL",
+    "name": "Vedanta Oil and Gas",
     "group": "holding"
    }
-  }
- ],
- "other": [
+  },
   {
    "nse": "IEX",
    "exchange": "NSE",
@@ -136,91 +136,16 @@
     "name": "Indian Energy Exchange",
     "group": "holding"
    }
-  },
-  {
-   "nse": "COHANCE",
-   "exchange": "NSE",
-   "when": "2026-10-12T19:50+05:30",
-   "subject": "General Updates",
-   "detail": "Cohance Lifesciences Limited has informed the Exchange about General Updates",
-   "link": "https://nsearchives.nseindia.com/corporate/SUVENPHARMROHIT_12102026194926_SE_disclosure_CG_Approval_Umang_Vohra.pdf",
-   "text": "General Updates Cohance Lifesciences Limited has informed the Exchange about General Updates",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUVENPHARMROHIT_12102026194926_SE_disclosure_CG_Approval_Umang_Vohra.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SAMHI",
-   "exchange": "NSE",
-   "when": "2026-10-12T19:00+05:30",
-   "subject": "General Updates",
-   "detail": "Samhi Hotels Limited has informed the Exchange about General Update on issuance of Commencement Certificate from Maharashtra Industrial Development Corporation (A Government of Maharashtra Undertaking) to Duet India Hotels (Navi Mumbai) Private Limited",
-   "link": "https://nsearchives.nseindia.com/corporate/Samhi_12102026185535_MIDC_approval_Duet_Navi_Mumbai.pdf",
-   "text": "General Updates Samhi Hotels Limited has informed the Exchange about General Update on issuance of Commencement Certificate from Maharashtra Industrial Development Corporation (A Government of Maharashtra Undertaking) to Duet India Hotels (Navi Mumbai) Private Limited",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/Samhi_12102026185535_MIDC_approval_Duet_Navi_Mumbai.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SAMHI",
-    "name": "SAMHI Hotels",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BANKINDIA",
-   "exchange": "NSE",
-   "when": "2026-10-12T17:56+05:30",
-   "subject": "Updates",
-   "detail": "Bank Of India has informed the Exchange regarding 'Disclosure under Regulation 30 of SEBI(LODR) Regulations, 2015''.",
-   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA2_12102026175622_Future_Fraud.pdf",
-   "text": "Updates Bank Of India has informed the Exchange regarding 'Disclosure under Regulation 30 of SEBI(LODR) Regulations, 2015''.",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/BANKINDIA2_12102026175622_Future_Fraud.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
-    "group": "holding"
-   }
   }
  ],
- "dropped": 11,
+ "dropped": 5,
  "news": [
   {
    "nse": "BANKINDIA",
-   "title": "Bank of India Declares Future Enterprise Account as Fraud with ₹575.40 Crore Provisioned",
-   "source": "Sahi",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd3VxbE1VREZVbEo0anhGSjQ0SkM4SEUzWFF4Q0pCWmFwM1M1VGJCUG5KV0EyNzZyaFJsUThoRlgxTTV0cllNWnBmS2s0V3VaUGhmckJFYVVJUXdDRnJVbWZxZFo2Y2RPblpTOUIzVGJ3QzRhYXZJOXpMZTFjREJ1RHZTMGk4RTlibkYzd2JzZXJtODAzSDNxTkVkeDFyZmUtb3NQT1pub05TVWxrb0FIWFctUQ?oc=5",
-   "when": "2026-10-13T06:37+05:30",
+   "title": "Bank of India declares Kishore Biyani’s Future Enterprises account as fraud",
+   "source": "Fortune India",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNODdub2x2bTNJaGdpRnFZd1poVWhKM1Bwb3BCVlpTeERLTlNnUEY2SmlnWEw3OGVRZXo5ZGRueV9CUzhObnJyZjh0cWJxVGs0V1F6Nl8wYS0zUkNTcFNKanZ5cTE2SVVHWkNMcEJFNTJac2doaS1fdTVZXzUxSzJlX0NTZXVRaDdtTUNiOFJuUlBZMk5DYk9mbU9hUjV2TENEbVhMOWY1VUd6Yk42QzlJcXZmZU1nRy1qRFpDLWR4a05rd9IBzwFBVV95cUxQendDN2FsYV9QeEpwYzB4M0lUMk9KWXZHWDBaalFZMlhPTEZTZGFqV2FIeGlUNF9leHdtM0dKS1VKbmFCbEJUVmNWTEZJZVhhWUhqWHNsREVTSGhCUGJueVg4R2RvTFZYcndGVjMwMWwwd1ZyenBta1JHbE9WakR6UVJvcHBCU0l4VWJObWtaSlR6TGxQRV9aMmtjZzFzTThpQjJVSXpybVBRLXRJSmhRQ2h0MW40engyeVN4NU5RRzQ2bDFvbGRlOV9kSmNCcmM?oc=5",
+   "when": "2026-10-14T10:45+05:30",
    "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
@@ -230,16 +155,114 @@
    }
   },
   {
+   "nse": "PARAGMILK",
+   "title": "Parag Milk Foods invests ₹100 Cr to quadruple paneer capacity to 80 MT/day",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV3BkbVBTd2RzS005anFQRzVObm1mcC1Md3BxeWhSWUhLbmVjUW9HbmNKY1FTSm1GemtjWk9xc1NZT01ibnB3bks2YnB4SS01aXJsUm04aktqTHQ0a1NYSXBiU1ZYcUxsVU5UTE1YZ0FDdWxFU0ZpcEd4ZGZwc1lOU3hDbWFnLTNwTmRHd0x6NjNMX0VyTV9oUDd2TnBuaGE2T1g3RzJtYTFJMTRHUzdLSHpNQVZ3UWdHQzRGOUhJZExsZw?oc=5",
+   "when": "2026-10-14T02:46+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "PARAGMILK",
+    "name": "Parag Milk Foods",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ITC",
+   "title": "ITC shareholders approve final dividend, reappoint Hemant Bhargava",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRy1jS2tHNDMyYXkwUW1HNWVPbV9CQ3R6ZE9ja1ltTjMtQ2RpT3A0QUZLdUN0WGRoSkZ4T2hIZEQzYkVhTFlWaDdfWW9XeWd6MU5DMGEwd2FwV2R6SEg0TEgwVnV4TzB6SENyRzU3WUwxY2lRMzhQM1U1UmN1am1tVGx3VUhpOVhGYTBSTkdjdkd0ckNZaDVwZTVXbTVoVW4xRGpzWXVCZHA4Vl9kSjdBbTJ0aU0?oc=5",
+   "when": "2026-10-14T02:26+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "ITC",
+    "name": "ITC Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SUNTECK",
+   "title": "Sunteck Realty Completes ₹22.40 Crore Acquisition of Tanirika Infrastructure",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaEpEWnZNLTV2MnVWRkd4TE1ZSURIUld1YW9TdUdiT1FjS1lBckJhYllMeWxvRWQ5WF9hZ0N3cF9FOWEzVEg2WjlCeldidkZpVWNlZFo2dm5rQWxIWXBENUJoaFExSlFGb0pVSHdrRm95S2U3d0Fxb2NGR2pqRm9VMHhNRlRWN0lub0lkXy1tQS1ZTU93dXg0VXJqNlAwbVlwMXl6RnhleUZELWxzc0JEMHVWU3p3akNhZXNwMWRwUmVWOFN1SmZ4YnBlMXlmdw?oc=5",
+   "when": "2026-10-14T02:06+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "SUNTECK",
+    "name": "Sunteck Realty",
+    "group": "holding"
+   }
+  },
+  {
    "nse": "JMFINANCIL",
    "title": "JM Financial sets up Abu Dhabi subsidiary to drive Middle East expansion",
-   "source": "TipRanks",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS2hBNXZ6NzI3OTdoU1NjVElaVER1MjIza3V0cDJ0a0lBLXY1TGtLN0lCTkZLd2NkS3p6RFYzcjQ2My1YMjFqMGp1S0xvanJnRGVsSTg1X1l6LS13X1NpWWgwX3pZcER0dzY5M3pIUHBCdFlBNm8zOVFsRFhoMVZNTTBkYlc2M1ZDeGdkQ2EtRnNwUkFYQ21rZGFWWFYxcmNILVNHaTFZVlhQMXRlQklTZGNOdmY2cE5WdDAxSEJTYUUzdw?oc=5",
-   "when": "2026-10-13T00:37+05:30",
+   "source": "The Globe and Mail",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMGxqTVVLUVIwdFJkRnY5dXY4elF0ck5QaTRFMkFmcGRuQjN1WjZrWXhwZ0JudlhyaUtzcGNYVjJ3TTdUVkFVaHlfSW9yQ0ZwZ2RUN0NXZk1ZUXNORURLQlJxSWRUNEN1Yjd5Z1F3UkxBeUpHaU1zMXBkYlpiOGZRQ2d0eWdSZGdGekgxeEpoV0V5VVA3LXU1enFKQjUzOTNsa015a0JPdGdqZ05Xem5HWjR6bU9qUVdmTE5zcmkwTTJFelBvRk9tNGFveVlsUHVVcWpmU29oSVlKaUQxZi1FYi10d1MwN1k1?oc=5",
+   "when": "2026-10-14T00:37+05:30",
    "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
     "nse": "JMFINANCIL",
     "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "GATEWAY",
+   "title": "Gateway Distriparks receives ESG rating of 59 from CRISIL",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcGJDRFEybk9qWG5pQWUzTS0wMjlsQk1DNW5GRzEybFE0elRJYjRJSEJNRUJjZHRTWUY1THl4ZWJhRnlWT3pYMm9lb3djT0szRGpuM0FpV3AyZlZPU2MzY1FnTFkwdF81NEYwUVZ5eWRPNUppSDYyQ3J0TmN6X1B4ZnNQZjlYODlIOERQVE1xZHlWUmxQdjdoWWJXNFAyUXdXby1qbllXczFaUQ?oc=5",
+   "when": "2026-10-13T19:14+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "GATEWAY",
+    "name": "Gateway Distriparks",
+    "group": "watchlist"
+   }
+  },
+  {
+   "nse": "UJJIVANSFB",
+   "title": "Ujjivan Small Finance Bank Board to Review Equity Offering Fundraising Proposal",
+   "source": "Sahi",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMU5rbFlOSnBscUlNT0RaRE4yWEFla01hZXA3bEE1TkFuRndKNllMdjdOT3BsUFlRTThhR1dOZ0VkcWZkYUxHbnhWTXRZNHFlMlBKaUJFajdaaTZsNG45dGRVaG8zblhwZVhIakh3bFJSeHBnV3dHM3hvTkk1SzE1QUttalRvWHhrSjhOanRITWhiNjdzSFF3bng3aXJGVElYeXRGZldQRk4?oc=5",
+   "when": "2026-10-13T17:47+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "UJJIVANSFB",
+    "name": "Ujjivan Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JMFINANCIL",
+   "title": "RBI Rate Hikes Ahead? JM Financial Flags 2 Key Factors That Could Decide Its Next Move",
+   "source": "Times Now",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUlh0djlWZmllelpZZUU4VVV4NHBqbVU2SHI5Qk4yY2M3QV9yZXY3ZXNaWW90UmZtbVBtbUtZRi1pMGdYTHhuWkYtczM3VjEyOVNGcUlWWkxBQVVjdHVKQTFrQng1QU5uUzdJaERubXZSRXNyekdEb1h3YWFLcXh1MVNRSllCcExfSTRYeTN0dW9BWUU5T0p2YmNBTnBscUN4YjJkMkNqU29jOUhBNF9fRVJZZXVDMV83eTNGeXFiTk5KNDQ1NzN5eWdrd29qTHRXaW05eEdsZ1hvRzhPSXY4WGh0YjFUZ2VYcDIydVh30gHzAUFVX3lxTE4wMFJxTk1EamdhN2hqUUZZUFJxVFJNZUhnclJFUVdYUVBJc2RYa1dwMlp5SmpLUHJJd2VNcHJNZ01YV2F5ZmVZOTBOVHdBRkNXdDU5Xzc5dU4zY2JJeGVuMGt5QjZ5Yk0yS0ZRbzU2Yy1JVmJOTWlkQXNHcmNicWptTGYzX0d3RXgyME50MFBwOTJHM3VZUHJ0dzZHUUhPbmFuVlY4dkstUF82aTB1T3FCbkEydWNEVjZScW1DZlEwVTF3WG44NFBzSHZ0WjRXbmJHcndVZ0NXYkFRLS1vQjZrT29EVk5OcC1wOEhUZGg3X21oRQ?oc=5",
+   "when": "2026-10-13T16:36+05:30",
+   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
+   "trusted": false,
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "IEX",
+   "title": "Indian Energy Exchange's associate company Indian Gas Exchange receives SEBI nod for IPO",
+   "source": "Business Upturn",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVFJvd3ZqTVB2UmhHaVNXcDlVNC1meVVKWWZ5d3c4T096REEyb3hfMFBJZ3ZEUTRlVFRuT2FLWUVXeXlDdnVfeGEyNzVxOFM0Q1FEdGlCSmYtbXZIR2tWc3VYZE14NnRValFvQzEwQnNaYTNpYk1vdlBCS1RTaXd1Z3hxU3daaWhublRXYU5lRU5kOXAwRE11aS12QTA5OWN1VGZFNk9BOEdfbHVDeWU3NHRiTWZ0UVRKNzIyU2NrRDdGR3hQY1RB?oc=5",
+   "when": "2026-10-13T13:28+05:30",
+   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
+   "trusted": false,
+   "stock": {
+    "nse": "IEX",
+    "name": "Indian Energy Exchange",
     "group": "holding"
    }
   },
@@ -254,48 +277,6 @@
    "stock": {
     "nse": "POWERGRID",
     "name": "Power Grid Corporation of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "title": "Cohance Lifesciences appoints Abhimanyu Ojha as Chief Financial Officer",
-   "source": "BioSpectrum India",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcVdKOU1RbE05emxoZ2I3VEJyU0d1S1FxdmRjd2pkVHBnUTQ3YXhINWdYU3UycXdubmwxRW94c0NKbF9zNGdqUFljNzFfeVIwTkwydFREb0FHQ1BPRXk1MHZJblpZRXdWWmdjSHItQkhIVlVQWm5BZHFMUURKenNfNktxWUlEVzBQeFI4QkVhNG1qeXdDQ24tRDdBYXN0Unpad1hpWVB4ZGVmekRNY0drM3c5WnlLcG1KOWdJTHotNXE?oc=5",
-   "when": "2026-10-12T19:04+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "title": "Abbimanyu Ojhha Appointed CFO of Cohance Lifesciences",
-   "source": "CXO Digitalpulse",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS1NUV2VyeTZYbjlUY29VSWprY1NwLVNPSU82blBONm0zakh1RU5nc2ltU1hic1Z4Mm5wcW5SZWJlR0drTHNIMzNhYUw5QUVuVHlGbm0zdjFsMHZaUGtDcEVCTlBxcnExUklYNEIyMElkY080clVaT2l0MndHcWE1dll1aHV2eGhWQnpNQ0JFcw?oc=5",
-   "when": "2026-10-12T15:06+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "CDSL",
-   "title": "Kinjal Shah Appointed Chief Technology Officer at CDSL- Central Depository Services India Ltd",
-   "source": "https://hrtoday.in/",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa2tGZ1hHOFg5aUNGbFhTS096dXFBTU12dldUanhWYzhDT25ONkNvSW4tY0YyR1pUUlF0dWhxSXdON3ZQb2NTcndwZkI1YUZiWkM4bVBrb2FLR0I5VUFPa0xIOXo0ZFpGdnEyV01aM2ZsRVhFLXBZQjBkLTM2c0syMHpvaHAyZ21aenZFdVBBcl9aQVUtdW1obkxaNEZrUzEybnBkZGZwd2Y4X1JqckUyb3Z3?oc=5",
-   "when": "2026-10-12T11:47+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "CDSL",
-    "name": "Central Depository Services",
     "group": "holding"
    }
   }
@@ -755,8 +736,9 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 12 Oct",
+  "BSE codes taken from bhavcopy 13 Oct",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (JSONDecodeError)"
+  "BSE announcements failed (JSONDecodeError)",
+  "BSE announcements failed (ReadTimeout)"
  ]
 }
