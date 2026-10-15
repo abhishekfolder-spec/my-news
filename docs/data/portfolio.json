@@ -1,46 +1,96 @@
 {
- "generated": "2026-10-14T11:54+05:30",
- "since": "2026-10-13T05:54+05:30",
+ "generated": "2026-10-15T11:36+05:30",
+ "since": "2026-10-14T05:36+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 10",
+  "NSE": "ok · 14",
   "BSE": "unavailable",
-  "News": "ok · 10"
+  "News": "ok · 9"
  },
  "high": [
   {
-   "nse": "KRSNAA",
+   "nse": "NEULANDLAB",
    "exchange": "NSE",
-   "when": "2026-10-13T19:22+05:30",
-   "subject": "Allotment of Securities",
-   "detail": "Krsnaa Diagnostics Limited has informed the Exchange regarding allotment of 1621000 securities pursuant to Preferential Issue at its meeting held on October 13, 2026",
-   "link": "https://nsearchives.nseindia.com/corporate/KRSNAA_13102026192136_543328.pdf",
-   "text": "Allotment of Securities Krsnaa Diagnostics Limited has informed the Exchange regarding allotment of 1621000 securities pursuant to Preferential Issue at its meeting held on October 13, 2026",
+   "when": "2026-10-14T21:43+05:30",
+   "subject": "Updates",
+   "detail": "Neuland Laboratories Limited has informed the Exchange regarding 'We refer to our letter dated August 14, 2026 regarding the US FDA inspection conducted at our Unit 3 manufacturing facility and would like to inform that the US FDA has issued an EIR against the inspection conducted from August 10, 2026 to August 14, 2026. The US FDA has concluded that this inspection is closed.",
+   "link": "https://nsearchives.nseindia.com/corporate/NEULANDLAB_14102026214251_SignedSEIntimation14102026.pdf",
+   "text": "Updates Neuland Laboratories Limited has informed the Exchange regarding 'We refer to our letter dated August 14, 2026 regarding the US FDA inspection conducted at our Unit 3 manufacturing facility and would like to inform that the US FDA has issued an EIR against the inspection conducted from August 10, 2026 to August 14, 2026. The US FDA has concluded that this inspection is closed.",
    "tier": "high",
-   "rule": "qip|qualified institutions? placement|preferential (issue|allotment)|rights issue|warrants",
+   "rule": "usfda|warning letter|form 483|\\bEIR\\b|import alert|(fda|regulatory) inspection",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/KRSNAA_13102026192136_543328.pdf"
+     "https://nsearchives.nseindia.com/corporate/NEULANDLAB_14102026214251_SignedSEIntimation14102026.pdf"
     ]
    ],
    "stock": {
-    "nse": "KRSNAA",
-    "name": "Krsnaa Diagnostics",
+    "nse": "NEULANDLAB",
+    "name": "Neuland Laboratories",
     "group": "holding"
    }
   },
   {
-   "nse": "SFL",
+   "nse": "LAURUSLABS",
    "exchange": "NSE",
-   "when": "2026-10-13T15:31+05:30",
+   "when": "2026-10-14T20:07+05:30",
+   "subject": "General Updates",
+   "detail": "Laurus Labs Limited has informed the Exchange about Update on Acquisition",
+   "link": "https://nsearchives.nseindia.com/corporate/LAURUSLABS_14102026200653_UpdateOnInvInKRKA14102026.pdf",
+   "text": "General Updates Laurus Labs Limited has informed the Exchange about Update on Acquisition",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/LAURUSLABS_14102026200653_UpdateOnInvInKRKA14102026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "UFBL",
+   "exchange": "NSE",
+   "when": "2026-10-14T17:25+05:30",
+   "subject": "Acquisition",
+   "detail": "United Foodbrands Limited has informed the Exchange about incorporation of a step-down subsidiary in United Kingdom",
+   "link": "https://nsearchives.nseindia.com/corporate/BARBEQUE_14102026172505_IncorporationOfSDSUFBLUKLimited.pdf",
+   "text": "Acquisition United Foodbrands Limited has informed the Exchange about incorporation of a step-down subsidiary in United Kingdom",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/BARBEQUE_14102026172505_IncorporationOfSDSUFBLUKLimited.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "UFBL",
+    "name": "United Foodbrands",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "CGRAPHICS",
+   "exchange": "NSE",
+   "when": "2026-10-14T14:06+05:30",
    "subject": "Credit Rating",
-   "detail": "Sheela Foam Limited has informed the Exchange about Credit Rating",
-   "link": "https://nsearchives.nseindia.com/corporate/SFL_13102026153052_SignedCreditRating.pdf",
-   "text": "Credit Rating Sheela Foam Limited has informed the Exchange about Credit Rating",
+   "detail": "Creative Graphics Solutions India Limited has informed the Exchange about Credit Rating",
+   "link": "https://nsearchives.nseindia.com/corporate/CREATIVEGRAPHICS_14102026140008_Credit_Rating_Initmation.pdf",
+   "text": "Credit Rating Creative Graphics Solutions India Limited has informed the Exchange about Credit Rating",
    "tier": "high",
    "rule": "credit rating|rating (action|revis|downgrad|upgrad|reaffirm)",
    "exchange_set": [
@@ -49,34 +99,35 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/SFL_13102026153052_SignedCreditRating.pdf"
+     "https://nsearchives.nseindia.com/corporate/CREATIVEGRAPHICS_14102026140008_Credit_Rating_Initmation.pdf"
     ]
    ],
    "stock": {
-    "nse": "SFL",
-    "name": "Sheela Foam",
+    "nse": "CGRAPHICS",
+    "name": "Creative Graphics Solutions",
     "group": "holding"
    }
   }
  ],
- "medium": [
+ "medium": [],
+ "other": [
   {
    "nse": "JUBLINGREA",
    "exchange": "NSE",
-   "when": "2026-10-13T15:12+05:30",
+   "when": "2026-10-14T17:31+05:30",
    "subject": "General Updates",
-   "detail": "Jubilant Ingrevia Limited has informed the Exchange about incorporation of wholly-owned subsidiary",
-   "link": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_13102026151213_Intimation_of_incorporation_of_WOS.pdf",
-   "text": "General Updates Jubilant Ingrevia Limited has informed the Exchange about incorporation of wholly-owned subsidiary",
-   "tier": "medium",
-   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
+   "detail": "Jubilant Ingrevia Limited has informed the Exchange about General Updates",
+   "link": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_14102026173104_Intimation_for_non_submission_of_kyc.pdf",
+   "text": "General Updates Jubilant Ingrevia Limited has informed the Exchange about General Updates",
+   "tier": "other",
+   "rule": null,
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/JUBLINGREA_13102026151213_Intimation_of_incorporation_of_WOS.pdf"
+     "https://nsearchives.nseindia.com/corporate/JUBLINGREA_14102026173104_Intimation_for_non_submission_of_kyc.pdf"
     ]
    ],
    "stock": {
@@ -84,17 +135,15 @@
     "name": "Jubilant Ingrevia",
     "group": "holding"
    }
-  }
- ],
- "other": [
+  },
   {
-   "nse": "VOGL",
+   "nse": "KRSNAA",
    "exchange": "NSE",
-   "when": "2026-10-13T15:36+05:30",
-   "subject": "Updates",
-   "detail": "Vedanta Oil and Gas Limited has informed the Exchange regarding 'Clarification on recommendations issued by proxy advisory firm on Agenda Items of Postal Ballot Notice of Vedanta Oil and Gas Limited (formerly known as Malco Energy Limited) (the Company or VOGL )'.",
-   "link": "https://nsearchives.nseindia.com/corporate/VOGL_13102026153618_VOGLSEIntimationProxyAdvisors.pdf",
-   "text": "Updates Vedanta Oil and Gas Limited has informed the Exchange regarding 'Clarification on recommendations issued by proxy advisory firm on Agenda Items of Postal Ballot Notice of Vedanta Oil and Gas Limited (formerly known as Malco Energy Limited) (the Company or VOGL )'.",
+   "when": "2026-10-14T14:12+05:30",
+   "subject": "General Updates",
+   "detail": "Krsnaa Diagnostics Limited has informed the Exchange about General Updates",
+   "link": "https://nsearchives.nseindia.com/corporate/KRSNAA_14102026141100_543328_-_Copy.pdf",
+   "text": "General Updates Krsnaa Diagnostics Limited has informed the Exchange about General Updates",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -103,43 +152,102 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/VOGL_13102026153618_VOGLSEIntimationProxyAdvisors.pdf"
+     "https://nsearchives.nseindia.com/corporate/KRSNAA_14102026141100_543328_-_Copy.pdf"
     ]
    ],
    "stock": {
-    "nse": "VOGL",
-    "name": "Vedanta Oil and Gas",
+    "nse": "KRSNAA",
+    "name": "Krsnaa Diagnostics",
+    "group": "holding"
+   }
+  }
+ ],
+ "dropped": 8,
+ "news": [
+  {
+   "nse": "ITC",
+   "title": "ITC shareholders approve final dividend, reappoint Hemant Bhargava",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRy1jS2tHNDMyYXkwUW1HNWVPbV9CQ3R6ZE9ja1ltTjMtQ2RpT3A0QUZLdUN0WGRoSkZ4T2hIZEQzYkVhTFlWaDdfWW9XeWd6MU5DMGEwd2FwV2R6SEg0TEgwVnV4TzB6SENyRzU3WUwxY2lRMzhQM1U1UmN1am1tVGx3VUhpOVhGYTBSTkdjdkd0ckNZaDVwZTVXbTVoVW4xRGpzWXVCZHA4Vl9kSjdBbTJ0aU0?oc=5",
+   "when": "2026-10-15T01:43+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "ITC",
+    "name": "ITC Limited",
     "group": "holding"
    }
   },
   {
-   "nse": "IEX",
-   "exchange": "NSE",
-   "when": "2026-10-13T13:22+05:30",
-   "subject": "General Updates",
-   "detail": "Indian Energy Exchange Limited has informed the Exchange about General Updates about Receipt of Observation Letter from SEBI by Indian Gas Exchange Limited, An Associate Company of IEX, for its Proposed Initial Public Offering.",
-   "link": "https://nsearchives.nseindia.com/corporate/IEX_13102026132246_IEX_Intimation_IGX_DRHP_SEBI_Observation_Letter_Signed.pdf",
-   "text": "General Updates Indian Energy Exchange Limited has informed the Exchange about General Updates about Receipt of Observation Letter from SEBI by Indian Gas Exchange Limited, An Associate Company of IEX, for its Proposed Initial Public Offering.",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/IEX_13102026132246_IEX_Intimation_IGX_DRHP_SEBI_Observation_Letter_Signed.pdf"
-    ]
-   ],
+   "nse": "POWERGRID",
+   "title": "Skipper Limited appoints Mr. R. N. Nayak, former CMD of Power Grid Corporation of India, as Non-Executive Independent Director",
+   "source": "India Education Diary",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQenhuZkwwSk1iVmIwN21ScmJuZWpzNkVheE5tOVFnR2c1TW9HTHRTb0dndTg3NWdoOUprTmFPd1FkRkJGdjRhY3RLVE13aEpOd1JxejllSndUUFNmb2NZQ0lmM2U0VmpLaUN4aFQ1eWgyR3ZmdDRTVVZJeUQyNDZHRUZrdERXM1l5bnhYRmhMTHF2OVozOEMzQkVfRFdjYzlES09kT01hUHZubTFzdFFGd0tHMHNBZ0RHbHExbUFGSmV5ZWJwc0h4YXZLY19MUUtKR1Q0RmJ0MEtjNW5CSDc3a3FVV0xRWEh1?oc=5",
+   "when": "2026-10-15T01:06+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
    "stock": {
-    "nse": "IEX",
-    "name": "Indian Energy Exchange",
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
     "group": "holding"
    }
-  }
- ],
- "dropped": 5,
- "news": [
+  },
+  {
+   "nse": "LAURUSLABS",
+   "title": "Laurus Labs receives ESG rating of 82.6 from CARE ESG Ratings",
+   "source": "Business Upturn",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc3V5OHUzcW5Ma3ZxeXF6elo2cnNjYS1HRmFhaGNWMWtSZkxDZ19pLXdVRmVQckx5NVpJcU5USHdEbU5MSDdocWwzaHNDY0V5WVZMaUZkdnNyRnRkaWNvQjRWaFByclV6SE55MldCcXBHc2ROMzgyZi1ULUhvLUI0QnlwTFEySlBSSFZFcEVHX3A4V25ScE5ldWF1SFBpUkE?oc=5",
+   "when": "2026-10-14T20:53+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "COHANCE",
+   "title": "Cohance Lifesciences Appoints Abhimanyu Ojha as Chief Financial Officer",
+   "source": "https://hrtoday.in/",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMnlpdnVrb1Zqa2Fwd01HdXRpMEUyajRGR1M2ZURIbFRSRFFUZDItUHRoRVd0RW96Nk5PekN4M21zTUdqN29QRTMwMzh5Y2x0VnNaVld0X1N4VVFoNjZpa1B5RUI3cE1oaUFWWFJQY3JsTUhYaHdHMFNyM29ieHg5MGN3THhpSjVab3h3Wm8ySVhZVzBkY2c?oc=5",
+   "when": "2026-10-14T18:57+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "UFBL",
+   "title": "Barbeque Nation appoints Ravi Chaudhry as cluster chef in Noida",
+   "source": "BW Hotelier",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbTRvQVl1NFJjSWY3OHJjVEw5UzJhUjF1WXBQeF95YkpZM3dSc3VXVlV2bUJRbzVWdG9kX1RjT3VGRmo5ZjZNZFVPdzViVUNqdVdyaXhMOFZMZUNscWZzQVZBMjlzbldLOVZ2cGhpVzRDSDJyQWltTktPMG9tRW1aeENwZHdjeGprdDExc0tPQVVhaDgwd05rSEt1UlVzRTY4MDVGd1Z5UTg?oc=5",
+   "when": "2026-10-14T18:44+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "UFBL",
+    "name": "United Foodbrands",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JMFINANCIL",
+   "title": "JSW Energy, Suzlon, IEX, Tata Power, NTPC, CIL: JM Financial maps risks post RBI’s rate hike",
+   "source": "ET EnergyWorld",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOOVd0Z0xNYkFLZmlHc2daT2tFYjNubWkwSmdOVE9MTHhHejVFYnM4X2sxSkRseUt2Z1hqZWNoc294bFhrV0pyZnBiSnZDanBvYk90bXNpb1ZfOF9rOFBDU2EtYzBtMl9YRzJFcExRUVotS28xaGFHd2dXeHJpc3JyMFVtOUNDdXhxb282enNaNExldkNDY2NjVVZicE16a3Z1azdmLUxGSDd2ZzluMDR0WUVNMjFkT2diV3VKczMyLWVIMHBBTEh2NC1hNXQ4cWdXXzZZNU9wdTVGeGQxUEZGSDNNZFFPYzQtSXlFMVJR0gHzAUFVX3lxTFA5QlFQbHpqUkpxUXpuQk83a21aTlVjS190RWtoNkxOcUJndjhZclV1S2Y0MWdrc0MtZXF6SGoyUlIxS2hEMVNPY0VJUXE3WWFyRC1zdHlpLWZJSkZXdHh6OVJWZW5VQ2U4TjNvZE9kNW1JeHdSVU5YSVhQMHQtZXNldmJpckhWekdrNmdjLVhDQUVPczlENTRPQV9tYUkyNVlsWEkzVlkyOG9wajZGeUVVa0tQM3dLbVkzVGVpNk5pUUVXVlo3TzFQSXVqRXd6VXZwVUE0bzljMm0wRjRxaUl3NUk0enZ3a0pyVzZ6VUtxZlhxWQ?oc=5",
+   "when": "2026-10-14T17:11+05:30",
+   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
+   "trusted": true,
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
   {
    "nse": "BANKINDIA",
    "title": "Bank of India declares Kishore Biyani’s Future Enterprises account as fraud",
@@ -151,48 +259,6 @@
    "stock": {
     "nse": "BANKINDIA",
     "name": "Bank of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "PARAGMILK",
-   "title": "Parag Milk Foods invests ₹100 Cr to quadruple paneer capacity to 80 MT/day",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV3BkbVBTd2RzS005anFQRzVObm1mcC1Md3BxeWhSWUhLbmVjUW9HbmNKY1FTSm1GemtjWk9xc1NZT01ibnB3bks2YnB4SS01aXJsUm04aktqTHQ0a1NYSXBiU1ZYcUxsVU5UTE1YZ0FDdWxFU0ZpcEd4ZGZwc1lOU3hDbWFnLTNwTmRHd0x6NjNMX0VyTV9oUDd2TnBuaGE2T1g3RzJtYTFJMTRHUzdLSHpNQVZ3UWdHQzRGOUhJZExsZw?oc=5",
-   "when": "2026-10-14T02:46+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "PARAGMILK",
-    "name": "Parag Milk Foods",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ITC",
-   "title": "ITC shareholders approve final dividend, reappoint Hemant Bhargava",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRy1jS2tHNDMyYXkwUW1HNWVPbV9CQ3R6ZE9ja1ltTjMtQ2RpT3A0QUZLdUN0WGRoSkZ4T2hIZEQzYkVhTFlWaDdfWW9XeWd6MU5DMGEwd2FwV2R6SEg0TEgwVnV4TzB6SENyRzU3WUwxY2lRMzhQM1U1UmN1am1tVGx3VUhpOVhGYTBSTkdjdkd0ckNZaDVwZTVXbTVoVW4xRGpzWXVCZHA4Vl9kSjdBbTJ0aU0?oc=5",
-   "when": "2026-10-14T02:26+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "ITC",
-    "name": "ITC Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SUNTECK",
-   "title": "Sunteck Realty Completes ₹22.40 Crore Acquisition of Tanirika Infrastructure",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaEpEWnZNLTV2MnVWRkd4TE1ZSURIUld1YW9TdUdiT1FjS1lBckJhYllMeWxvRWQ5WF9hZ0N3cF9FOWEzVEg2WjlCeldidkZpVWNlZFo2dm5rQWxIWXBENUJoaFExSlFGb0pVSHdrRm95S2U3d0Fxb2NGR2pqRm9VMHhNRlRWN0lub0lkXy1tQS1ZTU93dXg0VXJqNlAwbVlwMXl6RnhleUZELWxzc0JEMHVWU3p3akNhZXNwMWRwUmVWOFN1SmZ4YnBlMXlmdw?oc=5",
-   "when": "2026-10-14T02:06+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "SUNTECK",
-    "name": "Sunteck Realty",
     "group": "holding"
    }
   },
@@ -211,72 +277,16 @@
    }
   },
   {
-   "nse": "GATEWAY",
-   "title": "Gateway Distriparks receives ESG rating of 59 from CRISIL",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcGJDRFEybk9qWG5pQWUzTS0wMjlsQk1DNW5GRzEybFE0elRJYjRJSEJNRUJjZHRTWUY1THl4ZWJhRnlWT3pYMm9lb3djT0szRGpuM0FpV3AyZlZPU2MzY1FnTFkwdF81NEYwUVZ5eWRPNUppSDYyQ3J0TmN6X1B4ZnNQZjlYODlIOERQVE1xZHlWUmxQdjdoWWJXNFAyUXdXby1qbllXczFaUQ?oc=5",
-   "when": "2026-10-13T19:14+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "nse": "VAIBHAVGBL",
+   "title": "Rajasthan High Court allows business expansion loss write-off and upholds MAT treatment in Vaibhav Global case",
+   "source": "TaxCorp AI",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaTl2dlpQM25odTNoY1BmcUYtcV9kY3ktYWUyMDVtTUFyMjFKQW9nODlPelU1ZjlKMEdUcW5VUnJMQnNpazJlbTlPZExqUmlGd1k1Y09HMkJRMmZ5T2ZMMVM4eXJkWXBvNHMwRy1mWjd2ME5vT0xYcE5wemFETU1ZX21ocFRIbFdWVU9ad210U2dTODhkSm1XYUl4TVdmeWU0cUYwSkcxQi1sU00?oc=5",
+   "when": "2026-10-14T00:21+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
-    "nse": "GATEWAY",
-    "name": "Gateway Distriparks",
-    "group": "watchlist"
-   }
-  },
-  {
-   "nse": "UJJIVANSFB",
-   "title": "Ujjivan Small Finance Bank Board to Review Equity Offering Fundraising Proposal",
-   "source": "Sahi",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMU5rbFlOSnBscUlNT0RaRE4yWEFla01hZXA3bEE1TkFuRndKNllMdjdOT3BsUFlRTThhR1dOZ0VkcWZkYUxHbnhWTXRZNHFlMlBKaUJFajdaaTZsNG45dGRVaG8zblhwZVhIakh3bFJSeHBnV3dHM3hvTkk1SzE1QUttalRvWHhrSjhOanRITWhiNjdzSFF3bng3aXJGVElYeXRGZldQRk4?oc=5",
-   "when": "2026-10-13T17:47+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JMFINANCIL",
-   "title": "RBI Rate Hikes Ahead? JM Financial Flags 2 Key Factors That Could Decide Its Next Move",
-   "source": "Times Now",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUlh0djlWZmllelpZZUU4VVV4NHBqbVU2SHI5Qk4yY2M3QV9yZXY3ZXNaWW90UmZtbVBtbUtZRi1pMGdYTHhuWkYtczM3VjEyOVNGcUlWWkxBQVVjdHVKQTFrQng1QU5uUzdJaERubXZSRXNyekdEb1h3YWFLcXh1MVNRSllCcExfSTRYeTN0dW9BWUU5T0p2YmNBTnBscUN4YjJkMkNqU29jOUhBNF9fRVJZZXVDMV83eTNGeXFiTk5KNDQ1NzN5eWdrd29qTHRXaW05eEdsZ1hvRzhPSXY4WGh0YjFUZ2VYcDIydVh30gHzAUFVX3lxTE4wMFJxTk1EamdhN2hqUUZZUFJxVFJNZUhnclJFUVdYUVBJc2RYa1dwMlp5SmpLUHJJd2VNcHJNZ01YV2F5ZmVZOTBOVHdBRkNXdDU5Xzc5dU4zY2JJeGVuMGt5QjZ5Yk0yS0ZRbzU2Yy1JVmJOTWlkQXNHcmNicWptTGYzX0d3RXgyME50MFBwOTJHM3VZUHJ0dzZHUUhPbmFuVlY4dkstUF82aTB1T3FCbkEydWNEVjZScW1DZlEwVTF3WG44NFBzSHZ0WjRXbmJHcndVZ0NXYkFRLS1vQjZrT29EVk5OcC1wOEhUZGg3X21oRQ?oc=5",
-   "when": "2026-10-13T16:36+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": false,
-   "stock": {
-    "nse": "JMFINANCIL",
-    "name": "JM Financial",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "IEX",
-   "title": "Indian Energy Exchange's associate company Indian Gas Exchange receives SEBI nod for IPO",
-   "source": "Business Upturn",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVFJvd3ZqTVB2UmhHaVNXcDlVNC1meVVKWWZ5d3c4T096REEyb3hfMFBJZ3ZEUTRlVFRuT2FLWUVXeXlDdnVfeGEyNzVxOFM0Q1FEdGlCSmYtbXZIR2tWc3VYZE14NnRValFvQzEwQnNaYTNpYk1vdlBCS1RTaXd1Z3hxU3daaWhublRXYU5lRU5kOXAwRE11aS12QTA5OWN1VGZFNk9BOEdfbHVDeWU3NHRiTWZ0UVRKNzIyU2NrRDdGR3hQY1RB?oc=5",
-   "when": "2026-10-13T13:28+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": false,
-   "stock": {
-    "nse": "IEX",
-    "name": "Indian Energy Exchange",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "POWERGRID",
-   "title": "Skipper Ltd appoints Mr. R. N. Nayak, former CMD of Power Grid Corporation of India, as Non-Executive Independent Director",
-   "source": "EquityBulls",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KWTdmOWd6UktRckx0S0pJdHBoN19IUm54SzRhYS10VWR1YlQxeGEtT1ZjU1Zybk5jS3kxVm1Nams3eDcxRE5GaVpPVDZPZ2RyUTE4ZEhwNnJaVHg2TTRJ?oc=5",
-   "when": "2026-10-13T00:33+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
+    "nse": "VAIBHAVGBL",
+    "name": "Vaibhav Global",
     "group": "holding"
    }
   }
@@ -736,9 +746,9 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 13 Oct",
+  "BSE codes taken from bhavcopy 14 Oct",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (JSONDecodeError)",
-  "BSE announcements failed (ReadTimeout)"
+  "BSE announcements failed (ReadTimeout)",
+  "BSE announcements failed (JSONDecodeError)"
  ]
 }
