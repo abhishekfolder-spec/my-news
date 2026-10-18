@@ -1,275 +1,23 @@
 {
- "generated": "2026-10-17T11:20+05:30",
- "since": "2026-10-16T05:20+05:30",
+ "generated": "2026-10-18T11:44+05:30",
+ "since": "2026-10-17T05:44+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 26",
+  "NSE": "ok · 6",
   "BSE": "unavailable",
-  "News": "ok · 7"
+  "News": "ok · 4"
  },
- "high": [
-  {
-   "nse": "TEJASNET",
-   "exchange": "NSE",
-   "when": "2026-10-16T18:24+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Tejas Networks Limited has submitted to the Exchange, the unaudited financial results for the quarter and six months ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/TEJASNET_16102026182254_Outcome.pdf",
-   "text": "Outcome of Board Meeting Tejas Networks Limited has submitted to the Exchange, the unaudited financial results for the quarter and six months ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/TEJASNET_16102026182254_Outcome.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "TEJASNET",
-    "name": "Tejas Networks",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "UJJIVANSFB",
-   "exchange": "NSE",
-   "when": "2026-10-16T13:59+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Ujjivan Small Finance Bank Limited has submitted to the Exchange, the financial results for the quarter and half year ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_16102026135748_100_Board_Meeting_Outcome_FR_Q2_16102026_combined.pdf",
-   "text": "Outcome of Board Meeting Ujjivan Small Finance Bank Limited has submitted to the Exchange, the financial results for the quarter and half year ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_16102026135748_100_Board_Meeting_Outcome_FR_Q2_16102026_combined.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "UJJIVANSFB",
-   "exchange": "NSE",
-   "when": "2026-10-16T12:37+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Ujjivan Small Finance Bank Limited has informed the Exchange regarding Outcome of Board Meeting relating to issue of preferential issue held on October 16, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_16102026123404_99_FINAL_Outcome_Pref_SSA_PA_16102026.pdf",
-   "text": "Outcome of Board Meeting Ujjivan Small Finance Bank Limited has informed the Exchange regarding Outcome of Board Meeting relating to issue of preferential issue held on October 16, 2026.",
-   "tier": "high",
-   "rule": "qip|qualified institutions? placement|preferential (issue|allotment)|rights issue|warrants",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_16102026123404_99_FINAL_Outcome_Pref_SSA_PA_16102026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
-    "group": "holding"
-   }
-  }
- ],
- "medium": [
-  {
-   "nse": "TEJASNET",
-   "exchange": "NSE",
-   "when": "2026-10-16T19:14+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Tejas Networks Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/TEJASNET_16102026191355_Investors_Presentation_-_Intimation.pdf",
-   "text": "Investor Presentation Tejas Networks Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/TEJASNET_16102026191355_Investors_Presentation_-_Intimation.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "TEJASNET",
-    "name": "Tejas Networks",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ARMANFIN",
-   "exchange": "NSE",
-   "when": "2026-10-16T19:09+05:30",
-   "subject": "Appointment",
-   "detail": "Arman Financial Services Limited has informed the Exchange regarding Appointment of Mr. Chandramouli Akkiraju as Chief Business Officer at Subsidiary Company (Namra Finance Limited) w.e.f. October 16, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/ARMANFIN_16102026190900_CBO_Appointment.pdf",
-   "text": "Appointment Arman Financial Services Limited has informed the Exchange regarding Appointment of Mr. Chandramouli Akkiraju as Chief Business Officer at Subsidiary Company (Namra Finance Limited) w.e.f. October 16, 2026.",
-   "tier": "medium",
-   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/ARMANFIN_16102026190900_CBO_Appointment.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ARMANFIN",
-    "name": "Arman Financial Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "TEJASNET",
-   "exchange": "NSE",
-   "when": "2026-10-16T18:55+05:30",
-   "subject": "Press Release",
-   "detail": "Tejas Networks Limited has informed the Exchange regarding a press release dated October 16, 2026, titled \"Press Release on financials for Q2 FY 2027\".",
-   "link": "https://nsearchives.nseindia.com/corporate/TEJASNET_16102026185522_Press_Release_-_Financials.pdf",
-   "text": "Press Release Tejas Networks Limited has informed the Exchange regarding a press release dated October 16, 2026, titled \"Press Release on financials for Q2 FY 2027\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/TEJASNET_16102026185522_Press_Release_-_Financials.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "TEJASNET",
-    "name": "Tejas Networks",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "UJJIVANSFB",
-   "exchange": "NSE",
-   "when": "2026-10-16T14:11+05:30",
-   "subject": "Press Release",
-   "detail": "Ujjivan Small Finance Bank Limited has informed the Exchange regarding a press release dated October 16, 2026, titled \"Press Release on the financial performance of the Bank for the quarter and half-year ended September 30, 2026\".",
-   "link": "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_16102026141047_102_Intimation_Press_Release_Q2FY27.pdf",
-   "text": "Press Release Ujjivan Small Finance Bank Limited has informed the Exchange regarding a press release dated October 16, 2026, titled \"Press Release on the financial performance of the Bank for the quarter and half-year ended September 30, 2026\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_16102026141047_102_Intimation_Press_Release_Q2FY27.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "UJJIVANSFB",
-   "exchange": "NSE",
-   "when": "2026-10-16T14:07+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Ujjivan Small Finance Bank Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_16102026140711_101_Intimation_Investor_PPT_Q2_FY27.pdf",
-   "text": "Investor Presentation Ujjivan Small Finance Bank Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_16102026140711_101_Intimation_Investor_PPT_Q2_FY27.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SOLARA",
-   "exchange": "NSE",
-   "when": "2026-10-16T13:48+05:30",
-   "subject": "Press Release",
-   "detail": "Solara Active Pharma Sciences Limited has informed the Exchange regarding a press release dated October 16, 2026, titled \"Solara s Q2 FY27 revenue grows 33% to INR 4,178 Mn and EBITDA more than doubles to INR 769 Mn, its best quarter in five years\".",
-   "link": "https://nsearchives.nseindia.com/corporate/SOLARA_16102026134610_Press_Release_SE.pdf",
-   "text": "Press Release Solara Active Pharma Sciences Limited has informed the Exchange regarding a press release dated October 16, 2026, titled \"Solara s Q2 FY27 revenue grows 33% to INR 4,178 Mn and EBITDA more than doubles to INR 769 Mn, its best quarter in five years\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SOLARA_16102026134610_Press_Release_SE.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SOLARA",
-    "name": "Solara Active Pharma Sciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SOLARA",
-   "exchange": "NSE",
-   "when": "2026-10-16T13:36+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Solara Active Pharma Sciences Limited has informed the exchange regarding inter alia, to consider and approve the unaudited Standalone and Consolidated Financial Results for the quarter and half year ended September 30, 2026, along with the Limited Review Report for the said period.",
-   "link": "https://nsearchives.nseindia.com/corporate/SOLARA_16102026133129_SE_Outcome_Signed.pdf",
-   "text": "Outcome of Board Meeting Solara Active Pharma Sciences Limited has informed the exchange regarding inter alia, to consider and approve the unaudited Standalone and Consolidated Financial Results for the quarter and half year ended September 30, 2026, along with the Limited Review Report for the said period.",
-   "tier": "medium",
-   "rule": "intimation of board meeting|prior intimation|board meeting (intimation|on|to be held)|to consider and approve",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SOLARA_16102026133129_SE_Outcome_Signed.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SOLARA",
-    "name": "Solara Active Pharma Sciences",
-    "group": "holding"
-   }
-  }
- ],
+ "high": [],
+ "medium": [],
  "other": [
   {
    "nse": "SOLARA",
    "exchange": "NSE",
-   "when": "2026-10-16T19:29+05:30",
-   "subject": "Monitoring Agency Report",
-   "detail": "Monitoring Agency Report for the quarter ended September 30, 2026",
-   "link": "https://nsearchives.nseindia.com/corporate/SOLARA_16102026192906_SE_MA_Report__Sep_2026_signed.pdf",
-   "text": "Monitoring Agency Report Monitoring Agency Report for the quarter ended September 30, 2026",
+   "when": "2026-10-17T18:50+05:30",
+   "subject": "Updates",
+   "detail": "Solara Active Pharma Sciences Limited has informed the Exchange regarding 'Final Reminder-cum-Forfeiture Notice for the payment of outstanding call money to the holders of partly paid-up equity shares of the Company.'",
+   "link": "https://nsearchives.nseindia.com/corporate/SOLARA_17102026184838_SE_Intimation___Final_notice_Signed.pdf",
+   "text": "Updates Solara Active Pharma Sciences Limited has informed the Exchange regarding 'Final Reminder-cum-Forfeiture Notice for the payment of outstanding call money to the holders of partly paid-up equity shares of the Company.'",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -278,127 +26,24 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/SOLARA_16102026192906_SE_MA_Report__Sep_2026_signed.pdf"
+     "https://nsearchives.nseindia.com/corporate/SOLARA_17102026184838_SE_Intimation___Final_notice_Signed.pdf"
     ]
    ],
    "stock": {
     "nse": "SOLARA",
     "name": "Solara Active Pharma Sciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "POWERGRID",
-   "exchange": "NSE",
-   "when": "2026-10-16T17:02+05:30",
-   "subject": "General Updates",
-   "detail": "Power Grid Corporation of India Limited has informed the Exchange about General Updates",
-   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_16102026170121_BSENSE_16102026.pdf",
-   "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange about General Updates",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/POWERGRID1_16102026170121_BSENSE_16102026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SOLARA",
-   "exchange": "NSE",
-   "when": "2026-10-16T16:03+05:30",
-   "subject": "Statement of deviation(s) or variation(s) under Reg. 32",
-   "detail": "Solara Active Pharma Sciences Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "link": "https://nsearchives.nseindia.com/corporate/SOLARA_16102026160240_SE_Statement_of_Deviation_and_Variation.pdf",
-   "text": "Statement of deviation(s) or variation(s) under Reg. 32 Solara Active Pharma Sciences Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SOLARA_16102026160240_SE_Statement_of_Deviation_and_Variation.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SOLARA",
-    "name": "Solara Active Pharma Sciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "UJJIVANSFB",
-   "exchange": "NSE",
-   "when": "2026-10-16T15:16+05:30",
-   "subject": "General Updates",
-   "detail": "Ujjivan Small Finance Bank Limited has informed the Exchange about execution of subscription agreement and policy agreement with International Finance corporation.",
-   "link": "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_16102026151630_103_FINAL_Outcome_SSA_PA_Post-Execution_16102026.pdf",
-   "text": "General Updates Ujjivan Small Finance Bank Limited has informed the Exchange about execution of subscription agreement and policy agreement with International Finance corporation.",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_16102026151630_103_FINAL_Outcome_SSA_PA_Post-Execution_16102026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
     "group": "holding"
    }
   }
  ],
- "dropped": 12,
+ "dropped": 5,
  "news": [
   {
-   "nse": "TEJASNET",
-   "title": "Tejas Networks Reports Q2 FY27 Financial Results; Secures Pan-India BSNL Add-On Site Order from TCS and South American 5G Rollout",
-   "source": "EquityBulls",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE05QXJnNmRuMTRvMXBQb1hlZWQ1aHczcml6NXRZcVN0c3BiMjdSS2lJMDNWM0x6NEJxdkpWbEc5U0RqZmFVbHIzajFteVNFd1FDeGVOcExoRHJFNjh3ck93?oc=5",
-   "when": "2026-10-16T22:13+05:30",
-   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
-   "trusted": false,
-   "stock": {
-    "nse": "TEJASNET",
-    "name": "Tejas Networks",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ARMANFIN",
-   "title": "Arman Financial appoints Chandramouli Akkiraju as CBO of Namra Finance",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMURrcm5kSTJrN1V3bUhLcjNEWkYxYzBvWkU3OXl2YXU5Rkt1NklBd1JQMm8wdTU0cnpleE4wVDYzNDl5SThHN0VhSmQ4WGY3Tm5rTV9MZVRDeEQ1Y0JsODhQN1JfRFhibGdsSjB6aTFVZ1VtZW5nM3F4Y01RM0dNS1V2SVdRNXJTOFJDcHJSSU5pNGF1bEhkZVA2VzFIODBOTDVjY1JZdmZLMzFmSUZRa1FlUVFOSkZrU25QMzZR?oc=5",
-   "when": "2026-10-16T19:21+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "ARMANFIN",
-    "name": "Arman Financial Services",
-    "group": "holding"
-   }
-  },
-  {
    "nse": "UJJIVANSFB",
-   "title": "Ujjivan Small Finance Bank Reports Q2 FY27 Net Profit Expansion to ₹365.05 Crore; Asset Quality Improves",
-   "source": "EquityBulls",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rQVZQQm12TTRON0I2UGc1aUU4NDZLc3pLUUhpNng0Q1dXb19vUGJ0X3FzT1UtNXV3MHl4NXRXVkRROXItbllTMmwtRDQ4SHBaYWhkSEEzWXlpaUNTc1cyVlJRc1NJeG1z?oc=5",
-   "when": "2026-10-16T18:31+05:30",
+   "title": "Ujjivan SFB Profit Outlook Brightens As Loans Grow 32%, Secured Lending Expands",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQN0RYUTktYzBMMHR0Y0RaekN6c2lZd3Nac1lZTlN0TWtoZ3ktNkdUMWZFYmg4OWd2Yld4TjFMUzVYT3NKaEpKOU9zLU5WQXd4czdvcnVHMGdWdWRpMUdlRFBIREswcG9YQXNMeUdna0RjMlFxTjAtN0g5UnZjOUItRGF1SFhJdUtMdFdmN1hoVGFITllvS0tqQ08xdnNFNkt4MG83aVVPOUpYa1JsWi0yMWFKZE1PZjR1V2hmXzQzT2dFNUlaNlQ0VEFpWVVaT28?oc=5",
+   "when": "2026-10-17T19:01+05:30",
    "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
@@ -409,10 +54,10 @@
   },
   {
    "nse": "UJJIVANSFB",
-   "title": "Ujjivan Small Finance Bank To Raise ₹409.04 Crore Via Preferential Share Issue",
-   "source": "Sahi",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR0Y5VHRGMmZBN0xpSFJsU0pWSVNraWZRUWVCdXh2dnktd2NPYjd0djVRNS1BNWdneWVobUlTZ0ttMWt2RnBjX0lPWnNXQUNMamc3NWpFaGt5N3BKOHNad0hxV2cyLWVPY3plak5sMDN1OVdWMTktLVk1TkFoQ0ZjVE9JVjRDNXZqMk5JamlGeFZrOEV1dENkSVlLWQ?oc=5",
-   "when": "2026-10-16T15:33+05:30",
+   "title": "Ujjivan SFB Board Approves ₹409 Crore Preferential Fundraise",
+   "source": "SMEStreet",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNenpiMkY3Q09xZFBUbzEydW5aeFZUck1UNmluVWdwWEt0NERHNFFvVkFWTHZKUUxLSzRGUW9rRzNTb2FwdnpYUG0yNk54UXZUWUt1Mm13OGltYjRnMDhyQjloZkpJdXpSd1owV0c0QVBORFpKdW9iZ3RsUHBMblQtY2FJQkw1SDloMnpFUDhxSzJmWWNjREgxcVNWOTRLZw?oc=5",
+   "when": "2026-10-17T14:57+05:30",
    "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
@@ -422,25 +67,11 @@
    }
   },
   {
-   "nse": "UJJIVANSFB",
-   "title": "Ujjivan SFB posts record Q2 profit of ₹365 crore, on track to achieve 2% RoA guidance",
-   "source": "CNBC TV18",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcjZ2M3BhREpCTk5Nb2VsSndCZnpTSV9aSlRwMEhwNlVoREJ6UEJibUJwQkZSSThzSmctNlVwbGs4SWstaVhhM2lRdUp5WnlXMlAwWmVmenE4Tklta0t6aXo2S180YmtUeU56S3d2YzUzTV9rMlViTUg2aGZGTjM5VklkdWFfcGFuRFozYTd3UXNOSVYzMkdHcmZncWRMR3B3OXNzRjZpVkE2b1VEOW5vaEFRa3JXbGI5QnoxbzlraUhXeWFXZTE0RDFrbkFiQlpzSmdmc0hBVEpnd9IB2gFBVV95cUxNcjZ2M3BhREpCTk5Nb2VsSndCZnpTSV9aSlRwMEhwNlVoREJ6UEJibUJwQkZSSThzSmctNlVwbGs4SWstaVhhM2lRdUp5WnlXMlAwWmVmenE4Tklta0t6aXo2S180YmtUeU56S3d2YzUzTV9rMlViTUg2aGZGTjM5VklkdWFfcGFuRFozYTd3UXNOSVYzMkdHcmZncWRMR3B3OXNzRjZpVkE2b1VEOW5vaEFRa3JXbGI5QnoxbzlraUhXeWFXZTE0RDFrbkFiQlpzSmdmc0hBVEpndw?oc=5",
-   "when": "2026-10-16T15:12+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": true,
-   "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
    "nse": "RECLTD",
-   "title": "REC Receives RBI NOC for Proposed Merger with PFC",
-   "source": "Legend Officers",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1xa1AtZzg5aGV3S2ZNZnA3TXVmOEQ2YW91eEVIeDROLVVvTGhfNWJFZUtGQW85QXhvcTE4ek5DMVpuLWprcUlZM3lnSDA4NDBwVHozQWhwcFhFSjRzeERMa3h5Sk13NElFTkRadW9taHFjV2RLWGpz?oc=5",
-   "when": "2026-10-16T12:32+05:30",
+   "title": "REC & PFC Merger Gets RBI Nod",
+   "source": "IndianMandarins",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA5Y3JKMHZqOFAtU1AtbDhuMDBBemh6OHlSVEZneV9hZWVUSTB0RF9wUU5XUjJZQlhfNjRTb2hsRmV6aVJ2WWJQeXlKOVBPMnNLT1Ywc1ZrQ04yWkFoZFMwNjc5Q1J5dS0ySU1GNGFPR1dJUVlFLUJqSEV3?oc=5",
+   "when": "2026-10-17T12:08+05:30",
    "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
    "trusted": false,
    "stock": {
@@ -450,16 +81,16 @@
    }
   },
   {
-   "nse": "UFBL",
-   "title": "Barbeque Nation Appoints Ravi Chaudhry as Cluster Chef in Noida",
-   "source": "Hotelier Buzz",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTnpTUEdidkk0U0w1c0IyZGVsenliOEVTSmJ1UUFhU2pSWWJ1ZzJLSGhKb2k1Wm1Ld0xSTEFzZjJWV0VQbXNjWG1LR3Z2LXpFcnUyc2xUWjJCX1ZzNFNQMTBvZkFjTzNuSlRhdE84UXVUc0xfMllXcjNUNGFWSXdFdDktbU9pTEVuOWZWTTZoa0J2M1U?oc=5",
-   "when": "2026-10-16T10:57+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "nse": "TIMETECHNO",
+   "title": "Time Technoplast Completes Four Major Projects in Q4 FY26, Adds Automated Manufacturing Capacity",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNV3d5eVJNQnhGTHQxVTdLSGVNcEZxLUhVUTJianpCdmE5eEsybzJHOHdlc0p0dEVmSXRJS2pZUF9ITnozYkF2QTZSSDdkdEhFQzlyWGdJR1JkRG9va19yVHkxZkxQNlVQbG9FQzh4VmhuUWlSdHhGMGRMR3RpaUNIbTJyZUlBWENaWEZQSXFDTWdwSjV2SUI2SElMQ3UtcElWaTRndFQ5TVZUaFFNSXdkeDdfWVNoSTBWY1dkX2ZReGt6dG5aNGxSdHREMTdOcWU1UE1QejlMaWdzVkpINnBFdzlLUW55RUZqcnZHV0hR?oc=5",
+   "when": "2026-10-17T06:50+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
-    "nse": "UFBL",
-    "name": "United Foodbrands",
+    "nse": "TIMETECHNO",
+    "name": "Time Technoplast",
     "group": "holding"
    }
   }
@@ -920,7 +551,7 @@
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
   "BSE codes taken from bhavcopy 16 Oct",
-  "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (JSONDecodeError)"
+  "BSE announcements failed (JSONDecodeError)",
+  "BSE announcements failed (HTTPError)"
  ]
 }
