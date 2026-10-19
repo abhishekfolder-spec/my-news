@@ -1,96 +1,56 @@
 {
- "generated": "2026-10-18T11:44+05:30",
- "since": "2026-10-17T05:44+05:30",
+ "generated": "2026-10-19T11:57+05:30",
+ "since": "2026-10-18T05:57+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 6",
+  "NSE": "ok · 0",
   "BSE": "unavailable",
-  "News": "ok · 4"
+  "News": "ok · 3"
  },
  "high": [],
  "medium": [],
- "other": [
-  {
-   "nse": "SOLARA",
-   "exchange": "NSE",
-   "when": "2026-10-17T18:50+05:30",
-   "subject": "Updates",
-   "detail": "Solara Active Pharma Sciences Limited has informed the Exchange regarding 'Final Reminder-cum-Forfeiture Notice for the payment of outstanding call money to the holders of partly paid-up equity shares of the Company.'",
-   "link": "https://nsearchives.nseindia.com/corporate/SOLARA_17102026184838_SE_Intimation___Final_notice_Signed.pdf",
-   "text": "Updates Solara Active Pharma Sciences Limited has informed the Exchange regarding 'Final Reminder-cum-Forfeiture Notice for the payment of outstanding call money to the holders of partly paid-up equity shares of the Company.'",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SOLARA_17102026184838_SE_Intimation___Final_notice_Signed.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SOLARA",
-    "name": "Solara Active Pharma Sciences",
-    "group": "holding"
-   }
-  }
- ],
- "dropped": 5,
+ "other": [],
+ "dropped": 0,
  "news": [
   {
-   "nse": "UJJIVANSFB",
-   "title": "Ujjivan SFB Profit Outlook Brightens As Loans Grow 32%, Secured Lending Expands",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQN0RYUTktYzBMMHR0Y0RaekN6c2lZd3Nac1lZTlN0TWtoZ3ktNkdUMWZFYmg4OWd2Yld4TjFMUzVYT3NKaEpKOU9zLU5WQXd4czdvcnVHMGdWdWRpMUdlRFBIREswcG9YQXNMeUdna0RjMlFxTjAtN0g5UnZjOUItRGF1SFhJdUtMdFdmN1hoVGFITllvS0tqQ08xdnNFNkt4MG83aVVPOUpYa1JsWi0yMWFKZE1PZjR1V2hmXzQzT2dFNUlaNlQ0VEFpWVVaT28?oc=5",
-   "when": "2026-10-17T19:01+05:30",
+   "nse": "PARAGMILK",
+   "title": "Parag Milk Foods invests ₹100 Cr to quadruple paneer capacity to 80 MT/day",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV3BkbVBTd2RzS005anFQRzVObm1mcC1Md3BxeWhSWUhLbmVjUW9HbmNKY1FTSm1GemtjWk9xc1NZT01ibnB3bks2YnB4SS01aXJsUm04aktqTHQ0a1NYSXBiU1ZYcUxsVU5UTE1YZ0FDdWxFU0ZpcEd4ZGZwc1lOU3hDbWFnLTNwTmRHd0x6NjNMX0VyTV9oUDd2TnBuaGE2T1g3RzJtYTFJMTRHUzdLSHpNQVZ3UWdHQzRGOUhJZExsZw?oc=5",
+   "when": "2026-10-19T03:50+05:30",
    "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
+    "nse": "PARAGMILK",
+    "name": "Parag Milk Foods",
     "group": "holding"
    }
   },
   {
-   "nse": "UJJIVANSFB",
-   "title": "Ujjivan SFB Board Approves ₹409 Crore Preferential Fundraise",
-   "source": "SMEStreet",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNenpiMkY3Q09xZFBUbzEydW5aeFZUck1UNmluVWdwWEt0NERHNFFvVkFWTHZKUUxLSzRGUW9rRzNTb2FwdnpYUG0yNk54UXZUWUt1Mm13OGltYjRnMDhyQjloZkpJdXpSd1owV0c0QVBORFpKdW9iZ3RsUHBMblQtY2FJQkw1SDloMnpFUDhxSzJmWWNjREgxcVNWOTRLZw?oc=5",
-   "when": "2026-10-17T14:57+05:30",
+   "nse": "ITC",
+   "title": "ITC shareholders approve final dividend, reappoint Hemant Bhargava",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRy1jS2tHNDMyYXkwUW1HNWVPbV9CQ3R6ZE9ja1ltTjMtQ2RpT3A0QUZLdUN0WGRoSkZ4T2hIZEQzYkVhTFlWaDdfWW9XeWd6MU5DMGEwd2FwV2R6SEg0TEgwVnV4TzB6SENyRzU3WUwxY2lRMzhQM1U1UmN1am1tVGx3VUhpOVhGYTBSTkdjdkd0ckNZaDVwZTVXbTVoVW4xRGpzWXVCZHA4Vl9kSjdBbTJ0aU0?oc=5",
+   "when": "2026-10-19T03:48+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "ITC",
+    "name": "ITC Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SUNTECK",
+   "title": "Sunteck Realty Completes ₹22.40 Crore Acquisition of Tanirika Infrastructure",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaEpEWnZNLTV2MnVWRkd4TE1ZSURIUld1YW9TdUdiT1FjS1lBckJhYllMeWxvRWQ5WF9hZ0N3cF9FOWEzVEg2WjlCeldidkZpVWNlZFo2dm5rQWxIWXBENUJoaFExSlFGb0pVSHdrRm95S2U3d0Fxb2NGR2pqRm9VMHhNRlRWN0lub0lkXy1tQS1ZTU93dXg0VXJqNlAwbVlwMXl6RnhleUZELWxzc0JEMHVWU3p3akNhZXNwMWRwUmVWOFN1SmZ4YnBlMXlmdw?oc=5",
+   "when": "2026-10-19T03:20+05:30",
    "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "RECLTD",
-   "title": "REC & PFC Merger Gets RBI Nod",
-   "source": "IndianMandarins",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA5Y3JKMHZqOFAtU1AtbDhuMDBBemh6OHlSVEZneV9hZWVUSTB0RF9wUU5XUjJZQlhfNjRTb2hsRmV6aVJ2WWJQeXlKOVBPMnNLT1Ywc1ZrQ04yWkFoZFMwNjc5Q1J5dS0ySU1GNGFPR1dJUVlFLUJqSEV3?oc=5",
-   "when": "2026-10-17T12:08+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": false,
-   "stock": {
-    "nse": "RECLTD",
-    "name": "REC Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "TIMETECHNO",
-   "title": "Time Technoplast Completes Four Major Projects in Q4 FY26, Adds Automated Manufacturing Capacity",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNV3d5eVJNQnhGTHQxVTdLSGVNcEZxLUhVUTJianpCdmE5eEsybzJHOHdlc0p0dEVmSXRJS2pZUF9ITnozYkF2QTZSSDdkdEhFQzlyWGdJR1JkRG9va19yVHkxZkxQNlVQbG9FQzh4VmhuUWlSdHhGMGRMR3RpaUNIbTJyZUlBWENaWEZQSXFDTWdwSjV2SUI2SElMQ3UtcElWaTRndFQ5TVZUaFFNSXdkeDdfWVNoSTBWY1dkX2ZReGt6dG5aNGxSdHREMTdOcWU1UE1QejlMaWdzVkpINnBFdzlLUW55RUZqcnZHV0hR?oc=5",
-   "when": "2026-10-17T06:50+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "TIMETECHNO",
-    "name": "Time Technoplast",
+    "nse": "SUNTECK",
+    "name": "Sunteck Realty",
     "group": "holding"
    }
   }
@@ -551,7 +511,8 @@
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
   "BSE codes taken from bhavcopy 16 Oct",
+  "BSE announcements failed (HTTPError)",
   "BSE announcements failed (JSONDecodeError)",
-  "BSE announcements failed (HTTPError)"
+  "BSE announcements failed (ReadTimeout)"
  ]
 }
