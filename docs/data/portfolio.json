@@ -1,28 +1,159 @@
 {
- "generated": "2026-10-19T11:57+05:30",
- "since": "2026-10-18T05:57+05:30",
+ "generated": "2026-10-20T11:45+05:30",
+ "since": "2026-10-19T05:45+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 0",
+  "NSE": "ok · 7",
   "BSE": "unavailable",
-  "News": "ok · 3"
+  "News": "ok · 4"
  },
- "high": [],
- "medium": [],
- "other": [],
- "dropped": 0,
+ "high": [
+  {
+   "nse": "RECLTD",
+   "exchange": "NSE",
+   "when": "2026-10-19T23:27+05:30",
+   "subject": "Scheme of Arrangement",
+   "detail": "Intimation of receipt of NOC from NSE and BSE in relation to proposed scheme of merger of REC Limited with and into Power Finance Corporation Limited.",
+   "link": "https://nsearchives.nseindia.com/corporate/RECLTD_19102026232553_Signed_Intimation_OL_191026.pdf",
+   "text": "Scheme of Arrangement Intimation of receipt of NOC from NSE and BSE in relation to proposed scheme of merger of REC Limited with and into Power Finance Corporation Limited.",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/RECLTD_19102026232553_Signed_Intimation_OL_191026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RECLTD",
+    "name": "REC Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SATIN",
+   "exchange": "NSE",
+   "when": "2026-10-19T21:55+05:30",
+   "subject": "Credit Rating",
+   "detail": "Satin Creditcare Network Limited has informed the Exchange about Credit Rating",
+   "link": "https://nsearchives.nseindia.com/corporate/SATIN_19102026215329_SCNL_Intimation.pdf",
+   "text": "Credit Rating Satin Creditcare Network Limited has informed the Exchange about Credit Rating",
+   "tier": "high",
+   "rule": "credit rating|rating (action|revis|downgrad|upgrad|reaffirm)",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SATIN_19102026215329_SCNL_Intimation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SATIN",
+    "name": "Satin Creditcare Network",
+    "group": "holding"
+   }
+  }
+ ],
+ "medium": [
+  {
+   "nse": "ADVENZYMES",
+   "exchange": "NSE",
+   "when": "2026-10-19T17:25+05:30",
+   "subject": "Updates",
+   "detail": "Intimation of receipt of request from promoter group member for reclassification from Promoter Group category to Public category shareholder under Regulation 31A of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (as amended)",
+   "link": "https://nsearchives.nseindia.com/corporate/AETL_19102026172507_Intimation.pdf",
+   "text": "Updates Intimation of receipt of request from promoter group member for reclassification from Promoter Group category to Public category shareholder under Regulation 31A of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (as amended)",
+   "tier": "medium",
+   "rule": "reclassification|promoter group",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/AETL_19102026172507_Intimation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ADVENZYMES",
+    "name": "Advanced Enzyme Technologies",
+    "group": "holding"
+   }
+  }
+ ],
+ "other": [
+  {
+   "nse": "UJJIVANSFB",
+   "exchange": "NSE",
+   "when": "2026-10-19T15:39+05:30",
+   "subject": "Shareholders meeting",
+   "detail": "Ujjivan Small Finance Bank Limited has informed the Exchange regarding Notice of Extraordinary General Meeting to be held on November 13, 2026",
+   "link": "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_19102026153922_108_Filing_of_EGM_Notice_19102026.pdf",
+   "text": "Shareholders meeting Ujjivan Small Finance Bank Limited has informed the Exchange regarding Notice of Extraordinary General Meeting to be held on November 13, 2026",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_19102026153922_108_Filing_of_EGM_Notice_19102026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "UJJIVANSFB",
+    "name": "Ujjivan Small Finance Bank",
+    "group": "holding"
+   }
+  }
+ ],
+ "dropped": 3,
  "news": [
   {
-   "nse": "PARAGMILK",
-   "title": "Parag Milk Foods invests ₹100 Cr to quadruple paneer capacity to 80 MT/day",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV3BkbVBTd2RzS005anFQRzVObm1mcC1Md3BxeWhSWUhLbmVjUW9HbmNKY1FTSm1GemtjWk9xc1NZT01ibnB3bks2YnB4SS01aXJsUm04aktqTHQ0a1NYSXBiU1ZYcUxsVU5UTE1YZ0FDdWxFU0ZpcEd4ZGZwc1lOU3hDbWFnLTNwTmRHd0x6NjNMX0VyTV9oUDd2TnBuaGE2T1g3RzJtYTFJMTRHUzdLSHpNQVZ3UWdHQzRGOUhJZExsZw?oc=5",
-   "when": "2026-10-19T03:50+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "nse": "SATIN",
+   "title": "Satin Creditcare Network: ICRA Reaffirms Ratings; Enhances Fund-Based Facility to Rs 5,500 Cr",
+   "source": "Whalesbook",
+   "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQUktmXzBmSWtXRHFyMTBvS3lmcW1rMGZ3Njh0X3hjb0pWQlVXelpwM0dvNU9LUkVWb1Q1UnRuWm9acWZMVWZoVnBjSFduLTBBYTkyN3JYOVZNbDB3Z2I3WkxKdExBOEtFc0hWQWtrTGU5M25JOVNEY1BKY1RrdEd2V1c4VW1YVXNVeVRzQXE1RThFY1RTU1JnZjRZdzBfVU9meHdpOXZVb2lYa3pVSm11QU14aVJFRGVBV2tjaEZzTkFFWUtrRGRsZW5fXzl0RHJINW1zTk1aVElqUmtvY0dRSnVqVnVSZ1dBeE5BMkNESWJLRi1FYXFTU1VSaXAzY0dNaHlSbkJzZGJiMHFI?oc=5",
+   "when": "2026-10-19T21:54+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
    "trusted": false,
    "stock": {
-    "nse": "PARAGMILK",
-    "name": "Parag Milk Foods",
+    "nse": "SATIN",
+    "name": "Satin Creditcare Network",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "UJJIVANSFB",
+   "title": "Ujjivan Small Finance Bank to raise ₹409 crore via preferential issue",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMkRPY3lyV1RFcWlqSHlFcU03Ml9tVUhpUGV5MUNmQTlNQ0hBTUpsQ2tURjZmS01LeENhZjNmTWFUUk5pNVhMcVpxOXVxZTNaNlg0WWRSVVpHX1cxWmRObG9PbElEeFRUalBjN0dQdmhfcjJaSXpBZlpmVVluY0VaNjNZQktOUGtmSWczLTJfclM3a0xlZzVCQV9DeTdsWHhhakl0Uk9GREptRTJlemoxQVZVTDU2T2ktZngzTDNWOA?oc=5",
+   "when": "2026-10-19T16:19+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "UJJIVANSFB",
+    "name": "Ujjivan Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SOLARA",
+   "title": "Solara Active Pharma Sciences Ltd Reports Outstanding Quarterly Performance Amid Financial Trend Upgrade",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPektxcXctLWdEWEZqUmc3VWZXVnVsUHUwZnBYYXU3TFhJSFBBVjZwRkd5T1VUNTJ1Nl9RV1Z2czlhOGJEamRmRDZZU3Qyd1AtdDRBS0tSMDRudjNsVUtJT1VXeENBN2JyWnN1eU5OUjF3LXducVlpUlFKajBKNWREd25meEM2dEtPSnpER1lXQ1Ywd09XcDRjd3VoQ3NiTjJZM2lvYXV6SjJGN2V0NVdNNkptUEQ1X21MYmpHbmFLR0l0eUJaMlExOWpBWkFoYWlFeTJqanl0aE5Bc3QzbFB1NXRVeXB1QTJkUUFwaDdXZ05aQzc5?oc=5",
+   "when": "2026-10-19T11:05+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "SOLARA",
+    "name": "Solara Active Pharma Sciences",
     "group": "holding"
    }
   },
@@ -37,20 +168,6 @@
    "stock": {
     "nse": "ITC",
     "name": "ITC Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SUNTECK",
-   "title": "Sunteck Realty Completes ₹22.40 Crore Acquisition of Tanirika Infrastructure",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaEpEWnZNLTV2MnVWRkd4TE1ZSURIUld1YW9TdUdiT1FjS1lBckJhYllMeWxvRWQ5WF9hZ0N3cF9FOWEzVEg2WjlCeldidkZpVWNlZFo2dm5rQWxIWXBENUJoaFExSlFGb0pVSHdrRm95S2U3d0Fxb2NGR2pqRm9VMHhNRlRWN0lub0lkXy1tQS1ZTU93dXg0VXJqNlAwbVlwMXl6RnhleUZELWxzc0JEMHVWU3p3akNhZXNwMWRwUmVWOFN1SmZ4YnBlMXlmdw?oc=5",
-   "when": "2026-10-19T03:20+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "SUNTECK",
-    "name": "Sunteck Realty",
     "group": "holding"
    }
   }
@@ -510,9 +627,8 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 16 Oct",
-  "BSE announcements failed (HTTPError)",
+  "BSE codes taken from bhavcopy 19 Oct",
   "BSE announcements failed (JSONDecodeError)",
-  "BSE announcements failed (ReadTimeout)"
+  "BSE announcements failed (HTTPError)"
  ]
 }
