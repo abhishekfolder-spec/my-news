@@ -1,73 +1,22 @@
 {
- "generated": "2026-10-20T11:45+05:30",
- "since": "2026-10-19T05:45+05:30",
+ "generated": "2026-10-21T11:45+05:30",
+ "since": "2026-10-20T05:45+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 7",
+  "NSE": "ok · 3",
   "BSE": "unavailable",
   "News": "ok · 4"
  },
- "high": [
-  {
-   "nse": "RECLTD",
-   "exchange": "NSE",
-   "when": "2026-10-19T23:27+05:30",
-   "subject": "Scheme of Arrangement",
-   "detail": "Intimation of receipt of NOC from NSE and BSE in relation to proposed scheme of merger of REC Limited with and into Power Finance Corporation Limited.",
-   "link": "https://nsearchives.nseindia.com/corporate/RECLTD_19102026232553_Signed_Intimation_OL_191026.pdf",
-   "text": "Scheme of Arrangement Intimation of receipt of NOC from NSE and BSE in relation to proposed scheme of merger of REC Limited with and into Power Finance Corporation Limited.",
-   "tier": "high",
-   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/RECLTD_19102026232553_Signed_Intimation_OL_191026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "RECLTD",
-    "name": "REC Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SATIN",
-   "exchange": "NSE",
-   "when": "2026-10-19T21:55+05:30",
-   "subject": "Credit Rating",
-   "detail": "Satin Creditcare Network Limited has informed the Exchange about Credit Rating",
-   "link": "https://nsearchives.nseindia.com/corporate/SATIN_19102026215329_SCNL_Intimation.pdf",
-   "text": "Credit Rating Satin Creditcare Network Limited has informed the Exchange about Credit Rating",
-   "tier": "high",
-   "rule": "credit rating|rating (action|revis|downgrad|upgrad|reaffirm)",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SATIN_19102026215329_SCNL_Intimation.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SATIN",
-    "name": "Satin Creditcare Network",
-    "group": "holding"
-   }
-  }
- ],
+ "high": [],
  "medium": [
   {
    "nse": "ADVENZYMES",
    "exchange": "NSE",
-   "when": "2026-10-19T17:25+05:30",
+   "when": "2026-10-20T17:32+05:30",
    "subject": "Updates",
-   "detail": "Intimation of receipt of request from promoter group member for reclassification from Promoter Group category to Public category shareholder under Regulation 31A of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (as amended)",
-   "link": "https://nsearchives.nseindia.com/corporate/AETL_19102026172507_Intimation.pdf",
-   "text": "Updates Intimation of receipt of request from promoter group member for reclassification from Promoter Group category to Public category shareholder under Regulation 31A of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (as amended)",
+   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange regarding 'Intimation of receipt of request from promoter group member for reclassificationfrom Promoter Group category to Public category shareholders under Regulation 31Aof the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015'.",
+   "link": "https://nsearchives.nseindia.com/corporate/AETL_20102026173147_IntimationSSSigned.pdf",
+   "text": "Updates Advanced Enzyme Technologies Limited has informed the Exchange regarding 'Intimation of receipt of request from promoter group member for reclassificationfrom Promoter Group category to Public category shareholders under Regulation 31Aof the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015'.",
    "tier": "medium",
    "rule": "reclassification|promoter group",
    "exchange_set": [
@@ -76,7 +25,7 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/AETL_19102026172507_Intimation.pdf"
+     "https://nsearchives.nseindia.com/corporate/AETL_20102026173147_IntimationSSSigned.pdf"
     ]
    ],
    "stock": {
@@ -84,58 +33,43 @@
     "name": "Advanced Enzyme Technologies",
     "group": "holding"
    }
-  }
- ],
- "other": [
+  },
   {
-   "nse": "UJJIVANSFB",
+   "nse": "VIYASH",
    "exchange": "NSE",
-   "when": "2026-10-19T15:39+05:30",
-   "subject": "Shareholders meeting",
-   "detail": "Ujjivan Small Finance Bank Limited has informed the Exchange regarding Notice of Extraordinary General Meeting to be held on November 13, 2026",
-   "link": "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_19102026153922_108_Filing_of_EGM_Notice_19102026.pdf",
-   "text": "Shareholders meeting Ujjivan Small Finance Bank Limited has informed the Exchange regarding Notice of Extraordinary General Meeting to be held on November 13, 2026",
-   "tier": "other",
-   "rule": null,
+   "when": "2026-10-20T15:39+05:30",
+   "subject": "Change in Management",
+   "detail": "Viyash Scientific Limited has informed the Exchange about change in Management",
+   "link": "https://nsearchives.nseindia.com/corporate/SEQUENT2_20102026153816_VSL_-_Change_in_Senior_Management.pdf",
+   "text": "Change in Management Viyash Scientific Limited has informed the Exchange about change in Management",
+   "tier": "medium",
+   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_19102026153922_108_Filing_of_EGM_Notice_19102026.pdf"
+     "https://nsearchives.nseindia.com/corporate/SEQUENT2_20102026153816_VSL_-_Change_in_Senior_Management.pdf"
     ]
    ],
    "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
+    "nse": "VIYASH",
+    "name": "Viyash Scientific",
     "group": "holding"
    }
   }
  ],
- "dropped": 3,
+ "other": [],
+ "dropped": 1,
  "news": [
   {
-   "nse": "SATIN",
-   "title": "Satin Creditcare Network: ICRA Reaffirms Ratings; Enhances Fund-Based Facility to Rs 5,500 Cr",
-   "source": "Whalesbook",
-   "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQUktmXzBmSWtXRHFyMTBvS3lmcW1rMGZ3Njh0X3hjb0pWQlVXelpwM0dvNU9LUkVWb1Q1UnRuWm9acWZMVWZoVnBjSFduLTBBYTkyN3JYOVZNbDB3Z2I3WkxKdExBOEtFc0hWQWtrTGU5M25JOVNEY1BKY1RrdEd2V1c4VW1YVXNVeVRzQXE1RThFY1RTU1JnZjRZdzBfVU9meHdpOXZVb2lYa3pVSm11QU14aVJFRGVBV2tjaEZzTkFFWUtrRGRsZW5fXzl0RHJINW1zTk1aVElqUmtvY0dRSnVqVnVSZ1dBeE5BMkNESWJLRi1FYXFTU1VSaXAzY0dNaHlSbkJzZGJiMHFI?oc=5",
-   "when": "2026-10-19T21:54+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": false,
-   "stock": {
-    "nse": "SATIN",
-    "name": "Satin Creditcare Network",
-    "group": "holding"
-   }
-  },
-  {
    "nse": "UJJIVANSFB",
-   "title": "Ujjivan Small Finance Bank to raise ₹409 crore via preferential issue",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMkRPY3lyV1RFcWlqSHlFcU03Ml9tVUhpUGV5MUNmQTlNQ0hBTUpsQ2tURjZmS01LeENhZjNmTWFUUk5pNVhMcVpxOXVxZTNaNlg0WWRSVVpHX1cxWmRObG9PbElEeFRUalBjN0dQdmhfcjJaSXpBZlpmVVluY0VaNjNZQktOUGtmSWczLTJfclM3a0xlZzVCQV9DeTdsWHhhakl0Uk9GREptRTJlemoxQVZVTDU2T2ktZngzTDNWOA?oc=5",
-   "when": "2026-10-19T16:19+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "title": "Ujjivan SFB targets 25% credit growth as secured loans drive expansion",
+   "source": "bfsi.economictimes.indiatimes.com",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX3VsbUdTU0MwMWQycGhMQ3NyWkt5Q19TOEpVWURmU1puYk5YOVhka2pXZEc4Mkg2bUxYWEdLME4zcF9HVXhsZXlKa0dKdlVNWnNPNjNDSDI2QzBqd0hRaW5tbHJlUVJ3M2l0TG5WUHBoak5XS0hhd0xNdXoyOWhSRjczSTFJSDlvcHA0dEZBS1V4eHZsNm4xeXZZYmd0bnZ3WlMtaFRWT1IyaXVVSFhuRjhZSmZaV3RpTG9Hc0RucEtobi1OcFZCbEp30gHPAUFVX3lxTE9EZ1cyR2JoUUxac2IwMnNUM2loTlJLM3NMT0U1WERUVmZfWTBraF9jSXVReFBZZkVSRi1WR2lkN3VVQzdtenBLRVJGTzZxUWoxekhCOWZCREhEbE1nM0RSbng5WUp1ZzFGejRRRTdYM2NqYnRWcnNSRTNMMjgzTGpQbGZWVGpyQkUtdHdTdGRtRkRubVhoNEVjaUljcC1Cd1V3OE9DNV8takpRcEx5c2JnM2V5WFZnbDhUQkozNk9oaDd4a1pLN21zSk1NMldVcw?oc=5",
+   "when": "2026-10-21T07:39+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
     "nse": "UJJIVANSFB",
@@ -144,30 +78,44 @@
    }
   },
   {
-   "nse": "SOLARA",
-   "title": "Solara Active Pharma Sciences Ltd Reports Outstanding Quarterly Performance Amid Financial Trend Upgrade",
-   "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPektxcXctLWdEWEZqUmc3VWZXVnVsUHUwZnBYYXU3TFhJSFBBVjZwRkd5T1VUNTJ1Nl9RV1Z2czlhOGJEamRmRDZZU3Qyd1AtdDRBS0tSMDRudjNsVUtJT1VXeENBN2JyWnN1eU5OUjF3LXducVlpUlFKajBKNWREd25meEM2dEtPSnpER1lXQ1Ywd09XcDRjd3VoQ3NiTjJZM2lvYXV6SjJGN2V0NVdNNkptUEQ1X21MYmpHbmFLR0l0eUJaMlExOWpBWkFoYWlFeTJqanl0aE5Bc3QzbFB1NXRVeXB1QTJkUUFwaDdXZ05aQzc5?oc=5",
-   "when": "2026-10-19T11:05+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "nse": "VIYASH",
+   "title": "Viyash Scientific appoints Dr. Nagineni as SVP HR amid leadership change",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdDRNS2NOaFBReUtNTjd1MXBHSVNrSGRrMjBpUDhkVE1wc1p6V2lCSU9WVmJ0alBfLWp5M1o0dUxjb1g3dEVvbTQ0dXlFYk9JQlVjejlwUGZoa3dBbno3MUhhVXNBcWVIRjlaeXhIV2lnM3pZYlZ2VVptbzJEVndRdG02TDlmdEVra3gxalAtdElUbmNLbVVrZlNCa3dlanhYd2NhclUxOVVSdVJweHdrU0Fya05FOVJsRTN6WA?oc=5",
+   "when": "2026-10-20T15:51+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
-    "nse": "SOLARA",
-    "name": "Solara Active Pharma Sciences",
+    "nse": "VIYASH",
+    "name": "Viyash Scientific",
     "group": "holding"
    }
   },
   {
-   "nse": "ITC",
-   "title": "ITC shareholders approve final dividend, reappoint Hemant Bhargava",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRy1jS2tHNDMyYXkwUW1HNWVPbV9CQ3R6ZE9ja1ltTjMtQ2RpT3A0QUZLdUN0WGRoSkZ4T2hIZEQzYkVhTFlWaDdfWW9XeWd6MU5DMGEwd2FwV2R6SEg0TEgwVnV4TzB6SENyRzU3WUwxY2lRMzhQM1U1UmN1am1tVGx3VUhpOVhGYTBSTkdjdkd0ckNZaDVwZTVXbTVoVW4xRGpzWXVCZHA4Vl9kSjdBbTJ0aU0?oc=5",
-   "when": "2026-10-19T03:48+05:30",
+   "nse": "VIYASH",
+   "title": "Viyash Scientific: Appoints New Senior VP of Human Resources",
+   "source": "InvestyWise",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZHlrQjlIOVBTQWtMb3dWR3QyaWMwd0hPZ1hPVkxIOC1lMGVER3ZLVWo0SWJIV2xDU0FseGlxdEJ5WFBaRWdsWXVneTE3Z2Y2SnFkeFR4c25Vd0FiN0FyVEEtYjR5a3B5M0xCZ285NWl4U3Y5RnRUVlJ1RmZpMG1PZW9Fb3JIOFVPNDFQb21QZUJYb1RsLVVz?oc=5",
+   "when": "2026-10-20T15:46+05:30",
    "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
-    "nse": "ITC",
-    "name": "ITC Limited",
+    "nse": "VIYASH",
+    "name": "Viyash Scientific",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "COHANCE",
+   "title": "Cohance Lifesciences Appoints Abhimanyu Ojha as Chief Financial Officer",
+   "source": "https://hrtoday.in/",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMnlpdnVrb1Zqa2Fwd01HdXRpMEUyajRGR1M2ZURIbFRSRFFUZDItUHRoRVd0RW96Nk5PekN4M21zTUdqN29QRTMwMzh5Y2x0VnNaVld0X1N4VVFoNjZpa1B5RUI3cE1oaUFWWFJQY3JsTUhYaHdHMFNyM29ieHg5MGN3THhpSjVab3h3Wm8ySVhZVzBkY2c?oc=5",
+   "when": "2026-10-20T14:30+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
     "group": "holding"
    }
   }
@@ -628,7 +576,8 @@
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
   "BSE codes taken from bhavcopy 19 Oct",
+  "BSE announcements failed (HTTPError)",
   "BSE announcements failed (JSONDecodeError)",
-  "BSE announcements failed (HTTPError)"
+  "BSE announcements failed (ReadTimeout)"
  ]
 }
