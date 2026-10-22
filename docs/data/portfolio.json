@@ -1,68 +1,109 @@
 {
- "generated": "2026-10-21T11:45+05:30",
- "since": "2026-10-20T05:45+05:30",
+ "generated": "2026-10-22T11:49+05:30",
+ "since": "2026-10-21T05:49+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 3",
+  "NSE": "ok · 6",
   "BSE": "unavailable",
-  "News": "ok · 4"
+  "News": "ok · 2"
  },
- "high": [],
- "medium": [
+ "high": [
   {
-   "nse": "ADVENZYMES",
+   "nse": "SUNTECK",
    "exchange": "NSE",
-   "when": "2026-10-20T17:32+05:30",
-   "subject": "Updates",
-   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange regarding 'Intimation of receipt of request from promoter group member for reclassificationfrom Promoter Group category to Public category shareholders under Regulation 31Aof the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015'.",
-   "link": "https://nsearchives.nseindia.com/corporate/AETL_20102026173147_IntimationSSSigned.pdf",
-   "text": "Updates Advanced Enzyme Technologies Limited has informed the Exchange regarding 'Intimation of receipt of request from promoter group member for reclassificationfrom Promoter Group category to Public category shareholders under Regulation 31Aof the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015'.",
-   "tier": "medium",
-   "rule": "reclassification|promoter group",
+   "when": "2026-10-21T20:17+05:30",
+   "subject": "Issue of Securities",
+   "detail": "Sunteck Realty Limited has informed the Exchange about issuance of Commercial Paper of Rs. 70 crores",
+   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_21102026201743_SRL.pdf",
+   "text": "Issue of Securities Sunteck Realty Limited has informed the Exchange about issuance of Commercial Paper of Rs. 70 crores",
+   "tier": "high",
+   "rule": "fund ?rais|raising of funds|issue of (equity|securities)",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/AETL_20102026173147_IntimationSSSigned.pdf"
+     "https://nsearchives.nseindia.com/corporate/SUNTECK_21102026201743_SRL.pdf"
     ]
    ],
    "stock": {
-    "nse": "ADVENZYMES",
-    "name": "Advanced Enzyme Technologies",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "VIYASH",
-   "exchange": "NSE",
-   "when": "2026-10-20T15:39+05:30",
-   "subject": "Change in Management",
-   "detail": "Viyash Scientific Limited has informed the Exchange about change in Management",
-   "link": "https://nsearchives.nseindia.com/corporate/SEQUENT2_20102026153816_VSL_-_Change_in_Senior_Management.pdf",
-   "text": "Change in Management Viyash Scientific Limited has informed the Exchange about change in Management",
-   "tier": "medium",
-   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SEQUENT2_20102026153816_VSL_-_Change_in_Senior_Management.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "VIYASH",
-    "name": "Viyash Scientific",
+    "nse": "SUNTECK",
+    "name": "Sunteck Realty",
     "group": "holding"
    }
   }
  ],
- "other": [],
- "dropped": 1,
+ "medium": [
+  {
+   "nse": "KRSNAA",
+   "exchange": "NSE",
+   "when": "2026-10-22T07:37+05:30",
+   "subject": "Press Release",
+   "detail": "Krsnaa Diagnostics Limited has informed the Exchange regarding a press release dated October 22, 2026, titled \"Krsnaa Diagnostics Announces Strategic AI Collaboration with Global Radiology AI Innovator AZmed, Creating a Platform for Greater Reporting Efficiency and Scalable Growth\".",
+   "link": "https://nsearchives.nseindia.com/corporate/KRSNAA_22102026073718_543328.pdf",
+   "text": "Press Release Krsnaa Diagnostics Limited has informed the Exchange regarding a press release dated October 22, 2026, titled \"Krsnaa Diagnostics Announces Strategic AI Collaboration with Global Radiology AI Innovator AZmed, Creating a Platform for Greater Reporting Efficiency and Scalable Growth\".",
+   "tier": "medium",
+   "rule": "press release|media release",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/KRSNAA_22102026073718_543328.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "KRSNAA",
+    "name": "Krsnaa Diagnostics",
+    "group": "holding"
+   }
+  }
+ ],
+ "other": [
+  {
+   "nse": "BSE",
+   "exchange": "NSE",
+   "when": "2026-10-21T13:08+05:30",
+   "subject": "General Updates",
+   "detail": "BSE Limited has informed the Exchange about the appointment of Executive Director for Vertical 3 (Business)",
+   "link": "https://nsearchives.nseindia.com/corporate/BSE1_21102026130745_NSEintimation.pdf",
+   "text": "General Updates BSE Limited has informed the Exchange about the appointment of Executive Director for Vertical 3 (Business)",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/BSE1_21102026130745_NSEintimation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  }
+ ],
+ "dropped": 3,
  "news": [
+  {
+   "nse": "SATIN",
+   "title": "Satin Creditcare Network ratings reaffirmed; rating withdrawn for matured NCDs",
+   "source": "Traders Union",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObHZDWDFWcFZyV2RFeXMtSTN0ZjRZN3Mtd2tqTVgxbnF5eFlGNUtHV0JQUWdYWndoTDIxaGFhNVdNelpkRlJWRWtkOEkyRzVza2NPXzF4N0hyMzlPU3B3bVpUcEZpZFFtOHpaUk1XblJOSmxIWGdHQll6Qk1pRUxrSTBvLWFmWVpMeU5MUHpxNlowUQ?oc=5",
+   "when": "2026-10-21T17:58+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "SATIN",
+    "name": "Satin Creditcare Network",
+    "group": "holding"
+   }
+  },
   {
    "nse": "UJJIVANSFB",
    "title": "Ujjivan SFB targets 25% credit growth as secured loans drive expansion",
@@ -74,48 +115,6 @@
    "stock": {
     "nse": "UJJIVANSFB",
     "name": "Ujjivan Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "VIYASH",
-   "title": "Viyash Scientific appoints Dr. Nagineni as SVP HR amid leadership change",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdDRNS2NOaFBReUtNTjd1MXBHSVNrSGRrMjBpUDhkVE1wc1p6V2lCSU9WVmJ0alBfLWp5M1o0dUxjb1g3dEVvbTQ0dXlFYk9JQlVjejlwUGZoa3dBbno3MUhhVXNBcWVIRjlaeXhIV2lnM3pZYlZ2VVptbzJEVndRdG02TDlmdEVra3gxalAtdElUbmNLbVVrZlNCa3dlanhYd2NhclUxOVVSdVJweHdrU0Fya05FOVJsRTN6WA?oc=5",
-   "when": "2026-10-20T15:51+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "VIYASH",
-    "name": "Viyash Scientific",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "VIYASH",
-   "title": "Viyash Scientific: Appoints New Senior VP of Human Resources",
-   "source": "InvestyWise",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZHlrQjlIOVBTQWtMb3dWR3QyaWMwd0hPZ1hPVkxIOC1lMGVER3ZLVWo0SWJIV2xDU0FseGlxdEJ5WFBaRWdsWXVneTE3Z2Y2SnFkeFR4c25Vd0FiN0FyVEEtYjR5a3B5M0xCZ285NWl4U3Y5RnRUVlJ1RmZpMG1PZW9Fb3JIOFVPNDFQb21QZUJYb1RsLVVz?oc=5",
-   "when": "2026-10-20T15:46+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "VIYASH",
-    "name": "Viyash Scientific",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "title": "Cohance Lifesciences Appoints Abhimanyu Ojha as Chief Financial Officer",
-   "source": "https://hrtoday.in/",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMnlpdnVrb1Zqa2Fwd01HdXRpMEUyajRGR1M2ZURIbFRSRFFUZDItUHRoRVd0RW96Nk5PekN4M21zTUdqN29QRTMwMzh5Y2x0VnNaVld0X1N4VVFoNjZpa1B5RUI3cE1oaUFWWFJQY3JsTUhYaHdHMFNyM29ieHg5MGN3THhpSjVab3h3Wm8ySVhZVzBkY2c?oc=5",
-   "when": "2026-10-20T14:30+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
     "group": "holding"
    }
   }
@@ -575,9 +574,8 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 19 Oct",
+  "BSE codes taken from bhavcopy 21 Oct",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (JSONDecodeError)",
-  "BSE announcements failed (ReadTimeout)"
+  "BSE announcements failed (JSONDecodeError)"
  ]
 }
