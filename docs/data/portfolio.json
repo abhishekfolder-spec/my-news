@@ -1,35 +1,35 @@
 {
- "generated": "2026-10-22T11:49+05:30",
- "since": "2026-10-21T05:49+05:30",
+ "generated": "2026-10-23T11:42+05:30",
+ "since": "2026-10-22T05:42+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 6",
+  "NSE": "ok · 10",
   "BSE": "unavailable",
-  "News": "ok · 2"
+  "News": "ok · 3"
  },
  "high": [
   {
-   "nse": "SUNTECK",
+   "nse": "UGROCAP",
    "exchange": "NSE",
-   "when": "2026-10-21T20:17+05:30",
-   "subject": "Issue of Securities",
-   "detail": "Sunteck Realty Limited has informed the Exchange about issuance of Commercial Paper of Rs. 70 crores",
-   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_21102026201743_SRL.pdf",
-   "text": "Issue of Securities Sunteck Realty Limited has informed the Exchange about issuance of Commercial Paper of Rs. 70 crores",
+   "when": "2026-10-22T17:24+05:30",
+   "subject": "Amalgamation/Merger",
+   "detail": "Order of final hearing date schedule for 20th November 2026, under the scheme of amalgamation.",
+   "link": "https://nsearchives.nseindia.com/corporate/UGROCAP_22102026172445_UGRONCLTOrder.pdf",
+   "text": "Amalgamation/Merger Order of final hearing date schedule for 20th November 2026, under the scheme of amalgamation.",
    "tier": "high",
-   "rule": "fund ?rais|raising of funds|issue of (equity|securities)",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUNTECK_21102026201743_SRL.pdf"
+     "https://nsearchives.nseindia.com/corporate/UGROCAP_22102026172445_UGRONCLTOrder.pdf"
     ]
    ],
    "stock": {
-    "nse": "SUNTECK",
-    "name": "Sunteck Realty",
+    "nse": "UGROCAP",
+    "name": "Ugro Capital",
     "group": "holding"
    }
   }
@@ -61,60 +61,48 @@
    }
   }
  ],
- "other": [
-  {
-   "nse": "BSE",
-   "exchange": "NSE",
-   "when": "2026-10-21T13:08+05:30",
-   "subject": "General Updates",
-   "detail": "BSE Limited has informed the Exchange about the appointment of Executive Director for Vertical 3 (Business)",
-   "link": "https://nsearchives.nseindia.com/corporate/BSE1_21102026130745_NSEintimation.pdf",
-   "text": "General Updates BSE Limited has informed the Exchange about the appointment of Executive Director for Vertical 3 (Business)",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/BSE1_21102026130745_NSEintimation.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
-    "group": "holding"
-   }
-  }
- ],
- "dropped": 3,
+ "other": [],
+ "dropped": 8,
  "news": [
   {
-   "nse": "SATIN",
-   "title": "Satin Creditcare Network ratings reaffirmed; rating withdrawn for matured NCDs",
-   "source": "Traders Union",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObHZDWDFWcFZyV2RFeXMtSTN0ZjRZN3Mtd2tqTVgxbnF5eFlGNUtHV0JQUWdYWndoTDIxaGFhNVdNelpkRlJWRWtkOEkyRzVza2NPXzF4N0hyMzlPU3B3bVpUcEZpZFFtOHpaUk1XblJOSmxIWGdHQll6Qk1pRUxrSTBvLWFmWVpMeU5MUHpxNlowUQ?oc=5",
-   "when": "2026-10-21T17:58+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "nse": "TEJASNET",
+   "title": "Tejas Networks (NSE:TEJASNET) Order Book Rises to About Rs 2,315 Crore on BSNL 4G Expansion",
+   "source": "Kalkine India",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNzJOMDM5aXlremROOXNMck9HbUhZaWtZdUVfZkQza2hiaEFCM1JVMl9pOW41V0QwcjZlS1FNdmRDY1VsM1VoZnVudkd6Wml5WGhTVnd2NXdxbVktYXl4VGoxbDhzSmt1NFBUYjFTRVBYMm9JNm9SYjFtREFmdVRmYWEwdVQ0TTZ3Y2pRRkF1dlpETW5jODZ1UHpVQUd3YlhCY2J1eVY2LTVRbldpd2FoSVZibmMyT2VUNFBqaUc5M1B4MlQ1c0ktQW5sRnc?oc=5",
+   "when": "2026-10-22T19:29+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
-    "nse": "SATIN",
-    "name": "Satin Creditcare Network",
+    "nse": "TEJASNET",
+    "name": "Tejas Networks",
     "group": "holding"
    }
   },
   {
-   "nse": "UJJIVANSFB",
-   "title": "Ujjivan SFB targets 25% credit growth as secured loans drive expansion",
-   "source": "bfsi.economictimes.indiatimes.com",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX3VsbUdTU0MwMWQycGhMQ3NyWkt5Q19TOEpVWURmU1puYk5YOVhka2pXZEc4Mkg2bUxYWEdLME4zcF9HVXhsZXlKa0dKdlVNWnNPNjNDSDI2QzBqd0hRaW5tbHJlUVJ3M2l0TG5WUHBoak5XS0hhd0xNdXoyOWhSRjczSTFJSDlvcHA0dEZBS1V4eHZsNm4xeXZZYmd0bnZ3WlMtaFRWT1IyaXVVSFhuRjhZSmZaV3RpTG9Hc0RucEtobi1OcFZCbEp30gHPAUFVX3lxTE9EZ1cyR2JoUUxac2IwMnNUM2loTlJLM3NMT0U1WERUVmZfWTBraF9jSXVReFBZZkVSRi1WR2lkN3VVQzdtenBLRVJGTzZxUWoxekhCOWZCREhEbE1nM0RSbng5WUp1ZzFGejRRRTdYM2NqYnRWcnNSRTNMMjgzTGpQbGZWVGpyQkUtdHdTdGRtRkRubVhoNEVjaUljcC1Cd1V3OE9DNV8takpRcEx5c2JnM2V5WFZnbDhUQkozNk9oaDd4a1pLN21zSk1NMldVcw?oc=5",
-   "when": "2026-10-21T07:39+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "nse": "UGROCAP",
+   "title": "Ugro Capital final hearing for Profectus merger set for Nov 20",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY2ZJQUd0NFBHM1dTbHNSTE05VThrekZva3VwV1pkSjhsMExWZzMxSDRqTkY3OENhTWdNU240VmxFRGRuVFp3cm52RVZqTUVLdjgxRnk2ZXYyZGV3NEVyUkN6WldiU3VWRWJlazE3UzJFV05JT3NYVlBjTlBEVUlJd0JBcHk0aW5DdENFeUVIU0dVa1ExTjhwWVV0bXc4ZklObGRNd2pVQ01JcU5UQXJxWA?oc=5",
+   "when": "2026-10-22T17:32+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
+    "nse": "UGROCAP",
+    "name": "Ugro Capital",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "UGROCAP",
+   "title": "UGRO Capital NCLT Merger Hearing Scheduled for November 2026",
+   "source": "Kalkine India",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSVBXQzRtMVdCSV9JSWMta3UxWjdlY0FDbGc3b1BxSjE4aDJVbU9kU0szRFo3bzI4dGd2QlU4R3FuM2I0UkF5QjhBc0liSkdteXNjS29oOEhGeW8tYnZmNDlMQjNWSzd6UDdub1FkckRIRTBIcm1CekJHNGZZR0NwaXJfRlo4eUN6Zl85WVM2LUZrWW9DMkI3b2pmSzhqT2g2blJxejdoajA2N0FwNW5xUk05WkF1OEtuTXhyb1pWTTdxVGRYZWRUVUUtTGxfRWRnZXREaGxSRFFpUjZjRU1n?oc=5",
+   "when": "2026-10-22T17:24+05:30",
+   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
+   "trusted": false,
+   "stock": {
+    "nse": "UGROCAP",
+    "name": "Ugro Capital",
     "group": "holding"
    }
   }
@@ -574,7 +562,7 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 21 Oct",
+  "BSE codes taken from bhavcopy 22 Oct",
   "BSE announcements failed (HTTPError)",
   "BSE announcements failed (JSONDecodeError)"
  ]
