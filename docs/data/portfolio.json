@@ -1,48 +1,98 @@
 {
- "generated": "2026-10-23T11:42+05:30",
- "since": "2026-10-22T05:42+05:30",
+ "generated": "2026-10-24T11:37+05:30",
+ "since": "2026-10-23T05:37+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 10",
+  "NSE": "ok · 14",
   "BSE": "unavailable",
-  "News": "ok · 3"
+  "News": "ok · 4"
  },
  "high": [
   {
-   "nse": "UGROCAP",
+   "nse": "BANKINDIA",
    "exchange": "NSE",
-   "when": "2026-10-22T17:24+05:30",
-   "subject": "Amalgamation/Merger",
-   "detail": "Order of final hearing date schedule for 20th November 2026, under the scheme of amalgamation.",
-   "link": "https://nsearchives.nseindia.com/corporate/UGROCAP_22102026172445_UGRONCLTOrder.pdf",
-   "text": "Amalgamation/Merger Order of final hearing date schedule for 20th November 2026, under the scheme of amalgamation.",
+   "when": "2026-10-23T17:14+05:30",
+   "subject": "General Updates",
+   "detail": "Bank Of India has informed the Exchange about Financial result for September 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026171441_resultsQ2FY27.pdf",
+   "text": "General Updates Bank Of India has informed the Exchange about Financial result for September 2026.",
    "tier": "high",
-   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/UGROCAP_22102026172445_UGRONCLTOrder.pdf"
+     "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026171441_resultsQ2FY27.pdf"
     ]
    ],
    "stock": {
-    "nse": "UGROCAP",
-    "name": "Ugro Capital",
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BANKINDIA",
+   "exchange": "NSE",
+   "when": "2026-10-23T17:02+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Bank Of India has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026170215_resultsQ2FY27.pdf",
+   "text": "Outcome of Board Meeting Bank Of India has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026170215_resultsQ2FY27.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
     "group": "holding"
    }
   }
  ],
  "medium": [
   {
-   "nse": "KRSNAA",
+   "nse": "BANKINDIA",
    "exchange": "NSE",
-   "when": "2026-10-22T07:37+05:30",
+   "when": "2026-10-23T17:10+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Bank Of India has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026171023_presentationQ2FY27.pdf",
+   "text": "Investor Presentation Bank Of India has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026171023_presentationQ2FY27.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BANKINDIA",
+   "exchange": "NSE",
+   "when": "2026-10-23T17:07+05:30",
    "subject": "Press Release",
-   "detail": "Krsnaa Diagnostics Limited has informed the Exchange regarding a press release dated October 22, 2026, titled \"Krsnaa Diagnostics Announces Strategic AI Collaboration with Global Radiology AI Innovator AZmed, Creating a Platform for Greater Reporting Efficiency and Scalable Growth\".",
-   "link": "https://nsearchives.nseindia.com/corporate/KRSNAA_22102026073718_543328.pdf",
-   "text": "Press Release Krsnaa Diagnostics Limited has informed the Exchange regarding a press release dated October 22, 2026, titled \"Krsnaa Diagnostics Announces Strategic AI Collaboration with Global Radiology AI Innovator AZmed, Creating a Platform for Greater Reporting Efficiency and Scalable Growth\".",
+   "detail": "Bank Of India has informed the Exchange regarding a press release dated October 23, 2026, titled \"press release for the 2nd Quarter / Half Year Ended September 2026\".",
+   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026170713_PressreleaseQ2FY27.pdf",
+   "text": "Press Release Bank Of India has informed the Exchange regarding a press release dated October 23, 2026, titled \"press release for the 2nd Quarter / Half Year Ended September 2026\".",
    "tier": "medium",
    "rule": "press release|media release",
    "exchange_set": [
@@ -51,58 +101,148 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/KRSNAA_22102026073718_543328.pdf"
+     "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026170713_PressreleaseQ2FY27.pdf"
     ]
    ],
    "stock": {
-    "nse": "KRSNAA",
-    "name": "Krsnaa Diagnostics",
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
     "group": "holding"
    }
   }
  ],
- "other": [],
- "dropped": 8,
+ "other": [
+  {
+   "nse": "BANKINDIA",
+   "exchange": "NSE",
+   "when": "2026-10-23T17:49+05:30",
+   "subject": "Related Party Transactions",
+   "detail": "Bank Of India has informed the Exchange about related Party Transactions for Q2FY2027.",
+   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026174928_releatedpartyQ2FY27.pdf",
+   "text": "Related Party Transactions Bank Of India has informed the Exchange about related Party Transactions for Q2FY2027.",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026174928_releatedpartyQ2FY27.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BANKINDIA",
+   "exchange": "NSE",
+   "when": "2026-10-23T17:46+05:30",
+   "subject": "Statement of deviation(s) or variation(s) under Reg. 32",
+   "detail": "Bank Of India has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
+   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026174621_DEVATIONQ2FY27.pdf",
+   "text": "Statement of deviation(s) or variation(s) under Reg. 32 Bank Of India has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026174621_DEVATIONQ2FY27.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BANKINDIA",
+   "exchange": "NSE",
+   "when": "2026-10-23T17:20+05:30",
+   "subject": "General Updates",
+   "detail": "Bank Of India has informed the Exchange about Related party Transactions for September 2026",
+   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026172025_releatedpartyQ2FY27.pdf",
+   "text": "General Updates Bank Of India has informed the Exchange about Related party Transactions for September 2026",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026172025_releatedpartyQ2FY27.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  }
+ ],
+ "dropped": 7,
  "news": [
   {
-   "nse": "TEJASNET",
-   "title": "Tejas Networks (NSE:TEJASNET) Order Book Rises to About Rs 2,315 Crore on BSNL 4G Expansion",
-   "source": "Kalkine India",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNzJOMDM5aXlremROOXNMck9HbUhZaWtZdUVfZkQza2hiaEFCM1JVMl9pOW41V0QwcjZlS1FNdmRDY1VsM1VoZnVudkd6Wml5WGhTVnd2NXdxbVktYXl4VGoxbDhzSmt1NFBUYjFTRVBYMm9JNm9SYjFtREFmdVRmYWEwdVQ0TTZ3Y2pRRkF1dlpETW5jODZ1UHpVQUd3YlhCY2J1eVY2LTVRbldpd2FoSVZibmMyT2VUNFBqaUc5M1B4MlQ1c0ktQW5sRnc?oc=5",
-   "when": "2026-10-22T19:29+05:30",
+   "nse": "JUBLINGREA",
+   "title": "Jubilant Ingrevia Ltd Upgraded to Hold on Improved Valuation and Financial Metrics",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZld3TGFmR2E2MU9Ua3d6YVNCd2R1aDhUbng0S2sxVElINVZwVDdRVk5oNXVMWVJpa2J1VjJHX2RBZUY1a2hzSzMxZ19oLS1wZ3k1WXByZHItNHhNcXJoa1ZHS3BCY2VLeVRHQkFhRDN4WXRRTUVHUDZUdm5ZNkFfZ1pnbkc1SjZjbnZQejQwZUNvMEFLZWY2MWR1Y3dtM0FXeGFGOGVvLUhCT0hVRjh6b1hCSU5mNEdUTVoyZFFYTHY3WkFKWndVWV9uU0xRZVdOekhJLThLVFBCaVB1?oc=5",
+   "when": "2026-10-24T10:03+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BANKINDIA",
+   "title": "Bank of India sees NIM improving to 2.55% in H2 FY27 after RBI rate hike",
+   "source": "Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQUk4VHNXa1kyLXBuSmxwVWJzV3hPMlBGbDRZOV9aZS05U1Jmd2JVdmd5YWVGWHVMNW9qN0l1elVES2lRSURJMHY2YnJJZ0oxUG5UWXRvWlQ5dE5pS21iSUs1OWVYc2dyX2lvS2kxRmlXTVdkZEtuUnhILWZhblJBUHJKeVpMMDlZSWE5amFla3lvel9CcnlLVlotaXU1ZW9KVlZvdTY1azY3QzV0UzJDdlVxa21iWUZzYXNzazZ2NTNKNmFrMVNvbFlBdU8tV2PSAdQBQVVfeXFMUEl0Nko1NXpHbzZtRE9uZnpjY3FVZjA0dXBSS2xJVzRFOXp3R2JEbjg2Zno2aEwxYl83SWFsdUtlUW1wUlpRa2pnVjhTVHdUYk1LMTh2bnVCV2JJYjBEYV8wMUxSemhFRlZ4OE5DSUh0S2t1SENKYVFRTW5CbEdjYVNhbVRPSXNPa0RSel96UXRBM1kwcW1FZVRISEpOd3c1YkhRXzN3ZXBRcjdEWjV4Y0xQdkFZUnpCejNuQk1kNVc2MW5JUy1lcDQ4TVJDVDZBVC1FMzE?oc=5",
+   "when": "2026-10-23T21:00+05:30",
+   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
+   "trusted": true,
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "LAURUSLABS",
+   "title": "Laurus Labs to invest Rs 450 cr to expand its capacity this fiscal",
+   "source": "eHealth Magazine",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUllfd3pOS1hVcVZVb2hKd0diUXZFX0xaYTh1bXM2bTRJOUNzVW5ValFxcjd2eHpKTEZFdGY5R1BJbV9VbVVRYlVSNHBXOWh6bVl2ZzNPSlA1cHNtQ3FxNGpQcjlqdnN4QmRTa0xKM0QtTDdRYW9zYVBRazR2WWNONGxES2t3QWdRbFlkdi1TYVhrSTVpczRQeExiR1l4VDhVeG9LOE1zN2RSakU?oc=5",
+   "when": "2026-10-23T14:03+05:30",
    "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
-    "nse": "TEJASNET",
-    "name": "Tejas Networks",
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
     "group": "holding"
    }
   },
   {
-   "nse": "UGROCAP",
-   "title": "Ugro Capital final hearing for Profectus merger set for Nov 20",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY2ZJQUd0NFBHM1dTbHNSTE05VThrekZva3VwV1pkSjhsMExWZzMxSDRqTkY3OENhTWdNU240VmxFRGRuVFp3cm52RVZqTUVLdjgxRnk2ZXYyZGV3NEVyUkN6WldiU3VWRWJlazE3UzJFV05JT3NYVlBjTlBEVUlJd0JBcHk0aW5DdENFeUVIU0dVa1ExTjhwWVV0bXc4ZklObGRNd2pVQ01JcU5UQXJxWA?oc=5",
-   "when": "2026-10-22T17:32+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "nse": "COHANCE",
+   "title": "Cohance Lifesciences Appoints Abhimanyu Ojha as Chief Financial Officer",
+   "source": "https://hrtoday.in/",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMnlpdnVrb1Zqa2Fwd01HdXRpMEUyajRGR1M2ZURIbFRSRFFUZDItUHRoRVd0RW96Nk5PekN4M21zTUdqN29QRTMwMzh5Y2x0VnNaVld0X1N4VVFoNjZpa1B5RUI3cE1oaUFWWFJQY3JsTUhYaHdHMFNyM29ieHg5MGN3THhpSjVab3h3Wm8ySVhZVzBkY2c?oc=5",
+   "when": "2026-10-23T13:28+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
-    "nse": "UGROCAP",
-    "name": "Ugro Capital",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "UGROCAP",
-   "title": "UGRO Capital NCLT Merger Hearing Scheduled for November 2026",
-   "source": "Kalkine India",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSVBXQzRtMVdCSV9JSWMta3UxWjdlY0FDbGc3b1BxSjE4aDJVbU9kU0szRFo3bzI4dGd2QlU4R3FuM2I0UkF5QjhBc0liSkdteXNjS29oOEhGeW8tYnZmNDlMQjNWSzd6UDdub1FkckRIRTBIcm1CekJHNGZZR0NwaXJfRlo4eUN6Zl85WVM2LUZrWW9DMkI3b2pmSzhqT2g2blJxejdoajA2N0FwNW5xUk05WkF1OEtuTXhyb1pWTTdxVGRYZWRUVUUtTGxfRWRnZXREaGxSRFFpUjZjRU1n?oc=5",
-   "when": "2026-10-22T17:24+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": false,
-   "stock": {
-    "nse": "UGROCAP",
-    "name": "Ugro Capital",
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
     "group": "holding"
    }
   }
@@ -562,7 +702,7 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 22 Oct",
+  "BSE codes taken from bhavcopy 23 Oct",
   "BSE announcements failed (HTTPError)",
   "BSE announcements failed (JSONDecodeError)"
  ]
