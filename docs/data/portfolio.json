@@ -1,248 +1,96 @@
 {
- "generated": "2026-10-24T11:37+05:30",
- "since": "2026-10-23T05:37+05:30",
+ "generated": "2026-10-25T11:58+05:30",
+ "since": "2026-10-24T05:58+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 14",
+  "NSE": "ok · 3",
   "BSE": "unavailable",
   "News": "ok · 4"
  },
  "high": [
   {
-   "nse": "BANKINDIA",
+   "nse": "ARMANFIN",
    "exchange": "NSE",
-   "when": "2026-10-23T17:14+05:30",
-   "subject": "General Updates",
-   "detail": "Bank Of India has informed the Exchange about Financial result for September 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026171441_resultsQ2FY27.pdf",
-   "text": "General Updates Bank Of India has informed the Exchange about Financial result for September 2026.",
+   "when": "2026-10-24T16:33+05:30",
+   "subject": "Credit Rating- Others",
+   "detail": "Arman Financial Services Limited has informed the Exchange about Credit Rating",
+   "link": "https://nsearchives.nseindia.com/corporate/ARMANFIN_24102026163311_Credit_rating_-_CARE.pdf",
+   "text": "Credit Rating- Others Arman Financial Services Limited has informed the Exchange about Credit Rating",
    "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "rule": "credit rating|rating (action|revis|downgrad|upgrad|reaffirm)",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026171441_resultsQ2FY27.pdf"
+     "https://nsearchives.nseindia.com/corporate/ARMANFIN_24102026163311_Credit_rating_-_CARE.pdf"
     ]
    ],
    "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BANKINDIA",
-   "exchange": "NSE",
-   "when": "2026-10-23T17:02+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Bank Of India has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026170215_resultsQ2FY27.pdf",
-   "text": "Outcome of Board Meeting Bank Of India has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026170215_resultsQ2FY27.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
+    "nse": "ARMANFIN",
+    "name": "Arman Financial Services",
     "group": "holding"
    }
   }
  ],
- "medium": [
-  {
-   "nse": "BANKINDIA",
-   "exchange": "NSE",
-   "when": "2026-10-23T17:10+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Bank Of India has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026171023_presentationQ2FY27.pdf",
-   "text": "Investor Presentation Bank Of India has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026171023_presentationQ2FY27.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BANKINDIA",
-   "exchange": "NSE",
-   "when": "2026-10-23T17:07+05:30",
-   "subject": "Press Release",
-   "detail": "Bank Of India has informed the Exchange regarding a press release dated October 23, 2026, titled \"press release for the 2nd Quarter / Half Year Ended September 2026\".",
-   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026170713_PressreleaseQ2FY27.pdf",
-   "text": "Press Release Bank Of India has informed the Exchange regarding a press release dated October 23, 2026, titled \"press release for the 2nd Quarter / Half Year Ended September 2026\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026170713_PressreleaseQ2FY27.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
-    "group": "holding"
-   }
-  }
- ],
- "other": [
-  {
-   "nse": "BANKINDIA",
-   "exchange": "NSE",
-   "when": "2026-10-23T17:49+05:30",
-   "subject": "Related Party Transactions",
-   "detail": "Bank Of India has informed the Exchange about related Party Transactions for Q2FY2027.",
-   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026174928_releatedpartyQ2FY27.pdf",
-   "text": "Related Party Transactions Bank Of India has informed the Exchange about related Party Transactions for Q2FY2027.",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026174928_releatedpartyQ2FY27.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BANKINDIA",
-   "exchange": "NSE",
-   "when": "2026-10-23T17:46+05:30",
-   "subject": "Statement of deviation(s) or variation(s) under Reg. 32",
-   "detail": "Bank Of India has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026174621_DEVATIONQ2FY27.pdf",
-   "text": "Statement of deviation(s) or variation(s) under Reg. 32 Bank Of India has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026174621_DEVATIONQ2FY27.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BANKINDIA",
-   "exchange": "NSE",
-   "when": "2026-10-23T17:20+05:30",
-   "subject": "General Updates",
-   "detail": "Bank Of India has informed the Exchange about Related party Transactions for September 2026",
-   "link": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026172025_releatedpartyQ2FY27.pdf",
-   "text": "General Updates Bank Of India has informed the Exchange about Related party Transactions for September 2026",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/BANKINDIA6_23102026172025_releatedpartyQ2FY27.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
-    "group": "holding"
-   }
-  }
- ],
- "dropped": 7,
+ "medium": [],
+ "other": [],
+ "dropped": 2,
  "news": [
   {
+   "nse": "RECLTD",
+   "title": "Tech Query: Bharti Airtel, Power Finance Corporation (PFC), REC, Alkyl Amines Chemicals — What is the outlook? Where are these stocks headed?",
+   "source": "BusinessLine",
+   "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOYzNxbTN4OWl5Q0RETVZqUVYtNjZ6a1U3dEo0Nzh0c1JjLWlQWld4TmNxdFhsUVlsdUo3R3FEcF9ia0tkTkpOZHgtX3o5UmYzRExicW5HZjR0Wl9fNlVFc0U3Z2NVZFlDRHVUYk4xVTFwb3pMQTBqSHFwUjZnUmJGVFBIWi1RS08zSnpFeG9NRF91UkxSNGVHODhPaTREdTlWTXN3S1BXNE02aUcwXzNHWk9rVWhUR0dnems0dGQ0WXJVd01oQVR5b0J5d2pqOVFMRlRtN1o4bEkwb2pSOGJXeC1hWWNGU0lDS2dfbF9TZEdOQmh6UEROUUlpVU93ZWEzTHVQWHBlR3RZR01XTWtoWmZJZnNuVEdacEtpa05UVktpRlB0d0xxSFVQOFhQZWhHSnFaZkVab2U3RVVfQ1HSAcQCQVVfeXFMTnZHSTQweTU0MDh6RzRBVlI0bGM1b0hQeTFDM3Vvd3d1TDc2T3Vlb19tYlNvbU1PRE8wRFU5U0syT1dHTjIxNE9VcS1wRzl6dm5uOEdGSmhodXg3THVpTlA2Y1ZSdmQxck5SRHc3eVItcnBhcEZRRDJMQVY4dFBfVFVDU3lHN0FJM2JGMVltc3FYb2dTb2d0bko5Qk11Y0E5ZVEyTWpsZGhyVkNYM2szUXZKaV9HYldyTDZGV0s3N3lBQXp3TkFEbFlZdGdyR3JlZ1B0dy1TS05DTUtEdmM1bEt4ejNuOUR6R3pRWTQ0aVp2U0hmbFR0UTIyUTQ4eEEtWk9PVHdtYUdhZF9NRkZVZlFaUk82LUZhSlhWVnpKRXBDZUNMNTFONmZQQ2M0eURudW82NUpmTEhJcFZVcVN3SFFHcEpq?oc=5",
+   "when": "2026-10-24T21:52+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": true,
+   "stock": {
+    "nse": "RECLTD",
+    "name": "REC Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "POWERGRID",
+   "title": "KEC International bags orders worth ₹2,872 cr from Power Grid Corporation of India",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYVJnZERfZHU5UmNFRWt6WV9vdF9YT2t3Y19KeWoyZEw3SjlqcHB1SXhBRlZJRUJjSjlfZ3gzbHh3UTJhTzFFWkNmUnkyNjQybHRpLWt5Q29Id2Uxc0RmUVdMdlJFWEZDT2FMWWxRUS11ZGpFa3dQNTJHUHpnSmh4OW9vc3lzbmJJVmRjbFI1REhrQWNmWEtVdlZuS2NzLWN1STk2elZURWdwVnZHZUxOQ3Nac2dWaU5hSV82TVA5azZ0TVI0LWtzaW9VcmNueXBxMjBPSg?oc=5",
+   "when": "2026-10-24T17:04+05:30",
+   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
+   "trusted": false,
+   "stock": {
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BANKINDIA",
+   "title": "Bank Of India’s Q2 Net Profit Jumps 25% To ₹3,202 Crore; Operating Profit Up 33%.",
+   "source": "TRIPURA STAR NEWS",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNemJWNkFSLTZtbklHRlhiWDI2MWI4dUtkeXMyQzBBakt0YkxtTVZZSVFYQVBkaS1rcE03X2Z3VzUzUWhLTDBCQlZSUkNmc19DUWhNa3NZdHY3S1NXbzdjRkp4RGlpV24tVU85TGVPNm8yRVNyOGxTeG1WVFBEdWNOSEUxeGlZZFhhckpKS09oRUh6d3B1M1p1ckotVkNpRXg3Rk50VnUyOHZwb2VJV2RpUGlCa3RMa0E?oc=5",
+   "when": "2026-10-24T16:58+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
    "nse": "JUBLINGREA",
-   "title": "Jubilant Ingrevia Ltd Upgraded to Hold on Improved Valuation and Financial Metrics",
+   "title": "Jubilant Ingrevia Ltd Downgraded to Sell Amid Mixed Financial and Valuation Signals",
    "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZld3TGFmR2E2MU9Ua3d6YVNCd2R1aDhUbng0S2sxVElINVZwVDdRVk5oNXVMWVJpa2J1VjJHX2RBZUY1a2hzSzMxZ19oLS1wZ3k1WXByZHItNHhNcXJoa1ZHS3BCY2VLeVRHQkFhRDN4WXRRTUVHUDZUdm5ZNkFfZ1pnbkc1SjZjbnZQejQwZUNvMEFLZWY2MWR1Y3dtM0FXeGFGOGVvLUhCT0hVRjh6b1hCSU5mNEdUTVoyZFFYTHY3WkFKWndVWV9uU0xRZVdOekhJLThLVFBCaVB1?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdkNPNW1KM3ZiblRzTWZhQmhwbnEyTElKYkNNV0FIcnpVMjNkVmhzRzMybjczTTZDYzdXdWlldGJld3RKQUlrRXJkZ0twazAyVWtZSDh0Sm1ybjc3UU5VSVdJVWJGcU1BUU5OTWxGb3J2cGVDcG53Q25NcEZNbjBEZ1Q1d2FTSnJDemtZM2NCSHBRWmt4UUN5YThQMFY1akhGNm03LTFBY0VIdExFaGdzSW1SSzVnbmwzNlhxZDRpTTlEUXcyRVRKX3FmaWpSUXlKWW80NWlZS0JRU2VwQXc?oc=5",
    "when": "2026-10-24T10:03+05:30",
    "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
    "trusted": false,
    "stock": {
     "nse": "JUBLINGREA",
     "name": "Jubilant Ingrevia",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BANKINDIA",
-   "title": "Bank of India sees NIM improving to 2.55% in H2 FY27 after RBI rate hike",
-   "source": "Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQUk4VHNXa1kyLXBuSmxwVWJzV3hPMlBGbDRZOV9aZS05U1Jmd2JVdmd5YWVGWHVMNW9qN0l1elVES2lRSURJMHY2YnJJZ0oxUG5UWXRvWlQ5dE5pS21iSUs1OWVYc2dyX2lvS2kxRmlXTVdkZEtuUnhILWZhblJBUHJKeVpMMDlZSWE5amFla3lvel9CcnlLVlotaXU1ZW9KVlZvdTY1azY3QzV0UzJDdlVxa21iWUZzYXNzazZ2NTNKNmFrMVNvbFlBdU8tV2PSAdQBQVVfeXFMUEl0Nko1NXpHbzZtRE9uZnpjY3FVZjA0dXBSS2xJVzRFOXp3R2JEbjg2Zno2aEwxYl83SWFsdUtlUW1wUlpRa2pnVjhTVHdUYk1LMTh2bnVCV2JJYjBEYV8wMUxSemhFRlZ4OE5DSUh0S2t1SENKYVFRTW5CbEdjYVNhbVRPSXNPa0RSel96UXRBM1kwcW1FZVRISEpOd3c1YkhRXzN3ZXBRcjdEWjV4Y0xQdkFZUnpCejNuQk1kNVc2MW5JUy1lcDQ4TVJDVDZBVC1FMzE?oc=5",
-   "when": "2026-10-23T21:00+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": true,
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "LAURUSLABS",
-   "title": "Laurus Labs to invest Rs 450 cr to expand its capacity this fiscal",
-   "source": "eHealth Magazine",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUllfd3pOS1hVcVZVb2hKd0diUXZFX0xaYTh1bXM2bTRJOUNzVW5ValFxcjd2eHpKTEZFdGY5R1BJbV9VbVVRYlVSNHBXOWh6bVl2ZzNPSlA1cHNtQ3FxNGpQcjlqdnN4QmRTa0xKM0QtTDdRYW9zYVBRazR2WWNONGxES2t3QWdRbFlkdi1TYVhrSTVpczRQeExiR1l4VDhVeG9LOE1zN2RSakU?oc=5",
-   "when": "2026-10-23T14:03+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "LAURUSLABS",
-    "name": "Laurus Labs",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "title": "Cohance Lifesciences Appoints Abhimanyu Ojha as Chief Financial Officer",
-   "source": "https://hrtoday.in/",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMnlpdnVrb1Zqa2Fwd01HdXRpMEUyajRGR1M2ZURIbFRSRFFUZDItUHRoRVd0RW96Nk5PekN4M21zTUdqN29QRTMwMzh5Y2x0VnNaVld0X1N4VVFoNjZpa1B5RUI3cE1oaUFWWFJQY3JsTUhYaHdHMFNyM29ieHg5MGN3THhpSjVab3h3Wm8ySVhZVzBkY2c?oc=5",
-   "when": "2026-10-23T13:28+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
     "group": "holding"
    }
   }
