@@ -1,78 +1,24 @@
 {
- "generated": "2026-10-25T11:58+05:30",
- "since": "2026-10-24T05:58+05:30",
+ "generated": "2026-10-26T12:07+05:30",
+ "since": "2026-10-25T06:07+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 3",
+  "NSE": "ok · 0",
   "BSE": "unavailable",
-  "News": "ok · 4"
+  "News": "ok · 5"
  },
- "high": [
-  {
-   "nse": "ARMANFIN",
-   "exchange": "NSE",
-   "when": "2026-10-24T16:33+05:30",
-   "subject": "Credit Rating- Others",
-   "detail": "Arman Financial Services Limited has informed the Exchange about Credit Rating",
-   "link": "https://nsearchives.nseindia.com/corporate/ARMANFIN_24102026163311_Credit_rating_-_CARE.pdf",
-   "text": "Credit Rating- Others Arman Financial Services Limited has informed the Exchange about Credit Rating",
-   "tier": "high",
-   "rule": "credit rating|rating (action|revis|downgrad|upgrad|reaffirm)",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/ARMANFIN_24102026163311_Credit_rating_-_CARE.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ARMANFIN",
-    "name": "Arman Financial Services",
-    "group": "holding"
-   }
-  }
- ],
+ "high": [],
  "medium": [],
  "other": [],
- "dropped": 2,
+ "dropped": 0,
  "news": [
   {
-   "nse": "RECLTD",
-   "title": "Tech Query: Bharti Airtel, Power Finance Corporation (PFC), REC, Alkyl Amines Chemicals — What is the outlook? Where are these stocks headed?",
-   "source": "BusinessLine",
-   "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOYzNxbTN4OWl5Q0RETVZqUVYtNjZ6a1U3dEo0Nzh0c1JjLWlQWld4TmNxdFhsUVlsdUo3R3FEcF9ia0tkTkpOZHgtX3o5UmYzRExicW5HZjR0Wl9fNlVFc0U3Z2NVZFlDRHVUYk4xVTFwb3pMQTBqSHFwUjZnUmJGVFBIWi1RS08zSnpFeG9NRF91UkxSNGVHODhPaTREdTlWTXN3S1BXNE02aUcwXzNHWk9rVWhUR0dnems0dGQ0WXJVd01oQVR5b0J5d2pqOVFMRlRtN1o4bEkwb2pSOGJXeC1hWWNGU0lDS2dfbF9TZEdOQmh6UEROUUlpVU93ZWEzTHVQWHBlR3RZR01XTWtoWmZJZnNuVEdacEtpa05UVktpRlB0d0xxSFVQOFhQZWhHSnFaZkVab2U3RVVfQ1HSAcQCQVVfeXFMTnZHSTQweTU0MDh6RzRBVlI0bGM1b0hQeTFDM3Vvd3d1TDc2T3Vlb19tYlNvbU1PRE8wRFU5U0syT1dHTjIxNE9VcS1wRzl6dm5uOEdGSmhodXg3THVpTlA2Y1ZSdmQxck5SRHc3eVItcnBhcEZRRDJMQVY4dFBfVFVDU3lHN0FJM2JGMVltc3FYb2dTb2d0bko5Qk11Y0E5ZVEyTWpsZGhyVkNYM2szUXZKaV9HYldyTDZGV0s3N3lBQXp3TkFEbFlZdGdyR3JlZ1B0dy1TS05DTUtEdmM1bEt4ejNuOUR6R3pRWTQ0aVp2U0hmbFR0UTIyUTQ4eEEtWk9PVHdtYUdhZF9NRkZVZlFaUk82LUZhSlhWVnpKRXBDZUNMNTFONmZQQ2M0eURudW82NUpmTEhJcFZVcVN3SFFHcEpq?oc=5",
-   "when": "2026-10-24T21:52+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": true,
-   "stock": {
-    "nse": "RECLTD",
-    "name": "REC Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "POWERGRID",
-   "title": "KEC International bags orders worth ₹2,872 cr from Power Grid Corporation of India",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYVJnZERfZHU5UmNFRWt6WV9vdF9YT2t3Y19KeWoyZEw3SjlqcHB1SXhBRlZJRUJjSjlfZ3gzbHh3UTJhTzFFWkNmUnkyNjQybHRpLWt5Q29Id2Uxc0RmUVdMdlJFWEZDT2FMWWxRUS11ZGpFa3dQNTJHUHpnSmh4OW9vc3lzbmJJVmRjbFI1REhrQWNmWEtVdlZuS2NzLWN1STk2elZURWdwVnZHZUxOQ3Nac2dWaU5hSV82TVA5azZ0TVI0LWtzaW9VcmNueXBxMjBPSg?oc=5",
-   "when": "2026-10-24T17:04+05:30",
-   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
-   "trusted": false,
-   "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
-    "group": "holding"
-   }
-  },
-  {
    "nse": "BANKINDIA",
-   "title": "Bank Of India’s Q2 Net Profit Jumps 25% To ₹3,202 Crore; Operating Profit Up 33%.",
-   "source": "TRIPURA STAR NEWS",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNemJWNkFSLTZtbklHRlhiWDI2MWI4dUtkeXMyQzBBakt0YkxtTVZZSVFYQVBkaS1rcE03X2Z3VzUzUWhLTDBCQlZSUkNmc19DUWhNa3NZdHY3S1NXbzdjRkp4RGlpV24tVU85TGVPNm8yRVNyOGxTeG1WVFBEdWNOSEUxeGlZZFhhckpKS09oRUh6d3B1M1p1ckotVkNpRXg3Rk50VnUyOHZwb2VJV2RpUGlCa3RMa0E?oc=5",
-   "when": "2026-10-24T16:58+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "title": "Rajendra Kumar and Lt. Gen Khanduri appointed IEM of Bank of India",
+   "source": "https://whispersinthecorridors.net/",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTlhkWkNCUkRtdjc1X3luR3h1T3hOZURpOTBmMEtCelRUeUJtRU1iMGhvN3k1NkVxUXh6WGx0N0g2NnBBSDZacTllbUVJZWdVS3BpQnQyVF9CRnFQeUgxZDFnWV9maFdTbzgwLUxnaUZLbTY2SkdBeld2SlBIaGdlWlB2blhRN0dJZmlzSWxYSk5ZT3VTT1J5cnNUR2JOV3pFLTI4QmFleUU?oc=5",
+   "when": "2026-10-26T12:00+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
     "nse": "BANKINDIA",
@@ -81,16 +27,58 @@
    }
   },
   {
-   "nse": "JUBLINGREA",
-   "title": "Jubilant Ingrevia Ltd Downgraded to Sell Amid Mixed Financial and Valuation Signals",
-   "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdkNPNW1KM3ZiblRzTWZhQmhwbnEyTElKYkNNV0FIcnpVMjNkVmhzRzMybjczTTZDYzdXdWlldGJld3RKQUlrRXJkZ0twazAyVWtZSDh0Sm1ybjc3UU5VSVdJVWJGcU1BUU5OTWxGb3J2cGVDcG53Q25NcEZNbjBEZ1Q1d2FTSnJDemtZM2NCSHBRWmt4UUN5YThQMFY1akhGNm03LTFBY0VIdExFaGdzSW1SSzVnbmwzNlhxZDRpTTlEUXcyRVRKX3FmaWpSUXlKWW80NWlZS0JRU2VwQXc?oc=5",
-   "when": "2026-10-24T10:03+05:30",
+   "nse": "BSE",
+   "title": "BSE share price up 4%: Why Motilal Oswal sees 23% upside driven by SEBI VWAP reversal",
+   "source": "The Financial Express",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVVk1SmpKWTk5QjF2U09BX3llX3BKVmJtbmFubmlKYjRvN3didWcyTkhHa19OQUNndkNWcjBrMnBSa2pkaXlYV3lobkJZTERoOUl1Rzh6SGFfMk1SM0NGMXJmWEkwN295M3hicE8wLWlORzBCOEloVGx6SlZZd2gwUlJnczF2U2VINDNaaVVFZHBQcFg5T0NpQmRxaVZ3NzhacnVhdkhSOXdSYWdkc1ZHbXFMd1ZvdFZfTzBaZ3JxazlleEhUeDFzZUdzUdIB0gFBVV95cUxPUS1vbkQ3end1RmpCX3prV0w0c18xZDFRaWZjU2hlczIwNFhvSjhTbDlPTFZFd0FkZ3pUQUxvRlpaeHlrQl9TbVVmY1JaZ2hRR3JZOEdyc3lnTzY0cmxQNVpNMzUtNEhEMk91NU9Lem14R2FzWlZvWkZ2OGZLalllRHBQWlhkRUZMNTBRdGRmekRNcWdjbnl1MFRNeUVaWTdfU2xlN29aVk1DdjNpMDk3dUdXSlgtWENrU24yNmZJRjlKWEtsN0d2T192NXg2eERQekE?oc=5",
+   "when": "2026-10-26T11:12+05:30",
+   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
+   "trusted": true,
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BSE",
+   "title": "BSE Share Price Jumps Over 4% After Motilal Oswal Upgrades To 'Buy', Sees Over 23% Upside",
+   "source": "NDTV Profit",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ3pYdEYyYVVsTVpmTU9RWi1XN2lsX0RKLVpreDU2aWZNZXFIWlItUGdaVXhmQklrSzRTdXY4Y0tQY19HN2wyRnFSeFFHdDRLcmROWE9wWDc3ZjhYSFd0NjdtNXkxVk5CQ1ptLUZobnI3X0hsOF9jcW5KakpkaUdtOVdjMnh2WVNXNUlZN2ZwS1hDRTdiZ1RCLXBILXhhcEZRMDBGY2JMYXdpM3JZSzZHOW1aVVNRd1psNjBQVjhybVRmaDUwTnBr0gHPAUFVX3lxTE10azJJc0xJalFxdzh3MTJRX2NRN01JMmJwZDY5STF4UFE2RFo1TWpLZXlQWGVTbGZvOE1RWExZelBIZzgtWUFXZ2dIRlpOdTdhYy11NXpXbjJ5Z0d2TlRiVk5BM2hZZVppeVlKeDRSSk16MGNuOTViMEQ1QWNhYUFJWDFsSXNGVXVVSlQ0eWZLM0hfalM5dndPbEFfckNWV0tXT3hEMUZ3Y1R2aFpfeHlCbkxzUVg4ck1falhVbkx2a0JxX1Q0ekRkSjBjdHhoOA?oc=5",
+   "when": "2026-10-26T11:05+05:30",
    "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
    "trusted": false,
    "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ITC",
+   "title": "ITC shareholders approve final dividend, reappoint Hemant Bhargava",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRy1jS2tHNDMyYXkwUW1HNWVPbV9CQ3R6ZE9ja1ltTjMtQ2RpT3A0QUZLdUN0WGRoSkZ4T2hIZEQzYkVhTFlWaDdfWW9XeWd6MU5DMGEwd2FwV2R6SEg0TEgwVnV4TzB6SENyRzU3WUwxY2lRMzhQM1U1UmN1am1tVGx3VUhpOVhGYTBSTkdjdkd0ckNZaDVwZTVXbTVoVW4xRGpzWXVCZHA4Vl9kSjdBbTJ0aU0?oc=5",
+   "when": "2026-10-25T19:07+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "ITC",
+    "name": "ITC Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BSE",
+   "title": "Upgrade to Buy BSE Ltd For Target Rs.4,000 by Motilal Oswal Financial Services Ltd",
+   "source": "Investment Guru India",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS1NIM3dJTEVTeFlBZWlZcUE2UFBhY2NTZkJMUUpfZjRiLUc1YkU3Z3o3Zk1nbHdadzczcThXSnJRY3ZJeGVzMWxJWHZMekxCbnZkMkstekdWVGJjMFJYRFBFMC1vNGJLTFBFSWJDNVZab2tKUWJYbmlGUXpZRURYZEhoY2FQV2ZmSUh4OF8xd3lVVXNVZUtsRk5FX1B3bFZkSExwOXJkOTVxQVBFZ3dXRldMekQ5cUFlOFE5RnNGQ0pxcFdMeE5UQWthZw?oc=5",
+   "when": "2026-10-25T12:28+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
     "group": "holding"
    }
   }
@@ -552,6 +540,7 @@
   "BSE scrip list unavailable (HTTPError)",
   "BSE codes taken from bhavcopy 23 Oct",
   "BSE announcements failed (HTTPError)",
+  "BSE announcements failed (ReadTimeout)",
   "BSE announcements failed (JSONDecodeError)"
  ]
 }
