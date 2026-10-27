@@ -1,17 +1,240 @@
 {
- "generated": "2026-10-26T12:07+05:30",
- "since": "2026-10-25T06:07+05:30",
+ "generated": "2026-10-27T12:03+05:30",
+ "since": "2026-10-26T06:03+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 0",
+  "NSE": "ok · 11",
   "BSE": "unavailable",
-  "News": "ok · 5"
+  "News": "ok · 8"
  },
- "high": [],
- "medium": [],
- "other": [],
- "dropped": 0,
+ "high": [
+  {
+   "nse": "SUNTECK",
+   "exchange": "NSE",
+   "when": "2026-10-26T21:10+05:30",
+   "subject": "Press Release",
+   "detail": "Sunteck Realty Limited has informed the Exchange regarding a press release dated October 26, 2026, titled \"Press Release on Financial Results for the quarter and half year ended 30th September 2026\".",
+   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026210951_SRL.pdf",
+   "text": "Press Release Sunteck Realty Limited has informed the Exchange regarding a press release dated October 26, 2026, titled \"Press Release on Financial Results for the quarter and half year ended 30th September 2026\".",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026210951_SRL.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SUNTECK",
+    "name": "Sunteck Realty",
+    "group": "holding"
+   }
+  }
+ ],
+ "medium": [
+  {
+   "nse": "SUNTECK",
+   "exchange": "NSE",
+   "when": "2026-10-26T21:02+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Sunteck Realty Limited has submitted to the Exchange, the Outcome of Board Meeting",
+   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026210020_SRL.pdf",
+   "text": "Outcome of Board Meeting Sunteck Realty Limited has submitted to the Exchange, the Outcome of Board Meeting",
+   "tier": "medium",
+   "rule": "board meeting|intimation of board",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026210020_SRL.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SUNTECK",
+    "name": "Sunteck Realty",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "RECLTD",
+   "exchange": "NSE",
+   "when": "2026-10-26T16:42+05:30",
+   "subject": "Record Date",
+   "detail": "Record date for 2nd Interim Dividend for the financial year 2026-27.",
+   "link": "https://nsearchives.nseindia.com/corporate/RECLTD_26102026164052_Signed_Outcome_of_Board_Meeting_261026.pdf",
+   "text": "Record Date Record date for 2nd Interim Dividend for the financial year 2026-27.",
+   "tier": "medium",
+   "rule": "dividend|record date",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/RECLTD_26102026164052_Signed_Outcome_of_Board_Meeting_261026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RECLTD",
+    "name": "REC Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "RECLTD",
+   "exchange": "NSE",
+   "when": "2026-10-26T16:37+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Outcome of Board Meeting held on October 26, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/RECLTD_26102026163520_Signed_Outcome_of_Board_Meeting_261026.pdf",
+   "text": "Outcome of Board Meeting Outcome of Board Meeting held on October 26, 2026.",
+   "tier": "medium",
+   "rule": "board meeting|intimation of board",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/RECLTD_26102026163520_Signed_Outcome_of_Board_Meeting_261026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RECLTD",
+    "name": "REC Limited",
+    "group": "holding"
+   }
+  }
+ ],
+ "other": [
+  {
+   "nse": "SUNTECK",
+   "exchange": "NSE",
+   "when": "2026-10-26T23:49+05:30",
+   "subject": "Monitoring Agency Report",
+   "detail": "Monitoring Agency Report for the quarter ended 30th September, 2026",
+   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026234848_SRL.pdf",
+   "text": "Monitoring Agency Report Monitoring Agency Report for the quarter ended 30th September, 2026",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026234848_SRL.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SUNTECK",
+    "name": "Sunteck Realty",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SUNTECK",
+   "exchange": "NSE",
+   "when": "2026-10-26T21:16+05:30",
+   "subject": "Statement of deviation(s) or variation(s) under Reg. 32",
+   "detail": "Sunteck Realty Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
+   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026211627_SRL.pdf",
+   "text": "Statement of deviation(s) or variation(s) under Reg. 32 Sunteck Realty Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026211627_SRL.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SUNTECK",
+    "name": "Sunteck Realty",
+    "group": "holding"
+   }
+  }
+ ],
+ "dropped": 5,
  "news": [
+  {
+   "nse": "SUNTECK",
+   "title": "Sunteck Realty Reports Strong Q2 FY27, Revenue Jumps 27%; Acquires New Borivali Land Parcel",
+   "source": "Free Press Journal",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcjBwZnkzVXRKeUNPSTZ1T3R2SEpCdTQzM1IycjFKS1dVdk1QTGJSbnJET1dVWEVBUUpRdE1lcnExbk5aM3p3WlpNU0pKYTNyRUdtbnVjblJHWVV0RDN5b2N1VjJhaDZxa2NFbFVVVlZ3WjBrWlE5WXpxbzJXUFlMSHo3QXlXMmhwTlVPQUhBVkh5dXlUd0ZFOE5mWU96Wkg3aHg2Y1lkQ2t0ek9rbzhrUU5ZZU9oLWdqNzVDN1dCWEd3eTJBMlhJTtIBzgFBVV95cUxOZUtmU05JQ1Fuelc2amxnQ3NxRWJPT0Z5d1pGZGR1dE1FVTY1T2NzcU54d0lreGNFNE1QX0xNSzhTT2w5c1dENjVwVU5CUkpuLXpWRWR3ZGdGME9rWWIwM2xLa1VrWVNubjdTQlFVTXpTNURKZzlUSWQ5Z0huNUlwczZRLVZ3NUM2eC13YzhmV19tWWJwQlRXT2JvSWtHODNFTVcyZ1dOWDBuOTNUY0JINW05Qzd6eVVhQ2hYUllIRmJHVzZoU3BpellJc0JhQQ?oc=5",
+   "when": "2026-10-27T10:53+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "SUNTECK",
+    "name": "Sunteck Realty",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SUNTECK",
+   "title": "Sunteck Realty: Submits Monitoring Agency Report for Preferential Issue",
+   "source": "InvestyWise",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOE1DeTd2Ni1EZ0txM1dnb0hFcVZaVDAzdXJZVzhQeF84VTNvZFEwcWNmdkNKR1FQRzBpMDI0ZnpEUE5lNzZRVlVKYjFhS0Jod3NYb2RQeUI5eU1obFl2d2RMTnhFdTV5N0pEWWhIWEM5NjN2bzhFUlBMV0FqYzNSbDhxVWE2empmUlFkTUE2ZElhbXJJRVNubm9WamgxUWRBb2c?oc=5",
+   "when": "2026-10-27T00:57+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "SUNTECK",
+    "name": "Sunteck Realty",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "POWERGRID",
+   "title": "Jyoti Structures bags Rs 949-cr order from Power Grid Corporation",
+   "source": "cfo.economictimes.indiatimes.com",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUUVRdWdTMk5LU1p6U3VYM19XMFJ5QVpONHBFWmdtNkNnMTY1UVdjOWZJRjlJRTlEYW8tV3pKbHhrS3h6aEZDcHdvczhmZXdtX1o5MGNXSEZxaTN3Y1Z0WGtqZWp1VkpDZkg0WHlxVGtXUTlpS0d5S29MQUpvTW1PQWQyTy1qVWRpejNwQkRrR2xFV0JpeWVMMGh4V19ReVRXYUd4eW1wNUppVl9HdmpQU0FMZVZISG41Ujl3TjF1X2RkYUJXZ0tXZV9xWTdMcVpDRFNQQ3FyQ2FMM2vSAdsBQVVfeXFMT1FFUXVnUzJOS1NaelN1WDNfVzBSeUFaTjRwRVpnbTZDZzE2NVFXYzlmSUY5SUU5RGFvLVd6Smx4a0t4emhGQ3B3b3M4ZmV3bV9aOTBjV0hGcWkzd2NWdFhramVqdVZKQ2ZINFh5cVRrV1E5aUtHeUtvTEFKb01tT0FkMk8talVkaXozcEJEa0dsRVdCaXllTDBoeFdfUXlUV2FHeHltcDVKaVZfR3ZqUFNBTGVWSEhuNVI5d04xdV9kZGFCV2dLV2VfcVk3THFaQ0RTUENxckNhTDNr?oc=5",
+   "when": "2026-10-26T18:05+05:30",
+   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
+   "trusted": false,
+   "stock": {
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "RECLTD",
+   "title": "Finance ministry reviewing PFC-REC merger, cabinet approval soon",
+   "source": "Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWTFrWUZwalBYOUExeVFoZmNNbkE3aHI3YXV3eEc0cmhOaHRNOWpBRjJ4ZnN5Ym5oRmwxMXIxRHc4cTQ4OEFLMTI4OGZzZ3VJRVZKM01fZFJrY2ctMl9LQ1FOZHVlV2hPU3VwRHlidXJ3bWp2ZDh0Q3poZW1rdHR6MV9DRzJDZ3pjS2g3MVRDdUY0UzZ3MTI5NlVybzRUODU0Z0huUlVrc3BlUGtPQmdQMklTeGFjdFo0bFhMYdIBwgFBVV95cUxNVm5vV25abzN0WVNTQ1ZwS3NiUndyWi1UR3QxWjY4eG1XNzkzclZWU25mMkhoazNFU1dObjdFc01yTEc0eHJFQVphcEJHSzdHTWRmcXhSN3dySHlnUk5IYjQyaDI1M2t2T1dSV19yZGxDY0tYMVM4Q1VtaHZkY0h4R1FnS2lodFB1dDVJZVhtRXAwLWl0RHA0MGNYazUybWszaDZRczdFVFJsc2xsblM1VE1PcnpQcXU4S2c5SDhDX2N5Zw?oc=5",
+   "when": "2026-10-26T16:24+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": true,
+   "stock": {
+    "nse": "RECLTD",
+    "name": "REC Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BSE",
+   "title": "4607 Put Contracts at Rs 3200 Strike on BSE Ltd Ahead of 27 Oct Expiry",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX2VJRmtrbFhUNmJRRGx4di0wNHVGYUtTSW5odDdFdWU1UEFoYjAtNzhESlRCRS1iX0VLQVR6R0lMTUl4TkZFUTJfcXUyc0l2d2NHSUxpaEZ1V241UUwxMW5ERHRXQUNScmQ4QVNNVU4yRzlndUZfbXkxOUx1YW82UDNDTVFQa0M4VmxCZUZnXzJ2ZzJqUHVDaFZvaGxNUEQ4RGVlTmxVX2hqZzc3d3IyZFBfaHhWeVg3a0ww?oc=5",
+   "when": "2026-10-26T13:11+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
   {
    "nse": "BANKINDIA",
    "title": "Rajendra Kumar and Lt. Gen Khanduri appointed IEM of Bank of India",
@@ -46,34 +269,6 @@
    "source": "NDTV Profit",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ3pYdEYyYVVsTVpmTU9RWi1XN2lsX0RKLVpreDU2aWZNZXFIWlItUGdaVXhmQklrSzRTdXY4Y0tQY19HN2wyRnFSeFFHdDRLcmROWE9wWDc3ZjhYSFd0NjdtNXkxVk5CQ1ptLUZobnI3X0hsOF9jcW5KakpkaUdtOVdjMnh2WVNXNUlZN2ZwS1hDRTdiZ1RCLXBILXhhcEZRMDBGY2JMYXdpM3JZSzZHOW1aVVNRd1psNjBQVjhybVRmaDUwTnBr0gHPAUFVX3lxTE10azJJc0xJalFxdzh3MTJRX2NRN01JMmJwZDY5STF4UFE2RFo1TWpLZXlQWGVTbGZvOE1RWExZelBIZzgtWUFXZ2dIRlpOdTdhYy11NXpXbjJ5Z0d2TlRiVk5BM2hZZVppeVlKeDRSSk16MGNuOTViMEQ1QWNhYUFJWDFsSXNGVXVVSlQ0eWZLM0hfalM5dndPbEFfckNWV0tXT3hEMUZ3Y1R2aFpfeHlCbkxzUVg4ck1falhVbkx2a0JxX1Q0ekRkSjBjdHhoOA?oc=5",
    "when": "2026-10-26T11:05+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": false,
-   "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ITC",
-   "title": "ITC shareholders approve final dividend, reappoint Hemant Bhargava",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRy1jS2tHNDMyYXkwUW1HNWVPbV9CQ3R6ZE9ja1ltTjMtQ2RpT3A0QUZLdUN0WGRoSkZ4T2hIZEQzYkVhTFlWaDdfWW9XeWd6MU5DMGEwd2FwV2R6SEg0TEgwVnV4TzB6SENyRzU3WUwxY2lRMzhQM1U1UmN1am1tVGx3VUhpOVhGYTBSTkdjdkd0ckNZaDVwZTVXbTVoVW4xRGpzWXVCZHA4Vl9kSjdBbTJ0aU0?oc=5",
-   "when": "2026-10-25T19:07+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "ITC",
-    "name": "ITC Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BSE",
-   "title": "Upgrade to Buy BSE Ltd For Target Rs.4,000 by Motilal Oswal Financial Services Ltd",
-   "source": "Investment Guru India",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS1NIM3dJTEVTeFlBZWlZcUE2UFBhY2NTZkJMUUpfZjRiLUc1YkU3Z3o3Zk1nbHdadzczcThXSnJRY3ZJeGVzMWxJWHZMekxCbnZkMkstekdWVGJjMFJYRFBFMC1vNGJLTFBFSWJDNVZab2tKUWJYbmlGUXpZRURYZEhoY2FQV2ZmSUh4OF8xd3lVVXNVZUtsRk5FX1B3bFZkSExwOXJkOTVxQVBFZ3dXRldMekQ5cUFlOFE5RnNGQ0pxcFdMeE5UQWthZw?oc=5",
-   "when": "2026-10-25T12:28+05:30",
    "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
    "trusted": false,
    "stock": {
@@ -538,9 +733,9 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 23 Oct",
+  "BSE codes taken from bhavcopy 26 Oct",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (ReadTimeout)",
-  "BSE announcements failed (JSONDecodeError)"
+  "BSE announcements failed (JSONDecodeError)",
+  "BSE announcements failed (ReadTimeout)"
  ]
 }
