@@ -1,21 +1,21 @@
 {
- "generated": "2026-10-27T12:03+05:30",
- "since": "2026-10-26T06:03+05:30",
+ "generated": "2026-10-28T12:31+05:30",
+ "since": "2026-10-27T06:31+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 11",
+  "NSE": "ok · 24",
   "BSE": "unavailable",
-  "News": "ok · 8"
+  "News": "ok · 9"
  },
  "high": [
   {
-   "nse": "SUNTECK",
+   "nse": "ROUTE",
    "exchange": "NSE",
-   "when": "2026-10-26T21:10+05:30",
-   "subject": "Press Release",
-   "detail": "Sunteck Realty Limited has informed the Exchange regarding a press release dated October 26, 2026, titled \"Press Release on Financial Results for the quarter and half year ended 30th September 2026\".",
-   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026210951_SRL.pdf",
-   "text": "Press Release Sunteck Realty Limited has informed the Exchange regarding a press release dated October 26, 2026, titled \"Press Release on Financial Results for the quarter and half year ended 30th September 2026\".",
+   "when": "2026-10-27T23:53+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "ROUTE MOBILE LIMITED has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235143_upload-outcome.pdf",
+   "text": "Outcome of Board Meeting ROUTE MOBILE LIMITED has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "tier": "high",
    "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
    "exchange_set": [
@@ -24,50 +24,75 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026210951_SRL.pdf"
+     "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235143_upload-outcome.pdf"
     ]
    ],
    "stock": {
-    "nse": "SUNTECK",
-    "name": "Sunteck Realty",
+    "nse": "ROUTE",
+    "name": "Route Mobile",
     "group": "holding"
    }
   }
  ],
  "medium": [
   {
-   "nse": "SUNTECK",
+   "nse": "ROUTE",
    "exchange": "NSE",
-   "when": "2026-10-26T21:02+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Sunteck Realty Limited has submitted to the Exchange, the Outcome of Board Meeting",
-   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026210020_SRL.pdf",
-   "text": "Outcome of Board Meeting Sunteck Realty Limited has submitted to the Exchange, the Outcome of Board Meeting",
+   "when": "2026-10-28T00:12+05:30",
+   "subject": "Press Release",
+   "detail": "ROUTE MOBILE LIMITED has informed the Exchange regarding a press release dated October 27, 2026, titled \"Route Mobile Limited announces Q2FY27 Results\".",
+   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_28102026001139_upload_press_release.pdf",
+   "text": "Press Release ROUTE MOBILE LIMITED has informed the Exchange regarding a press release dated October 27, 2026, titled \"Route Mobile Limited announces Q2FY27 Results\".",
    "tier": "medium",
-   "rule": "board meeting|intimation of board",
+   "rule": "press release|media release",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026210020_SRL.pdf"
+     "https://nsearchives.nseindia.com/corporate/ROUTE_28102026001139_upload_press_release.pdf"
     ]
    ],
    "stock": {
-    "nse": "SUNTECK",
-    "name": "Sunteck Realty",
+    "nse": "ROUTE",
+    "name": "Route Mobile",
     "group": "holding"
    }
   },
   {
-   "nse": "RECLTD",
+   "nse": "ROUTE",
    "exchange": "NSE",
-   "when": "2026-10-26T16:42+05:30",
+   "when": "2026-10-28T00:09+05:30",
+   "subject": "Investor Presentation",
+   "detail": "ROUTE MOBILE LIMITED has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_28102026000940_Upload_.pdf",
+   "text": "Investor Presentation ROUTE MOBILE LIMITED has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/ROUTE_28102026000940_Upload_.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ROUTE",
+    "name": "Route Mobile",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ROUTE",
+   "exchange": "NSE",
+   "when": "2026-10-27T23:56+05:30",
    "subject": "Record Date",
-   "detail": "Record date for 2nd Interim Dividend for the financial year 2026-27.",
-   "link": "https://nsearchives.nseindia.com/corporate/RECLTD_26102026164052_Signed_Outcome_of_Board_Meeting_261026.pdf",
-   "text": "Record Date Record date for 2nd Interim Dividend for the financial year 2026-27.",
+   "detail": "ROUTE MOBILE LIMITED has informed the Exchange that Record date for the purpose of Dividend is 02-Nov-2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235601_upload-outcome.pdf",
+   "text": "Record Date ROUTE MOBILE LIMITED has informed the Exchange that Record date for the purpose of Dividend is 02-Nov-2026.",
    "tier": "medium",
    "rule": "dividend|record date",
    "exchange_set": [
@@ -76,23 +101,148 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/RECLTD_26102026164052_Signed_Outcome_of_Board_Meeting_261026.pdf"
+     "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235601_upload-outcome.pdf"
     ]
    ],
    "stock": {
-    "nse": "RECLTD",
-    "name": "REC Limited",
+    "nse": "ROUTE",
+    "name": "Route Mobile",
     "group": "holding"
    }
   },
   {
-   "nse": "RECLTD",
+   "nse": "ROUTE",
    "exchange": "NSE",
-   "when": "2026-10-26T16:37+05:30",
+   "when": "2026-10-27T23:55+05:30",
+   "subject": "Dividend",
+   "detail": "ROUTE MOBILE LIMITED has informed the Exchange that Board of Directors at its meeting held on October 27, 2026, declared Interim Dividend of Rs. 4 per equity share.",
+   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235503_upload-outcome.pdf",
+   "text": "Dividend ROUTE MOBILE LIMITED has informed the Exchange that Board of Directors at its meeting held on October 27, 2026, declared Interim Dividend of Rs. 4 per equity share.",
+   "tier": "medium",
+   "rule": "dividend|record date",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235503_upload-outcome.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ROUTE",
+    "name": "Route Mobile",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JUBLINGREA",
+   "exchange": "NSE",
+   "when": "2026-10-27T14:51+05:30",
+   "subject": "Press Release",
+   "detail": "Jubilant Ingrevia Limited has informed the Exchange regarding a press release dated October 27, 2026, titled \"Press Release and Presentation on the financials and operational performance of the Company for the quarter and half year ended September 30, 2026\".",
+   "link": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026145109_SE_Intimation_press_release_and_investor_presentation.pdf",
+   "text": "Press Release Jubilant Ingrevia Limited has informed the Exchange regarding a press release dated October 27, 2026, titled \"Press Release and Presentation on the financials and operational performance of the Company for the quarter and half year ended September 30, 2026\".",
+   "tier": "medium",
+   "rule": "press release|media release",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026145109_SE_Intimation_press_release_and_investor_presentation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JUBLINGREA",
+   "exchange": "NSE",
+   "when": "2026-10-27T14:35+05:30",
+   "subject": "Change in Management",
+   "detail": "Jubilant Ingrevia Limited has informed the Exchange about change in Management",
+   "link": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026143534_Resignation_of_Senior_Management_Personnel.pdf",
+   "text": "Change in Management Jubilant Ingrevia Limited has informed the Exchange about change in Management",
+   "tier": "medium",
+   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026143534_Resignation_of_Senior_Management_Personnel.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SUNTECK",
+   "exchange": "NSE",
+   "when": "2026-10-27T14:33+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Sunteck Realty Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_27102026143340_SRL.pdf",
+   "text": "Investor Presentation Sunteck Realty Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SUNTECK_27102026143340_SRL.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SUNTECK",
+    "name": "Sunteck Realty",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JUBLINGREA",
+   "exchange": "NSE",
+   "when": "2026-10-27T14:28+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Jubilant Ingrevia Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026142801_SE_Intimation_press_release_and_investor_presentation.pdf",
+   "text": "Investor Presentation Jubilant Ingrevia Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026142801_SE_Intimation_press_release_and_investor_presentation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JUBLINGREA",
+   "exchange": "NSE",
+   "when": "2026-10-27T14:04+05:30",
    "subject": "Outcome of Board Meeting",
-   "detail": "Outcome of Board Meeting held on October 26, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/RECLTD_26102026163520_Signed_Outcome_of_Board_Meeting_261026.pdf",
-   "text": "Outcome of Board Meeting Outcome of Board Meeting held on October 26, 2026.",
+   "detail": "Outcome of the Board Meeting held on October 27, 2026",
+   "link": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026140357_SE_Intimation_Results.pdf",
+   "text": "Outcome of Board Meeting Outcome of the Board Meeting held on October 27, 2026",
    "tier": "medium",
    "rule": "board meeting|intimation of board",
    "exchange_set": [
@@ -101,25 +251,25 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/RECLTD_26102026163520_Signed_Outcome_of_Board_Meeting_261026.pdf"
+     "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026140357_SE_Intimation_Results.pdf"
     ]
    ],
    "stock": {
-    "nse": "RECLTD",
-    "name": "REC Limited",
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
     "group": "holding"
    }
   }
  ],
  "other": [
   {
-   "nse": "SUNTECK",
+   "nse": "ROUTE",
    "exchange": "NSE",
-   "when": "2026-10-26T23:49+05:30",
-   "subject": "Monitoring Agency Report",
-   "detail": "Monitoring Agency Report for the quarter ended 30th September, 2026",
-   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026234848_SRL.pdf",
-   "text": "Monitoring Agency Report Monitoring Agency Report for the quarter ended 30th September, 2026",
+   "when": "2026-10-28T00:06+05:30",
+   "subject": "Amendment to AOA/MOA",
+   "detail": "ROUTE MOBILE LIMITED has informed the Exchange regarding the Amendment to AOA/MOA of the company.",
+   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_28102026000405_upload-outcome.pdf",
+   "text": "Amendment to AOA/MOA ROUTE MOBILE LIMITED has informed the Exchange regarding the Amendment to AOA/MOA of the company.",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -128,23 +278,23 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026234848_SRL.pdf"
+     "https://nsearchives.nseindia.com/corporate/ROUTE_28102026000405_upload-outcome.pdf"
     ]
    ],
    "stock": {
-    "nse": "SUNTECK",
-    "name": "Sunteck Realty",
+    "nse": "ROUTE",
+    "name": "Route Mobile",
     "group": "holding"
    }
   },
   {
-   "nse": "SUNTECK",
+   "nse": "ROUTE",
    "exchange": "NSE",
-   "when": "2026-10-26T21:16+05:30",
-   "subject": "Statement of deviation(s) or variation(s) under Reg. 32",
-   "detail": "Sunteck Realty Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026211627_SRL.pdf",
-   "text": "Statement of deviation(s) or variation(s) under Reg. 32 Sunteck Realty Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
+   "when": "2026-10-27T23:58+05:30",
+   "subject": "General Updates",
+   "detail": "ROUTE MOBILE LIMITED has informed the Exchange about Rescission of the earlier approval for variation in the object/terms of utilisation of the Initial Public Offering (\"IPO\") proceeds.",
+   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235809_upload-outcome.pdf",
+   "text": "General Updates ROUTE MOBILE LIMITED has informed the Exchange about Rescission of the earlier approval for variation in the object/terms of utilisation of the Initial Public Offering (\"IPO\") proceeds.",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -153,18 +303,116 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUNTECK_26102026211627_SRL.pdf"
+     "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235809_upload-outcome.pdf"
     ]
    ],
    "stock": {
-    "nse": "SUNTECK",
-    "name": "Sunteck Realty",
+    "nse": "ROUTE",
+    "name": "Route Mobile",
     "group": "holding"
    }
   }
  ],
- "dropped": 5,
+ "dropped": 12,
  "news": [
+  {
+   "nse": "ROUTE",
+   "title": "Route Mobile: Acquires Heltar Technologies, Boosts AI Capabilities",
+   "source": "InvestyWise",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ZazhPRHZCTk5uRnZxVTFISjRHR05LWWEyVEpkZWFzYmEtT0hKbGZpZFdDeksyOWVLSWFibS1aMWtiRWdkM1N2S0drN29oWWs1dlN1NWpiemNrN2IyNGNFVkN6VTFnLTd1elRPcmFzSDQ3NnYwaVJ1RQ?oc=5",
+   "when": "2026-10-28T09:01+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "ROUTE",
+    "name": "Route Mobile",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "POWERGRID",
+   "title": "Jyoti Structures Receives Order Worth 6.49 Billion Rupees From Power Grid Corporation Of India",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPX0ljNzUwOXBtckJIOXdCRld2bFdrY0FwN0JTNXBleVZBNGxtTnpNajByRER4ODJUYkhqVnpZTnhiN3VsLVZocnAxX28ya3VrSGxwYlJUMUZwUG53OHBsdTlZYndiOFdIZjNHU0tjYjZIMkhpUDFBOVRaQTZYaC1qdTNuUUJybEVHdDNZbDYzZnozbWhFS2VsN01EanVhRTV2RW50dEpfd3YwdnFmYXpiMFBQQ3MzNHVra2gtTE83bkxVMVV0RHRMQ19mZVYwS2lSVWJ3bWkwMF85WFEzenBLajRnckkzSElrQncycDUzY1pKLWhyMEgw?oc=5",
+   "when": "2026-10-28T09:00+05:30",
+   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
+   "trusted": false,
+   "stock": {
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JMFINANCIL",
+   "title": "Aequs shares crash up to 19% post-Q2 loss; JM Financial maintains 'Reduce' rating",
+   "source": "Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcVF1akZhRVdIQlZIdGhzc0luR0xPOXZPWmh3UHdSei1qRGpYM09TWEV2OV9NUmtNVnZfdWR1UWZFNzJSd19KU0ozSFo2dXdWT294VE5LaXJxMHdBNlJLdE9sYWxaUThGOVFZVlR2WXduUVk5emJtX1h2cUduRXJqRUlwWnBXSEhubExvRk9jZTQwNmdZVnpWY2hvRXJ1SmhaWFp1UHNpMVdoclNoZXRfU3l1Wl9XMFIwVEd6N1MwX2NXSDU2ek9CblRWcnA0VW9IaUVtSVZNNGLSAd4BQVVfeXFMUE9SVExFUWxyaUFlRURzenBvUElULUg0NFh3SHJrUjZCaG1sN2dfZEl5dEVkc09zMVdudmQ1WDVteXZJSjJFTHhaTEZoSWxuMnpNVkRFWk5LRjgyaWpWVy1sbG5IMDFaOE9fY2VtZUs2eWEybXFkSTRpUWFLWV9NQmxIQ3JHN2pfQU55RVBheWhsTUlEbGFnWmVwTzJ5SF82UlhpVnFOYmRsYUNJYnE4MHNUaTNxemUzMk1OaVlVanVjWDdKMG41Vm1DT0JZLTdpeDQyTk0xMktReXRnVUFn?oc=5",
+   "when": "2026-10-27T16:11+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": true,
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JUBLINGREA",
+   "title": "Jubilant Ingrevia Records Strong Q2 FY27: Revenue At ₹1,394 Crore, PAT Surges 61%, ZettaOne Stake Acquired",
+   "source": "Free Press Journal",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOS2I0MzVXbjVXZFBwYmFSa3BuZEpqNDYzUkcwN09qXzRnR0g1WFNQRXhsWkhsbDBBZG5XUUJSWHBJZndjVWNNRmRkOFNXeWhVZmlhQkc0eDBWR0t5dDgtS2NsM29CVzZyOURMRTFYZld4NFgxbWxiVFQ0aGtfUThTUnNLbTFQMlVySF9CTTJ2YkF2NzBqOVBfRUNwRnh1Z1pRZzRJbURYRnpNZ2pocFlReGlMQmo1OW84RHZOaFJLTC1XQWRZNlN4aHVUM25ZLUFfaFplX3pHZlnSAd4BQVVfeXFMTWlzWElmdG5XN3d0WjBUT1ZQOFYxM096R2pQRjdzU1ZvWGFjQVZ0Z1g5SHZuR3hUQkFhb0pmVFpUaWV6T3NicHRmSnQwZVBZM1R4eDZoRUQySkhELVpwdHd3MUdIM0psLWtqMWhORFdjNE1vSUVIYmtoX0lOU0g1S2QyYUk1eEp1U3h1X3dXRFhDazhBdk1yMEdwc3AxUUdUWG1vZGVHMkQtZEdfMjdqVDA5cFEySFhUR1RnbVVpdTJQYUwyb2dmSzdBSG5oQnQzZXVLUG5aMGFWWU95X2Nn?oc=5",
+   "when": "2026-10-27T15:56+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JUBLINGREA",
+   "title": "Jubilant Ingrevia reports ₹189.2 crore acquisition in robust Q2 FY27 results",
+   "source": "Business Upturn",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb1BFSjF1cUR0a3N6SXQ1UmcyNEI0X2Q5LUxxZlZkcEtnbWUwZV9zWlhBb3VjWlk1akZLb1pIUWxORGNkRktIMjN5NFU5Uk4tSVBMT2QzbDk4am1mRGNTQk5ZNXd1X2doUnBZam12WXY1YU5sRjh2TjlvYkV6Wm9IakxTZzNhd2hFOFBxMlRNYUhNVTZUOUtqOFRHUjFhUnZfSkpNejRMVmV1UUdXdUhTbmhXblQ?oc=5",
+   "when": "2026-10-27T15:23+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JUBLINGREA",
+   "title": "Jubilant Ingrevia HR head Vinita Koul to resign in Nov 2026",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOWVGRk5vLXFxaXhGeW5vMkZlSHJleFBrUHNwSV9ySkt5aFBsRDZwNndvOUF1UnhUclVhRmhEZ0VMY3dBZlVwdFVGX2JiYk5aV1lzcE1NQkwwa0d4ZzdzQWRpNnRjNS1JaHVIU0RtT0xKcF9vRjg0anNjSTdPU2hQMmMxZS1BdXREd29iTmY5OFNQNWI2a19LQWdjcHp0eS1LOEJxbDM2dEFmQ0VXVVgw?oc=5",
+   "when": "2026-10-27T14:59+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "LAURUSLABS",
+   "title": "Laurus Labs Ltd Upgraded to Buy by MarketsMOJO on Strong Fundamentals and Technicals",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVU1iTlpaS29VakZOMl9LMDd1SDBQN1NYOEJ4UFh4OHVCNjZVTVduVWxrSk1reEEtazI1VGpUQnQ4ZUJHVVhDRUMwZkxmakhITWw1bGFsOTd3TjZiZTZMUE00a05PUUw2NVZYaHF6eHd2N0diZ2s1UG10eVdxVnYtT1ZPeVVsaExOZWU4M2xMVXBwSnhXLTlWNnV4clFBSkJ0YVdHR2ZKZUp2dDRobWVEekduS29MXzJBVGs0SHB1aWhCQ0hhYmJwdElucWNVSFllQmJUOC1yOWxRenhRYVFz?oc=5",
+   "when": "2026-10-27T14:11+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
   {
    "nse": "SUNTECK",
    "title": "Sunteck Realty Reports Strong Q2 FY27, Revenue Jumps 27%; Acquires New Borivali Land Parcel",
@@ -190,90 +438,6 @@
    "stock": {
     "nse": "SUNTECK",
     "name": "Sunteck Realty",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "POWERGRID",
-   "title": "Jyoti Structures bags Rs 949-cr order from Power Grid Corporation",
-   "source": "cfo.economictimes.indiatimes.com",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUUVRdWdTMk5LU1p6U3VYM19XMFJ5QVpONHBFWmdtNkNnMTY1UVdjOWZJRjlJRTlEYW8tV3pKbHhrS3h6aEZDcHdvczhmZXdtX1o5MGNXSEZxaTN3Y1Z0WGtqZWp1VkpDZkg0WHlxVGtXUTlpS0d5S29MQUpvTW1PQWQyTy1qVWRpejNwQkRrR2xFV0JpeWVMMGh4V19ReVRXYUd4eW1wNUppVl9HdmpQU0FMZVZISG41Ujl3TjF1X2RkYUJXZ0tXZV9xWTdMcVpDRFNQQ3FyQ2FMM2vSAdsBQVVfeXFMT1FFUXVnUzJOS1NaelN1WDNfVzBSeUFaTjRwRVpnbTZDZzE2NVFXYzlmSUY5SUU5RGFvLVd6Smx4a0t4emhGQ3B3b3M4ZmV3bV9aOTBjV0hGcWkzd2NWdFhramVqdVZKQ2ZINFh5cVRrV1E5aUtHeUtvTEFKb01tT0FkMk8talVkaXozcEJEa0dsRVdCaXllTDBoeFdfUXlUV2FHeHltcDVKaVZfR3ZqUFNBTGVWSEhuNVI5d04xdV9kZGFCV2dLV2VfcVk3THFaQ0RTUENxckNhTDNr?oc=5",
-   "when": "2026-10-26T18:05+05:30",
-   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
-   "trusted": false,
-   "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "RECLTD",
-   "title": "Finance ministry reviewing PFC-REC merger, cabinet approval soon",
-   "source": "Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWTFrWUZwalBYOUExeVFoZmNNbkE3aHI3YXV3eEc0cmhOaHRNOWpBRjJ4ZnN5Ym5oRmwxMXIxRHc4cTQ4OEFLMTI4OGZzZ3VJRVZKM01fZFJrY2ctMl9LQ1FOZHVlV2hPU3VwRHlidXJ3bWp2ZDh0Q3poZW1rdHR6MV9DRzJDZ3pjS2g3MVRDdUY0UzZ3MTI5NlVybzRUODU0Z0huUlVrc3BlUGtPQmdQMklTeGFjdFo0bFhMYdIBwgFBVV95cUxNVm5vV25abzN0WVNTQ1ZwS3NiUndyWi1UR3QxWjY4eG1XNzkzclZWU25mMkhoazNFU1dObjdFc01yTEc0eHJFQVphcEJHSzdHTWRmcXhSN3dySHlnUk5IYjQyaDI1M2t2T1dSV19yZGxDY0tYMVM4Q1VtaHZkY0h4R1FnS2lodFB1dDVJZVhtRXAwLWl0RHA0MGNYazUybWszaDZRczdFVFJsc2xsblM1VE1PcnpQcXU4S2c5SDhDX2N5Zw?oc=5",
-   "when": "2026-10-26T16:24+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": true,
-   "stock": {
-    "nse": "RECLTD",
-    "name": "REC Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BSE",
-   "title": "4607 Put Contracts at Rs 3200 Strike on BSE Ltd Ahead of 27 Oct Expiry",
-   "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX2VJRmtrbFhUNmJRRGx4di0wNHVGYUtTSW5odDdFdWU1UEFoYjAtNzhESlRCRS1iX0VLQVR6R0lMTUl4TkZFUTJfcXUyc0l2d2NHSUxpaEZ1V241UUwxMW5ERHRXQUNScmQ4QVNNVU4yRzlndUZfbXkxOUx1YW82UDNDTVFQa0M4VmxCZUZnXzJ2ZzJqUHVDaFZvaGxNUEQ4RGVlTmxVX2hqZzc3d3IyZFBfaHhWeVg3a0ww?oc=5",
-   "when": "2026-10-26T13:11+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BANKINDIA",
-   "title": "Rajendra Kumar and Lt. Gen Khanduri appointed IEM of Bank of India",
-   "source": "https://whispersinthecorridors.net/",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTlhkWkNCUkRtdjc1X3luR3h1T3hOZURpOTBmMEtCelRUeUJtRU1iMGhvN3k1NkVxUXh6WGx0N0g2NnBBSDZacTllbUVJZWdVS3BpQnQyVF9CRnFQeUgxZDFnWV9maFdTbzgwLUxnaUZLbTY2SkdBeld2SlBIaGdlWlB2blhRN0dJZmlzSWxYSk5ZT3VTT1J5cnNUR2JOV3pFLTI4QmFleUU?oc=5",
-   "when": "2026-10-26T12:00+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BSE",
-   "title": "BSE share price up 4%: Why Motilal Oswal sees 23% upside driven by SEBI VWAP reversal",
-   "source": "The Financial Express",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVVk1SmpKWTk5QjF2U09BX3llX3BKVmJtbmFubmlKYjRvN3didWcyTkhHa19OQUNndkNWcjBrMnBSa2pkaXlYV3lobkJZTERoOUl1Rzh6SGFfMk1SM0NGMXJmWEkwN295M3hicE8wLWlORzBCOEloVGx6SlZZd2gwUlJnczF2U2VINDNaaVVFZHBQcFg5T0NpQmRxaVZ3NzhacnVhdkhSOXdSYWdkc1ZHbXFMd1ZvdFZfTzBaZ3JxazlleEhUeDFzZUdzUdIB0gFBVV95cUxPUS1vbkQ3end1RmpCX3prV0w0c18xZDFRaWZjU2hlczIwNFhvSjhTbDlPTFZFd0FkZ3pUQUxvRlpaeHlrQl9TbVVmY1JaZ2hRR3JZOEdyc3lnTzY0cmxQNVpNMzUtNEhEMk91NU9Lem14R2FzWlZvWkZ2OGZLalllRHBQWlhkRUZMNTBRdGRmekRNcWdjbnl1MFRNeUVaWTdfU2xlN29aVk1DdjNpMDk3dUdXSlgtWENrU24yNmZJRjlKWEtsN0d2T192NXg2eERQekE?oc=5",
-   "when": "2026-10-26T11:12+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": true,
-   "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BSE",
-   "title": "BSE Share Price Jumps Over 4% After Motilal Oswal Upgrades To 'Buy', Sees Over 23% Upside",
-   "source": "NDTV Profit",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ3pYdEYyYVVsTVpmTU9RWi1XN2lsX0RKLVpreDU2aWZNZXFIWlItUGdaVXhmQklrSzRTdXY4Y0tQY19HN2wyRnFSeFFHdDRLcmROWE9wWDc3ZjhYSFd0NjdtNXkxVk5CQ1ptLUZobnI3X0hsOF9jcW5KakpkaUdtOVdjMnh2WVNXNUlZN2ZwS1hDRTdiZ1RCLXBILXhhcEZRMDBGY2JMYXdpM3JZSzZHOW1aVVNRd1psNjBQVjhybVRmaDUwTnBr0gHPAUFVX3lxTE10azJJc0xJalFxdzh3MTJRX2NRN01JMmJwZDY5STF4UFE2RFo1TWpLZXlQWGVTbGZvOE1RWExZelBIZzgtWUFXZ2dIRlpOdTdhYy11NXpXbjJ5Z0d2TlRiVk5BM2hZZVppeVlKeDRSSk16MGNuOTViMEQ1QWNhYUFJWDFsSXNGVXVVSlQ0eWZLM0hfalM5dndPbEFfckNWV0tXT3hEMUZ3Y1R2aFpfeHlCbkxzUVg4ck1falhVbkx2a0JxX1Q0ekRkSjBjdHhoOA?oc=5",
-   "when": "2026-10-26T11:05+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": false,
-   "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
     "group": "holding"
    }
   }
@@ -733,9 +897,8 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 26 Oct",
-  "BSE announcements failed (HTTPError)",
+  "BSE codes taken from bhavcopy 27 Oct",
   "BSE announcements failed (JSONDecodeError)",
-  "BSE announcements failed (ReadTimeout)"
+  "BSE announcements failed (HTTPError)"
  ]
 }
