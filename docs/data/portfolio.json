@@ -1,21 +1,21 @@
 {
- "generated": "2026-10-28T12:31+05:30",
- "since": "2026-10-27T06:31+05:30",
+ "generated": "2026-10-29T12:53+05:30",
+ "since": "2026-10-28T06:53+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 24",
+  "NSE": "ok · 35",
   "BSE": "unavailable",
-  "News": "ok · 9"
+  "News": "ok · 7"
  },
  "high": [
   {
-   "nse": "ROUTE",
+   "nse": "VAIBHAVGBL",
    "exchange": "NSE",
-   "when": "2026-10-27T23:53+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "ROUTE MOBILE LIMITED has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235143_upload-outcome.pdf",
-   "text": "Outcome of Board Meeting ROUTE MOBILE LIMITED has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "when": "2026-10-29T01:36+05:30",
+   "subject": "Press Release",
+   "detail": "Vaibhav Global Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"H1 & Q2 FY27 Financial Results\".",
+   "link": "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026013439_Press_Release_Final.pdf",
+   "text": "Press Release Vaibhav Global Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"H1 & Q2 FY27 Financial Results\".",
    "tier": "high",
    "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
    "exchange_set": [
@@ -24,50 +24,150 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235143_upload-outcome.pdf"
+     "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026013439_Press_Release_Final.pdf"
     ]
    ],
    "stock": {
-    "nse": "ROUTE",
-    "name": "Route Mobile",
+    "nse": "VAIBHAVGBL",
+    "name": "Vaibhav Global",
     "group": "holding"
+   }
+  },
+  {
+   "nse": "VAIBHAVGBL",
+   "exchange": "NSE",
+   "when": "2026-10-29T00:32+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Vaibhav Global Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026002436_Outcome_SEs.pdf",
+   "text": "Outcome of Board Meeting Vaibhav Global Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026002436_Outcome_SEs.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "VAIBHAVGBL",
+    "name": "Vaibhav Global",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "TEJASNET",
+   "exchange": "NSE",
+   "when": "2026-10-28T18:56+05:30",
+   "subject": "Credit Rating",
+   "detail": "Tejas Networks Limited has informed the Exchange about Credit Rating",
+   "link": "https://nsearchives.nseindia.com/corporate/TEJASNET_28102026185620_SE_Covering_Letter_-_Credit_Rating.pdf",
+   "text": "Credit Rating Tejas Networks Limited has informed the Exchange about Credit Rating",
+   "tier": "high",
+   "rule": "credit rating|rating (action|revis|downgrad|upgrad|reaffirm)",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/TEJASNET_28102026185620_SE_Covering_Letter_-_Credit_Rating.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "TEJASNET",
+    "name": "Tejas Networks",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SATIN",
+   "exchange": "NSE",
+   "when": "2026-10-28T16:14+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Satin Creditcare Network Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/SATIN_28102026160757_SCNLBM_Outcome_-_Financial_Results.pdf",
+   "text": "Outcome of Board Meeting Satin Creditcare Network Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SATIN_28102026160757_SCNLBM_Outcome_-_Financial_Results.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SATIN",
+    "name": "Satin Creditcare Network",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "GATEWAY",
+   "exchange": "NSE",
+   "when": "2026-10-28T14:33+05:30",
+   "subject": "Press Release (Revised)",
+   "detail": "Gateway Distriparks Limited has informed the Exchange regarding a revised press release dated October 28, 2026, titled \"Revised Press Release on the Unaudited Financial Results for the quarter ended on September 30, 2026\".",
+   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026143319_RPR.pdf",
+   "text": "Press Release (Revised) Gateway Distriparks Limited has informed the Exchange regarding a revised press release dated October 28, 2026, titled \"Revised Press Release on the Unaudited Financial Results for the quarter ended on September 30, 2026\".",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026143319_RPR.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "GATEWAY",
+    "name": "Gateway Distriparks",
+    "group": "watchlist"
+   }
+  },
+  {
+   "nse": "GATEWAY",
+   "exchange": "NSE",
+   "when": "2026-10-28T13:40+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Gateway Distriparks Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026134026_Outcome_Final.pdf",
+   "text": "Outcome of Board Meeting Gateway Distriparks Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026134026_Outcome_Final.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "GATEWAY",
+    "name": "Gateway Distriparks",
+    "group": "watchlist"
    }
   }
  ],
  "medium": [
   {
-   "nse": "ROUTE",
+   "nse": "VAIBHAVGBL",
    "exchange": "NSE",
-   "when": "2026-10-28T00:12+05:30",
-   "subject": "Press Release",
-   "detail": "ROUTE MOBILE LIMITED has informed the Exchange regarding a press release dated October 27, 2026, titled \"Route Mobile Limited announces Q2FY27 Results\".",
-   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_28102026001139_upload_press_release.pdf",
-   "text": "Press Release ROUTE MOBILE LIMITED has informed the Exchange regarding a press release dated October 27, 2026, titled \"Route Mobile Limited announces Q2FY27 Results\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/ROUTE_28102026001139_upload_press_release.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ROUTE",
-    "name": "Route Mobile",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ROUTE",
-   "exchange": "NSE",
-   "when": "2026-10-28T00:09+05:30",
+   "when": "2026-10-29T01:17+05:30",
    "subject": "Investor Presentation",
-   "detail": "ROUTE MOBILE LIMITED has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_28102026000940_Upload_.pdf",
-   "text": "Investor Presentation ROUTE MOBILE LIMITED has informed the Exchange about Investor Presentation",
+   "detail": "Vaibhav Global Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026011539_Investor_Presentation.pdf",
+   "text": "Investor Presentation Vaibhav Global Limited has informed the Exchange about Investor Presentation",
    "tier": "medium",
    "rule": "investor presentation",
    "exchange_set": [
@@ -76,23 +176,23 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/ROUTE_28102026000940_Upload_.pdf"
+     "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026011539_Investor_Presentation.pdf"
     ]
    ],
    "stock": {
-    "nse": "ROUTE",
-    "name": "Route Mobile",
+    "nse": "VAIBHAVGBL",
+    "name": "Vaibhav Global",
     "group": "holding"
    }
   },
   {
-   "nse": "ROUTE",
+   "nse": "VAIBHAVGBL",
    "exchange": "NSE",
-   "when": "2026-10-27T23:56+05:30",
+   "when": "2026-10-29T00:55+05:30",
    "subject": "Record Date",
-   "detail": "ROUTE MOBILE LIMITED has informed the Exchange that Record date for the purpose of Dividend is 02-Nov-2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235601_upload-outcome.pdf",
-   "text": "Record Date ROUTE MOBILE LIMITED has informed the Exchange that Record date for the purpose of Dividend is 02-Nov-2026.",
+   "detail": "Vaibhav Global Limited has informed the Exchange that Record date for the purpose of Dividend is 04-Nov-2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026004601_Record_Date_SEs.pdf",
+   "text": "Record Date Vaibhav Global Limited has informed the Exchange that Record date for the purpose of Dividend is 04-Nov-2026.",
    "tier": "medium",
    "rule": "dividend|record date",
    "exchange_set": [
@@ -101,148 +201,23 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235601_upload-outcome.pdf"
+     "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026004601_Record_Date_SEs.pdf"
     ]
    ],
    "stock": {
-    "nse": "ROUTE",
-    "name": "Route Mobile",
+    "nse": "VAIBHAVGBL",
+    "name": "Vaibhav Global",
     "group": "holding"
    }
   },
   {
-   "nse": "ROUTE",
+   "nse": "VAIBHAVGBL",
    "exchange": "NSE",
-   "when": "2026-10-27T23:55+05:30",
-   "subject": "Dividend",
-   "detail": "ROUTE MOBILE LIMITED has informed the Exchange that Board of Directors at its meeting held on October 27, 2026, declared Interim Dividend of Rs. 4 per equity share.",
-   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235503_upload-outcome.pdf",
-   "text": "Dividend ROUTE MOBILE LIMITED has informed the Exchange that Board of Directors at its meeting held on October 27, 2026, declared Interim Dividend of Rs. 4 per equity share.",
-   "tier": "medium",
-   "rule": "dividend|record date",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235503_upload-outcome.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ROUTE",
-    "name": "Route Mobile",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JUBLINGREA",
-   "exchange": "NSE",
-   "when": "2026-10-27T14:51+05:30",
-   "subject": "Press Release",
-   "detail": "Jubilant Ingrevia Limited has informed the Exchange regarding a press release dated October 27, 2026, titled \"Press Release and Presentation on the financials and operational performance of the Company for the quarter and half year ended September 30, 2026\".",
-   "link": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026145109_SE_Intimation_press_release_and_investor_presentation.pdf",
-   "text": "Press Release Jubilant Ingrevia Limited has informed the Exchange regarding a press release dated October 27, 2026, titled \"Press Release and Presentation on the financials and operational performance of the Company for the quarter and half year ended September 30, 2026\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026145109_SE_Intimation_press_release_and_investor_presentation.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JUBLINGREA",
-   "exchange": "NSE",
-   "when": "2026-10-27T14:35+05:30",
-   "subject": "Change in Management",
-   "detail": "Jubilant Ingrevia Limited has informed the Exchange about change in Management",
-   "link": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026143534_Resignation_of_Senior_Management_Personnel.pdf",
-   "text": "Change in Management Jubilant Ingrevia Limited has informed the Exchange about change in Management",
-   "tier": "medium",
-   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026143534_Resignation_of_Senior_Management_Personnel.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SUNTECK",
-   "exchange": "NSE",
-   "when": "2026-10-27T14:33+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Sunteck Realty Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_27102026143340_SRL.pdf",
-   "text": "Investor Presentation Sunteck Realty Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUNTECK_27102026143340_SRL.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SUNTECK",
-    "name": "Sunteck Realty",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JUBLINGREA",
-   "exchange": "NSE",
-   "when": "2026-10-27T14:28+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Jubilant Ingrevia Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026142801_SE_Intimation_press_release_and_investor_presentation.pdf",
-   "text": "Investor Presentation Jubilant Ingrevia Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026142801_SE_Intimation_press_release_and_investor_presentation.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JUBLINGREA",
-   "exchange": "NSE",
-   "when": "2026-10-27T14:04+05:30",
+   "when": "2026-10-29T00:32+05:30",
    "subject": "Outcome of Board Meeting",
-   "detail": "Outcome of the Board Meeting held on October 27, 2026",
-   "link": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026140357_SE_Intimation_Results.pdf",
-   "text": "Outcome of Board Meeting Outcome of the Board Meeting held on October 27, 2026",
+   "detail": "Vaibhav Global Limited has informed the Exchange regarding Outcome of Board Meeting held on October 28, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026002834_Outcome_SEs.pdf",
+   "text": "Outcome of Board Meeting Vaibhav Global Limited has informed the Exchange regarding Outcome of Board Meeting held on October 28, 2026.",
    "tier": "medium",
    "rule": "board meeting|intimation of board",
    "exchange_set": [
@@ -251,34 +226,57 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/JUBLINGREA_27102026140357_SE_Intimation_Results.pdf"
+     "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026002834_Outcome_SEs.pdf"
     ]
    ],
    "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
+    "nse": "VAIBHAVGBL",
+    "name": "Vaibhav Global",
     "group": "holding"
    }
-  }
- ],
- "other": [
+  },
   {
-   "nse": "ROUTE",
+   "nse": "VAIBHAVGBL",
    "exchange": "NSE",
-   "when": "2026-10-28T00:06+05:30",
-   "subject": "Amendment to AOA/MOA",
-   "detail": "ROUTE MOBILE LIMITED has informed the Exchange regarding the Amendment to AOA/MOA of the company.",
-   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_28102026000405_upload-outcome.pdf",
-   "text": "Amendment to AOA/MOA ROUTE MOBILE LIMITED has informed the Exchange regarding the Amendment to AOA/MOA of the company.",
-   "tier": "other",
-   "rule": null,
+   "when": "2026-10-29T00:32+05:30",
+   "subject": "Dividend",
+   "detail": "Vaibhav Global Limited has informed the Exchange that Board of Directors at its meeting held on October 28, 2026, declared Interim Dividend of Rs. 1.50 per equity share.",
+   "link": "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026002729_Outcome_SEs.pdf",
+   "text": "Dividend Vaibhav Global Limited has informed the Exchange that Board of Directors at its meeting held on October 28, 2026, declared Interim Dividend of Rs. 1.50 per equity share.",
+   "tier": "medium",
+   "rule": "dividend|record date",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/ROUTE_28102026000405_upload-outcome.pdf"
+     "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026002729_Outcome_SEs.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "VAIBHAVGBL",
+    "name": "Vaibhav Global",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ROUTE",
+   "exchange": "NSE",
+   "when": "2026-10-28T18:19+05:30",
+   "subject": "Updates",
+   "detail": "ROUTE MOBILE LIMITED has informed the Exchange regarding 'Communication to Shareholders - Intimation on Tax Deduction on Interim Dividend'.",
+   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_28102026181918_Upload.pdf",
+   "text": "Updates ROUTE MOBILE LIMITED has informed the Exchange regarding 'Communication to Shareholders - Intimation on Tax Deduction on Interim Dividend'.",
+   "tier": "medium",
+   "rule": "dividend|record date",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/ROUTE_28102026181918_Upload.pdf"
     ]
    ],
    "stock": {
@@ -288,13 +286,215 @@
    }
   },
   {
-   "nse": "ROUTE",
+   "nse": "SATIN",
    "exchange": "NSE",
-   "when": "2026-10-27T23:58+05:30",
-   "subject": "General Updates",
-   "detail": "ROUTE MOBILE LIMITED has informed the Exchange about Rescission of the earlier approval for variation in the object/terms of utilisation of the Initial Public Offering (\"IPO\") proceeds.",
-   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235809_upload-outcome.pdf",
-   "text": "General Updates ROUTE MOBILE LIMITED has informed the Exchange about Rescission of the earlier approval for variation in the object/terms of utilisation of the Initial Public Offering (\"IPO\") proceeds.",
+   "when": "2026-10-28T16:30+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Satin Creditcare Network Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/SATIN_28102026162933_SCNL_Investor_Presentation.pdf",
+   "text": "Investor Presentation Satin Creditcare Network Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SATIN_28102026162933_SCNL_Investor_Presentation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SATIN",
+    "name": "Satin Creditcare Network",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SATIN",
+   "exchange": "NSE",
+   "when": "2026-10-28T16:21+05:30",
+   "subject": "Press Release",
+   "detail": "Satin Creditcare Network Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"Announcement under Regulation 30 of SEBI (LODR) Regulations, 2015 - Press Release\".",
+   "link": "https://nsearchives.nseindia.com/corporate/SATIN_28102026162055_SCNL_Press_Release.pdf",
+   "text": "Press Release Satin Creditcare Network Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"Announcement under Regulation 30 of SEBI (LODR) Regulations, 2015 - Press Release\".",
+   "tier": "medium",
+   "rule": "press release|media release",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SATIN_28102026162055_SCNL_Press_Release.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SATIN",
+    "name": "Satin Creditcare Network",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "POWERGRID",
+   "exchange": "NSE",
+   "when": "2026-10-28T15:43+05:30",
+   "subject": "Record Date",
+   "detail": "Power Grid Corporation of India Limited has informed the Exchange that Record date for the purpose of Dividend is 06-Nov-2026, if declared by the Board.",
+   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_28102026154132_BSENSEReg30dt28102026.pdf",
+   "text": "Record Date Power Grid Corporation of India Limited has informed the Exchange that Record date for the purpose of Dividend is 06-Nov-2026, if declared by the Board.",
+   "tier": "medium",
+   "rule": "dividend|record date",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/POWERGRID1_28102026154132_BSENSEReg30dt28102026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "GATEWAY",
+   "exchange": "NSE",
+   "when": "2026-10-28T14:05+05:30",
+   "subject": "Press Release",
+   "detail": "Gateway Distriparks Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"Gateway Distriparks announces its Q2 results\".",
+   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026140530_PR.pdf",
+   "text": "Press Release Gateway Distriparks Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"Gateway Distriparks announces its Q2 results\".",
+   "tier": "medium",
+   "rule": "press release|media release",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026140530_PR.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "GATEWAY",
+    "name": "Gateway Distriparks",
+    "group": "watchlist"
+   }
+  },
+  {
+   "nse": "GATEWAY",
+   "exchange": "NSE",
+   "when": "2026-10-28T14:01+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Gateway Distriparks Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026140102_Investor_Presentations_Oct26.pdf",
+   "text": "Investor Presentation Gateway Distriparks Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026140102_Investor_Presentations_Oct26.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "GATEWAY",
+    "name": "Gateway Distriparks",
+    "group": "watchlist"
+   }
+  },
+  {
+   "nse": "GATEWAY",
+   "exchange": "NSE",
+   "when": "2026-10-28T13:56+05:30",
+   "subject": "Change in Director(s)",
+   "detail": "Gateway Distriparks Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026135650_mgmt.pdf",
+   "text": "Change in Director(s) Gateway Distriparks Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "tier": "medium",
+   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026135650_mgmt.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "GATEWAY",
+    "name": "Gateway Distriparks",
+    "group": "watchlist"
+   }
+  },
+  {
+   "nse": "GATEWAY",
+   "exchange": "NSE",
+   "when": "2026-10-28T13:54+05:30",
+   "subject": "Change in Management",
+   "detail": "Gateway Distriparks Limited has informed the Exchange about change in Management",
+   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026135440_mgmt.pdf",
+   "text": "Change in Management Gateway Distriparks Limited has informed the Exchange about change in Management",
+   "tier": "medium",
+   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026135440_mgmt.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "GATEWAY",
+    "name": "Gateway Distriparks",
+    "group": "watchlist"
+   }
+  },
+  {
+   "nse": "GATEWAY",
+   "exchange": "NSE",
+   "when": "2026-10-28T13:42+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Gateway Distriparks Limited has informed the Exchange regarding Outcome of Board Meeting held on October 28, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026134224_Outcome_Final.pdf",
+   "text": "Outcome of Board Meeting Gateway Distriparks Limited has informed the Exchange regarding Outcome of Board Meeting held on October 28, 2026.",
+   "tier": "medium",
+   "rule": "board meeting|intimation of board",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026134224_Outcome_Final.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "GATEWAY",
+    "name": "Gateway Distriparks",
+    "group": "watchlist"
+   }
+  }
+ ],
+ "other": [
+  {
+   "nse": "SATIN",
+   "exchange": "NSE",
+   "when": "2026-10-28T18:37+05:30",
+   "subject": "Monitoring Agency Report",
+   "detail": "Monitoring Agency Report for the quarter ended September 30, 2026",
+   "link": "https://nsearchives.nseindia.com/corporate/SATIN_28102026183640_SCNL_MA_Report.pdf",
+   "text": "Monitoring Agency Report Monitoring Agency Report for the quarter ended September 30, 2026",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -303,18 +503,188 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/ROUTE_27102026235809_upload-outcome.pdf"
+     "https://nsearchives.nseindia.com/corporate/SATIN_28102026183640_SCNL_MA_Report.pdf"
     ]
    ],
+   "stock": {
+    "nse": "SATIN",
+    "name": "Satin Creditcare Network",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "CDSL",
+   "exchange": "NSE",
+   "when": "2026-10-28T18:03+05:30",
+   "subject": "Retirement",
+   "detail": "CDSL has informed the Exchange about Retirement of Shri Ashish Bhatt, Senior Vice President, Operations.",
+   "link": "https://nsearchives.nseindia.com/corporate/CDSL_28102026180148_Retirement_Ashish_Bhatt_Signed.pdf",
+   "text": "Retirement CDSL has informed the Exchange about Retirement of Shri Ashish Bhatt, Senior Vice President, Operations.",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/CDSL_28102026180148_Retirement_Ashish_Bhatt_Signed.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "CDSL",
+    "name": "Central Depository Services",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SATIN",
+   "exchange": "NSE",
+   "when": "2026-10-28T17:07+05:30",
+   "subject": "Statement of deviation(s) or variation(s) under Reg. 32",
+   "detail": "Satin Creditcare Network Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
+   "link": "https://nsearchives.nseindia.com/corporate/SATIN_28102026170356_SCNL_Statement_of_Deviation.pdf",
+   "text": "Statement of deviation(s) or variation(s) under Reg. 32 Satin Creditcare Network Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SATIN_28102026170356_SCNL_Statement_of_Deviation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SATIN",
+    "name": "Satin Creditcare Network",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "RBA",
+   "exchange": "NSE",
+   "when": "2026-10-28T16:36+05:30",
+   "subject": "General Updates",
+   "detail": "Intimation regarding launch of new corporate website and change in email address for Investor Relations / Grievances",
+   "link": "https://nsearchives.nseindia.com/corporate/RBA_28102026163621_Finalupload.pdf",
+   "text": "General Updates Intimation regarding launch of new corporate website and change in email address for Investor Relations / Grievances",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/RBA_28102026163621_Finalupload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RBA",
+    "name": "Restaurant Brands Asia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "GATEWAY",
+   "exchange": "NSE",
+   "when": "2026-10-28T16:16+05:30",
+   "subject": "Updates",
+   "detail": "Gateway Distriparks Limited has informed the Exchange regarding 'Revised Code of Practices and Procedures for Fair Disclosure of Unpublished Price Sensitive Information (UPSI)under Regulation 8(2) of the SEBI (Prohibition of Insider Trading) Regulations, 2015'.",
+   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026161640_Code.pdf",
+   "text": "Updates Gateway Distriparks Limited has informed the Exchange regarding 'Revised Code of Practices and Procedures for Fair Disclosure of Unpublished Price Sensitive Information (UPSI)under Regulation 8(2) of the SEBI (Prohibition of Insider Trading) Regulations, 2015'.",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026161640_Code.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "GATEWAY",
+    "name": "Gateway Distriparks",
+    "group": "watchlist"
+   }
+  }
+ ],
+ "dropped": 11,
+ "news": [
+  {
+   "nse": "TEJASNET",
+   "title": "Tejas Networks’ Rating Reaffirmed, ICRA Maintains Confidence in Its Financial Stability in the Telecommunications Sector",
+   "source": "Traders Union",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT2F6Nm9XWF9sQk56U2ltQUZDOHY1UWJ4S0xEOXc5cEtqbE80ZDlqWWk1NkdZNnFHR3YtdVgtS3lVZ2dJLWtSWFRjUTIyYl9yWE02bDhlZWdLZ0pKWVNrR3czc2N3RjB1R3dlMnBvaWpjNDZycUotUXFDUmlNQVNTY1hxTUQ1Ti1id3E4RnIwLUt5N01vM1o1VThxRWZ0bHotbGc?oc=5",
+   "when": "2026-10-28T17:58+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "TEJASNET",
+    "name": "Tejas Networks",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ROUTE",
+   "title": "Route Mobile (NSE:ROUTE) Q2 FY27 Results, Interim Dividend and AI Expansion",
+   "source": "Kalkine India",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNGZVS1Y3cGRCbW80Vm1OWVpJYXNBV3RJdVZpS0thZFAzQWlFSjBCWnU5YkZENmxNM3o2Zll6RnJxQllTd3o3RHdrNjNSNkFLd092NnZPemd2R3dNdm5oaXRaR0twQzVIclNjUkVPREF6MWkwblkyb25xYVE1amFUR1Y4VHlhVDExSG13OE96YkZKUG5ObHhaVUowVGQya0k2V25GVE9kUUN5T2Y5WlBsMW12aGJCVlhlSDFCeU9CdmVrdmJWc0JxQ1lQM1M5UGVGbmc?oc=5",
+   "when": "2026-10-28T17:10+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
    "stock": {
     "nse": "ROUTE",
     "name": "Route Mobile",
     "group": "holding"
    }
-  }
- ],
- "dropped": 12,
- "news": [
+  },
+  {
+   "nse": "JMFINANCIL",
+   "title": "JM Financial AMC announces resignation of CFO cum COO",
+   "source": "Investment Guru India",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdzVPQTZCVlBOemtwZ2NReVgxVFZpTl9tekI5dm1NQlZJUkJXVENtQ3VkbWVBbHllNXdaLWJEcnhacUZIVUZRU2dDeVlUVENVNktSakhIdjJIQVZ5WGs2OUxvajYwZE92Z3JxNlBvalVydnd3TFFwSWdzcm50SzNuWE5Sa0VUM2J0VzRDYmlKMndweE45bjJXQ190MnlCWkt6cXMxQw?oc=5",
+   "when": "2026-10-28T17:06+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "GATEWAY",
+   "title": "Gateway Distriparks: Re-appoints Samvid Gupta as Joint MD for 5 Years",
+   "source": "InvestyWise",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTFRMbjFpNkhlU1k4QXRYYVUwTFdsQTNlb09hMGtwZW80dzJhWjFINXhXMFV5VUV5UHZyLWNpWmVOYjIyV2hhMmlqWjZJQVh1bW5KZWRCUVRRaUdHNWhKeVpGZU9nN05iRzhIRnlkbEVkQUR1N0lOdDlqUTlaQ0VRMUstMjc5ZUlnSU5WRk9EaEZTb3NEaDMzREgwbHFNc0U?oc=5",
+   "when": "2026-10-28T14:12+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "GATEWAY",
+    "name": "Gateway Distriparks",
+    "group": "watchlist"
+   }
+  },
+  {
+   "nse": "JUBLINGREA",
+   "title": "Jubilant Ingrevia Ltd Downgraded to Sell Amid Bearish Technicals and Weak Long-Term Growth",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWXhLQUZ1UlJtUGZ1T1UxbXRaY3lIbEFWWXdRWFlwRWlEekFweTBaeloybjZfMGZkTmpKRWpmeFdxeFBKTjB2djJWSFFKT2Q3a09Db2lycVYwaUE4U3dwVWI5YjlmakVIM2NJa3FPN3VQamJlRURZX3BTYmVRR1ZGZTZkdDJCQ3ZBQTBaZUpfcnhaMEo3Z2ZNN0FFMlh4QWNYcGdLS1dkdkVjMGpQbG15c2d5TmFYRGdZLVYydVRHTWcwTkFzTTIyUTRrNi1EdDh5a2NtdWplZ0JGTXhfRzE0ZGhqWU1UUDQ?oc=5",
+   "when": "2026-10-28T10:04+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
+    "group": "holding"
+   }
+  },
   {
    "nse": "ROUTE",
    "title": "Route Mobile: Acquires Heltar Technologies, Boosts AI Capabilities",
@@ -340,104 +710,6 @@
    "stock": {
     "nse": "POWERGRID",
     "name": "Power Grid Corporation of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JMFINANCIL",
-   "title": "Aequs shares crash up to 19% post-Q2 loss; JM Financial maintains 'Reduce' rating",
-   "source": "Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcVF1akZhRVdIQlZIdGhzc0luR0xPOXZPWmh3UHdSei1qRGpYM09TWEV2OV9NUmtNVnZfdWR1UWZFNzJSd19KU0ozSFo2dXdWT294VE5LaXJxMHdBNlJLdE9sYWxaUThGOVFZVlR2WXduUVk5emJtX1h2cUduRXJqRUlwWnBXSEhubExvRk9jZTQwNmdZVnpWY2hvRXJ1SmhaWFp1UHNpMVdoclNoZXRfU3l1Wl9XMFIwVEd6N1MwX2NXSDU2ek9CblRWcnA0VW9IaUVtSVZNNGLSAd4BQVVfeXFMUE9SVExFUWxyaUFlRURzenBvUElULUg0NFh3SHJrUjZCaG1sN2dfZEl5dEVkc09zMVdudmQ1WDVteXZJSjJFTHhaTEZoSWxuMnpNVkRFWk5LRjgyaWpWVy1sbG5IMDFaOE9fY2VtZUs2eWEybXFkSTRpUWFLWV9NQmxIQ3JHN2pfQU55RVBheWhsTUlEbGFnWmVwTzJ5SF82UlhpVnFOYmRsYUNJYnE4MHNUaTNxemUzMk1OaVlVanVjWDdKMG41Vm1DT0JZLTdpeDQyTk0xMktReXRnVUFn?oc=5",
-   "when": "2026-10-27T16:11+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": true,
-   "stock": {
-    "nse": "JMFINANCIL",
-    "name": "JM Financial",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JUBLINGREA",
-   "title": "Jubilant Ingrevia Records Strong Q2 FY27: Revenue At ₹1,394 Crore, PAT Surges 61%, ZettaOne Stake Acquired",
-   "source": "Free Press Journal",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOS2I0MzVXbjVXZFBwYmFSa3BuZEpqNDYzUkcwN09qXzRnR0g1WFNQRXhsWkhsbDBBZG5XUUJSWHBJZndjVWNNRmRkOFNXeWhVZmlhQkc0eDBWR0t5dDgtS2NsM29CVzZyOURMRTFYZld4NFgxbWxiVFQ0aGtfUThTUnNLbTFQMlVySF9CTTJ2YkF2NzBqOVBfRUNwRnh1Z1pRZzRJbURYRnpNZ2pocFlReGlMQmo1OW84RHZOaFJLTC1XQWRZNlN4aHVUM25ZLUFfaFplX3pHZlnSAd4BQVVfeXFMTWlzWElmdG5XN3d0WjBUT1ZQOFYxM096R2pQRjdzU1ZvWGFjQVZ0Z1g5SHZuR3hUQkFhb0pmVFpUaWV6T3NicHRmSnQwZVBZM1R4eDZoRUQySkhELVpwdHd3MUdIM0psLWtqMWhORFdjNE1vSUVIYmtoX0lOU0g1S2QyYUk1eEp1U3h1X3dXRFhDazhBdk1yMEdwc3AxUUdUWG1vZGVHMkQtZEdfMjdqVDA5cFEySFhUR1RnbVVpdTJQYUwyb2dmSzdBSG5oQnQzZXVLUG5aMGFWWU95X2Nn?oc=5",
-   "when": "2026-10-27T15:56+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JUBLINGREA",
-   "title": "Jubilant Ingrevia reports ₹189.2 crore acquisition in robust Q2 FY27 results",
-   "source": "Business Upturn",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb1BFSjF1cUR0a3N6SXQ1UmcyNEI0X2Q5LUxxZlZkcEtnbWUwZV9zWlhBb3VjWlk1akZLb1pIUWxORGNkRktIMjN5NFU5Uk4tSVBMT2QzbDk4am1mRGNTQk5ZNXd1X2doUnBZam12WXY1YU5sRjh2TjlvYkV6Wm9IakxTZzNhd2hFOFBxMlRNYUhNVTZUOUtqOFRHUjFhUnZfSkpNejRMVmV1UUdXdUhTbmhXblQ?oc=5",
-   "when": "2026-10-27T15:23+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JUBLINGREA",
-   "title": "Jubilant Ingrevia HR head Vinita Koul to resign in Nov 2026",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOWVGRk5vLXFxaXhGeW5vMkZlSHJleFBrUHNwSV9ySkt5aFBsRDZwNndvOUF1UnhUclVhRmhEZ0VMY3dBZlVwdFVGX2JiYk5aV1lzcE1NQkwwa0d4ZzdzQWRpNnRjNS1JaHVIU0RtT0xKcF9vRjg0anNjSTdPU2hQMmMxZS1BdXREd29iTmY5OFNQNWI2a19LQWdjcHp0eS1LOEJxbDM2dEFmQ0VXVVgw?oc=5",
-   "when": "2026-10-27T14:59+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "LAURUSLABS",
-   "title": "Laurus Labs Ltd Upgraded to Buy by MarketsMOJO on Strong Fundamentals and Technicals",
-   "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVU1iTlpaS29VakZOMl9LMDd1SDBQN1NYOEJ4UFh4OHVCNjZVTVduVWxrSk1reEEtazI1VGpUQnQ4ZUJHVVhDRUMwZkxmakhITWw1bGFsOTd3TjZiZTZMUE00a05PUUw2NVZYaHF6eHd2N0diZ2s1UG10eVdxVnYtT1ZPeVVsaExOZWU4M2xMVXBwSnhXLTlWNnV4clFBSkJ0YVdHR2ZKZUp2dDRobWVEekduS29MXzJBVGs0SHB1aWhCQ0hhYmJwdElucWNVSFllQmJUOC1yOWxRenhRYVFz?oc=5",
-   "when": "2026-10-27T14:11+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": false,
-   "stock": {
-    "nse": "LAURUSLABS",
-    "name": "Laurus Labs",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SUNTECK",
-   "title": "Sunteck Realty Reports Strong Q2 FY27, Revenue Jumps 27%; Acquires New Borivali Land Parcel",
-   "source": "Free Press Journal",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcjBwZnkzVXRKeUNPSTZ1T3R2SEpCdTQzM1IycjFKS1dVdk1QTGJSbnJET1dVWEVBUUpRdE1lcnExbk5aM3p3WlpNU0pKYTNyRUdtbnVjblJHWVV0RDN5b2N1VjJhaDZxa2NFbFVVVlZ3WjBrWlE5WXpxbzJXUFlMSHo3QXlXMmhwTlVPQUhBVkh5dXlUd0ZFOE5mWU96Wkg3aHg2Y1lkQ2t0ek9rbzhrUU5ZZU9oLWdqNzVDN1dCWEd3eTJBMlhJTtIBzgFBVV95cUxOZUtmU05JQ1Fuelc2amxnQ3NxRWJPT0Z5d1pGZGR1dE1FVTY1T2NzcU54d0lreGNFNE1QX0xNSzhTT2w5c1dENjVwVU5CUkpuLXpWRWR3ZGdGME9rWWIwM2xLa1VrWVNubjdTQlFVTXpTNURKZzlUSWQ5Z0huNUlwczZRLVZ3NUM2eC13YzhmV19tWWJwQlRXT2JvSWtHODNFTVcyZ1dOWDBuOTNUY0JINW05Qzd6eVVhQ2hYUllIRmJHVzZoU3BpellJc0JhQQ?oc=5",
-   "when": "2026-10-27T10:53+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "SUNTECK",
-    "name": "Sunteck Realty",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SUNTECK",
-   "title": "Sunteck Realty: Submits Monitoring Agency Report for Preferential Issue",
-   "source": "InvestyWise",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOE1DeTd2Ni1EZ0txM1dnb0hFcVZaVDAzdXJZVzhQeF84VTNvZFEwcWNmdkNKR1FQRzBpMDI0ZnpEUE5lNzZRVlVKYjFhS0Jod3NYb2RQeUI5eU1obFl2d2RMTnhFdTV5N0pEWWhIWEM5NjN2bzhFUlBMV0FqYzNSbDhxVWE2empmUlFkTUE2ZElhbXJJRVNubm9WamgxUWRBb2c?oc=5",
-   "when": "2026-10-27T00:57+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "SUNTECK",
-    "name": "Sunteck Realty",
     "group": "holding"
    }
   }
@@ -897,8 +1169,8 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 27 Oct",
-  "BSE announcements failed (JSONDecodeError)",
-  "BSE announcements failed (HTTPError)"
+  "BSE codes taken from bhavcopy 28 Oct",
+  "BSE announcements failed (HTTPError)",
+  "BSE announcements failed (JSONDecodeError)"
  ]
 }
