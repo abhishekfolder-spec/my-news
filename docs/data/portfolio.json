@@ -1,584 +1,30 @@
 {
- "generated": "2026-10-29T12:53+05:30",
- "since": "2026-10-28T06:53+05:30",
+ "generated": "2026-10-30T12:56+05:30",
+ "since": "2026-10-29T06:56+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 35",
+  "NSE": "ok · 57",
   "BSE": "unavailable",
-  "News": "ok · 7"
+  "News": "ok · 10"
  },
  "high": [
   {
-   "nse": "VAIBHAVGBL",
-   "exchange": "NSE",
-   "when": "2026-10-29T01:36+05:30",
-   "subject": "Press Release",
-   "detail": "Vaibhav Global Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"H1 & Q2 FY27 Financial Results\".",
-   "link": "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026013439_Press_Release_Final.pdf",
-   "text": "Press Release Vaibhav Global Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"H1 & Q2 FY27 Financial Results\".",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026013439_Press_Release_Final.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "VAIBHAVGBL",
-    "name": "Vaibhav Global",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "VAIBHAVGBL",
-   "exchange": "NSE",
-   "when": "2026-10-29T00:32+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Vaibhav Global Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026002436_Outcome_SEs.pdf",
-   "text": "Outcome of Board Meeting Vaibhav Global Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026002436_Outcome_SEs.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "VAIBHAVGBL",
-    "name": "Vaibhav Global",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "TEJASNET",
-   "exchange": "NSE",
-   "when": "2026-10-28T18:56+05:30",
-   "subject": "Credit Rating",
-   "detail": "Tejas Networks Limited has informed the Exchange about Credit Rating",
-   "link": "https://nsearchives.nseindia.com/corporate/TEJASNET_28102026185620_SE_Covering_Letter_-_Credit_Rating.pdf",
-   "text": "Credit Rating Tejas Networks Limited has informed the Exchange about Credit Rating",
-   "tier": "high",
-   "rule": "credit rating|rating (action|revis|downgrad|upgrad|reaffirm)",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/TEJASNET_28102026185620_SE_Covering_Letter_-_Credit_Rating.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "TEJASNET",
-    "name": "Tejas Networks",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SATIN",
-   "exchange": "NSE",
-   "when": "2026-10-28T16:14+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Satin Creditcare Network Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/SATIN_28102026160757_SCNLBM_Outcome_-_Financial_Results.pdf",
-   "text": "Outcome of Board Meeting Satin Creditcare Network Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SATIN_28102026160757_SCNLBM_Outcome_-_Financial_Results.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SATIN",
-    "name": "Satin Creditcare Network",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "GATEWAY",
-   "exchange": "NSE",
-   "when": "2026-10-28T14:33+05:30",
-   "subject": "Press Release (Revised)",
-   "detail": "Gateway Distriparks Limited has informed the Exchange regarding a revised press release dated October 28, 2026, titled \"Revised Press Release on the Unaudited Financial Results for the quarter ended on September 30, 2026\".",
-   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026143319_RPR.pdf",
-   "text": "Press Release (Revised) Gateway Distriparks Limited has informed the Exchange regarding a revised press release dated October 28, 2026, titled \"Revised Press Release on the Unaudited Financial Results for the quarter ended on September 30, 2026\".",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026143319_RPR.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GATEWAY",
-    "name": "Gateway Distriparks",
-    "group": "watchlist"
-   }
-  },
-  {
-   "nse": "GATEWAY",
-   "exchange": "NSE",
-   "when": "2026-10-28T13:40+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Gateway Distriparks Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026134026_Outcome_Final.pdf",
-   "text": "Outcome of Board Meeting Gateway Distriparks Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026134026_Outcome_Final.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GATEWAY",
-    "name": "Gateway Distriparks",
-    "group": "watchlist"
-   }
-  }
- ],
- "medium": [
-  {
-   "nse": "VAIBHAVGBL",
-   "exchange": "NSE",
-   "when": "2026-10-29T01:17+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Vaibhav Global Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026011539_Investor_Presentation.pdf",
-   "text": "Investor Presentation Vaibhav Global Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026011539_Investor_Presentation.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "VAIBHAVGBL",
-    "name": "Vaibhav Global",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "VAIBHAVGBL",
-   "exchange": "NSE",
-   "when": "2026-10-29T00:55+05:30",
-   "subject": "Record Date",
-   "detail": "Vaibhav Global Limited has informed the Exchange that Record date for the purpose of Dividend is 04-Nov-2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026004601_Record_Date_SEs.pdf",
-   "text": "Record Date Vaibhav Global Limited has informed the Exchange that Record date for the purpose of Dividend is 04-Nov-2026.",
-   "tier": "medium",
-   "rule": "dividend|record date",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026004601_Record_Date_SEs.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "VAIBHAVGBL",
-    "name": "Vaibhav Global",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "VAIBHAVGBL",
-   "exchange": "NSE",
-   "when": "2026-10-29T00:32+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Vaibhav Global Limited has informed the Exchange regarding Outcome of Board Meeting held on October 28, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026002834_Outcome_SEs.pdf",
-   "text": "Outcome of Board Meeting Vaibhav Global Limited has informed the Exchange regarding Outcome of Board Meeting held on October 28, 2026.",
-   "tier": "medium",
-   "rule": "board meeting|intimation of board",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026002834_Outcome_SEs.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "VAIBHAVGBL",
-    "name": "Vaibhav Global",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "VAIBHAVGBL",
-   "exchange": "NSE",
-   "when": "2026-10-29T00:32+05:30",
-   "subject": "Dividend",
-   "detail": "Vaibhav Global Limited has informed the Exchange that Board of Directors at its meeting held on October 28, 2026, declared Interim Dividend of Rs. 1.50 per equity share.",
-   "link": "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026002729_Outcome_SEs.pdf",
-   "text": "Dividend Vaibhav Global Limited has informed the Exchange that Board of Directors at its meeting held on October 28, 2026, declared Interim Dividend of Rs. 1.50 per equity share.",
-   "tier": "medium",
-   "rule": "dividend|record date",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/VAIBHAVGBL_29102026002729_Outcome_SEs.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "VAIBHAVGBL",
-    "name": "Vaibhav Global",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ROUTE",
-   "exchange": "NSE",
-   "when": "2026-10-28T18:19+05:30",
-   "subject": "Updates",
-   "detail": "ROUTE MOBILE LIMITED has informed the Exchange regarding 'Communication to Shareholders - Intimation on Tax Deduction on Interim Dividend'.",
-   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_28102026181918_Upload.pdf",
-   "text": "Updates ROUTE MOBILE LIMITED has informed the Exchange regarding 'Communication to Shareholders - Intimation on Tax Deduction on Interim Dividend'.",
-   "tier": "medium",
-   "rule": "dividend|record date",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/ROUTE_28102026181918_Upload.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ROUTE",
-    "name": "Route Mobile",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SATIN",
-   "exchange": "NSE",
-   "when": "2026-10-28T16:30+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Satin Creditcare Network Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/SATIN_28102026162933_SCNL_Investor_Presentation.pdf",
-   "text": "Investor Presentation Satin Creditcare Network Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SATIN_28102026162933_SCNL_Investor_Presentation.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SATIN",
-    "name": "Satin Creditcare Network",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SATIN",
-   "exchange": "NSE",
-   "when": "2026-10-28T16:21+05:30",
-   "subject": "Press Release",
-   "detail": "Satin Creditcare Network Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"Announcement under Regulation 30 of SEBI (LODR) Regulations, 2015 - Press Release\".",
-   "link": "https://nsearchives.nseindia.com/corporate/SATIN_28102026162055_SCNL_Press_Release.pdf",
-   "text": "Press Release Satin Creditcare Network Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"Announcement under Regulation 30 of SEBI (LODR) Regulations, 2015 - Press Release\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SATIN_28102026162055_SCNL_Press_Release.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SATIN",
-    "name": "Satin Creditcare Network",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "POWERGRID",
-   "exchange": "NSE",
-   "when": "2026-10-28T15:43+05:30",
-   "subject": "Record Date",
-   "detail": "Power Grid Corporation of India Limited has informed the Exchange that Record date for the purpose of Dividend is 06-Nov-2026, if declared by the Board.",
-   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_28102026154132_BSENSEReg30dt28102026.pdf",
-   "text": "Record Date Power Grid Corporation of India Limited has informed the Exchange that Record date for the purpose of Dividend is 06-Nov-2026, if declared by the Board.",
-   "tier": "medium",
-   "rule": "dividend|record date",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/POWERGRID1_28102026154132_BSENSEReg30dt28102026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "GATEWAY",
-   "exchange": "NSE",
-   "when": "2026-10-28T14:05+05:30",
-   "subject": "Press Release",
-   "detail": "Gateway Distriparks Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"Gateway Distriparks announces its Q2 results\".",
-   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026140530_PR.pdf",
-   "text": "Press Release Gateway Distriparks Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"Gateway Distriparks announces its Q2 results\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026140530_PR.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GATEWAY",
-    "name": "Gateway Distriparks",
-    "group": "watchlist"
-   }
-  },
-  {
-   "nse": "GATEWAY",
-   "exchange": "NSE",
-   "when": "2026-10-28T14:01+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Gateway Distriparks Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026140102_Investor_Presentations_Oct26.pdf",
-   "text": "Investor Presentation Gateway Distriparks Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026140102_Investor_Presentations_Oct26.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GATEWAY",
-    "name": "Gateway Distriparks",
-    "group": "watchlist"
-   }
-  },
-  {
-   "nse": "GATEWAY",
-   "exchange": "NSE",
-   "when": "2026-10-28T13:56+05:30",
-   "subject": "Change in Director(s)",
-   "detail": "Gateway Distriparks Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026135650_mgmt.pdf",
-   "text": "Change in Director(s) Gateway Distriparks Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "tier": "medium",
-   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026135650_mgmt.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GATEWAY",
-    "name": "Gateway Distriparks",
-    "group": "watchlist"
-   }
-  },
-  {
-   "nse": "GATEWAY",
-   "exchange": "NSE",
-   "when": "2026-10-28T13:54+05:30",
-   "subject": "Change in Management",
-   "detail": "Gateway Distriparks Limited has informed the Exchange about change in Management",
-   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026135440_mgmt.pdf",
-   "text": "Change in Management Gateway Distriparks Limited has informed the Exchange about change in Management",
-   "tier": "medium",
-   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026135440_mgmt.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GATEWAY",
-    "name": "Gateway Distriparks",
-    "group": "watchlist"
-   }
-  },
-  {
-   "nse": "GATEWAY",
-   "exchange": "NSE",
-   "when": "2026-10-28T13:42+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Gateway Distriparks Limited has informed the Exchange regarding Outcome of Board Meeting held on October 28, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026134224_Outcome_Final.pdf",
-   "text": "Outcome of Board Meeting Gateway Distriparks Limited has informed the Exchange regarding Outcome of Board Meeting held on October 28, 2026.",
-   "tier": "medium",
-   "rule": "board meeting|intimation of board",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026134224_Outcome_Final.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GATEWAY",
-    "name": "Gateway Distriparks",
-    "group": "watchlist"
-   }
-  }
- ],
- "other": [
-  {
-   "nse": "SATIN",
-   "exchange": "NSE",
-   "when": "2026-10-28T18:37+05:30",
-   "subject": "Monitoring Agency Report",
-   "detail": "Monitoring Agency Report for the quarter ended September 30, 2026",
-   "link": "https://nsearchives.nseindia.com/corporate/SATIN_28102026183640_SCNL_MA_Report.pdf",
-   "text": "Monitoring Agency Report Monitoring Agency Report for the quarter ended September 30, 2026",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SATIN_28102026183640_SCNL_MA_Report.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SATIN",
-    "name": "Satin Creditcare Network",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "CDSL",
-   "exchange": "NSE",
-   "when": "2026-10-28T18:03+05:30",
-   "subject": "Retirement",
-   "detail": "CDSL has informed the Exchange about Retirement of Shri Ashish Bhatt, Senior Vice President, Operations.",
-   "link": "https://nsearchives.nseindia.com/corporate/CDSL_28102026180148_Retirement_Ashish_Bhatt_Signed.pdf",
-   "text": "Retirement CDSL has informed the Exchange about Retirement of Shri Ashish Bhatt, Senior Vice President, Operations.",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/CDSL_28102026180148_Retirement_Ashish_Bhatt_Signed.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "CDSL",
-    "name": "Central Depository Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SATIN",
-   "exchange": "NSE",
-   "when": "2026-10-28T17:07+05:30",
-   "subject": "Statement of deviation(s) or variation(s) under Reg. 32",
-   "detail": "Satin Creditcare Network Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "link": "https://nsearchives.nseindia.com/corporate/SATIN_28102026170356_SCNL_Statement_of_Deviation.pdf",
-   "text": "Statement of deviation(s) or variation(s) under Reg. 32 Satin Creditcare Network Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SATIN_28102026170356_SCNL_Statement_of_Deviation.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SATIN",
-    "name": "Satin Creditcare Network",
-    "group": "holding"
-   }
-  },
-  {
    "nse": "RBA",
    "exchange": "NSE",
-   "when": "2026-10-28T16:36+05:30",
-   "subject": "General Updates",
-   "detail": "Intimation regarding launch of new corporate website and change in email address for Investor Relations / Grievances",
-   "link": "https://nsearchives.nseindia.com/corporate/RBA_28102026163621_Finalupload.pdf",
-   "text": "General Updates Intimation regarding launch of new corporate website and change in email address for Investor Relations / Grievances",
-   "tier": "other",
-   "rule": null,
+   "when": "2026-10-29T20:00+05:30",
+   "subject": "Monitoring Agency Report",
+   "detail": "Monitoring Agency Report w.r.t. utilisation of proceeds from Qualified Institutions Placement and Preferential issue on private placement basis.",
+   "link": "https://nsearchives.nseindia.com/corporate/RBA_29102026200022_Finalupload.pdf",
+   "text": "Monitoring Agency Report Monitoring Agency Report w.r.t. utilisation of proceeds from Qualified Institutions Placement and Preferential issue on private placement basis.",
+   "tier": "high",
+   "rule": "qip|qualified institutions? placement|preferential (issue|allotment)|rights issue|warrants",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/RBA_28102026163621_Finalupload.pdf"
+     "https://nsearchives.nseindia.com/corporate/RBA_29102026200022_Finalupload.pdf"
     ]
    ],
    "stock": {
@@ -588,13 +34,792 @@
    }
   },
   {
-   "nse": "GATEWAY",
+   "nse": "EQUITASBNK",
    "exchange": "NSE",
-   "when": "2026-10-28T16:16+05:30",
+   "when": "2026-10-29T18:24+05:30",
    "subject": "Updates",
-   "detail": "Gateway Distriparks Limited has informed the Exchange regarding 'Revised Code of Practices and Procedures for Fair Disclosure of Unpublished Price Sensitive Information (UPSI)under Regulation 8(2) of the SEBI (Prohibition of Insider Trading) Regulations, 2015'.",
-   "link": "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026161640_Code.pdf",
-   "text": "Updates Gateway Distriparks Limited has informed the Exchange regarding 'Revised Code of Practices and Procedures for Fair Disclosure of Unpublished Price Sensitive Information (UPSI)under Regulation 8(2) of the SEBI (Prohibition of Insider Trading) Regulations, 2015'.",
+   "detail": "Equitas Small Finance Bank Limited has informed the Exchange regarding 'Unaudited Financial results for the quarter and half year ended 30.09.2026.'.",
+   "link": "https://nsearchives.nseindia.com/corporate/EQUITASBNK_29102026182407_Finaloutcomeforupload.pdf",
+   "text": "Updates Equitas Small Finance Bank Limited has informed the Exchange regarding 'Unaudited Financial results for the quarter and half year ended 30.09.2026.'.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/EQUITASBNK_29102026182407_Finaloutcomeforupload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "RBA",
+   "exchange": "NSE",
+   "when": "2026-10-29T17:35+05:30",
+   "subject": "Acquisition",
+   "detail": "Restaurant Brands Asia Limited has informed the Exchange about Acquisition of OCPS, Conversion of Loan into OCPS and change in terms of NCPS of PT Sari Burger Indonesia (Subsidiary).",
+   "link": "https://nsearchives.nseindia.com/corporate/RBA_29102026173242_FinalUpload.pdf",
+   "text": "Acquisition Restaurant Brands Asia Limited has informed the Exchange about Acquisition of OCPS, Conversion of Loan into OCPS and change in terms of NCPS of PT Sari Burger Indonesia (Subsidiary).",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/RBA_29102026173242_FinalUpload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RBA",
+    "name": "Restaurant Brands Asia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "RBA",
+   "exchange": "NSE",
+   "when": "2026-10-29T17:23+05:30",
+   "subject": "Change in Management",
+   "detail": "Restaurant Brands Asia Limited has informed the Exchange about appointment of Chief Executive Officer - India Business.",
+   "link": "https://nsearchives.nseindia.com/corporate/RBA_29102026172143_FinalUpload.pdf",
+   "text": "Change in Management Restaurant Brands Asia Limited has informed the Exchange about appointment of Chief Executive Officer - India Business.",
+   "tier": "high",
+   "rule": "resignation|cessation|appointment of .{0,60}(\\bmd\\b|\\bceo\\b|\\bcfo\\b|managing director|chief executive|chief financial|whole[- ]time)",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/RBA_29102026172143_FinalUpload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RBA",
+    "name": "Restaurant Brands Asia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "VOGL",
+   "exchange": "NSE",
+   "when": "2026-10-29T17:23+05:30",
+   "subject": "Resignation of Director/KMP/SMP",
+   "detail": "Vedanta Oil and Gas Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+   "link": "https://nsearchives.nseindia.com/corporate/VOGL_ROID_102402_KMP_Doc.zip",
+   "text": "Resignation of Director/KMP/SMP Vedanta Oil and Gas Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+   "tier": "high",
+   "rule": "resignation|cessation|appointment of .{0,60}(\\bmd\\b|\\bceo\\b|\\bcfo\\b|managing director|chief executive|chief financial|whole[- ]time)",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/VOGL_ROID_102402_KMP_Doc.zip"
+    ]
+   ],
+   "stock": {
+    "nse": "VOGL",
+    "name": "Vedanta Oil and Gas",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "RBA",
+   "exchange": "NSE",
+   "when": "2026-10-29T17:14+05:30",
+   "subject": "Press Release",
+   "detail": "Press Release on the Unaudited Financial Results for the quarter ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/RBA_29102026171440_Finalupload.pdf",
+   "text": "Press Release Press Release on the Unaudited Financial Results for the quarter ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/RBA_29102026171440_Finalupload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RBA",
+    "name": "Restaurant Brands Asia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "IEX",
+   "exchange": "NSE",
+   "when": "2026-10-29T17:05+05:30",
+   "subject": "Press Release",
+   "detail": "Indian Energy Exchange Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Indian Energy Exchange Limited (IEX) Announces Unaudited Financial Results For the Half year and Second Quarter ended September 30, 2026.\".",
+   "link": "https://nsearchives.nseindia.com/corporate/IEX_29102026170500_IEX_Intimation_Press_Release_Q2_Sep26_signed.pdf",
+   "text": "Press Release Indian Energy Exchange Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Indian Energy Exchange Limited (IEX) Announces Unaudited Financial Results For the Half year and Second Quarter ended September 30, 2026.\".",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/IEX_29102026170500_IEX_Intimation_Press_Release_Q2_Sep26_signed.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "IEX",
+    "name": "Indian Energy Exchange",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "RBA",
+   "exchange": "NSE",
+   "when": "2026-10-29T17:05+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Restaurant Brands Asia Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/RBA_29102026170235_FinalUpload.pdf",
+   "text": "Outcome of Board Meeting Restaurant Brands Asia Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/RBA_29102026170235_FinalUpload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RBA",
+    "name": "Restaurant Brands Asia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "IEX",
+   "exchange": "NSE",
+   "when": "2026-10-29T16:59+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Indian Energy Exchange Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/IEX_29102026165756_IEX_BM_Outcome_Q2Sep26_signed1.pdf",
+   "text": "Outcome of Board Meeting Indian Energy Exchange Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/IEX_29102026165756_IEX_BM_Outcome_Q2Sep26_signed1.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "IEX",
+    "name": "Indian Energy Exchange",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "VOGL",
+   "exchange": "NSE",
+   "when": "2026-10-29T16:43+05:30",
+   "subject": "Press Release",
+   "detail": "Vedanta Oil and Gas Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Press Release in respect of the Financial Results;\".",
+   "link": "https://nsearchives.nseindia.com/corporate/VOGL_29102026164250_PRandInvestorFINAL.pdf",
+   "text": "Press Release Vedanta Oil and Gas Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Press Release in respect of the Financial Results;\".",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/VOGL_29102026164250_PRandInvestorFINAL.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "VOGL",
+    "name": "Vedanta Oil and Gas",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "INDRAMEDCO",
+   "exchange": "NSE",
+   "when": "2026-10-29T16:39+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Indraprastha Medical Corporation Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/INDRAMEDCO_29102026163729_IMCL29102026.pdf",
+   "text": "Outcome of Board Meeting Indraprastha Medical Corporation Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/INDRAMEDCO_29102026163729_IMCL29102026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "INDRAMEDCO",
+    "name": "Indraprastha Medical Corporation",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "VOGL",
+   "exchange": "NSE",
+   "when": "2026-10-29T16:27+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Vedanta Oil and Gas Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/VOGL_29102026162613_2FinancialResultsIntimation.pdf",
+   "text": "Outcome of Board Meeting Vedanta Oil and Gas Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/VOGL_29102026162613_2FinancialResultsIntimation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "VOGL",
+    "name": "Vedanta Oil and Gas",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "EQUITASBNK",
+   "exchange": "NSE",
+   "when": "2026-10-29T15:53+05:30",
+   "subject": "Press Release",
+   "detail": "Equitas Small Finance Bank Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Press Release on the unaudited financial results for the quarter and half year ended September 30, 2026.\".",
+   "link": "https://nsearchives.nseindia.com/corporate/EQUITASBNK_29102026155137_ESFB_Intimation_of_Press_release_Q2_FY27_sd.pdf",
+   "text": "Press Release Equitas Small Finance Bank Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Press Release on the unaudited financial results for the quarter and half year ended September 30, 2026.\".",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/EQUITASBNK_29102026155137_ESFB_Intimation_of_Press_release_Q2_FY27_sd.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "LAURUSLABS",
+   "exchange": "NSE",
+   "when": "2026-10-29T15:38+05:30",
+   "subject": "Press Release",
+   "detail": "Laurus Labs Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Press Release on the Financial Results for the quarter and half-year ended September 30, 2026 along with the acquisition of Galenvs Sciences.\".",
+   "link": "https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026153754_1PressRelease29102026.pdf",
+   "text": "Press Release Laurus Labs Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Press Release on the Financial Results for the quarter and half-year ended September 30, 2026 along with the acquisition of Galenvs Sciences.\".",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026153754_1PressRelease29102026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "EQUITASBNK",
+   "exchange": "NSE",
+   "when": "2026-10-29T15:33+05:30",
+   "subject": "Resignation of Director/KMP/SMP",
+   "detail": "Equitas Small Finance Bank Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+   "link": "https://nsearchives.nseindia.com/corporate/EQUITASBNK_ROID_102340_KMP_Doc.zip",
+   "text": "Resignation of Director/KMP/SMP Equitas Small Finance Bank Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+   "tier": "high",
+   "rule": "resignation|cessation|appointment of .{0,60}(\\bmd\\b|\\bceo\\b|\\bcfo\\b|managing director|chief executive|chief financial|whole[- ]time)",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/EQUITASBNK_ROID_102340_KMP_Doc.zip"
+    ]
+   ],
+   "stock": {
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "LAURUSLABS",
+   "exchange": "NSE",
+   "when": "2026-10-29T15:06+05:30",
+   "subject": "General Updates",
+   "detail": "Laurus Labs Limited has informed the Exchange about Acquisition",
+   "link": "https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026150634_SIandC.pdf",
+   "text": "General Updates Laurus Labs Limited has informed the Exchange about Acquisition",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026150634_SIandC.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "EQUITASBNK",
+   "exchange": "NSE",
+   "when": "2026-10-29T15:00+05:30",
+   "subject": "Resignation",
+   "detail": "Equitas Small Finance Bank Limited has informed the Exchange regarding Resignation of Mr. P N Vasudevan as Managing Director & CEO of the company w.e.f. October 29, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/EQUITASBNK_29102026150035_KMPresignationfinal.pdf",
+   "text": "Resignation Equitas Small Finance Bank Limited has informed the Exchange regarding Resignation of Mr. P N Vasudevan as Managing Director & CEO of the company w.e.f. October 29, 2026.",
+   "tier": "high",
+   "rule": "resignation|cessation|appointment of .{0,60}(\\bmd\\b|\\bceo\\b|\\bcfo\\b|managing director|chief executive|chief financial|whole[- ]time)",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/EQUITASBNK_29102026150035_KMPresignationfinal.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "LAURUSLABS",
+   "exchange": "NSE",
+   "when": "2026-10-29T14:55+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Laurus Labs Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026145355_Outcome29102026.pdf",
+   "text": "Outcome of Board Meeting Laurus Labs Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026145355_Outcome29102026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "EQUITASBNK",
+   "exchange": "NSE",
+   "when": "2026-10-29T14:51+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Equitas Small Finance Bank Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/EQUITASBNK_29102026145000_final29102026.pdf",
+   "text": "Outcome of Board Meeting Equitas Small Finance Bank Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/EQUITASBNK_29102026145000_final29102026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
+    "group": "holding"
+   }
+  }
+ ],
+ "medium": [
+  {
+   "nse": "RBA",
+   "exchange": "NSE",
+   "when": "2026-10-29T17:27+05:30",
+   "subject": "Change in Management",
+   "detail": "Restaurant Brands Asia Limited has informed the Exchange about designating the officials of the Company as Senior Management Personnel.",
+   "link": "https://nsearchives.nseindia.com/corporate/RBA_29102026172656_FinalUpload.pdf",
+   "text": "Change in Management Restaurant Brands Asia Limited has informed the Exchange about designating the officials of the Company as Senior Management Personnel.",
+   "tier": "medium",
+   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/RBA_29102026172656_FinalUpload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RBA",
+    "name": "Restaurant Brands Asia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "RBA",
+   "exchange": "NSE",
+   "when": "2026-10-29T17:18+05:30",
+   "subject": "Change in Director(s)",
+   "detail": "Restaurant Brands Asia Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "link": "https://nsearchives.nseindia.com/corporate/RBA_29102026171827_FinalUpload.pdf",
+   "text": "Change in Director(s) Restaurant Brands Asia Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "tier": "medium",
+   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/RBA_29102026171827_FinalUpload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RBA",
+    "name": "Restaurant Brands Asia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "RBA",
+   "exchange": "NSE",
+   "when": "2026-10-29T17:10+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Restaurant Brands Asia Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/RBA_29102026171004_Finalupload.pdf",
+   "text": "Investor Presentation Restaurant Brands Asia Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/RBA_29102026171004_Finalupload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RBA",
+    "name": "Restaurant Brands Asia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "RBA",
+   "exchange": "NSE",
+   "when": "2026-10-29T17:07+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Restaurant Brands Asia Limited has informed the Exchange regarding Outcome of Board Meeting held on October 29, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/RBA_29102026170726_FinalUpload.pdf",
+   "text": "Outcome of Board Meeting Restaurant Brands Asia Limited has informed the Exchange regarding Outcome of Board Meeting held on October 29, 2026.",
+   "tier": "medium",
+   "rule": "board meeting|intimation of board",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/RBA_29102026170726_FinalUpload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RBA",
+    "name": "Restaurant Brands Asia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "IEX",
+   "exchange": "NSE",
+   "when": "2026-10-29T17:07+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Indian Energy Exchange Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/IEX_29102026170658_IEX_Intimation_Investor_presentation_Q2_Sep26_signed.pdf",
+   "text": "Investor Presentation Indian Energy Exchange Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/IEX_29102026170658_IEX_Intimation_Investor_presentation_Q2_Sep26_signed.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "IEX",
+    "name": "Indian Energy Exchange",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "VOGL",
+   "exchange": "NSE",
+   "when": "2026-10-29T16:46+05:30",
+   "subject": "Cessation",
+   "detail": "Vedanta Oil and Gas Limited has informed the Exchange regarding Cessation of Ms Shivangi Dhanuka as Company Secretary & Compliance Officer of the company w.e.f. October 31, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/VOGL_29102026164622_3ChangeinCompanySecretaryIntimationSigned.pdf",
+   "text": "Cessation Vedanta Oil and Gas Limited has informed the Exchange regarding Cessation of Ms Shivangi Dhanuka as Company Secretary & Compliance Officer of the company w.e.f. October 31, 2026.",
+   "tier": "medium",
+   "rule": "company secretary|compliance officer",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/VOGL_29102026164622_3ChangeinCompanySecretaryIntimationSigned.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "VOGL",
+    "name": "Vedanta Oil and Gas",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "VOGL",
+   "exchange": "NSE",
+   "when": "2026-10-29T16:44+05:30",
+   "subject": "Appointment",
+   "detail": "Vedanta Oil and Gas Limited has informed the Exchange regarding Appointment of Mr Rupesh Kumar as Company Secretary & Compliance Officer of the company w.e.f. November 01, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/VOGL_29102026164441_3ChangeinCompanySecretaryIntimationSigned.pdf",
+   "text": "Appointment Vedanta Oil and Gas Limited has informed the Exchange regarding Appointment of Mr Rupesh Kumar as Company Secretary & Compliance Officer of the company w.e.f. November 01, 2026.",
+   "tier": "medium",
+   "rule": "company secretary|compliance officer",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/VOGL_29102026164441_3ChangeinCompanySecretaryIntimationSigned.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "VOGL",
+    "name": "Vedanta Oil and Gas",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "VOGL",
+   "exchange": "NSE",
+   "when": "2026-10-29T16:41+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Vedanta Oil and Gas Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/VOGL_29102026164039_PRandInvestorFINAL.pdf",
+   "text": "Investor Presentation Vedanta Oil and Gas Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/VOGL_29102026164039_PRandInvestorFINAL.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "VOGL",
+    "name": "Vedanta Oil and Gas",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "VOGL",
+   "exchange": "NSE",
+   "when": "2026-10-29T16:33+05:30",
+   "subject": "Change in Company Secretary/Compliance Officer",
+   "detail": "Vedanta Oil and Gas Limited has informed the Exchange about Change in Company Secretary/Compliance Officer",
+   "link": "https://nsearchives.nseindia.com/corporate/VOGL_29102026163345_3ChangeinCompanySecretaryIntimationSigned.pdf",
+   "text": "Change in Company Secretary/Compliance Officer Vedanta Oil and Gas Limited has informed the Exchange about Change in Company Secretary/Compliance Officer",
+   "tier": "medium",
+   "rule": "company secretary|compliance officer",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/VOGL_29102026163345_3ChangeinCompanySecretaryIntimationSigned.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "VOGL",
+    "name": "Vedanta Oil and Gas",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "EQUITASBNK",
+   "exchange": "NSE",
+   "when": "2026-10-29T16:18+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Equitas Small Finance Bank Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/EQUITASBNK_29102026161748_Intimation_on_Investorpresentation_Q2_FY_27_sd.pdf",
+   "text": "Investor Presentation Equitas Small Finance Bank Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/EQUITASBNK_29102026161748_Intimation_on_Investorpresentation_Q2_FY_27_sd.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "LAURUSLABS",
+   "exchange": "NSE",
+   "when": "2026-10-29T15:18+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Laurus Labs Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026151833_InvPresentation29102026.pdf",
+   "text": "Investor Presentation Laurus Labs Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026151833_InvPresentation29102026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "LAURUSLABS",
+   "exchange": "NSE",
+   "when": "2026-10-29T15:14+05:30",
+   "subject": "Record Date",
+   "detail": "Laurus Labs Limited has informed the Exchange that Record date for the purpose of Dividend is 06-Nov-2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026151316_Dividend29102026.pdf",
+   "text": "Record Date Laurus Labs Limited has informed the Exchange that Record date for the purpose of Dividend is 06-Nov-2026.",
+   "tier": "medium",
+   "rule": "dividend|record date",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026151316_Dividend29102026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "LAURUSLABS",
+   "exchange": "NSE",
+   "when": "2026-10-29T15:10+05:30",
+   "subject": "General Updates",
+   "detail": "Laurus Labs Limited has informed the Exchange about appointment of Mr. Kundan Kumar Jha as Joint Company Secretary of the Company w.e.f. November 1, 2026",
+   "link": "https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026151022_JointCS29102026.pdf",
+   "text": "General Updates Laurus Labs Limited has informed the Exchange about appointment of Mr. Kundan Kumar Jha as Joint Company Secretary of the Company w.e.f. November 1, 2026",
+   "tier": "medium",
+   "rule": "company secretary|compliance officer",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026151022_JointCS29102026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  }
+ ],
+ "other": [
+  {
+   "nse": "UGROCAP",
+   "exchange": "NSE",
+   "when": "2026-10-29T17:58+05:30",
+   "subject": "Allotment of Securities",
+   "detail": "Allotment of listed commercial paper",
+   "link": "https://nsearchives.nseindia.com/corporate/UGROCAP_29102026175803_AllotmentofCP.pdf",
+   "text": "Allotment of Securities Allotment of listed commercial paper",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -603,54 +828,104 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/GATEWAY_28102026161640_Code.pdf"
+     "https://nsearchives.nseindia.com/corporate/UGROCAP_29102026175803_AllotmentofCP.pdf"
     ]
    ],
    "stock": {
-    "nse": "GATEWAY",
-    "name": "Gateway Distriparks",
-    "group": "watchlist"
-   }
-  }
- ],
- "dropped": 11,
- "news": [
-  {
-   "nse": "TEJASNET",
-   "title": "Tejas Networks’ Rating Reaffirmed, ICRA Maintains Confidence in Its Financial Stability in the Telecommunications Sector",
-   "source": "Traders Union",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT2F6Nm9XWF9sQk56U2ltQUZDOHY1UWJ4S0xEOXc5cEtqbE80ZDlqWWk1NkdZNnFHR3YtdVgtS3lVZ2dJLWtSWFRjUTIyYl9yWE02bDhlZWdLZ0pKWVNrR3czc2N3RjB1R3dlMnBvaWpjNDZycUotUXFDUmlNQVNTY1hxTUQ1Ti1id3E4RnIwLUt5N01vM1o1VThxRWZ0bHotbGc?oc=5",
-   "when": "2026-10-28T17:58+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": false,
-   "stock": {
-    "nse": "TEJASNET",
-    "name": "Tejas Networks",
+    "nse": "UGROCAP",
+    "name": "Ugro Capital",
     "group": "holding"
    }
   },
   {
-   "nse": "ROUTE",
-   "title": "Route Mobile (NSE:ROUTE) Q2 FY27 Results, Interim Dividend and AI Expansion",
-   "source": "Kalkine India",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNGZVS1Y3cGRCbW80Vm1OWVpJYXNBV3RJdVZpS0thZFAzQWlFSjBCWnU5YkZENmxNM3o2Zll6RnJxQllTd3o3RHdrNjNSNkFLd092NnZPemd2R3dNdm5oaXRaR0twQzVIclNjUkVPREF6MWkwblkyb25xYVE1amFUR1Y4VHlhVDExSG13OE96YkZKUG5ObHhaVUowVGQya0k2V25GVE9kUUN5T2Y5WlBsMW12aGJCVlhlSDFCeU9CdmVrdmJWc0JxQ1lQM1M5UGVGbmc?oc=5",
-   "when": "2026-10-28T17:10+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "nse": "UGROCAP",
+   "exchange": "NSE",
+   "when": "2026-10-29T17:58+05:30",
+   "subject": "Allotment of Securities",
+   "detail": "Allotment of unlisted commercial paper",
+   "link": "https://nsearchives.nseindia.com/corporate/UGROCAP_29102026175821_AllotmentofCP.pdf",
+   "text": "Allotment of Securities Allotment of unlisted commercial paper",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/UGROCAP_29102026175821_AllotmentofCP.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "UGROCAP",
+    "name": "Ugro Capital",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "LAURUSLABS",
+   "exchange": "NSE",
+   "when": "2026-10-29T15:01+05:30",
+   "subject": "General Updates",
+   "detail": "Laurus Labs Limited has informed the Exchange about General Updates",
+   "link": "https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026150128_Galenvs.pdf",
+   "text": "General Updates Laurus Labs Limited has informed the Exchange about General Updates",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026150128_Galenvs.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  }
+ ],
+ "dropped": 22,
+ "news": [
+  {
+   "nse": "EQUITASBNK",
+   "title": "Equitas SFB CEO PN Vasudevan rules out resignation U-turn amid 32% stock crash, says ‘no conflict of...",
+   "source": "Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNaFBOWFBVTllVelVZOXpycTl5a28zMXk5cjlUV05ncmNsb2xwZ01vY1Joc18tLVRBbHB5WDR2ZGRpWjBfQmZ1eEluUGJidlpCOU42a1NVYmhocXNJUFdyNzkzOUswbF9nQU0wUkpLRFVRcGc4ZnV2YmRMTFZyaTl0bmVld1hMd2RWbDZXSUhBNE1yWWtqalN6NklFME52NTZ5eHNZTzk1M3Nob1dySUNSU3FWOUkxT3E4OU9fT2lRZnJuZ2NHcktSQjd1VTlHM29IMjRVR0RpZXpTVXcyTjR3Z2VqWnBmSTE0bjEtTTlaRWQxY3RrU1Z3cGdJUDF4QmpE0gGGAkFVX3lxTE0yTWVMYl9vYjRSMHlGYm5uVmVnQnlNaC1vN0hkMnF4QnZoamVNM184M2NxWkRhaE1kcmFIeXo3WGp0M3JvN0VNMVZMLUFuUXlrUW5RT2RvRXBVMmlIRkI1VmJvSVVNN05JRmFUYXREc3NoMGZmc01PLVE3d1J3b0ZxeW1jWjVhdkNadDhmRW90QVlIaVZkWmVudzB3VlpZSjd4UUg0Q0p5VnljTDJzMlZyZktHQWpmbUNRUjBzRjdmeWE5TGlSdlB5SnVOZllwN0dQMm5IM3hlMm1jazlDTmNyTHBIR1RlMF9iMDBuWlc0U1pBSmJyTHhNQ1k3eW1hUlM3NjVyOEE?oc=5",
+   "when": "2026-10-30T12:09+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": true,
+   "stock": {
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "EQUITASBNK",
+   "title": "Right Time To Remove Overhang, No Regulatory Concerns Over Resignation, Says PN Vasudevan Of Equitas SFB",
+   "source": "NDTV Profit",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUkNzUmNpNUpOTnBoZWMyVFh3VktWYmx1aF8xdW5xYjFzYmRKTm9JWUo2Y002RkpocV8tNUR1ZEx6RDA1WnJ0eDhvMkFzMV9hQzg3YjcwMmNHY0dJN3Y1YXVoVFdIdE5IeUNjT1dWXzJsTkl2RUs0U3Y3RlhNbUFNVFB5REZhb2dSa09ad1Jyb2dwa09JWWtYZ29rd0tkQ29ndzNzbHJhV2JxTmFiQVBtY2RGU2FmQXV0cHQ0REJPMDM1eG9IRDdvc0U0dWstZW1QM3JpRjE2bjBrVTR6dmZWeFQ5d3lKUWvSAe8BQVVfeXFMTU5LeXd5M0VHUWlXTU1OdVZfbzdVbVhUYjV6aWZmRF9JNi1HaWpKY0NyV2JlTG5tWG11SjdrQVd2aXE4d0plYThPVUZpOHR5N0VnbUxXVGhNR05RbWdGa0NYaklacFg0RFFjeDl2S2JOWWhMT2ZuTmZpLTdHLUhUOTJsSUE1aG8xWDktdEdISWd5SG90M2hzRHBSQ3NrWVRzbjFlQzdHV0lOVTBVOXRyOE9oN21wd3NwZ25JRVRNS0FIVnlNRHI5ZEtGY2VGdnM2NkctRi1NMkpBcENLTDlxWW5yeklHTmdSUmY0RXNxMTA?oc=5",
+   "when": "2026-10-30T11:20+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
-    "nse": "ROUTE",
-    "name": "Route Mobile",
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
     "group": "holding"
    }
   },
   {
    "nse": "JMFINANCIL",
-   "title": "JM Financial AMC announces resignation of CFO cum COO",
-   "source": "Investment Guru India",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdzVPQTZCVlBOemtwZ2NReVgxVFZpTl9tekI5dm1NQlZJUkJXVENtQ3VkbWVBbHllNXdaLWJEcnhacUZIVUZRU2dDeVlUVENVNktSakhIdjJIQVZ5WGs2OUxvajYwZE92Z3JxNlBvalVydnd3TFFwSWdzcm50SzNuWE5Sa0VUM2J0VzRDYmlKMndweE45bjJXQ190MnlCWkt6cXMxQw?oc=5",
-   "when": "2026-10-28T17:06+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
+   "title": "Suzlon Energy shares crash 10% after Q2 results; JM Financial downgrades stock to add, revises target...",
+   "source": "Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNU2ZHMEpqaGlaUFFRak1aQTVESzgtNFNiRjViWnZJMllGQ3M4dWJSSm5BcGxHNVVaUE9jWE9DZnhVazU4TGZ4TXVmdjhZdjNXLWJPejQ0Mmtmb0xsMzZKY0Vta2xDd25jdmVYaFdMb0NCYnJPaGlYbFZzSjlqcGtFY3d5a05zUGtySXdUejVGdlZCRjM2UEtRWlpkSlBuVk1YRWJWQWhtb0ZFR0k4SzdsYWM2SlR1bHVCXzNuX3dDRzdadlhMc3JoNnRWSkNXNTNSMzNsRmhyTnZ3Nm0xSDZROTZyU2lkUllrTzRhUXByR2dSQXNqZzlkMnlwb2UtN1ZrUHZZ0gGDAkFVX3lxTE1TZkcwSmpoaVpQUVFqTVpBNURLOC00U2JGNWJadkkyWUZDczh1YlJKbkFwbEc1VVpQT2NYT0NmeFVrNThMZnhNdWZ2OFl2M1ctYk96NDQya2ZvTGwzNkpjRW1rbEN3bmN2ZVhoV0xvQ0Jick9oaVhsVnNKOWpwa0Vjd3lrTnNQa3JJd1R6NUZ2VkJGMzZQS1FaWmRKUG5WTVhFYlZBaG1vRkVHSThLN2xhYzZKVHVsdUJfM25fd0NHN1p2WExzcmg2dFZKQ1c1M1IzM2xGaHJOdnc2bTFINlE5NnJTaWRSWWtPNGFRcHJHZ1JBc2pnOWQyeXBvZS03VmtQdlk?oc=5",
+   "when": "2026-10-30T11:14+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": true,
    "stock": {
     "nse": "JMFINANCIL",
     "name": "JM Financial",
@@ -658,58 +933,100 @@
    }
   },
   {
-   "nse": "GATEWAY",
-   "title": "Gateway Distriparks: Re-appoints Samvid Gupta as Joint MD for 5 Years",
-   "source": "InvestyWise",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTFRMbjFpNkhlU1k4QXRYYVUwTFdsQTNlb09hMGtwZW80dzJhWjFINXhXMFV5VUV5UHZyLWNpWmVOYjIyV2hhMmlqWjZJQVh1bW5KZWRCUVRRaUdHNWhKeVpGZU9nN05iRzhIRnlkbEVkQUR1N0lOdDlqUTlaQ0VRMUstMjc5ZUlnSU5WRk9EaEZTb3NEaDMzREgwbHFNc0U?oc=5",
-   "when": "2026-10-28T14:12+05:30",
+   "nse": "JMFINANCIL",
+   "title": "Daily Voice: Worst of IT sector de-rating is behind us; recovery is a 2027 story, says JM Financial’s...",
+   "source": "Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxONmRGV3UxblBHUWpsb0o4REV2SmlaZzU3UGR6clI4d040R0MxUnY4UXZMbkh5c3V2azV2eUhURnJNR2ZaUmVnYjRCSVhUdmxBMlVGR2VMZUJoR09oMnJDMFd4UkQ4aVM0UEZ0MzJHVlpNUzk3WmhzOUdIU3d1VFlxdlRPbndNVWtPMFNSeUcyTVNkUzRJZ2hOZXRLLW93am5mMmtUSkotRnNJZXA2Uk9DQ1NfSmxoOWdCdU5lSHdMZlBIUFZyRWowLWlMc3I3aE9WMjJsOEV2SlQ3Si1OREJXam1hTnRzVVZVa1hnVHQxMFl5SlFPRlNTRU9EZTdDaWtrNkU5elp6ZlJwVVlBejVvU29na3BfeGpa0gGeAkFVX3lxTE9MNm5GdGg3dC1zaEdST2M3YzJZdWdTQWNnZlZjdkZpSTc3bG5GdzVFY2R1eVA5S3ZVakZPLTdrbjdhM1RFV0RWR0h5TnVtWFVMQkszV1c2T1pxN3gtRXRiLS1TSXFORjZGdF9vcU5aRDcyTmoyVThlNDhQNE9HMV93Sjc1SVU2U09YUmtoLXhEcm03RGdETVZ1ak1EbGdzNWRqeXZFQ2RrUW45MExmdEVEazF3M3E2X0ZwaXBVcmk1WV83NTVHUEZvUEZ3U2d3NHpwOTR5blFxRkpSOE1UTERONEJaYnR1Yy04dlRLSU9PZ09QeldKNk8yMjBESVVqSHR6bUEwOFdKclhMbkwxNnNCbmRkSmRqdC1XUE55Y3c?oc=5",
+   "when": "2026-10-30T07:08+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": true,
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "LAURUSLABS",
+   "title": "Laurus Labs appoints Kundan Kumar Jha as Joint Company Secretary",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdG96ckdiNnJCTjc1NnI3NWZsc1RqVTBzamRzZHp2U0g3MDFaOTJuMXFRWEVIcTlkTjFtMl9fa200WVZPTFdKeUJ0Z3BSbE9hXzl4RnMtYksyTE8yUW5YMGtzbThpZlpNZDh6b2M2YU9MNEY2QW9icFhFbVVnQkJScGl6UlB5TERMSjFXV1pRdURMYW9aSVNtRFBVLVpOTUNNb3l1WnpEN3JwRUo4dzlDZk93MkhncHk0dEE?oc=5",
+   "when": "2026-10-29T21:12+05:30",
    "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
-    "nse": "GATEWAY",
-    "name": "Gateway Distriparks",
-    "group": "watchlist"
-   }
-  },
-  {
-   "nse": "JUBLINGREA",
-   "title": "Jubilant Ingrevia Ltd Downgraded to Sell Amid Bearish Technicals and Weak Long-Term Growth",
-   "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWXhLQUZ1UlJtUGZ1T1UxbXRaY3lIbEFWWXdRWFlwRWlEekFweTBaeloybjZfMGZkTmpKRWpmeFdxeFBKTjB2djJWSFFKT2Q3a09Db2lycVYwaUE4U3dwVWI5YjlmakVIM2NJa3FPN3VQamJlRURZX3BTYmVRR1ZGZTZkdDJCQ3ZBQTBaZUpfcnhaMEo3Z2ZNN0FFMlh4QWNYcGdLS1dkdkVjMGpQbG15c2d5TmFYRGdZLVYydVRHTWcwTkFzTTIyUTRrNi1EdDh5a2NtdWplZ0JGTXhfRzE0ZGhqWU1UUDQ?oc=5",
-   "when": "2026-10-28T10:04+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": false,
-   "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
     "group": "holding"
    }
   },
   {
-   "nse": "ROUTE",
-   "title": "Route Mobile: Acquires Heltar Technologies, Boosts AI Capabilities",
-   "source": "InvestyWise",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ZazhPRHZCTk5uRnZxVTFISjRHR05LWWEyVEpkZWFzYmEtT0hKbGZpZFdDeksyOWVLSWFibS1aMWtiRWdkM1N2S0drN29oWWs1dlN1NWpiemNrN2IyNGNFVkN6VTFnLTd1elRPcmFzSDQ3NnYwaVJ1RQ?oc=5",
-   "when": "2026-10-28T09:01+05:30",
+   "nse": "RBA",
+   "title": "Restaurant Brands Asia Confirms Full Utilization Of QIP Funds; Preferential Issue Progresses",
+   "source": "Whalesbook",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQTGdfRHpkWmdBbFdsRmdfY3p5d3c1RmtYcnV0RzlrRk5EcF9UTWlYTkd4Y0k5aXJXWXpjdG1Mc1JDV3lIVmhFWjUtZm1hMmROVkt5ay04Z3NBdl96ZFJqcXdQVlJBc1RUTl9vODFxb2JxY2tjSWQteEVnSVBNTm1yQW53ZzVwQy02MFU2am9SN29HT0dMcTluNmN2X21zUEl6ZmpoYTBtWlhnVE5aVC1jOUN0MXpPY3NWTi1NT0djRmNpdWlDbjR6cGFMTEtLXzh6cWtHWml4VmVJZlJRbkxMX1F6VThsUEw5NXI2amp3aW1rVFk3dldGdTdSMUNidzd3aTRnb2dnNktJcEYtRFdPOUJR?oc=5",
+   "when": "2026-10-29T20:08+05:30",
    "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
-    "nse": "ROUTE",
-    "name": "Route Mobile",
+    "nse": "RBA",
+    "name": "Restaurant Brands Asia",
     "group": "holding"
    }
   },
   {
-   "nse": "POWERGRID",
-   "title": "Jyoti Structures Receives Order Worth 6.49 Billion Rupees From Power Grid Corporation Of India",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPX0ljNzUwOXBtckJIOXdCRld2bFdrY0FwN0JTNXBleVZBNGxtTnpNajByRER4ODJUYkhqVnpZTnhiN3VsLVZocnAxX28ya3VrSGxwYlJUMUZwUG53OHBsdTlZYndiOFdIZjNHU0tjYjZIMkhpUDFBOVRaQTZYaC1qdTNuUUJybEVHdDNZbDYzZnozbWhFS2VsN01EanVhRTV2RW50dEpfd3YwdnFmYXpiMFBQQ3MzNHVra2gtTE83bkxVMVV0RHRMQ19mZVYwS2lSVWJ3bWkwMF85WFEzenBLajRnckkzSElrQncycDUzY1pKLWhyMEgw?oc=5",
-   "when": "2026-10-28T09:00+05:30",
-   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
+   "nse": "LAURUSLABS",
+   "title": "Laurus Labs to acquire 52% stake in Hyderabad-based SI&C Resins for ₹32.5 crore",
+   "source": "The Times of India",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNDgxdjVQVmY4eEJYWXRIdzFIY1hNVzk3aTBCN0xlWVBpcUxBWWdXTWtBckRUOXNrUTN6S2cwX3lIVzVxdjJ4QXJqVWtlMklBZ3d6anFic2RyYkdCWXNCdVA2R3QtckdGbG95SDFEQkZIRDVnaF9NV2tCZVdHZFM5T2N6RzY5eDNUSDhhejdmT3ctX0Rha3lGVDdhYUVPLXBhcUh5T01kZ2k3QUt1VWZVOXoxVmtSTEd6RTR2SUc5ekVydC1mcFZzcnVuaHhLbm9DbGxnNW9ic01nRnZSQ3YybHNBZThYNW5i0gHuAUFVX3lxTE1QTDJoMUVhYW5LcWR6MjZqU3htYXhSWjlaZ184U3B2R2dGaE8zcU5xTjBqUHNma1kxcVR4SHF4VHpacjNQTVB5ZFBad2IzdVBub19KajNlZUZMOHVSLUh0NEE4MU5kNjBoQnZSTnlna1hTb0ZXdmVDRDh5dUxGWDNqX0NrdmNhek1jWE9fMGxXY0ZJa3JSSGtvR0E2UGhUdzFCeXduVXRQelFSVlJnd0M2LTZTM1YwN2JweERhamlrVXM3allpSERWNVNHWGJmeUVhMXRHeXBvd3JfZ2lrTFJLQmw2UE9WbGlDT0lkOFE?oc=5",
+   "when": "2026-10-29T18:52+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "LAURUSLABS",
+   "title": "Laurus Labs Q2 Profit Doubles, Acquires Galenvs, SI&C Resins",
+   "source": "Rediff MoneyWiz",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdzBwWUpDSzJ4cE93ZElCY191SjUtbzRPWklrYjdVWTdlbE9PNzBaWGxyTkJrQnpTZ0xqMHdIQ2MwNHV0a0NxMVlHV3lCdlhVcTVHMGZJMmJyWnAwR3JROEpXZWxmcTNacHctQUhZRFZObEM2M0Y3dlhnY2tCQU40bjhmWEhtSllqa01XWnk1YnFyRWNmUjhraVA5c3NERHl1N0hjWWNZVXROMXZHXzZJ0gG0AUFVX3lxTE5pUlBrTmlzeUg4MkJfUVN5d0Rsd2FrN1d0YUxHOGRSY2piQkpYQy1sbllPZ0ppeHRXbU81aUZEMnR5dnpYSnVLVU5Ea3pERXZTZl95WXpsZzloa3NsVk1BZDE5dHkwYVhiMmJXcVJEWHoxMzVmREI0QTg0dEZ6WmUyVEJkeXE0QmdySExVOFE2eGc5MXAzQjJLYk1xZ1JDUEFXMWFjcmQ2dnU2X2IyLXBHQVRBMQ?oc=5",
+   "when": "2026-10-29T18:19+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "VAIBHAVGBL",
+   "title": "Earnings call transcript: Vaibhav Global cuts FY 2027 outlook in Q2 2026 By Investing.com",
+   "source": "Investing.com India",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNelNuN3hJOHhaU3lNeVB3WThPbDV1VmpaYU9sUkVRdUZ5UjZTWXlQQkJZRGR6RHhhTmY0Nl8tSWROaXNHZng2MU1ySFZkZGIzcjNlODJzS2JId3p3S0drYVlHVmh3dU0zZHdQaTk3SS11NlJOWVNLMnpwZmxfUkVxV1R3TFg4aXc3U0FBSk1kemN2V3ZpX0U1a25vMEw5cHJVVm9MVXVRNnNTWm9QWjRfQXFYQ0ZPWU1ScnhXVk5HMUhjdmR6ZGd1Zkc1OGw?oc=5",
+   "when": "2026-10-29T18:01+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "VAIBHAVGBL",
+    "name": "Vaibhav Global",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "EQUITASBNK",
+   "title": "Equitas SFB shares hit 20% lower circuit as MD & CEO resigns amid conflict of interest",
+   "source": "Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYklyRUF1NGNrZWNUbURza2RXZkp5TDE3VFBObUxnLUk2TnRZOHJEdk05UjgwVEFYZDVjZXNCNFpQWlkta1lIQXRxV2ZwSThRUXRMYVlJWXlWdWR6VHhqRl84QUlONDBSOHRPNHItbTdJVm45aEZwOWxmYk05ZVktNXZjZ0Q1bDlKWmgxRG02WnVWdWxWMUZtTmhtSkZNcjhVR3RYSkF6RnljNlNjYThEemxiRFdDOE9aT0duYWJFQTQwMkdJdGwyRm5JM2Q3WHY30gHWAUFVX3lxTFA4WEZuY0pCTnRpc2pvWE1vcHc2RVc0dDQ2UG1Rb29JOVhOaTZDLUh0MG5SWW01RENYUnM5ZzdxS3dFLUhrNjA3SkxacE1pOXVZdmxtamtmcXpnLThYdlN3U1pxaDZyRWVxWnJENTA3NndWelR2VUxCQVZIT2dPU0JOVW9wNDIzUFRuWVhPMlM1QUtRVTQ5djg3dWhjVGlVcmVxTmUwWFBZNmlta2RuOGdnRTN3cndKeUFRSkJkeHhmbEsxSE0zbDZjbHFtUHpaMHpYUGJvLVE?oc=5",
+   "when": "2026-10-29T15:14+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": true,
+   "stock": {
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
     "group": "holding"
    }
   }
@@ -1169,8 +1486,8 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 28 Oct",
-  "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (JSONDecodeError)"
+  "BSE codes taken from bhavcopy 29 Oct",
+  "BSE announcements failed (JSONDecodeError)",
+  "BSE announcements failed (HTTPError)"
  ]
 }
