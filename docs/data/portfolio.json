@@ -1,21 +1,21 @@
 {
- "generated": "2026-10-31T12:44+05:30",
- "since": "2026-10-30T06:44+05:30",
+ "generated": "2026-11-01T13:16+05:30",
+ "since": "2026-10-31T07:16+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 40",
+  "NSE": "ok · 14",
   "BSE": "unavailable",
-  "News": "ok · 14"
+  "News": "ok · 5"
  },
  "high": [
   {
    "nse": "ADVENZYMES",
    "exchange": "NSE",
-   "when": "2026-10-30T19:24+05:30",
-   "subject": "Updates",
-   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange regarding 'Closure of Buyback' with effect from October 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/AETL_30102026192346_Intimationclosure.pdf",
-   "text": "Updates Advanced Enzyme Technologies Limited has informed the Exchange regarding 'Closure of Buyback' with effect from October 30, 2026.",
+   "when": "2026-10-31T15:39+05:30",
+   "subject": "Post Buyback Public Announcement",
+   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange about post Buyback Public Announcement",
+   "link": "https://nsearchives.nseindia.com/corporate/AETL_31102026153853_IntimationPBPA.pdf",
+   "text": "Post Buyback Public Announcement Advanced Enzyme Technologies Limited has informed the Exchange about post Buyback Public Announcement",
    "tier": "high",
    "rule": "buy-?back|bonus issue|stock split|sub-?division",
    "exchange_set": [
@@ -24,7 +24,7 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/AETL_30102026192346_Intimationclosure.pdf"
+     "https://nsearchives.nseindia.com/corporate/AETL_31102026153853_IntimationPBPA.pdf"
     ]
    ],
    "stock": {
@@ -34,63 +34,13 @@
    }
   },
   {
-   "nse": "MEDIASSIST",
+   "nse": "CDSL",
    "exchange": "NSE",
-   "when": "2026-10-30T18:39+05:30",
-   "subject": "Record Date",
-   "detail": "Medi Assist Healthcare Services Limited has informed the Exchange that Record date for the purpose of Buyback is 20-Nov-2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/MEDIASSIST_30102026183850_Reg30BuyBackSd.pdf",
-   "text": "Record Date Medi Assist Healthcare Services Limited has informed the Exchange that Record date for the purpose of Buyback is 20-Nov-2026.",
-   "tier": "high",
-   "rule": "buy-?back|bonus issue|stock split|sub-?division",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/MEDIASSIST_30102026183850_Reg30BuyBackSd.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "MEDIASSIST",
-    "name": "Medi Assist Healthcare Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "MEDIASSIST",
-   "exchange": "NSE",
-   "when": "2026-10-30T18:36+05:30",
-   "subject": "Buyback",
-   "detail": "MEDIASSIST: Medi Assist Healthcare Services Limited has informed the Exchange that the Board of Directors of the Company in their meeting held on October 30, 2026 have approved the Buyback of fully-paid up equity shares of the Company through the tender offer route",
-   "link": "https://nsearchives.nseindia.com/corporate/MEDIASSIST_30102026183649_Reg30BuyBackSd.pdf",
-   "text": "Buyback MEDIASSIST: Medi Assist Healthcare Services Limited has informed the Exchange that the Board of Directors of the Company in their meeting held on October 30, 2026 have approved the Buyback of fully-paid up equity shares of the Company through the tender offer route",
-   "tier": "high",
-   "rule": "buy-?back|bonus issue|stock split|sub-?division",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/MEDIASSIST_30102026183649_Reg30BuyBackSd.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "MEDIASSIST",
-    "name": "Medi Assist Healthcare Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "MEDIASSIST",
-   "exchange": "NSE",
-   "when": "2026-10-30T18:21+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Medi Assist Healthcare Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/MEDIASSIST_30102026182117_MAHSOutcomeofBM30Oct2026FSandBB1sd.pdf",
-   "text": "Outcome of Board Meeting Medi Assist Healthcare Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "when": "2026-10-31T14:27+05:30",
+   "subject": "Press Release",
+   "detail": "CDSL has informed the Exchange regarding Media Release relating to financial results for the quarter and half year ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/CDSL_31102026142410_Press_release_Signed.pdf",
+   "text": "Press Release CDSL has informed the Exchange regarding Media Release relating to financial results for the quarter and half year ended September 30, 2026.",
    "tier": "high",
    "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
    "exchange_set": [
@@ -99,23 +49,23 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/MEDIASSIST_30102026182117_MAHSOutcomeofBM30Oct2026FSandBB1sd.pdf"
+     "https://nsearchives.nseindia.com/corporate/CDSL_31102026142410_Press_release_Signed.pdf"
     ]
    ],
    "stock": {
-    "nse": "MEDIASSIST",
-    "name": "Medi Assist Healthcare Services",
+    "nse": "CDSL",
+    "name": "Central Depository Services",
     "group": "holding"
    }
   },
   {
-   "nse": "GAIL",
+   "nse": "CDSL",
    "exchange": "NSE",
-   "when": "2026-10-30T14:35+05:30",
+   "when": "2026-10-31T14:16+05:30",
    "subject": "Outcome of Board Meeting",
-   "detail": "GAIL (India) Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/DEVIKA_30102026143000_UFR.pdf",
-   "text": "Outcome of Board Meeting GAIL (India) Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "detail": "CDSL has submitted to the Exchange, the financial results for the quarter and half year ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/CDSL_31102026141138_OutcomeBM31102026_Signed.pdf",
+   "text": "Outcome of Board Meeting CDSL has submitted to the Exchange, the financial results for the quarter and half year ended September 30, 2026.",
    "tier": "high",
    "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
    "exchange_set": [
@@ -124,17 +74,117 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/DEVIKA_30102026143000_UFR.pdf"
+     "https://nsearchives.nseindia.com/corporate/CDSL_31102026141138_OutcomeBM31102026_Signed.pdf"
     ]
    ],
    "stock": {
-    "nse": "GAIL",
-    "name": "GAIL (India)",
+    "nse": "CDSL",
+    "name": "Central Depository Services",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ADVENZYMES",
+   "exchange": "NSE",
+   "when": "2026-10-31T12:46+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Advanced Enzyme Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/AETL_31102026124414_Intimation.pdf",
+   "text": "Outcome of Board Meeting Advanced Enzyme Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/AETL_31102026124414_Intimation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ADVENZYMES",
+    "name": "Advanced Enzyme Technologies",
     "group": "holding"
    }
   }
  ],
  "medium": [
+  {
+   "nse": "ADVENZYMES",
+   "exchange": "NSE",
+   "when": "2026-10-31T15:32+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/AETL_31102026153231_IntimationIP.pdf",
+   "text": "Investor Presentation Advanced Enzyme Technologies Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/AETL_31102026153231_IntimationIP.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ADVENZYMES",
+    "name": "Advanced Enzyme Technologies",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ADVENZYMES",
+   "exchange": "NSE",
+   "when": "2026-10-31T15:26+05:30",
+   "subject": "Press Release",
+   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange regarding a press release dated October 31, 2026, titled \"Quarterly EarningsRelease dated October 31, 2026\".",
+   "link": "https://nsearchives.nseindia.com/corporate/AETL_31102026152628_IntimationPR.pdf",
+   "text": "Press Release Advanced Enzyme Technologies Limited has informed the Exchange regarding a press release dated October 31, 2026, titled \"Quarterly EarningsRelease dated October 31, 2026\".",
+   "tier": "medium",
+   "rule": "press release|media release",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/AETL_31102026152628_IntimationPR.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ADVENZYMES",
+    "name": "Advanced Enzyme Technologies",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ADVENZYMES",
+   "exchange": "NSE",
+   "when": "2026-10-31T12:52+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "The Board of Directors at their meeting held today i.e. October 31, 2026 have analyzed the requests received from the promoter group members for their reclassification from promoter group category to public category shareholders, pursuant to Regulation 31A of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended",
+   "link": "https://nsearchives.nseindia.com/corporate/AETL_31102026125144_Intimation.pdf",
+   "text": "Outcome of Board Meeting The Board of Directors at their meeting held today i.e. October 31, 2026 have analyzed the requests received from the promoter group members for their reclassification from promoter group category to public category shareholders, pursuant to Regulation 31A of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended",
+   "tier": "medium",
+   "rule": "board meeting|intimation of board",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/AETL_31102026125144_Intimation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ADVENZYMES",
+    "name": "Advanced Enzyme Technologies",
+    "group": "holding"
+   }
+  },
   {
    "nse": "RECLTD",
    "exchange": "NSE",
@@ -159,92 +209,17 @@
     "name": "REC Limited",
     "group": "holding"
    }
-  },
-  {
-   "nse": "MEDIASSIST",
-   "exchange": "NSE",
-   "when": "2026-10-30T18:26+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Medi Assist Healthcare Services Limited has informed the Exchange regarding Outcome of Board Meeting held on October 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/MEDIASSIST_30102026182643_MAHSOutcomeofBM30Oct2026FSandBB1sd.pdf",
-   "text": "Outcome of Board Meeting Medi Assist Healthcare Services Limited has informed the Exchange regarding Outcome of Board Meeting held on October 30, 2026.",
-   "tier": "medium",
-   "rule": "board meeting|intimation of board",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/MEDIASSIST_30102026182643_MAHSOutcomeofBM30Oct2026FSandBB1sd.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "MEDIASSIST",
-    "name": "Medi Assist Healthcare Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "GAIL",
-   "exchange": "NSE",
-   "when": "2026-10-30T17:04+05:30",
-   "subject": "Press Release",
-   "detail": "GAIL (India) Limited has informed the Exchange regarding a press release dated October 30, 2026, titled \"GAIL reports Revenue from Operations of ₹45,924 crore and PAT of ₹4,650 crore for Q2 FY2026-27\".",
-   "link": "https://nsearchives.nseindia.com/corporate/GAIL_30102026170448_PR30102026.pdf",
-   "text": "Press Release GAIL (India) Limited has informed the Exchange regarding a press release dated October 30, 2026, titled \"GAIL reports Revenue from Operations of ₹45,924 crore and PAT of ₹4,650 crore for Q2 FY2026-27\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/GAIL_30102026170448_PR30102026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GAIL",
-    "name": "GAIL (India)",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "GAIL",
-   "exchange": "NSE",
-   "when": "2026-10-30T15:39+05:30",
-   "subject": "Investor Presentation",
-   "detail": "GAIL (India) Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/DEVIKA_30102026153938_PPT.pdf",
-   "text": "Investor Presentation GAIL (India) Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/DEVIKA_30102026153938_PPT.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GAIL",
-    "name": "GAIL (India)",
-    "group": "holding"
-   }
   }
  ],
  "other": [
   {
-   "nse": "POWERGRID",
+   "nse": "EQUITASBNK",
    "exchange": "NSE",
-   "when": "2026-10-30T20:46+05:30",
+   "when": "2026-10-31T18:56+05:30",
    "subject": "General Updates",
-   "detail": "Power Grid Corporation of India Limited has informed the Exchange about Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015.",
-   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_30102026204536_BSENSEReg30DT28102026_signed.pdf",
-   "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange about Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015.",
+   "detail": "Equitas Small Finance Bank Limited has informed the Exchange about Non-Deal Roadshow to be attended by the representatives of Equitas Small Finance Bank Limited ( the Bank ) with the existing/ prospective Investors /analyst(s)",
+   "link": "https://nsearchives.nseindia.com/corporate/EQUITASBNK_31102026185427_NDRforupload.pdf",
+   "text": "General Updates Equitas Small Finance Bank Limited has informed the Exchange about Non-Deal Roadshow to be attended by the representatives of Equitas Small Finance Bank Limited ( the Bank ) with the existing/ prospective Investors /analyst(s)",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -253,109 +228,26 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/POWERGRID1_30102026204536_BSENSEReg30DT28102026_signed.pdf"
+     "https://nsearchives.nseindia.com/corporate/EQUITASBNK_31102026185427_NDRforupload.pdf"
     ]
    ],
    "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
     "group": "holding"
    }
-  },
-  {
-   "nse": "ADVENZYMES",
-   "exchange": "NSE",
-   "when": "2026-10-30T19:31+05:30",
-   "subject": "Closure of Buy Back",
-   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange regarding Closure of Buy Back with effect from October 30, 2026",
-   "link": "https://nsearchives.nseindia.com/corporate/AETL_30102026193109_Intimationclosure.pdf",
-   "text": "Closure of Buy Back Advanced Enzyme Technologies Limited has informed the Exchange regarding Closure of Buy Back with effect from October 30, 2026",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/AETL_30102026193109_Intimationclosure.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ADVENZYMES",
-    "name": "Advanced Enzyme Technologies",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "MEDIASSIST",
-   "exchange": "NSE",
-   "when": "2026-10-30T19:24+05:30",
-   "subject": "Monitoring Agency Report",
-   "detail": "Monitoring Agency Report",
-   "link": "https://nsearchives.nseindia.com/corporate/MEDIASSIST_30102026192421_MAHSStatementOnUtilisation_Pref_Issue_300920026sd.pdf",
-   "text": "Monitoring Agency Report Monitoring Agency Report",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/MEDIASSIST_30102026192421_MAHSStatementOnUtilisation_Pref_Issue_300920026sd.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "MEDIASSIST",
-    "name": "Medi Assist Healthcare Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "MEDIASSIST",
-   "exchange": "NSE",
-   "when": "2026-10-30T19:22+05:30",
-   "subject": "Statement of deviation(s) or variation(s) under Reg. 32",
-   "detail": "Medi Assist Healthcare Services Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "link": "https://nsearchives.nseindia.com/corporate/MEDIASSIST_30102026192144_MAHSStatementOnUtilisation_Pref_Issue_300920026sd.pdf",
-   "text": "Statement of deviation(s) or variation(s) under Reg. 32 Medi Assist Healthcare Services Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/MEDIASSIST_30102026192144_MAHSStatementOnUtilisation_Pref_Issue_300920026sd.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "MEDIASSIST",
-    "name": "Medi Assist Healthcare Services",
-    "group": "holding"
-   }
-  },
+  }
+ ],
+ "dropped": 5,
+ "news": [
   {
    "nse": "CDSL",
-   "exchange": "NSE",
-   "when": "2026-10-30T19:13+05:30",
-   "subject": "General Updates",
-   "detail": "CDSL has informed the Exchange about Disclosure under Regulation 30 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (SEBI Listing Regulations).",
-   "link": "https://nsearchives.nseindia.com/corporate/CDSL_30102026191314_IntimationofPenalty30102026_sd.pdf",
-   "text": "General Updates CDSL has informed the Exchange about Disclosure under Regulation 30 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (SEBI Listing Regulations).",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/CDSL_30102026191314_IntimationofPenalty30102026_sd.pdf"
-    ]
-   ],
+   "title": "CDSL: Q2 consolidated profit rose YoY as H1 earnings and operating cash flow strengthened",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPT0ZDVXhqTlktWmFhWGFIZFN3ZFVIMjFwckZ5aHNfLVRkSkVLcTdKLXotaHNJVlROWHF2RGt2R2lud0VGbTAyY0hqZjd2XzJyUjFOdkc0UkkycjNndTlyVVdCOFZPTGViZ1hYTUN4M3pwaVl0dlpGNlZmYXpKV0hOQ0ZYR3ZqbFhIal83ZG9aOWVyclo2OFVVRFFESmJVUnJ3Tm00S3ZTRnVIYjN3SXkyaGZEQlZLN1RvbEs4MUc2bGpac3ljenVXVzJjaHpsQ1Y0VUFyZTU2Vnc4QjBfaC13T3ZZeV9DNnlWYUhCSXdSZDNWYUg1cDFBbGFDNGVRd1VI?oc=5",
+   "when": "2026-10-31T14:19+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
    "stock": {
     "nse": "CDSL",
     "name": "Central Depository Services",
@@ -363,272 +255,16 @@
    }
   },
   {
-   "nse": "IEX",
-   "exchange": "NSE",
-   "when": "2026-10-30T18:39+05:30",
-   "subject": "Updates",
-   "detail": "Indian Energy Exchange Limited has informed the Exchange regarding 'Code of Conduct under SEBI (Prohibition of Insider Trading) Regulations, 2015'.",
-   "link": "https://nsearchives.nseindia.com/corporate/IEX_30102026183858_IEX_Intimation_PIT_violation_Final_Signed.pdf",
-   "text": "Updates Indian Energy Exchange Limited has informed the Exchange regarding 'Code of Conduct under SEBI (Prohibition of Insider Trading) Regulations, 2015'.",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/IEX_30102026183858_IEX_Intimation_PIT_violation_Final_Signed.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "IEX",
-    "name": "Indian Energy Exchange",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "NORTHARC",
-   "exchange": "NSE",
-   "when": "2026-10-30T18:38+05:30",
-   "subject": "Appointment",
-   "detail": "Northern Arc Capital Limited has informed the Exchange regarding Appointment of Mr Anuradha Rao as Non- Executive Director of the company w.e.f. October 31, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/NACL2020_30102026183753_NACL_Anuradha_Change_NED_Q2_FY27_SD.pdf",
-   "text": "Appointment Northern Arc Capital Limited has informed the Exchange regarding Appointment of Mr Anuradha Rao as Non- Executive Director of the company w.e.f. October 31, 2026.",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/NACL2020_30102026183753_NACL_Anuradha_Change_NED_Q2_FY27_SD.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "NORTHARC",
-    "name": "Northern Arc Capital",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "UJJIVANSFB",
-   "exchange": "NSE",
-   "when": "2026-10-30T17:21+05:30",
-   "subject": "Retirement",
-   "detail": "Ujjivan Small Finance Bank Limited has informed the Exchange about vlountary retirement of Head of Internal Audit of the Bank",
-   "link": "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_30102026172100_112_Intimation_Change_SMP_30102026.pdf",
-   "text": "Retirement Ujjivan Small Finance Bank Limited has informed the Exchange about vlountary retirement of Head of Internal Audit of the Bank",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/UJJIVANBANK_30102026172100_112_Intimation_Change_SMP_30102026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ROUTE",
-   "exchange": "NSE",
-   "when": "2026-10-30T16:31+05:30",
-   "subject": "Monitoring Agency Report",
-   "detail": "Monitoring Agency Report for the quarter ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_30102026163037_UploadMARSeptember2026.pdf",
-   "text": "Monitoring Agency Report Monitoring Agency Report for the quarter ended September 30, 2026.",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/ROUTE_30102026163037_UploadMARSeptember2026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ROUTE",
-    "name": "Route Mobile",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "GAIL",
-   "exchange": "NSE",
-   "when": "2026-10-30T14:56+05:30",
-   "subject": "General Updates",
-   "detail": "GAIL (India) Limited has informed the Exchange about General Updates",
-   "link": "https://nsearchives.nseindia.com/corporate/DEVIKA_30102026145647_GAIL_Gas_Listing.pdf",
-   "text": "General Updates GAIL (India) Limited has informed the Exchange about General Updates",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/DEVIKA_30102026145647_GAIL_Gas_Listing.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GAIL",
-    "name": "GAIL (India)",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "GAIL",
-   "exchange": "NSE",
-   "when": "2026-10-30T14:56+05:30",
-   "subject": "Disclosure of material issue",
-   "detail": "GAIL (India) Limited has informed regarding Disclosure of material issue",
-   "link": "https://nsearchives.nseindia.com/corporate/GAIL_30102026145544_BTA.pdf",
-   "text": "Disclosure of material issue GAIL (India) Limited has informed regarding Disclosure of material issue",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/GAIL_30102026145544_BTA.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GAIL",
-    "name": "GAIL (India)",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "GAIL",
-   "exchange": "NSE",
-   "when": "2026-10-30T14:55+05:30",
-   "subject": "General Updates",
-   "detail": "GAIL (India) Limited has informed the Exchange about General Updates",
-   "link": "https://nsearchives.nseindia.com/corporate/DEVIKA_30102026145456_KKBMPL.pdf",
-   "text": "General Updates GAIL (India) Limited has informed the Exchange about General Updates",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/DEVIKA_30102026145456_KKBMPL.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GAIL",
-    "name": "GAIL (India)",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "GAIL",
-   "exchange": "NSE",
-   "when": "2026-10-30T14:54+05:30",
-   "subject": "General Updates",
-   "detail": "GAIL (India) Limited has informed the Exchange about General Updates",
-   "link": "https://nsearchives.nseindia.com/corporate/GAIL_30102026145419_GJPL.pdf",
-   "text": "General Updates GAIL (India) Limited has informed the Exchange about General Updates",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/GAIL_30102026145419_GJPL.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GAIL",
-    "name": "GAIL (India)",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "GAIL",
-   "exchange": "NSE",
-   "when": "2026-10-30T14:53+05:30",
-   "subject": "General Updates",
-   "detail": "GAIL (India) Limited has informed the Exchange about General Updates",
-   "link": "https://nsearchives.nseindia.com/corporate/GAIL_30102026145326_JHBDPL.pdf",
-   "text": "General Updates GAIL (India) Limited has informed the Exchange about General Updates",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/GAIL_30102026145326_JHBDPL.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GAIL",
-    "name": "GAIL (India)",
-    "group": "holding"
-   }
-  }
- ],
- "dropped": 17,
- "news": [
-  {
    "nse": "VAIBHAVGBL",
-   "title": "Vaibhav Global Ltd (BOM:532156) (Q2 2027) Earnings Call Highlights: Margin Expansion and ... By GuruFocus",
-   "source": "Investing.com Canada",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPenY0U2hlSVg1dm1YSUZzNUVNb2V3QU9RUzhkZU9XdThsLVRhM1FOQzQwQUNtWUdUbi0tTUgzWXF3bEprMEx6V3JIT3c0cmJWQlV5LWdlY1Qyd29CelByTzhKcGg5WEZNVldzZ2ticzJmRWZMZUN5M25NMi1WYmRRa3JUS3JuSVlGOEpkYk14dGoyZzd1SDAyWGpkYlNQVUZMNU9fWE1xTkhaUXR1R1VZeDJrT3d3aE5TOEZ6ZGZhRzBEQ3JzSEUtOFhYaXRCV2s?oc=5",
-   "when": "2026-10-31T11:46+05:30",
+   "title": "Vaibhav Global Ltd (BOM:532156) (Q2 2027) Earnings Call Highlights: Margin Expansion and ...",
+   "source": "Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNmQ5d25sY2FYc1JackRTWkIxOTRPSzl5T245VUtoV3piUXNrOXp2MFdHU0JPeURuSm9NYVlkTm5ENmRicW5pd25vT3dabWIyZDVHdDR0YmNwcWtaVEVqRmR0V2ZGTmwxcFJ6YkJpWUFOeW4xTDV2WG1pVzh0WVJEbVp0ektRTDc2bFJJOVpRYl9fR1ExdEdiRVhB?oc=5",
+   "when": "2026-10-31T12:39+05:30",
    "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
     "nse": "VAIBHAVGBL",
     "name": "Vaibhav Global",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "CDSL",
-   "title": "Sebi Fines CDSL Rs 1 Crore For Compliance Lapses",
-   "source": "BW Businessworld",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMDJWdW9UeTM1UFZIREZUbk5JLV9GSFl6TzhJalktOFJub204SFlKOFIwbGs3NDE3RVF5Q2NUZmp4SkpCeVFxOVJfMFM3YXVHNHV0TVo4enBCTTdybDhzNGNyYjMtV0ctUTJnMHFtYnA5bEZtWEIzWXdGSWp3dmdFNjlCZW9aeVNVbG96VlNncjNDZFZLNTFZ?oc=5",
-   "when": "2026-10-31T11:23+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": false,
-   "stock": {
-    "nse": "CDSL",
-    "name": "Central Depository Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "RECLTD",
-   "title": "IREDA appoints ex-REC executive Jatin Kumar Nayak as CMD",
-   "source": "The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWnAyTDFaM0w1c19JeU1lZG1aazN2bkdSdTZuMEF5OFR2RUdab0JvZ1lNbUtMZ0dQNnhmWkFLVHJFNVpUT3BuTnF3T2tXOThUM2t2T3NXcG1mQ2VNc3g3bG9ybHNSdno5WUxTMGFLck5ubmlyWlhQQk5OVC12eVBpNlVqUlh0enNlX3FjUjFfYVBFX25TeC1YblJkMUxPWm9odkRVYXNqQVdPcHRjZ3d1VUJxSHBuLXR4LWpYb0tJdEJCWXdQcDlCYzVB0gHPAUFVX3lxTE5TcmJuY3doMFdtSnB1Sm5RLTJ5eVhIc0JWOWxvdHdDbGY4TGJBLWZqbENiWjM2alNSbVFUSk1xaC1ud05JSjYxOVk4aHhfSTZHclRoZ3lELVMzc1hENnZuMWJDaWx3bDhCMHJqV0k3UGJwdlh1QnFZdHdlcmlsTGdGcVpqMUZ0bW1IbEo3TDIycERuYWhxaXFiZjQ2Xzl6SEVMVmVxR1J0dFVsQk8tN25MWFlkTWRCYzAzRVZZVDhOcmNfbTZNY3VvdExzXzdpNA?oc=5",
-   "when": "2026-10-31T11:06+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": true,
-   "stock": {
-    "nse": "RECLTD",
-    "name": "REC Limited",
     "group": "holding"
    }
   },
@@ -647,55 +283,13 @@
    }
   },
   {
-   "nse": "SAMHI",
-   "title": "Samhi Hotels Ltd Upgraded to Sell on Technical Improvements and Valuation Appeal",
-   "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcjJCaVpKV0JtOW54Tlp1UjkwMGdWbHp4Zl9jbVVueHhwQ2h6UTVIaTc2LXZjMkU1WnBpR19vSXpPUk8yVnNRa1g4RXBLbVFOaGtqbXhhbERpMXdNVFFXNjNMcVhMQ3U5NHNRbnBQXzhncHZLV2xHVmY1dDY0OWdGNzZGcnp6UmJ6OXAzM2NZTzNaU19JNk1UQ1pOZmpZR3ljYTRfMTJXTTRObmt3ZlVaUUQ3TkF6UUl5QnhFWTN5YURQX1MxdWluVU80bzJKREx5amlXOWx5d1BaZw?oc=5",
-   "when": "2026-10-30T23:28+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": false,
-   "stock": {
-    "nse": "SAMHI",
-    "name": "SAMHI Hotels",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "POWERGRID",
-   "title": "Power Grid Corporation Director Operations Appointment 2026",
-   "source": "Kalkine India",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa09NNEpLUUk0V0VLNWZFTmo1Zy1MQ245T3N2c2lhbERQcE1WaUZidFdlYlN1bmRlT05VUmFQUktJNlZ2a01pR3dXS1Y3QTB2OXhfZm15a1hzdnljMVdMNWhKRU53TnpwMzNKUVVhMnBWa2dvekFtNnFoeDIwQXRFYi1WTnIzeTR6VVBGdnhHN1RIQ0pONWhWMzNmZmEzdEhVb0ZhZktTZ1BQRVNlejVIRkdmVTJlTUF4?oc=5",
-   "when": "2026-10-30T20:46+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "NORTHARC",
-   "title": "Northern Arc Capital appoints Anuradha Rao as additional director",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQ1J0WjZCcUZneExjR0E3RGhjektfbmdkSlZ6X2lld2FMMW5JX0VJb292b0tCcTlieWE1V21VUnhFRVhQb28tY25NQ19pSGk3M081V244NE5obDU3bE9kWElXcGhER3ppMVg0V2dGalNJRE1kbHp6bFhLTzI3T1ZMZWxMRUVZcUxMQU5CMHZQenVYenRDUTE3Q2pXU3F5WUlqbFJING9oQkhBUE4yNEYwMDBKRlJ5ZzJXQmow?oc=5",
-   "when": "2026-10-30T19:43+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "NORTHARC",
-    "name": "Northern Arc Capital",
-    "group": "holding"
-   }
-  },
-  {
    "nse": "CDSL",
-   "title": "CDSL (NSE:CDSL) Receives Rs 1 Crore SEBI Penalty for FY24",
-   "source": "Kalkine India",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUHBRdUFRbThHYmxXNWhsNWdVVjVCRUNyTGRRNk9IMVA3bWxidFhSeHo2Z2pmSFNPb2ZSZk5wdG1vTlpaUkE1WkoxMVJzZ2ZNNmwtdWFkVWhmV3FMNkdzdGg1UmtNdnp2QVZlY0RmRmZaUnc0VVNYZV90aW5tcFRfN0hMdkhDTXJBY2dqMXRZOU5NTXBSd2dnNGlldGFsNTFHdFp0X2d2OUd0VzQzVy1aSER5OU9LZw?oc=5",
-   "when": "2026-10-30T19:13+05:30",
+   "title": "SEBI imposes ₹1 crore fine on CDSL for multiple compliance lapses",
+   "source": "BusinessLine",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRUY2b1l6SVNHNW45RWo0SVJ0eXZ0S19ZV2I4V1hCdDRMZkRmSzMwQmtZcUFTWFAweFUtNFR3RmI0WWpBcXFYRHlGTk1oVG1FeFNHT2pQQmpwRjhLdS1wdW9LZTkzVXBKZWktYk9FSjlnZHVOR2dVTEtaekpKdnN5aFNtZkNiYzJ6eTd0RVFCYU5DMGwwS2xNMk1Qa3FhZENySEJqelRoNVNmbnc3aS1SNUJ0RFVOZVFOM2IxV1p4R3psaUZNVERPOdIBzwFBVV95cUxQNFdrNGFwNlhENEhTUmNteGNHNE5kd1ZRa3A4aDJjYVdjREJsZTRVeDBKUkI5Q1JiUzdPdGlSQzlVa3MwVFhXeHFCZFphU3Y1Z3RJWUpoQ2NRQ19oZllWcm0zbWNCVXVFOFdCUDQ3VXJmX3ZnOHoya2NQcHZZNXlZZ1FxLVJhcGIxckNLdXBkTEtQaVRpQ1YwRWc1UUdSV05YV3VrSWZtQ005aVd6VDgyVEhlbXdKdGtkalR5aFRzeGlaeHQ1WDZTSk9PN1ZLWXM?oc=5",
+   "when": "2026-10-31T10:40+05:30",
    "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": false,
+   "trusted": true,
    "stock": {
     "nse": "CDSL",
     "name": "Central Depository Services",
@@ -703,86 +297,16 @@
    }
   },
   {
-   "nse": "UJJIVANSFB",
-   "title": "Ujjivan SFB Head of Internal Audit Vijayalakshmi Muddu Steps Down on 30 Oct 2026",
-   "source": "PSU Connect",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRHVwelFMeXJRc2N5OHJSNmwzclJ5a0ZNQVc0YnY2VEZRTjJTRzRqQnd6V01tUlBaODBHR0g1VXRIaE1MZ2R0VFdScHJpYXp0RVRCZ09mdFNJckNqU3V4OXlocHpxYjJkZU5aM0JycnVnSXQ2QXIxMjJvUkxCMUFnWmpTeS1wUXZoRDViOGxkWUcwcVlNeExwYnRnUTktSktOSVVIRHljbGhST0xBNEY0cjF5MlFpdHM?oc=5",
-   "when": "2026-10-30T18:29+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "nse": "UGROCAP",
+   "title": "Ugro Capital dispatches physical merger meeting notices to stakeholders",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMy1mLTFqamhCem1iOHhfbWtua3ZLM002dy0wN0wzNFlqbGh4Rk0xZ25kWnNhZnljV25fR0c2azNfNXcwbXNCaEFVT2tOeWd0OW9tNDlWcGI4VHVYQ2xleDNrWVR5am94S3BvRzRZM19JNG5DUmR2RXExNUs5eXdxSzg4MXFicVphM3dVYXZfWjBFeUxtNUtzdDI5TW9UMjVPenlEbndtNWRfVkNEV0FYSlBId2pCVWlnNXc?oc=5",
+   "when": "2026-10-31T07:25+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "EQUITASBNK",
-   "title": "Right Time To Remove Overhang, No Regulatory Concerns Over Resignation, Says PN Vasudevan Of Equitas SFB",
-   "source": "NDTV Profit",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUkNzUmNpNUpOTnBoZWMyVFh3VktWYmx1aF8xdW5xYjFzYmRKTm9JWUo2Y002RkpocV8tNUR1ZEx6RDA1WnJ0eDhvMkFzMV9hQzg3YjcwMmNHY0dJN3Y1YXVoVFdIdE5IeUNjT1dWXzJsTkl2RUs0U3Y3RlhNbUFNVFB5REZhb2dSa09ad1Jyb2dwa09JWWtYZ29rd0tkQ29ndzNzbHJhV2JxTmFiQVBtY2RGU2FmQXV0cHQ0REJPMDM1eG9IRDdvc0U0dWstZW1QM3JpRjE2bjBrVTR6dmZWeFQ5d3lKUWvSAe8BQVVfeXFMTU5LeXd5M0VHUWlXTU1OdVZfbzdVbVhUYjV6aWZmRF9JNi1HaWpKY0NyV2JlTG5tWG11SjdrQVd2aXE4d0plYThPVUZpOHR5N0VnbUxXVGhNR05RbWdGa0NYaklacFg0RFFjeDl2S2JOWWhMT2ZuTmZpLTdHLUhUOTJsSUE1aG8xWDktdEdISWd5SG90M2hzRHBSQ3NrWVRzbjFlQzdHV0lOVTBVOXRyOE9oN21wd3NwZ25JRVRNS0FIVnlNRHI5ZEtGY2VGdnM2NkctRi1NMkpBcENLTDlxWW5yeklHTmdSUmY0RXNxMTA?oc=5",
-   "when": "2026-10-30T11:20+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JMFINANCIL",
-   "title": "Suzlon Energy shares crash 10% after Q2 results; JM Financial downgrades stock to add, revises target...",
-   "source": "Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNTTJTbjkxV3J5em5tQjdNaGRJNmFrNkxRQzVMSkswQkJrZ29KOWlGbk1ITlN6OVdTZE01WGdPbGNQaGJmeGM2WFE3UVFzRExlX2w2djdGQjhYdTRVRDI1Sm15Xzk2djNBbnNzYVM2U2ZVV3FRcGdDVlotSlhQS0ZlVy04XzRIbHFYMzVUazdUSGJtMEJFd3dQWE5DTnp0Zm5Ma1Y5V19hbXpIUFpSTHNoVFJ4WWU4ZmNMXzNBRjZld2tEc244M0lUZEI5aVQxTmg5VVdBZG9IaEJ1VXVCRmFPYS1mY0RDaENXdkI3Rmp3OXVsUlk2M042MWo3eEZ5Z9IBgwJBVV95cUxNU2ZHMEpqaGlaUFFRak1aQTVESzgtNFNiRjViWnZJMllGQ3M4dWJSSm5BcGxHNVVaUE9jWE9DZnhVazU4TGZ4TXVmdjhZdjNXLWJPejQ0Mmtmb0xsMzZKY0Vta2xDd25jdmVYaFdMb0NCYnJPaGlYbFZzSjlqcGtFY3d5a05zUGtySXdUejVGdlZCRjM2UEtRWlpkSlBuVk1YRWJWQWhtb0ZFR0k4SzdsYWM2SlR1bHVCXzNuX3dDRzdadlhMc3JoNnRWSkNXNTNSMzNsRmhyTnZ3Nm0xSDZROTZyU2lkUllrTzRhUXByR2dSQXNqZzlkMnlwb2UtN1ZrUHZZ?oc=5",
-   "when": "2026-10-30T11:14+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": true,
-   "stock": {
-    "nse": "JMFINANCIL",
-    "name": "JM Financial",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "EQUITASBNK",
-   "title": "Equitas Small Finance Bank slumps 12% as MD & CEO PN Vasudevan Resigns over Conflict-of-interest Perception",
-   "source": "Moneylife",
-   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNV01wYWgzd0pVODgtWUFXNzVXV2RQdV9YanlQaVdRYndYMXMtMG5jLVdBOWFaTk1lOFdwLU5ScFJXX2lpR010dU1zR0VJTy1zbWMwdEEtSUxlNFRzaktJUGJnWFExZWdGQlFiVVdpUU5yMDl2Wktid2U1SGItYndQTXN1eXpMcUdBRW1Gc24xZU4zZ0hKUEdMaFplWlZtdlBoM1JpVVJtNjRjLXpLX2NGMjdJY2hUeHJwZ2NTVTd2QWxfcTFHRlVNTGR6TDZBODJMUmtCenlEVkQ3QW40VEtuY3hwNkNUR0h0UWxlLXVkTXVoaTg?oc=5",
-   "when": "2026-10-30T10:57+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "EQUITASBNK",
-   "title": "Equitas Small Finance Bank: HSBC target cut to Rs 70 after chief executive resigns",
-   "source": "Business Upturn",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNHNSQzRvWEJEeFBFdGc2V0otUk1GdmZXZDFhbl9ZbXREb2tRQ2JJM0FhUE5kRkdOUUwtV05Ga2pFZ21OVzM3a2Z5Nm1WdEpBUzJ0QUFkWTBZWFNFQ0pvVWxJYkZycy0yN3c0ZEJwY0NmRkw3dG1xN0VseFItVV9CV0d2dkgzTWpFaUZDeWoyNUdHWHQyQjFXVl82dGdIbHdVX0tIblo5eGZjWGRqRUdqVHdrdW55cXFPU3A1Z0lHNXYxcHVvUDlaMVhlUUkxd2E4?oc=5",
-   "when": "2026-10-30T08:55+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JMFINANCIL",
-   "title": "Daily Voice: Worst of IT sector de-rating is behind us; recovery is a 2027 story, says JM Financial’s...",
-   "source": "Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxONmRGV3UxblBHUWpsb0o4REV2SmlaZzU3UGR6clI4d040R0MxUnY4UXZMbkh5c3V2azV2eUhURnJNR2ZaUmVnYjRCSVhUdmxBMlVGR2VMZUJoR09oMnJDMFd4UkQ4aVM0UEZ0MzJHVlpNUzk3WmhzOUdIU3d1VFlxdlRPbndNVWtPMFNSeUcyTVNkUzRJZ2hOZXRLLW93am5mMmtUSkotRnNJZXA2Uk9DQ1NfSmxoOWdCdU5lSHdMZlBIUFZyRWowLWlMc3I3aE9WMjJsOEV2SlQ3Si1OREJXam1hTnRzVVZVa1hnVHQxMFl5SlFPRlNTRU9EZTdDaWtrNkU5elp6ZlJwVVlBejVvU29na3BfeGpa0gGeAkFVX3lxTE9MNm5GdGg3dC1zaEdST2M3YzJZdWdTQWNnZlZjdkZpSTc3bG5GdzVFY2R1eVA5S3ZVakZPLTdrbjdhM1RFV0RWR0h5TnVtWFVMQkszV1c2T1pxN3gtRXRiLS1TSXFORjZGdF9vcU5aRDcyTmoyVThlNDhQNE9HMV93Sjc1SVU2U09YUmtoLXhEcm03RGdETVZ1ak1EbGdzNWRqeXZFQ2RrUW45MExmdEVEazF3M3E2X0ZwaXBVcmk1WV83NTVHUEZvUEZ3U2d3NHpwOTR5blFxRkpSOE1UTERONEJaYnR1Yy04dlRLSU9PZ09QeldKNk8yMjBESVVqSHR6bUEwOFdKclhMbkwxNnNCbmRkSmRqdC1XUE55Y3c?oc=5",
-   "when": "2026-10-30T07:08+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": true,
-   "stock": {
-    "nse": "JMFINANCIL",
-    "name": "JM Financial",
+    "nse": "UGROCAP",
+    "name": "Ugro Capital",
     "group": "holding"
    }
   }
@@ -1243,7 +767,7 @@
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
   "BSE codes taken from bhavcopy 30 Oct",
-  "BSE announcements failed (JSONDecodeError)",
-  "BSE announcements failed (HTTPError)"
+  "BSE announcements failed (HTTPError)",
+  "BSE announcements failed (JSONDecodeError)"
  ]
 }
