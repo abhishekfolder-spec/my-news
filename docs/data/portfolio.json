@@ -1,71 +1,21 @@
 {
- "generated": "2026-11-01T13:16+05:30",
- "since": "2026-10-31T07:16+05:30",
+ "generated": "2026-11-02T13:23+05:30",
+ "since": "2026-11-01T07:23+05:30",
  "stock_count": 45,
  "health": {
   "NSE": "ok · 14",
   "BSE": "unavailable",
-  "News": "ok · 5"
+  "News": "ok · 2"
  },
  "high": [
   {
-   "nse": "ADVENZYMES",
+   "nse": "UFBL",
    "exchange": "NSE",
-   "when": "2026-10-31T15:39+05:30",
-   "subject": "Post Buyback Public Announcement",
-   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange about post Buyback Public Announcement",
-   "link": "https://nsearchives.nseindia.com/corporate/AETL_31102026153853_IntimationPBPA.pdf",
-   "text": "Post Buyback Public Announcement Advanced Enzyme Technologies Limited has informed the Exchange about post Buyback Public Announcement",
-   "tier": "high",
-   "rule": "buy-?back|bonus issue|stock split|sub-?division",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/AETL_31102026153853_IntimationPBPA.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ADVENZYMES",
-    "name": "Advanced Enzyme Technologies",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "CDSL",
-   "exchange": "NSE",
-   "when": "2026-10-31T14:27+05:30",
-   "subject": "Press Release",
-   "detail": "CDSL has informed the Exchange regarding Media Release relating to financial results for the quarter and half year ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/CDSL_31102026142410_Press_release_Signed.pdf",
-   "text": "Press Release CDSL has informed the Exchange regarding Media Release relating to financial results for the quarter and half year ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/CDSL_31102026142410_Press_release_Signed.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "CDSL",
-    "name": "Central Depository Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "CDSL",
-   "exchange": "NSE",
-   "when": "2026-10-31T14:16+05:30",
+   "when": "2026-11-02T12:54+05:30",
    "subject": "Outcome of Board Meeting",
-   "detail": "CDSL has submitted to the Exchange, the financial results for the quarter and half year ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/CDSL_31102026141138_OutcomeBM31102026_Signed.pdf",
-   "text": "Outcome of Board Meeting CDSL has submitted to the Exchange, the financial results for the quarter and half year ended September 30, 2026.",
+   "detail": "United Foodbrands Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/BARBEQUE_02112026125231_OutcomeOfBM.pdf",
+   "text": "Outcome of Board Meeting United Foodbrands Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
    "tier": "high",
    "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
    "exchange_set": [
@@ -74,23 +24,23 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/CDSL_31102026141138_OutcomeBM31102026_Signed.pdf"
+     "https://nsearchives.nseindia.com/corporate/BARBEQUE_02112026125231_OutcomeOfBM.pdf"
     ]
    ],
    "stock": {
-    "nse": "CDSL",
-    "name": "Central Depository Services",
+    "nse": "UFBL",
+    "name": "United Foodbrands",
     "group": "holding"
    }
   },
   {
-   "nse": "ADVENZYMES",
+   "nse": "POWERGRID",
    "exchange": "NSE",
-   "when": "2026-10-31T12:46+05:30",
+   "when": "2026-11-01T20:11+05:30",
    "subject": "Outcome of Board Meeting",
-   "detail": "Advanced Enzyme Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/AETL_31102026124414_Intimation.pdf",
-   "text": "Outcome of Board Meeting Advanced Enzyme Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "detail": "Power Grid Corporation of India Limited has submitted to the Exchange, the unaudited financial results for the quarter and half year ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026200821_BSENSEReg30FileFinal.pdf",
+   "text": "Outcome of Board Meeting Power Grid Corporation of India Limited has submitted to the Exchange, the unaudited financial results for the quarter and half year ended September 30, 2026.",
    "tier": "high",
    "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
    "exchange_set": [
@@ -99,50 +49,25 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/AETL_31102026124414_Intimation.pdf"
+     "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026200821_BSENSEReg30FileFinal.pdf"
     ]
    ],
    "stock": {
-    "nse": "ADVENZYMES",
-    "name": "Advanced Enzyme Technologies",
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
     "group": "holding"
    }
   }
  ],
  "medium": [
   {
-   "nse": "ADVENZYMES",
+   "nse": "GAIL",
    "exchange": "NSE",
-   "when": "2026-10-31T15:32+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/AETL_31102026153231_IntimationIP.pdf",
-   "text": "Investor Presentation Advanced Enzyme Technologies Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/AETL_31102026153231_IntimationIP.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ADVENZYMES",
-    "name": "Advanced Enzyme Technologies",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ADVENZYMES",
-   "exchange": "NSE",
-   "when": "2026-10-31T15:26+05:30",
-   "subject": "Press Release",
-   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange regarding a press release dated October 31, 2026, titled \"Quarterly EarningsRelease dated October 31, 2026\".",
-   "link": "https://nsearchives.nseindia.com/corporate/AETL_31102026152628_IntimationPR.pdf",
-   "text": "Press Release Advanced Enzyme Technologies Limited has informed the Exchange regarding a press release dated October 31, 2026, titled \"Quarterly EarningsRelease dated October 31, 2026\".",
+   "when": "2026-11-02T10:14+05:30",
+   "subject": "Press Release (Revised)",
+   "detail": "GAIL (India) Limited has informed the Exchange regarding a revised press release dated October 30, 2026, titled \" GAIL reports Revenue from Operations of ₹45,924 crore and PAT of ₹4,650 crore for Q2 FY2026-27 .\".",
+   "link": "https://nsearchives.nseindia.com/corporate/GAIL_02112026101431_PR02112026.pdf",
+   "text": "Press Release (Revised) GAIL (India) Limited has informed the Exchange regarding a revised press release dated October 30, 2026, titled \" GAIL reports Revenue from Operations of ₹45,924 crore and PAT of ₹4,650 crore for Q2 FY2026-27 .\".",
    "tier": "medium",
    "rule": "press release|media release",
    "exchange_set": [
@@ -151,75 +76,100 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/AETL_31102026152628_IntimationPR.pdf"
+     "https://nsearchives.nseindia.com/corporate/GAIL_02112026101431_PR02112026.pdf"
     ]
    ],
    "stock": {
-    "nse": "ADVENZYMES",
-    "name": "Advanced Enzyme Technologies",
+    "nse": "GAIL",
+    "name": "GAIL (India)",
     "group": "holding"
    }
   },
   {
-   "nse": "ADVENZYMES",
+   "nse": "MEDIASSIST",
    "exchange": "NSE",
-   "when": "2026-10-31T12:52+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "The Board of Directors at their meeting held today i.e. October 31, 2026 have analyzed the requests received from the promoter group members for their reclassification from promoter group category to public category shareholders, pursuant to Regulation 31A of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended",
-   "link": "https://nsearchives.nseindia.com/corporate/AETL_31102026125144_Intimation.pdf",
-   "text": "Outcome of Board Meeting The Board of Directors at their meeting held today i.e. October 31, 2026 have analyzed the requests received from the promoter group members for their reclassification from promoter group category to public category shareholders, pursuant to Regulation 31A of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended",
+   "when": "2026-11-01T23:39+05:30",
+   "subject": "Press Release",
+   "detail": "Medi Assist Healthcare Services Limited has informed the Exchange regarding a press release dated November 01, 2026, titled \"Medi Assist H1 FY27: EBITDA Rises 19.0%; Margins Expand to 20.3% asTechnology Growth and Paramount Integration Drive OperatingLeverage\".",
+   "link": "https://nsearchives.nseindia.com/corporate/MEDIASSIST_01112026233850_MAHSpressrelease300926.pdf",
+   "text": "Press Release Medi Assist Healthcare Services Limited has informed the Exchange regarding a press release dated November 01, 2026, titled \"Medi Assist H1 FY27: EBITDA Rises 19.0%; Margins Expand to 20.3% asTechnology Growth and Paramount Integration Drive OperatingLeverage\".",
    "tier": "medium",
-   "rule": "board meeting|intimation of board",
+   "rule": "press release|media release",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/AETL_31102026125144_Intimation.pdf"
+     "https://nsearchives.nseindia.com/corporate/MEDIASSIST_01112026233850_MAHSpressrelease300926.pdf"
     ]
    ],
    "stock": {
-    "nse": "ADVENZYMES",
-    "name": "Advanced Enzyme Technologies",
+    "nse": "MEDIASSIST",
+    "name": "Medi Assist Healthcare Services",
     "group": "holding"
    }
   },
   {
-   "nse": "RECLTD",
+   "nse": "MEDIASSIST",
    "exchange": "NSE",
-   "when": "2026-10-31T09:59+05:30",
-   "subject": "Change in Management",
-   "detail": "REC Limited has informed the Exchange about change in Senior Management.",
-   "link": "https://nsearchives.nseindia.com/corporate/RECLTD_31102026095705_Signed_Intimation_regarding_change_inSM_311026.pdf",
-   "text": "Change in Management REC Limited has informed the Exchange about change in Senior Management.",
+   "when": "2026-11-01T22:44+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Medi Assist Healthcare Services Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/MEDIASSIST_01112026224144_MAHSInvestorsPPT30092026sd.pdf",
+   "text": "Investor Presentation Medi Assist Healthcare Services Limited has informed the Exchange about Investor Presentation",
    "tier": "medium",
-   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
+   "rule": "investor presentation",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/RECLTD_31102026095705_Signed_Intimation_regarding_change_inSM_311026.pdf"
+     "https://nsearchives.nseindia.com/corporate/MEDIASSIST_01112026224144_MAHSInvestorsPPT30092026sd.pdf"
     ]
    ],
    "stock": {
-    "nse": "RECLTD",
-    "name": "REC Limited",
+    "nse": "MEDIASSIST",
+    "name": "Medi Assist Healthcare Services",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "POWERGRID",
+   "exchange": "NSE",
+   "when": "2026-11-01T20:20+05:30",
+   "subject": "Dividend",
+   "detail": "Power Grid Corporation of India Limited has informed the Exchange that Board of Directors at its meeting held on November 01, 2026, declared Interim Dividend of Rs. 3 per equity share.",
+   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026201556_Dividend_Cover.pdf",
+   "text": "Dividend Power Grid Corporation of India Limited has informed the Exchange that Board of Directors at its meeting held on November 01, 2026, declared Interim Dividend of Rs. 3 per equity share.",
+   "tier": "medium",
+   "rule": "dividend|record date",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026201556_Dividend_Cover.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
     "group": "holding"
    }
   }
  ],
  "other": [
   {
-   "nse": "EQUITASBNK",
+   "nse": "POWERGRID",
    "exchange": "NSE",
-   "when": "2026-10-31T18:56+05:30",
+   "when": "2026-11-01T20:55+05:30",
    "subject": "General Updates",
-   "detail": "Equitas Small Finance Bank Limited has informed the Exchange about Non-Deal Roadshow to be attended by the representatives of Equitas Small Finance Bank Limited ( the Bank ) with the existing/ prospective Investors /analyst(s)",
-   "link": "https://nsearchives.nseindia.com/corporate/EQUITASBNK_31102026185427_NDRforupload.pdf",
-   "text": "General Updates Equitas Small Finance Bank Limited has informed the Exchange about Non-Deal Roadshow to be attended by the representatives of Equitas Small Finance Bank Limited ( the Bank ) with the existing/ prospective Investors /analyst(s)",
+   "detail": "Power Grid Corporation of India Limited has informed the Exchange regarding disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements Regulations, 2015",
+   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026205525_CTUIL_Signed.pdf",
+   "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange regarding disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements Regulations, 2015",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -228,85 +178,43 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/EQUITASBNK_31102026185427_NDRforupload.pdf"
+     "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026205525_CTUIL_Signed.pdf"
     ]
    ],
    "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
     "group": "holding"
    }
   }
  ],
- "dropped": 5,
+ "dropped": 7,
  "news": [
   {
-   "nse": "CDSL",
-   "title": "CDSL: Q2 consolidated profit rose YoY as H1 earnings and operating cash flow strengthened",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPT0ZDVXhqTlktWmFhWGFIZFN3ZFVIMjFwckZ5aHNfLVRkSkVLcTdKLXotaHNJVlROWHF2RGt2R2lud0VGbTAyY0hqZjd2XzJyUjFOdkc0UkkycjNndTlyVVdCOFZPTGViZ1hYTUN4M3pwaVl0dlpGNlZmYXpKV0hOQ0ZYR3ZqbFhIal83ZG9aOWVyclo2OFVVRFFESmJVUnJ3Tm00S3ZTRnVIYjN3SXkyaGZEQlZLN1RvbEs4MUc2bGpac3ljenVXVzJjaHpsQ1Y0VUFyZTU2Vnc4QjBfaC13T3ZZeV9DNnlWYUhCSXdSZDNWYUg1cDFBbGFDNGVRd1VI?oc=5",
-   "when": "2026-10-31T14:19+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": false,
-   "stock": {
-    "nse": "CDSL",
-    "name": "Central Depository Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "VAIBHAVGBL",
-   "title": "Vaibhav Global Ltd (BOM:532156) (Q2 2027) Earnings Call Highlights: Margin Expansion and ...",
-   "source": "Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNmQ5d25sY2FYc1JackRTWkIxOTRPSzl5T245VUtoV3piUXNrOXp2MFdHU0JPeURuSm9NYVlkTm5ENmRicW5pd25vT3dabWIyZDVHdDR0YmNwcWtaVEVqRmR0V2ZGTmwxcFJ6YkJpWUFOeW4xTDV2WG1pVzh0WVJEbVp0ektRTDc2bFJJOVpRYl9fR1ExdEdiRVhB?oc=5",
-   "when": "2026-10-31T12:39+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "VAIBHAVGBL",
-    "name": "Vaibhav Global",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "RECLTD",
-   "title": "REC Ltd reports cessation of ED J.K. Nayak after IREDA appointment",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcXhkTkVMdGVKVFkwTk9sNkNQU1pOUkVudzBCbWFEYXBpbVpzWUlJcF95NjBsVzFDVWhIX1V2Zkl1YTBTc29GMFZ6SzVHNmJVVXlaVDBsbHc1WWNEN2prZXVMdldsaHhWOTRMUmFUTHcwRHRZWmY5cHR2RWpIdm93NzJOOFkyOFozTF9kQkRDY0FCV2V6dDE1V2xYc2wxV3NNNGxvUUlYTE1GT3BoeHRGUDIwZw?oc=5",
-   "when": "2026-10-31T10:41+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": false,
-   "stock": {
-    "nse": "RECLTD",
-    "name": "REC Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "CDSL",
-   "title": "SEBI imposes ₹1 crore fine on CDSL for multiple compliance lapses",
-   "source": "BusinessLine",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRUY2b1l6SVNHNW45RWo0SVJ0eXZ0S19ZV2I4V1hCdDRMZkRmSzMwQmtZcUFTWFAweFUtNFR3RmI0WWpBcXFYRHlGTk1oVG1FeFNHT2pQQmpwRjhLdS1wdW9LZTkzVXBKZWktYk9FSjlnZHVOR2dVTEtaekpKdnN5aFNtZkNiYzJ6eTd0RVFCYU5DMGwwS2xNMk1Qa3FhZENySEJqelRoNVNmbnc3aS1SNUJ0RFVOZVFOM2IxV1p4R3psaUZNVERPOdIBzwFBVV95cUxQNFdrNGFwNlhENEhTUmNteGNHNE5kd1ZRa3A4aDJjYVdjREJsZTRVeDBKUkI5Q1JiUzdPdGlSQzlVa3MwVFhXeHFCZFphU3Y1Z3RJWUpoQ2NRQ19oZllWcm0zbWNCVXVFOFdCUDQ3VXJmX3ZnOHoya2NQcHZZNXlZZ1FxLVJhcGIxckNLdXBkTEtQaVRpQ1YwRWc1UUdSV05YV3VrSWZtQ005aVd6VDgyVEhlbXdKdGtkalR5aFRzeGlaeHQ1WDZTSk9PN1ZLWXM?oc=5",
-   "when": "2026-10-31T10:40+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": true,
-   "stock": {
-    "nse": "CDSL",
-    "name": "Central Depository Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "UGROCAP",
-   "title": "Ugro Capital dispatches physical merger meeting notices to stakeholders",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMy1mLTFqamhCem1iOHhfbWtua3ZLM002dy0wN0wzNFlqbGh4Rk0xZ25kWnNhZnljV25fR0c2azNfNXcwbXNCaEFVT2tOeWd0OW9tNDlWcGI4VHVYQ2xleDNrWVR5am94S3BvRzRZM19JNG5DUmR2RXExNUs5eXdxSzg4MXFicVphM3dVYXZfWjBFeUxtNUtzdDI5TW9UMjVPenlEbndtNWRfVkNEV0FYSlBId2pCVWlnNXc?oc=5",
-   "when": "2026-10-31T07:25+05:30",
+   "nse": "JUBLINGREA",
+   "title": "Jubilant Ingrevia Q2 FY27 Results & Acquisition Update",
+   "source": "InvestyWise",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM3N0bWJxZGQwaHAxREdaUm54bnlYSXZrZTlJNGowZ01tVUQwWVUyOW1tY1praDYzTjRyLUpHaENFaVUyT0FuQjhJLXFERjVvaFQ0TktQUXVfUWtGY1dSY0xHeU53eTNPR3dFU3AtOUR3R1Z6OU0wVVFRbDJOcnpqVGdqMUxGMEphSXBtR1BRYjFZa3lpMmtkbA?oc=5",
+   "when": "2026-11-02T11:30+05:30",
    "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
-    "nse": "UGROCAP",
-    "name": "Ugro Capital",
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "TIMETECHNO",
+   "title": "Time Technoplast Completes Four Major Projects in Q4 FY26, Adds Automated Manufacturing Capacity",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNV3d5eVJNQnhGTHQxVTdLSGVNcEZxLUhVUTJianpCdmE5eEsybzJHOHdlc0p0dEVmSXRJS2pZUF9ITnozYkF2QTZSSDdkdEhFQzlyWGdJR1JkRG9va19yVHkxZkxQNlVQbG9FQzh4VmhuUWlSdHhGMGRMR3RpaUNIbTJyZUlBWENaWEZQSXFDTWdwSjV2SUI2SElMQ3UtcElWaTRndFQ5TVZUaFFNSXdkeDdfWVNoSTBWY1dkX2ZReGt6dG5aNGxSdHREMTdOcWU1UE1QejlMaWdzVkpINnBFdzlLUW55RUZqcnZHV0hR?oc=5",
+   "when": "2026-11-01T10:27+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "TIMETECHNO",
+    "name": "Time Technoplast",
     "group": "holding"
    }
   }
@@ -768,6 +676,6 @@
   "BSE scrip list unavailable (HTTPError)",
   "BSE codes taken from bhavcopy 30 Oct",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (JSONDecodeError)"
+  "BSE announcements failed (ReadTimeout)"
  ]
 }
