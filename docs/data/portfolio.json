@@ -1,13 +1,238 @@
 {
- "generated": "2026-11-02T13:23+05:30",
- "since": "2026-11-01T07:23+05:30",
+ "generated": "2026-11-03T13:42+05:30",
+ "since": "2026-11-02T07:42+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 14",
+  "NSE": "ok · 40",
   "BSE": "unavailable",
-  "News": "ok · 2"
+  "News": "ok · 10"
  },
  "high": [
+  {
+   "nse": "ROUTE",
+   "exchange": "NSE",
+   "when": "2026-11-03T13:15+05:30",
+   "subject": "Press Release",
+   "detail": "ROUTE MOBILE LIMITED has informed the Exchange regarding a press release dated November 03, 2026, titled \"365squared launches AI-powered voice fraud protection solution, 365callguard\".",
+   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_03112026131449_upload.pdf",
+   "text": "Press Release ROUTE MOBILE LIMITED has informed the Exchange regarding a press release dated November 03, 2026, titled \"365squared launches AI-powered voice fraud protection solution, 365callguard\".",
+   "tier": "high",
+   "rule": "fraud|forensic|whistle ?blower",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/ROUTE_03112026131449_upload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ROUTE",
+    "name": "Route Mobile",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "POWERGRID",
+   "exchange": "NSE",
+   "when": "2026-11-03T12:02+05:30",
+   "subject": "General Updates",
+   "detail": "Power Grid Corporation of India Limited has informed the Exchange about Regional Director, Northern Region Directorate I, Ministry of Corporate Affairs, confirmed the respective schemes of merger of Wholly owned subsidiaries of POWERGRID.",
+   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_03112026120246_BSENSEMerger.pdf",
+   "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange about Regional Director, Northern Region Directorate I, Ministry of Corporate Affairs, confirmed the respective schemes of merger of Wholly owned subsidiaries of POWERGRID.",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/POWERGRID1_03112026120246_BSENSEMerger.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SFL",
+   "exchange": "NSE",
+   "when": "2026-11-02T19:17+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Sheela Foam Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/SFL_02112026191543_Outcome_of_Board_Meeting.pdf",
+   "text": "Outcome of Board Meeting Sheela Foam Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SFL_02112026191543_Outcome_of_Board_Meeting.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SFL",
+    "name": "Sheela Foam",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ITC",
+   "exchange": "NSE",
+   "when": "2026-11-02T18:45+05:30",
+   "subject": "Amalgamation/Merger",
+   "detail": "ITC Limited has informed the Exchange about Amalgamation/Merger",
+   "link": "https://nsearchives.nseindia.com/corporate/ITC_02112026184512_SE_Sproutlife_.pdf",
+   "text": "Amalgamation/Merger ITC Limited has informed the Exchange about Amalgamation/Merger",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/ITC_02112026184512_SE_Sproutlife_.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ITC",
+    "name": "ITC Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ITC",
+   "exchange": "NSE",
+   "when": "2026-11-02T18:20+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "ITC Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/ITC_02112026181912_SE_Results_.pdf",
+   "text": "Outcome of Board Meeting ITC Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/ITC_02112026181912_SE_Results_.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ITC",
+    "name": "ITC Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "VIYASH",
+   "exchange": "NSE",
+   "when": "2026-11-02T17:35+05:30",
+   "subject": "Acquisition",
+   "detail": "Viyash Scientific Limited has informed the Exchange about the update on Incorporation of step down wholly owned Subsidiary in vietnam.",
+   "link": "https://nsearchives.nseindia.com/corporate/SEQUENT2_02112026173530_VSL_-_Reg_30_-__Incorporation_of_step_down_subsidiary_in_vietnam.pdf",
+   "text": "Acquisition Viyash Scientific Limited has informed the Exchange about the update on Incorporation of step down wholly owned Subsidiary in vietnam.",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SEQUENT2_02112026173530_VSL_-_Reg_30_-__Incorporation_of_step_down_subsidiary_in_vietnam.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "VIYASH",
+    "name": "Viyash Scientific",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BIRLANU",
+   "exchange": "NSE",
+   "when": "2026-11-02T17:10+05:30",
+   "subject": "Acquisition",
+   "detail": "BirlaNu Limited has informed the Exchange about Acquisition",
+   "link": "https://nsearchives.nseindia.com/corporate/sumedha_02112026171011_BMOutcome2112026signedacquisition.pdf",
+   "text": "Acquisition BirlaNu Limited has informed the Exchange about Acquisition",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/sumedha_02112026171011_BMOutcome2112026signedacquisition.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BIRLANU",
+    "name": "BirlaNu",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BIRLANU",
+   "exchange": "NSE",
+   "when": "2026-11-02T17:04+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "BirlaNu Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/sumedha_02112026170159_BMOutcome2112026signed.pdf",
+   "text": "Outcome of Board Meeting BirlaNu Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/sumedha_02112026170159_BMOutcome2112026signed.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BIRLANU",
+    "name": "BirlaNu",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "KRSNAA",
+   "exchange": "NSE",
+   "when": "2026-11-02T15:08+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Krsnaa Diagnostics Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/KRSNAA_02112026150758_543328_1_.pdf",
+   "text": "Outcome of Board Meeting Krsnaa Diagnostics Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/KRSNAA_02112026150758_543328_1_.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "KRSNAA",
+    "name": "Krsnaa Diagnostics",
+    "group": "holding"
+   }
+  },
   {
    "nse": "UFBL",
    "exchange": "NSE",
@@ -32,34 +257,209 @@
     "name": "United Foodbrands",
     "group": "holding"
    }
-  },
+  }
+ ],
+ "medium": [
   {
-   "nse": "POWERGRID",
+   "nse": "CDSL",
    "exchange": "NSE",
-   "when": "2026-11-01T20:11+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Power Grid Corporation of India Limited has submitted to the Exchange, the unaudited financial results for the quarter and half year ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026200821_BSENSEReg30FileFinal.pdf",
-   "text": "Outcome of Board Meeting Power Grid Corporation of India Limited has submitted to the Exchange, the unaudited financial results for the quarter and half year ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "when": "2026-11-03T12:59+05:30",
+   "subject": "Press Release",
+   "detail": "CDSL has informed the Exchange regarding a press release dated November 03, 2026, titled \"CDSL Receives Great Place To Work® Certification\".",
+   "link": "https://nsearchives.nseindia.com/corporate/CDSL_03112026125814_NSEIntimation_PressRelease_finalsd.pdf",
+   "text": "Press Release CDSL has informed the Exchange regarding a press release dated November 03, 2026, titled \"CDSL Receives Great Place To Work® Certification\".",
+   "tier": "medium",
+   "rule": "press release|media release",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026200821_BSENSEReg30FileFinal.pdf"
+     "https://nsearchives.nseindia.com/corporate/CDSL_03112026125814_NSEIntimation_PressRelease_finalsd.pdf"
     ]
    ],
    "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
+    "nse": "CDSL",
+    "name": "Central Depository Services",
     "group": "holding"
    }
-  }
- ],
- "medium": [
+  },
+  {
+   "nse": "SFL",
+   "exchange": "NSE",
+   "when": "2026-11-02T19:52+05:30",
+   "subject": "Press Release",
+   "detail": "Sheela Foam Limited has informed the Exchange regarding a press release dated November 02, 2026, titled \"Press Release\".",
+   "link": "https://nsearchives.nseindia.com/corporate/SFL_02112026195210_Press_Release_Sep.pdf",
+   "text": "Press Release Sheela Foam Limited has informed the Exchange regarding a press release dated November 02, 2026, titled \"Press Release\".",
+   "tier": "medium",
+   "rule": "press release|media release",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SFL_02112026195210_Press_Release_Sep.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SFL",
+    "name": "Sheela Foam",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SFL",
+   "exchange": "NSE",
+   "when": "2026-11-02T19:47+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Sheela Foam Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/SFL_02112026194736_Investor_Presentation_Sep.pdf",
+   "text": "Investor Presentation Sheela Foam Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SFL_02112026194736_Investor_Presentation_Sep.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SFL",
+    "name": "Sheela Foam",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "KRSNAA",
+   "exchange": "NSE",
+   "when": "2026-11-02T18:48+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Krsnaa Diagnostics Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/KRSNAA_02112026184753_543328.pdf",
+   "text": "Investor Presentation Krsnaa Diagnostics Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/KRSNAA_02112026184753_543328.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "KRSNAA",
+    "name": "Krsnaa Diagnostics",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "KRSNAA",
+   "exchange": "NSE",
+   "when": "2026-11-02T18:40+05:30",
+   "subject": "Press Release",
+   "detail": "Krsnaa Diagnostics Limited has informed the Exchange regarding a press release dated November 02, 2026, titled \"Krsnaa Records Highest Ever Quarterly Revenue of Rs 2,710 Mn\".",
+   "link": "https://nsearchives.nseindia.com/corporate/KRSNAA_02112026184028_543328.pdf",
+   "text": "Press Release Krsnaa Diagnostics Limited has informed the Exchange regarding a press release dated November 02, 2026, titled \"Krsnaa Records Highest Ever Quarterly Revenue of Rs 2,710 Mn\".",
+   "tier": "medium",
+   "rule": "press release|media release",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/KRSNAA_02112026184028_543328.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "KRSNAA",
+    "name": "Krsnaa Diagnostics",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ITC",
+   "exchange": "NSE",
+   "when": "2026-11-02T18:15+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "ITC Limited has informed the Exchange regarding Board meeting held on November 02, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/ITC_02112026181547_SE_Results_.pdf",
+   "text": "Outcome of Board Meeting ITC Limited has informed the Exchange regarding Board meeting held on November 02, 2026.",
+   "tier": "medium",
+   "rule": "board meeting|intimation of board",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/ITC_02112026181547_SE_Results_.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ITC",
+    "name": "ITC Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BIRLANU",
+   "exchange": "NSE",
+   "when": "2026-11-02T17:52+05:30",
+   "subject": "Investor Presentation",
+   "detail": "BirlaNu Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/sumedha_02112026175136_SE_Intimation_Investor_Presentation_02-11-2026_signed.pdf",
+   "text": "Investor Presentation BirlaNu Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/sumedha_02112026175136_SE_Intimation_Investor_Presentation_02-11-2026_signed.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BIRLANU",
+    "name": "BirlaNu",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BIRLANU",
+   "exchange": "NSE",
+   "when": "2026-11-02T17:45+05:30",
+   "subject": "Press Release",
+   "detail": "BirlaNu Limited has informed the Exchange regarding a press release dated November 02, 2026, titled \"Press Release Q2FY27\".",
+   "link": "https://nsearchives.nseindia.com/corporate/sumedha_02112026174434_SEIntimationPressRelease02112026signed.pdf",
+   "text": "Press Release BirlaNu Limited has informed the Exchange regarding a press release dated November 02, 2026, titled \"Press Release Q2FY27\".",
+   "tier": "medium",
+   "rule": "press release|media release",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/sumedha_02112026174434_SEIntimationPressRelease02112026signed.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BIRLANU",
+    "name": "BirlaNu",
+    "group": "holding"
+   }
+  },
   {
    "nse": "GAIL",
    "exchange": "NSE",
@@ -84,92 +484,17 @@
     "name": "GAIL (India)",
     "group": "holding"
    }
-  },
-  {
-   "nse": "MEDIASSIST",
-   "exchange": "NSE",
-   "when": "2026-11-01T23:39+05:30",
-   "subject": "Press Release",
-   "detail": "Medi Assist Healthcare Services Limited has informed the Exchange regarding a press release dated November 01, 2026, titled \"Medi Assist H1 FY27: EBITDA Rises 19.0%; Margins Expand to 20.3% asTechnology Growth and Paramount Integration Drive OperatingLeverage\".",
-   "link": "https://nsearchives.nseindia.com/corporate/MEDIASSIST_01112026233850_MAHSpressrelease300926.pdf",
-   "text": "Press Release Medi Assist Healthcare Services Limited has informed the Exchange regarding a press release dated November 01, 2026, titled \"Medi Assist H1 FY27: EBITDA Rises 19.0%; Margins Expand to 20.3% asTechnology Growth and Paramount Integration Drive OperatingLeverage\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/MEDIASSIST_01112026233850_MAHSpressrelease300926.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "MEDIASSIST",
-    "name": "Medi Assist Healthcare Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "MEDIASSIST",
-   "exchange": "NSE",
-   "when": "2026-11-01T22:44+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Medi Assist Healthcare Services Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/MEDIASSIST_01112026224144_MAHSInvestorsPPT30092026sd.pdf",
-   "text": "Investor Presentation Medi Assist Healthcare Services Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/MEDIASSIST_01112026224144_MAHSInvestorsPPT30092026sd.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "MEDIASSIST",
-    "name": "Medi Assist Healthcare Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "POWERGRID",
-   "exchange": "NSE",
-   "when": "2026-11-01T20:20+05:30",
-   "subject": "Dividend",
-   "detail": "Power Grid Corporation of India Limited has informed the Exchange that Board of Directors at its meeting held on November 01, 2026, declared Interim Dividend of Rs. 3 per equity share.",
-   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026201556_Dividend_Cover.pdf",
-   "text": "Dividend Power Grid Corporation of India Limited has informed the Exchange that Board of Directors at its meeting held on November 01, 2026, declared Interim Dividend of Rs. 3 per equity share.",
-   "tier": "medium",
-   "rule": "dividend|record date",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026201556_Dividend_Cover.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
-    "group": "holding"
-   }
   }
  ],
  "other": [
   {
-   "nse": "POWERGRID",
+   "nse": "BIRLANU",
    "exchange": "NSE",
-   "when": "2026-11-01T20:55+05:30",
-   "subject": "General Updates",
-   "detail": "Power Grid Corporation of India Limited has informed the Exchange regarding disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements Regulations, 2015",
-   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026205525_CTUIL_Signed.pdf",
-   "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange regarding disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements Regulations, 2015",
+   "when": "2026-11-02T19:24+05:30",
+   "subject": "Agreements",
+   "detail": "BirlaNu Limited has informed the Exchange about Agreements",
+   "link": "https://nsearchives.nseindia.com/corporate/sumedha_02112026192355_Reg_30-_Loan_Agreement_BirlaNu_International_2-11-2026_signed.pdf",
+   "text": "Agreements BirlaNu Limited has informed the Exchange about Agreements",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -178,18 +503,169 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/POWERGRID1_01112026205525_CTUIL_Signed.pdf"
+     "https://nsearchives.nseindia.com/corporate/sumedha_02112026192355_Reg_30-_Loan_Agreement_BirlaNu_International_2-11-2026_signed.pdf"
     ]
    ],
    "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
+    "nse": "BIRLANU",
+    "name": "BirlaNu",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ITC",
+   "exchange": "NSE",
+   "when": "2026-11-02T18:32+05:30",
+   "subject": "General Updates",
+   "detail": "ITC Limited has informed the Exchange about Media Statement and Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/ITC_02112026183159_SE_Media_.pdf",
+   "text": "General Updates ITC Limited has informed the Exchange about Media Statement and Presentation",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/ITC_02112026183159_SE_Media_.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ITC",
+    "name": "ITC Limited",
     "group": "holding"
    }
   }
  ],
- "dropped": 7,
+ "dropped": 19,
  "news": [
+  {
+   "nse": "BIRLANU",
+   "title": "BirlaNu Floors Loss More Than Doubled as Roofs, Walls Gain",
+   "source": "Multibagg AI",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNUxDNkhKaEFzc3JCRGxMN0RuTzFBd0J1THAyMUxtakliYXlULWl1VktER2FpaUdGeEE0bE5LOGVWaWYyam5jNzFOODBkTVh0alFnbnRrVVJ4T01EY2stMGRlRkxOSEpHWDlJZzJhblZUMDg4eURHVF9xWUVuN0xIM3d4RFRnbVo5Z0s5bV9ONzBXQ0ZWY21PeWZGQkhPY1Zud3hWVnBvcVladThGWXc?oc=5",
+   "when": "2026-11-03T06:36+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "BIRLANU",
+    "name": "BirlaNu",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SATIN",
+   "title": "Satin Creditcare Network Technical Momentum Shifts Signal Bullish Outlook",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM0dvbnA4S0paZWcwRnlPZGNUWjlVYzhSUkYzYXRNQmlZZWNKcVcwSGRvWVNwX2UtTk01WThCcndDbmdPY05sWWU4ZGt0bE9DX2wyVnpmVXNTVjNoZDJlajJRVlNxNTFESnhQbjdRSWVkWXdtRFZzWHVhUjU5c1NENTNsNFZkZ2ZhdEtHMW4tQ3NMMERNbGFGSFN1SHhqM2FBbGZ4M2lwbTlLc0VsZkVBWUF2U01aTUhjZ0ZoSk8xeHZJXzdIOFlSQnp0SQ?oc=5",
+   "when": "2026-11-03T06:31+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "SATIN",
+    "name": "Satin Creditcare Network",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BANKINDIA",
+   "title": "A month after RBI’s rate hike, banks start raising deposit rates as liquidity shrinks, Bank of India the l",
+   "source": "The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOR1pHa3JiNl9xSlg3d2FjZjFWc3JfdGVGc1lyWFU2ZkVkSmpJWGZXR3JPbldJa3BWMjBCdGVqaVB6WGFYbk9JTEtQSTNFeldFVXpIdkxzcUJ4em02OFQ1MTQ1dHhhNkQ0X3I2TjA3cGdRWXdWc21HMWFNN0VwRmlNUDJYS1M4cE8tNEtkcDFrZzM0OVBOYUxQbXpheDhydW41bGIyaHZKMnM2dzRYdk5sdDZRUkxDalRuamFBNURZQV95WnVLamRYZzc2Mi1LTkxxMHdkRF9ULW91My16dGxNcHlWTG9yLWFMOVB4dXVsSEJxU1VEU09wUWN2dHFIN3NiQU9SZnhUTEU5S1RsU0NnSnd3c3Y4QmNZZlUwMWJkdFd0Vkp3Vll6aFZYONIBsAJBVV95cUxPcFo0NlhRVXQwV2ZxNU1YemsyV3E3b1dQVktZeFRYckg2cEZMcndJS1ZtR3VvYVZ5RVBSY1d1cjNaOE9KSUxBZHNpREhoQ0tTemRhYktSd21iRTdRZHlYLVo0TnZUXzFlQ0hzUmxVNUozVUZGc0FVQlhlVUM1WmFUaWU4V1BESmViTm1aV29YOWlOcDVCNS1LR0dScmpPSHN4WV96LXNNbTVweVZfQ0x0bW5hc0h1VWctTjhyRVFFZXJEQTFSSEF5b1ZmTTB6VGtfZ0I1SmtyTG1ncnRtdjNVU0dRT09pdENqeE5vTWZFNFVsaS1lTzNrZWJld1RrNXdDUmFWM3d0S1RYaFZEYXlIMm92ckFWME1XaVM3NUZ0ZldMb0JNVHhROEFIUkdlLWZq?oc=5",
+   "when": "2026-11-03T00:20+05:30",
+   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
+   "trusted": true,
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SFL",
+   "title": "Sheela Foam acquires Furlenco, expands business",
+   "source": "InvestyWise",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQT2s1V2NwZlAzU21JNjUzQkRSc0VKZHVwSGc0YU5tZWFzRnVjUkFPUDBRdGlHZmpMbHphOFF0SFpFdEJENG5mMVMtUF9HaXllN09FclIxTWFXS3Z1TEFfYW0weWtwcWFacGJKME5uRGtGNlNNaXg5eVdSYlhsNWh5S2tB?oc=5",
+   "when": "2026-11-02T20:10+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "SFL",
+    "name": "Sheela Foam",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "LAURUSLABS",
+   "title": "Laurus Labs Announces Rs 64 Crore Acquisitions to Boost Peptide, Oligonucleotide Manufacturing",
+   "source": "Medical Dialogues",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQUGRTeXVrVUsxZ2xRYmptMjg1aW1vNDJWU0hIS1B5TXN0bjB0R3hGRG5GMnpSQWJicHhWLUZLT1lrczZGNHFhT0FTQzkyNUd6a3JHRE1INmI2VmxqS0hNcVJzZloxcjZicjJSeWo5YlpPOVpGZGxKRlFzX1dpOU9HQVJCd0ZWQ2UteFZQeW56OVN3LU5KSHI1SHlzUjZJQ1VUOXVEQ0JTeE1GWWdBVUpEYWxTSTlxb085ZkFJM2lydk5Jci1OeFEzVUw1eHhyTnVoN2hlbmRhRGZVUERCUktEcmpBZEhEVldt0gHoAUFVX3lxTFBQZFN5dWtVSzFnbFFiam0yODVpbW80MlZTSEhLUHlNc3RuMHRHeEZEbkYyelJBYmJweFYtRktPWWtzNkY0cWFPQVNDOTI1R3prckdETUg2YjZWbGpLSE1xUnNmWjFyNmJyMlJ5ajliWk85WkZkbEpGUXNfV2k5T0dBUkJ3RlZDZS14VlB5bno5U3ctTkpIcjVIeXNSNklDVVQ5dURDQlN4TUZZZ0FVSkRhbFNJOXFvTzlmQUkzaXJ2TklyLU54UTNVTDV4eHJOdWg3aGVuZGFEZlVQREJSS0RyakFkSERWV20?oc=5",
+   "when": "2026-11-02T18:26+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "CDSL",
+   "title": "CDSL Fined ₹1 Crore for Multiple Compliance Lapses, Cybersecurity and Operational Weaknesses",
+   "source": "Moneylife",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNOHdLdlVvUHpFVUx4N3N2dnNSYzFNWkxMMmMxTkJwZ0xZbFQ1TFNYTHoyMkYwQTNvUW84QTFqajZwR3BhOUV3eURhNDIta0YzV2hVZ3EtZlNYSC14eU5hdXctbEtKM1B3OTRkczRldDdlc2dIZDhJNWJWRWUtX01COVVvd294eGVrdEp6d0pMMERKTWctdEt3eFFTNFUwd2lRT0JXSThmWXVGbzdpSW9hdHhPQTBYNnBoMXFUX3dZUXdvWUdmQTNEckhkMkRpX0k?oc=5",
+   "when": "2026-11-02T17:57+05:30",
+   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
+   "trusted": false,
+   "stock": {
+    "nse": "CDSL",
+    "name": "Central Depository Services",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "KRSNAA",
+   "title": "Krsnaa Diagnostics Strike Disrupts Hospital Services in Shimla; Patients Struggle for Tests",
+   "source": "The News Himachal",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa280T05aZEw0a29BbHc4LUdNbG9xQkNZdHNVMF9NaGQzVmdOcmRNd2hFNmZJZGhSOElVS0tyZkh4aFFzNV9nSGNSaTdGTnRxajIxc0R4MlNTY2ZaQTZhRnVveXhKcDN4VzVzMndURUFuOGoyYVhzeVRmQ2M1RjhYU3JhTzVsbGZpUVBrdmVEcGdQQVhJMDJnZ0RoeGV3Q0JNWURKRjBmQmVmSkExYVFHVkVPWjFkT0FnZ1dSdjZ4VUwtSFpTdHc?oc=5",
+   "when": "2026-11-02T16:01+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "KRSNAA",
+    "name": "Krsnaa Diagnostics",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SATIN",
+   "title": "Satin Creditcare Network Upgraded to Buy on Strong Fundamentals and Bullish Technicals",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQX1NpRm5vcTNXYjRwNXRNSURINm1Gem9MaGJuYmktaVlwT2NIMm8yZFVUcUpMYm5PdW1NQy01dHZyTXk4RHJnUVZhTDlYcnhOXy1LSVRid2ZxTHZVeVpXRnhFX2pCTWpDNDFHblNDQUc5cE9Lc1l3RlVaMFp2MWFkN0FQZVhiQUhwQlBMcDJVa0VjcWw0dkVVYWFKdXNqVkZfTzB4aHZmcmhZZVVtdUQwN3VDaTRJd1FfS1NFRElVOUt2d3NLVjhZMDFnMUlDZVZkaTBDYWpqVmduenF6WjdJQkxn?oc=5",
+   "when": "2026-11-02T14:52+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "SATIN",
+    "name": "Satin Creditcare Network",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "UFBL",
+   "title": "United Foodbrands operating cash inflow reaches Rs 140.208 crore",
+   "source": "Multibagg AI",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONTM2bTA4UzJST0tsbU9WTnRFNkJma1JrTE1KRnFzNHFaWFFXT0JfcjAtWG04eVVLZGJiZXlsVkx1STE1VmwwejNhajZlNTBDaXExMDBSM1ZBazBTQlZXYmFteTUxVjB3WGpLYlF1RktIekY4ZmEwOF9HR0JSZl8ybEd0dVJ4alNza0VFUVBuS0ljM2RMZjFWLTZnR3ZOaGJrZWFqdnNDSmhOMzhwdUg3WWJmVnZJMWlTN0ktR1hmOGZEYkU?oc=5",
+   "when": "2026-11-02T13:07+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "UFBL",
+    "name": "United Foodbrands",
+    "group": "holding"
+   }
+  },
   {
    "nse": "JUBLINGREA",
    "title": "Jubilant Ingrevia Q2 FY27 Results & Acquisition Update",
@@ -201,20 +677,6 @@
    "stock": {
     "nse": "JUBLINGREA",
     "name": "Jubilant Ingrevia",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "TIMETECHNO",
-   "title": "Time Technoplast Completes Four Major Projects in Q4 FY26, Adds Automated Manufacturing Capacity",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNV3d5eVJNQnhGTHQxVTdLSGVNcEZxLUhVUTJianpCdmE5eEsybzJHOHdlc0p0dEVmSXRJS2pZUF9ITnozYkF2QTZSSDdkdEhFQzlyWGdJR1JkRG9va19yVHkxZkxQNlVQbG9FQzh4VmhuUWlSdHhGMGRMR3RpaUNIbTJyZUlBWENaWEZQSXFDTWdwSjV2SUI2SElMQ3UtcElWaTRndFQ5TVZUaFFNSXdkeDdfWVNoSTBWY1dkX2ZReGt6dG5aNGxSdHREMTdOcWU1UE1QejlMaWdzVkpINnBFdzlLUW55RUZqcnZHV0hR?oc=5",
-   "when": "2026-11-01T10:27+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "TIMETECHNO",
-    "name": "Time Technoplast",
     "group": "holding"
    }
   }
@@ -674,8 +1136,9 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 30 Oct",
+  "BSE codes taken from bhavcopy 02 Nov",
   "BSE announcements failed (HTTPError)",
+  "BSE announcements failed (JSONDecodeError)",
   "BSE announcements failed (ReadTimeout)"
  ]
 }
