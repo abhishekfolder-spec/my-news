@@ -1,13 +1,138 @@
 {
- "generated": "2026-11-04T13:13+05:30",
- "since": "2026-11-03T07:13+05:30",
+ "generated": "2026-11-05T13:35+05:30",
+ "since": "2026-11-04T07:35+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 63",
+  "NSE": "ok · 35",
   "BSE": "unavailable",
-  "News": "ok · 14"
+  "News": "ok · 21"
  },
  "high": [
+  {
+   "nse": "NORTHARC",
+   "exchange": "NSE",
+   "when": "2026-11-04T18:07+05:30",
+   "subject": "Press Release",
+   "detail": "Northern Arc Capital Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Northern Arc Diversified Debt Fund raises ₹400 Crore+; Northern Arc India Impact Fund matured with 14.59% Gross XIRR\".",
+   "link": "https://nsearchives.nseindia.com/corporate/NACL2020_04112026180559_Disclosure_NAIM_V2_Signed.pdf",
+   "text": "Press Release Northern Arc Capital Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Northern Arc Diversified Debt Fund raises ₹400 Crore+; Northern Arc India Impact Fund matured with 14.59% Gross XIRR\".",
+   "tier": "high",
+   "rule": "fund ?rais|raising of funds|issue of (equity|securities)",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/NACL2020_04112026180559_Disclosure_NAIM_V2_Signed.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "NORTHARC",
+    "name": "Northern Arc Capital",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BSE",
+   "exchange": "NSE",
+   "when": "2026-11-04T18:01+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "BSE Limited has submitted to the Exchange, the financial results for the quarter and six months ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/BSE1_04112026175851_NSEINTIMATION.pdf",
+   "text": "Outcome of Board Meeting BSE Limited has submitted to the Exchange, the financial results for the quarter and six months ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/BSE1_04112026175851_NSEINTIMATION.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JMFINANCIL",
+   "exchange": "NSE",
+   "when": "2026-11-04T17:54+05:30",
+   "subject": "Press Release",
+   "detail": "JM Financial Limited has informed the Exchange regarding a press release dated November 4, 2026, titled \"JM Financial Limited reports consolidated revenue of Rs. 1,056 crores and PAT of Rs. 240 crores for Q2FY27; Ranked #1 by deal value in IPOs and QIPs for H1FY27; Growth in loan book across private markets (22% YoY), wealth management (30% YoY) and affordablehome loans (30% YoY).\"",
+   "link": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_04112026175432_PressRelease04112026upload.pdf",
+   "text": "Press Release JM Financial Limited has informed the Exchange regarding a press release dated November 4, 2026, titled \"JM Financial Limited reports consolidated revenue of Rs. 1,056 crores and PAT of Rs. 240 crores for Q2FY27; Ranked #1 by deal value in IPOs and QIPs for H1FY27; Growth in loan book across private markets (22% YoY), wealth management (30% YoY) and affordablehome loans (30% YoY).\"",
+   "tier": "high",
+   "rule": "qip|qualified institutions? placement|preferential (issue|allotment)|rights issue|warrants",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/JMFINANCIL_04112026175432_PressRelease04112026upload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JMFINANCIL",
+   "exchange": "NSE",
+   "when": "2026-11-04T17:26+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "JM Financial Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_04112026172519_OutcomeoftheBoardMeeting04112026upload.pdf",
+   "text": "Outcome of Board Meeting JM Financial Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/JMFINANCIL_04112026172519_OutcomeoftheBoardMeeting04112026upload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ARMANFIN",
+   "exchange": "NSE",
+   "when": "2026-11-04T13:23+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Arman Financial Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/ARMANFIN_04112026132201_FINANCIAL_RESULT_Outcome_Q2_2026-27.pdf",
+   "text": "Outcome of Board Meeting Arman Financial Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/ARMANFIN_04112026132201_FINANCIAL_RESULT_Outcome_Q2_2026-27.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ARMANFIN",
+    "name": "Arman Financial Services",
+    "group": "holding"
+   }
+  },
   {
    "nse": "EQUITASBNK",
    "exchange": "NSE",
@@ -32,359 +157,184 @@
     "name": "Equitas Small Finance Bank",
     "group": "holding"
    }
-  },
-  {
-   "nse": "PARAGMILK",
-   "exchange": "NSE",
-   "when": "2026-11-03T22:49+05:30",
-   "subject": "Amalgamation/Merger",
-   "detail": "Parag Milk Foods Limited has informed the Exchange about Amalgamation/Merger",
-   "link": "https://nsearchives.nseindia.com/corporate/PARAGMILK_03112026224807_Intimation.pdf",
-   "text": "Amalgamation/Merger Parag Milk Foods Limited has informed the Exchange about Amalgamation/Merger",
-   "tier": "high",
-   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/PARAGMILK_03112026224807_Intimation.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "PARAGMILK",
-    "name": "Parag Milk Foods",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "POWERGRID",
-   "exchange": "NSE",
-   "when": "2026-11-03T21:56+05:30",
-   "subject": "Cessation",
-   "detail": "Power Grid Corporation of India Limited has informed the Exchange regarding Cessation of Mr Abhay Bakre as Govt. Nominee Director on the Board of the company w.e.f. November 03, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_03112026215521_BSENSEReg30_signed.pdf",
-   "text": "Cessation Power Grid Corporation of India Limited has informed the Exchange regarding Cessation of Mr Abhay Bakre as Govt. Nominee Director on the Board of the company w.e.f. November 03, 2026.",
-   "tier": "high",
-   "rule": "resignation|cessation|appointment of .{0,60}(\\bmd\\b|\\bceo\\b|\\bcfo\\b|managing director|chief executive|chief financial|whole[- ]time)",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/POWERGRID1_03112026215521_BSENSEReg30_signed.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SAMHI",
-   "exchange": "NSE",
-   "when": "2026-11-03T20:55+05:30",
-   "subject": "Press Release",
-   "detail": "Samhi Hotels Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"Unaudited Standalone and Consolidated Financial Results for the quarter and six months ended 30th September 2026\".",
-   "link": "https://nsearchives.nseindia.com/corporate/Samhi_03112026205320_Disclosure_Press_Release_Q2FY27.pdf",
-   "text": "Press Release Samhi Hotels Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"Unaudited Standalone and Consolidated Financial Results for the quarter and six months ended 30th September 2026\".",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/Samhi_03112026205320_Disclosure_Press_Release_Q2FY27.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SAMHI",
-    "name": "SAMHI Hotels",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "EQUITASBNK",
-   "exchange": "NSE",
-   "when": "2026-11-03T20:49+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Equitas Small Finance Bank Limited has informed the exchange regarding outcome of Board Meeting - Approval of Board of Directors for appointment of Interim Chief Executive Officer..",
-   "link": "https://nsearchives.nseindia.com/corporate/EQUITASBNK_03112026204424_Outcome_of_BM_finalforupload_03Nov26.pdf",
-   "text": "Outcome of Board Meeting Equitas Small Finance Bank Limited has informed the exchange regarding outcome of Board Meeting - Approval of Board of Directors for appointment of Interim Chief Executive Officer..",
-   "tier": "high",
-   "rule": "resignation|cessation|appointment of .{0,60}(\\bmd\\b|\\bceo\\b|\\bcfo\\b|managing director|chief executive|chief financial|whole[- ]time)",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/EQUITASBNK_03112026204424_Outcome_of_BM_finalforupload_03Nov26.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SAMHI",
-   "exchange": "NSE",
-   "when": "2026-11-03T18:38+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Samhi Hotels Limited has submitted to the Exchange, the unaudited standalone & consolidated financial results for the quarter & six months ended September 30, 2026 as approved by the Board in its meeting held today along with Limited Review Report issued by the statutory auditors thereon.",
-   "link": "https://nsearchives.nseindia.com/corporate/Samhi_03112026183606_Disclosure_BM_Outcome03112026.pdf",
-   "text": "Outcome of Board Meeting Samhi Hotels Limited has submitted to the Exchange, the unaudited standalone & consolidated financial results for the quarter & six months ended September 30, 2026 as approved by the Board in its meeting held today along with Limited Review Report issued by the statutory auditors thereon.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/Samhi_03112026183606_Disclosure_BM_Outcome03112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SAMHI",
-    "name": "SAMHI Hotels",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "MEDIASSIST",
-   "exchange": "NSE",
-   "when": "2026-11-03T17:47+05:30",
-   "subject": "General Updates",
-   "detail": "Medi Assist Healthcare Services Limited has informed the Exchange about General Updates regarding Public announcement and board resolution for buyback",
-   "link": "https://nsearchives.nseindia.com/corporate/MEDIASSIST_03112026174715_MAHSEintimationBuybackPABRsd.pdf",
-   "text": "General Updates Medi Assist Healthcare Services Limited has informed the Exchange about General Updates regarding Public announcement and board resolution for buyback",
-   "tier": "high",
-   "rule": "buy-?back|bonus issue|stock split|sub-?division",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/MEDIASSIST_03112026174715_MAHSEintimationBuybackPABRsd.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "MEDIASSIST",
-    "name": "Medi Assist Healthcare Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "MEDIASSIST",
-   "exchange": "NSE",
-   "when": "2026-11-03T17:45+05:30",
-   "subject": "Public Announcement - Buyback of Shares",
-   "detail": "MEDIASSIST: Medi Assist Healthcare Services Limited has informed the Exchange about public Announcement and board resolution for Buyback of Shares",
-   "link": "https://nsearchives.nseindia.com/corporate/MEDIASSIST_03112026174459_MAHSEintimationBuybackPABRsd.pdf",
-   "text": "Public Announcement - Buyback of Shares MEDIASSIST: Medi Assist Healthcare Services Limited has informed the Exchange about public Announcement and board resolution for Buyback of Shares",
-   "tier": "high",
-   "rule": "buy-?back|bonus issue|stock split|sub-?division",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/MEDIASSIST_03112026174459_MAHSEintimationBuybackPABRsd.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "MEDIASSIST",
-    "name": "Medi Assist Healthcare Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "NORTHARC",
-   "exchange": "NSE",
-   "when": "2026-11-03T17:17+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Northern Arc Capital Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/NACL2020_03112026171600_Results_Exchange_Final_1.pdf",
-   "text": "Outcome of Board Meeting Northern Arc Capital Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/NACL2020_03112026171600_Results_Exchange_Final_1.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "NORTHARC",
-    "name": "Northern Arc Capital",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "NEULANDLAB",
-   "exchange": "NSE",
-   "when": "2026-11-03T16:16+05:30",
-   "subject": "Press Release",
-   "detail": "Neuland Laboratories Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"Press Release on the Financial Results of the Company for the quarter and half year ended September 30, 2026\".",
-   "link": "https://nsearchives.nseindia.com/corporate/NEULANDLAB_03112026161539_SignedSEPR03112026.pdf",
-   "text": "Press Release Neuland Laboratories Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"Press Release on the Financial Results of the Company for the quarter and half year ended September 30, 2026\".",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/NEULANDLAB_03112026161539_SignedSEPR03112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "NEULANDLAB",
-    "name": "Neuland Laboratories",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "NEULANDLAB",
-   "exchange": "NSE",
-   "when": "2026-11-03T15:50+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Neuland Laboratories Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/NEULANDLAB_03112026154657_SEOutcome_03112026.pdf",
-   "text": "Outcome of Board Meeting Neuland Laboratories Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/NEULANDLAB_03112026154657_SEOutcome_03112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "NEULANDLAB",
-    "name": "Neuland Laboratories",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "RBZJEWEL",
-   "exchange": "NSE",
-   "when": "2026-11-03T13:53+05:30",
-   "subject": "Integrated Filing- Financial",
-   "detail": "Attaching herewith Unaudited Financial Results of the Company for Q2 ended as on 30.09.2026",
-   "link": "https://nsearchives.nseindia.com/corporate/RBZ_03112026135322_SignedReg33OutcomeofBM03112026.pdf",
-   "text": "Integrated Filing- Financial Attaching herewith Unaudited Financial Results of the Company for Q2 ended as on 30.09.2026",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/RBZ_03112026135322_SignedReg33OutcomeofBM03112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "RBZJEWEL",
-    "name": "RBZ Jewellers",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "RBZJEWEL",
-   "exchange": "NSE",
-   "when": "2026-11-03T13:44+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Rbz Jewellers Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/RBZ_03112026134201_SignedReg33OutcomeofBM03112026.pdf",
-   "text": "Outcome of Board Meeting Rbz Jewellers Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/RBZ_03112026134201_SignedReg33OutcomeofBM03112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "RBZJEWEL",
-    "name": "RBZ Jewellers",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ROUTE",
-   "exchange": "NSE",
-   "when": "2026-11-03T13:15+05:30",
-   "subject": "Press Release",
-   "detail": "ROUTE MOBILE LIMITED has informed the Exchange regarding a press release dated November 03, 2026, titled \"365squared launches AI-powered voice fraud protection solution, 365callguard\".",
-   "link": "https://nsearchives.nseindia.com/corporate/ROUTE_03112026131449_upload.pdf",
-   "text": "Press Release ROUTE MOBILE LIMITED has informed the Exchange regarding a press release dated November 03, 2026, titled \"365squared launches AI-powered voice fraud protection solution, 365callguard\".",
-   "tier": "high",
-   "rule": "fraud|forensic|whistle ?blower",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/ROUTE_03112026131449_upload.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ROUTE",
-    "name": "Route Mobile",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "POWERGRID",
-   "exchange": "NSE",
-   "when": "2026-11-03T12:02+05:30",
-   "subject": "General Updates",
-   "detail": "Power Grid Corporation of India Limited has informed the Exchange about Regional Director, Northern Region Directorate I, Ministry of Corporate Affairs, confirmed the respective schemes of merger of Wholly owned subsidiaries of POWERGRID.",
-   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_03112026120246_BSENSEMerger.pdf",
-   "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange about Regional Director, Northern Region Directorate I, Ministry of Corporate Affairs, confirmed the respective schemes of merger of Wholly owned subsidiaries of POWERGRID.",
-   "tier": "high",
-   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/POWERGRID1_03112026120246_BSENSEMerger.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
-    "group": "holding"
-   }
   }
  ],
  "medium": [
+  {
+   "nse": "INDRAMEDCO",
+   "exchange": "NSE",
+   "when": "2026-11-05T10:39+05:30",
+   "subject": "Change in Director(s)",
+   "detail": "Indraprastha Medical Corporation Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "link": "https://nsearchives.nseindia.com/corporate/INDRAMEDCO_05112026103901_IMCL05112026.pdf",
+   "text": "Change in Director(s) Indraprastha Medical Corporation Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "tier": "medium",
+   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/INDRAMEDCO_05112026103901_IMCL05112026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "INDRAMEDCO",
+    "name": "Indraprastha Medical Corporation",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JMFINANCIL",
+   "exchange": "NSE",
+   "when": "2026-11-04T19:56+05:30",
+   "subject": "Investor Presentation",
+   "detail": "JM Financial Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_04112026195631_InvestorPresentation04112026upload.pdf",
+   "text": "Investor Presentation JM Financial Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/JMFINANCIL_04112026195631_InvestorPresentation04112026upload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BSE",
+   "exchange": "NSE",
+   "when": "2026-11-04T18:19+05:30",
+   "subject": "Investor Presentation",
+   "detail": "BSE Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/BSE1_04112026181604_NSEIntimation.pdf",
+   "text": "Investor Presentation BSE Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/BSE1_04112026181604_NSEIntimation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JMFINANCIL",
+   "exchange": "NSE",
+   "when": "2026-11-04T17:43+05:30",
+   "subject": "Record Date",
+   "detail": "JM Financial Limited has informed the Exchange that Record date for the purpose of Interim Dividend is November 11, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_04112026174245_OutcomeoftheBoardMeeting04112026upload.pdf",
+   "text": "Record Date JM Financial Limited has informed the Exchange that Record date for the purpose of Interim Dividend is November 11, 2026.",
+   "tier": "medium",
+   "rule": "dividend|record date",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/JMFINANCIL_04112026174245_OutcomeoftheBoardMeeting04112026upload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JMFINANCIL",
+   "exchange": "NSE",
+   "when": "2026-11-04T17:38+05:30",
+   "subject": "Dividend",
+   "detail": "JM Financial Limited has informed the Exchange that Board of Directors at its meeting held on November 4, 2026, declared Interim Dividend of Rs. 1.65 per equity share for the financial year 2026-27.",
+   "link": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_04112026173804_OutcomeoftheBoardMeeting04112026upload.pdf",
+   "text": "Dividend JM Financial Limited has informed the Exchange that Board of Directors at its meeting held on November 4, 2026, declared Interim Dividend of Rs. 1.65 per equity share for the financial year 2026-27.",
+   "tier": "medium",
+   "rule": "dividend|record date",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/JMFINANCIL_04112026173804_OutcomeoftheBoardMeeting04112026upload.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "UGROCAP",
+   "exchange": "NSE",
+   "when": "2026-11-04T17:36+05:30",
+   "subject": "Press Release",
+   "detail": "Ugro Capital Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"UGRO Capital s Social Impact Study: Building an inclusive credit ecosystem for India s MSMEs\".",
+   "link": "https://nsearchives.nseindia.com/corporate/UGROCAP_04112026173620_SocialImpactPressRelease04112026.pdf",
+   "text": "Press Release Ugro Capital Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"UGRO Capital s Social Impact Study: Building an inclusive credit ecosystem for India s MSMEs\".",
+   "tier": "medium",
+   "rule": "press release|media release",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/UGROCAP_04112026173620_SocialImpactPressRelease04112026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "UGROCAP",
+    "name": "Ugro Capital",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ARMANFIN",
+   "exchange": "NSE",
+   "when": "2026-11-04T15:45+05:30",
+   "subject": "Press Release",
+   "detail": "Arman Financial Services Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Press Release on Q2 FY 2026-27\".",
+   "link": "https://nsearchives.nseindia.com/corporate/ARMANFIN_04112026154536_PRESS_RELEASE_Intimation.pdf",
+   "text": "Press Release Arman Financial Services Limited has informed the Exchange regarding a press release dated November 04, 2026, titled \"Press Release on Q2 FY 2026-27\".",
+   "tier": "medium",
+   "rule": "press release|media release",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/ARMANFIN_04112026154536_PRESS_RELEASE_Intimation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ARMANFIN",
+    "name": "Arman Financial Services",
+    "group": "holding"
+   }
+  },
   {
    "nse": "RBA",
    "exchange": "NSE",
@@ -409,174 +359,26 @@
     "name": "Restaurant Brands Asia",
     "group": "holding"
    }
-  },
-  {
-   "nse": "PARAGMILK",
-   "exchange": "NSE",
-   "when": "2026-11-04T00:11+05:30",
-   "subject": "Press Release",
-   "detail": "Parag Milk Foods Limited has informed the Exchange regarding a press release dated November 3, 2026, titled \"Outcome of Board Meeting held on November 3, 2026\"",
-   "link": "https://nsearchives.nseindia.com/corporate/PARAGMILK_04112026000902_Intimation.pdf",
-   "text": "Press Release Parag Milk Foods Limited has informed the Exchange regarding a press release dated November 3, 2026, titled \"Outcome of Board Meeting held on November 3, 2026\"",
-   "tier": "medium",
-   "rule": "board meeting|intimation of board",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/PARAGMILK_04112026000902_Intimation.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "PARAGMILK",
-    "name": "Parag Milk Foods",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "PARAGMILK",
-   "exchange": "NSE",
-   "when": "2026-11-03T22:49+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Parag Milk Foods Limited has informed the Exchange about the Outcome of Board Meeting held on November 3, 2026",
-   "link": "https://nsearchives.nseindia.com/corporate/PARAGMILK_03112026224726_Intimation.pdf",
-   "text": "Outcome of Board Meeting Parag Milk Foods Limited has informed the Exchange about the Outcome of Board Meeting held on November 3, 2026",
-   "tier": "medium",
-   "rule": "board meeting|intimation of board",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/PARAGMILK_03112026224726_Intimation.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "PARAGMILK",
-    "name": "Parag Milk Foods",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "POWERGRID",
-   "exchange": "NSE",
-   "when": "2026-11-03T21:58+05:30",
-   "subject": "Change in Director(s)",
-   "detail": "Power Grid Corporation of India Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_03112026215753_BSENSEReg30_signed.pdf",
-   "text": "Change in Director(s) Power Grid Corporation of India Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "tier": "medium",
-   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/POWERGRID1_03112026215753_BSENSEReg30_signed.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SAMHI",
-   "exchange": "NSE",
-   "when": "2026-11-03T19:50+05:30",
-   "subject": "General Updates",
-   "detail": "Samhi Hotels Limited has informed the Exchange about Investor Presentation on the performance of the Company for the Quarter 2 - FY 27.",
-   "link": "https://nsearchives.nseindia.com/corporate/Samhi_03112026194453_Disclosure_InvestorPresentation_Q2FY27.pdf",
-   "text": "General Updates Samhi Hotels Limited has informed the Exchange about Investor Presentation on the performance of the Company for the Quarter 2 - FY 27.",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/Samhi_03112026194453_Disclosure_InvestorPresentation_Q2FY27.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SAMHI",
-    "name": "SAMHI Hotels",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SAMHI",
-   "exchange": "NSE",
-   "when": "2026-11-03T19:09+05:30",
-   "subject": "General Updates",
-   "detail": "Samhi Hotels Limited has informed the Exchange about extending of Corporate Guarantee in favour of ICICI Bank Limited, in relation to the loan facility availed/ to be availed by Duet India Hotels (Hyderabad) Private Limited, Company s 100% Subsidiary",
-   "link": "https://nsearchives.nseindia.com/corporate/Samhi_03112026190527_Disclosure_Corporate_Guarantee.pdf",
-   "text": "General Updates Samhi Hotels Limited has informed the Exchange about extending of Corporate Guarantee in favour of ICICI Bank Limited, in relation to the loan facility availed/ to be availed by Duet India Hotels (Hyderabad) Private Limited, Company s 100% Subsidiary",
-   "tier": "medium",
-   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/Samhi_03112026190527_Disclosure_Corporate_Guarantee.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SAMHI",
-    "name": "SAMHI Hotels",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "NORTHARC",
-   "exchange": "NSE",
-   "when": "2026-11-03T18:13+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Northern Arc Capital Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/NACL2020_03112026181123_Investor_presentation_1.pdf",
-   "text": "Investor Presentation Northern Arc Capital Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/NACL2020_03112026181123_Investor_presentation_1.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "NORTHARC",
-    "name": "Northern Arc Capital",
-    "group": "holding"
-   }
-  },
+  }
+ ],
+ "other": [
   {
    "nse": "ADVENZYMES",
    "exchange": "NSE",
-   "when": "2026-11-03T17:40+05:30",
+   "when": "2026-11-05T11:52+05:30",
    "subject": "Updates",
-   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange regarding 'submission of application to the Stock Exchanges for Reclassification from Promoter Group to Public Category, pursuant to Regulation 31A of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 [ Listing Regulations ]'.",
-   "link": "https://nsearchives.nseindia.com/corporate/AETL_03112026174002_Intimation.pdf",
-   "text": "Updates Advanced Enzyme Technologies Limited has informed the Exchange regarding 'submission of application to the Stock Exchanges for Reclassification from Promoter Group to Public Category, pursuant to Regulation 31A of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 [ Listing Regulations ]'.",
-   "tier": "medium",
-   "rule": "reclassification|promoter group",
+   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange regarding 'Extinguishment of Equity Shares'.",
+   "link": "https://nsearchives.nseindia.com/corporate/AETL_05112026115159_Intimation05112026.pdf",
+   "text": "Updates Advanced Enzyme Technologies Limited has informed the Exchange regarding 'Extinguishment of Equity Shares'.",
+   "tier": "other",
+   "rule": null,
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/AETL_03112026174002_Intimation.pdf"
+     "https://nsearchives.nseindia.com/corporate/AETL_05112026115159_Intimation05112026.pdf"
     ]
    ],
    "stock": {
@@ -586,366 +388,243 @@
    }
   },
   {
-   "nse": "NORTHARC",
+   "nse": "VOGL",
    "exchange": "NSE",
-   "when": "2026-11-03T17:39+05:30",
-   "subject": "Press Release",
-   "detail": "Northern Arc Capital Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"Press Release on the financial performances for the second quarter and half year ended September 30, 2026\".",
-   "link": "https://nsearchives.nseindia.com/corporate/NACL2020_03112026173910_Press_release_Q2_Sep2026_SD.pdf",
-   "text": "Press Release Northern Arc Capital Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"Press Release on the financial performances for the second quarter and half year ended September 30, 2026\".",
-   "tier": "medium",
-   "rule": "press release|media release",
+   "when": "2026-11-04T19:00+05:30",
+   "subject": "Options to purchase securities",
+   "detail": "Vedanta Oil and Gas Limited has informed the Exchange about Options to purchase securities - Vesting of performance-based grants",
+   "link": "https://nsearchives.nseindia.com/corporate/VOGL_04112026185954_VestingIntimationFINAL.pdf",
+   "text": "Options to purchase securities Vedanta Oil and Gas Limited has informed the Exchange about Options to purchase securities - Vesting of performance-based grants",
+   "tier": "other",
+   "rule": null,
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/NACL2020_03112026173910_Press_release_Q2_Sep2026_SD.pdf"
+     "https://nsearchives.nseindia.com/corporate/VOGL_04112026185954_VestingIntimationFINAL.pdf"
     ]
    ],
    "stock": {
-    "nse": "NORTHARC",
-    "name": "Northern Arc Capital",
+    "nse": "VOGL",
+    "name": "Vedanta Oil and Gas",
     "group": "holding"
    }
   },
   {
-   "nse": "NORTHARC",
+   "nse": "BSE",
    "exchange": "NSE",
-   "when": "2026-11-03T17:20+05:30",
-   "subject": "Change in Management",
-   "detail": "Northern Arc Capital Limited has informed the Exchange about change in Management",
-   "link": "https://nsearchives.nseindia.com/corporate/NACL2020_03112026172001_Results_Exchange_Final_1.pdf",
-   "text": "Change in Management Northern Arc Capital Limited has informed the Exchange about change in Management",
-   "tier": "medium",
-   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
+   "when": "2026-11-04T18:05+05:30",
+   "subject": "Appointment",
+   "detail": "BSE Limited has informed the Exchange regarding Appointment of Mr Ashutosh Singh as Executive Director Business (Vertical 3) of the Company w.e.f. November 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/BSE1_04112026180514_NSEINTIMATION.pdf",
+   "text": "Appointment BSE Limited has informed the Exchange regarding Appointment of Mr Ashutosh Singh as Executive Director Business (Vertical 3) of the Company w.e.f. November 30, 2026.",
+   "tier": "other",
+   "rule": null,
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/NACL2020_03112026172001_Results_Exchange_Final_1.pdf"
+     "https://nsearchives.nseindia.com/corporate/BSE1_04112026180514_NSEINTIMATION.pdf"
     ]
    ],
    "stock": {
-    "nse": "NORTHARC",
-    "name": "Northern Arc Capital",
+    "nse": "BSE",
+    "name": "BSE Limited",
     "group": "holding"
    }
   },
   {
-   "nse": "IEX",
+   "nse": "MEDIASSIST",
    "exchange": "NSE",
-   "when": "2026-11-03T16:48+05:30",
-   "subject": "Press Release",
-   "detail": "Indian Energy Exchange Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"IEX Power Market Update, October'26\".",
-   "link": "https://nsearchives.nseindia.com/corporate/IEX_03112026164846_IEX_Media_Release_Power_Market_Update_October26_signed.pdf",
-   "text": "Press Release Indian Energy Exchange Limited has informed the Exchange regarding a press release dated November 03, 2026, titled \"IEX Power Market Update, October'26\".",
-   "tier": "medium",
-   "rule": "press release|media release",
+   "when": "2026-11-04T18:03+05:30",
+   "subject": "Appointment",
+   "detail": "Medi Assist Healthcare Services Limited has informed the Exchange regarding Appointment of Ms. Aruna Vaidyanathan as Senior Management Personnel of the Company w.e.f. November 04, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/MEDIASSIST_04112026180343_MAHSappointmet_of_SMP_Aruna.pdf",
+   "text": "Appointment Medi Assist Healthcare Services Limited has informed the Exchange regarding Appointment of Ms. Aruna Vaidyanathan as Senior Management Personnel of the Company w.e.f. November 04, 2026.",
+   "tier": "other",
+   "rule": null,
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/IEX_03112026164846_IEX_Media_Release_Power_Market_Update_October26_signed.pdf"
+     "https://nsearchives.nseindia.com/corporate/MEDIASSIST_04112026180343_MAHSappointmet_of_SMP_Aruna.pdf"
     ]
    ],
    "stock": {
-    "nse": "IEX",
-    "name": "Indian Energy Exchange",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "NEULANDLAB",
-   "exchange": "NSE",
-   "when": "2026-11-03T16:24+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Neuland Laboratories Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/NEULANDLAB_03112026162313_SignedSEInvestorsAnalystsPresentation03112026.pdf",
-   "text": "Investor Presentation Neuland Laboratories Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/NEULANDLAB_03112026162313_SignedSEInvestorsAnalystsPresentation03112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "NEULANDLAB",
-    "name": "Neuland Laboratories",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "RBZJEWEL",
-   "exchange": "NSE",
-   "when": "2026-11-03T16:08+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Rbz Jewellers Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/RBZ_03112026160804_ilovepd.pdf",
-   "text": "Investor Presentation Rbz Jewellers Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/RBZ_03112026160804_ilovepd.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "RBZJEWEL",
-    "name": "RBZ Jewellers",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "POWERGRID",
-   "exchange": "NSE",
-   "when": "2026-11-03T14:53+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Power Grid Corporation of India Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_03112026145122_Binder1.pdf",
-   "text": "Investor Presentation Power Grid Corporation of India Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/POWERGRID1_03112026145122_Binder1.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "CDSL",
-   "exchange": "NSE",
-   "when": "2026-11-03T12:59+05:30",
-   "subject": "Press Release",
-   "detail": "CDSL has informed the Exchange regarding a press release dated November 03, 2026, titled \"CDSL Receives Great Place To Work® Certification\".",
-   "link": "https://nsearchives.nseindia.com/corporate/CDSL_03112026125814_NSEIntimation_PressRelease_finalsd.pdf",
-   "text": "Press Release CDSL has informed the Exchange regarding a press release dated November 03, 2026, titled \"CDSL Receives Great Place To Work® Certification\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/CDSL_03112026125814_NSEIntimation_PressRelease_finalsd.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "CDSL",
-    "name": "Central Depository Services",
+    "nse": "MEDIASSIST",
+    "name": "Medi Assist Healthcare Services",
     "group": "holding"
    }
   }
  ],
- "other": [
-  {
-   "nse": "SAMHI",
-   "exchange": "NSE",
-   "when": "2026-11-03T19:34+05:30",
-   "subject": "General Updates",
-   "detail": "Samhi Hotels Limited has informed the Exchange about First Sustainability Report of the Company for the financial year 2025-26, which is enclosed for your information & records",
-   "link": "https://nsearchives.nseindia.com/corporate/Samhi_03112026193427_Disclosure_ESG_Report.pdf",
-   "text": "General Updates Samhi Hotels Limited has informed the Exchange about First Sustainability Report of the Company for the financial year 2025-26, which is enclosed for your information & records",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/Samhi_03112026193427_Disclosure_ESG_Report.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SAMHI",
-    "name": "SAMHI Hotels",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JUBLINGREA",
-   "exchange": "NSE",
-   "when": "2026-11-03T19:21+05:30",
-   "subject": "Shareholders meeting",
-   "detail": "Jubilant Ingrevia Limited has informed the Exchange regarding Notice of Postal Ballot",
-   "link": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_03112026191749_Jubilant_Ingrevia_-_Postal_Ballot_Notice.pdf",
-   "text": "Shareholders meeting Jubilant Ingrevia Limited has informed the Exchange regarding Notice of Postal Ballot",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/JUBLINGREA_03112026191749_Jubilant_Ingrevia_-_Postal_Ballot_Notice.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "NORTHARC",
-   "exchange": "NSE",
-   "when": "2026-11-03T18:41+05:30",
-   "subject": "Statement of deviation(s) or variation(s) under Reg. 32",
-   "detail": "Northern Arc Capital Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "link": "https://nsearchives.nseindia.com/corporate/NACL2020_03112026184055_Statement_of_deviation_IPO.pdf",
-   "text": "Statement of deviation(s) or variation(s) under Reg. 32 Northern Arc Capital Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/NACL2020_03112026184055_Statement_of_deviation_IPO.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "NORTHARC",
-    "name": "Northern Arc Capital",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "KRSNAA",
-   "exchange": "NSE",
-   "when": "2026-11-03T18:13+05:30",
-   "subject": "General Updates",
-   "detail": "Krsnaa Diagnostics Limited has informed the Exchange about General Updates",
-   "link": "https://nsearchives.nseindia.com/corporate/KRSNAA_03112026181307_543328.pdf",
-   "text": "General Updates Krsnaa Diagnostics Limited has informed the Exchange about General Updates",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/KRSNAA_03112026181307_543328.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "KRSNAA",
-    "name": "Krsnaa Diagnostics",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "NEULANDLAB",
-   "exchange": "NSE",
-   "when": "2026-11-03T16:01+05:30",
-   "subject": "General Updates",
-   "detail": "Disclosure Under Regulation 30 Of SEBI Listing Regulations",
-   "link": "https://nsearchives.nseindia.com/corporate/NEULANDLAB_03112026160112_SEOutcome_03112026.pdf",
-   "text": "General Updates Disclosure Under Regulation 30 Of SEBI Listing Regulations",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/NEULANDLAB_03112026160112_SEOutcome_03112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "NEULANDLAB",
-    "name": "Neuland Laboratories",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "KRSNAA",
-   "exchange": "NSE",
-   "when": "2026-11-03T14:35+05:30",
-   "subject": "General Updates",
-   "detail": "Krsnaa Diagnostics Limited has informed the Exchange about General Updates",
-   "link": "https://nsearchives.nseindia.com/corporate/KRSNAA_03112026143546_543328.pdf",
-   "text": "General Updates Krsnaa Diagnostics Limited has informed the Exchange about General Updates",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/KRSNAA_03112026143546_543328.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "KRSNAA",
-    "name": "Krsnaa Diagnostics",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "RBZJEWEL",
-   "exchange": "NSE",
-   "when": "2026-11-03T14:09+05:30",
-   "subject": "General Updates",
-   "detail": "Rbz Jewellers Limited has informed the Exchange about General Updates",
-   "link": "https://nsearchives.nseindia.com/corporate/RBZ_03112026140922_SignedReg3030092026.pdf",
-   "text": "General Updates Rbz Jewellers Limited has informed the Exchange about General Updates",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/RBZ_03112026140922_SignedReg3030092026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "RBZJEWEL",
-    "name": "RBZ Jewellers",
-    "group": "holding"
-   }
-  }
- ],
- "dropped": 26,
+ "dropped": 17,
  "news": [
+  {
+   "nse": "BANKINDIA",
+   "title": "Bank of India Reports ₹19.30 Crore Loan Fraud; CBI Books Nine Accused",
+   "source": "Thekanal",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQldicTV6aVAxQ1cwVHlXcm8xeTBZdUVSS0NfSU5ROW5tVVdpc1g1YkFiU1BpYlo2cWpielBMdjBTcE0ybV9VQWpnV201TERweE9fZWpTWTVTMHpDeEFjQ1ZYX0JuVVVfendRZWMxaTJXVDAyZ1RMNmI4bXpRT2JiMDlxajI4U1E4VTRqSkhGTGh6b3Z5V1FnWXFkeU9XbGhtRWp6bmRHU2JRQQ?oc=5",
+   "when": "2026-11-05T12:55+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "NORTHARC",
+   "title": "Ashish Mehrotra gets another stint as Northern Arc MD & CEOAshish Mehrotra has been re-appointed as Managing Director and Chief Executive Officer of Northern Arc Capital Limited, with effect from April 1, 2027. Associated with the company since July 202",
+   "source": "Whispers in the Corridors",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZFdmaHhURW9wdW9pb1lEYVR4cEJ3OWNhTzJNR0loYlRGWnpqZFk1aDBjeUVCemUxZkp2UDh1R1g4VTR5U294UU5ucnU0c3U4OEE1NFYyVTU2STdsSDFkcUgtN0MzT2d1dERVeHRreV9mVjNNeUJZRWU3VmpmbVJyVUJjd0JjT2FxN1VOWmVpcEFncFpHRTRIUmxVb0k?oc=5",
+   "when": "2026-11-05T10:59+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "NORTHARC",
+    "name": "Northern Arc Capital",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BSE",
+   "title": "BSE Q2FY27 Results: EBITDA up 43% YoY, analysts split on outlook",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa0k1bVNtakV5UTNlTmhvblRlR1hKNTA2dWlIYjMwRkV3UnpSM1VWelZUWGVZLUhsY2lFYzZIZi1mZWxtalp3ZHhsWU9hNGtOb0lKMUxCVy1vYWJYaHJveExsZlJnYS1XOTJ0RWNfM3pyU1NzeXNVT2RaV1N5czZjWlJlb09qRzhxekU5bDFiMHhxT3B2RURUZnctb0g5RFRURkZ3MTFHMTJMWThVanpFUVFQaDNEZw?oc=5",
+   "when": "2026-11-05T09:27+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "VOGL",
+   "title": "Vedanta Oil and Gas Ltd Downgraded to Strong Sell Amid Deteriorating Fundamentals",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVTNmM2pFcXlCUDg2MlF2X0tsX2hQVGQxUTNVazU3UWdBck51VnVyVzk0dlpXNDZVOUs0ZkhNZkhHNDNnaFhsajd5ZzBTeThabENjQjJpUTNyTGF4eF9JdHpLWDdza2Y5LW1Sb3hNSWUzWmFCQ3Z2cUdJNjNxQUVvRTVfbG9WN1dnb2ZJQ3h3MmdzaFVPNWtEQ0pIcWtNSUpwRWc2TXFpY09lTndiWlpHR0NmVkhhY2poWnlKNnoxYnp3QlNsSDR3Z1Z3TGZqVTJRd1QtT095QzNmVVk?oc=5",
+   "when": "2026-11-05T09:19+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "VOGL",
+    "name": "Vedanta Oil and Gas",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "KRSNAA",
+   "title": "Krsnaa Diagnostics Strike Ends in Himachal; Testing Services Resume in Government Hospitals",
+   "source": "The News Himachal",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd2NtU0xNRFA3RXdJdUN4elM1UTYxTlRIRkZvaW1nN0VOMjA2ZDdrSGZnRTNPdnFQZXRQVWRKVTg1eFFPSUs1bUFSX240RDRNeXd6VTl2YVdFMF82R1Z0OWhfdE1oaGZzLUJQcW91d2EwOE9NRnRZVnV1Z0RFLXVLY213LXhjclI1d3RJMnVSbVhxWHVzeTRzR3RzQko1eUZCX0cwNThFRWFOS2JvaFg5RkpNbDhVZnI2b3ZBdkk1YmdBdVdwWmc?oc=5",
+   "when": "2026-11-05T09:11+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "KRSNAA",
+    "name": "Krsnaa Diagnostics",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "EQUITASBNK",
+   "title": "Equitas Small Finance Bank Upgraded to Buy on Strong Fundamentals and Attractive Valuation",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNLUpNRi1aSXo0MWstUEY1djVFdUlIdXFqN2xpVXNfNmt1cFllS1l4YWpucG5JaGgxdm1FRFFJSXJ4TEhYUWRxQzVCZUxNVWFxcW9uQmVpYmxxY09GM2EwUTRPcjZkWjF6QmRGRlZ1alpISDFOYnV3eHhhcGFiR0tyYW1LX3NBSWJTZ29TYkJCLVR5QUhhcEVhbzdxRTItMEJCUmgzOTBBSUw0ZjZ6Zzhyb1dScHJuQnZXWXJvYmdHR2FMUkxkNkt0RlpYd2tacUpHb0lIZ1BWTG85ZDBra0Nyd2ZmdHZJcE0?oc=5",
+   "when": "2026-11-05T08:57+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ROUTE",
+   "title": "Route Mobile earmarks Rs 1,150-1,200 crore for acquisitions",
+   "source": "Multibagg AI",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV3dlNHFRcGlBVDlTMnJCek1ia0h0dEJsQ0FSU0RHcVowdHlXM2IwS19hZV9CdXRoQ1VMTmZIR1FoeURmc1h0RXdVcHZ4YkFnbmJOYWozVFl0V1BzRlRRcTA1cVdQbTR1LWt2Skl0Z2xDbnI0czc1NmVBWEt0OFY1MUEzVnJzazRRZTk4aUFBWS10anpKeVFIdHdmZVhpcWtaZ2Q2MWtiQjBnNGs4RkRrUjJ5N2tjZWc?oc=5",
+   "when": "2026-11-05T08:09+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "ROUTE",
+    "name": "Route Mobile",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "PARAGMILK",
+   "title": "Parag Milk Foods Limited approves Rs 205 crore expansion",
+   "source": "Multibagg AI",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdk1GRkdYUjdUVy1ETGdCbUMwSmpuXzIyYXk2NGUwRjlnN2k2V0NvRmRwS250djU2c2lDa2J2YkQwX0RZelU5M1l6c3F3WlNVZkZGQVdCZk5QM2IzSWs0cjBHYU1YRzN2R09JRGRoY2tWZEw4U3JmZHhSSjl2QXJkRGtSMFJXMkdkTV9YRUxQOEV4aWlYdDdEY3ZBOHFsQ01OVTBtZDh0LXh5QXlhRk1RRWxsYkV2N1BZUnUtMkhkVWJFdw?oc=5",
+   "when": "2026-11-04T21:38+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "PARAGMILK",
+    "name": "Parag Milk Foods",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "MEDIASSIST",
+   "title": "Medi Assist appoints Aruna Vaidyanathan as senior management personnel",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUk1KbW5zcnlyT3hubkxiWGJybV9tUFlQS2pLMmR6cWhNVTBhWFVuYkh0THlvcXMzcldCUHdmX0ZrS1RYbDI3Q1V1SV9RUGV5c0VUd2E1MXlrZEJDbmd1SjllNjhxNnZmYnh4OTlseWRrQ1FNY1hQeHRaVlBzRXNGTlNoLUJRNWpSb3FmanIwamVfNXo5TEtDbjVod0YyeXA0aWp3ZXh6Ujk5NmIxZFRJc3lwaGFxRmROZWxvWklrdzJ0QQ?oc=5",
+   "when": "2026-11-04T19:42+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "MEDIASSIST",
+    "name": "Medi Assist Healthcare Services",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BSE",
+   "title": "BSE Q2 Results: Net Profit Drops 7.4% To ₹809 Crore Sequentially, Revenue Declines 8.5% Even As Operating",
+   "source": "Free Press Journal",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVllKUlUxNHNXXzhCenJIYTBPRFpQZGVfTGRmU1EtZnJST2tQVU9SR2Vsd2pRS2FXb2h5NV9HeUpCUHAtT2c5NTU2eWVwWGlxWUx2cmNXcWtHbzdnM1ZHMkN3NzJ5alFtUno3RlA1dWZldlFyLVg4SXZzYy1ieGM0MzJlaUZaQXlrXzJMZkptc1F4NFB4b004QnJ4MGJ3ZFF1ZkIzSVRqTmNqWWNjYmFncGZmRlNYc0h3WkRXbkFVakJoN1VUXzBEU2E4QjlpOEVaT2NqZTZRLUZrVERrejktbUI2bi1IRlFnQmdHTDhB0gHzAUFVX3lxTE9pSEdWeWphNXJxczZwSFpyeTNTUERMRFFjU3R6X2hOVjVyb1k1aG9NN3pTd1VCNFFBeUlmVFdfcGFZUnJOOFhFeTR3TXFNSTNsS1ZLWmNIdU9pLWo2ZjJWS3MwdjhGSDhRZ2dCMnZYeEFxaVBnOE5ua2I5RlZtekJBekVFWlZUa0hXb1lRcG5waUVQNGZ1bWlSNlFkbFVhXzdaRXFzNzJKU3lFV0Z2R0Z1bW9qMGxkbXlzeHNVa0RncmxaSWU2Q3U1VWpSR3BrTjZOSm1KZkZGRWc3TEQ5T3ZjSUdxenlzb1JaNElSN1dWNHJPMA?oc=5",
+   "when": "2026-11-04T18:51+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "RECLTD",
+   "title": "REC Limited Gurugram Office Building Gets Highest 5-Star GRIHA Rating",
+   "source": "Legend Officers",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tT2psUW5UengtcmotMnhFQ1FUR0lDdjlPbFZ2ZEhmaXBwM1plRzAzQTllVlRDOHZyV0NxbkJNMjNDUk56cUZ0Yk1ZTkdyN1JabHI5WGNEVVpYcWZpbTBKTjY4N2pVQTVobjVkcmNySzhaTVRVNlE?oc=5",
+   "when": "2026-11-04T17:56+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "RECLTD",
+    "name": "REC Limited",
+    "group": "holding"
+   }
+  },
   {
    "nse": "SAMHI",
    "title": "SAMHI Hotels Q2 FY2027 slides: same-store growth tops guidance By Investing.com",
    "source": "Investing.com India",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcUxCN0hNMkZuWHlzVDN3eFRRbXdCVFh6S3JPQ28wek9tSGVrOVRhY1R2RmZWOUpNWEN4RkQwdm5oV1p6dUlhMU9JdXlOTEMyOXB5LXd4aXZJbjltYzF0WF9Xb3NHQUhOd2s0NTBrMXNYTXlhb2x4LWQ1Qjdva0JnOUg0Tnk4ekI3SFhYaHBPRTlGd196NThnLXNlMFNuU25MUGo0MXZKSkp4cGNWczBkOThKOFE3dmk4LXJhYWRn?oc=5",
-   "when": "2026-11-04T12:26+05:30",
+   "when": "2026-11-04T12:32+05:30",
    "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
@@ -984,20 +663,6 @@
   },
   {
    "nse": "POWERGRID",
-   "title": "SPML Infra secures Rs. 186.41 crore order from Power Grid Corporation of India",
-   "source": "Business Upturn",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaXBLcXpoWS1acHpmUks3azdOeS1laV96ZWZZV3dFUWJYb3JKeXJGa21VTFRDdmIyaGlFMGtpSjRPSlBIUU42c0w4LUEyLVRMYUp3Z1ZoMWUyWFJOSVZ1UXFpbDN3eWJSX2llRThqanhWakVFb1BnczhRZ3NSaXkyelFrU3pfNHYzM0lVQVpieVNkaXg1bmJlNlF5UEFBNGQ0LWM5SFAxNkFsaFJPTF9IWTZ1TENOMk0?oc=5",
-   "when": "2026-11-04T08:36+05:30",
-   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
-   "trusted": false,
-   "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "POWERGRID",
    "title": "GE Vernova T&D India Receives Letter Of Award From Power Grid Corporation of India On Nov 3, 2026",
    "source": "TradingView",
    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQX0lVZXVpNDFsQWgzT245R2ZsWEdOMlpBVXpxcVQxYzRWOFpDSXdQUktCVnNsaG9JaVE5dko4YlNCU0JTbEIzRWl2T2tqRVNncklMV3JyVXVEU0hxNE0yVy1MV3VocDZMMnU2NkswZmYzY2tNZW9pQ01LREtJUkstUHdtVHRQbHVEem5rQVhnZ29IR3B3ZVBzZ3g5bTJsdWEycDZ1Ulh6Y0RrOFNsd0NhdXhMT2NIMGJub0xYUWVXRm1vbkxWX1VNdnJYdEZfSU5YSnR5VHcyMUt2dzJtZG90VGF3NHJCeDBZR19IczlNb0kwUHdUNnRKSTBR?oc=5",
@@ -1011,128 +676,86 @@
    }
   },
   {
-   "nse": "ITC",
-   "title": "ITC shareholders approve final dividend, reappoint Hemant Bhargava",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRy1jS2tHNDMyYXkwUW1HNWVPbV9CQ3R6ZE9ja1ltTjMtQ2RpT3A0QUZLdUN0WGRoSkZ4T2hIZEQzYkVhTFlWaDdfWW9XeWd6MU5DMGEwd2FwV2R6SEg0TEgwVnV4TzB6SENyRzU3WUwxY2lRMzhQM1U1UmN1am1tVGx3VUhpOVhGYTBSTkdjdkd0ckNZaDVwZTVXbTVoVW4xRGpzWXVCZHA4Vl9kSjdBbTJ0aU0?oc=5",
-   "when": "2026-11-04T08:13+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "nse": "POWERGRID",
+   "title": "SPML Infra secures Rs 186.41 crore order from Power Grid Corporation of India",
+   "source": "Business Upturn",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSGFwWkpfWVZYNG0zNmdNaE1OMWpaeEFHT0JrM0FaVkRwU0VZTTh6QlRYYV83cTROam4yWEE1RXBrTXF5dzk5QXdRN2VpVU1rNDZtRkl0ZGExX1pEQkRYd3hUdDBFTldaT0lBV3ZsN2NHd2pERUZVazRNeWVXWEZ6Ny1KR3I5QkQxdXlDNXBTbWw4eHU0ZGJNTWdRNURlclFkM3gwbVFXeGx3bWZtOF9hdm9iTUQ?oc=5",
+   "when": "2026-11-04T08:16+05:30",
+   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
    "trusted": false,
    "stock": {
-    "nse": "ITC",
-    "name": "ITC Limited",
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
     "group": "holding"
    }
   },
   {
-   "nse": "PARAGMILK",
-   "title": "Parag Milk Foods reports unaudited financial results and announces merger scheme",
-   "source": "Business Upturn",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZkhJVFd6TTJJb3JQUHhzQVFZYm1EdWhQa2F6ZzJOcnh2WTIzbGZvdFk5YVc3eGFkZnRzLUg4bE1CMmVQbmVIQm93U0ZmSlVoVGJsdElCTW5BUldoRHZCaFlJV01LTkl5bGZGZDN6T0dLUmNtZFBlZkNzYzBtMzFaOEQyVk40bzFIZFpXclg5WjdVR3ZZRzZpVWtmWUhHVWwybmxCem52amxTUThsTE5xZVYxemxSZ1RN?oc=5",
-   "when": "2026-11-03T23:16+05:30",
+   "nse": "POWERGRID",
+   "title": "Power Grid Corporation of India Limited merger effective Nov 2",
+   "source": "Multibagg AI",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVTRzV0lObUhvcE5UblVSeU5VS3lmblhrRjhZX1Y0T0VjZWVpYVRwRjF1M2F3QnhNb2VUbjZ1bHJVWnlOOGc3MWE1OWRSZmJZMkpLeVFPeTdOYUJsUDZqbTBhTlUzN3BwVFFfS3V4S3VtN3RycUNhWDltY1Fma2lUWEFRaFNkRWthV1pIOEdsNzhlb3hNOGdKWU1fWFhoNWJVc0VueWdIQ214SDR2Qm1uY0V2bUFjRzlZM2twdFktRQ?oc=5",
+   "when": "2026-11-04T07:18+05:30",
    "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
-    "nse": "PARAGMILK",
-    "name": "Parag Milk Foods",
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
     "group": "holding"
    }
   },
   {
-   "nse": "EQUITASBNK",
-   "title": "India's Equitas Small Finance Bank names interim CEO, begins search for permanent chief",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSkcxUlVBR3VMTkswV3BFci1OQW9qSmc5VEs2cXFMMkNVVWJHSTdLdVk1UEE4OHpZN2ZlaUVFM1RCNEtoOGNfSEI5RmpCOTBVdFZkd3FLX0paUlNYaU03X1dFWDBSVF9ENFFwTEhnWHJDTVhtMzB4bXdYUVRfZmRvdW42aTBnMUZQUWl3THE2Vmh5WVotZExVX2ZmQXY2WGUzaEpEbmhTdV85TW5Sd2xMNUVMT3pfUVBfTHV6bkhrbFB4WmtsS1dPT0g3MllaR2o1WHdnMktSOVhCS1dVNFBEdkhmdlpoTFFyUW1qMw?oc=5",
-   "when": "2026-11-03T20:54+05:30",
+   "nse": "VIYASH",
+   "title": "Viyash Scientific unit signs SPA to acquire BioForLife Italia for EUR 16.976 million",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM01WamVndzU5eEhRRzNHYXpQd2Jha0RQOVRwbXhIWEtLYTFKcHh0aDJLbGhyYVVQUzBIblR6UjYzWThrMXpfcXJQWnpZQ1M5aTNUQ1pXbVpKSGpOM0xVMEVQVHJPYjhia3hDd2FnQzVweWJZdkd3MVNYcXF2ZFhKeHRVR09PWmNFUkZDU3NUMVVLVDR6bENqbWJkRHZyZmJkcUVmVUwzOGF5NmlHM3d5OEFnQjRnRTZ6Q0JrXzRIT3pBcFhPNE84QnZrZkJpbkE4dklyY3ljNHo?oc=5",
+   "when": "2026-11-04T07:17+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "VIYASH",
+    "name": "Viyash Scientific",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "TEJASNET",
+   "title": "Tejas Networks wins Rs 1537 crore order from Tata Consultancy Services for BSNL 4G",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPa1FHeG9jVmRMOE5JOHFNeFhmWUhkenFCUlQxbGVWNDVsNmJDZ0ZIUlo1WXVybjhpSEwxQWNiZDk3cm15S2g4dFBBcUJ6c3NBWDdPbXh5bENWekhOZXktOXp3Q0xvd1pKT0c0WEc0MjlYRDFfZmZ5UXFOUTFjZWdudV9Iay1Gd3lQeWJnc1ZVUkZjaDdhQnFXeDZ0aTc3YjdwUmJRSXpHU0M0dnRiVWJHTms4NndWU3poa09EZjZBcw?oc=5",
+   "when": "2026-11-04T06:45+05:30",
+   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
+   "trusted": false,
+   "stock": {
+    "nse": "TEJASNET",
+    "name": "Tejas Networks",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "UGROCAP",
+   "title": "NCLT Mumbai Directs Stakeholder Meetings for Scheme of Amalgamation Between Profectus Capital and UGRO Capital",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOMzVoamY1RnN6NlQxWUQyYlpMbk9ZdVdCS0ZGbUxYcHZnWmNaLUhBZmZ4QlNKSHhCR05UdVgxcUQtbkFEaHZKbnBIY1lKdkJaOUdjdWNkOTVzQjVGQkJVUEpOWHVPUkFtcHR2a25wSGl2bHEzT1o1VFkySEFwaFRpM3Y0dlNFdkotaGJMS0piVmFmalYzT3QzbURzUWdXMkdCMDdBeUtCa3VwNGRONUZqVWpGOU1kemFHa29nSk5jdzBDWklPOWVGVlFiRklsem53MkhraUZkb3R5NWlGemRIbGFzQjlPb2hzZ1llSUhhUjRSRDZOLW5QSmV0QQ?oc=5",
+   "when": "2026-11-04T06:43+05:30",
    "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
    "trusted": false,
    "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
+    "nse": "UGROCAP",
+    "name": "Ugro Capital",
     "group": "holding"
    }
   },
   {
-   "nse": "ITC",
-   "title": "5595 Put Contracts at Rs 265 Strike on ITC Ltd. Signal Protective Hedging Amid Rally",
+   "nse": "SATIN",
+   "title": "Satin Creditcare Network Upgraded to Buy on Strong Fundamentals and Bullish Technicals",
    "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbmxLX1poZGhXUWpkTXR4VUNOOVpUR2VWdW1RTlJYNldNNENkZG5IdThCN3VGd0lNMUxaUC1RU2xKeEtJVGNWRGtCVllXQVUwYnFIeHpSWW9KQmx4bm1sY1lsX2Y2c3NPZ2s2R0swc0FuOVV2c3JDTEFwT2JtY3FlV2pzNjFQSVItaTI4WTc2Vk5ZbThLeDE0VGJnd0pkdHdVNEZSemF3a3pld3QySTc0WklycHpOaXRBQmdFMHlxWC1PWmNIaUJSSE5wX081MHJ6djRNWDl3VXhVMWc0?oc=5",
-   "when": "2026-11-03T18:42+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQX1NpRm5vcTNXYjRwNXRNSURINm1Gem9MaGJuYmktaVlwT2NIMm8yZFVUcUpMYm5PdW1NQy01dHZyTXk4RHJnUVZhTDlYcnhOXy1LSVRid2ZxTHZVeVpXRnhFX2pCTWpDNDFHblNDQUc5cE9Lc1l3RlVaMFp2MWFkN0FQZVhiQUhwQlBMcDJVa0VjcWw0dkVVYWFKdXNqVkZfTzB4aHZmcmhZZVVtdUQwN3VDaTRJd1FfS1NFRElVOUt2d3NLVjhZMDFnMUlDZVZkaTBDYWpqVmduenF6WjdJQkxn?oc=5",
+   "when": "2026-11-04T03:49+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
    "trusted": false,
    "stock": {
-    "nse": "ITC",
-    "name": "ITC Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "NORTHARC",
-   "title": "Northern ARC Capital Approves Re-Appointment Of Ashish Mehrotra As MD & CEO",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNRjR2RWlLQlRxZ1M2LU9RQ2g0cS1DNlVHTG15Y0pfS3dScDA5MW9Zei1nOGhTQXF0SVRLUWZCOVVCcGZxTzFjOFN4dC1GWVhUX3c3THU5c1RyTmlqVzE1Z1FKV25INDR3dmxnMXVad01Jd3RSRENyRDA3cTNMQkxyenVzbmRaRXMyM082dDgzeUh0c3Y3VE1HdW8xLTN2TV9uQkRGQ0NLcVRIUWVMX0Q3aTdRV3dCUnM0WkdnVERYRURtUGUwWnE3d1FDS3hOd0VZLUx0ZElvdTJkTDA?oc=5",
-   "when": "2026-11-03T17:49+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "NORTHARC",
-    "name": "Northern Arc Capital",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "NEULANDLAB",
-   "title": "Neuland Labs Q2 Results & Expansion Approval",
-   "source": "InvestyWise",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYlhDRERQQTRxV3pRc05uUGpxZmxndTJvWUc3SlJNdEpJeDl3WGpUeHJYM1ZMUWlDME9xTVBqZ29FRUw2RWRNaVlWeF9HRksxNFh0UzFzYU9nZzJKaXkwUG1mY2lmU3lHcU5XR014WERoT2U5a3B1Qnhwdk1KbUdFT3FfMmZ6VnlHUUZKQURkdkxQNjlTb2NJTFhfa3RfdmFOVEphZzZJdmdqQk9idHVzdlY2TUFrTVk?oc=5",
-   "when": "2026-11-03T16:06+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "NEULANDLAB",
-    "name": "Neuland Laboratories",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "NEULANDLAB",
-   "title": "Neuland Laboratories Approves Capital Expenditure Of 471 Million Rupees For Land Acquisition In Telangana",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZGdQVE8yS2FIYnZCTkZiWldxaGltNGdmTXpUU1ZkYjZfTUo2WHR0N3RrNzVyQTN1QmFRcUhrMW84UENwMEVVc0tyczkxcGlBRUdzRnVQeURXNGN6NF9MeDNOUDljYzJMNjg4VWxqQ29jaHhOalBtWUcyUUctOU0tMmhkRHdoeVhUbnBQU3VIVVhJd1lwZXpGaVlXVDNtSmN3bDdRSjNJZjYtVEJtMmhLR0hxN2Jqd2U4NWIxQWF0TnlzejVOUDlZWnYtQmZ3eUtRNFByb3c3N3dSR1RBMGcwZlFxcDVCdW8yTzc2NnFwSm5PNDU4Z0RIQkR4N3ZvV3JCZkRnR2xn?oc=5",
-   "when": "2026-11-03T16:04+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "NEULANDLAB",
-    "name": "Neuland Laboratories",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SHIVALIK",
-   "title": "Shivalik Rasayan files DMF for Avapritinib API with USFDA",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNE9RMFFKTVJHaHhRNnc5VkpPZ0pVZTUxMy14empZbEtlUnZfM3F2NXBXejF5UGZZeHZKZTQ4RXQxZTBYVTdndW1NOTVQV0ZRZ2pFUGhvcmFVQXFrWWpOVDFmaEJJMkZ1cldhd0pnVkR3cXFwTWxwb29FYjhIU1VmNHVPNUljUnlBaTlUVmw3UFEyNk1VMmVxOFpQQ0ZzbUdmYk1MeFdJTjk?oc=5",
-   "when": "2026-11-03T14:26+05:30",
-   "rule": "usfda|warning letter|form 483|import alert",
-   "trusted": false,
-   "stock": {
-    "nse": "SHIVALIK",
-    "name": "Shivalik Rasayan",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BIRLANU",
-   "title": "BirlaNu Floors Loss More Than Doubled as Roofs, Walls Gain",
-   "source": "Multibagg AI",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNUxDNkhKaEFzc3JCRGxMN0RuTzFBd0J1THAyMUxtakliYXlULWl1VktER2FpaUdGeEE0bE5LOGVWaWYyam5jNzFOODBkTVh0alFnbnRrVVJ4T01EY2stMGRlRkxOSEpHWDlJZzJhblZUMDg4eURHVF9xWUVuN0xIM3d4RFRnbVo5Z0s5bV9ONzBXQ0ZWY21PeWZGQkhPY1Zud3hWVnBvcVladThGWXc?oc=5",
-   "when": "2026-11-03T06:36+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "BIRLANU",
-    "name": "BirlaNu",
+    "nse": "SATIN",
+    "name": "Satin Creditcare Network",
     "group": "holding"
    }
   }
@@ -1592,9 +1215,9 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 03 Nov",
+  "BSE codes taken from bhavcopy 04 Nov",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (JSONDecodeError)",
-  "BSE announcements failed (ReadTimeout)"
+  "BSE announcements failed (ReadTimeout)",
+  "BSE announcements failed (JSONDecodeError)"
  ]
 }
