@@ -1,13 +1,38 @@
 {
- "generated": "2026-11-07T12:59+05:30",
- "since": "2026-11-06T06:59+05:30",
+ "generated": "2026-11-08T13:09+05:30",
+ "since": "2026-11-07T07:09+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 28",
+  "NSE": "ok · 12",
   "BSE": "unavailable",
   "News": "ok · 7"
  },
  "high": [
+  {
+   "nse": "TIMETECHNO",
+   "exchange": "NSE",
+   "when": "2026-11-07T14:27+05:30",
+   "subject": "Bagging/Receiving of orders/contracts",
+   "detail": "Time Technoplast Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+   "link": "https://nsearchives.nseindia.com/corporate/TIMETECHNO_07112026142457_Intimation07112026.pdf",
+   "text": "Bagging/Receiving of orders/contracts Time Technoplast Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+   "tier": "high",
+   "rule": "award(ed|ing)? of (order|contract)|bagging|receipt of (order|contract)|letter of award|order win|\\bLoA\\b|purchase order",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/TIMETECHNO_07112026142457_Intimation07112026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "TIMETECHNO",
+    "name": "Time Technoplast",
+    "group": "holding"
+   }
+  },
   {
    "nse": "COHANCE",
    "exchange": "NSE",
@@ -32,141 +57,16 @@
     "name": "Cohance Lifesciences",
     "group": "holding"
    }
-  },
-  {
-   "nse": "COHANCE",
-   "exchange": "NSE",
-   "when": "2026-11-06T17:48+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Cohance Lifesciences Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/SUVENPHARMSUSHEEL_06112026174827_Cohance_Outcome_BM_06112026_uploading.pdf",
-   "text": "Outcome of Board Meeting Cohance Lifesciences Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUVENPHARMSUSHEEL_06112026174827_Cohance_Outcome_BM_06112026_uploading.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "VOGL",
-   "exchange": "NSE",
-   "when": "2026-11-06T15:45+05:30",
-   "subject": "Credit Rating- Others",
-   "detail": "Vedanta Oil and Gas Limited has informed the Exchange about Credit Rating- Others",
-   "link": "https://nsearchives.nseindia.com/corporate/VOGL1_06112026154428_VOGLSEIntimationCreditRatingCRISIL.pdf",
-   "text": "Credit Rating- Others Vedanta Oil and Gas Limited has informed the Exchange about Credit Rating- Others",
-   "tier": "high",
-   "rule": "credit rating|rating (action|revis|downgrad|upgrad|reaffirm)",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/VOGL1_06112026154428_VOGLSEIntimationCreditRatingCRISIL.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "VOGL",
-    "name": "Vedanta Oil and Gas",
-    "group": "holding"
-   }
   }
  ],
  "medium": [
   {
-   "nse": "EQUITASBNK",
-   "exchange": "NSE",
-   "when": "2026-11-06T19:46+05:30",
-   "subject": "Change in Director(s)",
-   "detail": "Equitas Small Finance Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "link": "https://nsearchives.nseindia.com/corporate/EQUITASBNK_06112026194537_Outcomefinalsignedforfiing.pdf",
-   "text": "Change in Director(s) Equitas Small Finance Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "tier": "medium",
-   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/EQUITASBNK_06112026194537_Outcomefinalsignedforfiing.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "EQUITASBNK",
-   "exchange": "NSE",
-   "when": "2026-11-06T19:35+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Equitas Small Finance Bank Limited has informed the Exchange regarding Outcome of Board Meeting held on November 06, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/EQUITASBNK_06112026193353_Outcomefinalsignedforfiing.pdf",
-   "text": "Outcome of Board Meeting Equitas Small Finance Bank Limited has informed the Exchange regarding Outcome of Board Meeting held on November 06, 2026.",
-   "tier": "medium",
-   "rule": "board meeting|intimation of board",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/EQUITASBNK_06112026193353_Outcomefinalsignedforfiing.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
    "nse": "COHANCE",
    "exchange": "NSE",
-   "when": "2026-11-06T18:05+05:30",
-   "subject": "Press Release",
-   "detail": "Cohance Lifesciences Limited has informed the Exchange regarding a press release dated November 06, 2026, titled \"Press Release\".",
-   "link": "https://nsearchives.nseindia.com/corporate/SUVENPHARMSUSHEEL_06112026180529_Cohance_Pressrelease_06112026.pdf",
-   "text": "Press Release Cohance Lifesciences Limited has informed the Exchange regarding a press release dated November 06, 2026, titled \"Press Release\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUVENPHARMSUSHEEL_06112026180529_Cohance_Pressrelease_06112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "exchange": "NSE",
-   "when": "2026-11-06T18:02+05:30",
+   "when": "2026-11-07T16:50+05:30",
    "subject": "Investor Presentation",
    "detail": "Cohance Lifesciences Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/SUVENPHARMSUSHEEL_06112026180222_Cohance_Investor_Presentation_06112026.pdf",
+   "link": "https://nsearchives.nseindia.com/corporate/SUVENPHARMROHIT_07112026164941_Cohance_Investor_Presentation_06112026.pdf",
    "text": "Investor Presentation Cohance Lifesciences Limited has informed the Exchange about Investor Presentation",
    "tier": "medium",
    "rule": "investor presentation",
@@ -176,7 +76,7 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUVENPHARMSUSHEEL_06112026180222_Cohance_Investor_Presentation_06112026.pdf"
+     "https://nsearchives.nseindia.com/corporate/SUVENPHARMROHIT_07112026164941_Cohance_Investor_Presentation_06112026.pdf"
     ]
    ],
    "stock": {
@@ -188,13 +88,13 @@
  ],
  "other": [
   {
-   "nse": "POWERGRID",
+   "nse": "RBA",
    "exchange": "NSE",
-   "when": "2026-11-06T22:55+05:30",
-   "subject": "Appointment",
-   "detail": "Power Grid Corporation of India Limited has informed the Exchange regarding Appointment of Mr Anupam Kumar as Non- Executive (Govt. Nominee) Director of the company w.e.f. November 06, 2026 (I.e. Date of allotment of DIN).",
-   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_06112026225441_BSENSEReg30Apptt06112026_s.pdf",
-   "text": "Appointment Power Grid Corporation of India Limited has informed the Exchange regarding Appointment of Mr Anupam Kumar as Non- Executive (Govt. Nominee) Director of the company w.e.f. November 06, 2026 (I.e. Date of allotment of DIN).",
+   "when": "2026-11-07T13:38+05:30",
+   "subject": "General Updates",
+   "detail": "Restaurant Brands Asia Limited has been allotted equity shares of Navitas Anant Renewables Two Private Limited.",
+   "link": "https://nsearchives.nseindia.com/corporate/RBA_07112026133839_Finalupload.pdf",
+   "text": "General Updates Restaurant Brands Asia Limited has been allotted equity shares of Navitas Anant Renewables Two Private Limited.",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -203,9 +103,40 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/POWERGRID1_06112026225441_BSENSEReg30Apptt06112026_s.pdf"
+     "https://nsearchives.nseindia.com/corporate/RBA_07112026133839_Finalupload.pdf"
     ]
    ],
+   "stock": {
+    "nse": "RBA",
+    "name": "Restaurant Brands Asia",
+    "group": "holding"
+   }
+  }
+ ],
+ "dropped": 8,
+ "news": [
+  {
+   "nse": "BSE",
+   "title": "BSE Q2FY27 Results: EBITDA up 43% YoY, analysts split on outlook",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa0k1bVNtakV5UTNlTmhvblRlR1hKNTA2dWlIYjMwRkV3UnpSM1VWelZUWGVZLUhsY2lFYzZIZi1mZWxtalp3ZHhsWU9hNGtOb0lKMUxCVy1vYWJYaHJveExsZlJnYS1XOTJ0RWNfM3pyU1NzeXNVT2RaV1N5czZjWlJlb09qRzhxekU5bDFiMHhxT3B2RURUZnctb0g5RFRURkZ3MTFHMTJMWThVanpFUVFQaDNEZw?oc=5",
+   "when": "2026-11-07T23:07+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "POWERGRID",
+   "title": "BHEL receives order from Power Grid Corporation of India Ltd",
+   "source": "EquityBulls",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR0RjZTdwaWh6Wk9DQ2ExRWstN0YtNUlYUHZRR0c1Sk5NbnNPazh0WjJMMndtTV8xenR0TWZJYmhrdzRNRGYzSFN0ZWZYbmgwOVllMllET1RaUExSSUN6RTIyVXluc2wwckNOeVotNjBRZ3Zla2czYVB5c0ZMR3Qtc1VfY2tKMjJHOXBfTGNBZWFOemk5QXdfdjFwb2kzNDNnRkE?oc=5",
+   "when": "2026-11-07T18:00+05:30",
+   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
+   "trusted": false,
    "stock": {
     "nse": "POWERGRID",
     "name": "Power Grid Corporation of India",
@@ -213,128 +144,72 @@
    }
   },
   {
+   "nse": "RBA",
+   "title": "Restaurant Brands Asia completes ₹1.10 crore acquisition of Navitas stake",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVk5yM0ZoakJmdDNPWUMtZER0b3NPdXZwY0doWVhoWmtYNW9iQWZmTW5QdlV3V0ktQVhqOXdLQzdGWEp2WU8wT1V3LTJfMWp1MjdKdXpKcGFWQ1dnaEJNaGsxMGg3LVEtR09fR3FIeHYzS1pJY0U5OHJkREtKY1dfay1JNTBlQkplY09RaWVxSG1BUWxPRmNQbURYZjdNZFdRQW40SnFLbi1lSkYtS1JHeWduTnZ2b3ZBWEhRaHJuYjV0bmdH?oc=5",
+   "when": "2026-11-07T14:32+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "RBA",
+    "name": "Restaurant Brands Asia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "TIMETECHNO",
+   "title": "Time Technoplast Wins ₹87.53 Crore PSU CNG Cylinder Order",
+   "source": "Multibagg AI",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaTVjNERJZE1jMXlLTzdMT0puaXNab2NmT0UtVXNXVXpTY200MENXSnBWcElhSE52Q2hjZUVQNmwtX3ZRLVg5dGVuUEtzUGFhSEpGdTUzaV9QNURYQy1rU1Q3eWhpQ1NWQjRmZzNuWVNRMmxwLVFZRHFqZTJ2dUxIRV9ybklVdGdmU19YOHZGV0hmcHhEbjRlaHVuZm1UMUZPbzUxSndR?oc=5",
+   "when": "2026-11-07T14:26+05:30",
+   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
+   "trusted": false,
+   "stock": {
+    "nse": "TIMETECHNO",
+    "name": "Time Technoplast",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "EQUITASBNK",
+   "title": "Equitas Small Finance Bank Appoints Balaji Nuthalapadi as Interim MD & CEO | RBI Approval – 06 Nov 2026",
+   "source": "PSU Connect",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTEhWendhXzFseGRVYVRsdUNpNnVHSklEQzJvQ0NHMnhkeVNRMEVqYzFJbHJfajFvR3JZRC1vOHlzSEdkYjRCQ2ZUNHNsZ2xVUTZoY3NpR3VacDgzZzVhTFpYVW10U21Tcm5nTG9UN0FldGl0Rm1QN2hKX3pNaFJVcnhpOW15ei13QlF1YU9B?oc=5",
+   "when": "2026-11-07T13:57+05:30",
+   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
+   "trusted": false,
+   "stock": {
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
    "nse": "COHANCE",
-   "exchange": "NSE",
-   "when": "2026-11-06T08:20+05:30",
-   "subject": "General Updates",
-   "detail": "Cohance Lifesciences Limited has informed the Exchange about General Updates",
-   "link": "https://nsearchives.nseindia.com/corporate/SUVENPHARMROHIT_06112026082040_Cohance_PCB_order_disclosure_6Nov26.pdf",
-   "text": "General Updates Cohance Lifesciences Limited has informed the Exchange about General Updates",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUVENPHARMROHIT_06112026082040_Cohance_PCB_order_disclosure_6Nov26.pdf"
-    ]
-   ],
+   "title": "Cohance Lifesciences concludes USFDA inspection with Voluntary Action Indicated outcome",
+   "source": "InvestyWise",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR0tOWjhpS2NlS1IwSXJXdWRkZW9zeXExWTUwQm1LMy1lY04yb3pHbXpDdXUzWTNiRGljVUh4YmN1SzUxX3JfQnFSX1FUSFU1aV9MM2lfRlJfSHhVbGxkWFNVWEZvSGVZWjl4Z2FsYWxObzVvcFVTdXozWVB4Q3pPQkVISXNTZVU?oc=5",
+   "when": "2026-11-07T12:26+05:30",
+   "rule": "usfda|warning letter|form 483|import alert",
+   "trusted": false,
    "stock": {
     "nse": "COHANCE",
     "name": "Cohance Lifesciences",
     "group": "holding"
    }
-  }
- ],
- "dropped": 19,
- "news": [
+  },
   {
    "nse": "SJLOGISTIC",
-   "title": "S J Logistics (India) Limited plans ₹92.58 crore fund raise",
+   "title": "S J Logistics proposes Rs 92.58 crore preferential raise",
    "source": "Multibagg AI",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaW5QSEJxejVUSUdnSDhEMHhiMi1iM2dhZUtDTVBDTUk4U21xUXB0TUZkaDRXQk9CRlhMQzlyS0Z3Z090SUNhNWJHaUxqbGl2V3RGTFpSSERHWlBPZ1VGN3NUSzZPQXpmVW5kTmZzdlRKRHR1SWN5VXRMTDhfT1RLbkF3Y0oyd293NXdudmdDdmtZNGJreFZYbTlTUU1jaUJXMWJySFZvNzhuT1BC?oc=5",
-   "when": "2026-11-07T04:35+05:30",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcmhSWUt2U1FoWmxLelJETEtyOTZGcGdUbFhxVTlFOXpCcGYtNnk4dFRWbDBSbElQWnNnazkwRWRJdTlteFpjVTJrbXEyaDBtTUU2ZEZUdGUtSzRrUG0zN0cwRF9CanVScFVYelktYy1kLUU1ZlZBSndLcWlhQW9zUV9aX3M3S0NqWmYwWUJBZFd3bzdDRTBSa01haGx4elZ0bnRqLVkyanVzU1F1S1N4djI1VzJqZmpVaVZ5V0Vn?oc=5",
+   "when": "2026-11-07T04:34+05:30",
    "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
     "nse": "SJLOGISTIC",
     "name": "S J Logistics",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "EQUITASBNK",
-   "title": "RBI approves Balaji Nuthalapadi as interim CEO of Equitas SFB",
-   "source": "The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPdVA1bHlhSzRzRlk5MTRnc0JKZGM4TkJTZ0Zhd1ZYNmJTMnl1NEVWaUZJbm5XV0xQd2V1WTgzaWgwUlM4MWZScVV6dEpuMC1ySmtlRVE0QmFQOXZxTGRkSWtTYmpwT2tDWmI1dWJSU3RBRzk1XzhudmQ2U216b3ROTVE2NGd5SVhYemY0R09aek0tTjJXR2pnNU1CUU5ZM09IZlBUSHNnN3BlM1BsM0RmMFdaUVhnZnFYOVRzbVZPVVNnbXBubGlXQmtITXJTeHBSXzFwUkY1aXZxTW9Wc2stTzBfVE5KZnRwcFYwQzZn0gHnAUFVX3lxTE9PRG5WenQ0dDVJcmFIaDl4SFFQS0w5Wm1kNDlZODQxNmhNbWptaXdQTWY1b0FuMGhUV3dTeG9sUmhvQ3pPb3ZlRC1fTUMtTzVWVkt1OTlEaTJmalBHLWN0ZEJrTU01QlRWU0tyNjhtR05yc1VUVUx5N0VjZ1ZZR2Q0VVhpaTJDcTN2WnlxQ0VZZzlZYnBydDVub1E2V2ZnTk5fRkhPXzNaNmMwT2xiOWcyVW9LTElqRFhxMld3d1JKUFBCNEgtLU5wVkxYUVFid2VwY3J6V2I0eDdQOXhkRVIzWmIxdHo2UQ?oc=5",
-   "when": "2026-11-06T20:51+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": true,
-   "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "EQUITASBNK",
-   "title": "Equitas Small Finance Bank Appoints Balaji Nuthalapadi As Interim MD & CEO Effective November 06, 2026",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQbC1ZcUxQWTVaWWh6dXB1bnlrU1dROGhINDk0NmN6T2h2MDlyWnFPQWRYcDk0UHdPZnBvaTM0YkpCVmt1TlVFYmRXekxUTk93WUlRTm1sY2NuTUlwanNQcXhXSWFEQVN2VGdHMnJEVVVHTkUybFZyckVPRjlPckt3NmxDekV6ZS1YUHpnNzA5REZHNHBFeEVFUFdqV1RwREpfWmxfU25ucVE4ckhkVW5meG5kMHRUT2JvOWd1bHFxNjZMV3lUQzB0Z29sci1KdURQSi1HS0phcHd2WGZkSkFMTUROdFlMWjQtZUYzZnZtRFNHR2paMzhKZ1VTNzA3Zw?oc=5",
-   "when": "2026-11-06T20:44+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "title": "Cohance Lifesciences announces Q2 FY27 financial results and appoints Dr. Kuber Jagdale",
-   "source": "InvestyWise",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRGdzQTl2NUEwSFpOUENxVkpvMTJ3VnlPM0haeC1DOTFDbl9MbVpTOHU0TzFSRy1NRG9iSGxTT051dDlLdmQzNVlnbDFNWlhZVzMwTjFpN0QwYUFiVHR0WkdJOWIwbC16cGozZlZFNDlfeUt1SmZJcUNwdml0TEVoVFVnZHhieGRLM1B2TnRsZW9IOUJN?oc=5",
-   "when": "2026-11-06T17:55+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "NORTHARC",
-   "title": "Northern Arc Diversified Debt Fund Raises Rs. 400 Crore+",
-   "source": "TheWire.in",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcGxEazI1R0dQM0M0d1FFVERSQWoxcU84Z1JJRy03X1F5TFk4bkptdW8yYjcyRTZkd1F0Y2pxZThWUVZYa2Z6alcteDYzSWt3MEwwUWoxWnFmNHlZYnpLeldzeHNXTUNRZVZaTzNSVFo0RkUtVXlFM1o4a2FrWlpybGNrb29rTGpNNnYyREFFdUZQM0FhNDdzedIBngFBVV95cUxPQ2c2TFRTeGtES0d6SWhRa0dnVUFGdnVQZUZ3TFJwMWlVS2xfeEZBNldOZmpDVWl6X3hBVDBGR1hnZEZhOGR0NmYyTU5vcEhZOHFLa3B0MnZxZ0pmZTBWbWNWRlh1WkVDeDgzYXJwR0RiQjZtVml6a0w2V3hFWGhPbDJKSXJFb2t5MnpOSVFidHRJaVJBcElVU2U2R042dw?oc=5",
-   "when": "2026-11-06T10:57+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "NORTHARC",
-    "name": "Northern Arc Capital",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "title": "Cohance Lifesciences plant ordered shut in Telangana after employee dies in industrial accident",
-   "source": "Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNaVpyMlBDRi1tOGdkZTNxU3hTRG1LQ2k5NHZtRWZBN3p3SVJ0QXNIaWVsS19SSWNTanhUSEMyOUNqamNMTFRzdWZfYTlNVlJGUTIzLVhGQWJhVzNZbFFCNVZlal9SWmJtelFoaU5kb3JzUl9EOTFCOGc5T2VXQmhHRTExVXJSM2FLdXdnYkw1N2tmdW8tLXNvVGgxSGw4N3d1aGI1cU9kTkw1MTFvMFVkS1NTQXRMVFJhcERQRkc4YzBpZ3pkWkJkRVlKZ1BLZ3F4RTNyNWgzWVZqZkRvZk40VWw3bDJrZHNDd2VXetIB7AFBVV95cUxNaVpyMlBDRi1tOGdkZTNxU3hTRG1LQ2k5NHZtRWZBN3p3SVJ0QXNIaWVsS19SSWNTanhUSEMyOUNqamNMTFRzdWZfYTlNVlJGUTIzLVhGQWJhVzNZbFFCNVZlal9SWmJtelFoaU5kb3JzUl9EOTFCOGc5T2VXQmhHRTExVXJSM2FLdXdnYkw1N2tmdW8tLXNvVGgxSGw4N3d1aGI1cU9kTkw1MTFvMFVkS1NTQXRMVFJhcERQRkc4YzBpZ3pkWkJkRVlKZ1BLZ3F4RTNyNWgzWVZqZkRvZk40VWw3bDJrZHNDd2VXeg?oc=5",
-   "when": "2026-11-06T09:59+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": true,
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "CDSL",
-   "title": "CDSL says paid search API reduced KRA transactions in Q2",
-   "source": "Multibagg AI",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTVIxakZOc01XSmFTVnRoMnR1X291RElfLXdEU3JYaGZWZWlpbmRkd2FuTDRwMEJHOGprRTZCNzlIcUdtYUFYMDNWVWtzRWJoYVp6bFZSLXgzRFlUc0FYWU03MGU3ekJvM2lhZzVnV2RVSGFPRldZLWF3dUxEQ3hSSjVpVUNhamFTYnA0UVZ1YWlhcVRjUzVQY0lXQ3EydzZRV3R2MWNLZzM4YjQ?oc=5",
-   "when": "2026-11-06T04:04+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": false,
-   "stock": {
-    "nse": "CDSL",
-    "name": "Central Depository Services",
     "group": "holding"
    }
   }
@@ -796,6 +671,7 @@
   "BSE scrip list unavailable (HTTPError)",
   "BSE codes taken from bhavcopy 06 Nov",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (JSONDecodeError)"
+  "BSE announcements failed (JSONDecodeError)",
+  "BSE announcements failed (ReadTimeout)"
  ]
 }
