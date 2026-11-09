@@ -1,100 +1,23 @@
 {
- "generated": "2026-11-08T13:09+05:30",
- "since": "2026-11-07T07:09+05:30",
+ "generated": "2026-11-09T13:48+05:30",
+ "since": "2026-11-08T07:48+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 12",
+  "NSE": "ok · 2",
   "BSE": "unavailable",
   "News": "ok · 7"
  },
- "high": [
-  {
-   "nse": "TIMETECHNO",
-   "exchange": "NSE",
-   "when": "2026-11-07T14:27+05:30",
-   "subject": "Bagging/Receiving of orders/contracts",
-   "detail": "Time Technoplast Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "link": "https://nsearchives.nseindia.com/corporate/TIMETECHNO_07112026142457_Intimation07112026.pdf",
-   "text": "Bagging/Receiving of orders/contracts Time Technoplast Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-   "tier": "high",
-   "rule": "award(ed|ing)? of (order|contract)|bagging|receipt of (order|contract)|letter of award|order win|\\bLoA\\b|purchase order",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/TIMETECHNO_07112026142457_Intimation07112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "TIMETECHNO",
-    "name": "Time Technoplast",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "exchange": "NSE",
-   "when": "2026-11-07T11:14+05:30",
-   "subject": "General Updates",
-   "detail": "Cohance Lifesciences Limited has informed the Exchange about update on USFDA Inspection for Company s Pashamylaram Manufacturing Facility",
-   "link": "https://nsearchives.nseindia.com/corporate/SUVENPHARMROHIT_07112026111339_Cohance_USFDA_disclosure_7Nov26.pdf",
-   "text": "General Updates Cohance Lifesciences Limited has informed the Exchange about update on USFDA Inspection for Company s Pashamylaram Manufacturing Facility",
-   "tier": "high",
-   "rule": "usfda|warning letter|form 483|\\bEIR\\b|import alert|(fda|regulatory) inspection",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUVENPHARMROHIT_07112026111339_Cohance_USFDA_disclosure_7Nov26.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  }
- ],
- "medium": [
-  {
-   "nse": "COHANCE",
-   "exchange": "NSE",
-   "when": "2026-11-07T16:50+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Cohance Lifesciences Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/SUVENPHARMROHIT_07112026164941_Cohance_Investor_Presentation_06112026.pdf",
-   "text": "Investor Presentation Cohance Lifesciences Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUVENPHARMROHIT_07112026164941_Cohance_Investor_Presentation_06112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  }
- ],
+ "high": [],
+ "medium": [],
  "other": [
   {
-   "nse": "RBA",
+   "nse": "JUBLINGREA",
    "exchange": "NSE",
-   "when": "2026-11-07T13:38+05:30",
+   "when": "2026-11-08T19:34+05:30",
    "subject": "General Updates",
-   "detail": "Restaurant Brands Asia Limited has been allotted equity shares of Navitas Anant Renewables Two Private Limited.",
-   "link": "https://nsearchives.nseindia.com/corporate/RBA_07112026133839_Finalupload.pdf",
-   "text": "General Updates Restaurant Brands Asia Limited has been allotted equity shares of Navitas Anant Renewables Two Private Limited.",
+   "detail": "Jubilant Ingrevia Limited has informed the Exchange about General Updates",
+   "link": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_08112026193416_Stock_Exchange_Disclosure_Zettaone_06th_Nov26.pdf",
+   "text": "General Updates Jubilant Ingrevia Limited has informed the Exchange about General Updates",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -103,25 +26,39 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/RBA_07112026133839_Finalupload.pdf"
+     "https://nsearchives.nseindia.com/corporate/JUBLINGREA_08112026193416_Stock_Exchange_Disclosure_Zettaone_06th_Nov26.pdf"
     ]
    ],
    "stock": {
-    "nse": "RBA",
-    "name": "Restaurant Brands Asia",
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
     "group": "holding"
    }
   }
  ],
- "dropped": 8,
+ "dropped": 1,
  "news": [
   {
+   "nse": "SFL",
+   "title": "Sheela Foam reports 19% revenue growth in Q2 FY27 and acquires Furlenco",
+   "source": "InvestyWise",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV2Y1QThndXNxRWVEa2w4STltQzJDMTJxbHFtMDEwOHhTNy1CUDA0d0dITERhdkViX3ZhRlM3Qm1MR3V5eTdPc29jd3pMeGdCR3lhb1BxZHF1Q2VxVTJiQlpaWkRXNVpnS1h2N2R6a2luaVBDNTRPbmxpcG8yOEJ1U3dPX3V1R2I2NkJNM3M4VDE?oc=5",
+   "when": "2026-11-09T12:42+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "SFL",
+    "name": "Sheela Foam",
+    "group": "holding"
+   }
+  },
+  {
    "nse": "BSE",
-   "title": "BSE Q2FY27 Results: EBITDA up 43% YoY, analysts split on outlook",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa0k1bVNtakV5UTNlTmhvblRlR1hKNTA2dWlIYjMwRkV3UnpSM1VWelZUWGVZLUhsY2lFYzZIZi1mZWxtalp3ZHhsWU9hNGtOb0lKMUxCVy1vYWJYaHJveExsZlJnYS1XOTJ0RWNfM3pyU1NzeXNVT2RaV1N5czZjWlJlb09qRzhxekU5bDFiMHhxT3B2RURUZnctb0g5RFRURkZ3MTFHMTJMWThVanpFUVFQaDNEZw?oc=5",
-   "when": "2026-11-07T23:07+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "title": "Weekly Recap: BSE Ltd. Q2 results and JPMorgan maintains rating, target",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYXhJQjFQUUlIU0swdVFsd04yVXRNeGtTUWxjS2dIYTNDa0FZY2pYaWxCRmZKSEpQVDBsdGRhY2daWE5IU01PTWZNOVNiNWJTeFpwbFh2ck44N0o4MlhHRlFtdXlYNkFIOHF1MnI0WDhuZEZzWVEzcXlnUXl1SWp0QThObXRPZHV2WTFBRC1DaGtRRVR1QUZNblBrVTFpLVJ3MzIyTUtqalZFaVhDMHRlTUFaa3RtdnBqSDlMaXNWc0dWUDhpNkRiWGpB?oc=5",
+   "when": "2026-11-09T06:30+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
    "trusted": false,
    "stock": {
     "nse": "BSE",
@@ -130,86 +67,72 @@
    }
   },
   {
-   "nse": "POWERGRID",
-   "title": "BHEL receives order from Power Grid Corporation of India Ltd",
-   "source": "EquityBulls",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR0RjZTdwaWh6Wk9DQ2ExRWstN0YtNUlYUHZRR0c1Sk5NbnNPazh0WjJMMndtTV8xenR0TWZJYmhrdzRNRGYzSFN0ZWZYbmgwOVllMllET1RaUExSSUN6RTIyVXluc2wwckNOeVotNjBRZ3Zla2czYVB5c0ZMR3Qtc1VfY2tKMjJHOXBfTGNBZWFOemk5QXdfdjFwb2kzNDNnRkE?oc=5",
-   "when": "2026-11-07T18:00+05:30",
-   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
+   "nse": "PARAGMILK",
+   "title": "Parag Milk Foods commits $23M to quadruple paneer, double cheese capacity",
+   "source": "Dealroom",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSzBwbGRmUFpwaFN1ZVBPS2NxMXFFX3ZOOHd6V2wzOS16OEFTMkdnbEVuemZONndhWlpveW9Cb2tXdnd3LWJfVHRLYTV2WUZLTDF6R244TE92UTRhSXZNOTczR0t2VVRaSFpOTXd0MU15alkzU3BLd3V6Q0xxNjNiZ1owUDFybl9LYVZtSDFwQ1JneG0yWUNfQndQTG15YVVpT05tR2daNHI?oc=5",
+   "when": "2026-11-08T22:16+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
+    "nse": "PARAGMILK",
+    "name": "Parag Milk Foods",
     "group": "holding"
    }
   },
   {
-   "nse": "RBA",
-   "title": "Restaurant Brands Asia completes ₹1.10 crore acquisition of Navitas stake",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVk5yM0ZoakJmdDNPWUMtZER0b3NPdXZwY0doWVhoWmtYNW9iQWZmTW5QdlV3V0ktQVhqOXdLQzdGWEp2WU8wT1V3LTJfMWp1MjdKdXpKcGFWQ1dnaEJNaGsxMGg3LVEtR09fR3FIeHYzS1pJY0U5OHJkREtKY1dfay1JNTBlQkplY09RaWVxSG1BUWxPRmNQbURYZjdNZFdRQW40SnFLbi1lSkYtS1JHeWduTnZ2b3ZBWEhRaHJuYjV0bmdH?oc=5",
-   "when": "2026-11-07T14:32+05:30",
+   "nse": "JUBLINGREA",
+   "title": "Jubilant Ingrevia JUBLINGREA Zettaone EDMS acquisition deal signed",
+   "source": "Kalkine India",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOa09KLW1seEV5X0ZCWFk5b2N1T0RJcGdVeWlCdWlKVEZIWjU2eGxOd1VDTUtCakF3WGxGVEJlZmg3TFBJaWtkZldCUEsxTlM0NWFscXBZV2M3TExlcDF6eXUtWEhQc2NWdG5VSFZmNEpYWkxiQWRWeHhuVWQySzRDTU9tZDhCQ3NsNGxxM3V0TXUtdmRoUFlfNEJ4TVNnX3hoZHVqSkZFc1hXaTJxOTBQVDJEbVdKLTJZSnNjbWNGdUJKNjhMZzlhREdJaw?oc=5",
+   "when": "2026-11-08T19:34+05:30",
    "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
-    "nse": "RBA",
-    "name": "Restaurant Brands Asia",
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
     "group": "holding"
    }
   },
   {
-   "nse": "TIMETECHNO",
-   "title": "Time Technoplast Wins ₹87.53 Crore PSU CNG Cylinder Order",
-   "source": "Multibagg AI",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaTVjNERJZE1jMXlLTzdMT0puaXNab2NmT0UtVXNXVXpTY200MENXSnBWcElhSE52Q2hjZUVQNmwtX3ZRLVg5dGVuUEtzUGFhSEpGdTUzaV9QNURYQy1rU1Q3eWhpQ1NWQjRmZzNuWVNRMmxwLVFZRHFqZTJ2dUxIRV9ybklVdGdmU19YOHZGV0hmcHhEbjRlaHVuZm1UMUZPbzUxSndR?oc=5",
-   "when": "2026-11-07T14:26+05:30",
-   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
-   "trusted": false,
-   "stock": {
-    "nse": "TIMETECHNO",
-    "name": "Time Technoplast",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "EQUITASBNK",
-   "title": "Equitas Small Finance Bank Appoints Balaji Nuthalapadi as Interim MD & CEO | RBI Approval – 06 Nov 2026",
-   "source": "PSU Connect",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTEhWendhXzFseGRVYVRsdUNpNnVHSklEQzJvQ0NHMnhkeVNRMEVqYzFJbHJfajFvR3JZRC1vOHlzSEdkYjRCQ2ZUNHNsZ2xVUTZoY3NpR3VacDgzZzVhTFpYVW10U21Tcm5nTG9UN0FldGl0Rm1QN2hKX3pNaFJVcnhpOW15ei13QlF1YU9B?oc=5",
-   "when": "2026-11-07T13:57+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": false,
-   "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "title": "Cohance Lifesciences concludes USFDA inspection with Voluntary Action Indicated outcome",
+   "nse": "JUBLINGREA",
+   "title": "Jubilant Ingrevia acquires strategic stake in Zettaone Technologies",
    "source": "InvestyWise",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR0tOWjhpS2NlS1IwSXJXdWRkZW9zeXExWTUwQm1LMy1lY04yb3pHbXpDdXUzWTNiRGljVUh4YmN1SzUxX3JfQnFSX1FUSFU1aV9MM2lfRlJfSHhVbGxkWFNVWEZvSGVZWjl4Z2FsYWxObzVvcFVTdXozWVB4Q3pPQkVISXNTZVU?oc=5",
-   "when": "2026-11-07T12:26+05:30",
-   "rule": "usfda|warning letter|form 483|import alert",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdnZicnVnQk1vTG4xcmNHYXZzem91RUtVa3JiZkltNFNiNmJUaExKc0lUdGpmTURNWlNoUUV6Z1V4d3duMFdkcHB4VWxVMWpnT0h3MTh1TVN2c1VIZDV2NWdQd0N6dGJPSzBhQUdJMkJEVWVhMm4yNWhRYWFLcnNPZTdtLXVISjFzeS00ZzFQa2VkS3NIajlfSEdINA?oc=5",
+   "when": "2026-11-08T19:30+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
     "group": "holding"
    }
   },
   {
-   "nse": "SJLOGISTIC",
-   "title": "S J Logistics proposes Rs 92.58 crore preferential raise",
-   "source": "Multibagg AI",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcmhSWUt2U1FoWmxLelJETEtyOTZGcGdUbFhxVTlFOXpCcGYtNnk4dFRWbDBSbElQWnNnazkwRWRJdTlteFpjVTJrbXEyaDBtTUU2ZEZUdGUtSzRrUG0zN0cwRF9CanVScFVYelktYy1kLUU1ZlZBSndLcWlhQW9zUV9aX3M3S0NqWmYwWUJBZFd3bzdDRTBSa01haGx4elZ0bnRqLVkyanVzU1F1S1N4djI1VzJqZmpVaVZ5V0Vn?oc=5",
-   "when": "2026-11-07T04:34+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "nse": "VOGL",
+   "title": "Vedanta Oil and Gas Ltd Downgraded to Strong Sell Amid Deteriorating Fundamentals",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVTNmM2pFcXlCUDg2MlF2X0tsX2hQVGQxUTNVazU3UWdBck51VnVyVzk0dlpXNDZVOUs0ZkhNZkhHNDNnaFhsajd5ZzBTeThabENjQjJpUTNyTGF4eF9JdHpLWDdza2Y5LW1Sb3hNSWUzWmFCQ3Z2cUdJNjNxQUVvRTVfbG9WN1dnb2ZJQ3h3MmdzaFVPNWtEQ0pIcWtNSUpwRWc2TXFpY09lTndiWlpHR0NmVkhhY2poWnlKNnoxYnp3QlNsSDR3Z1Z3TGZqVTJRd1QtT095QzNmVVk?oc=5",
+   "when": "2026-11-08T17:01+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
    "trusted": false,
    "stock": {
-    "nse": "SJLOGISTIC",
-    "name": "S J Logistics",
+    "nse": "VOGL",
+    "name": "Vedanta Oil and Gas",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BSE",
+   "title": "BSE Q2FY27 Results: EBITDA up 43% YoY, analysts split on outlook",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa0k1bVNtakV5UTNlTmhvblRlR1hKNTA2dWlIYjMwRkV3UnpSM1VWelZUWGVZLUhsY2lFYzZIZi1mZWxtalp3ZHhsWU9hNGtOb0lKMUxCVy1vYWJYaHJveExsZlJnYS1XOTJ0RWNfM3pyU1NzeXNVT2RaV1N5czZjWlJlb09qRzhxekU5bDFiMHhxT3B2RURUZnctb0g5RFRURkZ3MTFHMTJMWThVanpFUVFQaDNEZw?oc=5",
+   "when": "2026-11-08T16:26+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
     "group": "holding"
    }
   }
