@@ -1,23 +1,49 @@
 {
- "generated": "2026-11-09T13:48+05:30",
- "since": "2026-11-08T07:48+05:30",
+ "generated": "2026-11-10T14:06+05:30",
+ "since": "2026-11-09T08:06+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 2",
+  "NSE": "ok · 14",
   "BSE": "unavailable",
-  "News": "ok · 7"
+  "News": "ok · 3"
  },
- "high": [],
+ "high": [
+  {
+   "nse": "SUNTECK",
+   "exchange": "NSE",
+   "when": "2026-11-09T17:28+05:30",
+   "subject": "Acquisition",
+   "detail": "Sunteck Realty Limited has informed the Exchange about incorporation of wholly owned subsidiary of the Company.",
+   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_09112026172821_SRL.pdf",
+   "text": "Acquisition Sunteck Realty Limited has informed the Exchange about incorporation of wholly owned subsidiary of the Company.",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SUNTECK_09112026172821_SRL.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SUNTECK",
+    "name": "Sunteck Realty",
+    "group": "holding"
+   }
+  }
+ ],
  "medium": [],
  "other": [
   {
-   "nse": "JUBLINGREA",
+   "nse": "NORTHARC",
    "exchange": "NSE",
-   "when": "2026-11-08T19:34+05:30",
-   "subject": "General Updates",
-   "detail": "Jubilant Ingrevia Limited has informed the Exchange about General Updates",
-   "link": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_08112026193416_Stock_Exchange_Disclosure_Zettaone_06th_Nov26.pdf",
-   "text": "General Updates Jubilant Ingrevia Limited has informed the Exchange about General Updates",
+   "when": "2026-11-09T17:29+05:30",
+   "subject": "Monitoring Agency Report",
+   "detail": "Monitoring agency report for the quarter ended September 30, 2026",
+   "link": "https://nsearchives.nseindia.com/corporate/NACL2020_09112026172908_Monitoring_Agency_SE_Filing_sd.pdf",
+   "text": "Monitoring Agency Report Monitoring agency report for the quarter ended September 30, 2026",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -26,18 +52,32 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/JUBLINGREA_08112026193416_Stock_Exchange_Disclosure_Zettaone_06th_Nov26.pdf"
+     "https://nsearchives.nseindia.com/corporate/NACL2020_09112026172908_Monitoring_Agency_SE_Filing_sd.pdf"
     ]
    ],
    "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
+    "nse": "NORTHARC",
+    "name": "Northern Arc Capital",
     "group": "holding"
    }
   }
  ],
- "dropped": 1,
+ "dropped": 12,
  "news": [
+  {
+   "nse": "EQUITASBNK",
+   "title": "Equitas Small Finance Bank receives ESG score of 68 from CRISIL ESG Ratings",
+   "source": "Business Upturn",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeDBKbmc5bUtWZldoblZQSjlocUhJaGlGdWdOVzhvcUw2bklGdFhDc3JmZzZqN1JzQjN0UDIzcGVSUTdwdDNlcXVmYnhYSDR5ejZmcHpBcFV4QWMxcUE3V3RWT0tfOFpFUXRDSGZVdUlWTHR3c3ZaVENVWDM2UU5taWtlZXEtZ2h4SHdIQTBtaTJGVnVncXRmZndBZlI4TkpfT3lXVVdCTW5iOGszRkQ5TzB3?oc=5",
+   "when": "2026-11-10T11:34+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
+    "group": "holding"
+   }
+  },
   {
    "nse": "SFL",
    "title": "Sheela Foam reports 19% revenue growth in Q2 FY27 and acquires Furlenco",
@@ -59,76 +99,6 @@
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYXhJQjFQUUlIU0swdVFsd04yVXRNeGtTUWxjS2dIYTNDa0FZY2pYaWxCRmZKSEpQVDBsdGRhY2daWE5IU01PTWZNOVNiNWJTeFpwbFh2ck44N0o4MlhHRlFtdXlYNkFIOHF1MnI0WDhuZEZzWVEzcXlnUXl1SWp0QThObXRPZHV2WTFBRC1DaGtRRVR1QUZNblBrVTFpLVJ3MzIyTUtqalZFaVhDMHRlTUFaa3RtdnBqSDlMaXNWc0dWUDhpNkRiWGpB?oc=5",
    "when": "2026-11-09T06:30+05:30",
    "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": false,
-   "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "PARAGMILK",
-   "title": "Parag Milk Foods commits $23M to quadruple paneer, double cheese capacity",
-   "source": "Dealroom",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSzBwbGRmUFpwaFN1ZVBPS2NxMXFFX3ZOOHd6V2wzOS16OEFTMkdnbEVuemZONndhWlpveW9Cb2tXdnd3LWJfVHRLYTV2WUZLTDF6R244TE92UTRhSXZNOTczR0t2VVRaSFpOTXd0MU15alkzU3BLd3V6Q0xxNjNiZ1owUDFybl9LYVZtSDFwQ1JneG0yWUNfQndQTG15YVVpT05tR2daNHI?oc=5",
-   "when": "2026-11-08T22:16+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "PARAGMILK",
-    "name": "Parag Milk Foods",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JUBLINGREA",
-   "title": "Jubilant Ingrevia JUBLINGREA Zettaone EDMS acquisition deal signed",
-   "source": "Kalkine India",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOa09KLW1seEV5X0ZCWFk5b2N1T0RJcGdVeWlCdWlKVEZIWjU2eGxOd1VDTUtCakF3WGxGVEJlZmg3TFBJaWtkZldCUEsxTlM0NWFscXBZV2M3TExlcDF6eXUtWEhQc2NWdG5VSFZmNEpYWkxiQWRWeHhuVWQySzRDTU9tZDhCQ3NsNGxxM3V0TXUtdmRoUFlfNEJ4TVNnX3hoZHVqSkZFc1hXaTJxOTBQVDJEbVdKLTJZSnNjbWNGdUJKNjhMZzlhREdJaw?oc=5",
-   "when": "2026-11-08T19:34+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JUBLINGREA",
-   "title": "Jubilant Ingrevia acquires strategic stake in Zettaone Technologies",
-   "source": "InvestyWise",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdnZicnVnQk1vTG4xcmNHYXZzem91RUtVa3JiZkltNFNiNmJUaExKc0lUdGpmTURNWlNoUUV6Z1V4d3duMFdkcHB4VWxVMWpnT0h3MTh1TVN2c1VIZDV2NWdQd0N6dGJPSzBhQUdJMkJEVWVhMm4yNWhRYWFLcnNPZTdtLXVISjFzeS00ZzFQa2VkS3NIajlfSEdINA?oc=5",
-   "when": "2026-11-08T19:30+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "VOGL",
-   "title": "Vedanta Oil and Gas Ltd Downgraded to Strong Sell Amid Deteriorating Fundamentals",
-   "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVTNmM2pFcXlCUDg2MlF2X0tsX2hQVGQxUTNVazU3UWdBck51VnVyVzk0dlpXNDZVOUs0ZkhNZkhHNDNnaFhsajd5ZzBTeThabENjQjJpUTNyTGF4eF9JdHpLWDdza2Y5LW1Sb3hNSWUzWmFCQ3Z2cUdJNjNxQUVvRTVfbG9WN1dnb2ZJQ3h3MmdzaFVPNWtEQ0pIcWtNSUpwRWc2TXFpY09lTndiWlpHR0NmVkhhY2poWnlKNnoxYnp3QlNsSDR3Z1Z3TGZqVTJRd1QtT095QzNmVVk?oc=5",
-   "when": "2026-11-08T17:01+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": false,
-   "stock": {
-    "nse": "VOGL",
-    "name": "Vedanta Oil and Gas",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BSE",
-   "title": "BSE Q2FY27 Results: EBITDA up 43% YoY, analysts split on outlook",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa0k1bVNtakV5UTNlTmhvblRlR1hKNTA2dWlIYjMwRkV3UnpSM1VWelZUWGVZLUhsY2lFYzZIZi1mZWxtalp3ZHhsWU9hNGtOb0lKMUxCVy1vYWJYaHJveExsZlJnYS1XOTJ0RWNfM3pyU1NzeXNVT2RaV1N5czZjWlJlb09qRzhxekU5bDFiMHhxT3B2RURUZnctb0g5RFRURkZ3MTFHMTJMWThVanpFUVFQaDNEZw?oc=5",
-   "when": "2026-11-08T16:26+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
     "nse": "BSE",
@@ -592,9 +562,8 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 06 Nov",
+  "BSE codes taken from bhavcopy 09 Nov",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (JSONDecodeError)",
   "BSE announcements failed (ReadTimeout)"
  ]
 }
