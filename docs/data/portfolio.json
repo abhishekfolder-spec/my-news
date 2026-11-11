@@ -1,30 +1,31 @@
 {
- "generated": "2026-11-10T14:06+05:30",
- "since": "2026-11-09T08:06+05:30",
+ "generated": "2026-11-11T13:27+05:30",
+ "since": "2026-11-10T07:27+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 14",
+  "NSE": "ok · 7",
   "BSE": "unavailable",
-  "News": "ok · 3"
+  "News": "ok · 4"
  },
- "high": [
+ "high": [],
+ "medium": [
   {
    "nse": "SUNTECK",
    "exchange": "NSE",
-   "when": "2026-11-09T17:28+05:30",
-   "subject": "Acquisition",
-   "detail": "Sunteck Realty Limited has informed the Exchange about incorporation of wholly owned subsidiary of the Company.",
-   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_09112026172821_SRL.pdf",
-   "text": "Acquisition Sunteck Realty Limited has informed the Exchange about incorporation of wholly owned subsidiary of the Company.",
-   "tier": "high",
-   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "when": "2026-11-10T23:04+05:30",
+   "subject": "Change in Management",
+   "detail": "Sunteck Realty Limited has informed the Exchange about Completion of tenure of Mr. V P Shetty (DIN: 00021773) as an Independent Director",
+   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_10112026230439_SRL.pdf",
+   "text": "Change in Management Sunteck Realty Limited has informed the Exchange about Completion of tenure of Mr. V P Shetty (DIN: 00021773) as an Independent Director",
+   "tier": "medium",
+   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUNTECK_09112026172821_SRL.pdf"
+     "https://nsearchives.nseindia.com/corporate/SUNTECK_10112026230439_SRL.pdf"
     ]
    ],
    "stock": {
@@ -34,43 +35,30 @@
    }
   }
  ],
- "medium": [],
- "other": [
-  {
-   "nse": "NORTHARC",
-   "exchange": "NSE",
-   "when": "2026-11-09T17:29+05:30",
-   "subject": "Monitoring Agency Report",
-   "detail": "Monitoring agency report for the quarter ended September 30, 2026",
-   "link": "https://nsearchives.nseindia.com/corporate/NACL2020_09112026172908_Monitoring_Agency_SE_Filing_sd.pdf",
-   "text": "Monitoring Agency Report Monitoring agency report for the quarter ended September 30, 2026",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/NACL2020_09112026172908_Monitoring_Agency_SE_Filing_sd.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "NORTHARC",
-    "name": "Northern Arc Capital",
-    "group": "holding"
-   }
-  }
- ],
- "dropped": 12,
+ "other": [],
+ "dropped": 6,
  "news": [
   {
-   "nse": "EQUITASBNK",
-   "title": "Equitas Small Finance Bank receives ESG score of 68 from CRISIL ESG Ratings",
-   "source": "Business Upturn",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeDBKbmc5bUtWZldoblZQSjlocUhJaGlGdWdOVzhvcUw2bklGdFhDc3JmZzZqN1JzQjN0UDIzcGVSUTdwdDNlcXVmYnhYSDR5ejZmcHpBcFV4QWMxcUE3V3RWT0tfOFpFUXRDSGZVdUlWTHR3c3ZaVENVWDM2UU5taWtlZXEtZ2h4SHdIQTBtaTJGVnVncXRmZndBZlI4TkpfT3lXVVdCTW5iOGszRkQ5TzB3?oc=5",
-   "when": "2026-11-10T11:34+05:30",
+   "nse": "BSE",
+   "title": "BSE Share Price Gains Over 2% After ICICI Securities Upgrades Rating To 'Add', Raises Target",
+   "source": "NDTV Profit",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbnpZRU1nQm1IX2h0WVEyaTBjZ1Rrbm85V0g1T1hqMldZMlotOGQ5V1pveHFTU2pMN3lMdmRQeExzS3RPcGJBeEN2U204NHMwc0tQYmJXWkwzQjdOUjcxeTZSbGxZOTlyZW5uMXNUcHZqcW5mV2xxQ0I0dURrMWF0TGV3TVhMalQ1NVNaRTIzclF6d3g2cEVXOXBNdFVJT2oxOTNQN1lZUWMtc0s5TVNtbWZzc1RGd0l6SmVGVWhkVVFock5SbFdCckVLbDPSAdQBQVVfeXFMTThlNHZ1aTVCOWdXX2dmZzhKckZUQXYwZ000MXo5WEJPemo1UDBXNExMRk1mMFRjTkh6cDJ1WWx3c1VhN2VZUWJZNDk2dkEtcXFQLXd0d1VIeVU4eUh2ei1ISUVMUlA0TlkwakR2bkswRm1xUjVuNThqdXRueS15RXN3QUh1ZWVweWhlanN2bVdaN0liVWxITUFBZjBhYUhtRDhXSWxYZjlPOWZ0c2dMZFJ0Y3FsSkJxSzBUaVBVbl83RU1UOXFNdmptNW9Td1BwY2l3eEc?oc=5",
+   "when": "2026-11-11T11:42+05:30",
    "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "EQUITASBNK",
+   "title": "Equitas SFB targets 19% loan growth over FY26-28 as secured lending drives expansion",
+   "source": "bfsi.economictimes.indiatimes.com",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdkFZRmpjZGdGOTFXUlQ0b3ZaTXZ0TmVWMk85RVh5aWRrdFZRTG1VVHB1akFlNUZpam9YMlFaVGRBTjBkOTRoclAwMW1jMHJhWDUzTXUxbUVxdDc3R3hZX0IzbUg5eTkzNWdYYklFWUVhc2FoQm01RlU1dVZCYWE2U01mZHV6ZXlaTTc3TWdrejJvVUVVLVlxamVJei04VTBOYnBFY3BNaXJhZ2tiUkc5M3V6aTFNTW5XYzhMazBPTXJXdXVTZjBNSWJ6SHdScWFhRC1OeFl5eFpMVHNE0gHiAUFVX3lxTE0zMWFNYXVzY2pMWDEyTVJnY1NkY0g0SlRHR2txMlFhWE5CNnhIYThITThyM2ZkZ0luOEZoMkR1VUV5TVVlSTNfbmFscEZMQWtKRlIzak0wZGVmS25fcnQ0elJWSjhPTC15UGtkaG01RDJCeHhiazh0LUU3S21jcTBNMHJ0Z2hsUFQ4cjRZX3hudUpPd0ZMVFJpaFQwSi1RV3RlX2NiT1lYRVVLQmV4aWlQcEhXYmpCS2ZQcnpudlAyNmFJYjNCWm56V1l4SkNFaGJsaGcySGg1UGlyQ1ZmUm1RbFE?oc=5",
+   "when": "2026-11-11T06:00+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
     "nse": "EQUITASBNK",
@@ -79,30 +67,30 @@
    }
   },
   {
-   "nse": "SFL",
-   "title": "Sheela Foam reports 19% revenue growth in Q2 FY27 and acquires Furlenco",
-   "source": "InvestyWise",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV2Y1QThndXNxRWVEa2w4STltQzJDMTJxbHFtMDEwOHhTNy1CUDA0d0dITERhdkViX3ZhRlM3Qm1MR3V5eTdPc29jd3pMeGdCR3lhb1BxZHF1Q2VxVTJiQlpaWkRXNVpnS1h2N2R6a2luaVBDNTRPbmxpcG8yOEJ1U3dPX3V1R2I2NkJNM3M4VDE?oc=5",
-   "when": "2026-11-09T12:42+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "nse": "COHANCE",
+   "title": "Cohance Lifesciences Appoints Dr. Kuber Jagdale as Chief Technical Officer & Executive Director",
+   "source": "https://hrtoday.in/",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQXJBNndHbG1UNEd2OXY1ZWI0WTBkZnFSTWZPc0VvUHRwaHFCRzkxYWcwemtFdlZNa0dFNVYwOEdDVGtoYlFZMllXWmVzUkk3SVZJNDRoUDZObDh0MDNfQXBpMWRhRzdIb0JlR1duVHpVamFKcHZpWVpfYVNwX3d2VFd0YTdrWkNtOFpNOUNyN1g0dlc2a3NmMTFpbjRUTzhiZnNCdDBycktXa1d5ZzJDemZB?oc=5",
+   "when": "2026-11-10T20:58+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
-    "nse": "SFL",
-    "name": "Sheela Foam",
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
     "group": "holding"
    }
   },
   {
-   "nse": "BSE",
-   "title": "Weekly Recap: BSE Ltd. Q2 results and JPMorgan maintains rating, target",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYXhJQjFQUUlIU0swdVFsd04yVXRNeGtTUWxjS2dIYTNDa0FZY2pYaWxCRmZKSEpQVDBsdGRhY2daWE5IU01PTWZNOVNiNWJTeFpwbFh2ck44N0o4MlhHRlFtdXlYNkFIOHF1MnI0WDhuZEZzWVEzcXlnUXl1SWp0QThObXRPZHV2WTFBRC1DaGtRRVR1QUZNblBrVTFpLVJ3MzIyTUtqalZFaVhDMHRlTUFaa3RtdnBqSDlMaXNWc0dWUDhpNkRiWGpB?oc=5",
-   "when": "2026-11-09T06:30+05:30",
+   "nse": "EQUITASBNK",
+   "title": "Equitas Small Finance Bank receives ESG score of 68 from CRISIL ESG Ratings & Analytics",
+   "source": "Business Upturn",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOXRhX2tCdUNHanVHUm5TaWdmT2k2Nmt4b0pCTmNGODE0TVdlazNibEpwYlJJeE9GaEVkQjY0ZHNxMW9rWTVhbFpvVVdzcEdZXzIxNW82WUwxSS14VnFLVklSenZPNUx2RTBJelVtak5TelZGUG1MRGt2VlpqVjBKX1FEbDJoNk1zUGdSVWRuSmhFdTlDYmZrcFg0R0swYXFITlBrQzdBb0FTLVd0RjBKVDdmeTFNWjY0d1hING5NQQ?oc=5",
+   "when": "2026-11-10T15:24+05:30",
    "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
    "trusted": false,
    "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
     "group": "holding"
    }
   }
@@ -564,6 +552,6 @@
   "BSE scrip list unavailable (HTTPError)",
   "BSE codes taken from bhavcopy 09 Nov",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (ReadTimeout)"
+  "BSE announcements failed (JSONDecodeError)"
  ]
 }
