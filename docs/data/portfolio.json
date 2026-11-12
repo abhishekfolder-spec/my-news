@@ -1,43 +1,141 @@
 {
- "generated": "2026-11-11T13:27+05:30",
- "since": "2026-11-10T07:27+05:30",
+ "generated": "2026-11-12T14:06+05:30",
+ "since": "2026-11-11T08:06+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 7",
+  "NSE": "ok · 9",
   "BSE": "unavailable",
-  "News": "ok · 4"
+  "News": "ok · 9"
  },
- "high": [],
- "medium": [
+ "high": [
   {
-   "nse": "SUNTECK",
+   "nse": "TIMETECHNO",
    "exchange": "NSE",
-   "when": "2026-11-10T23:04+05:30",
-   "subject": "Change in Management",
-   "detail": "Sunteck Realty Limited has informed the Exchange about Completion of tenure of Mr. V P Shetty (DIN: 00021773) as an Independent Director",
-   "link": "https://nsearchives.nseindia.com/corporate/SUNTECK_10112026230439_SRL.pdf",
-   "text": "Change in Management Sunteck Realty Limited has informed the Exchange about Completion of tenure of Mr. V P Shetty (DIN: 00021773) as an Independent Director",
-   "tier": "medium",
-   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
+   "when": "2026-11-11T18:14+05:30",
+   "subject": "Bagging/Receiving of orders/contracts",
+   "detail": "Time Technoplast Limited has informed the Exchange about Receiving of an Additional Order from one of India's leading Public-Sector Oil Marketing Company for Supply of Composite LPG Cylinders for INR 38.14 crore.",
+   "link": "https://nsearchives.nseindia.com/corporate/TIMETECHNO_11112026181357_Intimation11112026.pdf",
+   "text": "Bagging/Receiving of orders/contracts Time Technoplast Limited has informed the Exchange about Receiving of an Additional Order from one of India's leading Public-Sector Oil Marketing Company for Supply of Composite LPG Cylinders for INR 38.14 crore.",
+   "tier": "high",
+   "rule": "award(ed|ing)? of (order|contract)|bagging|receipt of (order|contract)|letter of award|order win|\\bLoA\\b|purchase order",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/SUNTECK_10112026230439_SRL.pdf"
+     "https://nsearchives.nseindia.com/corporate/TIMETECHNO_11112026181357_Intimation11112026.pdf"
     ]
    ],
+   "stock": {
+    "nse": "TIMETECHNO",
+    "name": "Time Technoplast",
+    "group": "holding"
+   }
+  }
+ ],
+ "medium": [],
+ "other": [],
+ "dropped": 8,
+ "news": [
+  {
+   "nse": "LAURUSLABS",
+   "title": "Oyster Renewable Commissions 39.3 MWp Solar Project for Laurus Labs, 21.6 MW Wind Capacity Due by December 2026",
+   "source": "SolarQuarter",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSkU1dHNIVVdXaUlHZUY5UVVLUGtlZE1lQV9wdmEyZnhPbnkxSzFNTFFsRzBYaDNMSS1YVk1ocGFYZDgxeUdYSE93VmlrUmNQWlF3V01VQl80NEdWMkpvZFg4TF80ai1JcXVkaDZGUDlxZUk5QW9rdWdLSE5WR09aR0FCT0NnelZwdkEzOHF5ZVU1ZDBINW83TUtEdmdlQ1hmdmxNQ2NoeWRGXzFMLXhkSEJEbFRSNVF5NFlTLW5ZYllpbHE5MmZMQkkydGdFSWF2LW5rQ0NmSlFUTGU2cHRoWA?oc=5",
+   "when": "2026-11-12T11:59+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BANKINDIA",
+   "title": "Bank of India labels Future Enterprise account as fraud with ₹575.40 cr due | Future Enterprises is facing insolvency process | Inshorts",
+   "source": "Inshorts",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOT0ZkOXF0TkVuaHk5cTEzTkY0RW9qSzVOazlfRVNUSWF2MFFhaHJfTTBxZjhnM1cyb2tWM01FaS1Zb1VGZ3k0THZCTmpPdjI2X3BoczRvcnRUTS1NeWhXUDRZR01pRjBsYVM2TjRNVnp3VVMzUmVmYVQ5UHlxTkphNEF6cDJXb3ZGbi1Ua09GblVvZ3FxQkkyNnk5TEpQX3hoaGZCcEVQdU85cXFxaS0wZEV5U0tZempnbzM1Uk9BMNIBvwFBVV95cUxOT0ZkOXF0TkVuaHk5cTEzTkY0RW9qSzVOazlfRVNUSWF2MFFhaHJfTTBxZjhnM1cyb2tWM01FaS1Zb1VGZ3k0THZCTmpPdjI2X3BoczRvcnRUTS1NeWhXUDRZR01pRjBsYVM2TjRNVnp3VVMzUmVmYVQ5UHlxTkphNEF6cDJXb3ZGbi1Ua09GblVvZ3FxQkkyNnk5TEpQX3hoaGZCcEVQdU85cXFxaS0wZEV5U0tZempnbzM1Uk9BMA?oc=5",
+   "when": "2026-11-12T07:39+05:30",
+   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
+   "trusted": false,
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "TIMETECHNO",
+   "title": "Time Technoplast Receives Additional Order Worth 381.4 Million Rupees",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSkdlV0ZJX1k2cjE5TlJPRThYVU9pdGpSXzhFMThLRzZJU1g5eXNEd2dJVk56cFVSTWJYdjJjVkVQZktOVTBtNEVEeEtob254OE5ZQ0twclJVV3RJUjhReDJKMTZta2NWbEFzMVNzNzIwMy1WVl9OcmptNUlOX2F5c1VjSGFYZ3lsQ252V2M5RjZWYXdjR3hocUYzaDNoV1ZWWlJxR2lVbzQ3MGpmeV9yN1JSY0tJU2ZlRjFGLWkwWlBQclZNd3FuYm9yT2ttaF80WUF2ZDlR?oc=5",
+   "when": "2026-11-11T21:04+05:30",
+   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
+   "trusted": false,
+   "stock": {
+    "nse": "TIMETECHNO",
+    "name": "Time Technoplast",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BANKINDIA",
+   "title": "Bank of India to Pay One Day’s Pro-Rata Wages to Officers Who Worked on Sunday, September 27 Ahead of Bank Strike",
+   "source": "Thekanal",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQTS1mSi1uVkFmdlpqVFAwT3FMVjNneG50SVBxb3dQSjJnUmN5VVFBWENvV3FOSy12ZlhuVFVRN3gtRVZkMjJJbG1yRndnWmVsbHNGcGdqVDRJNG8xUHpTenZqQ2tWRzNsbnRONnozeVVtZ2JBYzhRMjJvWDhlQzQyWWRYdVZTaWlxdVhLZUdKNTIydktpTmkyRjVZRjdGTGZoZ1FUNi02X2syWmozMS1xNWM4VFpLUDYxeEJ4cXRBcDFHTnMzbjYtVW4tUnctdlZQVEl5cXRnNGlzS1J2Mzd1MXIzMFJudw?oc=5",
+   "when": "2026-11-11T20:37+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "COHANCE",
+   "title": "Jasub Property Holdings LLP acquires 1.26% stake in Cohance Lifesciences",
+   "source": "InvestyWise",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVnI4VWR5ZGUwdUFhQWNEQXZQRU1xZlZwcmVfZUlXbDdpOUdLd3hmd0ZVeDNDZS04UlE5SnpZcWs3MHZQVkxScnVpRHR5dngtbVN0YnltOTMzTVpyRzRwVF9fSE5JMzVGcFBEWXhkWllKQjlObXUyaUp5eDQwZVRZX3VYSjMtNEhJ?oc=5",
+   "when": "2026-11-11T19:23+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "POWERGRID",
+   "title": "BHEL gains on bagging order from Power Grid Corporation",
+   "source": "Investment Guru India",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMnByWTNSY2c0cmlBZzdJb0F3QTF0YVQ1NlptSXppSnJvaUN3SkRzdU5oRXptV3F2SFpuUEN0eU9BMFhMR3FpT1ZnZjN3emFEdzBUWDdVRWtwN3A1eFZBS0I2MFBZUTdwOWxQU0o5ZHRscUlTdE5XMmxjM3Z5Q3ZuWXFBSXlkNWp6ZVVkcEhnNDJHZ3Zxc25wVnZkNDA3cDVwaXh1R0JZcw?oc=5",
+   "when": "2026-11-11T15:39+05:30",
+   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
+   "trusted": false,
+   "stock": {
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SUNTECK",
+   "title": "Sunteck Realty climbs on incorporating wholly owned subsidiary",
+   "source": "Udaipur Kiran",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeXF4TEZLcTRaQjJMS2JBSnBYQlBiM2hKMWtXdjlPRWxTNkRiUDFxcnpPbUUzMDBwbzV3TU5EVk9aWk5wdXZFampXMlJmVjZ6R3h6TzJuVWFfNE9ZMnVkY3NITjVJbDhWMTJrUUNhaXBrUE85Mjd3V2xIUExxMGhnMzFPTXNqN3ZrWmcza3V4SHdhUQ?oc=5",
+   "when": "2026-11-11T14:23+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": false,
    "stock": {
     "nse": "SUNTECK",
     "name": "Sunteck Realty",
     "group": "holding"
    }
-  }
- ],
- "other": [],
- "dropped": 6,
- "news": [
+  },
   {
    "nse": "BSE",
    "title": "BSE Share Price Gains Over 2% After ICICI Securities Upgrades Rating To 'Add', Raises Target",
@@ -59,34 +157,6 @@
    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdkFZRmpjZGdGOTFXUlQ0b3ZaTXZ0TmVWMk85RVh5aWRrdFZRTG1VVHB1akFlNUZpam9YMlFaVGRBTjBkOTRoclAwMW1jMHJhWDUzTXUxbUVxdDc3R3hZX0IzbUg5eTkzNWdYYklFWUVhc2FoQm01RlU1dVZCYWE2U01mZHV6ZXlaTTc3TWdrejJvVUVVLVlxamVJei04VTBOYnBFY3BNaXJhZ2tiUkc5M3V6aTFNTW5XYzhMazBPTXJXdXVTZjBNSWJ6SHdScWFhRC1OeFl5eFpMVHNE0gHiAUFVX3lxTE0zMWFNYXVzY2pMWDEyTVJnY1NkY0g0SlRHR2txMlFhWE5CNnhIYThITThyM2ZkZ0luOEZoMkR1VUV5TVVlSTNfbmFscEZMQWtKRlIzak0wZGVmS25fcnQ0elJWSjhPTC15UGtkaG01RDJCeHhiazh0LUU3S21jcTBNMHJ0Z2hsUFQ4cjRZX3hudUpPd0ZMVFJpaFQwSi1RV3RlX2NiT1lYRVVLQmV4aWlQcEhXYmpCS2ZQcnpudlAyNmFJYjNCWm56V1l4SkNFaGJsaGcySGg1UGlyQ1ZmUm1RbFE?oc=5",
    "when": "2026-11-11T06:00+05:30",
    "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "title": "Cohance Lifesciences Appoints Dr. Kuber Jagdale as Chief Technical Officer & Executive Director",
-   "source": "https://hrtoday.in/",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQXJBNndHbG1UNEd2OXY1ZWI0WTBkZnFSTWZPc0VvUHRwaHFCRzkxYWcwemtFdlZNa0dFNVYwOEdDVGtoYlFZMllXWmVzUkk3SVZJNDRoUDZObDh0MDNfQXBpMWRhRzdIb0JlR1duVHpVamFKcHZpWVpfYVNwX3d2VFd0YTdrWkNtOFpNOUNyN1g0dlc2a3NmMTFpbjRUTzhiZnNCdDBycktXa1d5ZzJDemZB?oc=5",
-   "when": "2026-11-10T20:58+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "EQUITASBNK",
-   "title": "Equitas Small Finance Bank receives ESG score of 68 from CRISIL ESG Ratings & Analytics",
-   "source": "Business Upturn",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOXRhX2tCdUNHanVHUm5TaWdmT2k2Nmt4b0pCTmNGODE0TVdlazNibEpwYlJJeE9GaEVkQjY0ZHNxMW9rWTVhbFpvVVdzcEdZXzIxNW82WUwxSS14VnFLVklSenZPNUx2RTBJelVtak5TelZGUG1MRGt2VlpqVjBKX1FEbDJoNk1zUGdSVWRuSmhFdTlDYmZrcFg0R0swYXFITlBrQzdBb0FTLVd0RjBKVDdmeTFNWjY0d1hING5NQQ?oc=5",
-   "when": "2026-11-10T15:24+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
    "trusted": false,
    "stock": {
     "nse": "EQUITASBNK",
@@ -550,8 +620,9 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 09 Nov",
+  "BSE codes taken from bhavcopy 11 Nov",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (JSONDecodeError)"
+  "BSE announcements failed (JSONDecodeError)",
+  "BSE announcements failed (ReadTimeout)"
  ]
 }
