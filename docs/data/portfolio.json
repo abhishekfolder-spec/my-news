@@ -1,13 +1,38 @@
 {
- "generated": "2026-11-13T13:52+05:30",
- "since": "2026-11-12T07:52+05:30",
+ "generated": "2026-11-14T13:17+05:30",
+ "since": "2026-11-13T07:17+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 29",
+  "NSE": "ok · 18",
   "BSE": "unavailable",
   "News": "ok · 5"
  },
  "high": [
+  {
+   "nse": "VIYASH",
+   "exchange": "NSE",
+   "when": "2026-11-13T17:36+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Viyash Scientific Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "link": "https://nsearchives.nseindia.com/corporate/SEQUENT2_13112026173441_BM_Outcome_-_13_Nov_2026.pdf",
+   "text": "Outcome of Board Meeting Viyash Scientific Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SEQUENT2_13112026173441_BM_Outcome_-_13_Nov_2026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "VIYASH",
+    "name": "Viyash Scientific",
+    "group": "holding"
+   }
+  },
   {
    "nse": "SJLOGISTIC",
    "exchange": "NSE",
@@ -32,167 +57,42 @@
     "name": "S J Logistics",
     "group": "holding"
    }
-  },
-  {
-   "nse": "SJLOGISTIC",
-   "exchange": "NSE",
-   "when": "2026-11-12T19:37+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "S J Logistics (India) Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/SJLOGISTICS_12112026193344_BM_outcome.pdf",
-   "text": "Outcome of Board Meeting S J Logistics (India) Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SJLOGISTICS_12112026193344_BM_outcome.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SJLOGISTIC",
-    "name": "S J Logistics",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ALLETEC",
-   "exchange": "NSE",
-   "when": "2026-11-12T19:27+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "All E Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/ALLETECH_12112026192140_Alletec_Outcome_of_Board_Meeting.pdf",
-   "text": "Outcome of Board Meeting All E Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/ALLETECH_12112026192140_Alletec_Outcome_of_Board_Meeting.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ALLETEC",
-    "name": "All E Technologies",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SAMHI",
-   "exchange": "NSE",
-   "when": "2026-11-12T19:07+05:30",
-   "subject": "Updates",
-   "detail": "Samhi Hotels Limited has informed the Exchange regarding 'submission of machine readable form / legible copy of financial results for the quarter & six months ended 30th September 2026 as sought vide your email dated 12th November 2026. However, the Company had already submitted searchable copy of such results o 03rd November 2026.'.",
-   "link": "https://nsearchives.nseindia.com/corporate/Samhi_12112026190422_Disclosure_BM_Outcome03112026.pdf",
-   "text": "Updates Samhi Hotels Limited has informed the Exchange regarding 'submission of machine readable form / legible copy of financial results for the quarter & six months ended 30th September 2026 as sought vide your email dated 12th November 2026. However, the Company had already submitted searchable copy of such results o 03rd November 2026.'.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/Samhi_12112026190422_Disclosure_BM_Outcome03112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SAMHI",
-    "name": "SAMHI Hotels",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ALLETEC",
-   "exchange": "NSE",
-   "when": "2026-11-12T16:40+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "All E Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/ALLETECH_12112026163342_Alletec_Outcome_of_Board_Meeting.pdf",
-   "text": "Outcome of Board Meeting All E Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/ALLETECH_12112026163342_Alletec_Outcome_of_Board_Meeting.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ALLETEC",
-    "name": "All E Technologies",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "UFBL",
-   "exchange": "NSE",
-   "when": "2026-11-12T15:58+05:30",
-   "subject": "Credit Rating- Revision",
-   "detail": "United Foodbrands Limited has informed the Exchange about update on Credit Rating",
-   "link": "https://nsearchives.nseindia.com/corporate/BARBEQUE_12112026155657_IntimationofReaffirmationofCreditRating12112026.pdf",
-   "text": "Credit Rating- Revision United Foodbrands Limited has informed the Exchange about update on Credit Rating",
-   "tier": "high",
-   "rule": "credit rating|rating (action|revis|downgrad|upgrad|reaffirm)",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/BARBEQUE_12112026155657_IntimationofReaffirmationofCreditRating12112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "UFBL",
-    "name": "United Foodbrands",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SJLOGISTIC",
-   "exchange": "NSE",
-   "when": "2026-11-12T14:17+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "S J Logistics (India) Limited has submitted to the Exchange, the Unaudited financial results (Standalone and Consolidated) for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/SJLOGISTICS_12112026141719_BM_outcome.pdf",
-   "text": "Outcome of Board Meeting S J Logistics (India) Limited has submitted to the Exchange, the Unaudited financial results (Standalone and Consolidated) for the period ended September 30, 2026.",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SJLOGISTICS_12112026141719_BM_outcome.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SJLOGISTIC",
-    "name": "S J Logistics",
-    "group": "holding"
-   }
   }
  ],
  "medium": [
   {
-   "nse": "GAIL",
+   "nse": "VIYASH",
    "exchange": "NSE",
-   "when": "2026-11-12T21:58+05:30",
+   "when": "2026-11-13T18:43+05:30",
+   "subject": "Investor Presentation",
+   "detail": "Viyash Scientific Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.com/corporate/SEQUENT2_13112026184257_SE_Intimation_Investor_Presentation.pdf",
+   "text": "Investor Presentation Viyash Scientific Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SEQUENT2_13112026184257_SE_Intimation_Investor_Presentation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "VIYASH",
+    "name": "Viyash Scientific",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "VIYASH",
+   "exchange": "NSE",
+   "when": "2026-11-13T18:37+05:30",
    "subject": "Press Release",
-   "detail": "GAIL (India) Limited has informed the Exchange regarding a press release dated November 12, 2026, titled \"Signing of MoU by GAIL (India) Limited & Krishak Bharati Cooperative Limited with Andhra Pradesh Economic Development Board for exploring the opportunity to setup a gas-based fertilizer project in the State of Andhra Pradesh\".",
-   "link": "https://nsearchives.nseindia.com/corporate/GAIL_12112026215805_PR12112026.pdf",
-   "text": "Press Release GAIL (India) Limited has informed the Exchange regarding a press release dated November 12, 2026, titled \"Signing of MoU by GAIL (India) Limited & Krishak Bharati Cooperative Limited with Andhra Pradesh Economic Development Board for exploring the opportunity to setup a gas-based fertilizer project in the State of Andhra Pradesh\".",
+   "detail": "Viyash Scientific Limited has informed the Exchange regarding a press release dated November 13, 2026, titled \"Press Release for Q2 FY27\".",
+   "link": "https://nsearchives.nseindia.com/corporate/SEQUENT2_13112026183701_Press_Release_for_Q2FY27.pdf",
+   "text": "Press Release Viyash Scientific Limited has informed the Exchange regarding a press release dated November 13, 2026, titled \"Press Release for Q2 FY27\".",
    "tier": "medium",
    "rule": "press release|media release",
    "exchange_set": [
@@ -201,92 +101,42 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/GAIL_12112026215805_PR12112026.pdf"
+     "https://nsearchives.nseindia.com/corporate/SEQUENT2_13112026183701_Press_Release_for_Q2FY27.pdf"
     ]
    ],
    "stock": {
-    "nse": "GAIL",
-    "name": "GAIL (India)",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "GAIL",
-   "exchange": "NSE",
-   "when": "2026-11-12T17:34+05:30",
-   "subject": "Press Release",
-   "detail": "GAIL (India) Limited has informed the Exchange regarding a press release dated November 12, 2026, titled \"Signing of MoU between GAIL (India) Limited & Krishak Bharati Cooperative Limited for exploring the opportunity to setup a gas-based fertilizer project in the State of Andhra Pradesh\".",
-   "link": "https://nsearchives.nseindia.com/corporate/GAIL_12112026173405_PR12112026__2_.pdf",
-   "text": "Press Release GAIL (India) Limited has informed the Exchange regarding a press release dated November 12, 2026, titled \"Signing of MoU between GAIL (India) Limited & Krishak Bharati Cooperative Limited for exploring the opportunity to setup a gas-based fertilizer project in the State of Andhra Pradesh\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/GAIL_12112026173405_PR12112026__2_.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GAIL",
-    "name": "GAIL (India)",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ALLETEC",
-   "exchange": "NSE",
-   "when": "2026-11-12T16:40+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "All E Technologies Limited has informed the Exchange regarding Outcome of Board Meeting held on November 12, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/ALLETECH_12112026163544_Alletec_Outcome_of_Board_Meeting.pdf",
-   "text": "Outcome of Board Meeting All E Technologies Limited has informed the Exchange regarding Outcome of Board Meeting held on November 12, 2026.",
-   "tier": "medium",
-   "rule": "board meeting|intimation of board",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/ALLETECH_12112026163544_Alletec_Outcome_of_Board_Meeting.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ALLETEC",
-    "name": "All E Technologies",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "GAIL",
-   "exchange": "NSE",
-   "when": "2026-11-12T15:48+05:30",
-   "subject": "Press Release",
-   "detail": "GAIL (India) Limited has informed the Exchange regarding a press release dated November 12, 2026, titled \"Awareness session for 300 TPD MunicipalSolid Waste (MSW) based Compressed Biogas (CBG) Plant in Bengaluru organised\".",
-   "link": "https://nsearchives.nseindia.com/corporate/GAIL_12112026154813_PR12112026.pdf",
-   "text": "Press Release GAIL (India) Limited has informed the Exchange regarding a press release dated November 12, 2026, titled \"Awareness session for 300 TPD MunicipalSolid Waste (MSW) based Compressed Biogas (CBG) Plant in Bengaluru organised\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/GAIL_12112026154813_PR12112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "GAIL",
-    "name": "GAIL (India)",
+    "nse": "VIYASH",
+    "name": "Viyash Scientific",
     "group": "holding"
    }
   }
  ],
  "other": [
+  {
+   "nse": "SJLOGISTIC",
+   "exchange": "NSE",
+   "when": "2026-11-13T17:42+05:30",
+   "subject": "Shareholders meeting",
+   "detail": "S J Logistics (India) Limited has informed the Exchange regarding Notice of 2nd Extraordinary General Meeting to be held on December 07, 2026",
+   "link": "https://nsearchives.nseindia.com/corporate/SJLOGISTICS_13112026174219_EGM_Notice_Final.pdf",
+   "text": "Shareholders meeting S J Logistics (India) Limited has informed the Exchange regarding Notice of 2nd Extraordinary General Meeting to be held on December 07, 2026",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.com/corporate/SJLOGISTICS_13112026174219_EGM_Notice_Final.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SJLOGISTIC",
+    "name": "S J Logistics",
+    "group": "holding"
+   }
+  },
   {
    "nse": "TIMETECHNO",
    "exchange": "NSE",
@@ -311,91 +161,58 @@
     "name": "Time Technoplast",
     "group": "holding"
    }
-  },
-  {
-   "nse": "ALLETEC",
-   "exchange": "NSE",
-   "when": "2026-11-12T17:53+05:30",
-   "subject": "Statement of deviation(s) or variation(s) under Reg. 32",
-   "detail": "All E Technologies Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "link": "https://nsearchives.nseindia.com/corporate/ALLETECH_12112026175252_Statement_of_Deviation_or_Variations.pdf",
-   "text": "Statement of deviation(s) or variation(s) under Reg. 32 All E Technologies Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/ALLETECH_12112026175252_Statement_of_Deviation_or_Variations.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ALLETEC",
-    "name": "All E Technologies",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ALLETEC",
-   "exchange": "NSE",
-   "when": "2026-11-12T16:41+05:30",
-   "subject": "Appointment",
-   "detail": "All E Technologies Limited has informed the Exchange regarding Appointment of Mr Rahul Gupta as Non- Executive Independent Director of the company w.e.f. November 12, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/ALLETECH_12112026164007_Alletec_Appointment_of_ID.pdf",
-   "text": "Appointment All E Technologies Limited has informed the Exchange regarding Appointment of Mr Rahul Gupta as Non- Executive Independent Director of the company w.e.f. November 12, 2026.",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/ALLETECH_12112026164007_Alletec_Appointment_of_ID.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ALLETEC",
-    "name": "All E Technologies",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "EQUITASBNK",
-   "exchange": "NSE",
-   "when": "2026-11-12T16:07+05:30",
-   "subject": "General Updates",
-   "detail": "Equitas Small Finance Bank Limited has informed the Exchanges about the Non-Deal Roadshow to be attended by the representatives of the Bank",
-   "link": "https://nsearchives.nseindia.com/corporate/EQUITASBNK_12112026160659_Investor_Meeting_-_12112026.pdf",
-   "text": "General Updates Equitas Small Finance Bank Limited has informed the Exchanges about the Non-Deal Roadshow to be attended by the representatives of the Bank",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/EQUITASBNK_12112026160659_Investor_Meeting_-_12112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
-    "group": "holding"
-   }
   }
  ],
- "dropped": 14,
+ "dropped": 12,
  "news": [
+  {
+   "nse": "BSE",
+   "title": "BSE Q2FY27 Results: EBITDA up 43% YoY, analysts split on outlook",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa0k1bVNtakV5UTNlTmhvblRlR1hKNTA2dWlIYjMwRkV3UnpSM1VWelZUWGVZLUhsY2lFYzZIZi1mZWxtalp3ZHhsWU9hNGtOb0lKMUxCVy1vYWJYaHJveExsZlJnYS1XOTJ0RWNfM3pyU1NzeXNVT2RaV1N5czZjWlJlb09qRzhxekU5bDFiMHhxT3B2RURUZnctb0g5RFRURkZ3MTFHMTJMWThVanpFUVFQaDNEZw?oc=5",
+   "when": "2026-11-14T05:00+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "UJJIVANSFB",
+   "title": "Ujjivan Small Finance Bank shareholders approve preferential share issue",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSTd4MWJMTzB5aWRhREVtQzVKMFlNM3FGeFd6REZVX25jaHRwSFZyOTZ6dHNLcVRmMmczUlZQT2ZWZ3pOMEtmY3VCYU1Oc09oazgtUFR4azB3NVFBWlpEZFhkeGdKV0NZTUlCUzlCTW9XcjZMb1g2LVpsM00tNmRXcmJmSk5tbmNlUWJZd0NRanpzaHJWMjd1SjQ1MWh4UUVKMzVoNHJoRHhpUXBsMWYwQUg3d0pEOXFMS0RCNHNJRmI?oc=5",
+   "when": "2026-11-13T20:31+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "UJJIVANSFB",
+    "name": "Ujjivan Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "COHANCE",
+   "title": "Cohance Lifesciences' Pashamylaram Facility Gets USFDA EIR With VAI Status",
+   "source": "Medical Dialogues",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMVFGdE5tSi13aTljQzAzWFdvN3RSOTNkRlZsRVpxTVZLc2tEd0hWa1FNbGxZZDAtSVpxZVBlTjdEMXVEc2lCZWMyRko4X2hFMk9OOGNaeDhGc1JFNHpjV3RBYUV3dmtfWkhMY3NlY21NQlFtZmRsV0xvSXR3X0VXX1FqQnpzaFZRWXE2dGl4bERxREtyZTBnU2s0RWIwdkpyeGhfYW50aExnY19QbE9pZ0ZRU1RPSUxPbmYxaTJCS2lZTEhNLVR5NdIBzgFBVV95cUxOQmxCbmJYTmtYbHNTdy1IY3RfU0FMSks1aVE3Sm85V09ZUFQ5S3BTd0FRdGxXRXU5bDlXNmVRcmo5TVR2dkVncW9OOV8xNzJGdlhhY3J4MExjcWhCYk9wUmdlNlpXbHFxZFpTSmlHWU43ZGNxNENjVjl3VWFaR005SDJqeklVb2gtbFl3SUM0akZGRG1BYUtNTFkxT29JTXpYQW1FWFZKUTV6VlAwWmVLNkR3Tl9yTWRQUHVPbktTNzJId214ekVsZmluTVlGdw?oc=5",
+   "when": "2026-11-13T20:01+05:30",
+   "rule": "usfda|warning letter|form 483|import alert",
+   "trusted": false,
+   "stock": {
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
+    "group": "holding"
+   }
+  },
   {
    "nse": "TIMETECHNO",
    "title": "Time Technoplast QIP Report for Q2 FY27 Released",
    "source": "InvestyWise",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb0pDeE9VS0UwMVZWY1BqZ1Y0dnZlZGktSzNzbVZSNjhfZ0NyLURKQlF0ajZ6b0xlTVh1RlRqOEFUc0NhNElYdnpkOU9yRndxd3VOd3JFUnBoX01ORUFVUGFHQXdCQlU0ZGVROUdqbFU0V2ZQdG5WSXhUd29xNERBWUZWUE9aaDh4QzBHRzIyQktEZ0pi?oc=5",
-   "when": "2026-11-13T13:06+05:30",
+   "when": "2026-11-13T13:35+05:30",
    "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
@@ -405,58 +222,16 @@
    }
   },
   {
-   "nse": "BSE",
-   "title": "BSE Q2FY27 Results: EBITDA up 43% YoY, analysts split on outlook",
+   "nse": "RBA",
+   "title": "Open offer for Restaurant Brands Asia at ₹70.39 per share",
    "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa0k1bVNtakV5UTNlTmhvblRlR1hKNTA2dWlIYjMwRkV3UnpSM1VWelZUWGVZLUhsY2lFYzZIZi1mZWxtalp3ZHhsWU9hNGtOb0lKMUxCVy1vYWJYaHJveExsZlJnYS1XOTJ0RWNfM3pyU1NzeXNVT2RaV1N5czZjWlJlb09qRzhxekU5bDFiMHhxT3B2RURUZnctb0g5RFRURkZ3MTFHMTJMWThVanpFUVFQaDNEZw?oc=5",
-   "when": "2026-11-12T18:12+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT3pwSER0OTQ0cS1IR0VGUTJCTVRyemhXMHBMaEJMMENXNUZiN3lKT0NqcHhuWTNoZ09Cd05tb3JObzR2Q2JLODRUQmREdjZkRmZINi1qZ1ZvaWpCWGpLYjl0MjE3aE40eVhVUllkUFRrMTdBaEt6TzJZbEl2Ty1fVWZ2ek9TSzdsY1lGdG1NMC1jMF9xa1VIT2hZUW16aFJ0OGhHS3pHdTNoWmc?oc=5",
+   "when": "2026-11-13T07:27+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BSE",
-   "title": "6,599 Call Contracts Traded on BSE Ltd as Stock Edges Higher Near Rs 4,000 Strike",
-   "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU3dOam96eThLeHZ5NEhXcmtkRFFnUjZ3ei1RLU0ycEpPUU54aDYxQ0U2X0F2d2p0ZHhnd19RZUQxeHBOZ1lNeXFwOUt6RVhJa1BIMUN4ekpKLU9JRUlOR2ZHblZUTDNjRVg2UlBCYTdqV2hIZjRzem8zajBOY21DUmxTU1EyRDNTNmNYSzB0NnRkeTluRjBlWUZTOFdkWDF4eWkycld4b3R1Ti1NTkdhVjE1cEhNaTdGZzdrbk1NZlY?oc=5",
-   "when": "2026-11-12T17:52+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "LAURUSLABS",
-   "title": "Oyster Renewable Commissions 39.3 MWp Solar Project for Laurus Labs, 21.6 MW Wind Capacity Due by December 2026",
-   "source": "SolarQuarter",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSkU1dHNIVVdXaUlHZUY5UVVLUGtlZE1lQV9wdmEyZnhPbnkxSzFNTFFsRzBYaDNMSS1YVk1ocGFYZDgxeUdYSE93VmlrUmNQWlF3V01VQl80NEdWMkpvZFg4TF80ai1JcXVkaDZGUDlxZUk5QW9rdWdLSE5WR09aR0FCT0NnelZwdkEzOHF5ZVU1ZDBINW83TUtEdmdlQ1hmdmxNQ2NoeWRGXzFMLXhkSEJEbFRSNVF5NFlTLW5ZYllpbHE5MmZMQkkydGdFSWF2LW5rQ0NmSlFUTGU2cHRoWA?oc=5",
-   "when": "2026-11-12T11:59+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "LAURUSLABS",
-    "name": "Laurus Labs",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BANKINDIA",
-   "title": "Bank of India labels Future Enterprise account as fraud with ₹575.40 cr due | Future Enterprises is facing insolvency process | Inshorts",
-   "source": "Inshorts",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOT0ZkOXF0TkVuaHk5cTEzTkY0RW9qSzVOazlfRVNUSWF2MFFhaHJfTTBxZjhnM1cyb2tWM01FaS1Zb1VGZ3k0THZCTmpPdjI2X3BoczRvcnRUTS1NeWhXUDRZR01pRjBsYVM2TjRNVnp3VVMzUmVmYVQ5UHlxTkphNEF6cDJXb3ZGbi1Ua09GblVvZ3FxQkkyNnk5TEpQX3hoaGZCcEVQdU85cXFxaS0wZEV5U0tZempnbzM1Uk9BMNIBvwFBVV95cUxOT0ZkOXF0TkVuaHk5cTEzTkY0RW9qSzVOazlfRVNUSWF2MFFhaHJfTTBxZjhnM1cyb2tWM01FaS1Zb1VGZ3k0THZCTmpPdjI2X3BoczRvcnRUTS1NeWhXUDRZR01pRjBsYVM2TjRNVnp3VVMzUmVmYVQ5UHlxTkphNEF6cDJXb3ZGbi1Ua09GblVvZ3FxQkkyNnk5TEpQX3hoaGZCcEVQdU85cXFxaS0wZEV5U0tZempnbzM1Uk9BMA?oc=5",
-   "when": "2026-11-12T07:39+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": false,
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
+    "nse": "RBA",
+    "name": "Restaurant Brands Asia",
     "group": "holding"
    }
   }
@@ -916,9 +691,9 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 12 Nov",
-  "BSE announcements failed (JSONDecodeError)",
+  "BSE codes taken from bhavcopy 13 Nov",
   "BSE announcements failed (HTTPError)",
+  "BSE announcements failed (JSONDecodeError)",
   "BSE announcements failed (ReadTimeout)"
  ]
 }
