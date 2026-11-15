@@ -1,21 +1,21 @@
 {
- "generated": "2026-11-14T13:17+05:30",
- "since": "2026-11-13T07:17+05:30",
+ "generated": "2026-11-15T13:34+05:30",
+ "since": "2026-11-14T07:34+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 18",
+  "NSE": "ok · 8",
   "BSE": "unavailable",
-  "News": "ok · 5"
+  "News": "ok · 3"
  },
  "high": [
   {
-   "nse": "VIYASH",
+   "nse": "CGRAPHICS",
    "exchange": "NSE",
-   "when": "2026-11-13T17:36+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Viyash Scientific Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
-   "link": "https://nsearchives.nseindia.com/corporate/SEQUENT2_13112026173441_BM_Outcome_-_13_Nov_2026.pdf",
-   "text": "Outcome of Board Meeting Viyash Scientific Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "when": "2026-11-14T21:02+05:30",
+   "subject": "Press Release",
+   "detail": "Creative Graphics Solutions India Limited has informed the Exchange regarding a press release dated November 14, 2026, titled \"Earning Release-Half yearly Financial Results ended September 30, 2026\".",
+   "link": "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026210053_Earning_Release.pdf",
+   "text": "Press Release Creative Graphics Solutions India Limited has informed the Exchange regarding a press release dated November 14, 2026, titled \"Earning Release-Half yearly Financial Results ended September 30, 2026\".",
    "tier": "high",
    "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
    "exchange_set": [
@@ -24,23 +24,23 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/SEQUENT2_13112026173441_BM_Outcome_-_13_Nov_2026.pdf"
+     "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026210053_Earning_Release.pdf"
     ]
    ],
    "stock": {
-    "nse": "VIYASH",
-    "name": "Viyash Scientific",
+    "nse": "CGRAPHICS",
+    "name": "Creative Graphics Solutions",
     "group": "holding"
    }
   },
   {
-   "nse": "SJLOGISTIC",
+   "nse": "CGRAPHICS",
    "exchange": "NSE",
-   "when": "2026-11-13T12:47+05:30",
-   "subject": "Press Release",
-   "detail": "S J Logistics (India) Limited has informed the Exchange regarding a press release dated November 13, 2026, regarding Unaudited Financial Results for Q2/2026-27.\".",
-   "link": "https://nsearchives.nseindia.com/corporate/SJLOGISTICS_13112026124643_Press_release_certified.pdf",
-   "text": "Press Release S J Logistics (India) Limited has informed the Exchange regarding a press release dated November 13, 2026, regarding Unaudited Financial Results for Q2/2026-27.\".",
+   "when": "2026-11-14T20:37+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Creative Graphics Solutions India Limited has submitted to the Exchange, the Unaudited Standalone and Consolidated financial results for the period ended September 30, 2026",
+   "link": "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026203119_Outcome_of_BM.pdf",
+   "text": "Outcome of Board Meeting Creative Graphics Solutions India Limited has submitted to the Exchange, the Unaudited Standalone and Consolidated financial results for the period ended September 30, 2026",
    "tier": "high",
    "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
    "exchange_set": [
@@ -49,25 +49,50 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/SJLOGISTICS_13112026124643_Press_release_certified.pdf"
+     "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026203119_Outcome_of_BM.pdf"
     ]
    ],
    "stock": {
-    "nse": "SJLOGISTIC",
-    "name": "S J Logistics",
+    "nse": "CGRAPHICS",
+    "name": "Creative Graphics Solutions",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "CGRAPHICS",
+   "exchange": "NSE",
+   "when": "2026-11-14T19:33+05:30",
+   "subject": "Outcome of Board Meeting",
+   "detail": "Creative Graphics Solutions India Limited has submitted to the Exchange, the Unaudited Standalone and Consolidated financial results for the period ended September 30, 2026",
+   "link": "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026192903_Outcome_of_BM.pdf",
+   "text": "Outcome of Board Meeting Creative Graphics Solutions India Limited has submitted to the Exchange, the Unaudited Standalone and Consolidated financial results for the period ended September 30, 2026",
+   "tier": "high",
+   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026192903_Outcome_of_BM.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "CGRAPHICS",
+    "name": "Creative Graphics Solutions",
     "group": "holding"
    }
   }
  ],
  "medium": [
   {
-   "nse": "VIYASH",
+   "nse": "CGRAPHICS",
    "exchange": "NSE",
-   "when": "2026-11-13T18:43+05:30",
+   "when": "2026-11-14T21:17+05:30",
    "subject": "Investor Presentation",
-   "detail": "Viyash Scientific Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.com/corporate/SEQUENT2_13112026184257_SE_Intimation_Investor_Presentation.pdf",
-   "text": "Investor Presentation Viyash Scientific Limited has informed the Exchange about Investor Presentation",
+   "detail": "Creative Graphics Solutions India Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026211717_Investor_Presentation.pdf",
+   "text": "Investor Presentation Creative Graphics Solutions India Limited has informed the Exchange about Investor Presentation",
    "tier": "medium",
    "rule": "investor presentation",
    "exchange_set": [
@@ -76,95 +101,47 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.com/corporate/SEQUENT2_13112026184257_SE_Intimation_Investor_Presentation.pdf"
+     "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026211717_Investor_Presentation.pdf"
     ]
    ],
    "stock": {
-    "nse": "VIYASH",
-    "name": "Viyash Scientific",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "VIYASH",
-   "exchange": "NSE",
-   "when": "2026-11-13T18:37+05:30",
-   "subject": "Press Release",
-   "detail": "Viyash Scientific Limited has informed the Exchange regarding a press release dated November 13, 2026, titled \"Press Release for Q2 FY27\".",
-   "link": "https://nsearchives.nseindia.com/corporate/SEQUENT2_13112026183701_Press_Release_for_Q2FY27.pdf",
-   "text": "Press Release Viyash Scientific Limited has informed the Exchange regarding a press release dated November 13, 2026, titled \"Press Release for Q2 FY27\".",
-   "tier": "medium",
-   "rule": "press release|media release",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SEQUENT2_13112026183701_Press_Release_for_Q2FY27.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "VIYASH",
-    "name": "Viyash Scientific",
+    "nse": "CGRAPHICS",
+    "name": "Creative Graphics Solutions",
     "group": "holding"
    }
   }
  ],
- "other": [
+ "other": [],
+ "dropped": 4,
+ "news": [
+  {
+   "nse": "JUBLINGREA",
+   "title": "Jubilant Ingrevia appoints Kulathooran Singaram as Director – R&D, CRDMO",
+   "source": "Indian Pharma Post",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOM2d3bDNDM3RwVE5DdE9FUzRrbkdweUFqa05mVllyekVnRXJNMTNuNUYtb00xWDhUbnIzRGlCTkJQWVk2eXREaVZCbVYwMDh0ZkxQTGdCTXJTc29FSjFaWVBYS3dHWW5fVWoteGJFemRYQ0tXaVljUmVEVV83U0lncjVzMXVpclVHWkZ0MEhGZ085MExhVTAyOURDOHF2QWhDNWF5VFNhempsVTNOZFNQNHNSRm7SAbsBQVVfeXFMTUU5ZFo3V3p5SFdDY0Iwek1yWHRDSno1Tk8zNURBb1d4ZGFUekc0N1U1N1p3MWZvRHFCMThUWWswNTdZNkxVczNHd1B3RWRCU2Z1Y3RCRE15OU0wSi1RMFE3Z0VLdktkcG1aYUpIcDV1QUpwa3dHcVZNVVpMX0JRMmR6U1BZdFJYb2pzX1N6a05yUkhEdWJpMEdqa1hqU2FsaTY2NzYxWmZWbnN4X1gya1Q4T2Y3M1BpNHdXbw?oc=5",
+   "when": "2026-11-15T07:46+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
+    "group": "holding"
+   }
+  },
   {
    "nse": "SJLOGISTIC",
-   "exchange": "NSE",
-   "when": "2026-11-13T17:42+05:30",
-   "subject": "Shareholders meeting",
-   "detail": "S J Logistics (India) Limited has informed the Exchange regarding Notice of 2nd Extraordinary General Meeting to be held on December 07, 2026",
-   "link": "https://nsearchives.nseindia.com/corporate/SJLOGISTICS_13112026174219_EGM_Notice_Final.pdf",
-   "text": "Shareholders meeting S J Logistics (India) Limited has informed the Exchange regarding Notice of 2nd Extraordinary General Meeting to be held on December 07, 2026",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/SJLOGISTICS_13112026174219_EGM_Notice_Final.pdf"
-    ]
-   ],
+   "title": "S J Logistics seeks approval for Rs 92.58 crore preferential issue",
+   "source": "Multibagg AI",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZlU5NFdtQmlrbzBhT0h2c1hlWWZVWjdadXZrbFoxUkJIWFdLeXlHcFNselRUdkdaamZFY2hmOGRsMngybDljbFVIaGxMLURDV3ktVHlQeTJaYUhCWk1RZE5UeDBQd0p0LThvWWRUNUVUeVgyNTNEZERPWG5hR0VlNEVzMDhFRm03TDV5WW91RTNlY21McVhQTXBnQjgzVDUyUzlyUGtzTGs1NkZpRHhkU2U0TGM?oc=5",
+   "when": "2026-11-14T16:04+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
    "stock": {
     "nse": "SJLOGISTIC",
     "name": "S J Logistics",
     "group": "holding"
    }
   },
-  {
-   "nse": "TIMETECHNO",
-   "exchange": "NSE",
-   "when": "2026-11-13T13:25+05:30",
-   "subject": "Monitoring Agency Report",
-   "detail": "Monitoring Agency Report for the Quarter ended September 30, 2026",
-   "link": "https://nsearchives.nseindia.com/corporate/TIMETECHNO_13112026132500_MonitoringAgencyReport13112026.pdf",
-   "text": "Monitoring Agency Report Monitoring Agency Report for the Quarter ended September 30, 2026",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.com/corporate/TIMETECHNO_13112026132500_MonitoringAgencyReport13112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "TIMETECHNO",
-    "name": "Time Technoplast",
-    "group": "holding"
-   }
-  }
- ],
- "dropped": 12,
- "news": [
   {
    "nse": "BSE",
    "title": "BSE Q2FY27 Results: EBITDA up 43% YoY, analysts split on outlook",
@@ -176,62 +153,6 @@
    "stock": {
     "nse": "BSE",
     "name": "BSE Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "UJJIVANSFB",
-   "title": "Ujjivan Small Finance Bank shareholders approve preferential share issue",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSTd4MWJMTzB5aWRhREVtQzVKMFlNM3FGeFd6REZVX25jaHRwSFZyOTZ6dHNLcVRmMmczUlZQT2ZWZ3pOMEtmY3VCYU1Oc09oazgtUFR4azB3NVFBWlpEZFhkeGdKV0NZTUlCUzlCTW9XcjZMb1g2LVpsM00tNmRXcmJmSk5tbmNlUWJZd0NRanpzaHJWMjd1SjQ1MWh4UUVKMzVoNHJoRHhpUXBsMWYwQUg3d0pEOXFMS0RCNHNJRmI?oc=5",
-   "when": "2026-11-13T20:31+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "title": "Cohance Lifesciences' Pashamylaram Facility Gets USFDA EIR With VAI Status",
-   "source": "Medical Dialogues",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMVFGdE5tSi13aTljQzAzWFdvN3RSOTNkRlZsRVpxTVZLc2tEd0hWa1FNbGxZZDAtSVpxZVBlTjdEMXVEc2lCZWMyRko4X2hFMk9OOGNaeDhGc1JFNHpjV3RBYUV3dmtfWkhMY3NlY21NQlFtZmRsV0xvSXR3X0VXX1FqQnpzaFZRWXE2dGl4bERxREtyZTBnU2s0RWIwdkpyeGhfYW50aExnY19QbE9pZ0ZRU1RPSUxPbmYxaTJCS2lZTEhNLVR5NdIBzgFBVV95cUxOQmxCbmJYTmtYbHNTdy1IY3RfU0FMSks1aVE3Sm85V09ZUFQ5S3BTd0FRdGxXRXU5bDlXNmVRcmo5TVR2dkVncW9OOV8xNzJGdlhhY3J4MExjcWhCYk9wUmdlNlpXbHFxZFpTSmlHWU43ZGNxNENjVjl3VWFaR005SDJqeklVb2gtbFl3SUM0akZGRG1BYUtNTFkxT29JTXpYQW1FWFZKUTV6VlAwWmVLNkR3Tl9yTWRQUHVPbktTNzJId214ekVsZmluTVlGdw?oc=5",
-   "when": "2026-11-13T20:01+05:30",
-   "rule": "usfda|warning letter|form 483|import alert",
-   "trusted": false,
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "TIMETECHNO",
-   "title": "Time Technoplast QIP Report for Q2 FY27 Released",
-   "source": "InvestyWise",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb0pDeE9VS0UwMVZWY1BqZ1Y0dnZlZGktSzNzbVZSNjhfZ0NyLURKQlF0ajZ6b0xlTVh1RlRqOEFUc0NhNElYdnpkOU9yRndxd3VOd3JFUnBoX01ORUFVUGFHQXdCQlU0ZGVROUdqbFU0V2ZQdG5WSXhUd29xNERBWUZWUE9aaDh4QzBHRzIyQktEZ0pi?oc=5",
-   "when": "2026-11-13T13:35+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "TIMETECHNO",
-    "name": "Time Technoplast",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "RBA",
-   "title": "Open offer for Restaurant Brands Asia at ₹70.39 per share",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT3pwSER0OTQ0cS1IR0VGUTJCTVRyemhXMHBMaEJMMENXNUZiN3lKT0NqcHhuWTNoZ09Cd05tb3JObzR2Q2JLODRUQmREdjZkRmZINi1qZ1ZvaWpCWGpLYjl0MjE3aE40eVhVUllkUFRrMTdBaEt6TzJZbEl2Ty1fVWZ2ek9TSzdsY1lGdG1NMC1jMF9xa1VIT2hZUW16aFJ0OGhHS3pHdTNoWmc?oc=5",
-   "when": "2026-11-13T07:27+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "RBA",
-    "name": "Restaurant Brands Asia",
     "group": "holding"
    }
   }
@@ -692,8 +613,7 @@
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
   "BSE codes taken from bhavcopy 13 Nov",
-  "BSE announcements failed (HTTPError)",
   "BSE announcements failed (JSONDecodeError)",
-  "BSE announcements failed (ReadTimeout)"
+  "BSE announcements failed (HTTPError)"
  ]
 }
