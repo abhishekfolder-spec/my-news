@@ -1,119 +1,85 @@
 {
- "generated": "2026-11-15T13:34+05:30",
- "since": "2026-11-14T07:34+05:30",
+ "generated": "2026-11-16T13:43+05:30",
+ "since": "2026-11-15T07:43+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 8",
+  "NSE": "ok · 3",
   "BSE": "unavailable",
-  "News": "ok · 3"
+  "News": "ok · 4"
  },
- "high": [
-  {
-   "nse": "CGRAPHICS",
-   "exchange": "NSE",
-   "when": "2026-11-14T21:02+05:30",
-   "subject": "Press Release",
-   "detail": "Creative Graphics Solutions India Limited has informed the Exchange regarding a press release dated November 14, 2026, titled \"Earning Release-Half yearly Financial Results ended September 30, 2026\".",
-   "link": "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026210053_Earning_Release.pdf",
-   "text": "Press Release Creative Graphics Solutions India Limited has informed the Exchange regarding a press release dated November 14, 2026, titled \"Earning Release-Half yearly Financial Results ended September 30, 2026\".",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026210053_Earning_Release.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "CGRAPHICS",
-    "name": "Creative Graphics Solutions",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "CGRAPHICS",
-   "exchange": "NSE",
-   "when": "2026-11-14T20:37+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Creative Graphics Solutions India Limited has submitted to the Exchange, the Unaudited Standalone and Consolidated financial results for the period ended September 30, 2026",
-   "link": "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026203119_Outcome_of_BM.pdf",
-   "text": "Outcome of Board Meeting Creative Graphics Solutions India Limited has submitted to the Exchange, the Unaudited Standalone and Consolidated financial results for the period ended September 30, 2026",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026203119_Outcome_of_BM.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "CGRAPHICS",
-    "name": "Creative Graphics Solutions",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "CGRAPHICS",
-   "exchange": "NSE",
-   "when": "2026-11-14T19:33+05:30",
-   "subject": "Outcome of Board Meeting",
-   "detail": "Creative Graphics Solutions India Limited has submitted to the Exchange, the Unaudited Standalone and Consolidated financial results for the period ended September 30, 2026",
-   "link": "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026192903_Outcome_of_BM.pdf",
-   "text": "Outcome of Board Meeting Creative Graphics Solutions India Limited has submitted to the Exchange, the Unaudited Standalone and Consolidated financial results for the period ended September 30, 2026",
-   "tier": "high",
-   "rule": "financial results?|(un)?audited results|outcome of board meeting.*result",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026192903_Outcome_of_BM.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "CGRAPHICS",
-    "name": "Creative Graphics Solutions",
-    "group": "holding"
-   }
-  }
- ],
+ "high": [],
  "medium": [
   {
-   "nse": "CGRAPHICS",
+   "nse": "MEDIASSIST",
    "exchange": "NSE",
-   "when": "2026-11-14T21:17+05:30",
-   "subject": "Investor Presentation",
-   "detail": "Creative Graphics Solutions India Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026211717_Investor_Presentation.pdf",
-   "text": "Investor Presentation Creative Graphics Solutions India Limited has informed the Exchange about Investor Presentation",
+   "when": "2026-11-16T11:18+05:30",
+   "subject": "Updates",
+   "detail": "Medi Assist Healthcare Services Limited has informed the Exchange regarding 'Press Release ' titled as Medi Assist appoints Aruna Vaidyanathan as Chief Growth & Culture Officer as it consolidates its TPA leadership and expands its platform andinternational businesses",
+   "link": "https://nsearchives.nseindia.in/corporate/MEDIASSIST_16112026111514_MAHSPressRelease16112026.pdf",
+   "text": "Updates Medi Assist Healthcare Services Limited has informed the Exchange regarding 'Press Release ' titled as Medi Assist appoints Aruna Vaidyanathan as Chief Growth & Culture Officer as it consolidates its TPA leadership and expands its platform andinternational businesses",
    "tier": "medium",
-   "rule": "investor presentation",
+   "rule": "press release|media release",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.in/corporate/CREATIVEGRAPHICS_14112026211717_Investor_Presentation.pdf"
+     "https://nsearchives.nseindia.in/corporate/MEDIASSIST_16112026111514_MAHSPressRelease16112026.pdf"
     ]
    ],
    "stock": {
-    "nse": "CGRAPHICS",
-    "name": "Creative Graphics Solutions",
+    "nse": "MEDIASSIST",
+    "name": "Medi Assist Healthcare Services",
     "group": "holding"
    }
   }
  ],
  "other": [],
- "dropped": 4,
+ "dropped": 2,
  "news": [
+  {
+   "nse": "LAURUSLABS",
+   "title": "Laurus Labs Promoter Announces Small Stake Sale For Charity, Outlook Unchanged",
+   "source": "Sahi",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdmlpVGkyS1cxQW9DbUxyclZyS2FCZzdmdFFjeS1sQ0xhMVR6V3dUd0l0U2h2ZmthWlhxNGprQzZYd0cwUUprazYycFVPcmpES0JxejB4dmVxTFNfTDBQYW9HM3l4N0dVdERPZFBtUzRDb1hIUGpiTXF5V2FDTEd5a2xOU3Y5eEc1bHdNczVWSUxlQTdPUTJoTXNFbXhLRTZPOFJVZm13?oc=5",
+   "when": "2026-11-16T11:59+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ITC",
+   "title": "Consumer spending on ITC-acquired brands Savlon, Nimyle to double in medium term",
+   "source": "ET Retail",
+   "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPMXpkdFhCOWNkbnpXQTNSMWlNYWF6ai1iWkRjcFpvUGpiUEEweDBIXzdyTmc5ZFBqaFNudVIyVzdyaE5Weml4OEdyS01ZbnNoUzNVUTBEc3FtMHpxMU56Rk1aeUJQZUNBY01WWV9aVFBKVkxVdnBOT3BzQ1hsby1MU3dSZVE0NWMtZERMZXh5dUdKWnhqMTBHbzRiYzM4cmVkNHh5dE1xZVZzNnBUZ0dhVUhNRzRNNUNCQ1RRS3JsSXpReXdsLUtEOFpJQTRXa09MSng1NDV1d0tvLXVZSGxFaHY2MW5YTUcxWkxfX1JxclA5X0hNNWt2c1ZJX2xaLXlZQjZ5TUQ0OFUzLW1qVDR0UkVLUTh1MDV5U2ZYeGpyRdIBnwJBVV95cUxPMXpkdFhCOWNkbnpXQTNSMWlNYWF6ai1iWkRjcFpvUGpiUEEweDBIXzdyTmc5ZFBqaFNudVIyVzdyaE5Weml4OEdyS01ZbnNoUzNVUTBEc3FtMHpxMU56Rk1aeUJQZUNBY01WWV9aVFBKVkxVdnBOT3BzQ1hsby1MU3dSZVE0NWMtZERMZXh5dUdKWnhqMTBHbzRiYzM4cmVkNHh5dE1xZVZzNnBUZ0dhVUhNRzRNNUNCQ1RRS3JsSXpReXdsLUtEOFpJQTRXa09MSng1NDV1d0tvLXVZSGxFaHY2MW5YTUcxWkxfX1JxclA5X0hNNWt2c1ZJX2xaLXlZQjZ5TUQ0OFUzLW1qVDR0UkVLUTh1MDV5U2ZYeGpyRQ?oc=5",
+   "when": "2026-11-16T08:17+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "ITC",
+    "name": "ITC Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "MEDIASSIST",
+   "title": "Medi Assist appoints Aruna Vaidyanathan as Chief Growth & Culture Officer",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSW5Kc1ZVeExUZF84Q2ttR2Fqa3ZzUUhEalktT21ySWNJT3pDSGNjVDU3NEtGcjdCcEFLcUtLdEJoNTZEN255SW5Teko2RjM5RUNkZEhqd3JFYWg4Wng3SVdrZGRfWHdScjZ6bmd0UHhEWlpJQUM1cm52dC15SzF6YTNQRFVLbVFqNVB3OGNiNmFmbVctc1ExMWhmRGVEVFlfWFVhRnFmdHdJSVNGWkhaMmlOcmh4LVdKY1VRT2MwbkVhc2M?oc=5",
+   "when": "2026-11-16T04:45+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "MEDIASSIST",
+    "name": "Medi Assist Healthcare Services",
+    "group": "holding"
+   }
+  },
   {
    "nse": "JUBLINGREA",
    "title": "Jubilant Ingrevia appoints Kulathooran Singaram as Director – R&D, CRDMO",
@@ -125,34 +91,6 @@
    "stock": {
     "nse": "JUBLINGREA",
     "name": "Jubilant Ingrevia",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SJLOGISTIC",
-   "title": "S J Logistics seeks approval for Rs 92.58 crore preferential issue",
-   "source": "Multibagg AI",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZlU5NFdtQmlrbzBhT0h2c1hlWWZVWjdadXZrbFoxUkJIWFdLeXlHcFNselRUdkdaamZFY2hmOGRsMngybDljbFVIaGxMLURDV3ktVHlQeTJaYUhCWk1RZE5UeDBQd0p0LThvWWRUNUVUeVgyNTNEZERPWG5hR0VlNEVzMDhFRm03TDV5WW91RTNlY21McVhQTXBnQjgzVDUyUzlyUGtzTGs1NkZpRHhkU2U0TGM?oc=5",
-   "when": "2026-11-14T16:04+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "SJLOGISTIC",
-    "name": "S J Logistics",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BSE",
-   "title": "BSE Q2FY27 Results: EBITDA up 43% YoY, analysts split on outlook",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa0k1bVNtakV5UTNlTmhvblRlR1hKNTA2dWlIYjMwRkV3UnpSM1VWelZUWGVZLUhsY2lFYzZIZi1mZWxtalp3ZHhsWU9hNGtOb0lKMUxCVy1vYWJYaHJveExsZlJnYS1XOTJ0RWNfM3pyU1NzeXNVT2RaV1N5czZjWlJlb09qRzhxekU5bDFiMHhxT3B2RURUZnctb0g5RFRURkZ3MTFHMTJMWThVanpFUVFQaDNEZw?oc=5",
-   "when": "2026-11-14T05:00+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
     "group": "holding"
    }
   }
@@ -613,7 +551,7 @@
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
   "BSE codes taken from bhavcopy 13 Nov",
-  "BSE announcements failed (JSONDecodeError)",
-  "BSE announcements failed (HTTPError)"
+  "BSE announcements failed (HTTPError)",
+  "BSE announcements failed (JSONDecodeError)"
  ]
 }
