@@ -1,14 +1,89 @@
 {
- "generated": "2026-11-16T13:43+05:30",
- "since": "2026-11-15T07:43+05:30",
+ "generated": "2026-11-17T14:58+05:30",
+ "since": "2026-11-16T08:58+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 3",
+  "NSE": "ok · 15",
   "BSE": "unavailable",
-  "News": "ok · 4"
+  "News": "ok · 11"
  },
  "high": [],
  "medium": [
+  {
+   "nse": "ALLETEC",
+   "exchange": "NSE",
+   "when": "2026-11-16T21:56+05:30",
+   "subject": "Investor Presentation",
+   "detail": "All E Technologies Limited has informed the Exchange about Investor Presentation",
+   "link": "https://nsearchives.nseindia.in/corporate/ALLETECH_16112026215538_Alletec_Investor_Presentation.pdf",
+   "text": "Investor Presentation All E Technologies Limited has informed the Exchange about Investor Presentation",
+   "tier": "medium",
+   "rule": "investor presentation",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/ALLETECH_16112026215538_Alletec_Investor_Presentation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ALLETEC",
+    "name": "All E Technologies",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BSE",
+   "exchange": "NSE",
+   "when": "2026-11-16T18:46+05:30",
+   "subject": "Updates",
+   "detail": "BSE Limited has informed the Exchange regarding 'BSE Media Release - BSE s BANKEX becomes First Indian Sectoral Index Futures Contract Approved by US CFTC for offer and sale in the US'.",
+   "link": "https://nsearchives.nseindia.in/corporate/BSE1_16112026184606_NSEintimation.pdf",
+   "text": "Updates BSE Limited has informed the Exchange regarding 'BSE Media Release - BSE s BANKEX becomes First Indian Sectoral Index Futures Contract Approved by US CFTC for offer and sale in the US'.",
+   "tier": "medium",
+   "rule": "press release|media release",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/BSE1_16112026184606_NSEintimation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "EQUITASBNK",
+   "exchange": "NSE",
+   "when": "2026-11-16T16:00+05:30",
+   "subject": "Change in Management",
+   "detail": "Equitas Small Finance Bank Limited has informed the Exchanges about the appointment of Senior Management Personnel of the Bank",
+   "link": "https://nsearchives.nseindia.in/corporate/EQUITASBNK_16112026160006_Change_in_SMPfinal.pdf",
+   "text": "Change in Management Equitas Small Finance Bank Limited has informed the Exchanges about the appointment of Senior Management Personnel of the Bank",
+   "tier": "medium",
+   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/EQUITASBNK_16112026160006_Change_in_SMPfinal.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
+    "group": "holding"
+   }
+  },
   {
    "nse": "MEDIASSIST",
    "exchange": "NSE",
@@ -35,15 +110,217 @@
    }
   }
  ],
- "other": [],
- "dropped": 2,
+ "other": [
+  {
+   "nse": "POWERGRID",
+   "exchange": "NSE",
+   "when": "2026-11-16T23:18+05:30",
+   "subject": "General Updates",
+   "detail": "Power Grid Corporation of India Limited has informed the Exchange about Investment approved by Committee of Directors on Investment on Projects of POWERGRID",
+   "link": "https://nsearchives.nseindia.in/corporate/POWERGRID1_16112026231348_BSENSEReg30161126CoIP.pdf",
+   "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange about Investment approved by Committee of Directors on Investment on Projects of POWERGRID",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/POWERGRID1_16112026231348_BSENSEReg30161126CoIP.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "UFBL",
+   "exchange": "NSE",
+   "when": "2026-11-16T19:20+05:30",
+   "subject": "Updates",
+   "detail": "United Foodbrands Limited has informed the Exchange regarding 'Corporate Presentation-November 2026'.",
+   "link": "https://nsearchives.nseindia.in/corporate/BARBEQUE_16112026191907_CorporatePresentationNovember2026.pdf",
+   "text": "Updates United Foodbrands Limited has informed the Exchange regarding 'Corporate Presentation-November 2026'.",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/BARBEQUE_16112026191907_CorporatePresentationNovember2026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "UFBL",
+    "name": "United Foodbrands",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "INDRAMEDCO",
+   "exchange": "NSE",
+   "when": "2026-11-16T18:10+05:30",
+   "subject": "Spurt in Volume",
+   "detail": "Significant increase in volume has been observed in Indraprastha Medical Corporation Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safeguarded, has written to the company. The response from the company is awaited.",
+   "link": "-",
+   "text": "Spurt in Volume Significant increase in volume has been observed in Indraprastha Medical Corporation Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safeguarded, has written to the company. The response from the company is awaited.",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "-"
+    ]
+   ],
+   "stock": {
+    "nse": "INDRAMEDCO",
+    "name": "Indraprastha Medical Corporation",
+    "group": "holding"
+   }
+  }
+ ],
+ "dropped": 8,
  "news": [
   {
+   "nse": "JMFINANCIL",
+   "title": "India IPO Boom: $20-25 Billion Fundraise Expected By FY27-End, Says JM Financial Neha Agarwal",
+   "source": "ET Now",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSVdHRS1TNVZxcHZhNzVQUHlyZ1IwNDdncVczWDg1aUlwS09vNzV6eTdZMnRyMUc1RzUwcVRsSWF6UXNqQWJCWG84a2NaeDlBUDZuX2FTX190eTZxaFdvSW5rdVgxbWx0TGpxWl8ycnJCY0t0V1NualNocFBlRjlveFhQaVVFcmo2NEFBVmRjWWZYbEFnMUpfOF9lMWE3OWdHRGQ4R3dvWXpILS1rT2d4Wm9YdWNqanhs0gG-AUFVX3lxTE1rWWNGSlkzUDZXSXZiZ1FUdkpERF90aWJyMy1Ec0tKVkZJUU4tUEF3TUxwcDFneG1RTFdidVE5cTk0bFVNRzh2dUxweDM1N29URTI1a0NteHRXaV9LdFp5bVZEN2t5MWlIZWUtWXdMZlVKRzd3Y0huclVzcHRYVi1SN3FwSXJ2V2ZSLXZSOHFNSl8xZXlBUGVZTllRX0IyQkJHM0FORTVRSFA4Z1A3bFp6eTZBUExlSWgtbERreEE?oc=5",
+   "when": "2026-11-17T13:40+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
    "nse": "LAURUSLABS",
-   "title": "Laurus Labs Promoter Announces Small Stake Sale For Charity, Outlook Unchanged",
+   "title": "Laurus Labs shares recover more than 50% of Monday's fall after promoter rules out further stake sale",
+   "source": "CNBC TV18",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTVAyYVRSM2JsSTBsWW85VUJham1ZaVpBWXhaQjZCQl9McjBibmJwMGhnakxWQUhGNUpmOWZLVnJvTktBZWVXMlJTQTVMWlNpSmh3Z3ozS0Rkd1ZlZ3RkWFZNTE1aRmVldHZyVXpiUF82Y0RpZHlQV0F3SzQ5aU9pSTU4Z2FvN1Z0eUtDQmFHMW5tOGtTWHZhSXhZeXZfZWpWRUltWl9pVlg5SmJ6VEE1amRUdXdGSlBLanVsMFBXTjJ4RnFfOTVoc3Vnd05nVThMSkxLT1BuSTlXelpTdm1OOWJB0gHnAUFVX3lxTE1fUjBKSHJBaVFEdndVcHZ6WTVzU1JaRWktZjk3MzBLT3NDdFZGMHBaUXpNZVJ3QnFmZlJtd3h1NklsQmhKSmZ6VGJfcHg4NE9MdkJtUzRTZy15ZE5EeGp0MUV1X3VmN3hoUHVMdHJCWk8wdjRXTk1ieXB4YllIVHRrV2hMLWVpOW9TOWQ5UXdEMmc3T2IxT1M0WlA1U09QQ2Y0SHFteVRkbEhzLUF6bWdjcW16Yk9iWWhpckV4QmdKOWFhcEhCVF92ZEtlOHRaMGhvVlZ5a0p6c0RLdnlIYXF0eWtucTI3MA?oc=5",
+   "when": "2026-11-17T12:42+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": true,
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BSE",
+   "title": "BSE shares slip from day's high of ₹4,003 after Reuters reports SEBI may link margin funded buying limits to free float",
+   "source": "Business Upturn",
+   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPdVh6ZlZoUDdZQ05DNG1XVlB2RHRGcTM2Nl9zVVAyU3l6RldiSzd1cTlVTHV5SHNINXJSSU8zRW00bHJVX1JrTUYyejZXZklGUEo4RjdHc0NtdTdGTmk5aVdoUVIyRllxRHNpSDFodWR5V0dWa3JVakRFWk9EOGx5aGRVUjlRcFhSTzhWVUkxcENyZWFHUnYwNVlyMDEzQzBtMThSLXdsQW1aZFJ4MHpJaUJzT3JSbTRzckc3U3VqQzNBVzVBLWxnZVUzRzdaaUZJRXI4OXoxWURMUUdzRGZ3c1B2V0FXOHRfZnNIQTdaX0xmN0Flc2kwQmUyV1c?oc=5",
+   "when": "2026-11-17T12:35+05:30",
+   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
+   "trusted": false,
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "LAURUSLABS",
+   "title": "Laurus Labs Promoters Confirm No Plans For Further Stake Sale Following Recent Transactions",
    "source": "Sahi",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdmlpVGkyS1cxQW9DbUxyclZyS2FCZzdmdFFjeS1sQ0xhMVR6V3dUd0l0U2h2ZmthWlhxNGprQzZYd0cwUUprazYycFVPcmpES0JxejB4dmVxTFNfTDBQYW9HM3l4N0dVdERPZFBtUzRDb1hIUGpiTXF5V2FDTEd5a2xOU3Y5eEc1bHdNczVWSUxlQTdPUTJoTXNFbXhLRTZPOFJVZm13?oc=5",
-   "when": "2026-11-16T11:59+05:30",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSWJuTGdwLU83dmxmUFJhd3B5MU5CdkQ1eEZ6M05HcENYUEhrTE01RHE1dG16NVU4T05haTFMZTJ3Zkk2YmdxV3dtc01vUHo3Yk43YUR3LVl0eWxGY1BwbmdBOEtSY2NpZDBBdjA0a1hwcnQ3N3htZ2QxbkVEV3BlSUdzTU1Mdk5POVFRSEZUbmN2a1RoeDRpLVA4MDNSQXY3SkRnSkNVTGpRcjdjU3hEVmpZdElDeGVF?oc=5",
+   "when": "2026-11-17T12:35+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "LAURUSLABS",
+    "name": "Laurus Labs",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "POWERGRID",
+   "title": "STL Networks wins Rs 555 crore work order from Power Grid Corporation of India Limited",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYi1xRzlOS19uN1NDcmpLT1Q0dTlEUE5pR3FzbEVrbzlxYzB3al92d3QyT1lvazRLZGRjMUpwcmIzQm9mVmQtN2ZsOGhzU2I3Y1pTZXJVUWdrNXBUVXdILU53SnNlSmJPTHotNnZ1bk52S0ZPeDFRMDJUemZ3UHNnSER2ZGJxY1VPZ3dCUU9XOGJURWFzYmVqX1VVd3B3blViME9SVi1wUWZkNUJTWEktaXVVM2ZlZUFuWlllWWJB?oc=5",
+   "when": "2026-11-16T20:22+05:30",
+   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
+   "trusted": false,
+   "stock": {
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "TIMETECHNO",
+   "title": "Time Technoplast wins Rs 38.14 crore work order from PSU for LPG cylinders",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ2ZiTFlrWkxEMl9wRzJaNVd4dkNaUUNWNHR0VEVaVU45YTVHeU9YN3VrMFdITjFCWkxCU3JlSzdTZGEwSVJ2bGJtUGtwdEc0amtzU2R6MmU2ZFRPYkJTLXNTM3JObmF1d2FNM24tSUxKdER3bEJLaHAtWVNUbEM0c3NQRFpsbDBlTktuOTlhZ19SdzJicU42V3pTMktzeXNmSmNISTc4WEFTTkJncGR4VUszTEF6X1dIMGFhUUtlbw?oc=5",
+   "when": "2026-11-16T19:40+05:30",
+   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
+   "trusted": false,
+   "stock": {
+    "nse": "TIMETECHNO",
+    "name": "Time Technoplast",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "EQUITASBNK",
+   "title": "Equitas Small Finance Bank appoints Dheeraj Kumar Gaur as CRO-designate",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdURibUVXZWo0Z1pGWlp3RW1SYWpNZXhwTTMwbGttOHg1T00yYnZHczdESUt6ZnpHM3V0cGhUQi03Qi13YWVCWDdrTHI2R1RtMl9OODg1bEdoTHF6Y2FTZVVkTkdnc1JBUUEwRHN2V19Hc2RwUzJLTXR4aEUwaWg1cGxVdElmak0xNUlqYnRKazNBTmd1cTJldUlhWFZSc3RKTFV5XzVZdzJlZ2otV3lmSUFOazZOU0NCOW1oTmVIaGZrTk0?oc=5",
+   "when": "2026-11-16T16:15+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "MEDIASSIST",
+   "title": "Medi Assist appoints Aruna Vaidyanathan as Chief Growth and Culture Officer",
+   "source": "Express Healthcare",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPR1VFUGFqamQ3UWgtYkJIWnNHdGp4UHFSNmdkXzgtc20yTHUtcXFsaHI4Xy1ESjcxS3NJczY2V2hUc2xyNEY1bS1yRzVQQXl5M0c5Zll1aWJwWmVFTTFySmZSMGhCUjRBQkdCNkhZZGtBa25pcy05bV95X2FsYkhyc3RBQWhvWGl0cmZuNEZnS3NOWEhMb1Y2NG9RYUJkRXkxSnZfUDdDbUlQdElpYk9HSTV2YjlFY1YtMXZnaExR?oc=5",
+   "when": "2026-11-16T15:02+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "MEDIASSIST",
+    "name": "Medi Assist Healthcare Services",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JMFINANCIL",
+   "title": "JM Financial Model Portfolio: Banks upgraded; 3 sectors lose favour",
+   "source": "Business Standard",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZGlfZXRDckxqRkVfSFJsUFpMZktIb0pZX1RWRzlUTDhyQ0RKUlBZa182bnVxaTJPcHlJTVBPOUIwZXczdmNyOUtoaUlxdFhKNF9UbnJHaGh1QXV6ZVFLd0k2clJ0WmpmM1dMdUpFNldYWGxHVk1fWUp3bnVzQ3lJekdJNDl1VGNQemI0RlNYUWluSUF3X0QwbGNsalJsQWRQSkRnN3kwSjZJeE9rM1pYWm40LTFlZ292VnFudTktakd1N3B2MXp0dGF0SWjSAdIBQVVfeXFMUENJcnRGZjhtWWdfWVVDT3JZaWtqcFRXeXNNZnFBVFBjelNLOGdWSHNyb1o5eGhlanNMLU1xN29RYUVjeGhCd0lMQ3k3QThiMmlWOEdmd244bDA5STk3cG1LTmFsMzZzSkNPN1JQdGVmMUZ5bVNlem1uSGZQUjUyRGlHY0R0dEt1R2pFUEdsY1drNm03WFhsMExPXzdWa2hkTDItLUNvTWVTcW96dDl4RFpXV19vWDBoVkY1S01fT3BreWhNMl9ab2p0Nk1GekdFRzlR?oc=5",
+   "when": "2026-11-16T14:52+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": true,
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "LAURUSLABS",
+   "title": "Laurus Labs promoter stake sale was for philanthropic purposes, management tells Nuvama",
+   "source": "Business Upturn",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZmg3Mkw2UDYxb05iTVh4S21nZFhtRUhLUDhXYVdOdjdvcDU1Z2tSNlNqTXpNYWtZVjdzZVFwczhwWm04WmpINkkxeWcydnhaZ3VZTHlCQ3R2czBDZk9WcGxxdHY5YzdoSGMwZVFmS1BPWlJQbmdDTmROYXFqUFJ2VnpJNGw2NWl1dW5mVndESEdCZlk2M2k3b0VQeFI0NzZxNll5TkxXSDNJWDJzekJIa05MTVBPbF9ERzdad3A1S2E?oc=5",
+   "when": "2026-11-16T11:55+05:30",
    "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
@@ -55,42 +332,14 @@
   {
    "nse": "ITC",
    "title": "Consumer spending on ITC-acquired brands Savlon, Nimyle to double in medium term",
-   "source": "ET Retail",
-   "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPMXpkdFhCOWNkbnpXQTNSMWlNYWF6ai1iWkRjcFpvUGpiUEEweDBIXzdyTmc5ZFBqaFNudVIyVzdyaE5Weml4OEdyS01ZbnNoUzNVUTBEc3FtMHpxMU56Rk1aeUJQZUNBY01WWV9aVFBKVkxVdnBOT3BzQ1hsby1MU3dSZVE0NWMtZERMZXh5dUdKWnhqMTBHbzRiYzM4cmVkNHh5dE1xZVZzNnBUZ0dhVUhNRzRNNUNCQ1RRS3JsSXpReXdsLUtEOFpJQTRXa09MSng1NDV1d0tvLXVZSGxFaHY2MW5YTUcxWkxfX1JxclA5X0hNNWt2c1ZJX2xaLXlZQjZ5TUQ0OFUzLW1qVDR0UkVLUTh1MDV5U2ZYeGpyRdIBnwJBVV95cUxPMXpkdFhCOWNkbnpXQTNSMWlNYWF6ai1iWkRjcFpvUGpiUEEweDBIXzdyTmc5ZFBqaFNudVIyVzdyaE5Weml4OEdyS01ZbnNoUzNVUTBEc3FtMHpxMU56Rk1aeUJQZUNBY01WWV9aVFBKVkxVdnBOT3BzQ1hsby1MU3dSZVE0NWMtZERMZXh5dUdKWnhqMTBHbzRiYzM4cmVkNHh5dE1xZVZzNnBUZ0dhVUhNRzRNNUNCQ1RRS3JsSXpReXdsLUtEOFpJQTRXa09MSng1NDV1d0tvLXVZSGxFaHY2MW5YTUcxWkxfX1JxclA5X0hNNWt2c1ZJX2xaLXlZQjZ5TUQ0OFUzLW1qVDR0UkVLUTh1MDV5U2ZYeGpyRQ?oc=5",
-   "when": "2026-11-16T08:17+05:30",
+   "source": "ET BrandEquity",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOS0l3cjJpTXVGdFc0bzNkeHZRbnAyVU5IMm1wVTQ4dlVxTWZOdlE2Y0JTV2lVZXduZDZqa0k1MEQwY1B1Nl9KbFU0TzhsTzR2ekdpZjViQ0pnOVZpVl9PbGw1LTlhRHV3LWFjWXVKZGtZelkyV3lzcUNrUnJGbHFVNU5tLUtTRDlobTA0VEkxNmNDck9WOUkyeEVveHJMWFdGdURwX044djNqV2xud0lFblh4MU5sZUVOTmQzNF9aYjF0NjZ1Z0NNbDlwVXZ3VzYwYnluWmd3bklxMjhZWVlWdGFiR2xSV3FFVnN2NFM4V0x2MllKYTVSOWdR0gH6AUFVX3lxTE5LSXdyMmlNdUZ0VzRvM2R4dlFucDJVTkgybXBVNDh2VXFNZk52UTZjQlNXaVVld25kNmprSTUwRDBjUHU2X0psVTRPOGxPNHZ6R2lmNWJDSmc5VmlWX09sbDUtOWFEdXctYWNZdUpka1l6WTJXeXNxQ2tSckZscVU1Tm0tS1NEOWhtMDRUSTE2Y0NyT1Y5STJ4RW94ckxYV0Z1RHBfTjh2M2pXbG53SUVuWHgxTmxlRU5OZDM0X1piMXQ2NnVnQ01sOXBVdndXNjBieW5aZ3duSXEyOFlZWVZ0YWJHbFJXcUVWc3Y0UzhXTHYyWUphNVI5Z1E?oc=5",
+   "when": "2026-11-16T10:41+05:30",
    "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
     "nse": "ITC",
     "name": "ITC Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "MEDIASSIST",
-   "title": "Medi Assist appoints Aruna Vaidyanathan as Chief Growth & Culture Officer",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSW5Kc1ZVeExUZF84Q2ttR2Fqa3ZzUUhEalktT21ySWNJT3pDSGNjVDU3NEtGcjdCcEFLcUtLdEJoNTZEN255SW5Teko2RjM5RUNkZEhqd3JFYWg4Wng3SVdrZGRfWHdScjZ6bmd0UHhEWlpJQUM1cm52dC15SzF6YTNQRFVLbVFqNVB3OGNiNmFmbVctc1ExMWhmRGVEVFlfWFVhRnFmdHdJSVNGWkhaMmlOcmh4LVdKY1VRT2MwbkVhc2M?oc=5",
-   "when": "2026-11-16T04:45+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "MEDIASSIST",
-    "name": "Medi Assist Healthcare Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JUBLINGREA",
-   "title": "Jubilant Ingrevia appoints Kulathooran Singaram as Director – R&D, CRDMO",
-   "source": "Indian Pharma Post",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOM2d3bDNDM3RwVE5DdE9FUzRrbkdweUFqa05mVllyekVnRXJNMTNuNUYtb00xWDhUbnIzRGlCTkJQWVk2eXREaVZCbVYwMDh0ZkxQTGdCTXJTc29FSjFaWVBYS3dHWW5fVWoteGJFemRYQ0tXaVljUmVEVV83U0lncjVzMXVpclVHWkZ0MEhGZ085MExhVTAyOURDOHF2QWhDNWF5VFNhempsVTNOZFNQNHNSRm7SAbsBQVVfeXFMTUU5ZFo3V3p5SFdDY0Iwek1yWHRDSno1Tk8zNURBb1d4ZGFUekc0N1U1N1p3MWZvRHFCMThUWWswNTdZNkxVczNHd1B3RWRCU2Z1Y3RCRE15OU0wSi1RMFE3Z0VLdktkcG1aYUpIcDV1QUpwa3dHcVZNVVpMX0JRMmR6U1BZdFJYb2pzX1N6a05yUkhEdWJpMEdqa1hqU2FsaTY2NzYxWmZWbnN4X1gya1Q4T2Y3M1BpNHdXbw?oc=5",
-   "when": "2026-11-15T07:46+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
     "group": "holding"
    }
   }
@@ -550,8 +799,9 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 13 Nov",
+  "BSE codes taken from bhavcopy 16 Nov",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (JSONDecodeError)"
+  "BSE announcements failed (JSONDecodeError)",
+  "Google News: 3 of 54 searches failed, 12 empty (HTTPError 522)"
  ]
 }
