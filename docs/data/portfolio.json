@@ -1,35 +1,60 @@
 {
- "generated": "2026-11-18T14:16+05:30",
- "since": "2026-11-17T08:16+05:30",
+ "generated": "2026-11-19T14:31+05:30",
+ "since": "2026-11-18T08:31+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 20",
+  "NSE": "ok · 14",
   "BSE": "unavailable",
   "News": "ok · 5"
  },
  "high": [
   {
-   "nse": "PARAGMILK",
+   "nse": "JUBLINGREA",
    "exchange": "NSE",
-   "when": "2026-11-17T20:03+05:30",
-   "subject": "Conversion",
-   "detail": "Parag Milk Foods Limited has informed the Exchange about Conversion of 90,00,000 Share Warrants and Allotment of equal number of Equity Shares of the Company to warrant holders pursuant to exercise of right for conversion of warrants into equity shares.",
-   "link": "https://nsearchives.nseindia.in/corporate/PARAGMILK_17112026200250_Intimation.pdf",
-   "text": "Conversion Parag Milk Foods Limited has informed the Exchange about Conversion of 90,00,000 Share Warrants and Allotment of equal number of Equity Shares of the Company to warrant holders pursuant to exercise of right for conversion of warrants into equity shares.",
+   "when": "2026-11-19T13:15+05:30",
+   "subject": "Resignation of Director/KMP/SMP",
+   "detail": "Jubilant Ingrevia Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+   "link": "https://nsearchives.nseindia.in/corporate/JUBLINGREA_ROID_105030_KMP_Doc.zip",
+   "text": "Resignation of Director/KMP/SMP Jubilant Ingrevia Limited has informed the Exchange about Resignation of Director/KMP/SMP",
    "tier": "high",
-   "rule": "qip|qualified institutions? placement|preferential (issue|allotment)|rights issue|warrants",
+   "rule": "resignation|cessation|appointment of .{0,60}(\\bmd\\b|\\bceo\\b|\\bcfo\\b|managing director|chief executive|chief financial|whole[- ]time)",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.in/corporate/PARAGMILK_17112026200250_Intimation.pdf"
+     "https://nsearchives.nseindia.in/corporate/JUBLINGREA_ROID_105030_KMP_Doc.zip"
     ]
    ],
    "stock": {
-    "nse": "PARAGMILK",
-    "name": "Parag Milk Foods",
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JUBLINGREA",
+   "exchange": "NSE",
+   "when": "2026-11-19T11:33+05:30",
+   "subject": "Resignation",
+   "detail": "Jubilant Ingrevia Limited has informed the Exchange regarding Resignation of Mr Varun Gupta as Chief Financial Officer of the company w.e.f. November 30, 2026.",
+   "link": "https://nsearchives.nseindia.in/corporate/JUBLINGREA_19112026113312_SE_Intimation_Resignation_of_CFO.pdf",
+   "text": "Resignation Jubilant Ingrevia Limited has informed the Exchange regarding Resignation of Mr Varun Gupta as Chief Financial Officer of the company w.e.f. November 30, 2026.",
+   "tier": "high",
+   "rule": "resignation|cessation|appointment of .{0,60}(\\bmd\\b|\\bceo\\b|\\bcfo\\b|managing director|chief executive|chief financial|whole[- ]time)",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/JUBLINGREA_19112026113312_SE_Intimation_Resignation_of_CFO.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
     "group": "holding"
    }
   }
@@ -84,42 +109,17 @@
     "name": "Gateway Distriparks",
     "group": "watchlist"
    }
-  },
-  {
-   "nse": "ALLETEC",
-   "exchange": "NSE",
-   "when": "2026-11-17T18:59+05:30",
-   "subject": "Investor Presentation",
-   "detail": "All E Technologies Limited has informed the Exchange about Investor Presentation",
-   "link": "https://nsearchives.nseindia.in/corporate/ALLETECH_17112026185936_Alletec_Investor_Presentation.pdf",
-   "text": "Investor Presentation All E Technologies Limited has informed the Exchange about Investor Presentation",
-   "tier": "medium",
-   "rule": "investor presentation",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/ALLETECH_17112026185936_Alletec_Investor_Presentation.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ALLETEC",
-    "name": "All E Technologies",
-    "group": "holding"
-   }
   }
  ],
  "other": [
   {
-   "nse": "SOLARA",
+   "nse": "INDRAMEDCO",
    "exchange": "NSE",
-   "when": "2026-11-17T20:15+05:30",
-   "subject": "Shareholders meeting",
-   "detail": "SOLARA: Solara Active Pharma Sciences Limited has informed the Exchange regarding Notice of Postal Ballot dated November 17, 2026",
-   "link": "https://nsearchives.nseindia.in/corporate/SOLARA_17112026200658_SE_Intimation_PB_Notice_Nov_17_2026.pdf",
-   "text": "Shareholders meeting SOLARA: Solara Active Pharma Sciences Limited has informed the Exchange regarding Notice of Postal Ballot dated November 17, 2026",
+   "when": "2026-11-19T11:07+05:30",
+   "subject": "Spurt in Volume",
+   "detail": "Significant increase in volume has been observed in Indraprastha Medical Corporation Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safeguarded, had written to the company. Indraprastha Medical Corporation Limited has submitted their response.",
+   "link": "https://nsearchives.nseindia.in/corporate/INDRAMEDCO_19112026110501_20261117NSE.pdf",
+   "text": "Spurt in Volume Significant increase in volume has been observed in Indraprastha Medical Corporation Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safeguarded, had written to the company. Indraprastha Medical Corporation Limited has submitted their response.",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -128,185 +128,85 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.in/corporate/SOLARA_17112026200658_SE_Intimation_PB_Notice_Nov_17_2026.pdf"
+     "https://nsearchives.nseindia.in/corporate/INDRAMEDCO_19112026110501_20261117NSE.pdf"
     ]
    ],
    "stock": {
-    "nse": "SOLARA",
-    "name": "Solara Active Pharma Sciences",
+    "nse": "INDRAMEDCO",
+    "name": "Indraprastha Medical Corporation",
+    "group": "holding"
+   }
+  }
+ ],
+ "dropped": 9,
+ "news": [
+  {
+   "nse": "JUBLINGREA",
+   "title": "Jubilant Ingrevia CFO Varun Gupta resigns effective Nov 30",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb1VJclFGNzIyUzhKSTR0cmswWElRVjlQV2tDV1lqMHItbUZZX0g3eFlUYXVGb1p5VlRPV0UxQy1VY2QyYzBpYnptLXFJZE9jNlRNa2NjTXhiMDZyNGlqRnVkWjcxTENJNFRUNkh6aGJRZEFyUXVlWUF5TXpaVVFKdTlKWjg0T1RNLUNBTklHaHlQY2dyanc5eTJ5ZWM4WFYyeG5oWTZmZ0R4QkVSNEFDdlJFRGRkZw?oc=5",
+   "when": "2026-11-19T11:38+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
     "group": "holding"
    }
   },
   {
-   "nse": "LAURUSLABS",
-   "exchange": "NSE",
-   "when": "2026-11-17T18:45+05:30",
-   "subject": "Updates",
-   "detail": "Laurus Labs Limited has informed the Exchange regarding 'Clarification on sale of equity shares by Promoters of the Company'.",
-   "link": "https://nsearchives.nseindia.in/corporate/LAURUSLABS_17112026184514_SaleByPromoters17112026.pdf",
-   "text": "Updates Laurus Labs Limited has informed the Exchange regarding 'Clarification on sale of equity shares by Promoters of the Company'.",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/LAURUSLABS_17112026184514_SaleByPromoters17112026.pdf"
-    ]
-   ],
+   "nse": "PARAGMILK",
+   "title": "Parag Milk Foods appoints Saif Ali Khan as brand ambassador for Gowardhan Ghee",
+   "source": "ET Retail",
+   "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNb0hIVjNsUTAtN2RjRnAzajFidzJrb2pyRmRmMXdJSVpLWFFRRkxqQk42QmIzWTZsXy1EaENDNnl3Z2lPQl9DMXFhRGxETDB0d2t2WlVMWG5wU0NnZkM3VS05bHVJcTBRc0xFZkd5VGtPVG5NZHhmVTlMdVU3Qk1ybDhBaFdCbHhzN0dIa1djcTRqT3BSWktodjhUX1hFdGl6YWp2UWtkSEw5cFR2LVB1bE9aRnFmbHdueHZteVZoaFlSRHFvVlNnbEM3bm52Tkw2d2dfbXVjbURGQlkzNG1HSmdfaVFYWFZveWJQS0MwMGVPOVR3TXprc1VtREVCM3Q1ZXhCUXhOTndrLWJuaW0tU2F0Z1hjdDg2eXfSAZ4CQVVfeXFMT0g4Nlgyd2k1UjVfN20xeXlEZEJrLXgtejItUmVLOVBXWERZR0ozMUZBZkdReVpsVUVaY2xuVkVBeERyaVc3RnloY3FiM1d5NWFwNG1RcURBUVR3ZUsyRFRlQW93SXZocXhiRjlXUWhCR2VjRF9ZTkJoMHBqT0ZVUGFCWi1zQlpvVE5PRFh0cmtaZXV5NWpuT2ljb0xadGdUbzBHa05MVDluSEtzZEVyVk1Sa1d6TUlPQlhHYkRFVnpwdnV5MFdfOHB2R0VSTUl6cW5Ua3hCQmpCdWZKQnRLaHJVOGsweFoxRmpOWWF1dW1mWmFFZHpENlNkQkhqekktU2RqZy1QMFE5N3cxbmNwZDlyNHRxVlRRY1lSTHNzdw?oc=5",
+   "when": "2026-11-19T04:20+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
    "stock": {
-    "nse": "LAURUSLABS",
-    "name": "Laurus Labs",
+    "nse": "PARAGMILK",
+    "name": "Parag Milk Foods",
     "group": "holding"
    }
   },
   {
-   "nse": "ROUTE",
-   "exchange": "NSE",
-   "when": "2026-11-17T18:22+05:30",
-   "subject": "Shareholders meeting",
-   "detail": "ROUTE MOBILE LIMITED has informed the Exchange regarding Notice of Postal Ballot",
-   "link": "https://nsearchives.nseindia.in/corporate/ROUTE_17112026182027_Upload.pdf",
-   "text": "Shareholders meeting ROUTE MOBILE LIMITED has informed the Exchange regarding Notice of Postal Ballot",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/ROUTE_17112026182027_Upload.pdf"
-    ]
-   ],
+   "nse": "EQUITASBNK",
+   "title": "Equitas Small Finance Bank to submit two CEO names to RBI by December-end",
+   "source": "CNBC TV18",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOd09FbEJteTFLNEVIckVPUFRHWHh5bjMyRk5YUy1vNGM2NUdKWGhDT2VTQTVxekhjMTNQT2dtNDNaT2VBWUxjZGJTejFqa2loczJET1oxNnNfRjZ3OWJON21jell6dWZRWTdMMk1zcWlJanhETmxzc290XzB5WHFrODVacHFWMkZ1QWthWVVySWZDdXNiQzJ2aGwtMTQ4VS1qQ3I3d2UtdXdoZG5XWmlRU2tnQlh3X1BoaS1oZml2Q0I2c1VNTkNHZzZLTExwUjduVHdac9IB2gFBVV95cUxQeGNqMUxuZTVqOGNvT0tVNk44VF9qc3JKRWduM1V3em1fMUdYNlhVdUg1VVY4MjItVVhxak1rMHpmS3lYSDdfRkF5R3lGUXdoQ0ZFVDVTOW1ET2E4THU2RTlsZm5qRXBHcU5ITkpBa2s2NFFuYnpad01JZHVyT1dPclEyVVBJWnY2dnJFQ0xfTVJNMElybWhmZThLTDFQZGdTNDFfOWotV2tHRHZkekRJUXdRZjBkckhySldoeHRDU0NlNzBoTzBxYzlNM1pDZExDYWo5eTVZU01tQQ?oc=5",
+   "when": "2026-11-18T16:49+05:30",
+   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
+   "trusted": true,
    "stock": {
-    "nse": "ROUTE",
-    "name": "Route Mobile",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BSE",
-   "exchange": "NSE",
-   "when": "2026-11-17T17:09+05:30",
-   "subject": "Shareholders meeting",
-   "detail": "BSE Limited has informed the Exchange regarding Notice of Postal Ballot",
-   "link": "https://nsearchives.nseindia.in/corporate/BSE1_17112026170916_NSEintimation17112026.pdf",
-   "text": "Shareholders meeting BSE Limited has informed the Exchange regarding Notice of Postal Ballot",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/BSE1_17112026170916_NSEintimation17112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
     "group": "holding"
    }
   },
   {
    "nse": "UJJIVANSFB",
-   "exchange": "NSE",
-   "when": "2026-11-17T16:14+05:30",
-   "subject": "Updates",
-   "detail": "Ujjivan Small Finance Bank Limited has informed the Exchange regarding 'Change in Corporate Office of RTA'.",
-   "link": "https://nsearchives.nseindia.in/corporate/UJJIVANBANK_17112026161304_118_Change_in_RTA_Corporate_Office_20112026.pdf",
-   "text": "Updates Ujjivan Small Finance Bank Limited has informed the Exchange regarding 'Change in Corporate Office of RTA'.",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/UJJIVANBANK_17112026161304_118_Change_in_RTA_Corporate_Office_20112026.pdf"
-    ]
-   ],
+   "title": "Ujjivan Small Finance Bank Ltd Technical Momentum Shifts Signal Bullish Outlook",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOemdIRXZuWnJ2T0RZVEVQUG5YczBER3YwbUFyY3BfTjNuVUw3UFcwcmlyY3FZclNpOENScXVSNG4tRGNqa0ZZUXBQNmM5YnhTMFdCM2VRb3hzTDNULVJVR1dfSGxtdnF1NmR2M3ZFak9yRUk4eDRFb040VUc5U3VqaWV5TmdQNS1oR09FT1pVVDBRT3ZOSExWT1E3ZEVfNWp6Q0R3NEZ0V1lKMFgza2djRnI5cDFzb0hfTDdEbTc5bjJzOTAyVy14T1RGQ3lJbFdQNFNr?oc=5",
+   "when": "2026-11-18T15:07+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
    "stock": {
     "nse": "UJJIVANSFB",
     "name": "Ujjivan Small Finance Bank",
     "group": "holding"
    }
-  }
- ],
- "dropped": 11,
- "news": [
+  },
   {
    "nse": "ITC",
    "title": "ITC stock: Five upgrades in 30 days, overbought on charts; time to buy?",
    "source": "Business Today",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWWkxMWJpT3A0aElzMGhXdnpDdzVneERHZDdHVjlJSnRVRkRkTUk3aExVQWdsQzN3S2VvSnltY1BXRU5ReXJtQm5MOV9kN0V6Vm9SOUNPUUJKbURoOWt2bGRSQXlicm9Sa0NmXzU4UkJ2dlcxbElSUjhkQjNaT043aFE4c1ZjNHBqQXg0ZWJvWDVLQWhTTGRza2Z2MnU4RlFza0NuaFltN0tSQmdXTzJrTXFSU3NGdGtyWl9yLTd2OWJDc2ttODBWNFF0OU0tU2pOTE9mVnJ30gHWAUFVX3lxTE9ZaTExYmlPcDRoSXMwaFd2ekN3NWd4REdkN0dWOUlKdFVGRGRNSTdoTFVBZ2xDM3dLZW9KeW1jUFdFTlF5cm1Cbkw5X2Q3RXpWb1I5Q09RQkptRGg5a3ZsZFJBeWJyb1JrQ2ZfNThSQnZ2VzFsSVJSOGRCM1pPTjdoUThzVmM0cGpBeDRlYm9YNUtBaFNMZHNrZnYydThGUXNrQ25oWW03S1JCZ1dPMmtNcVJTc0Z0a3JaX3ItN3Y5YkNza204MFY0UXQ5TS1Tak5MT2ZWcnc?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTHI1cmd3eWpUV29MVXdDcWN0bW9HOEpXY21TbmkxaTBlNDZkbmtKQlltNzB3TWREQXBUb3ZYdTZtajZhbEdCN1hDNUItLUtvc3F4NUt3NWpqUTVINHpmX1dld18yZ1h5T0ZmRkVYczd6bUJwSmRqUEpDZElEcWE2N0plUmg0OWgybS1sZW5JSWluYm5ncWVrTjl3TXR0S1A3Mm54ZndDUndac0poM05ubFV1U3hIMlZPNjVfSjRlUnp6RE92UnNOQlhQeWhwRlBn0gHWAUFVX3lxTE9ZaTExYmlPcDRoSXMwaFd2ekN3NWd4REdkN0dWOUlKdFVGRGRNSTdoTFVBZ2xDM3dLZW9KeW1jUFdFTlF5cm1Cbkw5X2Q3RXpWb1I5Q09RQkptRGg5a3ZsZFJBeWJyb1JrQ2ZfNThSQnZ2VzFsSVJSOGRCM1pPTjdoUThzVmM0cGpBeDRlYm9YNUtBaFNMZHNrZnYydThGUXNrQ25oWW03S1JCZ1dPMmtNcVJTc0Z0a3JaX3ItN3Y5YkNza204MFY0UXQ5TS1Tak5MT2ZWcnc?oc=5",
    "when": "2026-11-18T10:14+05:30",
    "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
    "trusted": false,
    "stock": {
     "nse": "ITC",
     "name": "ITC Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BSE",
-   "title": "BSE shares slip from day's high of ₹4,003 after Reuters reports SEBI may link margin funded buying limits to free float",
-   "source": "Business Upturn",
-   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPdVh6ZlZoUDdZQ05DNG1XVlB2RHRGcTM2Nl9zVVAyU3l6RldiSzd1cTlVTHV5SHNINXJSSU8zRW00bHJVX1JrTUYyejZXZklGUEo4RjdHc0NtdTdGTmk5aVdoUVIyRllxRHNpSDFodWR5V0dWa3JVakRFWk9EOGx5aGRVUjlRcFhSTzhWVUkxcENyZWFHUnYwNVlyMDEzQzBtMThSLXdsQW1aZFJ4MHpJaUJzT3JSbTRzckc3U3VqQzNBVzVBLWxnZVUzRzdaaUZJRXI4OXoxWURMUUdzRGZ3c1B2V0FXOHRfZnNIQTdaX0xmN0Flc2kwQmUyV1c?oc=5",
-   "when": "2026-11-17T17:35+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": false,
-   "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "MEDIASSIST",
-   "title": "Medi Assist Appoints Aruna Vaidyanathan As Chief Growth & Culture Officer",
-   "source": "APAC Media",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOXJncGdwZ2xyNTU2aVo5UGZoRG5qTzZaSnRWOHNHUkRrb1o2WGpCbHlQUFV2N1ZMOFd6S1paMm0tNlZraXNDT3AwMXZENWpGMVlDSGFQUzY4SnNYTWFvaG9DRjB3TWlSaTRWZ1RJR0xWcHhIYXFTOTZibmVGcVFJQVVBaHZuc0pKSC0tNkpjblplXzlDMjlJMklwZ1dfb1psQWQwMUdNaURhSm1V?oc=5",
-   "when": "2026-11-17T15:56+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "MEDIASSIST",
-    "name": "Medi Assist Healthcare Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JMFINANCIL",
-   "title": "India IPO Boom: $20-25 Billion Fundraise Expected By FY27-End, Says JM Financial Neha Agarwal",
-   "source": "ET Now",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSVdHRS1TNVZxcHZhNzVQUHlyZ1IwNDdncVczWDg1aUlwS09vNzV6eTdZMnRyMUc1RzUwcVRsSWF6UXNqQWJCWG84a2NaeDlBUDZuX2FTX190eTZxaFdvSW5rdVgxbWx0TGpxWl8ycnJCY0t0V1NualNocFBlRjlveFhQaVVFcmo2NEFBVmRjWWZYbEFnMUpfOF9lMWE3OWdHRGQ4R3dvWXpILS1rT2d4Wm9YdWNqanhs0gG-AUFVX3lxTE1rWWNGSlkzUDZXSXZiZ1FUdkpERF90aWJyMy1Ec0tKVkZJUU4tUEF3TUxwcDFneG1RTFdidVE5cTk0bFVNRzh2dUxweDM1N29URTI1a0NteHRXaV9LdFp5bVZEN2t5MWlIZWUtWXdMZlVKRzd3Y0huclVzcHRYVi1SN3FwSXJ2V2ZSLXZSOHFNSl8xZXlBUGVZTllRX0IyQkJHM0FORTVRSFA4Z1A3bFp6eTZBUExlSWgtbERreEE?oc=5",
-   "when": "2026-11-17T13:40+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "JMFINANCIL",
-    "name": "JM Financial",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "LAURUSLABS",
-   "title": "Laurus Labs shares recover more than 50% of Monday's fall after promoter rules out further stake sale",
-   "source": "CNBC TV18",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTVAyYVRSM2JsSTBsWW85VUJham1ZaVpBWXhaQjZCQl9McjBibmJwMGhnakxWQUhGNUpmOWZLVnJvTktBZWVXMlJTQTVMWlNpSmh3Z3ozS0Rkd1ZlZ3RkWFZNTE1aRmVldHZyVXpiUF82Y0RpZHlQV0F3SzQ5aU9pSTU4Z2FvN1Z0eUtDQmFHMW5tOGtTWHZhSXhZeXZfZWpWRUltWl9pVlg5SmJ6VEE1amRUdXdGSlBLanVsMFBXTjJ4RnFfOTVoc3Vnd05nVThMSkxLT1BuSTlXelpTdm1OOWJB0gHnAUFVX3lxTE1fUjBKSHJBaVFEdndVcHZ6WTVzU1JaRWktZjk3MzBLT3NDdFZGMHBaUXpNZVJ3QnFmZlJtd3h1NklsQmhKSmZ6VGJfcHg4NE9MdkJtUzRTZy15ZE5EeGp0MUV1X3VmN3hoUHVMdHJCWk8wdjRXTk1ieXB4YllIVHRrV2hMLWVpOW9TOWQ5UXdEMmc3T2IxT1M0WlA1U09QQ2Y0SHFteVRkbEhzLUF6bWdjcW16Yk9iWWhpckV4QmdKOWFhcEhCVF92ZEtlOHRaMGhvVlZ5a0p6c0RLdnlIYXF0eWtucTI3MA?oc=5",
-   "when": "2026-11-17T12:42+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": true,
-   "stock": {
-    "nse": "LAURUSLABS",
-    "name": "Laurus Labs",
     "group": "holding"
    }
   }
@@ -766,8 +666,9 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 17 Nov",
+  "BSE codes taken from bhavcopy 18 Nov",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (JSONDecodeError)"
+  "BSE announcements failed (JSONDecodeError)",
+  "Google News: 3 of 54 searches failed, 4 empty (HTTPError 408, HTTPError 500, HTTPError 502)"
  ]
 }
