@@ -1,13 +1,38 @@
 {
- "generated": "2026-11-19T14:31+05:30",
- "since": "2026-11-18T08:31+05:30",
+ "generated": "2026-11-20T14:18+05:30",
+ "since": "2026-11-19T08:18+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 14",
+  "NSE": "ok · 15",
   "BSE": "unavailable",
-  "News": "ok · 5"
+  "News": "ok · 7"
  },
  "high": [
+  {
+   "nse": "ADVENZYMES",
+   "exchange": "NSE",
+   "when": "2026-11-19T14:53+05:30",
+   "subject": "Acquisition",
+   "detail": "Update on acquisition of additional stake of 1.22% in JC Biotech Private Limited, Subsidiary i.e. increase in Shareholding from 95.72% to 96.94%",
+   "link": "https://nsearchives.nseindia.in/corporate/AETL_19112026145327_Intimation.pdf",
+   "text": "Acquisition Update on acquisition of additional stake of 1.22% in JC Biotech Private Limited, Subsidiary i.e. increase in Shareholding from 95.72% to 96.94%",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/AETL_19112026145327_Intimation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ADVENZYMES",
+    "name": "Advanced Enzyme Technologies",
+    "group": "holding"
+   }
+  },
   {
    "nse": "JUBLINGREA",
    "exchange": "NSE",
@@ -59,59 +84,83 @@
    }
   }
  ],
- "medium": [
+ "medium": [],
+ "other": [
   {
-   "nse": "PARAGMILK",
+   "nse": "EQUITASBNK",
    "exchange": "NSE",
-   "when": "2026-11-18T11:24+05:30",
-   "subject": "Press Release",
-   "detail": "Press Release on Rs. 161 Crore Equity Issuance pursuant to Warrant Conversion",
-   "link": "https://nsearchives.nseindia.in/corporate/PARAGMILK_18112026112339_Intimation.pdf",
-   "text": "Press Release Press Release on Rs. 161 Crore Equity Issuance pursuant to Warrant Conversion",
-   "tier": "medium",
-   "rule": "press release|media release",
+   "when": "2026-11-20T13:05+05:30",
+   "subject": "Action(s) initiated or orders passed",
+   "detail": "Equitas Small Finance Bank Limited has informed the Exchanges about order passed by GST Authority",
+   "link": "https://nsearchives.nseindia.in/corporate/EQUITASBNK_20112026130532_GSTorderforupload.pdf",
+   "text": "Action(s) initiated or orders passed Equitas Small Finance Bank Limited has informed the Exchanges about order passed by GST Authority",
+   "tier": "other",
+   "rule": null,
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.in/corporate/PARAGMILK_18112026112339_Intimation.pdf"
+     "https://nsearchives.nseindia.in/corporate/EQUITASBNK_20112026130532_GSTorderforupload.pdf"
     ]
    ],
    "stock": {
-    "nse": "PARAGMILK",
-    "name": "Parag Milk Foods",
+    "nse": "EQUITASBNK",
+    "name": "Equitas Small Finance Bank",
     "group": "holding"
    }
   },
   {
-   "nse": "GATEWAY",
+   "nse": "POWERGRID",
    "exchange": "NSE",
-   "when": "2026-11-18T11:07+05:30",
-   "subject": "Press Release",
-   "detail": "Gateway Distriparks Limited has informed the Exchange regarding a press release dated November 18, 2026, titled \"Gateway Distriparks Wins Contract to Operate Common Rail Yard at JNPA\".",
-   "link": "https://nsearchives.nseindia.in/corporate/GATEWAY_18112026110650_PR.pdf",
-   "text": "Press Release Gateway Distriparks Limited has informed the Exchange regarding a press release dated November 18, 2026, titled \"Gateway Distriparks Wins Contract to Operate Common Rail Yard at JNPA\".",
-   "tier": "medium",
-   "rule": "press release|media release",
+   "when": "2026-11-19T18:29+05:30",
+   "subject": "General Updates",
+   "detail": "Power Grid Corporation of India Limited has informed the Exchange about Share Purchase Agreement has been executed on 19th November, 2026 between POWERGRID, GRID-INDIA and CTUIL.",
+   "link": "https://nsearchives.nseindia.in/corporate/POWERGRID1_19112026182851_BSENSEReg30dt19112026CTUIL.pdf",
+   "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange about Share Purchase Agreement has been executed on 19th November, 2026 between POWERGRID, GRID-INDIA and CTUIL.",
+   "tier": "other",
+   "rule": null,
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.in/corporate/GATEWAY_18112026110650_PR.pdf"
+     "https://nsearchives.nseindia.in/corporate/POWERGRID1_19112026182851_BSENSEReg30dt19112026CTUIL.pdf"
     ]
    ],
    "stock": {
-    "nse": "GATEWAY",
-    "name": "Gateway Distriparks",
-    "group": "watchlist"
+    "nse": "POWERGRID",
+    "name": "Power Grid Corporation of India",
+    "group": "holding"
    }
-  }
- ],
- "other": [
+  },
+  {
+   "nse": "UGROCAP",
+   "exchange": "NSE",
+   "when": "2026-11-19T17:23+05:30",
+   "subject": "Allotment of Securities",
+   "detail": "Ugro Capital Limited has informed the Exchange regarding allotment of 105000 securities (NCDs) pursuant to Non Convertible Securities at its meeting held on November 19, 2026",
+   "link": "https://nsearchives.nseindia.in/corporate/UGROCAP_19112026172146_Allotment.pdf",
+   "text": "Allotment of Securities Ugro Capital Limited has informed the Exchange regarding allotment of 105000 securities (NCDs) pursuant to Non Convertible Securities at its meeting held on November 19, 2026",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/UGROCAP_19112026172146_Allotment.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "UGROCAP",
+    "name": "Ugro Capital",
+    "group": "holding"
+   }
+  },
   {
    "nse": "INDRAMEDCO",
    "exchange": "NSE",
@@ -138,14 +187,70 @@
    }
   }
  ],
- "dropped": 9,
+ "dropped": 8,
  "news": [
   {
-   "nse": "JUBLINGREA",
-   "title": "Jubilant Ingrevia CFO Varun Gupta resigns effective Nov 30",
+   "nse": "JMFINANCIL",
+   "title": "Poonawalla Fincorp shares: JM Financial, Motilal Oswal retain Buy calls, bullish on growth outlook",
+   "source": "Business Today",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNaHAxTHFOQlFaLV9WREN2T2RyLWp3MDh3M1ZwR0lXWlVCWjZNeFI3a3pWQ2xOajhHNW5Na2lFbFdkMEtmbms4VEhPOXdUUmxCZTd5elhsVlppU2FtS1hPRENRSjZVWmhWUmZTMzMyTUdhZldfaUZTbjRRZk8wUVp1WHMzajVEOEE3dEFZVVpsTVlONnhaaTA4QTBEN2lRSnhQUnN2cnpMdDlfeFU1TWFDS2NiTU9BaGExc2VrSjNSdWhMMkFjbmJTbWg5dXZfbUxweU1Tbi1EVnRJU1E1c0Y5NVN0OWgyeUwtYTBnSUcyaDJNc1pQc2JldXN5QdIB-wFBVV95cUxNaHAxTHFOQlFaLV9WREN2T2RyLWp3MDh3M1ZwR0lXWlVCWjZNeFI3a3pWQ2xOajhHNW5Na2lFbFdkMEtmbms4VEhPOXdUUmxCZTd5elhsVlppU2FtS1hPRENRSjZVWmhWUmZTMzMyTUdhZldfaUZTbjRRZk8wUVp1WHMzajVEOEE3dEFZVVpsTVlONnhaaTA4QTBEN2lRSnhQUnN2cnpMdDlfeFU1TWFDS2NiTU9BaGExc2VrSjNSdWhMMkFjbmJTbWg5dXZfbUxweU1Tbi1EVnRJU1E1c0Y5NVN0OWgyeUwtYTBnSUcyaDJNc1pQc2JldXN5QQ?oc=5",
+   "when": "2026-11-20T13:00+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BANKINDIA",
+   "title": "GIC Re appoints Canara Bank, Bank of India EDs as non-exec directors",
    "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb1VJclFGNzIyUzhKSTR0cmswWElRVjlQV2tDV1lqMHItbUZZX0g3eFlUYXVGb1p5VlRPV0UxQy1VY2QyYzBpYnptLXFJZE9jNlRNa2NjTXhiMDZyNGlqRnVkWjcxTENJNFRUNkh6aGJRZEFyUXVlWUF5TXpaVVFKdTlKWjg0T1RNLUNBTklHaHlQY2dyanc5eTJ5ZWM4WFYyeG5oWTZmZ0R4QkVSNEFDdlJFRGRkZw?oc=5",
-   "when": "2026-11-19T11:38+05:30",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ0U4d1VmZFcyZlZDYkF1eHBSNUZ2ZGxBRFFoTS11MUNHNXVTaHFVVkh6Z05PZjM0enVMc19DS0NoT1hORFBlSHVLb2E1cDVJTlpxb0FlOTlJcU5JQmxfcFdDX3JSekZ6OUJUVnh2elFXMkhyVGotOFlVSFJyV1U2dVdoNndOMC1yN28wakRTWmdKVmJiZ1ZpekstZE5RbmNfNXU0bXFUaGJxUG11bDBzUU14N1NaMW5xeHc?oc=5",
+   "when": "2026-11-20T01:18+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SATIN",
+   "title": "Satin Creditcare Network Says Board To Consider Fund Raising Via Private Placement Of NCDs",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWHd3dnFvUHczbFF6NGdXakxLOTNpTDhiRWtMZlRBOEpTM2M4d2RPcnE1X1JMMzZzRDRfZXozX2diRkhGMWNHNGExWWxwSkZCd21qelM5eVd0dnI3QTNXbmpEdTIxX3Q1OUxxYUd3M09zdXZ1cGxiOERQQTNRRmhDT3VIRTdiZVA4eTNrVDlHaWxtcGZNMlNQT3hONjh2THR3aHdWUk1OcnFFREgxWTZrRi14ZzduV1FkOFJvdUp4V1ZxcnM0VjhZR0xkU0VUOWU2aGh0TXE0R2lWdHZUNjBhOXZqOVVyOWhDMWF6TVFCN0x0Zw?oc=5",
+   "when": "2026-11-19T18:13+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "SATIN",
+    "name": "Satin Creditcare Network",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ADVENZYMES",
+   "title": "Advanced Enzyme Technologies acquires 1.22% stake in JC Biotech for ₹22.80 million",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTm9VblVRYVh2YjNWb3BlLXc4OURpNWV3aEoxT3hjT1BDdDVGSzBxaWJSMXAxaXo4Q1pfTkpMVXptRlo3OEdmX3FzeWh0SkZFN25wcmxpTzBjUnFJVVdrRWVSUFYwZDRSUF83dy1rWVhxYVpvbDhPSHIweEpMaWR6cjFJcERERkJhSzdXZHo0a2ZERG5sNThES3ZXcElUVHJfZ3VwMS1TcmZBVEZpRkp6dG15OFFOVGp2VjVFWFZuWQ?oc=5",
+   "when": "2026-11-19T15:23+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "ADVENZYMES",
+    "name": "Advanced Enzyme Technologies",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JUBLINGREA",
+   "title": "Jubilant Ingrevia Says Varun Gupta Resigns As CFO",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY3E3SjFZMk1qYjcyVjdzV0x3MFllMzJ5SDIyclRfUTI4Q0ZPRmtGSUJSeG04QWM0VWt2aGxwNnhIU0lBME5Ha2MxbnhvMFllOTZMSEdBdlhKOGg5eEZCU205UzVUNEo5d0Foanpmb2NsUmpna3N6MFlMNXo0SmhoQ2FkWURnbG1KZnBITEpjdlQ3X0VqcWN2TVJPalJSQTdqLTRUVGppWXp1TkVhcFY3cGstY0Fza0dScXdV?oc=5",
+   "when": "2026-11-19T14:19+05:30",
    "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
@@ -155,27 +260,13 @@
    }
   },
   {
-   "nse": "PARAGMILK",
-   "title": "Parag Milk Foods appoints Saif Ali Khan as brand ambassador for Gowardhan Ghee",
-   "source": "ET Retail",
-   "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNb0hIVjNsUTAtN2RjRnAzajFidzJrb2pyRmRmMXdJSVpLWFFRRkxqQk42QmIzWTZsXy1EaENDNnl3Z2lPQl9DMXFhRGxETDB0d2t2WlVMWG5wU0NnZkM3VS05bHVJcTBRc0xFZkd5VGtPVG5NZHhmVTlMdVU3Qk1ybDhBaFdCbHhzN0dIa1djcTRqT3BSWktodjhUX1hFdGl6YWp2UWtkSEw5cFR2LVB1bE9aRnFmbHdueHZteVZoaFlSRHFvVlNnbEM3bm52Tkw2d2dfbXVjbURGQlkzNG1HSmdfaVFYWFZveWJQS0MwMGVPOVR3TXprc1VtREVCM3Q1ZXhCUXhOTndrLWJuaW0tU2F0Z1hjdDg2eXfSAZ4CQVVfeXFMT0g4Nlgyd2k1UjVfN20xeXlEZEJrLXgtejItUmVLOVBXWERZR0ozMUZBZkdReVpsVUVaY2xuVkVBeERyaVc3RnloY3FiM1d5NWFwNG1RcURBUVR3ZUsyRFRlQW93SXZocXhiRjlXUWhCR2VjRF9ZTkJoMHBqT0ZVUGFCWi1zQlpvVE5PRFh0cmtaZXV5NWpuT2ljb0xadGdUbzBHa05MVDluSEtzZEVyVk1Sa1d6TUlPQlhHYkRFVnpwdnV5MFdfOHB2R0VSTUl6cW5Ua3hCQmpCdWZKQnRLaHJVOGsweFoxRmpOWWF1dW1mWmFFZHpENlNkQkhqekktU2RqZy1QMFE5N3cxbmNwZDlyNHRxVlRRY1lSTHNzdw?oc=5",
-   "when": "2026-11-19T04:20+05:30",
+   "nse": "EQUITASBNK",
+   "title": "Equitas Small Finance Bank Plans 2027 Universal Bank Licence Application Following CEO Resignation",
+   "source": "Kotak Neo",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOT3hqdTdnVUczYlNiWV9lblNXWWt3ZVU0amZCUklETXc2bFE1R1FXMldqQTRTZkMyREtHYkVrRElEODByclo2RWVqSmxwaHctejR1TTk3MG5YV1FiMWVIanRDYUdaaFJKWElHTy1XODRENzJqY0czUGFIUDZnOC15VmZoQkl6SVNxMTNmX0lNbzBoZlJJMDZrS19DVE1PZW50OVI4bVpfN0ZiUmVHQ0M2bnlyb0FMaEZfd2tYWkYwZ19FTXZvX2gzU2hmNWs3QlNnamln?oc=5",
+   "when": "2026-11-19T10:19+05:30",
    "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
-   "stock": {
-    "nse": "PARAGMILK",
-    "name": "Parag Milk Foods",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "EQUITASBNK",
-   "title": "Equitas Small Finance Bank to submit two CEO names to RBI by December-end",
-   "source": "CNBC TV18",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOd09FbEJteTFLNEVIckVPUFRHWHh5bjMyRk5YUy1vNGM2NUdKWGhDT2VTQTVxekhjMTNQT2dtNDNaT2VBWUxjZGJTejFqa2loczJET1oxNnNfRjZ3OWJON21jell6dWZRWTdMMk1zcWlJanhETmxzc290XzB5WHFrODVacHFWMkZ1QWthWVVySWZDdXNiQzJ2aGwtMTQ4VS1qQ3I3d2UtdXdoZG5XWmlRU2tnQlh3X1BoaS1oZml2Q0I2c1VNTkNHZzZLTExwUjduVHdac9IB2gFBVV95cUxQeGNqMUxuZTVqOGNvT0tVNk44VF9qc3JKRWduM1V3em1fMUdYNlhVdUg1VVY4MjItVVhxak1rMHpmS3lYSDdfRkF5R3lGUXdoQ0ZFVDVTOW1ET2E4THU2RTlsZm5qRXBHcU5ITkpBa2s2NFFuYnpad01JZHVyT1dPclEyVVBJWnY2dnJFQ0xfTVJNMElybWhmZThLTDFQZGdTNDFfOWotV2tHRHZkekRJUXdRZjBkckhySldoeHRDU0NlNzBoTzBxYzlNM1pDZExDYWo5eTVZU01tQQ?oc=5",
-   "when": "2026-11-18T16:49+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": true,
    "stock": {
     "nse": "EQUITASBNK",
     "name": "Equitas Small Finance Bank",
@@ -183,30 +274,16 @@
    }
   },
   {
-   "nse": "UJJIVANSFB",
-   "title": "Ujjivan Small Finance Bank Ltd Technical Momentum Shifts Signal Bullish Outlook",
-   "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOemdIRXZuWnJ2T0RZVEVQUG5YczBER3YwbUFyY3BfTjNuVUw3UFcwcmlyY3FZclNpOENScXVSNG4tRGNqa0ZZUXBQNmM5YnhTMFdCM2VRb3hzTDNULVJVR1dfSGxtdnF1NmR2M3ZFak9yRUk4eDRFb040VUc5U3VqaWV5TmdQNS1oR09FT1pVVDBRT3ZOSExWT1E3ZEVfNWp6Q0R3NEZ0V1lKMFgza2djRnI5cDFzb0hfTDdEbTc5bjJzOTAyVy14T1RGQ3lJbFdQNFNr?oc=5",
-   "when": "2026-11-18T15:07+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "nse": "PARAGMILK",
+   "title": "Parag Milk Foods Appoints Saif Ali Khan as Brand Ambassador for Gowardhan Ghee",
+   "source": "Business Connect Magazine",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1Z4c2M2SWx3MV9QUjFZUEhHN0hKeUtqRGR4cTR3bm55WFA0N2hkSHJ5aVZrVU1zdG1tZU9LdFVEME5oY3NTaXN0X2Z2cVhNSjU1N2xKZW1ULVdJYnJZeDN1YnRkdGwzS09tc1RPSzVmY254U0xHb1dwZVVKdThSWU5TOEY?oc=5",
+   "when": "2026-11-19T09:35+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ITC",
-   "title": "ITC stock: Five upgrades in 30 days, overbought on charts; time to buy?",
-   "source": "Business Today",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTHI1cmd3eWpUV29MVXdDcWN0bW9HOEpXY21TbmkxaTBlNDZkbmtKQlltNzB3TWREQXBUb3ZYdTZtajZhbEdCN1hDNUItLUtvc3F4NUt3NWpqUTVINHpmX1dld18yZ1h5T0ZmRkVYczd6bUJwSmRqUEpDZElEcWE2N0plUmg0OWgybS1sZW5JSWluYm5ncWVrTjl3TXR0S1A3Mm54ZndDUndac0poM05ubFV1U3hIMlZPNjVfSjRlUnp6RE92UnNOQlhQeWhwRlBn0gHWAUFVX3lxTE9ZaTExYmlPcDRoSXMwaFd2ekN3NWd4REdkN0dWOUlKdFVGRGRNSTdoTFVBZ2xDM3dLZW9KeW1jUFdFTlF5cm1Cbkw5X2Q3RXpWb1I5Q09RQkptRGg5a3ZsZFJBeWJyb1JrQ2ZfNThSQnZ2VzFsSVJSOGRCM1pPTjdoUThzVmM0cGpBeDRlYm9YNUtBaFNMZHNrZnYydThGUXNrQ25oWW03S1JCZ1dPMmtNcVJTc0Z0a3JaX3ItN3Y5YkNza204MFY0UXQ5TS1Tak5MT2ZWcnc?oc=5",
-   "when": "2026-11-18T10:14+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": false,
-   "stock": {
-    "nse": "ITC",
-    "name": "ITC Limited",
+    "nse": "PARAGMILK",
+    "name": "Parag Milk Foods",
     "group": "holding"
    }
   }
@@ -666,9 +743,9 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 18 Nov",
+  "BSE codes taken from bhavcopy 19 Nov",
   "BSE announcements failed (HTTPError)",
   "BSE announcements failed (JSONDecodeError)",
-  "Google News: 3 of 54 searches failed, 4 empty (HTTPError 408, HTTPError 500, HTTPError 502)"
+  "Google News: 2 of 54 searches failed, 6 empty (HTTPError 522)"
  ]
 }
