@@ -1,91 +1,91 @@
 {
- "generated": "2026-11-20T14:18+05:30",
- "since": "2026-11-19T08:18+05:30",
+ "generated": "2026-11-21T14:01+05:30",
+ "since": "2026-11-20T08:01+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 15",
+  "NSE": "ok · 8",
   "BSE": "unavailable",
-  "News": "ok · 7"
+  "News": "ok · 8"
  },
  "high": [
   {
-   "nse": "ADVENZYMES",
+   "nse": "ARMANFIN",
    "exchange": "NSE",
-   "when": "2026-11-19T14:53+05:30",
-   "subject": "Acquisition",
-   "detail": "Update on acquisition of additional stake of 1.22% in JC Biotech Private Limited, Subsidiary i.e. increase in Shareholding from 95.72% to 96.94%",
-   "link": "https://nsearchives.nseindia.in/corporate/AETL_19112026145327_Intimation.pdf",
-   "text": "Acquisition Update on acquisition of additional stake of 1.22% in JC Biotech Private Limited, Subsidiary i.e. increase in Shareholding from 95.72% to 96.94%",
+   "when": "2026-11-20T18:15+05:30",
+   "subject": "Credit Rating",
+   "detail": "Arman Financial Services Limited has informed the Exchange about Credit Rating",
+   "link": "https://nsearchives.nseindia.in/corporate/ARMANFIN_20112026181453_Arman_Credit_Rating_Intimation_CARE.pdf",
+   "text": "Credit Rating Arman Financial Services Limited has informed the Exchange about Credit Rating",
    "tier": "high",
-   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "rule": "credit rating|rating (action|revis|downgrad|upgrad|reaffirm)",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.in/corporate/AETL_19112026145327_Intimation.pdf"
+     "https://nsearchives.nseindia.in/corporate/ARMANFIN_20112026181453_Arman_Credit_Rating_Intimation_CARE.pdf"
     ]
    ],
    "stock": {
-    "nse": "ADVENZYMES",
-    "name": "Advanced Enzyme Technologies",
+    "nse": "ARMANFIN",
+    "name": "Arman Financial Services",
     "group": "holding"
    }
   },
   {
-   "nse": "JUBLINGREA",
+   "nse": "UJJIVANSFB",
    "exchange": "NSE",
-   "when": "2026-11-19T13:15+05:30",
-   "subject": "Resignation of Director/KMP/SMP",
-   "detail": "Jubilant Ingrevia Limited has informed the Exchange about Resignation of Director/KMP/SMP",
-   "link": "https://nsearchives.nseindia.in/corporate/JUBLINGREA_ROID_105030_KMP_Doc.zip",
-   "text": "Resignation of Director/KMP/SMP Jubilant Ingrevia Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+   "when": "2026-11-20T16:25+05:30",
+   "subject": "General Updates",
+   "detail": "Ujjivan Small Finance Bank Limited has informed the Exchange about Board approval for making application to the RBI seeking an extension of the tenure of Interim CEO",
+   "link": "https://nsearchives.nseindia.in/corporate/UJJIVANBANK_20112026162548_121_Intimation_extension_of_Interim_CEO_20112026.pdf",
+   "text": "General Updates Ujjivan Small Finance Bank Limited has informed the Exchange about Board approval for making application to the RBI seeking an extension of the tenure of Interim CEO",
    "tier": "high",
-   "rule": "resignation|cessation|appointment of .{0,60}(\\bmd\\b|\\bceo\\b|\\bcfo\\b|managing director|chief executive|chief financial|whole[- ]time)",
+   "rule": "rbi|reserve bank|sebi order|show cause|penalty|adjudicat|cerc|cert-?in",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.in/corporate/JUBLINGREA_ROID_105030_KMP_Doc.zip"
+     "https://nsearchives.nseindia.in/corporate/UJJIVANBANK_20112026162548_121_Intimation_extension_of_Interim_CEO_20112026.pdf"
     ]
    ],
    "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JUBLINGREA",
-   "exchange": "NSE",
-   "when": "2026-11-19T11:33+05:30",
-   "subject": "Resignation",
-   "detail": "Jubilant Ingrevia Limited has informed the Exchange regarding Resignation of Mr Varun Gupta as Chief Financial Officer of the company w.e.f. November 30, 2026.",
-   "link": "https://nsearchives.nseindia.in/corporate/JUBLINGREA_19112026113312_SE_Intimation_Resignation_of_CFO.pdf",
-   "text": "Resignation Jubilant Ingrevia Limited has informed the Exchange regarding Resignation of Mr Varun Gupta as Chief Financial Officer of the company w.e.f. November 30, 2026.",
-   "tier": "high",
-   "rule": "resignation|cessation|appointment of .{0,60}(\\bmd\\b|\\bceo\\b|\\bcfo\\b|managing director|chief executive|chief financial|whole[- ]time)",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/JUBLINGREA_19112026113312_SE_Intimation_Resignation_of_CFO.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
+    "nse": "UJJIVANSFB",
+    "name": "Ujjivan Small Finance Bank",
     "group": "holding"
    }
   }
  ],
  "medium": [],
  "other": [
+  {
+   "nse": "COHANCE",
+   "exchange": "NSE",
+   "when": "2026-11-21T09:35+05:30",
+   "subject": "General Updates",
+   "detail": "Cohance Lifesciences Limited has informed the Exchange about General Updates",
+   "link": "https://nsearchives.nseindia.in/corporate/SUVENPHARMROHIT_21112026093458_Cohance_USFDA_disclosure_21112026.pdf",
+   "text": "General Updates Cohance Lifesciences Limited has informed the Exchange about General Updates",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/SUVENPHARMROHIT_21112026093458_Cohance_USFDA_disclosure_21112026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
+    "group": "holding"
+   }
+  },
   {
    "nse": "EQUITASBNK",
    "exchange": "NSE",
@@ -110,91 +110,30 @@
     "name": "Equitas Small Finance Bank",
     "group": "holding"
    }
-  },
-  {
-   "nse": "POWERGRID",
-   "exchange": "NSE",
-   "when": "2026-11-19T18:29+05:30",
-   "subject": "General Updates",
-   "detail": "Power Grid Corporation of India Limited has informed the Exchange about Share Purchase Agreement has been executed on 19th November, 2026 between POWERGRID, GRID-INDIA and CTUIL.",
-   "link": "https://nsearchives.nseindia.in/corporate/POWERGRID1_19112026182851_BSENSEReg30dt19112026CTUIL.pdf",
-   "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange about Share Purchase Agreement has been executed on 19th November, 2026 between POWERGRID, GRID-INDIA and CTUIL.",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/POWERGRID1_19112026182851_BSENSEReg30dt19112026CTUIL.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "POWERGRID",
-    "name": "Power Grid Corporation of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "UGROCAP",
-   "exchange": "NSE",
-   "when": "2026-11-19T17:23+05:30",
-   "subject": "Allotment of Securities",
-   "detail": "Ugro Capital Limited has informed the Exchange regarding allotment of 105000 securities (NCDs) pursuant to Non Convertible Securities at its meeting held on November 19, 2026",
-   "link": "https://nsearchives.nseindia.in/corporate/UGROCAP_19112026172146_Allotment.pdf",
-   "text": "Allotment of Securities Ugro Capital Limited has informed the Exchange regarding allotment of 105000 securities (NCDs) pursuant to Non Convertible Securities at its meeting held on November 19, 2026",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/UGROCAP_19112026172146_Allotment.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "UGROCAP",
-    "name": "Ugro Capital",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "INDRAMEDCO",
-   "exchange": "NSE",
-   "when": "2026-11-19T11:07+05:30",
-   "subject": "Spurt in Volume",
-   "detail": "Significant increase in volume has been observed in Indraprastha Medical Corporation Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safeguarded, had written to the company. Indraprastha Medical Corporation Limited has submitted their response.",
-   "link": "https://nsearchives.nseindia.in/corporate/INDRAMEDCO_19112026110501_20261117NSE.pdf",
-   "text": "Spurt in Volume Significant increase in volume has been observed in Indraprastha Medical Corporation Limited. The Exchange, in order to ensure that investors have latest relevant information about the company and to inform the market place so that the interest of the investors is safeguarded, had written to the company. Indraprastha Medical Corporation Limited has submitted their response.",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/INDRAMEDCO_19112026110501_20261117NSE.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "INDRAMEDCO",
-    "name": "Indraprastha Medical Corporation",
-    "group": "holding"
-   }
   }
  ],
- "dropped": 8,
+ "dropped": 4,
  "news": [
   {
    "nse": "JMFINANCIL",
-   "title": "Poonawalla Fincorp shares: JM Financial, Motilal Oswal retain Buy calls, bullish on growth outlook",
-   "source": "Business Today",
-   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNaHAxTHFOQlFaLV9WREN2T2RyLWp3MDh3M1ZwR0lXWlVCWjZNeFI3a3pWQ2xOajhHNW5Na2lFbFdkMEtmbms4VEhPOXdUUmxCZTd5elhsVlppU2FtS1hPRENRSjZVWmhWUmZTMzMyTUdhZldfaUZTbjRRZk8wUVp1WHMzajVEOEE3dEFZVVpsTVlONnhaaTA4QTBEN2lRSnhQUnN2cnpMdDlfeFU1TWFDS2NiTU9BaGExc2VrSjNSdWhMMkFjbmJTbWg5dXZfbUxweU1Tbi1EVnRJU1E1c0Y5NVN0OWgyeUwtYTBnSUcyaDJNc1pQc2JldXN5QdIB-wFBVV95cUxNaHAxTHFOQlFaLV9WREN2T2RyLWp3MDh3M1ZwR0lXWlVCWjZNeFI3a3pWQ2xOajhHNW5Na2lFbFdkMEtmbms4VEhPOXdUUmxCZTd5elhsVlppU2FtS1hPRENRSjZVWmhWUmZTMzMyTUdhZldfaUZTbjRRZk8wUVp1WHMzajVEOEE3dEFZVVpsTVlONnhaaTA4QTBEN2lRSnhQUnN2cnpMdDlfeFU1TWFDS2NiTU9BaGExc2VrSjNSdWhMMkFjbmJTbWg5dXZfbUxweU1Tbi1EVnRJU1E1c0Y5NVN0OWgyeUwtYTBnSUcyaDJNc1pQc2JldXN5QQ?oc=5",
-   "when": "2026-11-20T13:00+05:30",
+   "title": "Transport sector outlook: Weak rail container volumes, subdued air traffic to weigh, JM Financial says",
+   "source": "BusinessLine",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNdldEMmtwbjI3dy1lY0V5dzJnVHkzQjJPbEppNTRoeDRFM0IzZkhyQ0o4djFIUkZjNW5Bdl85SE1lVUc2TFA3M25WSDFidl9zc3g1V082NVFkWExtc0dIejJPaEpOcTZEY2hOZjB4QlNjak54ZXF4T01uMnlMVjBNc3VWb2NRekRYT3RfaFNiS1ZYMFNiZWFZamt5dE90UDJ5YmFuZ2xtZG1XU0Q3OEd4aHBuOEg2Y0hyS2c4eXd3Z1NuOGlGNGVpVGEwMm1NZmc1aHNiaHVBS0hCb0I5NEEycDBZNlVESU8xMG02ejRNbVFOVnFZaWJaNE45bUp4NkV1UFpjbNIBiwJBVV95cUxQZkhMZF9MRDdoSENOWE50dy1DYlJxZzQ3SWhXM0dvbnJFeUw2VzZYZUYyZElBTmtGT0RDZk1GUGM0OFhjQXZaVVhWZTZzUnZ5YXgyUlExR3R4bVdTOXhxZmg3Mm45dkdtOXNmMlVHU0FVcXkzSHR1ZGdCSzBtYVItLVoxYXRQVVhtRmMxMVlva3VIUS1uNkxkdE5ISTZJOHdmWDYyNlhqblBKVjFqWWNBUWh0a1hOTGlrVGtnXzJacUNhSnZ5eE9YWHI2RmRvbjBLSy1ZV0RjSVloN2FPeTNVSUFUZlJjaVVrNDU5aWI3Mk1FYmRhUVYzYS1SUFJTa1BvNG5zRzF0M3FvVmc?oc=5",
+   "when": "2026-11-21T12:35+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": true,
+   "stock": {
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "JMFINANCIL",
+   "title": "JM Financial Pumps Rs 41 Crore Into Overseas Arm JM Financial Overseas Holdings To Support Global Expansion",
+   "source": "Free Press Journal",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTEhxVnVoUHl1VjBhc1J0Z0hXRVVUbGxxSTlPamFMdWpFOVUtVVFFNUpmVFRWMk5OczJycnZHUVJjeEh1bXVhUHlLX244MmVTWXRtNk5zRGhZWEs0OUkwMzZ2QldHUnRuVEdycUhVck1mNHl4cDNyWUQ0VW5GeW1OSlhtMm1odTRDZkhZN05WZGF6bTdBdE4yTEEyRUx2MVB4TUx4M1U2VS1NcEE5NEQ3WmZkR1dJT0FxLW5pUVhFYUU5S1NMZTdmWl9XTGZ2cnhObXB2MUFjRC01Ykg0ODlpMzZVaTJSRG96TmfSAe8BQVVfeXFMUG5kTUtLaEtQaWtDd0tIVTV5T2x0TDFCV2hOSkJpcmNPRlB6YWRuMkVucERGNGVydGw0dUUwZHFmbUk1THVGMVk3QmhMR05Mc1ZfYlFwcm5LNzBNbDF3NFF5b0M5MjNfQ3NNMUh2OFE3YWtqQXlFS3R3azR1VTdwVHRieG4xU05qMzZuOF9kQmhoUHEwUVNSNkZSM016b2RVNHJaNmpDYlBhUW9hZW96dWlUNDhCQWZsNlVZUEhjNUxKanlVNGhOOGRLLVNZcFlOR2t4ZnAtcjNYa0dtekVBb2d2LURNdFF0S1ppcVRlN1k?oc=5",
+   "when": "2026-11-21T09:51+05:30",
    "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
@@ -204,11 +143,25 @@
    }
   },
   {
+   "nse": "COHANCE",
+   "title": "Cohance Lifesciences USFDA VAI: Shamshabad Facility Update",
+   "source": "Kalkine India",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY1V1MGZjdjV0V09KRy1KZEk2dHc0Wm1DWkpOYzNqQnNWaUl4ckp0WUQySEJhelcwNDF1WVZIWkFsLWVzLTFTdVFiY0ZJQzNLU29kOE1qTlNiNkpBSmdIUngtSjRnUEJDXzQzOV9KUTNZZFdHOExjVDdMNTJxZVRMX1FHeWtkcjR4cWZKM3JTeXoyR0RIQTJhVnBJa1c5NGdjNGVQYUhURWpBMHhIR3U1bW1RdEljNEFZVkt2M0cwdUM?oc=5",
+   "when": "2026-11-21T09:35+05:30",
+   "rule": "usfda|warning letter|form 483|import alert",
+   "trusted": false,
+   "stock": {
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
+    "group": "holding"
+   }
+  },
+  {
    "nse": "BANKINDIA",
-   "title": "GIC Re appoints Canara Bank, Bank of India EDs as non-exec directors",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ0U4d1VmZFcyZlZDYkF1eHBSNUZ2ZGxBRFFoTS11MUNHNXVTaHFVVkh6Z05PZjM0enVMc19DS0NoT1hORFBlSHVLb2E1cDVJTlpxb0FlOTlJcU5JQmxfcFdDX3JSekZ6OUJUVnh2elFXMkhyVGotOFlVSFJyV1U2dVdoNndOMC1yN28wakRTWmdKVmJiZ1ZpekstZE5RbmNfNXU0bXFUaGJxUG11bDBzUU14N1NaMW5xeHc?oc=5",
-   "when": "2026-11-20T01:18+05:30",
+   "title": "‘Children Bank Of India’ On Rs 500 Notes: How Fraudsters Duped Gujarat Businessman Of Rs 40 Lakh With Fake Notes",
+   "source": "The Daily Jagran",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSUF6UUZpZnk5Y2hoWkVCTGdIMmRTV1g5ZVRpRElja1FfZG16T284dFV1SnR6Q2Vxa1RvUzZMb2JBQ1NWYXhjVFRyUENfNzlSTmdMXy1oZWRoRkZzM0RyRjNURHdnWlZCSXZIdDREaE1kcGMxbXBsdlQzMHFncTFfWFlObzZaN0NERllYa0tLTlNfTDRNR0p6blNiZ3hzX0dWZmtwV1JkeVlXMURBM1RGOEl6Q1oxT1dJSzBteXRQa3BaNUZ3MVNUcnBEcmJ3OTZKN0Q0cHl3dUJDXzJ0QmUwVE8tY2xtNExmdGNzc1VQNFJ6UdIB-AFBVV95cUxQcDJnOER4eTl4OTdDNWdWVGxZRVVSemdYSFFNRGhfY1cyY3hOSnA0TG5RY2ltZFp6U2w0eUp0UkVLMU1UUFpqejJMVGZFU1p0a1ZKdlZWVXVQbE42MzQtbmY3MGVGX3Q5XzZfNlFiS05TLVNSSWVBUVQ2aVdfT2kxN2NXRXdpazlJVEpIbjFjY0tqcjRJMVNHbUVVZjhEaFRvTW1CSjc0b0NaY2hmUE0td3JWTHB6S0tBbkotNlBRVkpvTG9zdFdOcUlpRnh2RGNpam83dXFXaV85TV9pQUpOV0hfNmR2U2VIUEREcmJjMTNHTU94S2xXNw?oc=5",
+   "when": "2026-11-21T08:27+05:30",
    "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
@@ -218,39 +171,39 @@
    }
   },
   {
-   "nse": "SATIN",
-   "title": "Satin Creditcare Network Says Board To Consider Fund Raising Via Private Placement Of NCDs",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWHd3dnFvUHczbFF6NGdXakxLOTNpTDhiRWtMZlRBOEpTM2M4d2RPcnE1X1JMMzZzRDRfZXozX2diRkhGMWNHNGExWWxwSkZCd21qelM5eVd0dnI3QTNXbmpEdTIxX3Q1OUxxYUd3M09zdXZ1cGxiOERQQTNRRmhDT3VIRTdiZVA4eTNrVDlHaWxtcGZNMlNQT3hONjh2THR3aHdWUk1OcnFFREgxWTZrRi14ZzduV1FkOFJvdUp4V1ZxcnM0VjhZR0xkU0VUOWU2aGh0TXE0R2lWdHZUNjBhOXZqOVVyOWhDMWF6TVFCN0x0Zw?oc=5",
-   "when": "2026-11-19T18:13+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "nse": "ITC",
+   "title": "15,409 Call Contracts Traded on ITC Ltd. as Stock Holds Near Rs 300 Strike Ahead of Expiry",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTzQtN3FRTW9PUFdVWFk3VDk0Qlp1QmctUmliN3VvZUhCZHk0cmM3OEtreFhudGRXQ2FjbTlCVVBseGpmSU16WU9CZG16dkU0emdYSktUVi1VdkFxZWU1YkhJZm9FSWc1a2J2NHllaVdpTHRtMlNCaDBVMmVramkzNGRKQVJ3NTUzaWoxeDdObjdjRE1KZFZpbFhwOFRJZnBvT0x1NS1tUUtEeG1fd0RCZ01yMDA5YTN1c3otUWRYV3E?oc=5",
+   "when": "2026-11-21T08:26+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
-    "nse": "SATIN",
-    "name": "Satin Creditcare Network",
+    "nse": "ITC",
+    "name": "ITC Limited",
     "group": "holding"
    }
   },
   {
-   "nse": "ADVENZYMES",
-   "title": "Advanced Enzyme Technologies acquires 1.22% stake in JC Biotech for ₹22.80 million",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTm9VblVRYVh2YjNWb3BlLXc4OURpNWV3aEoxT3hjT1BDdDVGSzBxaWJSMXAxaXo4Q1pfTkpMVXptRlo3OEdmX3FzeWh0SkZFN25wcmxpTzBjUnFJVVdrRWVSUFYwZDRSUF83dy1rWVhxYVpvbDhPSHIweEpMaWR6cjFJcERERkJhSzdXZHo0a2ZERG5sNThES3ZXcElUVHJfZ3VwMS1TcmZBVEZpRkp6dG15OFFOVGp2VjVFWFZuWQ?oc=5",
-   "when": "2026-11-19T15:23+05:30",
+   "nse": "JMFINANCIL",
+   "title": "JM Financial Acquires Shares In Foreign Subsidiary For Global Growth",
+   "source": "Sahi",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaWpuNUZGeHQ5RTlGM3ZZSGxWcF91VVExMldBOE9sTVJMaEdtRVB2RlVhdGVRUkVSbVhQdWh1dXNGeTRiSksyWEU2UEo3SWRYbExWOXAtQlc0cTk1ZW9QQ1Y1WU41TU1BVnl0RVpQdlA3dEpwOHdLVUlzTEpIUUdCd01zVjRib2Z2RFI4TzdrWF9fRnQzSHZhRWt3?oc=5",
+   "when": "2026-11-20T21:22+05:30",
    "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
-    "nse": "ADVENZYMES",
-    "name": "Advanced Enzyme Technologies",
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
     "group": "holding"
    }
   },
   {
    "nse": "JUBLINGREA",
-   "title": "Jubilant Ingrevia Says Varun Gupta Resigns As CFO",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY3E3SjFZMk1qYjcyVjdzV0x3MFllMzJ5SDIyclRfUTI4Q0ZPRmtGSUJSeG04QWM0VWt2aGxwNnhIU0lBME5Ha2MxbnhvMFllOTZMSEdBdlhKOGg5eEZCU205UzVUNEo5d0Foanpmb2NsUmpna3N6MFlMNXo0SmhoQ2FkWURnbG1KZnBITEpjdlQ3X0VqcWN2TVJPalJSQTdqLTRUVGppWXp1TkVhcFY3cGstY0Fza0dScXdV?oc=5",
-   "when": "2026-11-19T14:19+05:30",
+   "title": "CFO Shuffle: Vedant Fashions appoints Vineet Poddar, Jubilant Ingrevia and Carysil see exits",
+   "source": "cfo.economictimes.indiatimes.com",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNN2doNG90NWpvTFJSajdtWHNPanAyNmNvd2RxXzF2ekxwNWZpYmVhWUJSWHpVR2hjbFNnRk55QWIyM2VCRU1DVnJ2TnRLSFlCWDJ1cWc0alNHOWhFRHFlQ29obkdLeWoyNFJOUFNtU1JrUFlIX0hsZlN1cFVjZV80U2ppUkVBS2ptWnFpQ1Z5QmhxbHpWalpRUDBzcGxReGR3WDhRWFhoaXlfNmFhdl9LTTAySWQ1emEwaHAzV3dUV1NSaEJ1VjV3aWhLUzl5QnZhTFZTYlc4LVZXQ2JYRFE0Z0p1a2YyQW5YTmF1c1hn0gHzAUFVX3lxTE50TkdhLVdKZk1Oa2FqeC01bXBqOWVFZHo4bUxLUDdNSDV2dXNYQ29rRUhLYkpWR3doNkhlX0lIZk0wMjdGOExVQkFZNmhhZ3dLQzV6YzR5cmE0c0VOQ2pfb2pHMnJjYk53TWF4bjh1ZW9YNVVJajQ0S25aaExFZjgtU281UGRyOG1aOW5uSVdURzJ6YUtNZUVsTXA0NlhxbEREWEZVcV9hcVkzRzFjTHA3M094TUVmX1JfYlZhWllzMEMzRFJpN2NkZHNLZWZycEJOUDBqLUFtUWFESTV1Q3FSdmRWX3daV1Nhbm03cS00VE5icw?oc=5",
+   "when": "2026-11-20T17:07+05:30",
    "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
@@ -261,29 +214,15 @@
   },
   {
    "nse": "EQUITASBNK",
-   "title": "Equitas Small Finance Bank Plans 2027 Universal Bank Licence Application Following CEO Resignation",
-   "source": "Kotak Neo",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOT3hqdTdnVUczYlNiWV9lblNXWWt3ZVU0amZCUklETXc2bFE1R1FXMldqQTRTZkMyREtHYkVrRElEODByclo2RWVqSmxwaHctejR1TTk3MG5YV1FiMWVIanRDYUdaaFJKWElHTy1XODRENzJqY0czUGFIUDZnOC15VmZoQkl6SVNxMTNmX0lNbzBoZlJJMDZrS19DVE1PZW50OVI4bVpfN0ZiUmVHQ0M2bnlyb0FMaEZfd2tYWkYwZ19FTXZvX2gzU2hmNWs3QlNnamln?oc=5",
-   "when": "2026-11-19T10:19+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "title": "Equitas SFB Gets ₹3.88 Crore GST Order from Chennai Authority",
+   "source": "PSU Connect",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcF9QLUZHZ25IZE5TRDdYTXRDTnZMUjBzNk9tRGE2SjVYR2h3Zm1hVTRTTUh4ekpaN3ZSUWZwQ1pNaUdhdWpucUV3aWwzVHpsZjBwWkFPTjNPVWpneVVhRVBJbGh1Sm85QlBaYU1rUWJZc1llejRsMUcxSHNxS01nSEczZVIwRkNVUXpzaW96bnFyU21jTXhVc3RzWDg?oc=5",
+   "when": "2026-11-20T15:29+05:30",
+   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
    "trusted": false,
    "stock": {
     "nse": "EQUITASBNK",
     "name": "Equitas Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "PARAGMILK",
-   "title": "Parag Milk Foods Appoints Saif Ali Khan as Brand Ambassador for Gowardhan Ghee",
-   "source": "Business Connect Magazine",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1Z4c2M2SWx3MV9QUjFZUEhHN0hKeUtqRGR4cTR3bm55WFA0N2hkSHJ5aVZrVU1zdG1tZU9LdFVEME5oY3NTaXN0X2Z2cVhNSjU1N2xKZW1ULVdJYnJZeDN1YnRkdGwzS09tc1RPSzVmY254U0xHb1dwZVVKdThSWU5TOEY?oc=5",
-   "when": "2026-11-19T09:35+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "PARAGMILK",
-    "name": "Parag Milk Foods",
     "group": "holding"
    }
   }
@@ -743,9 +682,8 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 19 Nov",
+  "BSE codes taken from bhavcopy 20 Nov",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (JSONDecodeError)",
-  "Google News: 2 of 54 searches failed, 6 empty (HTTPError 522)"
+  "BSE announcements failed (JSONDecodeError)"
  ]
 }
