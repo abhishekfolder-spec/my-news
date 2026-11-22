@@ -1,64 +1,13 @@
 {
- "generated": "2026-11-21T14:01+05:30",
- "since": "2026-11-20T08:01+05:30",
+ "generated": "2026-11-22T13:53+05:30",
+ "since": "2026-11-21T07:53+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 8",
+  "NSE": "ok · 3",
   "BSE": "unavailable",
-  "News": "ok · 8"
+  "News": "ok · 7"
  },
- "high": [
-  {
-   "nse": "ARMANFIN",
-   "exchange": "NSE",
-   "when": "2026-11-20T18:15+05:30",
-   "subject": "Credit Rating",
-   "detail": "Arman Financial Services Limited has informed the Exchange about Credit Rating",
-   "link": "https://nsearchives.nseindia.in/corporate/ARMANFIN_20112026181453_Arman_Credit_Rating_Intimation_CARE.pdf",
-   "text": "Credit Rating Arman Financial Services Limited has informed the Exchange about Credit Rating",
-   "tier": "high",
-   "rule": "credit rating|rating (action|revis|downgrad|upgrad|reaffirm)",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/ARMANFIN_20112026181453_Arman_Credit_Rating_Intimation_CARE.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ARMANFIN",
-    "name": "Arman Financial Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "UJJIVANSFB",
-   "exchange": "NSE",
-   "when": "2026-11-20T16:25+05:30",
-   "subject": "General Updates",
-   "detail": "Ujjivan Small Finance Bank Limited has informed the Exchange about Board approval for making application to the RBI seeking an extension of the tenure of Interim CEO",
-   "link": "https://nsearchives.nseindia.in/corporate/UJJIVANBANK_20112026162548_121_Intimation_extension_of_Interim_CEO_20112026.pdf",
-   "text": "General Updates Ujjivan Small Finance Bank Limited has informed the Exchange about Board approval for making application to the RBI seeking an extension of the tenure of Interim CEO",
-   "tier": "high",
-   "rule": "rbi|reserve bank|sebi order|show cause|penalty|adjudicat|cerc|cert-?in",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/UJJIVANBANK_20112026162548_121_Intimation_extension_of_Interim_CEO_20112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
-    "group": "holding"
-   }
-  }
- ],
+ "high": [],
  "medium": [],
  "other": [
   {
@@ -85,35 +34,38 @@
     "name": "Cohance Lifesciences",
     "group": "holding"
    }
-  },
-  {
-   "nse": "EQUITASBNK",
-   "exchange": "NSE",
-   "when": "2026-11-20T13:05+05:30",
-   "subject": "Action(s) initiated or orders passed",
-   "detail": "Equitas Small Finance Bank Limited has informed the Exchanges about order passed by GST Authority",
-   "link": "https://nsearchives.nseindia.in/corporate/EQUITASBNK_20112026130532_GSTorderforupload.pdf",
-   "text": "Action(s) initiated or orders passed Equitas Small Finance Bank Limited has informed the Exchanges about order passed by GST Authority",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/EQUITASBNK_20112026130532_GSTorderforupload.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
-    "group": "holding"
-   }
   }
  ],
- "dropped": 4,
+ "dropped": 2,
  "news": [
+  {
+   "nse": "COHANCE",
+   "title": "Cohance Lifesciences: USFDA inspects and classifies Telangana facility as ‘voluntary action indicated’",
+   "source": "CNBC TV18",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdGRmblRKOFlObnlyNlgzNXpEemU4UF9fWW91WHFXd2pIdWM4d1pTMjVLVHdYdFJlWWVwU2Naakhld0RZZXdnYUF2SE4tRktzcTZic1AtUTV1dFNGdmY2SGZIX0h1SU5IS3Q2RjlWelBfQUZRNHFYVDh0TXlwN2NGSVBZaGxnbUVqR21pMXJFYzF3YVpRZEFVM2hKRDNydVdMeGxsamxITTdQekZ1cEpGWVQ3NkY3OC1MZVU4NHplRVpxU3JETWhRclQwMWJXOExURWJKcVdUT1JzYmV40gHiAUFVX3lxTE0wUlFDU1ppNWphZ1hEa09iNElrdDFEakV0cEFVOUZGbGphekNXVzdfVWlMVjVCT2g1SUpsNkVDUUd4cWVtdjRFTFdXZmN5UVYzWlAtUmhkakthbGRkRWRTLXAzeU5pOU80YV82SF8zS19ZT1VJWTN3UXR4bnFLb25kdWstTjdtSnVfbXBfYTlIM09iNndEcTYtcG5LLVJ2MlZXZnJQQ182YTRuQm1QQVVla3ZhdUJwOXpJUkhvWmJZYVJoTVV1MUpuZUs4TW13RGhhR1dKNGd5UXZoajF0VlF1TlE?oc=5",
+   "when": "2026-11-21T15:31+05:30",
+   "rule": "usfda|warning letter|form 483|import alert",
+   "trusted": true,
+   "stock": {
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "VOGL",
+   "title": "United Drilling Tools wins Rs 1.73 crore work order from Vedanta Oil and Gas",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaFFtbXpjR0l2WGdGZzBtRm5MXzJhWXlnTVBtX3JlWS05ZnRfYmJXbzhJWk5obHd2YmUyekJNZWhrTUdydWNmcEFmbjloVUtJSzJzNU5lbExRZWM0VmJEQ2tyZmw4NmlBcGwxZU45Wjd0M1RHbk9HQ1NsMU9fMVg0S3J3M1V4NVBEZWZWUFNQT0dhUE1YV3VBNHk3cURCR0ZQXzUzSGx0TnBnbVhkaWhFVENTeHZkZzBZcC1RdGRjLThxZw?oc=5",
+   "when": "2026-11-21T15:22+05:30",
+   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
+   "trusted": false,
+   "stock": {
+    "nse": "VOGL",
+    "name": "Vedanta Oil and Gas",
+    "group": "holding"
+   }
+  },
   {
    "nse": "JMFINANCIL",
    "title": "Transport sector outlook: Weak rail container volumes, subdued air traffic to weigh, JM Financial says",
@@ -144,29 +96,15 @@
   },
   {
    "nse": "COHANCE",
-   "title": "Cohance Lifesciences USFDA VAI: Shamshabad Facility Update",
-   "source": "Kalkine India",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY1V1MGZjdjV0V09KRy1KZEk2dHc0Wm1DWkpOYzNqQnNWaUl4ckp0WUQySEJhelcwNDF1WVZIWkFsLWVzLTFTdVFiY0ZJQzNLU29kOE1qTlNiNkpBSmdIUngtSjRnUEJDXzQzOV9KUTNZZFdHOExjVDdMNTJxZVRMX1FHeWtkcjR4cWZKM3JTeXoyR0RIQTJhVnBJa1c5NGdjNGVQYUhURWpBMHhIR3U1bW1RdEljNEFZVkt2M0cwdUM?oc=5",
-   "when": "2026-11-21T09:35+05:30",
+   "title": "Cohance Lifesciences' Shamshabad facility receives VAI classification from USFDA",
+   "source": "Business Upturn",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPc25DMFdKQkh4cDZMcW1RZ05ESEJCUmVSa3F4a3ZYTDVYTGJPbnlCS0xHeUZRNU1rcmE0dDhYUmNkN2gyUkViQ0QyY0lyZDZyb1NRM0NUOGxnTDdtVGR4LVZneU9PNlhMVjhVQWhBanY2TVlkYUV0MHUwSDJncU5pcW5aeFpzcWIwejBHRTZwNzhsTkZjSUhScGFId09FTU1wWnJrSW1ldjlNR1l1Z0x3VDlVSGl1d28?oc=5",
+   "when": "2026-11-21T09:42+05:30",
    "rule": "usfda|warning letter|form 483|import alert",
    "trusted": false,
    "stock": {
     "nse": "COHANCE",
     "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BANKINDIA",
-   "title": "‘Children Bank Of India’ On Rs 500 Notes: How Fraudsters Duped Gujarat Businessman Of Rs 40 Lakh With Fake Notes",
-   "source": "The Daily Jagran",
-   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSUF6UUZpZnk5Y2hoWkVCTGdIMmRTV1g5ZVRpRElja1FfZG16T284dFV1SnR6Q2Vxa1RvUzZMb2JBQ1NWYXhjVFRyUENfNzlSTmdMXy1oZWRoRkZzM0RyRjNURHdnWlZCSXZIdDREaE1kcGMxbXBsdlQzMHFncTFfWFlObzZaN0NERllYa0tLTlNfTDRNR0p6blNiZ3hzX0dWZmtwV1JkeVlXMURBM1RGOEl6Q1oxT1dJSzBteXRQa3BaNUZ3MVNUcnBEcmJ3OTZKN0Q0cHl3dUJDXzJ0QmUwVE8tY2xtNExmdGNzc1VQNFJ6UdIB-AFBVV95cUxQcDJnOER4eTl4OTdDNWdWVGxZRVVSemdYSFFNRGhfY1cyY3hOSnA0TG5RY2ltZFp6U2w0eUp0UkVLMU1UUFpqejJMVGZFU1p0a1ZKdlZWVXVQbE42MzQtbmY3MGVGX3Q5XzZfNlFiS05TLVNSSWVBUVQ2aVdfT2kxN2NXRXdpazlJVEpIbjFjY0tqcjRJMVNHbUVVZjhEaFRvTW1CSjc0b0NaY2hmUE0td3JWTHB6S0tBbkotNlBRVkpvTG9zdFdOcUlpRnh2RGNpam83dXFXaV85TV9pQUpOV0hfNmR2U2VIUEREcmJjMTNHTU94S2xXNw?oc=5",
-   "when": "2026-11-21T08:27+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
     "group": "holding"
    }
   },
@@ -185,44 +123,16 @@
    }
   },
   {
-   "nse": "JMFINANCIL",
-   "title": "JM Financial Acquires Shares In Foreign Subsidiary For Global Growth",
-   "source": "Sahi",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaWpuNUZGeHQ5RTlGM3ZZSGxWcF91VVExMldBOE9sTVJMaEdtRVB2RlVhdGVRUkVSbVhQdWh1dXNGeTRiSksyWEU2UEo3SWRYbExWOXAtQlc0cTk1ZW9QQ1Y1WU41TU1BVnl0RVpQdlA3dEpwOHdLVUlzTEpIUUdCd01zVjRib2Z2RFI4TzdrWF9fRnQzSHZhRWt3?oc=5",
-   "when": "2026-11-20T21:22+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "nse": "UJJIVANSFB",
+   "title": "Ujjivan SFB seeks RBI nod to extend Carol Furtado's tenure as interim CEO by 3 months",
+   "source": "bfsi.economictimes.indiatimes.com",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbEsyamRVdlR4Y3h4aEp3UTlCQUhTTFR2VmRnS1JJakxtRGpFa1dHWDBIY3BhTHJ0NzBadWNvMTJyTmpkQlRULWlTVWY0WFVNNDZVVWpqb3Z4ejBFOFhVODZwYWVadWY5VTZoTzBJSy1xNTVUODdMQjdWcFVIRmQ5U3N4TzhKQUpteUxVM1NzR0F3MkFSV3U3bVppYTJib2FGYUE4WC1TelB4dHUxSTVnWk1HZHZtcGJrZGZ5NnJZVTdGdjRjOWpWTHdlcG8wR3lfRXdYaGZOZjhBVzV5bi1pSS1uNNIB4wFBVV95cUxNbEsyamRVdlR4Y3h4aEp3UTlCQUhTTFR2VmRnS1JJakxtRGpFa1dHWDBIY3BhTHJ0NzBadWNvMTJyTmpkQlRULWlTVWY0WFVNNDZVVWpqb3Z4ejBFOFhVODZwYWVadWY5VTZoTzBJSy1xNTVUODdMQjdWcFVIRmQ5U3N4TzhKQUpteUxVM1NzR0F3MkFSV3U3bVppYTJib2FGYUE4WC1TelB4dHUxSTVnWk1HZHZtcGJrZGZ5NnJZVTdGdjRjOWpWTHdlcG8wR3lfRXdYaGZOZjhBVzV5bi1pSS1uNA?oc=5",
+   "when": "2026-11-21T08:21+05:30",
+   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
    "trusted": false,
    "stock": {
-    "nse": "JMFINANCIL",
-    "name": "JM Financial",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JUBLINGREA",
-   "title": "CFO Shuffle: Vedant Fashions appoints Vineet Poddar, Jubilant Ingrevia and Carysil see exits",
-   "source": "cfo.economictimes.indiatimes.com",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNN2doNG90NWpvTFJSajdtWHNPanAyNmNvd2RxXzF2ekxwNWZpYmVhWUJSWHpVR2hjbFNnRk55QWIyM2VCRU1DVnJ2TnRLSFlCWDJ1cWc0alNHOWhFRHFlQ29obkdLeWoyNFJOUFNtU1JrUFlIX0hsZlN1cFVjZV80U2ppUkVBS2ptWnFpQ1Z5QmhxbHpWalpRUDBzcGxReGR3WDhRWFhoaXlfNmFhdl9LTTAySWQ1emEwaHAzV3dUV1NSaEJ1VjV3aWhLUzl5QnZhTFZTYlc4LVZXQ2JYRFE0Z0p1a2YyQW5YTmF1c1hn0gHzAUFVX3lxTE50TkdhLVdKZk1Oa2FqeC01bXBqOWVFZHo4bUxLUDdNSDV2dXNYQ29rRUhLYkpWR3doNkhlX0lIZk0wMjdGOExVQkFZNmhhZ3dLQzV6YzR5cmE0c0VOQ2pfb2pHMnJjYk53TWF4bjh1ZW9YNVVJajQ0S25aaExFZjgtU281UGRyOG1aOW5uSVdURzJ6YUtNZUVsTXA0NlhxbEREWEZVcV9hcVkzRzFjTHA3M094TUVmX1JfYlZhWllzMEMzRFJpN2NkZHNLZWZycEJOUDBqLUFtUWFESTV1Q3FSdmRWX3daV1Nhbm03cS00VE5icw?oc=5",
-   "when": "2026-11-20T17:07+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "EQUITASBNK",
-   "title": "Equitas SFB Gets ₹3.88 Crore GST Order from Chennai Authority",
-   "source": "PSU Connect",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcF9QLUZHZ25IZE5TRDdYTXRDTnZMUjBzNk9tRGE2SjVYR2h3Zm1hVTRTTUh4ekpaN3ZSUWZwQ1pNaUdhdWpucUV3aWwzVHpsZjBwWkFPTjNPVWpneVVhRVBJbGh1Sm85QlBaYU1rUWJZc1llejRsMUcxSHNxS01nSEczZVIwRkNVUXpzaW96bnFyU21jTXhVc3RzWDg?oc=5",
-   "when": "2026-11-20T15:29+05:30",
-   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
-   "trusted": false,
-   "stock": {
-    "nse": "EQUITASBNK",
-    "name": "Equitas Small Finance Bank",
+    "nse": "UJJIVANSFB",
+    "name": "Ujjivan Small Finance Bank",
     "group": "holding"
    }
   }
@@ -684,6 +594,8 @@
   "BSE scrip list unavailable (HTTPError)",
   "BSE codes taken from bhavcopy 20 Nov",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (JSONDecodeError)"
+  "BSE announcements failed (JSONDecodeError)",
+  "BSE announcements failed (ReadTimeout)",
+  "Google News: 1 of 54 searches failed, 8 empty (HTTPError 408)"
  ]
 }
