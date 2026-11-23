@@ -1,138 +1,82 @@
 {
- "generated": "2026-11-22T13:53+05:30",
- "since": "2026-11-21T07:53+05:30",
+ "generated": "2026-11-23T14:53+05:30",
+ "since": "2026-11-22T08:53+05:30",
  "stock_count": 45,
  "health": {
   "NSE": "ok · 3",
   "BSE": "unavailable",
-  "News": "ok · 7"
+  "News": "ok · 3"
  },
  "high": [],
- "medium": [],
- "other": [
+ "medium": [
   {
-   "nse": "COHANCE",
+   "nse": "JMFINANCIL",
    "exchange": "NSE",
-   "when": "2026-11-21T09:35+05:30",
+   "when": "2026-11-23T09:54+05:30",
    "subject": "General Updates",
-   "detail": "Cohance Lifesciences Limited has informed the Exchange about General Updates",
-   "link": "https://nsearchives.nseindia.in/corporate/SUVENPHARMROHIT_21112026093458_Cohance_USFDA_disclosure_21112026.pdf",
-   "text": "General Updates Cohance Lifesciences Limited has informed the Exchange about General Updates",
-   "tier": "other",
-   "rule": null,
+   "detail": "JM Financial Limited has informed the Exchange that the Company has subscribed to 30,00,000 ordinary shares of USD 1 each of JM Financial Overseas Holdings Private Limited, wholly owned subsidiary of the Company.",
+   "link": "https://nsearchives.nseindia.in/corporate/JMFINANCIL_23112026095342_20112026StockExchangeIntimationInvestmentinOverseassigned.pdf",
+   "text": "General Updates JM Financial Limited has informed the Exchange that the Company has subscribed to 30,00,000 ordinary shares of USD 1 each of JM Financial Overseas Holdings Private Limited, wholly owned subsidiary of the Company.",
+   "tier": "medium",
+   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.in/corporate/SUVENPHARMROHIT_21112026093458_Cohance_USFDA_disclosure_21112026.pdf"
+     "https://nsearchives.nseindia.in/corporate/JMFINANCIL_23112026095342_20112026StockExchangeIntimationInvestmentinOverseassigned.pdf"
     ]
    ],
    "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
     "group": "holding"
    }
   }
  ],
+ "other": [],
  "dropped": 2,
  "news": [
   {
-   "nse": "COHANCE",
-   "title": "Cohance Lifesciences: USFDA inspects and classifies Telangana facility as ‘voluntary action indicated’",
-   "source": "CNBC TV18",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdGRmblRKOFlObnlyNlgzNXpEemU4UF9fWW91WHFXd2pIdWM4d1pTMjVLVHdYdFJlWWVwU2Naakhld0RZZXdnYUF2SE4tRktzcTZic1AtUTV1dFNGdmY2SGZIX0h1SU5IS3Q2RjlWelBfQUZRNHFYVDh0TXlwN2NGSVBZaGxnbUVqR21pMXJFYzF3YVpRZEFVM2hKRDNydVdMeGxsamxITTdQekZ1cEpGWVQ3NkY3OC1MZVU4NHplRVpxU3JETWhRclQwMWJXOExURWJKcVdUT1JzYmV40gHiAUFVX3lxTE0wUlFDU1ppNWphZ1hEa09iNElrdDFEakV0cEFVOUZGbGphekNXVzdfVWlMVjVCT2g1SUpsNkVDUUd4cWVtdjRFTFdXZmN5UVYzWlAtUmhkakthbGRkRWRTLXAzeU5pOU80YV82SF8zS19ZT1VJWTN3UXR4bnFLb25kdWstTjdtSnVfbXBfYTlIM09iNndEcTYtcG5LLVJ2MlZXZnJQQ182YTRuQm1QQVVla3ZhdUJwOXpJUkhvWmJZYVJoTVV1MUpuZUs4TW13RGhhR1dKNGd5UXZoajF0VlF1TlE?oc=5",
-   "when": "2026-11-21T15:31+05:30",
-   "rule": "usfda|warning letter|form 483|import alert",
-   "trusted": true,
+   "nse": "JMFINANCIL",
+   "title": "Rail container decline contrasts with port growth, JM Financial flags uneven transport outlook",
+   "source": "Maritime Gateway",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVW1PVWtqdktkVzc2Y2l0LUcyN29aRjk5SXhKNjVpamN6aG1icV9BRHVjYWFKNG8xaGNqc1RjMXE0bTJXZkxxakJGQmNNY1VmOFVSai05aHU4elNqM0p0S0xDUWNGWl9jYTg5bmlIeUZGeTNOSFVocERVYTNtRDF0cnRoaVFMRDRlTTA0cGNERkFyZS16Z05WdGdrZEZZWHhjYWNGbmktUjB5NDRwclI0ZHdUSjRsblhPQ0hxellXanJ2bGhx?oc=5",
+   "when": "2026-11-23T08:44+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
    "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
+    "nse": "JMFINANCIL",
+    "name": "JM Financial",
     "group": "holding"
    }
   },
   {
-   "nse": "VOGL",
-   "title": "United Drilling Tools wins Rs 1.73 crore work order from Vedanta Oil and Gas",
+   "nse": "VIYASH",
+   "title": "Viyash Scientific acquires BioForLife for EUR 16.975 million to expand in Europe",
    "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaFFtbXpjR0l2WGdGZzBtRm5MXzJhWXlnTVBtX3JlWS05ZnRfYmJXbzhJWk5obHd2YmUyekJNZWhrTUdydWNmcEFmbjloVUtJSzJzNU5lbExRZWM0VmJEQ2tyZmw4NmlBcGwxZU45Wjd0M1RHbk9HQ1NsMU9fMVg0S3J3M1V4NVBEZWZWUFNQT0dhUE1YV3VBNHk3cURCR0ZQXzUzSGx0TnBnbVhkaWhFVENTeHZkZzBZcC1RdGRjLThxZw?oc=5",
-   "when": "2026-11-21T15:22+05:30",
-   "rule": "order (win|worth|from)|bags|wins .*order|contract worth|letter of award",
+   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPcllZS2dLNVU1SHh6bU9LTzJteE1TY0pDSC1GN2JCTm4yeWFnR1JRRFl6bS1sdVVrQlVlMXFzR3VOOGdkTTI1dzRESm5CeHc3dllKNWZvaTNjS2pCbWMwU2d3Vkh5STVGNWJUN1QzbTVUQi1jSWxaeXh6NlM4SUxPUmJJdUhmbVhLOGY0RnY5Q3JHWmlHOExzSTcyYnhrWWRhcnZwaVdYV1NSdVl1Y04xbXFRNkpCcVFGMkwtVDZUdlktZEZqRFlRc3QzM3RWMnktUnc3aENYYWJwc3VPT3pFT01hVkpLREwtblY0ZnpJM2pFN0lvV0dpM0MxMVlPTFoxNHBWa0VoYWctREJ3QkRYZ1QwQjhkenB3?oc=5",
+   "when": "2026-11-22T19:53+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
-    "nse": "VOGL",
-    "name": "Vedanta Oil and Gas",
+    "nse": "VIYASH",
+    "name": "Viyash Scientific",
     "group": "holding"
    }
   },
   {
-   "nse": "JMFINANCIL",
-   "title": "Transport sector outlook: Weak rail container volumes, subdued air traffic to weigh, JM Financial says",
-   "source": "BusinessLine",
-   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNdldEMmtwbjI3dy1lY0V5dzJnVHkzQjJPbEppNTRoeDRFM0IzZkhyQ0o4djFIUkZjNW5Bdl85SE1lVUc2TFA3M25WSDFidl9zc3g1V082NVFkWExtc0dIejJPaEpOcTZEY2hOZjB4QlNjak54ZXF4T01uMnlMVjBNc3VWb2NRekRYT3RfaFNiS1ZYMFNiZWFZamt5dE90UDJ5YmFuZ2xtZG1XU0Q3OEd4aHBuOEg2Y0hyS2c4eXd3Z1NuOGlGNGVpVGEwMm1NZmc1aHNiaHVBS0hCb0I5NEEycDBZNlVESU8xMG02ejRNbVFOVnFZaWJaNE45bUp4NkV1UFpjbNIBiwJBVV95cUxQZkhMZF9MRDdoSENOWE50dy1DYlJxZzQ3SWhXM0dvbnJFeUw2VzZYZUYyZElBTmtGT0RDZk1GUGM0OFhjQXZaVVhWZTZzUnZ5YXgyUlExR3R4bVdTOXhxZmg3Mm45dkdtOXNmMlVHU0FVcXkzSHR1ZGdCSzBtYVItLVoxYXRQVVhtRmMxMVlva3VIUS1uNkxkdE5ISTZJOHdmWDYyNlhqblBKVjFqWWNBUWh0a1hOTGlrVGtnXzJacUNhSnZ5eE9YWHI2RmRvbjBLSy1ZV0RjSVloN2FPeTNVSUFUZlJjaVVrNDU5aWI3Mk1FYmRhUVYzYS1SUFJTa1BvNG5zRzF0M3FvVmc?oc=5",
-   "when": "2026-11-21T12:35+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": true,
-   "stock": {
-    "nse": "JMFINANCIL",
-    "name": "JM Financial",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JMFINANCIL",
-   "title": "JM Financial Pumps Rs 41 Crore Into Overseas Arm JM Financial Overseas Holdings To Support Global Expansion",
-   "source": "Free Press Journal",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTEhxVnVoUHl1VjBhc1J0Z0hXRVVUbGxxSTlPamFMdWpFOVUtVVFFNUpmVFRWMk5OczJycnZHUVJjeEh1bXVhUHlLX244MmVTWXRtNk5zRGhZWEs0OUkwMzZ2QldHUnRuVEdycUhVck1mNHl4cDNyWUQ0VW5GeW1OSlhtMm1odTRDZkhZN05WZGF6bTdBdE4yTEEyRUx2MVB4TUx4M1U2VS1NcEE5NEQ3WmZkR1dJT0FxLW5pUVhFYUU5S1NMZTdmWl9XTGZ2cnhObXB2MUFjRC01Ykg0ODlpMzZVaTJSRG96TmfSAe8BQVVfeXFMUG5kTUtLaEtQaWtDd0tIVTV5T2x0TDFCV2hOSkJpcmNPRlB6YWRuMkVucERGNGVydGw0dUUwZHFmbUk1THVGMVk3QmhMR05Mc1ZfYlFwcm5LNzBNbDF3NFF5b0M5MjNfQ3NNMUh2OFE3YWtqQXlFS3R3azR1VTdwVHRieG4xU05qMzZuOF9kQmhoUHEwUVNSNkZSM016b2RVNHJaNmpDYlBhUW9hZW96dWlUNDhCQWZsNlVZUEhjNUxKanlVNGhOOGRLLVNZcFlOR2t4ZnAtcjNYa0dtekVBb2d2LURNdFF0S1ppcVRlN1k?oc=5",
-   "when": "2026-11-21T09:51+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "JMFINANCIL",
-    "name": "JM Financial",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "title": "Cohance Lifesciences' Shamshabad facility receives VAI classification from USFDA",
-   "source": "Business Upturn",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPc25DMFdKQkh4cDZMcW1RZ05ESEJCUmVSa3F4a3ZYTDVYTGJPbnlCS0xHeUZRNU1rcmE0dDhYUmNkN2gyUkViQ0QyY0lyZDZyb1NRM0NUOGxnTDdtVGR4LVZneU9PNlhMVjhVQWhBanY2TVlkYUV0MHUwSDJncU5pcW5aeFpzcWIwejBHRTZwNzhsTkZjSUhScGFId09FTU1wWnJrSW1ldjlNR1l1Z0x3VDlVSGl1d28?oc=5",
-   "when": "2026-11-21T09:42+05:30",
-   "rule": "usfda|warning letter|form 483|import alert",
-   "trusted": false,
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ITC",
-   "title": "15,409 Call Contracts Traded on ITC Ltd. as Stock Holds Near Rs 300 Strike Ahead of Expiry",
-   "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTzQtN3FRTW9PUFdVWFk3VDk0Qlp1QmctUmliN3VvZUhCZHk0cmM3OEtreFhudGRXQ2FjbTlCVVBseGpmSU16WU9CZG16dkU0emdYSktUVi1VdkFxZWU1YkhJZm9FSWc1a2J2NHllaVdpTHRtMlNCaDBVMmVramkzNGRKQVJ3NTUzaWoxeDdObjdjRE1KZFZpbFhwOFRJZnBvT0x1NS1tUUtEeG1fd0RCZ01yMDA5YTN1c3otUWRYV3E?oc=5",
-   "when": "2026-11-21T08:26+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "ITC",
-    "name": "ITC Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "UJJIVANSFB",
-   "title": "Ujjivan SFB seeks RBI nod to extend Carol Furtado's tenure as interim CEO by 3 months",
-   "source": "bfsi.economictimes.indiatimes.com",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbEsyamRVdlR4Y3h4aEp3UTlCQUhTTFR2VmRnS1JJakxtRGpFa1dHWDBIY3BhTHJ0NzBadWNvMTJyTmpkQlRULWlTVWY0WFVNNDZVVWpqb3Z4ejBFOFhVODZwYWVadWY5VTZoTzBJSy1xNTVUODdMQjdWcFVIRmQ5U3N4TzhKQUpteUxVM1NzR0F3MkFSV3U3bVppYTJib2FGYUE4WC1TelB4dHUxSTVnWk1HZHZtcGJrZGZ5NnJZVTdGdjRjOWpWTHdlcG8wR3lfRXdYaGZOZjhBVzV5bi1pSS1uNNIB4wFBVV95cUxNbEsyamRVdlR4Y3h4aEp3UTlCQUhTTFR2VmRnS1JJakxtRGpFa1dHWDBIY3BhTHJ0NzBadWNvMTJyTmpkQlRULWlTVWY0WFVNNDZVVWpqb3Z4ejBFOFhVODZwYWVadWY5VTZoTzBJSy1xNTVUODdMQjdWcFVIRmQ5U3N4TzhKQUpteUxVM1NzR0F3MkFSV3U3bVppYTJib2FGYUE4WC1TelB4dHUxSTVnWk1HZHZtcGJrZGZ5NnJZVTdGdjRjOWpWTHdlcG8wR3lfRXdYaGZOZjhBVzV5bi1pSS1uNA?oc=5",
-   "when": "2026-11-21T08:21+05:30",
+   "nse": "BANKINDIA",
+   "title": "Bank of India pursues guarantor for ₹94 crore, nearly three years after Saturn Rings insolvency resolution",
+   "source": "Insolvency Tracker",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNeW1pMzkzOV8zWVhFVllJM2pBWE4xc2VKVzd0TG0ycWRWMDR1aGk4NWM0dm12VC1tVkNlTDhqVExERlVKSnhWcGtkOTBZcy0tV25fZlhjY3hjRjNhaEdKRFRxTFNHV3J6Zk9FbzBJaHItVk5zZ3oySG1mV2Nwb0k2aVdIUDlWVHk5OG1RVFZqWTZlem9sc3I5UHV6b1oyUFdDMW1wRGZWQTBkYmFwUTEwUUNwRTEtTnV6d0ZESndjZUpHWnQ5OE5va09zclUyaDZJbUZfaDBqcE5QUU44ZjhtNjd0cGI1VTU2LUE?oc=5",
+   "when": "2026-11-22T14:20+05:30",
    "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
    "trusted": false,
    "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
     "group": "holding"
    }
   }
@@ -595,7 +539,6 @@
   "BSE codes taken from bhavcopy 20 Nov",
   "BSE announcements failed (HTTPError)",
   "BSE announcements failed (JSONDecodeError)",
-  "BSE announcements failed (ReadTimeout)",
-  "Google News: 1 of 54 searches failed, 8 empty (HTTPError 408)"
+  "BSE announcements failed (ReadTimeout)"
  ]
 }
