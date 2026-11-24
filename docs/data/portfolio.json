@@ -1,43 +1,290 @@
 {
- "generated": "2026-11-23T14:53+05:30",
- "since": "2026-11-22T08:53+05:30",
+ "generated": "2026-11-24T16:48+05:30",
+ "since": "2026-11-23T10:48+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 3",
+  "NSE": "ok · 14",
   "BSE": "unavailable",
-  "News": "ok · 3"
+  "News": "ok · 6"
  },
- "high": [],
- "medium": [
+ "high": [
   {
-   "nse": "JMFINANCIL",
+   "nse": "MEDIASSIST",
    "exchange": "NSE",
-   "when": "2026-11-23T09:54+05:30",
-   "subject": "General Updates",
-   "detail": "JM Financial Limited has informed the Exchange that the Company has subscribed to 30,00,000 ordinary shares of USD 1 each of JM Financial Overseas Holdings Private Limited, wholly owned subsidiary of the Company.",
-   "link": "https://nsearchives.nseindia.in/corporate/JMFINANCIL_23112026095342_20112026StockExchangeIntimationInvestmentinOverseassigned.pdf",
-   "text": "General Updates JM Financial Limited has informed the Exchange that the Company has subscribed to 30,00,000 ordinary shares of USD 1 each of JM Financial Overseas Holdings Private Limited, wholly owned subsidiary of the Company.",
-   "tier": "medium",
-   "rule": "change in (senior )?management|change in director|nominee director|change in status|subsidiary|\\bfine[sd]?\\b|medium term note|bond issue",
+   "when": "2026-11-23T17:45+05:30",
+   "subject": "Buyback",
+   "detail": "Medi Assist Healthcare Services Limited has informed the Exchange about the Letter of Offer in relation to the buyback of fully paid-up equity shares of the Company through tender offer route",
+   "link": "https://nsearchives.nseindia.in/corporate/MEDIASSIST_23112026174239_MAHSSEIntimationLetterOfOffersd.pdf",
+   "text": "Buyback Medi Assist Healthcare Services Limited has informed the Exchange about the Letter of Offer in relation to the buyback of fully paid-up equity shares of the Company through tender offer route",
+   "tier": "high",
+   "rule": "buy-?back|bonus issue|stock split|sub-?division",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.in/corporate/JMFINANCIL_23112026095342_20112026StockExchangeIntimationInvestmentinOverseassigned.pdf"
+     "https://nsearchives.nseindia.in/corporate/MEDIASSIST_23112026174239_MAHSSEIntimationLetterOfOffersd.pdf"
     ]
    ],
    "stock": {
-    "nse": "JMFINANCIL",
-    "name": "JM Financial",
+    "nse": "MEDIASSIST",
+    "name": "Medi Assist Healthcare Services",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "KRSNAA",
+   "exchange": "NSE",
+   "when": "2026-11-23T16:52+05:30",
+   "subject": "Resignation of Director/KMP/SMP",
+   "detail": "Krsnaa Diagnostics Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+   "link": "https://nsearchives.nseindia.in/corporate/KRSNAA_ROID_105154_KMP_Doc.zip",
+   "text": "Resignation of Director/KMP/SMP Krsnaa Diagnostics Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+   "tier": "high",
+   "rule": "resignation|cessation|appointment of .{0,60}(\\bmd\\b|\\bceo\\b|\\bcfo\\b|managing director|chief executive|chief financial|whole[- ]time)",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/KRSNAA_ROID_105154_KMP_Doc.zip"
+    ]
+   ],
+   "stock": {
+    "nse": "KRSNAA",
+    "name": "Krsnaa Diagnostics",
     "group": "holding"
    }
   }
  ],
- "other": [],
- "dropped": 2,
+ "medium": [
+  {
+   "nse": "RBZJEWEL",
+   "exchange": "NSE",
+   "when": "2026-11-24T16:12+05:30",
+   "subject": "Press Release",
+   "detail": "Rbz Jewellers Limited has informed the Exchange regarding a press release dated November 24, 2026, titled \"Opening of New Showroom of the Company at Rajkot - Gujarat \".",
+   "link": "https://nsearchives.nseindia.in/corporate/RBZ_24112026161202_SigedPressRelease.pdf",
+   "text": "Press Release Rbz Jewellers Limited has informed the Exchange regarding a press release dated November 24, 2026, titled \"Opening of New Showroom of the Company at Rajkot - Gujarat \".",
+   "tier": "medium",
+   "rule": "press release|media release",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/RBZ_24112026161202_SigedPressRelease.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RBZJEWEL",
+    "name": "RBZ Jewellers",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "KRSNAA",
+   "exchange": "NSE",
+   "when": "2026-11-23T16:40+05:30",
+   "subject": "Resignation",
+   "detail": "Krsnaa Diagnostics Limited has informed the Exchange regarding Resignation of Sujoy Sudipta Bose as Company Secretary & Compliance Officer of the company w.e.f. November 30, 2026.",
+   "link": "https://nsearchives.nseindia.in/corporate/KRSNAA_23112026163946_543328_Signed.pdf",
+   "text": "Resignation Krsnaa Diagnostics Limited has informed the Exchange regarding Resignation of Sujoy Sudipta Bose as Company Secretary & Compliance Officer of the company w.e.f. November 30, 2026.",
+   "tier": "medium",
+   "rule": "company secretary|compliance officer",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/KRSNAA_23112026163946_543328_Signed.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "KRSNAA",
+    "name": "Krsnaa Diagnostics",
+    "group": "holding"
+   }
+  }
+ ],
+ "other": [
+  {
+   "nse": "RBZJEWEL",
+   "exchange": "NSE",
+   "when": "2026-11-24T16:09+05:30",
+   "subject": "General Updates",
+   "detail": "Rbz Jewellers Limited has informed the Exchange about Opening of New Showroom of the Company at Rajkot- Gujarat",
+   "link": "https://nsearchives.nseindia.in/corporate/RBZ_24112026160852_SignedReg30Openingofnew_showroom24112026.pdf",
+   "text": "General Updates Rbz Jewellers Limited has informed the Exchange about Opening of New Showroom of the Company at Rajkot- Gujarat",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/RBZ_24112026160852_SignedReg30Openingofnew_showroom24112026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "RBZJEWEL",
+    "name": "RBZ Jewellers",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "HCG",
+   "exchange": "NSE",
+   "when": "2026-11-24T12:47+05:30",
+   "subject": "General Updates",
+   "detail": "Healthcare Global Enterprises Limited has informed the Exchange regarding change in website address of HealthCare Global Enterprises Limited",
+   "link": "https://nsearchives.nseindia.in/corporate/HCG1_24112026124640_Intimation_-_Change_in_Website_Address.pdf",
+   "text": "General Updates Healthcare Global Enterprises Limited has informed the Exchange regarding change in website address of HealthCare Global Enterprises Limited",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/HCG1_24112026124640_Intimation_-_Change_in_Website_Address.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "HCG",
+    "name": "Healthcare Global Enterprises",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "UJJIVANSFB",
+   "exchange": "NSE",
+   "when": "2026-11-23T17:40+05:30",
+   "subject": "General Updates",
+   "detail": "Ujjivan Small Finance Bank Limited has informed the Exchange about General Updates",
+   "link": "https://nsearchives.nseindia.in/corporate/UJJIVANBANK_23112026174031_122_Announcement__NSE_Nov_23_2026.pdf",
+   "text": "General Updates Ujjivan Small Finance Bank Limited has informed the Exchange about General Updates",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/UJJIVANBANK_23112026174031_122_Announcement__NSE_Nov_23_2026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "UJJIVANSFB",
+    "name": "Ujjivan Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "VAIBHAVGBL",
+   "exchange": "NSE",
+   "when": "2026-11-23T16:47+05:30",
+   "subject": "Updates",
+   "detail": "Vaibhav Global Limited has informed the Exchange regarding 'Change in Corporate Office address of Registrar to an Issue and Share Transfer Agent'.",
+   "link": "https://nsearchives.nseindia.in/corporate/VAIBHAVGBL_23112026164716_Kfin_VGL_Signed.pdf",
+   "text": "Updates Vaibhav Global Limited has informed the Exchange regarding 'Change in Corporate Office address of Registrar to an Issue and Share Transfer Agent'.",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/VAIBHAVGBL_23112026164716_Kfin_VGL_Signed.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "VAIBHAVGBL",
+    "name": "Vaibhav Global",
+    "group": "holding"
+   }
+  }
+ ],
+ "dropped": 6,
  "news": [
+  {
+   "nse": "PARAGMILK",
+   "title": "Parag Milk Foods opens 53,837 sq ft distribution hub in Bhiwandi to support expansion",
+   "source": "ThePrint",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV3BFbFRlSGstcHdqUE8yMkxQNGlJQnZTVnJmRm1JQUFlck9PU3NCcVhzMkpOLWthMEFYdDh5R3V0WW5STnRmazVOMTZDWjNNai1DMVh6V0s1MzhlOUthcW5JeHlzdHRTRHEwbW84TEdMRDNfdEgzTWNlVEp4YXpGU05HSHl4eUhkRWhlUWhXSlJUcmszaEMzUkE3U2JjTmZxOU9fd3VoX0J0XzBwblpMc3ctbGhVcVlQd2txRmp2QWt5cE3SAcMBQVVfeXFMUFdwRWxUZUhrLXB3alBPMjJMUDRpSUJ2U1ZyZkZtSUFBZXJPT1NzQnFYczJKTi1rYTBBWHQ4eUd1dFluUk50Zms1TjE2Q1ozTWotQzFYeldLNTM4ZTlLYXFuSXh5c3R0U0RxMG1vOExHTEQzX3RIM01jZVRKeGF6RlNOR0h5eHlIZEVoZVFoV0pSVHJrM2hDM1JBN1NiY05mcTlPX3d1aF9CdF8wcG5aTHN3LWxoVXFZUHdrcUZqdkFreXBN?oc=5",
+   "when": "2026-11-24T13:17+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "PARAGMILK",
+    "name": "Parag Milk Foods",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "UJJIVANSFB",
+   "title": "Ujjivan Small Finance Bank Limited (NSE:UJJIVANSFB) Clarifies Preferential Issue Details to NSE",
+   "source": "Kalkine India",
+   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNRXRrWXVfdC1RUG9mb0NValdwX0wxSjQtZE5SdnJSVlBCQ0pnYkdQbXowM1E0UTV6QnZ3cDJ5d21TcW5ELUZvc1FTaHpaWkszaWxXU2JJazQ0SmcyVlhXMVVlbFYyQ2R5WG91SHdSSFhoZVA3aGxDOFJVVnhkSmROME9RTUwwUUFUeWJmRE4tRTc3WWdNOWVLMDB6NGRjalJhYTlvcWFkaHZVM1hyN1VoLVlELWJqaVZiSUZpZkRWODJaZEFvVW4zVDhLTWd6V1VPXzZyd1llTG54cnJHdmdDNnhidUk0S1ZZTDlfbm12aTg2TGx5R3A0aUFtZC1lZUxIRXZMejRxM3FqZXA5NTdSckR3WVlQQXo4?oc=5",
+   "when": "2026-11-24T13:08+05:30",
+   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
+   "trusted": false,
+   "stock": {
+    "nse": "UJJIVANSFB",
+    "name": "Ujjivan Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BANKINDIA",
+   "title": "S.K. Majumdar, Executive Director, Canara Bank, and Pramod Kumar Dwibedi, Executive Director, Bank of India, were appointed as Non-Executive Directors to the General Insurance Corporation of India (GIC Re) Board.",
+   "source": "https://whispersinthecorridors.net/",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZm9hMzFPX3MzOXRlNlkzeGUwT1h6VG1Vc3phUVR5SkhMdjdXT3gtSTlGcUczQ1U5dGloa2R0M05zVTN2QUV5V0ZWaUNzcXVsaWVnQUJXR2RnblotbW9RUS13akZDamVUVW5Va0U1NXByM3pOVWw2UWJad1hPVjkwamlVcGNSV0MzT1lEZkFPR0ZQUWVJQktzS0tYYXVJVmticFo4WmZnU0lBMWZWSkgyMEtfRjlXUFBM?oc=5",
+   "when": "2026-11-24T12:49+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "KRSNAA",
+   "title": "Krsnaa Diagnostics KMP Sujoy Bose steps down",
+   "source": "Medical Buyer",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9DOG1CT0NJam9RUmQ4dnVzcE4yTUtTdVBXenk2a3luYXp6enJGcHdBdUZBQy1Dek9SakhWOVN6R3hkOUM2bmRqV21YNzRUemhrQ3MzNWJQRG5NNkpqbUtiNnMza1dyOWxCRDgwdFRpNjNQVURGZExXV2U0Z2U?oc=5",
+   "when": "2026-11-24T07:41+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "trusted": false,
+   "stock": {
+    "nse": "KRSNAA",
+    "name": "Krsnaa Diagnostics",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "COHANCE",
+   "title": "Cohance Lifesciences Gets USFDA VAI for Hyderabad Facilities",
+   "source": "Rediff MoneyWiz",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLW9GTjFWdU1sblljbFBmRU9tQU1VSHlUNHY5Q1VOYzl4bWcwZG1xMHVuY2UxNGJ5QnBOUjdiM0ZGQUMyeHR2VTFpZ3JQc0xuNVdCQVhEcm5hUzNDWktBbFBROWgtdF9UQkxHRWJqQzBvTWtSRjRLTWJtRUQwUzkwZmxwYl9DaTFBVUlPNF8ydVNiZ0V5MXNjMExUZ0xNeHEwNnFYUFpjSWdXUVFIalphcDhn0gG3AUFVX3lxTE9jM05xSnF5anUwQUNqX0g0bGUyRDNaeWRxUXR5WWZNN3JJdFY0VFpzVmFLVnRZbGJOM3Vrc2x0c1RCWlo4UjhON0M5MDhnQWliaDdpQzJBNG96d2dyaFFJTjNnc0dWTlgtMm11cWdBcmJtSFlpRVg4bE1DRG5UcVRZalFZZl9iY2cyekRkRDRIbzFpQ3JYblJpMWFBUkNKR2w3RS1TenBPdWlxckpJRS0tZnNDU0haWQ?oc=5",
+   "when": "2026-11-23T16:56+05:30",
+   "rule": "usfda|warning letter|form 483|import alert",
+   "trusted": false,
+   "stock": {
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
+    "group": "holding"
+   }
+  },
   {
    "nse": "JMFINANCIL",
    "title": "Rail container decline contrasts with port growth, JM Financial flags uneven transport outlook",
@@ -49,34 +296,6 @@
    "stock": {
     "nse": "JMFINANCIL",
     "name": "JM Financial",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "VIYASH",
-   "title": "Viyash Scientific acquires BioForLife for EUR 16.975 million to expand in Europe",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPcllZS2dLNVU1SHh6bU9LTzJteE1TY0pDSC1GN2JCTm4yeWFnR1JRRFl6bS1sdVVrQlVlMXFzR3VOOGdkTTI1dzRESm5CeHc3dllKNWZvaTNjS2pCbWMwU2d3Vkh5STVGNWJUN1QzbTVUQi1jSWxaeXh6NlM4SUxPUmJJdUhmbVhLOGY0RnY5Q3JHWmlHOExzSTcyYnhrWWRhcnZwaVdYV1NSdVl1Y04xbXFRNkpCcVFGMkwtVDZUdlktZEZqRFlRc3QzM3RWMnktUnc3aENYYWJwc3VPT3pFT01hVkpLREwtblY0ZnpJM2pFN0lvV0dpM0MxMVlPTFoxNHBWa0VoYWctREJ3QkRYZ1QwQjhkenB3?oc=5",
-   "when": "2026-11-22T19:53+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "VIYASH",
-    "name": "Viyash Scientific",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BANKINDIA",
-   "title": "Bank of India pursues guarantor for ₹94 crore, nearly three years after Saturn Rings insolvency resolution",
-   "source": "Insolvency Tracker",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNeW1pMzkzOV8zWVhFVllJM2pBWE4xc2VKVzd0TG0ycWRWMDR1aGk4NWM0dm12VC1tVkNlTDhqVExERlVKSnhWcGtkOTBZcy0tV25fZlhjY3hjRjNhaEdKRFRxTFNHV3J6Zk9FbzBJaHItVk5zZ3oySG1mV2Nwb0k2aVdIUDlWVHk5OG1RVFZqWTZlem9sc3I5UHV6b1oyUFdDMW1wRGZWQTBkYmFwUTEwUUNwRTEtTnV6d0ZESndjZUpHWnQ5OE5va09zclUyaDZJbUZfaDBqcE5QUU44ZjhtNjd0cGI1VTU2LUE?oc=5",
-   "when": "2026-11-22T14:20+05:30",
-   "rule": "probe|\\braid|\\bsearch(es)?\\b|\\bED\\b|enforcement directorate|sebi|\\brbi\\b|penalt|\\bfined?\\b|\\bban(s|ned)?\\b|show.?cause|nclt|insolvency",
-   "trusted": false,
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
     "group": "holding"
    }
   }
@@ -536,9 +755,9 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 20 Nov",
-  "BSE announcements failed (HTTPError)",
+  "BSE codes taken from bhavcopy 23 Nov",
   "BSE announcements failed (JSONDecodeError)",
+  "BSE announcements failed (HTTPError)",
   "BSE announcements failed (ReadTimeout)"
  ]
 }
