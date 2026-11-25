@@ -1,64 +1,13 @@
 {
- "generated": "2026-11-24T16:48+05:30",
- "since": "2026-11-23T10:48+05:30",
+ "generated": "2026-11-25T15:33+05:30",
+ "since": "2026-11-24T09:33+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 14",
+  "NSE": "ok · 6",
   "BSE": "unavailable",
-  "News": "ok · 6"
+  "News": "ok · 3"
  },
- "high": [
-  {
-   "nse": "MEDIASSIST",
-   "exchange": "NSE",
-   "when": "2026-11-23T17:45+05:30",
-   "subject": "Buyback",
-   "detail": "Medi Assist Healthcare Services Limited has informed the Exchange about the Letter of Offer in relation to the buyback of fully paid-up equity shares of the Company through tender offer route",
-   "link": "https://nsearchives.nseindia.in/corporate/MEDIASSIST_23112026174239_MAHSSEIntimationLetterOfOffersd.pdf",
-   "text": "Buyback Medi Assist Healthcare Services Limited has informed the Exchange about the Letter of Offer in relation to the buyback of fully paid-up equity shares of the Company through tender offer route",
-   "tier": "high",
-   "rule": "buy-?back|bonus issue|stock split|sub-?division",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/MEDIASSIST_23112026174239_MAHSSEIntimationLetterOfOffersd.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "MEDIASSIST",
-    "name": "Medi Assist Healthcare Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "KRSNAA",
-   "exchange": "NSE",
-   "when": "2026-11-23T16:52+05:30",
-   "subject": "Resignation of Director/KMP/SMP",
-   "detail": "Krsnaa Diagnostics Limited has informed the Exchange about Resignation of Director/KMP/SMP",
-   "link": "https://nsearchives.nseindia.in/corporate/KRSNAA_ROID_105154_KMP_Doc.zip",
-   "text": "Resignation of Director/KMP/SMP Krsnaa Diagnostics Limited has informed the Exchange about Resignation of Director/KMP/SMP",
-   "tier": "high",
-   "rule": "resignation|cessation|appointment of .{0,60}(\\bmd\\b|\\bceo\\b|\\bcfo\\b|managing director|chief executive|chief financial|whole[- ]time)",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/KRSNAA_ROID_105154_KMP_Doc.zip"
-    ]
-   ],
-   "stock": {
-    "nse": "KRSNAA",
-    "name": "Krsnaa Diagnostics",
-    "group": "holding"
-   }
-  }
- ],
+ "high": [],
  "medium": [
   {
    "nse": "RBZJEWEL",
@@ -82,31 +31,6 @@
    "stock": {
     "nse": "RBZJEWEL",
     "name": "RBZ Jewellers",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "KRSNAA",
-   "exchange": "NSE",
-   "when": "2026-11-23T16:40+05:30",
-   "subject": "Resignation",
-   "detail": "Krsnaa Diagnostics Limited has informed the Exchange regarding Resignation of Sujoy Sudipta Bose as Company Secretary & Compliance Officer of the company w.e.f. November 30, 2026.",
-   "link": "https://nsearchives.nseindia.in/corporate/KRSNAA_23112026163946_543328_Signed.pdf",
-   "text": "Resignation Krsnaa Diagnostics Limited has informed the Exchange regarding Resignation of Sujoy Sudipta Bose as Company Secretary & Compliance Officer of the company w.e.f. November 30, 2026.",
-   "tier": "medium",
-   "rule": "company secretary|compliance officer",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/KRSNAA_23112026163946_543328_Signed.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "KRSNAA",
-    "name": "Krsnaa Diagnostics",
     "group": "holding"
    }
   }
@@ -161,59 +85,9 @@
     "name": "Healthcare Global Enterprises",
     "group": "holding"
    }
-  },
-  {
-   "nse": "UJJIVANSFB",
-   "exchange": "NSE",
-   "when": "2026-11-23T17:40+05:30",
-   "subject": "General Updates",
-   "detail": "Ujjivan Small Finance Bank Limited has informed the Exchange about General Updates",
-   "link": "https://nsearchives.nseindia.in/corporate/UJJIVANBANK_23112026174031_122_Announcement__NSE_Nov_23_2026.pdf",
-   "text": "General Updates Ujjivan Small Finance Bank Limited has informed the Exchange about General Updates",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/UJJIVANBANK_23112026174031_122_Announcement__NSE_Nov_23_2026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "VAIBHAVGBL",
-   "exchange": "NSE",
-   "when": "2026-11-23T16:47+05:30",
-   "subject": "Updates",
-   "detail": "Vaibhav Global Limited has informed the Exchange regarding 'Change in Corporate Office address of Registrar to an Issue and Share Transfer Agent'.",
-   "link": "https://nsearchives.nseindia.in/corporate/VAIBHAVGBL_23112026164716_Kfin_VGL_Signed.pdf",
-   "text": "Updates Vaibhav Global Limited has informed the Exchange regarding 'Change in Corporate Office address of Registrar to an Issue and Share Transfer Agent'.",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/VAIBHAVGBL_23112026164716_Kfin_VGL_Signed.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "VAIBHAVGBL",
-    "name": "Vaibhav Global",
-    "group": "holding"
-   }
   }
  ],
- "dropped": 6,
+ "dropped": 3,
  "news": [
   {
    "nse": "PARAGMILK",
@@ -244,20 +118,6 @@
    }
   },
   {
-   "nse": "BANKINDIA",
-   "title": "S.K. Majumdar, Executive Director, Canara Bank, and Pramod Kumar Dwibedi, Executive Director, Bank of India, were appointed as Non-Executive Directors to the General Insurance Corporation of India (GIC Re) Board.",
-   "source": "https://whispersinthecorridors.net/",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZm9hMzFPX3MzOXRlNlkzeGUwT1h6VG1Vc3phUVR5SkhMdjdXT3gtSTlGcUczQ1U5dGloa2R0M05zVTN2QUV5V0ZWaUNzcXVsaWVnQUJXR2RnblotbW9RUS13akZDamVUVW5Va0U1NXByM3pOVWw2UWJad1hPVjkwamlVcGNSV0MzT1lEZkFPR0ZQUWVJQktzS0tYYXVJVmticFo4WmZnU0lBMWZWSkgyMEtfRjlXUFBM?oc=5",
-   "when": "2026-11-24T12:49+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
-   "trusted": false,
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
-    "group": "holding"
-   }
-  },
-  {
    "nse": "KRSNAA",
    "title": "Krsnaa Diagnostics KMP Sujoy Bose steps down",
    "source": "Medical Buyer",
@@ -268,34 +128,6 @@
    "stock": {
     "nse": "KRSNAA",
     "name": "Krsnaa Diagnostics",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "title": "Cohance Lifesciences Gets USFDA VAI for Hyderabad Facilities",
-   "source": "Rediff MoneyWiz",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLW9GTjFWdU1sblljbFBmRU9tQU1VSHlUNHY5Q1VOYzl4bWcwZG1xMHVuY2UxNGJ5QnBOUjdiM0ZGQUMyeHR2VTFpZ3JQc0xuNVdCQVhEcm5hUzNDWktBbFBROWgtdF9UQkxHRWJqQzBvTWtSRjRLTWJtRUQwUzkwZmxwYl9DaTFBVUlPNF8ydVNiZ0V5MXNjMExUZ0xNeHEwNnFYUFpjSWdXUVFIalphcDhn0gG3AUFVX3lxTE9jM05xSnF5anUwQUNqX0g0bGUyRDNaeWRxUXR5WWZNN3JJdFY0VFpzVmFLVnRZbGJOM3Vrc2x0c1RCWlo4UjhON0M5MDhnQWliaDdpQzJBNG96d2dyaFFJTjNnc0dWTlgtMm11cWdBcmJtSFlpRVg4bE1DRG5UcVRZalFZZl9iY2cyekRkRDRIbzFpQ3JYblJpMWFBUkNKR2w3RS1TenBPdWlxckpJRS0tZnNDU0haWQ?oc=5",
-   "when": "2026-11-23T16:56+05:30",
-   "rule": "usfda|warning letter|form 483|import alert",
-   "trusted": false,
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "JMFINANCIL",
-   "title": "Rail container decline contrasts with port growth, JM Financial flags uneven transport outlook",
-   "source": "Maritime Gateway",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVW1PVWtqdktkVzc2Y2l0LUcyN29aRjk5SXhKNjVpamN6aG1icV9BRHVjYWFKNG8xaGNqc1RjMXE0bTJXZkxxakJGQmNNY1VmOFVSai05aHU4elNqM0p0S0xDUWNGWl9jYTg5bmlIeUZGeTNOSFVocERVYTNtRDF0cnRoaVFMRDRlTTA0cGNERkFyZS16Z05WdGdrZEZZWHhjYWNGbmktUjB5NDRwclI0ZHdUSjRsblhPQ0hxellXanJ2bGhx?oc=5",
-   "when": "2026-11-23T08:44+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "JMFINANCIL",
-    "name": "JM Financial",
     "group": "holding"
    }
   }
@@ -756,8 +588,8 @@
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
   "BSE codes taken from bhavcopy 23 Nov",
-  "BSE announcements failed (JSONDecodeError)",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (ReadTimeout)"
+  "BSE announcements failed (ReadTimeout)",
+  "BSE announcements failed (JSONDecodeError)"
  ]
 }
