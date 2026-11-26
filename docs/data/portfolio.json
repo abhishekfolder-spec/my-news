@@ -1,74 +1,74 @@
 {
- "generated": "2026-11-25T15:33+05:30",
- "since": "2026-11-24T09:33+05:30",
+ "generated": "2026-11-26T15:17+05:30",
+ "since": "2026-11-25T09:17+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 6",
+  "NSE": "ok · 13",
   "BSE": "unavailable",
-  "News": "ok · 3"
+  "News": "ok · 7"
  },
- "high": [],
- "medium": [
+ "high": [
   {
-   "nse": "RBZJEWEL",
+   "nse": "ADVENZYMES",
    "exchange": "NSE",
-   "when": "2026-11-24T16:12+05:30",
-   "subject": "Press Release",
-   "detail": "Rbz Jewellers Limited has informed the Exchange regarding a press release dated November 24, 2026, titled \"Opening of New Showroom of the Company at Rajkot - Gujarat \".",
-   "link": "https://nsearchives.nseindia.in/corporate/RBZ_24112026161202_SigedPressRelease.pdf",
-   "text": "Press Release Rbz Jewellers Limited has informed the Exchange regarding a press release dated November 24, 2026, titled \"Opening of New Showroom of the Company at Rajkot - Gujarat \".",
-   "tier": "medium",
-   "rule": "press release|media release",
+   "when": "2026-11-25T20:53+05:30",
+   "subject": "Acquisition",
+   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange about Acquisition",
+   "link": "https://nsearchives.nseindia.in/corporate/AETL_25112026205325_Intimation__4_.pdf",
+   "text": "Acquisition Advanced Enzyme Technologies Limited has informed the Exchange about Acquisition",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
    "exchange_set": [
     "NSE"
    ],
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.in/corporate/RBZ_24112026161202_SigedPressRelease.pdf"
+     "https://nsearchives.nseindia.in/corporate/AETL_25112026205325_Intimation__4_.pdf"
     ]
    ],
    "stock": {
-    "nse": "RBZJEWEL",
-    "name": "RBZ Jewellers",
-    "group": "holding"
-   }
-  }
- ],
- "other": [
-  {
-   "nse": "RBZJEWEL",
-   "exchange": "NSE",
-   "when": "2026-11-24T16:09+05:30",
-   "subject": "General Updates",
-   "detail": "Rbz Jewellers Limited has informed the Exchange about Opening of New Showroom of the Company at Rajkot- Gujarat",
-   "link": "https://nsearchives.nseindia.in/corporate/RBZ_24112026160852_SignedReg30Openingofnew_showroom24112026.pdf",
-   "text": "General Updates Rbz Jewellers Limited has informed the Exchange about Opening of New Showroom of the Company at Rajkot- Gujarat",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/RBZ_24112026160852_SignedReg30Openingofnew_showroom24112026.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "RBZJEWEL",
-    "name": "RBZ Jewellers",
+    "nse": "ADVENZYMES",
+    "name": "Advanced Enzyme Technologies",
     "group": "holding"
    }
   },
   {
-   "nse": "HCG",
+   "nse": "BIRLANU",
    "exchange": "NSE",
-   "when": "2026-11-24T12:47+05:30",
-   "subject": "General Updates",
-   "detail": "Healthcare Global Enterprises Limited has informed the Exchange regarding change in website address of HealthCare Global Enterprises Limited",
-   "link": "https://nsearchives.nseindia.in/corporate/HCG1_24112026124640_Intimation_-_Change_in_Website_Address.pdf",
-   "text": "General Updates Healthcare Global Enterprises Limited has informed the Exchange regarding change in website address of HealthCare Global Enterprises Limited",
+   "when": "2026-11-25T16:36+05:30",
+   "subject": "Acquisition",
+   "detail": "BirlaNu Limited has informed the Exchange about Acquisition",
+   "link": "https://nsearchives.nseindia.in/corporate/sumedha_25112026163632_SE_Intimation_-_Incorporation_of_WOS_25112026_signed.pdf",
+   "text": "Acquisition BirlaNu Limited has informed the Exchange about Acquisition",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/sumedha_25112026163632_SE_Intimation_-_Incorporation_of_WOS_25112026_signed.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BIRLANU",
+    "name": "BirlaNu",
+    "group": "holding"
+   }
+  }
+ ],
+ "medium": [],
+ "other": [
+  {
+   "nse": "JUBLINGREA",
+   "exchange": "NSE",
+   "when": "2026-11-25T19:20+05:30",
+   "subject": "Updates",
+   "detail": "Jubilant Ingrevia Limited has informed the Exchange regarding Company s Response/Clarification to the Proxy Advisory Report issued by Institutional Investor Advisory Services (IIAS)",
+   "link": "https://nsearchives.nseindia.in/corporate/JUBLINGREA_25112026191553_SE_Intimation.pdf",
+   "text": "Updates Jubilant Ingrevia Limited has informed the Exchange regarding Company s Response/Clarification to the Proxy Advisory Report issued by Institutional Investor Advisory Services (IIAS)",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -77,57 +77,188 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.in/corporate/HCG1_24112026124640_Intimation_-_Change_in_Website_Address.pdf"
+     "https://nsearchives.nseindia.in/corporate/JUBLINGREA_25112026191553_SE_Intimation.pdf"
     ]
    ],
    "stock": {
-    "nse": "HCG",
-    "name": "Healthcare Global Enterprises",
+    "nse": "JUBLINGREA",
+    "name": "Jubilant Ingrevia",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BANKINDIA",
+   "exchange": "NSE",
+   "when": "2026-11-25T18:34+05:30",
+   "subject": "General Updates",
+   "detail": "Bank of India has informed the Exchange about Notice of Strike.",
+   "link": "https://nsearchives.nseindia.in/corporate/BANKINDIA6_25112026183435_strike_25112026.pdf",
+   "text": "General Updates Bank of India has informed the Exchange about Notice of Strike.",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/BANKINDIA6_25112026183435_strike_25112026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BIRLANU",
+   "exchange": "NSE",
+   "when": "2026-11-25T18:11+05:30",
+   "subject": "General Updates",
+   "detail": "BirlaNu Limited has informed the Exchange about General Updates",
+   "link": "https://nsearchives.nseindia.in/corporate/sumedha_25112026181118_SEIntimationLettertoshareholders25112026signed.pdf",
+   "text": "General Updates BirlaNu Limited has informed the Exchange about General Updates",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/sumedha_25112026181118_SEIntimationLettertoshareholders25112026signed.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "BIRLANU",
+    "name": "BirlaNu",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "SATIN",
+   "exchange": "NSE",
+   "when": "2026-11-25T17:45+05:30",
+   "subject": "Committee Meeting Updates",
+   "detail": "Working Committee meeting for approval of issuance of Non-Convertible Debentures on Private Placement Basis",
+   "link": "https://nsearchives.nseindia.in/corporate/SATIN_25112026174512_Outcomeofmeeting.pdf",
+   "text": "Committee Meeting Updates Working Committee meeting for approval of issuance of Non-Convertible Debentures on Private Placement Basis",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/SATIN_25112026174512_Outcomeofmeeting.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "SATIN",
+    "name": "Satin Creditcare Network",
     "group": "holding"
    }
   }
  ],
- "dropped": 3,
+ "dropped": 7,
  "news": [
   {
-   "nse": "PARAGMILK",
-   "title": "Parag Milk Foods opens 53,837 sq ft distribution hub in Bhiwandi to support expansion",
-   "source": "ThePrint",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV3BFbFRlSGstcHdqUE8yMkxQNGlJQnZTVnJmRm1JQUFlck9PU3NCcVhzMkpOLWthMEFYdDh5R3V0WW5STnRmazVOMTZDWjNNai1DMVh6V0s1MzhlOUthcW5JeHlzdHRTRHEwbW84TEdMRDNfdEgzTWNlVEp4YXpGU05HSHl4eUhkRWhlUWhXSlJUcmszaEMzUkE3U2JjTmZxOU9fd3VoX0J0XzBwblpMc3ctbGhVcVlQd2txRmp2QWt5cE3SAcMBQVVfeXFMUFdwRWxUZUhrLXB3alBPMjJMUDRpSUJ2U1ZyZkZtSUFBZXJPT1NzQnFYczJKTi1rYTBBWHQ4eUd1dFluUk50Zms1TjE2Q1ozTWotQzFYeldLNTM4ZTlLYXFuSXh5c3R0U0RxMG1vOExHTEQzX3RIM01jZVRKeGF6RlNOR0h5eHlIZEVoZVFoV0pSVHJrM2hDM1JBN1NiY05mcTlPX3d1aF9CdF8wcG5aTHN3LWxoVXFZUHdrcUZqdkFreXBN?oc=5",
-   "when": "2026-11-24T13:17+05:30",
+   "nse": "BSE",
+   "title": "NSE, BSE stock ratings: HSBC initiates coverage; sees strong growth prospects for BSE, limited upside for...",
+   "source": "Moneycontrol.com",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZ0ZaWFFlQlJQbXlMQXhUbDNzaHVGMWRlQWVVSmF2Wnh0aHpjUnlTOFJmLVZEOUFCVndtTGpORURKN0tBYmYtaXluZXA3dGRSTnpjQUZTelJVSE9Jd1Rjdy16YnFXTVdZdmw3RlhWZEFFcl91TzdIRTZkZDZJeEJDdmhRNEd5eExjZWtrdG9EdzNMY2t2RmR1UHRsUVotR25xbzZPYnRFOHhhdTQ4My1DZUNzVGEwcko1WlJCWHJZdGdsaXB1WnBDV2hGZVU5V25sbnQzbUdUVnpxRmNKRy1ZaHR0RGJRbWxpbUg3ajBoSmpldjhvM09NaS16QnBBbUXSAYQCQVVfeXFMTmtNNEJCZW16NldFWnpmanlYM3QxZW14c1NEZ1Bfb1lleTZFcTEwQ0xRYmM2dzV0d01zUktxQ0NyMUFGcGp0VktkVDBNM0RwdEhNN1oyMDVmTkJPcDZ1OGNLSmFNcEp3RWQ3UjJuakJrTWJwWUdyRUhFSFp4UFhfOFJ4NlV4X01QUDVrNVR2dWJlRWtvYnFaVjhYNk9Pb3FrRzVyQWtBaWhxTTk5ZE84Q1l0V2JPaThTNlJvZmVEejlIanVRb1hCS1NncXpMcVI5N1NlbXhNaFpQLUVRa2R3Nk9qMWtSenNJS2hlM1UwM0pOSXRPemdHNXhORE9zeUdFMzR3YUM?oc=5",
+   "when": "2026-11-26T10:01+05:30",
+   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
+   "trusted": true,
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "CDSL",
+   "title": "BSE share price: Jefferies, HDFC Securities divided over outlook; check targets for MCX, CDSL, CAMS and KFin Technologies",
+   "source": "ET Now",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOU1N0cXBqUmJDZkNTN2VEYy12NjdpUi16RVdJRkZmQ2M5VUZXMHNKaGJ2dXB3Y2xBZW5kelJjWXZxMzkxZmhvUE8yM3VvNG5VMm41Umt4eVJyMF8ySXFkbE9zTHMzOFViYU1OVVp2ZGNXSGpvRmhEVzVSS3VvRExSNnVOWVkyQlVRSzNwSkE2Z2VYV2lwVVlyYi16cURsT292RjlURlFBWUFqaTZEZVAyakd3WFNZb0JQNU1DYXhHQmNiZjFMWkdZ0gHMAUFVX3lxTE5fZnBIbnJSa2I1NnlfM2ZxWFVPQjVYRllNRXFrS3NsYzhZeXh1d2lTTTFzVjVyMkdWcW85RnJSNE45VXFGcmFLOHZaU2xVb3N2MFUxS2h0cGh0WmpFUlFnVlBNekxGWENGZzhRcnJuZHY1WVJFWVpYa3BHRGZmT0tEcmQ2SFdTRGlpVWFXajdOZHhYRVNFOUtEYVdSeElyaThIV3JLU3BNUXh2NlZCenBrZ1JGNmJBdm9UaU1ReUViQVpCMjlmN3lhUDNVTw?oc=5",
+   "when": "2026-11-26T07:23+05:30",
    "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
-    "nse": "PARAGMILK",
-    "name": "Parag Milk Foods",
+    "nse": "CDSL",
+    "name": "Central Depository Services",
     "group": "holding"
    }
   },
   {
-   "nse": "UJJIVANSFB",
-   "title": "Ujjivan Small Finance Bank Limited (NSE:UJJIVANSFB) Clarifies Preferential Issue Details to NSE",
+   "nse": "BSE",
+   "title": "BSE share price: Jefferies, HDFC Securities divided over outlook; check targets for MCX, CDSL, CAMS and KFin Technologies",
+   "source": "ET Now",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOU1N0cXBqUmJDZkNTN2VEYy12NjdpUi16RVdJRkZmQ2M5VUZXMHNKaGJ2dXB3Y2xBZW5kelJjWXZxMzkxZmhvUE8yM3VvNG5VMm41Umt4eVJyMF8ySXFkbE9zTHMzOFViYU1OVVp2ZGNXSGpvRmhEVzVSS3VvRExSNnVOWVkyQlVRSzNwSkE2Z2VYV2lwVVlyYi16cURsT292RjlURlFBWUFqaTZEZVAyakd3WFNZb0JQNU1DYXhHQmNiZjFMWkdZ0gHMAUFVX3lxTE5fZnBIbnJSa2I1NnlfM2ZxWFVPQjVYRllNRXFrS3NsYzhZeXh1d2lTTTFzVjVyMkdWcW85RnJSNE45VXFGcmFLOHZaU2xVb3N2MFUxS2h0cGh0WmpFUlFnVlBNekxGWENGZzhRcnJuZHY1WVJFWVpYa3BHRGZmT0tEcmQ2SFdTRGlpVWFXajdOZHhYRVNFOUtEYVdSeElyaThIV3JLU3BNUXh2NlZCenBrZ1JGNmJBdm9UaU1ReUViQVpCMjlmN3lhUDNVTw?oc=5",
+   "when": "2026-11-26T07:23+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "COHANCE",
+   "title": "Cohance Lifesciences receives USFDA EIR with VAI classification for Shamshabad facility",
+   "source": "Indian Pharma Post",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVldfbFY2TWlLYldWREJadlU2elFyaThzdmtfR1hyMTFkdFhMRDFBLUtwSHZOYzVJYXQwWXF4Z3h4RUxoRlBxY1lJemZIT0JFSWFMRGI5MUdUbzlqZ0V1bHBnaHNnU3F3YnUxdzFsWENLcUpuSEpiZi1JWHNOVFRwZjFEZF9FYWRSM05kSmRSWk5Pc2RMU0FjX1E3V1lOZTJRaEI2dXZfZXhMSWFLSjF6ejl5X0FQMWQ0THlrZm5kMHZ4T2RqWC1xU25xWdIB2gFBVV95cUxPVUl2R0dXZXluZXY4eGNVMWV1Y3RLbHl5N2haUEZ1c2xRektzS014WWJ3anloT0J1UFhWU29QcmR0N3FIR3hiOTdhQ0d6SmxjQ3lxOWtjQW5ja1d5Z3pLdUtKWWhYVDM3MTI3MnpFMm1tZWVHMHF6ZXd0djN0aGpmN1JHbjRSRjFJWHVycDJhQmlPX0NUanM0WU5vMmE0OUJseXR1Vl9NbEVBU3FQTTM1YmlCdE5tOVRhYmhFWkI1RG1FTXpIWS05cHFqaFNBT2tTZDZkbG9hVnZMZw?oc=5",
+   "when": "2026-11-26T07:14+05:30",
+   "rule": "usfda|warning letter|form 483|import alert",
+   "trusted": false,
+   "stock": {
+    "nse": "COHANCE",
+    "name": "Cohance Lifesciences",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ADVENZYMES",
+   "title": "Advanced Enzyme Technologies ADVENZYMES JC Biotech Stake Acquisition",
    "source": "Kalkine India",
-   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNRXRrWXVfdC1RUG9mb0NValdwX0wxSjQtZE5SdnJSVlBCQ0pnYkdQbXowM1E0UTV6QnZ3cDJ5d21TcW5ELUZvc1FTaHpaWkszaWxXU2JJazQ0SmcyVlhXMVVlbFYyQ2R5WG91SHdSSFhoZVA3aGxDOFJVVnhkSmROME9RTUwwUUFUeWJmRE4tRTc3WWdNOWVLMDB6NGRjalJhYTlvcWFkaHZVM1hyN1VoLVlELWJqaVZiSUZpZkRWODJaZEFvVW4zVDhLTWd6V1VPXzZyd1llTG54cnJHdmdDNnhidUk0S1ZZTDlfbm12aTg2TGx5R3A0aUFtZC1lZUxIRXZMejRxM3FqZXA5NTdSckR3WVlQQXo4?oc=5",
-   "when": "2026-11-24T13:08+05:30",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVTNiM2N5RS04X0F0SWlwTGVjMmhHVTAyV0pJS1g3MkZIWmx0bDV2UzZQb1BfcDlyN2paN0ZXT1dXRTIwTk0xUDhlM0txcHpXdXJoNUtvLVpLdWVtYVJkcWVKZzNDX0F6Y1dEaVAzby11TjlKdVZRSl9hT3ZIVmNoWF9oTGFNY3Y1ZHhoOFZIZzNlOENiamRhUlBjOGxEdm9ySkNzbGRCNkVxVWtCOU9SMkctRmJSa0tpMUtUc2ZZaEd1RmFCT3Q2WF9lRWpwWnNnM3dZ?oc=5",
+   "when": "2026-11-25T20:53+05:30",
    "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
    "trusted": false,
    "stock": {
-    "nse": "UJJIVANSFB",
-    "name": "Ujjivan Small Finance Bank",
+    "nse": "ADVENZYMES",
+    "name": "Advanced Enzyme Technologies",
     "group": "holding"
    }
   },
   {
-   "nse": "KRSNAA",
-   "title": "Krsnaa Diagnostics KMP Sujoy Bose steps down",
-   "source": "Medical Buyer",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9DOG1CT0NJam9RUmQ4dnVzcE4yTUtTdVBXenk2a3luYXp6enJGcHdBdUZBQy1Dek9SakhWOVN6R3hkOUM2bmRqV21YNzRUemhrQ3MzNWJQRG5NNkpqbUtiNnMza1dyOWxCRDgwdFRpNjNQVURGZExXV2U0Z2U?oc=5",
-   "when": "2026-11-24T07:41+05:30",
-   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
+   "nse": "BANKINDIA",
+   "title": "Bank of India receives strike notice for December 3, 2026",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYkhrLXF1S3VKdU9TU1hnb0FZQW1ybjFoTngwM19vYzVtR19uWWFLckwza1JZZkkzaEwyUk5HZzd4dnh0SXNyRzV4bEppOF9aYXZsT2k3cjBDamJHT2llcmcyYkM3bUV1Vk9hQXFFZ3dZQ0xXVmRTcERENkR5d3pjYVhVelFkX3ZDUlFMdEk4VVRRMEpwa0VfX3pvbTAyQVZacGJCUlc4SDI3dw?oc=5",
+   "when": "2026-11-25T19:43+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
    "trusted": false,
    "stock": {
-    "nse": "KRSNAA",
-    "name": "Krsnaa Diagnostics",
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ITC",
+   "title": "Rs 310 Calls on ITC Ltd. See Heavy Activity — What the Strike Price Tells You",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcUVINmRaeXk5V3dUVS0yZmQzdklZcVlYM2JEV3FaZTFNeEpSaXI0aVRJYmVyRmwxR3hjTnNiYjhBVHR1ZkxjajhUOXRCd2dpYWxnMzhCWE4tVW1pMFJFRE1TaXhselM5clAwU0dpRnVqMjN3Y01wRlFQdWdWQmhROGd5dGdFOGJGbjRxYW5Sa1BjckhZS3J5TjVKLW5CY0lFVnFFQlpfVDFKSVlhNEJpX0lGOFd3OUwxRUVzOWN2bTNaVXVodW0teS11MlpDOERrYUIyYlNmaE1pTFZNN1NtaE1zaFQtQQ?oc=5",
+   "when": "2026-11-25T12:22+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "ITC",
+    "name": "ITC Limited",
     "group": "holding"
    }
   }
@@ -587,9 +718,9 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 23 Nov",
+  "BSE codes taken from bhavcopy 25 Nov",
   "BSE announcements failed (HTTPError)",
-  "BSE announcements failed (ReadTimeout)",
-  "BSE announcements failed (JSONDecodeError)"
+  "BSE announcements failed (JSONDecodeError)",
+  "BSE announcements failed (ReadTimeout)"
  ]
 }
