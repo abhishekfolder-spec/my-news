@@ -1,74 +1,23 @@
 {
- "generated": "2026-11-26T15:17+05:30",
- "since": "2026-11-25T09:17+05:30",
+ "generated": "2026-11-27T15:23+05:30",
+ "since": "2026-11-26T09:23+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 13",
+  "NSE": "ok · 12",
   "BSE": "unavailable",
-  "News": "ok · 7"
+  "News": "ok · 6"
  },
- "high": [
-  {
-   "nse": "ADVENZYMES",
-   "exchange": "NSE",
-   "when": "2026-11-25T20:53+05:30",
-   "subject": "Acquisition",
-   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange about Acquisition",
-   "link": "https://nsearchives.nseindia.in/corporate/AETL_25112026205325_Intimation__4_.pdf",
-   "text": "Acquisition Advanced Enzyme Technologies Limited has informed the Exchange about Acquisition",
-   "tier": "high",
-   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/AETL_25112026205325_Intimation__4_.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "ADVENZYMES",
-    "name": "Advanced Enzyme Technologies",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BIRLANU",
-   "exchange": "NSE",
-   "when": "2026-11-25T16:36+05:30",
-   "subject": "Acquisition",
-   "detail": "BirlaNu Limited has informed the Exchange about Acquisition",
-   "link": "https://nsearchives.nseindia.in/corporate/sumedha_25112026163632_SE_Intimation_-_Incorporation_of_WOS_25112026_signed.pdf",
-   "text": "Acquisition BirlaNu Limited has informed the Exchange about Acquisition",
-   "tier": "high",
-   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/sumedha_25112026163632_SE_Intimation_-_Incorporation_of_WOS_25112026_signed.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "BIRLANU",
-    "name": "BirlaNu",
-    "group": "holding"
-   }
-  }
- ],
+ "high": [],
  "medium": [],
  "other": [
   {
-   "nse": "JUBLINGREA",
+   "nse": "GATEWAY",
    "exchange": "NSE",
-   "when": "2026-11-25T19:20+05:30",
-   "subject": "Updates",
-   "detail": "Jubilant Ingrevia Limited has informed the Exchange regarding Company s Response/Clarification to the Proxy Advisory Report issued by Institutional Investor Advisory Services (IIAS)",
-   "link": "https://nsearchives.nseindia.in/corporate/JUBLINGREA_25112026191553_SE_Intimation.pdf",
-   "text": "Updates Jubilant Ingrevia Limited has informed the Exchange regarding Company s Response/Clarification to the Proxy Advisory Report issued by Institutional Investor Advisory Services (IIAS)",
+   "when": "2026-11-27T15:08+05:30",
+   "subject": "Shareholders meeting",
+   "detail": "Gateway Distriparks Limited has informed the Exchange regarding Notice of Postal Ballot",
+   "link": "https://nsearchives.nseindia.in/corporate/GATEWAY_27112026150810_PB.pdf",
+   "text": "Shareholders meeting Gateway Distriparks Limited has informed the Exchange regarding Notice of Postal Ballot",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -77,23 +26,48 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.in/corporate/JUBLINGREA_25112026191553_SE_Intimation.pdf"
+     "https://nsearchives.nseindia.in/corporate/GATEWAY_27112026150810_PB.pdf"
     ]
    ],
    "stock": {
-    "nse": "JUBLINGREA",
-    "name": "Jubilant Ingrevia",
+    "nse": "GATEWAY",
+    "name": "Gateway Distriparks",
+    "group": "watchlist"
+   }
+  },
+  {
+   "nse": "VOGL",
+   "exchange": "NSE",
+   "when": "2026-11-27T12:19+05:30",
+   "subject": "Action(s) taken or orders passed",
+   "detail": "Vedanta Oil and Gas Limited has informed the Exchange about Action(s) taken or orders passed",
+   "link": "https://nsearchives.nseindia.in/corporate/VOGL1_27112026121658_VOGLSEIntimation_PenaltyOrderCustom.pdf",
+   "text": "Action(s) taken or orders passed Vedanta Oil and Gas Limited has informed the Exchange about Action(s) taken or orders passed",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/VOGL1_27112026121658_VOGLSEIntimation_PenaltyOrderCustom.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "VOGL",
+    "name": "Vedanta Oil and Gas",
     "group": "holding"
    }
   },
   {
-   "nse": "BANKINDIA",
+   "nse": "UGROCAP",
    "exchange": "NSE",
-   "when": "2026-11-25T18:34+05:30",
-   "subject": "General Updates",
-   "detail": "Bank of India has informed the Exchange about Notice of Strike.",
-   "link": "https://nsearchives.nseindia.in/corporate/BANKINDIA6_25112026183435_strike_25112026.pdf",
-   "text": "General Updates Bank of India has informed the Exchange about Notice of Strike.",
+   "when": "2026-11-26T17:07+05:30",
+   "subject": "Allotment of Securities",
+   "detail": "Ugro Capital Limited has informed the Exchange regarding allotment of 300 Commercial Papers",
+   "link": "https://nsearchives.nseindia.in/corporate/UGROCAP_26112026170704_AllotmentofCP.pdf",
+   "text": "Allotment of Securities Ugro Capital Limited has informed the Exchange regarding allotment of 300 Commercial Papers",
    "tier": "other",
    "rule": null,
    "exchange_set": [
@@ -102,68 +76,46 @@
    "links": [
     [
      "NSE",
-     "https://nsearchives.nseindia.in/corporate/BANKINDIA6_25112026183435_strike_25112026.pdf"
+     "https://nsearchives.nseindia.in/corporate/UGROCAP_26112026170704_AllotmentofCP.pdf"
     ]
    ],
    "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BIRLANU",
-   "exchange": "NSE",
-   "when": "2026-11-25T18:11+05:30",
-   "subject": "General Updates",
-   "detail": "BirlaNu Limited has informed the Exchange about General Updates",
-   "link": "https://nsearchives.nseindia.in/corporate/sumedha_25112026181118_SEIntimationLettertoshareholders25112026signed.pdf",
-   "text": "General Updates BirlaNu Limited has informed the Exchange about General Updates",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/sumedha_25112026181118_SEIntimationLettertoshareholders25112026signed.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "BIRLANU",
-    "name": "BirlaNu",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "SATIN",
-   "exchange": "NSE",
-   "when": "2026-11-25T17:45+05:30",
-   "subject": "Committee Meeting Updates",
-   "detail": "Working Committee meeting for approval of issuance of Non-Convertible Debentures on Private Placement Basis",
-   "link": "https://nsearchives.nseindia.in/corporate/SATIN_25112026174512_Outcomeofmeeting.pdf",
-   "text": "Committee Meeting Updates Working Committee meeting for approval of issuance of Non-Convertible Debentures on Private Placement Basis",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/SATIN_25112026174512_Outcomeofmeeting.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "SATIN",
-    "name": "Satin Creditcare Network",
+    "nse": "UGROCAP",
+    "name": "Ugro Capital",
     "group": "holding"
    }
   }
  ],
- "dropped": 7,
+ "dropped": 9,
  "news": [
+  {
+   "nse": "BSE",
+   "title": "BSE Ltd Technical Momentum Shifts Signal Bullish Outlook Amid Strong Returns",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeEFrTlRJRm9Vdzd5ZUJRQzdGUTF6bDQyc0N5Q2VrWjUwOVhoam5nd0kzSkFBWkRZRWJXTmZOMVBrSkdDQUZ6RzFLbFBwZlNuTUNfekVvMmN5eUkxdjBPalZBWHFqRGtBM01wOHJmS2RUQ2FlMzNUZ1p3aDNXWlpfVnJnREM0aTU0c2xZMTBaeXRheERyWlBneVdEWWstNmxrWWUwV3F2QkxTbWhEdmxFNmxTS2ItWHY2NTdfcW85Q2JJeUFudjZaLTBzMVQ0V1U?oc=5",
+   "when": "2026-11-27T00:14+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BSE",
+   "title": "5,032 Call Contracts at Rs 4,000 Strike on BSE Ltd Signal Speculative Upside Ahead of December Expiry",
+   "source": "MarketsMojo",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaDZScUFrZ05RMG9KXzV6ODIyaDFDZXVoSktjcWxJd284UTA1U3FrdjMzQ2lkRVRfY2o5NUp3N2dXZkExNk1BLWlfcExNSHNIS3hpaDdXMlpMZi1fRVVwdDFhbWdDbFN1QWxENnFVUEZnT3FWcldhWUp2V1VpYXZQUlBELTdFMFR1NjZDajFVTm9aOXpLQjRVX0FaUXlQemV6M0hCZGg1OHJEaTZ1aUpGVU1OTkdxMUxLWjc2SHgya3JLZ0N4YW1F?oc=5",
+   "when": "2026-11-26T21:28+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "BSE",
+    "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
   {
    "nse": "BSE",
    "title": "NSE, BSE stock ratings: HSBC initiates coverage; sees strong growth prospects for BSE, limited upside for...",
@@ -175,6 +127,20 @@
    "stock": {
     "nse": "BSE",
     "name": "BSE Limited",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "BANKINDIA",
+   "title": "Bank of India Warns of Possible Disruption From Dec. 3 Bank Strike",
+   "source": "www.marketscreener.com",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLXRWbV8xMm1QbDE5c09ZNzRmclFLVWZRRmFuTFJiUUlwNmZLX1hDWTB0MTdoOGR6SnRkNml5SVFLXzBPVXlqY3ZkSk9jY0FaN05RLWR3bmxYR0czTmwzQmhzWFIxWFZ4X3B3dFJCVkI0eE1FNmVxM3FORUdOUDNhbWFuc2ZIc090UVY3QnNfYTd2bi0tTTdvSEZTZUVaZkRYTEQ3cW93eHR6Z3l5RTlCUFMwYWVzbjFsX0E?oc=5",
+   "when": "2026-11-26T07:45+05:30",
+   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "trusted": false,
+   "stock": {
+    "nse": "BANKINDIA",
+    "name": "Bank of India",
     "group": "holding"
    }
   },
@@ -193,20 +159,6 @@
    }
   },
   {
-   "nse": "BSE",
-   "title": "BSE share price: Jefferies, HDFC Securities divided over outlook; check targets for MCX, CDSL, CAMS and KFin Technologies",
-   "source": "ET Now",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOU1N0cXBqUmJDZkNTN2VEYy12NjdpUi16RVdJRkZmQ2M5VUZXMHNKaGJ2dXB3Y2xBZW5kelJjWXZxMzkxZmhvUE8yM3VvNG5VMm41Umt4eVJyMF8ySXFkbE9zTHMzOFViYU1OVVp2ZGNXSGpvRmhEVzVSS3VvRExSNnVOWVkyQlVRSzNwSkE2Z2VYV2lwVVlyYi16cURsT292RjlURlFBWUFqaTZEZVAyakd3WFNZb0JQNU1DYXhHQmNiZjFMWkdZ0gHMAUFVX3lxTE5fZnBIbnJSa2I1NnlfM2ZxWFVPQjVYRllNRXFrS3NsYzhZeXh1d2lTTTFzVjVyMkdWcW85RnJSNE45VXFGcmFLOHZaU2xVb3N2MFUxS2h0cGh0WmpFUlFnVlBNekxGWENGZzhRcnJuZHY1WVJFWVpYa3BHRGZmT0tEcmQ2SFdTRGlpVWFXajdOZHhYRVNFOUtEYVdSeElyaThIV3JLU3BNUXh2NlZCenBrZ1JGNmJBdm9UaU1ReUViQVpCMjlmN3lhUDNVTw?oc=5",
-   "when": "2026-11-26T07:23+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
-    "group": "holding"
-   }
-  },
-  {
    "nse": "COHANCE",
    "title": "Cohance Lifesciences receives USFDA EIR with VAI classification for Shamshabad facility",
    "source": "Indian Pharma Post",
@@ -217,48 +169,6 @@
    "stock": {
     "nse": "COHANCE",
     "name": "Cohance Lifesciences",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ADVENZYMES",
-   "title": "Advanced Enzyme Technologies ADVENZYMES JC Biotech Stake Acquisition",
-   "source": "Kalkine India",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVTNiM2N5RS04X0F0SWlwTGVjMmhHVTAyV0pJS1g3MkZIWmx0bDV2UzZQb1BfcDlyN2paN0ZXT1dXRTIwTk0xUDhlM0txcHpXdXJoNUtvLVpLdWVtYVJkcWVKZzNDX0F6Y1dEaVAzby11TjlKdVZRSl9hT3ZIVmNoWF9oTGFNY3Y1ZHhoOFZIZzNlOENiamRhUlBjOGxEdm9ySkNzbGRCNkVxVWtCOU9SMkctRmJSa0tpMUtUc2ZZaEd1RmFCT3Q2WF9lRWpwWnNnM3dZ?oc=5",
-   "when": "2026-11-25T20:53+05:30",
-   "rule": "acqui|merger|demerger|stake sale|stake buy|block deal|bulk deal|open offer|ofs|qip|fund ?rais|preferential",
-   "trusted": false,
-   "stock": {
-    "nse": "ADVENZYMES",
-    "name": "Advanced Enzyme Technologies",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BANKINDIA",
-   "title": "Bank of India receives strike notice for December 3, 2026",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYkhrLXF1S3VKdU9TU1hnb0FZQW1ybjFoTngwM19vYzVtR19uWWFLckwza1JZZkkzaEwyUk5HZzd4dnh0SXNyRzV4bEppOF9aYXZsT2k3cjBDamJHT2llcmcyYkM3bUV1Vk9hQXFFZ3dZQ0xXVmRTcERENkR5d3pjYVhVelFkX3ZDUlFMdEk4VVRRMEpwa0VfX3pvbTAyQVZacGJCUlc4SDI3dw?oc=5",
-   "when": "2026-11-25T19:43+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "ITC",
-   "title": "Rs 310 Calls on ITC Ltd. See Heavy Activity — What the Strike Price Tells You",
-   "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcUVINmRaeXk5V3dUVS0yZmQzdklZcVlYM2JEV3FaZTFNeEpSaXI0aVRJYmVyRmwxR3hjTnNiYjhBVHR1ZkxjajhUOXRCd2dpYWxnMzhCWE4tVW1pMFJFRE1TaXhselM5clAwU0dpRnVqMjN3Y01wRlFQdWdWQmhROGd5dGdFOGJGbjRxYW5Sa1BjckhZS3J5TjVKLW5CY0lFVnFFQlpfVDFKSVlhNEJpX0lGOFd3OUwxRUVzOWN2bTNaVXVodW0teS11MlpDOERrYUIyYlNmaE1pTFZNN1NtaE1zaFQtQQ?oc=5",
-   "when": "2026-11-25T12:22+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "ITC",
-    "name": "ITC Limited",
     "group": "holding"
    }
   }
@@ -718,9 +628,9 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 25 Nov",
+  "BSE codes taken from bhavcopy 26 Nov",
   "BSE announcements failed (HTTPError)",
   "BSE announcements failed (JSONDecodeError)",
-  "BSE announcements failed (ReadTimeout)"
+  "Google News: 1 of 54 searches failed, 6 empty (HTTPError 522)"
  ]
 }
