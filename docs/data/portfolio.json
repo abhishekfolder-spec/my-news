@@ -1,15 +1,142 @@
 {
- "generated": "2026-11-27T15:23+05:30",
- "since": "2026-11-26T09:23+05:30",
+ "generated": "2026-11-28T14:35+05:30",
+ "since": "2026-11-27T08:35+05:30",
  "stock_count": 45,
  "health": {
-  "NSE": "ok · 12",
+  "NSE": "ok · 15",
   "BSE": "unavailable",
-  "News": "ok · 6"
+  "News": "ok · 1"
  },
- "high": [],
- "medium": [],
+ "high": [
+  {
+   "nse": "UJJIVANSFB",
+   "exchange": "NSE",
+   "when": "2026-11-27T20:35+05:30",
+   "subject": "General Updates",
+   "detail": "Ujjivan Small Finance Bank Limited has informed the Exchange about RBI Approval for extension of term of Interim CEO",
+   "link": "https://nsearchives.nseindia.in/corporate/UJJIVANBANK_27112026203533_123_Intimation_RBI_approval_extension_of_Interim_CEO_27112026.pdf",
+   "text": "General Updates Ujjivan Small Finance Bank Limited has informed the Exchange about RBI Approval for extension of term of Interim CEO",
+   "tier": "high",
+   "rule": "rbi|reserve bank|sebi order|show cause|penalty|adjudicat|cerc|cert-?in",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/UJJIVANBANK_27112026203533_123_Intimation_RBI_approval_extension_of_Interim_CEO_27112026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "UJJIVANSFB",
+    "name": "Ujjivan Small Finance Bank",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "ADVENZYMES",
+   "exchange": "NSE",
+   "when": "2026-11-27T20:23+05:30",
+   "subject": "Acquisition",
+   "detail": "Advanced Enzyme Technologies Limited has informed the Exchange about Acquisition",
+   "link": "https://nsearchives.nseindia.in/corporate/AETL_27112026202307_Intimation__3_.pdf",
+   "text": "Acquisition Advanced Enzyme Technologies Limited has informed the Exchange about Acquisition",
+   "tier": "high",
+   "rule": "acquisition|amalgamation|merger|demerger|scheme of arrangement|divest|slump sale|joint venture|stake sale",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/AETL_27112026202307_Intimation__3_.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "ADVENZYMES",
+    "name": "Advanced Enzyme Technologies",
+    "group": "holding"
+   }
+  }
+ ],
+ "medium": [
+  {
+   "nse": "GAIL",
+   "exchange": "NSE",
+   "when": "2026-11-27T21:49+05:30",
+   "subject": "Press Release",
+   "detail": "GAIL (India) Limited has informed the Exchange regarding a press release dated November 27, 2026, titled \"Press Release on Signing of MoU between GAIL (India) Limited & Gujarat Narmada Valley Fertilizers & Chemicals Limited \".",
+   "link": "https://nsearchives.nseindia.in/corporate/GAIL_27112026214849_PR27112026.pdf",
+   "text": "Press Release GAIL (India) Limited has informed the Exchange regarding a press release dated November 27, 2026, titled \"Press Release on Signing of MoU between GAIL (India) Limited & Gujarat Narmada Valley Fertilizers & Chemicals Limited \".",
+   "tier": "medium",
+   "rule": "press release|media release",
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/GAIL_27112026214849_PR27112026.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "GAIL",
+    "name": "GAIL (India)",
+    "group": "holding"
+   }
+  }
+ ],
  "other": [
+  {
+   "nse": "GAIL",
+   "exchange": "NSE",
+   "when": "2026-11-28T13:41+05:30",
+   "subject": "General Updates",
+   "detail": "GAIL (India) Limited has informed the Exchange about Receipt of Communication from Regulatory, Statutory, Enforcement or Judicial authority",
+   "link": "https://nsearchives.nseindia.in/corporate/DEVIKA_28112026134037_Fine_letter.pdf",
+   "text": "General Updates GAIL (India) Limited has informed the Exchange about Receipt of Communication from Regulatory, Statutory, Enforcement or Judicial authority",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/DEVIKA_28112026134037_Fine_letter.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "GAIL",
+    "name": "GAIL (India)",
+    "group": "holding"
+   }
+  },
+  {
+   "nse": "GAIL",
+   "exchange": "NSE",
+   "when": "2026-11-27T17:44+05:30",
+   "subject": "General Updates",
+   "detail": "GAIL (India) Limited has informed the Exchange about General Updates",
+   "link": "https://nsearchives.nseindia.in/corporate/GAIL_27112026174423_WaiverIntimation.pdf",
+   "text": "General Updates GAIL (India) Limited has informed the Exchange about General Updates",
+   "tier": "other",
+   "rule": null,
+   "exchange_set": [
+    "NSE"
+   ],
+   "links": [
+    [
+     "NSE",
+     "https://nsearchives.nseindia.in/corporate/GAIL_27112026174423_WaiverIntimation.pdf"
+    ]
+   ],
+   "stock": {
+    "nse": "GAIL",
+    "name": "GAIL (India)",
+    "group": "holding"
+   }
+  },
   {
    "nse": "GATEWAY",
    "exchange": "NSE",
@@ -59,117 +186,22 @@
     "name": "Vedanta Oil and Gas",
     "group": "holding"
    }
-  },
-  {
-   "nse": "UGROCAP",
-   "exchange": "NSE",
-   "when": "2026-11-26T17:07+05:30",
-   "subject": "Allotment of Securities",
-   "detail": "Ugro Capital Limited has informed the Exchange regarding allotment of 300 Commercial Papers",
-   "link": "https://nsearchives.nseindia.in/corporate/UGROCAP_26112026170704_AllotmentofCP.pdf",
-   "text": "Allotment of Securities Ugro Capital Limited has informed the Exchange regarding allotment of 300 Commercial Papers",
-   "tier": "other",
-   "rule": null,
-   "exchange_set": [
-    "NSE"
-   ],
-   "links": [
-    [
-     "NSE",
-     "https://nsearchives.nseindia.in/corporate/UGROCAP_26112026170704_AllotmentofCP.pdf"
-    ]
-   ],
-   "stock": {
-    "nse": "UGROCAP",
-    "name": "Ugro Capital",
-    "group": "holding"
-   }
   }
  ],
- "dropped": 9,
+ "dropped": 8,
  "news": [
   {
-   "nse": "BSE",
-   "title": "BSE Ltd Technical Momentum Shifts Signal Bullish Outlook Amid Strong Returns",
-   "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeEFrTlRJRm9Vdzd5ZUJRQzdGUTF6bDQyc0N5Q2VrWjUwOVhoam5nd0kzSkFBWkRZRWJXTmZOMVBrSkdDQUZ6RzFLbFBwZlNuTUNfekVvMmN5eUkxdjBPalZBWHFqRGtBM01wOHJmS2RUQ2FlMzNUZ1p3aDNXWlpfVnJnREM0aTU0c2xZMTBaeXRheERyWlBneVdEWWstNmxrWWUwV3F2QkxTbWhEdmxFNmxTS2ItWHY2NTdfcW85Q2JJeUFudjZaLTBzMVQ0V1U?oc=5",
-   "when": "2026-11-27T00:14+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
+   "nse": "GATEWAY",
+   "title": "Gateway Distriparks seeks shareholder approval for Samvid Gupta re-appointment",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM1FkQXhUcm5EWDFOUTBXV09vMTE2YmZDdmI1Mk5BYkpsSGQyUVpONDFvZmZtVjJZTGQ0UngzWjVjVFRHVG5yUWhFZTBkQ1lzWXBDYTdXWFdqMFUwNnhQdko5SlRFUzc4RUQ0R3RVSnFXdnNYNzlMRXVHRTNLMnAtZDRtckZLTHFDczZGM21wSTQxT0t5WlYxZUdHUjRxT0h1NzdfOXpkdnVFUHdMeUpZLVdKOGhWOTZvbWhn?oc=5",
+   "when": "2026-11-27T15:29+05:30",
+   "rule": "fraud|forensic|whistleblower|default|resign|steps down|quits|exit of|appoint",
    "trusted": false,
    "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BSE",
-   "title": "5,032 Call Contracts at Rs 4,000 Strike on BSE Ltd Signal Speculative Upside Ahead of December Expiry",
-   "source": "MarketsMojo",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaDZScUFrZ05RMG9KXzV6ODIyaDFDZXVoSktjcWxJd284UTA1U3FrdjMzQ2lkRVRfY2o5NUp3N2dXZkExNk1BLWlfcExNSHNIS3hpaDdXMlpMZi1fRVVwdDFhbWdDbFN1QWxENnFVUEZnT3FWcldhWUp2V1VpYXZQUlBELTdFMFR1NjZDajFVTm9aOXpLQjRVX0FaUXlQemV6M0hCZGg1OHJEaTZ1aUpGVU1OTkdxMUxLWjc2SHgya3JLZ0N4YW1F?oc=5",
-   "when": "2026-11-26T21:28+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BSE",
-   "title": "NSE, BSE stock ratings: HSBC initiates coverage; sees strong growth prospects for BSE, limited upside for...",
-   "source": "Moneycontrol.com",
-   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZ0ZaWFFlQlJQbXlMQXhUbDNzaHVGMWRlQWVVSmF2Wnh0aHpjUnlTOFJmLVZEOUFCVndtTGpORURKN0tBYmYtaXluZXA3dGRSTnpjQUZTelJVSE9Jd1Rjdy16YnFXTVdZdmw3RlhWZEFFcl91TzdIRTZkZDZJeEJDdmhRNEd5eExjZWtrdG9EdzNMY2t2RmR1UHRsUVotR25xbzZPYnRFOHhhdTQ4My1DZUNzVGEwcko1WlJCWHJZdGdsaXB1WnBDV2hGZVU5V25sbnQzbUdUVnpxRmNKRy1ZaHR0RGJRbWxpbUg3ajBoSmpldjhvM09NaS16QnBBbUXSAYQCQVVfeXFMTmtNNEJCZW16NldFWnpmanlYM3QxZW14c1NEZ1Bfb1lleTZFcTEwQ0xRYmM2dzV0d01zUktxQ0NyMUFGcGp0VktkVDBNM0RwdEhNN1oyMDVmTkJPcDZ1OGNLSmFNcEp3RWQ3UjJuakJrTWJwWUdyRUhFSFp4UFhfOFJ4NlV4X01QUDVrNVR2dWJlRWtvYnFaVjhYNk9Pb3FrRzVyQWtBaWhxTTk5ZE84Q1l0V2JPaThTNlJvZmVEejlIanVRb1hCS1NncXpMcVI5N1NlbXhNaFpQLUVRa2R3Nk9qMWtSenNJS2hlM1UwM0pOSXRPemdHNXhORE9zeUdFMzR3YUM?oc=5",
-   "when": "2026-11-26T10:01+05:30",
-   "rule": "downgrad|upgrad|rating|crisil|icra|care ratings|india ratings|moody|fitch",
-   "trusted": true,
-   "stock": {
-    "nse": "BSE",
-    "name": "BSE Limited",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "BANKINDIA",
-   "title": "Bank of India Warns of Possible Disruption From Dec. 3 Bank Strike",
-   "source": "www.marketscreener.com",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLXRWbV8xMm1QbDE5c09ZNzRmclFLVWZRRmFuTFJiUUlwNmZLX1hDWTB0MTdoOGR6SnRkNml5SVFLXzBPVXlqY3ZkSk9jY0FaN05RLWR3bmxYR0czTmwzQmhzWFIxWFZ4X3B3dFJCVkI0eE1FNmVxM3FORUdOUDNhbWFuc2ZIc090UVY3QnNfYTd2bi0tTTdvSEZTZUVaZkRYTEQ3cW93eHR6Z3l5RTlCUFMwYWVzbjFsX0E?oc=5",
-   "when": "2026-11-26T07:45+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "BANKINDIA",
-    "name": "Bank of India",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "CDSL",
-   "title": "BSE share price: Jefferies, HDFC Securities divided over outlook; check targets for MCX, CDSL, CAMS and KFin Technologies",
-   "source": "ET Now",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOU1N0cXBqUmJDZkNTN2VEYy12NjdpUi16RVdJRkZmQ2M5VUZXMHNKaGJ2dXB3Y2xBZW5kelJjWXZxMzkxZmhvUE8yM3VvNG5VMm41Umt4eVJyMF8ySXFkbE9zTHMzOFViYU1OVVp2ZGNXSGpvRmhEVzVSS3VvRExSNnVOWVkyQlVRSzNwSkE2Z2VYV2lwVVlyYi16cURsT292RjlURlFBWUFqaTZEZVAyakd3WFNZb0JQNU1DYXhHQmNiZjFMWkdZ0gHMAUFVX3lxTE5fZnBIbnJSa2I1NnlfM2ZxWFVPQjVYRllNRXFrS3NsYzhZeXh1d2lTTTFzVjVyMkdWcW85RnJSNE45VXFGcmFLOHZaU2xVb3N2MFUxS2h0cGh0WmpFUlFnVlBNekxGWENGZzhRcnJuZHY1WVJFWVpYa3BHRGZmT0tEcmQ2SFdTRGlpVWFXajdOZHhYRVNFOUtEYVdSeElyaThIV3JLU3BNUXh2NlZCenBrZ1JGNmJBdm9UaU1ReUViQVpCMjlmN3lhUDNVTw?oc=5",
-   "when": "2026-11-26T07:23+05:30",
-   "rule": "guidance|outlook|plant|capacity|expansion|shutdown|fire|strike|recall",
-   "trusted": false,
-   "stock": {
-    "nse": "CDSL",
-    "name": "Central Depository Services",
-    "group": "holding"
-   }
-  },
-  {
-   "nse": "COHANCE",
-   "title": "Cohance Lifesciences receives USFDA EIR with VAI classification for Shamshabad facility",
-   "source": "Indian Pharma Post",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVldfbFY2TWlLYldWREJadlU2elFyaThzdmtfR1hyMTFkdFhMRDFBLUtwSHZOYzVJYXQwWXF4Z3h4RUxoRlBxY1lJemZIT0JFSWFMRGI5MUdUbzlqZ0V1bHBnaHNnU3F3YnUxdzFsWENLcUpuSEpiZi1JWHNOVFRwZjFEZF9FYWRSM05kSmRSWk5Pc2RMU0FjX1E3V1lOZTJRaEI2dXZfZXhMSWFLSjF6ejl5X0FQMWQ0THlrZm5kMHZ4T2RqWC1xU25xWdIB2gFBVV95cUxPVUl2R0dXZXluZXY4eGNVMWV1Y3RLbHl5N2haUEZ1c2xRektzS014WWJ3anloT0J1UFhWU29QcmR0N3FIR3hiOTdhQ0d6SmxjQ3lxOWtjQW5ja1d5Z3pLdUtKWWhYVDM3MTI3MnpFMm1tZWVHMHF6ZXd0djN0aGpmN1JHbjRSRjFJWHVycDJhQmlPX0NUanM0WU5vMmE0OUJseXR1Vl9NbEVBU3FQTTM1YmlCdE5tOVRhYmhFWkI1RG1FTXpIWS05cHFqaFNBT2tTZDZkbG9hVnZMZw?oc=5",
-   "when": "2026-11-26T07:14+05:30",
-   "rule": "usfda|warning letter|form 483|import alert",
-   "trusted": false,
-   "stock": {
-    "nse": "COHANCE",
-    "name": "Cohance Lifesciences",
-    "group": "holding"
+    "nse": "GATEWAY",
+    "name": "Gateway Distriparks",
+    "group": "watchlist"
    }
   }
  ],
@@ -628,9 +660,9 @@
  "backtest_days": null,
  "diagnostics": [
   "BSE scrip list unavailable (HTTPError)",
-  "BSE codes taken from bhavcopy 26 Nov",
-  "BSE announcements failed (HTTPError)",
+  "BSE codes taken from bhavcopy 27 Nov",
   "BSE announcements failed (JSONDecodeError)",
-  "Google News: 1 of 54 searches failed, 6 empty (HTTPError 522)"
+  "BSE announcements failed (HTTPError)",
+  "BSE announcements failed (ReadTimeout)"
  ]
 }
